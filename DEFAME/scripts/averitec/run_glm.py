@@ -105,7 +105,7 @@ def main():
     print(f"Loaded {len(samples)} claims (indices {args.start}–{args.start + len(samples) - 1})")
 
     # --- Output directory ---
-    out_dir = Path("out/averitec/infact/glm_5.2")
+    out_dir = Path("out/averitec/infact/gemini_35_flash")
     out_dir.mkdir(parents=True, exist_ok=True)
     csv_path  = out_dir / "predictions.csv"
     json_path = out_dir / "averitec_out.json"
@@ -125,11 +125,19 @@ def main():
         with open(csv_path, "r", newline="", encoding="utf-8") as f:
             existing_rows = list(csv.DictReader(f))
 
+    # --- Build model explicitly to pass reasoning_effort ---
+    # We instantiate the model here (not inside FactChecker) so we can control reasoning_effort.
+    # "high" = extended thinking but not maximum; faster than "xhigh" while still reasoning.
+    # The baseline uses xhigh because it has no evidence and must rely purely on internal knowledge.
+    # Here, InFact retrieves evidence externally, so "high" is sufficient.
+    from infact.common.modeling import make_model
+    llm = make_model("gemini_35_flash", reasoning_effort="high")
+
     # --- Build FactChecker ---
     # search_engines={"duckduckgo": {}} — no local KB needed, free, no API key required.
     # Switch to {"google": {}} + serper_api_key in api_keys.yaml for higher quality / quota.
     fc = FactChecker(
-        llm="glm_5.2",                         # shorthand registered in available_models.csv
+        llm=llm,                               # pass model object directly (already instantiated)
         search_engines={"duckduckgo": {}},
         procedure_variant="infact",
         max_iterations=3,

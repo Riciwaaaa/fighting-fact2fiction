@@ -78,13 +78,14 @@ class OpenAIAPI:
 class OpenRouterAPI:
     """OpenAI-compatible wrapper for OpenRouter.
 
-    Why extra_body with reasoning_effort=xhigh? GLM-5.2 supports extended thinking mode
-    via OpenRouter. Setting xhigh activates maximum reasoning depth, consistent with our
-    baseline experiment. include_reasoning=True returns the think trace (ignored here but
-    logged at the raw API level).
+    reasoning_effort controls the model's thinking budget:
+    - "high" / "xhigh": extended thinking, slower but deeper (use for baseline pure-CoT)
+    - "low" / "medium": faster, suitable when evidence is already retrieved (use for InFact)
+    include_reasoning=True returns the think trace alongside the final answer.
     """
-    def __init__(self, model: str):
+    def __init__(self, model: str, reasoning_effort: str = "high"):
         self.model = model
+        self.reasoning_effort = reasoning_effort
         if not api_keys.get("openrouter_api_key"):
             raise ValueError("No OpenRouter API key in config/api_keys.yaml")
         self.client = OpenAI(
@@ -99,7 +100,7 @@ class OpenRouterAPI:
         completion = self.client.chat.completions.create(
             model=self.model,
             messages=[{"role": "user", "content": prompt}],
-            extra_body={"include_reasoning": True, "reasoning_effort": "xhigh"},
+            extra_body={"include_reasoning": True, "reasoning_effort": self.reasoning_effort},
             **kwargs
         )
         return completion.choices[0].message.content
@@ -261,12 +262,20 @@ class GPTModel(Model):
 
 
 class OpenRouterModel(GPTModel):
-    """Wraps any OpenRouter-hosted model. Uses cl100k_base tokenizer for context tracking
-    (approximate — GLM's tokenizer is unavailable locally, but the error is small enough
-    for prompt-length checks)."""
+    """Wraps any OpenRouter-hosted reasoning model.
+
+    Pass reasoning_effort to make_model() to control thinking depth:
+        make_model("gemini_35_flash", reasoning_effort="high")
+    Uses cl100k_base tokenizer for context-length checks (approximate).
+    """
+
+    def __init__(self, specifier: str, reasoning_effort: str = "high", **kwargs):
+        # Store before super().__init__() because that calls self.load() internally
+        self._reasoning_effort = reasoning_effort
+        super().__init__(specifier, **kwargs)
 
     def load(self, model_name: str) -> OpenRouterAPI:
-        return OpenRouterAPI(model=model_name)
+        return OpenRouterAPI(model=model_name, reasoning_effort=self._reasoning_effort)
 
     def _generate(self, prompt, temperature, top_p, top_k, system_prompt=None) -> str:
         # Temperature/top_p are stripped inside OpenRouterAPI.__call__ for reasoning models
