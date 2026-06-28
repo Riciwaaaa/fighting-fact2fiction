@@ -1,0 +1,18 @@
+# Core pipeline
+langgraph>=0.2
+langchain>=0.2          # LangGraph depends on this; also gives CallbackHandler support
+langchain-openai>=0.1   # OpenAI-compatible client (used for OpenRouter)
+openai>=1.0             # underlying HTTP client
+
+# Tracing
+langfuse>=2.0
+
+# Utilities
+python-dotenv           # loads .env into os.environ
+pandas                  # CSV convenience in result_store.py
+
+# Evaluation script dependencies (evaluate_veracity_baseline.py)
+scikit-learn
+numpy
+scipy
+nltk
