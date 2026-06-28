@@ -64,43 +64,31 @@ class OpenAIAPI:
             raise ValueError("No OpenAI API key provided. Add it to config/api_keys.yaml")
         self.client = OpenAI(api_key=api_keys["openai_api_key"])
 
+
+class OpenRouterAPI:
+    def __init__(self, model: str):
+        self.model = model
+        if not api_keys.get("openrouter_api_key"):
+            raise ValueError("No OpenRouter API key provided. Add it to config/api_keys.yaml")
+        self.client = OpenAI(
+            api_key=api_keys["openrouter_api_key"],
+            base_url="https://openrouter.ai/api/v1",
+        )
+
+    def __call__(self, prompt: str, **kwargs):
+        completion = self.client.chat.completions.create(
+            model=self.model,
+            messages=[{"role": "user", "content": prompt}],
+            **kwargs
+        )
+        return completion.choices[0].message.content
+
     def __call__(self, prompt: str, **kwargs):
         completion = self.client.chat.completions.create(
             model=self.model,
             messages=[
                 {"role": "user", "content": prompt}
             ],
-            **kwargs
-        )
-        return completion.choices[0].message.content
-
-
-class OpenRouterAPI:
-    """OpenAI-compatible wrapper for OpenRouter.
-
-    reasoning_effort controls the model's thinking budget:
-    - "high" / "xhigh": extended thinking, slower but deeper (use for baseline pure-CoT)
-    - "low" / "medium": faster, suitable when evidence is already retrieved (use for InFact)
-    include_reasoning=True returns the think trace alongside the final answer.
-    """
-    def __init__(self, model: str, reasoning_effort: str = "high"):
-        self.model = model
-        self.reasoning_effort = reasoning_effort
-        if not api_keys.get("openrouter_api_key"):
-            raise ValueError("No OpenRouter API key in config/api_keys.yaml")
-        self.client = OpenAI(
-            base_url="https://openrouter.ai/api/v1",
-            api_key=api_keys["openrouter_api_key"],
-        )
-
-    def __call__(self, prompt: str, **kwargs):
-        # Strip temperature/top_p — reasoning models control sampling internally
-        kwargs.pop("temperature", None)
-        kwargs.pop("top_p", None)
-        completion = self.client.chat.completions.create(
-            model=self.model,
-            messages=[{"role": "user", "content": prompt}],
-            extra_body={"include_reasoning": True, "reasoning_effort": self.reasoning_effort},
             **kwargs
         )
         return completion.choices[0].message.content
@@ -261,31 +249,6 @@ class GPTModel(Model):
         return len(self.encoding.encode(str(prompt)))
 
 
-class OpenRouterModel(GPTModel):
-    """Wraps any OpenRouter-hosted reasoning model.
-
-    Pass reasoning_effort to make_model() to control thinking depth:
-        make_model("gemini_35_flash", reasoning_effort="high")
-    Uses cl100k_base tokenizer for context-length checks (approximate).
-    """
-
-    def __init__(self, specifier: str, reasoning_effort: str = "high", **kwargs):
-        # Store before super().__init__() because that calls self.load() internally
-        self._reasoning_effort = reasoning_effort
-        super().__init__(specifier, **kwargs)
-
-    def load(self, model_name: str) -> OpenRouterAPI:
-        return OpenRouterAPI(model=model_name, reasoning_effort=self._reasoning_effort)
-
-    def _generate(self, prompt, temperature, top_p, top_k, system_prompt=None) -> str:
-        # Temperature/top_p are stripped inside OpenRouterAPI.__call__ for reasoning models
-        try:
-            return self.api(str(prompt))
-        except Exception as e:
-            self.logger.warning(str(e))
-        return ""
-
-
 class HuggingFaceModel(Model, ABC):
     open_source = True
     api: Pipeline
@@ -437,6 +400,43 @@ class LlavaModel(HuggingFaceModel):
         return response
 
 
+class OpenRouterModel(Model):
+    open_source = False
+    encoding = tiktoken.get_encoding("cl100k_base")
+
+    def __init__(self, specifier: str, thinking_effort: str = None, **kwargs):
+        self._thinking_effort = thinking_effort
+        super().__init__(specifier, **kwargs)
+
+    def load(self, model_name: str) -> OpenRouterAPI:
+        return OpenRouterAPI(model=model_name)
+
+    def _generate(self, prompt: Prompt, temperature: float, top_p: float, top_k: int,
+                  system_prompt: str = None) -> str:
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        messages.append({"role": "user", "content": str(prompt)})
+
+        kwargs = dict(temperature=temperature, top_p=top_p)
+        if self._thinking_effort:
+            kwargs["extra_body"] = {"reasoning": {"effort": self._thinking_effort}}
+
+        try:
+            completion = self.api.client.chat.completions.create(
+                model=self.api.model,
+                messages=messages,
+                **kwargs
+            )
+            return completion.choices[0].message.content
+        except Exception as e:
+            self.logger.warning(str(e))
+        return ""
+
+    def count_tokens(self, prompt: Prompt | str) -> int:
+        return len(self.encoding.encode(str(prompt)))
+
+
 def make_model(name: str, **kwargs) -> Model:
     """Factory function to load an (M)LLM. Use this instead of class instantiation."""
     if name in AVAILABLE_MODELS["Shorthand"].to_list():
@@ -449,13 +449,13 @@ def make_model(name: str, **kwargs) -> Model:
     match api_name:
         case "openai":
             return GPTModel(specifier, **kwargs)
-        case "openrouter":
-            return OpenRouterModel(specifier, **kwargs)
         case "huggingface":
             if "llama" in model_name:
                 return LlamaModel(specifier, **kwargs)
             elif "llava" in model_name:
                 return LlavaModel(specifier, **kwargs)
+        case "openrouter":
+            return OpenRouterModel(specifier, thinking_effort="high", **kwargs)
         case "google":
             raise NotImplementedError("Google models not integrated yet.")
         case "anthropic":

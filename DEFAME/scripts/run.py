@@ -1,6 +1,6 @@
 from infact.fact_checker import FactChecker
 
-fc = FactChecker(llm="gpt_4o", print_log_level="debug")
+fc = FactChecker(llm="gemini_35_flash", print_log_level="debug")
 
 for i in range(1000):
     content = input("Enter a claim to be fact-checked: ")
