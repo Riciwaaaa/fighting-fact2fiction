@@ -134,11 +134,12 @@ def main():
     llm = make_model("gemini_35_flash", reasoning_effort="high")
 
     # --- Build FactChecker ---
-    # search_engines={"duckduckgo": {}} — no local KB needed, free, no API key required.
-    # Switch to {"google": {}} + serper_api_key in api_keys.yaml for higher quality / quota.
+    # search_engines={"google": {}} — uses Serper API (serper.dev, free 2500 queries/month).
+    # Add serper_api_key to config/api_keys.yaml on the server.
+    # Fallback: {"duckduckgo": {}} works locally but gets rate-limited on servers.
     fc = FactChecker(
         llm=llm,                               # pass model object directly (already instantiated)
-        search_engines={"duckduckgo": {}},
+        search_engines={"google": {}},
         procedure_variant="infact",
         max_iterations=3,
         max_result_len=64_000,                 # chars per search result (same as original paper)
