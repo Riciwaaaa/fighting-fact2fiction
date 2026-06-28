@@ -1,0 +1,21 @@
+# Minimal requirements for API-based inference (no GPU, no HuggingFace local models).
+# Use this on servers where torch/bitsandbytes build from source is not available.
+# Install: uv pip install -r requirements-api.txt
+
+openai>=1.37.0
+tiktoken~=0.7.0
+sentence-transformers
+jinja2~=3.1.3
+pandas>=2.2.0
+numpy>=1.26.0
+tqdm>=4.66.3
+pyyaml
+sty>=1.0.6
+orjsonl==1.0.0
+langdetect>=1.0.9
+scikit-learn==1.5.1
+matplotlib>=3.8.2
+pyparsing~=3.1.1
+requests~=2.32.0
+torch>=2.0.0         # pre-built wheel, no compilation needed
+duckduckgo-search==4.4.0  # 5.x+ requires Rust; 4.x is pure Python
