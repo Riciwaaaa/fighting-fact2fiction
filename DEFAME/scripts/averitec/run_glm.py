@@ -142,7 +142,6 @@ def main():
         search_engines={"google": {}},
         procedure_variant="infact",
         max_iterations=3,
-        max_result_len=64_000,                 # chars per search result (same as original paper)
         class_definitions=AVERITEC_CLASS_DEFS,
         extra_judge_rules=EXTRA_JUDGE_RULES,
         print_log_level="info",
