@@ -85,7 +85,7 @@ def main():
     parser.add_argument(
         "--data",
         type=str,
-        default=os.environ.get("AVERITEC_DEV_PATH", "../averitec/data/dev.json"),
+        default=os.environ.get("AVERITEC_DEV_PATH", "../DEFAME/data/AVeriTeC/dev.json"),
         help="Path to dev.json",
     )
     args = parser.parse_args()

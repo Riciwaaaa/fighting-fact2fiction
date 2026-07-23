@@ -6,7 +6,7 @@ variant = "dev"
 if __name__ == '__main__':  # evaluation uses multiprocessing
     set_start_method("spawn")
     evaluate(
-        llm="gpt_4o",
+        llm="deepseek_v4_flash",
         tools_config=dict(searcher=dict(
             search_engine_config=dict(
                 averitec_kb=dict(variant=variant),
@@ -18,12 +18,12 @@ if __name__ == '__main__':  # evaluation uses multiprocessing
             max_iterations=3,
             max_result_len=64_000,  # characters
         ),
-        llm_kwargs=dict(temperature=0.01),
+        llm_kwargs=dict(thinking_effort="enabled", reasoning_effort="high"),
         benchmark_name="averitec",
         benchmark_kwargs=dict(variant=variant),
         # sample_ids=[381],
-        # n_samples=8,
+        n_samples=100,
         random_sampling=False,
         print_log_level="info",
-        # n_workers=4,
+        n_workers=1,
     )

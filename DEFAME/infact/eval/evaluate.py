@@ -144,7 +144,7 @@ def evaluate(
     with Pool(n_workers, fact_check, worker_args):
         # Initialize workers by assigning them a GPU device
         for d in range(n_workers):
-            devices_queue.put(d % n_devices)
+            devices_queue.put(d % n_devices if n_devices > 0 else "cpu")
 
         # Fill the input queue with benchmark instances
         for instance in samples_to_evaluate:
@@ -260,7 +260,7 @@ def finalize_evaluation(stats: dict,
 
     if not is_test:
         benchmark_classes = benchmark.get_classes()
-        if is_averitec:
+        if is_averitec and Label.CHERRY_PICKING in benchmark_classes:
             benchmark_classes.remove(Label.CHERRY_PICKING)
 
         plot_confusion_matrix(predicted_labels,
@@ -335,7 +335,8 @@ def save_stats(stats: dict, target_dir: Path):
 def fact_check(llm: str, llm_kwargs: dict,
                fact_checker_kwargs: dict, tools_config: dict, logger_kwargs: dict,
                is_averitec: bool, input_queue: Queue, output_queue: Queue, devices_queue: Queue):
-    device = f"cuda:{devices_queue.get()}"
+    _dev = devices_queue.get()
+    device = _dev if _dev == "cpu" else f"cuda:{_dev}"
 
     logger = Logger(**logger_kwargs)
 

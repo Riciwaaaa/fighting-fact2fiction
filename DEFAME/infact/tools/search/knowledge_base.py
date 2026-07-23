@@ -38,7 +38,7 @@ DOWNLOAD_URLS = {
 }
 
 N_CLAIMS = {
-    "dev": 500,
+    "dev": 100,
     "train": 3068,
     "test": 2215,
 }
@@ -86,7 +86,7 @@ class KnowledgeBase(LocalSearchAPI):
     def is_built(self) -> bool:
         """Returns true if the KB is built (KB files are downloaded and extracted and embedding kNNs are there)."""
         return (os.path.exists(self.resources_dir) and
-                len(os.listdir(self.resources_dir)) == self.get_num_claims() and
+                len(os.listdir(self.resources_dir)) >= self.get_num_claims() and
                 os.path.exists(self.embedding_knns_path))
 
     def _get_resources(self, claim_id: int = None) -> list[dict]:
@@ -220,26 +220,64 @@ class KnowledgeBase(LocalSearchAPI):
             print("Found extracted resource files.")
 
         if not os.path.exists(self.embedding_knns_path):
-            n_workers = torch.cuda.device_count()
-            assert n_workers > 0, "No GPUs found. Make sure to have at least 1 GPU and CUDA installed."
+            n_gpus = torch.cuda.device_count()
+            if n_gpus > 0:
+                n_workers = n_gpus
+                worker_devices = list(range(n_gpus))
 
-            print(f"Constructing kNNs for embeddings using {n_workers} workers...")
+                print(f"Constructing kNNs for embeddings using {n_workers} GPU worker(s)...")
 
-            # Initialize and run the KB building pipeline
-            self.resource_queue = Queue()
-            self.embedding_queue = Queue()
-            devices_queue = Queue()
+                self.resource_queue = Queue()
+                self.embedding_queue = Queue()
+                devices_queue = Queue()
 
-            with Pool(n_workers, embed, (self.resource_queue, self.embedding_queue, devices_queue)):
-                for d in range(n_workers):
-                    devices_queue.put(d)
-                self._read()
-                self._train_embedding_knn()
+                with Pool(n_workers, embed, (self.resource_queue, self.embedding_queue, devices_queue)):
+                    for d in worker_devices:
+                        devices_queue.put(d)
+                    self._read()
+                    self._train_embedding_knn()
+            else:
+                print("Constructing kNNs for embeddings on CPU (single-threaded)...")
+                self._setup_embedding_model()
+                self._build_knns_cpu()
 
         else:
             self._restore()
 
         print(f"Successfully built the {self.variant} knowledge base!")
+
+    def _build_knns_cpu(self):
+        """Single-threaded CPU fallback for building kNN index (no multiprocessing)."""
+        checkpoint_path = self.kb_dir / "embedding_knns_checkpoint.pckl"
+
+        # Resume from checkpoint if one exists
+        if checkpoint_path.exists():
+            with open(checkpoint_path, "rb") as f:
+                embedding_knns = pickle.load(f)
+            start_claim = max(embedding_knns.keys()) + 1 if embedding_knns else 0
+            print(f"\tResuming from checkpoint at claim {start_claim}...")
+        else:
+            embedding_knns = {}
+            start_claim = 0
+
+        print(f"\tEmbedding resource files on CPU (claims {start_claim}–{self.get_num_claims() - 1})...")
+        for claim_id in tqdm(range(start_claim, self.get_num_claims())):
+            resources = self._get_resources(claim_id)
+            # Truncate to 1500 chars: sufficient for retrieval, avoids huge attention matrices on CPU
+            texts = [r["url2text"][:1500] for r in resources]
+            if texts:
+                embeddings = self.embedding_model.embed_many(texts, batch_size=4)
+                embedding_knns[claim_id] = NearestNeighbors(n_neighbors=10).fit(embeddings)
+            else:
+                embedding_knns[claim_id] = None
+            # Checkpoint after every claim so an OOM kill doesn't lose all progress
+            with open(checkpoint_path, "wb") as f:
+                pickle.dump(embedding_knns, f)
+
+        with open(self.embedding_knns_path, "wb") as f:
+            pickle.dump(embedding_knns, f)
+        checkpoint_path.unlink(missing_ok=True)
+        self.embedding_knns = embedding_knns
 
     def _read(self):
         print("\tReading and preparing resource files...")
@@ -292,7 +330,9 @@ def get_contents(file_path) -> list[dict]:
 
 def embed(in_queue: Queue, out_queue: Queue, devices_queue: Queue):
     device = devices_queue.get()
-    em = EmbeddingModel(embedding_model, device=f"cuda:{device}")
+    if isinstance(device, int):
+        device = f"cuda:{device}"
+    em = EmbeddingModel(embedding_model, device=device)
 
     while True:
         claim_id, resources = in_queue.get()

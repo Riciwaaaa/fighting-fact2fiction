@@ -15,9 +15,19 @@ build/
 # ── Dataset files (download from AVeriTeC official source) ────────────────────
 averitec/data/
 
+# ── Heavy downloaded / regenerable data (NEVER commit — over GitHub's limits) ─
+# The AVeriTeC knowledge base is ~48 GB (files up to 11 GB). The small dataset
+# JSONs (dev.json, dev_binary.json, test.json, train.json) live in the same dir
+# and ARE kept — only the knowledge_base/ subtree is excluded.
+DEFAME/data/AVeriTeC/knowledge_base/
+# Fact2Fiction poison artifacts + cached embeddings (~1.1 GB, regenerable)
+Fact2Fiction/src/attack/attack_results/
+Fact2Fiction/src/attack/attack_cache/
+
 # ── Generated outputs ─────────────────────────────────────────────────────────
 baseline/results/
 DEFAME/out/
+Fact2Fiction/src/out/
 
 # ── Claude Code internal ──────────────────────────────────────────────────────
 .claude/

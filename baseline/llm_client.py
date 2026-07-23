@@ -78,20 +78,10 @@ def call_glm(prompt: str) -> LLMResponse:
                 "content": prompt,
             }
         ],
-        # ── THINKING MODE parameters ───────────────────────────────────────
-        # `include_reasoning`: tells OpenRouter to return the chain-of-thought
-        #   separately from the final answer (in message.reasoning field).
-        #   Without this you don't see the thinking trace at all.
-        #
-        # `reasoning_effort`: controls how hard the model thinks before answering.
-        #   OpenRouter / z-ai GLM-5.2 supports: "low" | "medium" | "high" | "xhigh"
-        #   "xhigh" = maximum reasoning depth — slower but best quality.
-        #   WHY xhigh for a research baseline: we want the model's best possible
-        #   internal-knowledge judgment; speed is not the priority here.
-        extra_body={
-            "include_reasoning": True,
-            "reasoning_effort": "xhigh",
-        },
+        # No `reasoning`/`thinking` params — let the model use its own defaults
+        # (xiaomi/mimo-v2.5-pro needs no extra reasoning config). If a model that
+        # requires an explicit reasoning object is used, pass it as an object
+        # (e.g. extra_body={"reasoning": {"effort": "max"}}) — a bare string 400s.
     )
 
     latency_ms = (time.perf_counter() - t0) * 1000

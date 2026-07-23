@@ -136,6 +136,8 @@ def is_url(string: str) -> bool:
 
 
 def is_guardrail_hit(response: str) -> bool:
+    if not response:
+        return False
     return response.startswith("I cannot") or response.startswith("I'm sorry")
 
 

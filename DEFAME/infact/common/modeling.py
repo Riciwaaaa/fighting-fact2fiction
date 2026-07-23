@@ -404,8 +404,9 @@ class OpenRouterModel(Model):
     open_source = False
     encoding = tiktoken.get_encoding("cl100k_base")
 
-    def __init__(self, specifier: str, thinking_effort: str = None, **kwargs):
+    def __init__(self, specifier: str, thinking_effort: str = None, reasoning_effort: str = None, **kwargs):
         self._thinking_effort = thinking_effort
+        self._reasoning_effort = reasoning_effort
         super().__init__(specifier, **kwargs)
 
     def load(self, model_name: str) -> OpenRouterAPI:
@@ -419,8 +420,13 @@ class OpenRouterModel(Model):
         messages.append({"role": "user", "content": str(prompt)})
 
         kwargs = dict(temperature=temperature, top_p=top_p)
+        extra_body = {}
+        if self._reasoning_effort:
+            extra_body["reasoning_effort"] = self._reasoning_effort
         if self._thinking_effort:
-            kwargs["extra_body"] = {"reasoning": {"effort": self._thinking_effort}}
+            extra_body["thinking"] = {"type": self._thinking_effort}
+        if extra_body:
+            kwargs["extra_body"] = extra_body
 
         try:
             completion = self.api.client.chat.completions.create(
@@ -428,7 +434,7 @@ class OpenRouterModel(Model):
                 messages=messages,
                 **kwargs
             )
-            return completion.choices[0].message.content
+            return completion.choices[0].message.content or ""
         except Exception as e:
             self.logger.warning(str(e))
         return ""
@@ -455,7 +461,7 @@ def make_model(name: str, **kwargs) -> Model:
             elif "llava" in model_name:
                 return LlavaModel(specifier, **kwargs)
         case "openrouter":
-            return OpenRouterModel(specifier, thinking_effort="high", **kwargs)
+            return OpenRouterModel(specifier, **kwargs)
         case "google":
             raise NotImplementedError("Google models not integrated yet.")
         case "anthropic":
