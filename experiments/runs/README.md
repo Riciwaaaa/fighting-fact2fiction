@@ -4,11 +4,58 @@ Chronological phases of the model-only-vs-poisoned-InFact defense work. Each dir
 output of a pipeline stage in `experiments/*.py`; scripts default their `--results-dir`/`--out` to
 the directory listed below, overridable on the command line.
 
-## 03_mimo_27claim_binary/ — current, final
+## 05_mimo_100claim_fusion/ — current
 
-27-claim AVeriTeC-binary subset (`Supported`/`Refuted` only — see `experiments/make_binary_averitec.py`
+100-claim AVeriTeC-binary set, fact-checker `xiaomi/mimo-v2.5-pro`, attacker `deepseek_v4_flash`.
+Replaces 03/'s asymmetric defense with a **symmetric evidence-fusion** pipeline and doubles the
+claim set. Two things changed conceptually:
+
+- **Claim set** = 03/'s 53 claims + 47 more binary claims taken in dev order from id 100
+  (`make_claim_manifest.py` → `claims.json`, the single source of truth; no script hardcodes ids).
+  The old "InFact answered it correctly before the attack" eligibility filter is **gone**, so
+  `clean_infact` no longer equals gold by construction — it is simply InFact's verdict on the
+  un-poisoned KB, whatever that verdict is.
+- **Defense** = both fact-checks are treated symmetrically. The retrieval fact-checker and the
+  knowledge-only reasoner each produce sub-claims/Q&A with worded evidence statements; every
+  evidence item from *either* side gets corroboration-probing verification queries run against the
+  poisoned KB, then a per-item confidence rating, and a single fusion judge issues the final
+  verdict. There is no InFact re-judge and no agreement skip-gate.
+
+Pipeline (each script takes `--run-dir`, reads `claims.json`, and skips claims already done):
+
+```
+make_claim_manifest.py  → claims.json
+build_kb_index.py       → extends DEFAME's KB kNN index to the new claims (dev ships resources
+                          for all 500 but a prebuilt index for only 0-99)
+run_clean_infact.py     → Fact2Fiction/src/fc_results/.../docs/{cid}   (clean InFact, binary)
+run_attacked_infact.py  → attacked_infact_dumps/{cid}.json             (poisoned InFact)
+fusion_model_only.py    → model_only/{cid}.json      (structured sub-claims + memory evidence)
+fusion_evidence_pool.py → evidence_pool/{cid}.json   (both sides' evidence + probing retrieval)
+fusion_confidence.py    → confidence/{cid}.json      (per-evidence confidence + commentary)
+fusion_judge.py         → fusion/{cid}.json          (final fused verdict)
+fusion_eval.py          → eval_table.{md,csv}, eval_predictions.csv
+fusion_analyze.py       → analysis.md + analysis_*.csv
+```
+
+Systems compared: `model_only` · `clean_infact` · `f2f_poisoned_infact` · `fusion_defense`.
+
+**No oracle.** 03/'s `TRUST_PROMPT` told the model that a `/created` URL is planted — that is the
+attack's own marker, so the defense was partly reading the answer key. No prompt here mentions URL
+patterns; `is_fake` is recorded in the outputs but only ever consumed by `fusion_analyze.py`, as
+held-out ground truth for calibration tables.
+
+Operational notes (this box is 4-core / 7 GB): everything KB-related must run under
+`/home/ubuntu/.venv312/bin/python3.12`, one heavy process at a time. Embedding is the bottleneck —
+`sentence-transformers` pads each batch to its longest member, so `build_kb_index.py` and
+`poisoned_kb.py` embed in bounded slices at `batch_size=4`; a larger batch peaks at ~3.5 GB on a
+resource-heavy claim and gets OOM-killed. `build_kb_index.py` writes the shared index atomically.
+
+## 03_mimo_27claim_binary/ — superseded by 05/
+
+AVeriTeC-binary subset (`Supported`/`Refuted` only — see `experiments/make_binary_averitec.py`
 and `DEFAME/data/AVeriTeC/dev_binary.json`), fact-checker `xiaomi/mimo-v2.5-pro`, attacker
-`deepseek_v4_flash`. Produced by, in order:
+`deepseek_v4_flash`. **The directory name is stale: this run has 53 claims, not 27** — the binary
+claims among dev ids 0-99 that InFact answered correctly pre-attack. Produced by, in order:
 `run_attacked_infact.py --binary` → `attacked_infact_dumps/`
 `infact_supplement.py --binary` → `infact_supplement.jsonl` (model-only verdict + gap detection)
 `subclaim_defense.py --binary` → `subclaim_defense/` (the working defense: sub-claim alignment,

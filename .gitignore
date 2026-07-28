@@ -23,6 +23,9 @@ DEFAME/data/AVeriTeC/knowledge_base/
 # Fact2Fiction poison artifacts + cached embeddings (~1.1 GB, regenerable)
 Fact2Fiction/src/attack/attack_results/
 Fact2Fiction/src/attack/attack_cache/
+# Refitted poisoned-KB kNN indices (~6.6 GB, regenerable by poisoned_kb.py).
+# Lives on real disk, NOT /tmp, which is a 3.8 GB RAM-backed tmpfs here.
+.cache/
 
 # ── Generated outputs ─────────────────────────────────────────────────────────
 baseline/results/

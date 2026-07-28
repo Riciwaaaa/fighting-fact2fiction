@@ -131,10 +131,29 @@ class KnowledgeBase(LocalSearchAPI):
             self._setup_embedding_model()
         return self.embedding_model.embed(*args, **kwargs)
 
-    def _embed_many(self, *args, **kwargs):
+    def _embed_many(self, texts, *args, **kwargs):
         if self.embedding_model is None:
             self._setup_embedding_model()
-        return self.embedding_model.embed_many(*args, batch_size=32, **kwargs)
+        # Encode in bounded slices instead of handing the whole (up to ~1500-element)
+        # list to sentence-transformers at once. encode() sorts and buffers ALL inputs
+        # and ALL output vectors for one call, so a resource-heavy claim peaks at
+        # several GB and gets OOM-killed on a 7 GB box. Slicing keeps the peak flat;
+        # the returned order and values are unchanged. Kept in sync with the
+        # Fact2Fiction copy of this file.
+        import gc
+
+        import numpy as np
+
+        texts = list(texts)
+        if not texts:
+            return []
+        out = []
+        for i in range(0, len(texts), 64):
+            vecs = self.embedding_model.embed_many(texts[i:i + 64], *args, batch_size=4, **kwargs)
+            out.append(np.asarray(vecs))
+            del vecs
+            gc.collect()
+        return np.concatenate(out, axis=0)
 
     def _setup_embedding_model(self):
         self.embedding_model = EmbeddingModel(embedding_model, device=self.device)

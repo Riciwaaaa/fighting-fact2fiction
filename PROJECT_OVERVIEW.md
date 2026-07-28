@@ -1,20 +1,27 @@
 # Fighting Fact2Fiction — Project Overview
 
 Defending the **InFact** fact-checker against the **Fact2Fiction** knowledge-base
-poisoning attack, using the fact-checker model's own internal knowledge plus a
-**sub-claim-level evidence-verification** defense.
+poisoning attack, using the fact-checker model's own internal knowledge plus
+**evidence-level authenticity verification**.
 
 - **Attack (Fact2Fiction):** injects fabricated "evidence" documents (URLs ending in
   `/created`) into a claim's local knowledge base, so a retrieval-based fact-checker
   adopts the fakes and flips its verdict.
 - **Victim (InFact):** a QA-based fact-checker — decompose a claim into sub-questions,
   retrieve evidence per question, answer each, then judge the whole document.
-- **Our defense:** localize where the poisoned fact-check disagrees with a
-  retrieval-free "model-only" reasoner, probe the suspect evidence for the
-  *corroborating context* a real event would leave behind (fabrications have none),
-  discredit what fails verification, and let InFact's own judge re-verdict.
+- **Our defense:** probe every piece of evidence for the *corroborating context* a real
+  event would leave behind (fabrications have none), rate how much to trust each, and
+  decide the verdict from the evidence that survives.
 
 Task is restricted to a **binary** (Supported / Refuted) subset of AVeriTeC.
+
+> **Current work is run 05 (`experiments/runs/05_mimo_100claim_fusion/`)**, which supersedes
+> the run-03 pipeline described in §3 below. Run 05 makes the defense **symmetric** — the
+> retrieval fact-checker and the model-only reasoner both emit sub-claims with worded evidence,
+> every item from either side is verified and scored, and one **fusion judge** issues the final
+> verdict (no InFact re-judge, no agreement skip-gate) — over **100** claims instead of 53, with
+> the `/created` oracle removed from all prompts. See `experiments/runs/README.md` for its
+> pipeline and operational notes; §3-§4 below document the still-reproducible run-03 pipeline.
 
 ---
 

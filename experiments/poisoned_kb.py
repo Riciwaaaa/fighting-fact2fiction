@@ -11,12 +11,31 @@ because retrieve() resolves the KB's relative data paths against the cwd at call
 Run under /home/ubuntu/.venv312/bin/python3.12 (needs torch/sklearn/sentence-transformers).
 """
 
+import gc
 import glob
 import hashlib
 import pickle
 from pathlib import Path
 
+import numpy as np
 from sklearn.neighbors import NearestNeighbors
+
+# Peak RAM during embedding scales with batch_size x the longest text in the batch.
+# Measured on a resource-heavy claim: batch_size=32 peaked at 3.5 GB and was OOM-killed
+# on this 7 GB box, so keep the batch small and the slices bounded.
+EMBED_BATCH_SIZE = 4
+
+
+def _embed_chunked(model, texts: list[str], batch_size: int):
+    """Embed in bounded slices, freeing each slice's activations before the next."""
+    out = []
+    slice_size = max(batch_size, 64)
+    for i in range(0, len(texts), slice_size):
+        vecs = model.embed_many(texts[i:i + slice_size], batch_size=batch_size)
+        out.append(np.asarray(vecs))
+        del vecs
+        gc.collect()
+    return np.concatenate(out, axis=0) if out else np.empty((0, model.dimension))
 
 # Attack experiment dir, relative to Fact2Fiction/src (the caller's cwd).
 EXP_REL = "attack/attack_results/dev_fact2fiction_infact_0.08"
@@ -74,12 +93,13 @@ def install_poisoned_kb(kb, cid: int, suffix: str, use_cache: bool = True) -> bo
 
     if poison_knn is None:
         texts = [r["url2text"][:1500] for r in all_resources]
-        # kb._embed_many hardcodes batch_size=4; call the model directly with a
-        # larger batch for CPU throughput (kb._embed_many's positional/duplicate
-        # kwarg means it can't be overridden through that wrapper).
+        # kb._embed_many hardcodes batch_size=4 and can't be overridden through that
+        # wrapper, so call the model directly. Encode in bounded slices: sentence-
+        # transformers pads each batch to its longest member, so a large batch on a
+        # resource-heavy claim peaks at several GB and gets OOM-killed on this 7 GB box.
         if kb.embedding_model is None:
             kb._setup_embedding_model()
-        embeddings = kb.embedding_model.embed_many(texts, batch_size=32)
+        embeddings = _embed_chunked(kb.embedding_model, texts, EMBED_BATCH_SIZE)
         poison_knn = NearestNeighbors(n_neighbors=min(10, len(all_resources))).fit(embeddings)
         if use_cache:
             CACHE_DIR.mkdir(parents=True, exist_ok=True)
