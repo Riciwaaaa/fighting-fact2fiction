@@ -66,10 +66,13 @@ def main():
         if sorted(rows[a]) != cids:
             sys.exit(f"arm {a} covers a different claim set")
 
-    flipped, gold = {}, {}
+    # How many of a claim's ten sub-questions retrieval answered out of a planted document.
+    # Derived from the source URL, never shown to any prompt, and -- unlike `attack_flipped` --
+    # free of any verdict, so it can carry an arm's accuracy without restating it.
+    gold, planted = {}, {}
     for d in dirs:
-        for r in json.load(open(d / "questions.json")):
-            flipped[r["claim_id"]] = r["attack_flipped"]
+        for rec in json.load(open(d / "answers_poisoned.json")):
+            planted[rec["claim_id"]] = sum(1 for r in rec["rows"] if r.get("is_fake"))
     for c in cids:
         gold[c] = rows[arms[0]][c]["gold_label"]
 
@@ -93,16 +96,34 @@ def main():
         L += ["", f"The attack costs **{pct(acc['C'] - acc['P'], n)}** "
                   f"({pct(acc['C'], n)} → {pct(acc['P'], n)}).", ""]
 
-    L += ["", "## By whether run 05 saw the attack flip this claim", "",
-          "`attack_flipped` is read off run 05, an independent end-to-end run. It is a "
-          "stratification label, not this experiment's own measurement of whether the attack "
-          "worked.", "",
-          "| subset | claims | " + " | ".join(f"`{a}`" for a in arms) + " |",
-          "|---" * (len(arms) + 2) + "|"]
-    for want, nm in ((True, "flipped in run 05"), (False, "not flipped")):
-        s = [c for c in cids if flipped.get(c) is want]
-        cells = [f"{sum(1 for c in s if rows[a][c]['correct'])}/{len(s)}" for a in arms]
-        L.append(f"| {nm} | {len(s)} | " + " | ".join(cells) + " |")
+    L += ["", "## By how much planted evidence retrieval actually hit", "",
+          "Claims are grouped by how many of their ten sub-questions were answered from a planted "
+          "document. That count is a property of retrieval alone -- no verdict enters it -- which "
+          "is what makes it usable as a stratification.", "",
+          "**`C` and `M` are controls, not treatments.** Neither ever sees a planted document: "
+          "`C` reads the clean corpus and `M` reads no corpus at all. Their variation across the "
+          "rows below is the difficulty of those claims, nothing else. The attack's effect is "
+          "`C` − `P` *within* a row, which is why the control column has to be there: the "
+          "heaviest-planting group is also the group the clean corpus finds hardest, so an "
+          "unadjusted drop in `P` would credit the attack for difficulty it did not cause.", "",
+          "An earlier version of this report stratified by `attack_flipped` instead. That was "
+          "wrong and the table is gone. Fact2Fiction only attacks claims the fact-checker "
+          "originally got right, so flipping one necessarily makes it wrong: `flipped` **is** "
+          "\"the poisoned run got this wrong\". Reading a poisoned arm's accuracy within that "
+          "split restates the definition. `attack_flipped` survives in questions.json, where it "
+          "is still a fair label for \"run 05 saw the attack land here\", but it cannot carry a "
+          "poisoned or clean arm's accuracy.", "",
+          "| planted sub-answers | claims | " + " | ".join(f"`{a}`" for a in arms)
+          + " | attack cost (`C`−`P`) |",
+          "|---" * (len(arms) + 3) + "|"]
+    for lo, hi, nm in ((0, 4, "0–4"), (5, 7, "5–7"), (8, 8, "8"), (9, 9, "9"), (10, 10, "10")):
+        s = [c for c in cids if lo <= planted.get(c, -1) <= hi]
+        if not s:
+            continue
+        r = {a: 100 * sum(1 for c in s if rows[a][c]["correct"]) / len(s) for a in arms}
+        cells = [f"{r[a]:.0f}%" for a in arms]
+        cost = (f"**{r['C'] - r['P']:.0f} pp**" if "C" in r and "P" in r else "")
+        L.append(f"| {nm} | {len(s)} | " + " | ".join(cells) + f" | {cost} |")
 
     L += ["", "## By gold label", "",
           "| gold | claims | " + " | ".join(f"`{a}`" for a in arms) + " |",
@@ -114,7 +135,7 @@ def main():
 
     if "P" in arms and "PM" in arms:
         L += ["", "## Claim by claim, where the arms disagree", "",
-              "| claim | gold | flipped | " + " | ".join(f"`{a}`" for a in arms) + " | origin |",
+              "| claim | gold | planted | " + " | ".join(f"`{a}`" for a in arms) + " | origin |",
               "|---" * (len(arms) + 4) + "|"]
         for c in cids:
             vs = {rows[a][c]["verdict"] for a in arms}
@@ -122,7 +143,7 @@ def main():
                 continue
             cells = [("✓" if rows[a][c]["correct"] else "✗") + " " + rows[a][c]["verdict"][:3]
                      for a in arms]
-            L.append(f"| {c} | {gold[c]} | {'yes' if flipped.get(c) else 'no'} | "
+            L.append(f"| {c} | {gold[c]} | {planted.get(c, '?')}/10 | "
                      + " | ".join(cells) + f" | {origin[c]} |")
 
     # The instability estimate. Reported as a rate, not folded into the accuracies above.
