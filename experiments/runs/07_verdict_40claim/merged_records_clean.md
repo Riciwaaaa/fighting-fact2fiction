@@ -1,0 +1,2319 @@
+# Claim 6 — More than 225,000 people dead, 225,000. The estimates are, if we’d have acted responsibly, there’d be 160,000 fewer dead than there are today, because of covid-19.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What was the official COVID-19 death toll in the United States as of the date referenced in the claim (October 2020)?
+Answer: As of October 2020, the official COVID-19 death toll in the United States was approximately 225,000, with estimates ranging from at least 200,000 to around 230,000.
+
+Source URL: https://jamanetwork.com/journals/jama/fullarticle/2771763
+
+### Which specific public health agency or authoritative source was cited for the figure "more than 225,000" COVID-19 deaths?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### Who authored or published the estimate that 160,000 COVID-19 deaths could have been prevented with different actions?
+Answer: **CONFLICT.** The retrieved document states that the estimate that 160,000 COVID-19 deaths could have been prevented is attributed to a report authored by Irwin Redlener, Jeffrey D. Sachs, Sean Hansen, and Nathaniel Hupert from the National Center for Disaster Preparedness at Columbia University. The reasoner working from memory alone, with low certainty, reports having no record of any such estimate or its authors.
+
+Source URL: https://ncdp.columbia.edu/custom-content/uploads/2020/10/Avoidable-COVID-19-Deaths-US-NCDP.pdf
+
+### What specific time period does the estimate of 160,000 preventable deaths cover?
+Answer: **CONFLICT.** The retrieved document states that an estimate of 130,000–210,000 avoidable deaths covers the period of the COVID-19 pandemic up to mid-October 2020, using data current as of October 16, 2020. The reasoner working from memory alone reports having no record of any specific estimate of 160,000 preventable deaths or the time period it covers, and is close to guessing on this matter.
+
+Source URL: https://ncdp.columbia.edu/custom-content/uploads/2020/10/Avoidable-COVID-19-Deaths-US-NCDP.pdf
+
+### What specific set of policies or actions were defined as "responsible" in the source study or estimate of preventable deaths?
+Answer: The source study defined 'responsible' policies as those implemented by other high-income nations, including building sufficient testing capabilities, enacting earlier lockdowns, issuing a national mask-wearing mandate, and providing federal guidance on social distancing.
+
+Source URL: https://news.climate.columbia.edu/2020/10/22/covid-19-response-avoidable-deaths/
+
+### According to the cited source, what was the modeled counterfactual death toll (the number of deaths that would have occurred) if the defined "responsible actions" had been implemented?
+Answer: **CONFLICT.** The retrieved document states that according to the cited report, the modeled counterfactual death toll ranges from 2,799 to 162,240 deaths, with 130,000 to 210,000 deaths potentially avoided. The reasoner working from memory alone, which has no record of this cited source and is not confident in its assessment, reports that it has no knowledge of any modeled counterfactual death toll specified in the claim.
+
+Source URL: https://news.climate.columbia.edu/2020/10/22/covid-19-response-avoidable-deaths/
+
+### Does the cited estimate of 160,000 preventable deaths align with other independent epidemiological or public health models from the same period?
+Answer: **CONFLICT.** The retrieved document states that the estimate of 160,000 preventable deaths aligns with an independent model, specifically a Columbia University report from October 2020 finding between 130,000 and 210,000 avoidable COVID-19 deaths in the United States. The reasoner, working from memory alone and having no record of any independent epidemiological or public health models from the same period that estimate 160,000 preventable deaths or align with the cited estimate, reports this with little confidence in the assessment.
+
+Source URL: https://news.climate.columbia.edu/2020/10/22/covid-19-response-avoidable-deaths/
+
+### What methodology did the authors of the 160,000 death estimate use to arrive at that figure?
+Answer: **CONFLICT.** The retrieved document states that the authors used a comparative analysis methodology, calculating avoidable deaths by comparing the U.S. proportional mortality rate with that of six other high-income countries, arriving at a range of 130,000 to 210,000 avoidable deaths. The reasoner, working from memory alone, reports having no knowledge of any specific methodology for the 160,000 death estimate and is uncertain about this.
+
+Source URL: https://ncdp.columbia.edu/custom-content/uploads/2020/10/Avoidable-COVID-19-Deaths-US-NCDP.pdf
+
+### Is the claim's stated death toll of "more than 225,000" consistent with the data reported by the cited authoritative source on or around the date of the claim?
+Answer: **CONFLICT.** The retrieved document states the claim's 'more than 225,000' death toll is not consistent with the data from the cited authoritative source, which reports nearly 1.8 million COVID-19 deaths in Latin America and the Caribbean as of December 19, 2023, and does not provide data matching the claim's implied timeframe or scope. In contrast, the reasoner working from memory alone reports that the death toll of 'more than 225,000' was consistent with what major tracking sources, such as Johns Hopkins University and the CDC, were reporting around October 30, 2020, when the U.S. death toll had reached approximately 229,000 to 231,000, and it is fairly certain of this assessment.
+
+Source URL: https://www.statista.com/statistics/1103965/latin-america-caribbean-coronavirus-deaths/
+
+### Have peer-reviewed publications or official audits assessed the validity of the estimate regarding 160,000 preventable deaths?
+Answer: The provided source is a policy report from Columbia University's National Center for Disaster Preparedness that estimates a range of 130,000 to 210,000 'avoidable' COVID-19 deaths in the U.S., but it does not itself present evidence that this specific estimate, or the 160,000 figure, has been validated through peer-reviewed publications or official audits.
+
+Source URL: https://ncdp.columbia.edu/custom-content/uploads/2020/10/Avoidable-COVID-19-Deaths-US-NCDP.pdf
+
+# Claim 12 — New Zealand’s new Food Bill bans gardening
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the official name and parliamentary status (e.g., proposed, passed into law) of the legislative bill referred to as New Zealand's "Food Bill"?
+Answer: The legislative bill referred to as New Zealand's 'Food Bill' was passed into law and is now enacted as the Food Act 2014.
+
+Source URL: https://en.wikipedia.org/wiki/Food_Act_2014
+
+### Does the text of New Zealand's "Food Bill" explicitly contain the word "garden" or "gardening" as an activity it seeks to regulate or prohibit?
+Answer: The text of New Zealand's Food Bill does not explicitly contain the words 'garden' or 'gardening' as an activity it seeks to regulate or prohibit, and it excludes home-grown food for personal or family consumption from its measures.
+
+Source URL: https://www.beehive.govt.nz/release/food-bill-make-food-safer-%E2%80%93-not-restrict-small-traders
+
+### What are the stated objectives and purposes of New Zealand's "Food Bill" as outlined in its preamble or official summary?
+Answer: The stated objectives of New Zealand's Food Bill include simplifying food safety regulations, reducing food-borne illness and associated economic costs, creating efficiencies for traders, and explicitly ensuring it does not restrict the right to grow, share, or sell home-produced food.
+
+Source URL: https://www.beehive.govt.nz/release/food-bill-make-food-safer-%E2%80%93-not-restrict-small-traders
+
+### Are there any provisions within New Zealand's "Food Bill" that restrict or criminalize the planting, cultivation, or harvesting of food plants by private individuals on their own property?
+Answer: New Zealand's Food Bill does not contain provisions that restrict or criminalize the planting, cultivation, or harvesting of food plants by private individuals on their own property; claims that it bans gardening are false and stem from misinterpretations or hoaxes.
+
+Source URL: https://knowyourmeme.com/memes/new-zealand-gardening-law-hoax
+
+### Has any government agency or official in New Zealand publicly stated that the "Food Bill" makes personal home gardening illegal?
+Answer: No government agency or official in New Zealand has publicly stated that the Food Bill makes personal home gardening illegal; officials have publicly stated that such interpretations are incorrect, and the claim is a myth originating from an internet joke.
+
+Source URL: https://www.huffpost.com/entry/new-zealand-gardening-ban_n_57696251e4b0a75709b7d6ac
+
+### What specific activities or practices related to food production does the "Food Bill" define, regulate, or prohibit?
+Answer: **CONFLICT.** The retrieved document states that the Food Bill (which became the Food Act 2014) regulates food businesses through Food Control Plans or National Programmes, sets food standards, and has been criticized for potentially restricting seed sharing, community gardens, and similar activities. The reasoner working from memory alone reports having no recollection of such a bill defining or prohibiting those specific activities and, recalling that claims about it banning gardening were debunked as misinformation in 2020, infers that no such bill with those provisions exists, though with low confidence in this assessment.
+
+Source URL: https://en.wikipedia.org/wiki/Food_Act_2014
+
+### When was New Zealand's "Food Bill" officially passed or enacted, and what is the date it came or comes into legal effect?
+Answer: **CONFLICT.** According to the retrieved document, the Food Bill was passed by Parliament in 2014 and came into legal effect on 1 March 2016. The reasoner working from memory alone, close to guessing in its assessment, has no record of the Food Bill being officially passed or enacted and reports no knowledge of these dates.
+
+Source URL: https://en.wikipedia.org/wiki/Food_Act_2014
+
+### Does the "Food Bill" distinguish between commercial agricultural activity and non-commercial, personal gardening for household consumption?
+Answer: The Food Bill distinguishes between commercial agricultural activity and non-commercial personal gardening for household consumption, with home-grown food for personal or family use excluded from its provisions.
+
+Source URL: https://www.beehive.govt.nz/release/food-bill-make-food-safer-%E2%80%93-not-restrict-small-traders
+
+### What legal or regulatory frameworks does the "Food Bill" amend or replace, and does it consolidate previous laws related to food safety or biosecurity?
+Answer: **CONFLICT.** the retrieved document states that the Food Bill replaced the Food Act 1981 and the Food Hygiene Regulations 1974, and made amendments to the Animal Products Act 1999 and the Wine Act 2003, consolidating food safety but not biosecurity laws. The reasoner, which has no record of any legal or regulatory frameworks being amended or replaced by the Food Bill and is uncertain in this assessment, reports that it has no information on the matter.
+
+Source URL: https://en.wikipedia.org/wiki/Food_Act_2014
+
+### Are there any exceptions, licenses, or permits described within the "Food Bill" for certain types of gardening or plant cultivation?
+Answer: The New Zealand Food Bill does not restrict or ban personal horticultural activities such as growing vegetables at home; therefore, it does not include any exceptions, licenses, or permits for gardening, as the activity is not prohibited.
+
+Source URL: https://knowyourmeme.com/memes/new-zealand-gardening-law-hoax
+
+# Claim 20 — Viral video purportedly shows Pakistani opposition MPs chanted ‘Modi, Modi’ (India's PM)  inside the Pakistani Parliament
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Does an authentic, unedited video exist showing individuals chanting "Modi, Modi" inside the chamber of Pakistan's National Assembly or Senate?
+Answer: No, an authentic, unedited video does not exist showing individuals chanting 'Modi, Modi' inside the chamber of Pakistan's National Assembly or Senate; the viral claim has been debunked, with fact-checkers finding that the audio was edited or misrepresented.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### On what specific date was the video purported to have been recorded within the Pakistani Parliament?
+Answer: **CONFLICT.** The retrieved documents indicate that the video was purported to show events inside the Pakistani Parliament on October 26, as the original footage was from a National Assembly debate held on that date. The reasoner working from memory alone, which is not confident in its assessment, reports that it has no record of any such video or the specific date it was purported to have been recorded.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### Can the individuals chanting in the video be identified as members of political parties considered to be in the opposition within Pakistan's Parliament?
+Answer: The individuals chanting in the video can be identified as members of political parties considered to be in the opposition within Pakistan's Parliament, and it has been clarified that their slogans were misrepresented as 'Modi Modi' when they were actually chanting 'voting voting' in protest.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### Which specific opposition political party or parties do the chanting individuals belong to?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### Was the chanting of "Modi, Modi" a direct reference to Narendra Modi, the Prime Minister of India, as claimed?
+Answer: **CONFLICT.** The retrieved document states that the chanting of 'Modi Modi' was not a direct reference to Narendra Modi and was misrepresented, with the slogans actually being 'voting voting' and any chant about Modi being critical. The reasoner, working from memory alone with high confidence in its general knowledge, reports that if such chanting occurred, it was most likely a direct reference to Narendra Modi, though it cannot recall the specific event.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### What was the parliamentary agenda or topic of debate at the moment the chanting occurred?
+Answer: **CONFLICT.** The retrieved document states that the parliamentary agenda at the moment of the chanting was a debate on passing a resolution against blasphemy, in the context of a discussion following the beheading of French teacher Samuel Paty. The reasoner working from memory alone, being very uncertain and close to guessing on this matter, reports that it has no record of the specific parliamentary agenda or topic of debate and cannot verify whether the event itself took place as described.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### Have any of the identified opposition MPs acknowledged their participation in the chanting or provided an explanation for it?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### Has the Speaker or Secretariat of the Pakistani Parliament issued any statement regarding this incident?
+Answer: There is no indication that the Speaker or Secretariat of the Pakistani Parliament issued any official statement regarding the purported incident.
+
+Source URL: https://facthunt.in/posts/1484/Truth-behind-the-viral-picture-showing-French-Teacher-who-was-beheaded-for
+
+### Did reputable news outlets in Pakistan or India report on this specific incident when it allegedly occurred?
+Answer: **CONFLICT.** The retrieved document states that Indian news outlets, including India TV on October 28, 2020, TV9 Bharatvarsh, Times Now, and OpIndia, reported on the claim, though these reports were later debunked as false by Alt News, with no mention of reputable Pakistani outlets reporting it. The reasoner, working from memory alone, has no specific recollection of reputable Pakistani or Indian news outlets reporting this incident as real and, with low confidence based on knowledge of fact-checks that debunked the video, infers that such reports are unlikely.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### Is there evidence that the video was edited, dubbed, or taken out of a different context to misrepresent the event?
+Answer: Yes, there is evidence that the video was misrepresented; the opposition MPs were actually chanting slogans related to internal Pakistani politics, not 'Modi, Modi.'
+
+Source URL: https://facthunt.in/posts/1484/Truth-behind-the-viral-picture-showing-French-Teacher-who-was-beheaded-for
+
+# Claim 25 — McDonald’s Azerbaijan's official account was promoting the military taking of Nagorno-Karabakh.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did the social media account known as "McDonald's Azerbaijan" make any posts between 2020 and 2023 that referenced the military operations or status of Nagorno-Karabakh?
+Answer: **CONFLICT.** The retrieved document states that the verified McDonald's Azerbaijan Instagram account made posts in 2020 featuring nationalistic content related to Nagorno-Karabakh, such as a post with a soldier holding an Azerbaijani flag. The reasoner, working from memory alone, reports no knowledge of any such posts and infers their unlikely occurrence based on typical corporate behavior, though it is not very certain of this assessment.
+
+Source URL: https://www.dailystar.co.uk/news/world-news/mcdonalds-azerbaijan-promotes-war-armenia-22913718
+
+### What were the exact dates of the social media posts from the "McDonald's Azerbaijan" account that are claimed to be promoting the military taking of Nagorno-Karabakh?
+Answer: The exact dates of the social media posts from McDonald's Azerbaijan are not specified, though one post was shared earlier this month to mark Azerbaijan's independence day.
+
+Source URL: https://www.dailystar.co.uk/news/world-news/mcdonalds-azerbaijan-promotes-war-armenia-22913718
+
+### On which specific social media platforms (e.g., Facebook, Instagram, Twitter) were the alleged promotional posts published by the "McDonald's Azerbaijan" account?
+Answer: **CONFLICT.** The retrieved document states that the promotional posts by McDonald's Azerbaijan were published on Instagram, as indicated by the official Instagram account in Azerbaijan. The reasoner working from memory alone, with low certainty in its assessment, reports that it has no record of which specific social media platforms were used for the alleged promotional posts.
+
+Source URL: https://www.dailystar.co.uk/news/world-news/mcdonalds-azerbaijan-promotes-war-armenia-22913718
+
+### What was the exact text, visual content, or hashtags used in the posts from the "McDonald's Azerbaijan" account concerning Nagorno-Karabakh?
+Answer: **CONFLICT.** The retrieved documents state that posts from the McDonald's Azerbaijan account featured nationalistic text and visuals, including one showing a soldier holding an Azerbaijani flag with the caption 'We wish our native flag to always fly on the heights of Azerbaijan!' and another with a map stating 'Every inch of the country is native and indivisible!' The reasoner working from memory alone reports that it has no record of any posts from a 'McDonald's Azerbaijan' official account concerning Nagorno-Karabakh—including their text, visual content, or hashtags—and cannot provide the requested details, noting it is not confident in this assessment and is essentially uncertain whether such posts exist.
+
+Source URL: https://www.dailystar.co.uk/news/world-news/mcdonalds-azerbaijan-promotes-war-armenia-22913718
+
+### Did the content of the posts use language or symbols that can be objectively interpreted as advocacy, celebration, or support for a specific military outcome in Nagorno-Karabakh?
+Answer: The posts by McDonald's Azerbaijan contained language that could objectively be interpreted as advocacy or support for Azerbaijan's military actions in the conflict over Nagorno-Karabakh.
+
+Source URL: https://www.ctvnews.ca/world/azerbaijan-mcdonald-s-burger-king-tweet-support-for-military-action-in-nagorno-karabakh-1.5163620?cache=yes%3Fot%3DAjaxLayout%3FautoPlay%3Dtrue%3FclipId%3D104056
+
+### Is the "McDonald's Azerbaijan" account identified in the claim verified or officially recognized by the social media platform as the authentic account for McDonald's restaurants in Azerbaijan?
+Answer: **CONFLICT.** The retrieved document states that the McDonald's Azerbaijan account is verified, as it was shared on the verified account for the fast food giant in Azerbaijan with 107k Instagram followers. The reasoner, which has no record of any such account or its verification status and is close to guessing in this assessment, reports that it has no knowledge of it.
+
+Source URL: https://www.dailystar.co.uk/news/world-news/mcdonalds-azerbaijan-promotes-war-armenia-22913718
+
+### Was the content about Nagorno-Karabakh posted by the "McDonald's Azerbaijan" account original content created by the account, or was it reshared from another source (e.g., a government account or news outlet)?
+Answer: **CONFLICT.** The retrieved document states that the content about Nagorno-Karabakh posted by the 'McDonald's Azerbaijan' account was original content, as it was described as shared without indication of being reshared from another source. The reasoner working from memory alone reports that it has no record of any content about Nagorno-Karabakh from that account and, being close to guessing about its existence, cannot determine whether it was original or reshared.
+
+Source URL: https://www.dailystar.co.uk/news/world-news/mcdonalds-azerbaijan-promotes-war-armenia-22913718
+
+### Did McDonald's Corporation or its official franchisee in Azerbaijan issue any public statement regarding the social media posts or their position on the Nagorno-Karabakh conflict during the timeframe in question?
+Answer: **CONFLICT.** The retrieved document states that McDonald's Corporation issued a public statement confirming that its franchisee in Azerbaijan removed the social media content. The reasoner working from memory alone, with low certainty, reports that it has no record of McDonald's Corporation or its official franchisee in Azerbaijan issuing any public statement regarding social media posts about the Nagorno-Karabakh conflict during October 2020.
+
+Source URL: https://www.ctvnews.ca/world/azerbaijan-mcdonald-s-burger-king-tweet-support-for-military-action-in-nagorno-karabakh-1.5163620?cache=yes%3Fot%3DAjaxLayout%3FautoPlay%3Dtrue%3FclipId%3D104056
+
+### Was there any reported instance of the "McDonald's Azerbaijan" social media account being compromised or hacked during the period when the posts were made?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### Do any independent archives (e.g., Wayback Machine) or verified media reports contain evidence of these specific promotional posts from the "McDonald's Azerbaijan" account?
+Answer: **CONFLICT.** The retrieved document states that the Daily Star article provides specific descriptions and direct quotes from posts on McDonald's Azerbaijan's verified Instagram account, serving as a verified media report documenting the promotional content. The reasoner, working from memory alone and with low confidence, has no record of any independent archives or verified media reports containing such evidence.
+
+Source URL: https://www.dailystar.co.uk/news/world-news/mcdonalds-azerbaijan-promotes-war-armenia-22913718
+
+# Claim 31 — Amy Coney Barrett was confirmed as US Supreme Court Justice on October 26, 2020
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was Amy Coney Barrett nominated to be an Associate Justice of the Supreme Court of the United States in 2020?
+Answer: Amy Coney Barrett was nominated to be an Associate Justice of the Supreme Court of the United States in 2020.
+
+Source URL: https://www.judiciary.senate.gov/committee-activity/hearings/nomination-of-the-honorable-amy-coney-barrett-to-be-an-associate-justice-of-the-supreme-court-of-the-united-states
+
+### Did the United States Senate vote to confirm Amy Coney Barrett as an Associate Justice of the Supreme Court?
+Answer: Yes, the United States Senate voted to confirm Amy Coney Barrett as an Associate Justice of the Supreme Court. The final confirmation vote took place on October 26, 2020, with Senate Republicans controlling the chamber and overcoming Democratic opposition. Only one Republican, Susan Collins of Maine, voted against the nominee, while all other Republicans—including Lisa Murkowski, who reversed her earlier procedural opposition—voted in favor.
+
+Source URL: https://www.denverpost.com/2020/10/26/amy-coney-barrett-senate-confirmation-update/
+
+### Was the final Senate vote on the confirmation of Amy Coney Barrett held on October 26, 2020?
+Answer: The final Senate vote on the confirmation of Amy Coney Barrett was held on October 26, 2020.
+
+Source URL: https://apnews.com/article/election-2020-donald-trump-virus-outbreak-ruth-bader-ginsburg-amy-coney-barrett-82a02a618343c98b80ca2b6bf9eafe07
+
+### What was the exact vote count (Yeas vs. Nays) for Amy Coney Barrett's confirmation by the U.S. Senate?
+Answer: The U.S. Senate confirmed Amy Coney Barrett by a vote of 52 Yeas to 48 Nays, with Senator Susan Collins being the only Republican to vote against the confirmation.
+
+Source URL: https://www.latimes.com/politics/story/2020-10-26/democrats-ask-pence-skip-barrett-confirmation-vote-coronavirus
+
+### Which President of the United States nominated Amy Coney Barrett to the Supreme Court?
+Answer: President Donald Trump nominated Amy Coney Barrett to the Supreme Court.
+
+Source URL: https://www.scotusblog.com/category/special-features/nomination-of-amy-coney-barrett-to-the-supreme-court/
+
+### Whose vacancy on the Supreme Court did Amy Coney Barrett fill upon her confirmation?
+Answer: **CONFLICT.** The retrieved document states that the search result does not contain information about whose vacancy Amy Coney Barrett filled. The reasoner, which is highly certain of its answer, reports that Amy Coney Barrett filled the vacancy on the Supreme Court left by Justice Ruth Bader Ginsburg, who passed away on September 18, 2020.
+
+Source URL: https://www.usatoday.com/picture-gallery/news/politics/2020/09/28/judge-amy-coney-barrett-nominated-us-supreme-court-president-trump/3559581001/
+
+### Did the judicial nomination and confirmation process for Amy Coney Barrett follow the standard procedures set by the U.S. Constitution?
+Answer: The judicial nomination and confirmation process for Amy Coney Barrett followed the standard procedures set by the U.S. Constitution, involving presidential nomination and Senate advice and consent in accordance with Article II, Section 2.
+
+Source URL: https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/about
+
+### Was the Senate Judiciary Committee involved in holding hearings for Amy Coney Barrett's nomination prior to the full Senate vote?
+Answer: The Senate Judiciary Committee held confirmation hearings for Amy Coney Barrett's nomination from October 12 to October 15, 2020, and voted on October 22, 2020, to advance her nomination to the full Senate prior to her final confirmation on October 26, 2020.
+
+Source URL: https://ballotpedia.org/Amy_Coney_Barrett_confirmation_hearings_and_votes
+
+### Were there any legal challenges or formal objections that delayed or altered the scheduled date of October 26, 2020, for the confirmation vote?
+Answer: There were no legal challenges or formal objections that delayed or altered the scheduled date of October 26, 2020, for the confirmation vote; the Senate proceeded with the vote as planned, confirming Amy Coney Barrett.
+
+Source URL: https://apnews.com/article/election-2020-donald-trump-virus-outbreak-ruth-bader-ginsburg-amy-coney-barrett-82a02a618343c98b80ca2b6bf9eafe07
+
+### Since her confirmation, has Amy Coney Barrett been serving as a sitting Justice on the Supreme Court of the United States?
+Answer: Amy Coney Barrett has been serving as a sitting Justice on the Supreme Court of the United States since her confirmation.
+
+Source URL: https://www.usatoday.com/picture-gallery/news/politics/2020/09/28/judge-amy-coney-barrett-nominated-us-supreme-court-president-trump/3559581001/
+
+# Claim 35 — COVID-19 pandemic pre-planned with the help from Bill Gates.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is there any documented evidence, such as meeting minutes, communications, or financial records, showing that a group conspired to intentionally create and release SARS-CoV-2 before the pandemic began?
+Answer: There is no documented evidence—such as meeting minutes, communications, or financial records—of a conspiracy to intentionally create and release SARS-CoV-2; this claim is based on discredited sources and is unsupported by credible investigations.
+
+Source URL: https://misinforeview.hks.harvard.edu/article/the-twitter-origins-and-evolution-of-the-covid-19-plandemic-conspiracy-theory/
+
+### Did Bill Gates, or the Bill & Melinda Gates Foundation, provide funding for research that resulted in the creation of the SARS-CoV-2 virus?
+Answer: There is no evidence that Bill Gates or the Bill & Melinda Gates Foundation provided funding for research that resulted in the creation of the SARS-CoV-2 virus.
+
+Source URL: https://factcheck.afp.com/bill-gates-bogeyman-virus-conspiracy-theorists
+
+### What is the scientific consensus on the origin of SARS-CoV-2, and does it support the conclusion that the virus was deliberately engineered and released?
+Answer: **CONFLICT.** The retrieved document states that there is no scientific consensus on the origin of SARS-CoV-2 and it does not support the conclusion that the virus was deliberately engineered or released, while the reasoner, confident in its memory, reports that the scientific consensus is for natural zoonotic spillover, likely from bats via an intermediate host, and there is no credible evidence of deliberate engineering or release.
+
+Source URL: https://www.thenewatlantis.com/publications/manufacturing-consensus
+
+### What was the stated purpose of the "Event 201" pandemic simulation exercise held in October 2019, and was Bill Gates a participant or funder of that exercise?
+Answer: The stated purpose of Event 201, held in October 2019, was to simulate a severe pandemic to address gaps in global preparedness and illuminate the need for cooperation among industry, governments, international institutions, and civil society. The Bill and Melinda Gates Foundation was a funder and partner of the exercise, though Bill Gates did not participate in the simulation itself.
+
+Source URL: https://fullfact.org/health/event-201-coronavirus-pandemic/
+
+### What specific actions did Bill Gates take between 2015 and 2019 to warn about or prepare for a coronavirus pandemic, and do these actions constitute "planning" the pandemic itself?
+Answer: Bill Gates took actions between 2015 and 2019 to warn about and prepare for a coronavirus pandemic, including giving a TED Talk in 2015 warning of pandemic threats, investing billions in preparedness efforts such as vaccine development, and co-sponsoring Event 201 in October 2019, a simulation exercise focused on a coronavirus pandemic; these actions constitute advocacy and preparation for prevention, not evidence of planning the pandemic.
+
+Source URL: https://www.pbs.org/newshour/show/bill-gates-on-outlook-for-a-covid-19-vaccine-and-where-pandemic-will-hurt-most
+
+### Have any law enforcement or intelligence agencies from any nation concluded, based on evidence, that the COVID-19 pandemic was a pre-planned event involving Bill Gates?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### What is the history of the Bill & Melinda Gates Foundation's investments in vaccine development and global health initiatives, and did any of these investments fund gain-of-function research on coronaviruses?
+Answer: The Bill & Melinda Gates Foundation has made substantial investments in vaccine development and global health initiatives, but there is no evidence that any of these investments funded gain-of-function research on coronaviruses.
+
+Source URL: https://www.thenation.com/article/economy/bill-gates-investments-covid/
+
+### Did any public health authorities or international bodies (like the WHO) collaborate with Bill Gates on pandemic preparedness plans that included the creation of a novel pathogen?
+Answer: No, public health authorities and international bodies did not collaborate with Bill Gates on pandemic preparedness plans that included the creation of a novel pathogen; collaborations were instead focused on areas such as vaccine development, equitable distribution, and disease surveillance.
+
+Source URL: https://nymag.com/intelligencer/2020/09/bill-gates-hopes-covid-19-pandemic-doesnt-stretch-past-2022-interview.html
+
+### Have any whistleblowers with direct knowledge come forward to corroborate the claim that Bill Gates was involved in planning the COVID-19 pandemic?
+Answer: No whistleblowers with verified direct knowledge have come forward to corroborate the claim that Bill Gates was involved in planning the COVID-19 pandemic; any related allegations trace only to discredited virologist Dr. Judy Mikovits, whose prior research was not replicated by other scientists.
+
+Source URL: https://blockchain.news/news/bill-gates-planned-covid-19-pandemic-via-deep-state-circular-cabalsays-disgraced-dr-mikovits
+
+### Are the timelines of Bill Gates's public warnings about pandemics consistent with having prior specific knowledge of the COVID-19 outbreak, or do they align with general risk assessments made by epidemiologists?
+Answer: Bill Gates's public warnings about pandemics, such as his 2015 TED Talk, aligned with general risk assessments made by epidemiologists and reflected broad pandemic preparedness concerns, not prior specific knowledge of the COVID-19 outbreak.
+
+Source URL: https://www.cnbc.com/2020/05/12/bill-gates-wishes-hed-done-more-to-warn-about-pandemic-danger.html
+
+# Claim 46 — The umbilical cord should not be cut until 1 hour after birth or they baby will not have enough blood right after birth.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the current consensus among major global health organizations (like WHO, ACOG, AAP) regarding the optimal timing for umbilical cord clamping in healthy newborns?
+Answer: The current consensus among major global health organizations, including ACOG, WHO, and AAP, is to delay umbilical cord clamping for at least 30 to 60 seconds after birth in healthy newborns to enhance the transfer of beneficial blood, iron, stem cells, and antibodies.
+
+Source URL: https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-is-delayed-cord-clamping
+
+### What scientific evidence supports delaying umbilical cord clamping for approximately one minute (or longer) after birth?
+Answer: Delayed umbilical cord clamping for at least 30 to 60 seconds or approximately one minute or longer is recommended, as scientific evidence shows it increases blood volume, improves iron stores, reduces the risk of anemia, and allows transfer of nutrients and antibodies, supported by guidelines from organizations like the American College of Obstetricians and Gynecologists (ACOG) and the World Health Organization (WHO).
+
+Source URL: https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-is-delayed-cord-clamping
+
+### Is there any recognized medical guideline or robust clinical trial that specifically recommends a one-hour delay before cutting the umbilical cord?
+Answer: There is no recognized medical guideline or robust clinical trial that specifically recommends a one-hour delay before cutting the umbilical cord; instead, guidelines typically recommend delays of 30 seconds to 3 minutes.
+
+Source URL: https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-is-delayed-cord-clamping
+
+### What is the known mechanism of placental transfusion and how does delayed cord clamping affect the newborn's blood volume and iron stores?
+Answer: Placental transfusion is the mechanism by which blood continues to flow from the placenta to the newborn through the umbilical cord after birth, and delayed cord clamping increases the newborn's blood volume and enhances iron stores, helping to prevent iron deficiency anemia.
+
+Source URL: https://www.cpqcc.org/sites/default/files/DCC/DCC%20preterm%20cochrane%20review%202012.pdf
+
+### At what time point after birth does placental transfusion typically cease or become negligible?
+Answer: Placental transfusion typically ceases or becomes negligible within a few minutes after birth, at approximately 140 seconds (about 2-3 minutes).
+
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687772/
+
+### What are the documented benefits and potential risks of delaying cord clamping for 1-3 minutes as per current standard practice?
+Answer: Delayed cord clamping for 1-3 minutes increases neonatal blood volume and iron stores, supporting brain development and reducing the risk of iron deficiency anemia, with potential risks including infant jaundice and polycythemia.
+
+Source URL: https://www.birthinjuryhelpcenter.org/delayed-cord-clamping.html
+
+### What are the documented benefits and potential risks of delaying cord clamping for an extended period like one hour?
+Answer: Standard delayed cord clamping, typically defined as waiting 1 to 5 minutes after birth, is associated with documented benefits such as a significant increase in the baby's blood volume (by up to 33%), boosted iron stores supporting brain development, and potentially higher cognitive scores. The documented potential risks include hyperbilirubinemia (jaundice) and polycythemia (excess red blood cells), though recent research suggests these risks are minimal. Both accounts indicate that an extended delay of one hour is not supported by standard medical guidelines or well-documented in the literature.
+
+Source URL: https://www.birthinjuryhelpcenter.org/delayed-cord-clamping.html
+
+### Are there specific medical conditions in the mother or newborn (e.g., preterm birth, maternal hemorrhage, need for resuscitation) that would make immediate cord clamping medically necessary?
+Answer: **CONFLICT.** The retrieved document states that immediate cord clamping is medically necessary in cases such as interruptions in placental blood flow (e.g., placental abruption, bleeding placenta previa, bleeding vasa previa, cord avulsion), recipient twin in twin-to-twin transfusion syndrome, and congenital heart disease requiring immediate intubation, but notes insufficient evidence for newborns who require resuscitation at birth; the reasoner, which is certain of this assessment and would correct someone with it, reports from memory that conditions like preterm birth requiring immediate resuscitation, maternal hemorrhage, fetal distress, placental abruption, or other emergencies make immediate cord clamping medically necessary.
+
+Source URL: https://www.cpqcc.org/sites/default/files/Delayed%20Cord%20Clamping%20Guidelines%202.3.16.pdf
+
+### How is "enough blood" defined in neonatal medicine, and what is the evidence linking cord clamping timing to clinically significant blood volume deficits?
+Answer: **CONFLICT.** The retrieved document states that 'enough blood' in neonatal medicine is clinically defined by the maintenance of adequate cardiac output and hemodynamic stability, and evidence from a study on preterm lambs indicates that while placental transfusion can temporarily maintain cardiac output, ventilating the lungs before cord clamping is key to sustaining cardiac output and oxygenation, with the primary risk of immediate cord clamping being cardiovascular instability and acute hypoxia. The reasoner working from memory alone reports that it has no recollection of a standard definition for 'enough blood,' but infers it refers to sufficient blood volume to avoid hypovolemia or anemia, assessed via clinical signs and hemoglobin levels, and recalls evidence that delayed cord clamping for 30 seconds to 3 minutes increases blood volume and reduces deficits, though it is unaware of evidence supporting a one-hour delay; the reasoner is fairly certain of this assessment, near the top of its confidence range.
+
+Source URL: https://www.frontiersin.org/articles/10.3389/fped.2019.00405
+
+### Has the practice of delaying cord cutting for as long as one hour been studied, and if so, what were the findings regarding safety and neonatal outcomes?
+Answer: No studies specifically examine the safety or neonatal outcomes of delaying cord clamping for one hour; typical research and recommendations focus on shorter delays of one to three minutes.
+
+Source URL: https://parentingpatch.com/delayed-cord-clamping-two-minutes-results-better-immediate-newborn-outcomes/
+
+# Claim 51 — People who do not vote for the Bharatiya Janata Party (BJP) in the 2020 elections will not get the COVID vaccine free of cost.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did any legislative assembly election in India involving the Bharatiya Janata Party (BJP) take place in the year 2020?
+Answer: Yes, legislative assembly elections involving the Bharatiya Janata Party (BJP) took place in India in 2020, including the Delhi state election in February.
+
+Source URL: https://en.wikipedia.org/wiki/2020_Delhi_Legislative_Assembly_election
+
+### When did the national COVID-19 vaccination program begin in India?
+Answer: **CONFLICT.** The retrieved document states that no document was found bearing on when the national COVID-19 vaccination program began in India. The reasoner, working from memory alone and highly certain of its recollection, reports that the program began on January 16, 2021.
+
+Source URL: none -- retrieval returned no document
+
+### Was the COVID-19 vaccine widely available to the general public in India before or during the year 2020?
+Answer: The COVID-19 vaccine was not widely available to the general public in India before or during 2020, as vaccines were still undergoing clinical trials and were not yet approved or available for public use during that period.
+
+Source URL: https://www.orfonline.org/research/covid19-vaccine-development-access-and-distribution-in-the-indian-context-69538
+
+### Was there any official statement or announcement by the Bharatiya Janata Party (BJP) or the Indian government in 2020 that conditioned free COVID-19 vaccines on voting for the BJP?
+Answer: There was no official statement or announcement by the Bharatiya Janata Party or the Indian government in 2020 that conditioned free COVID-19 vaccines on voting for the BJP. During the 2020 Bihar elections, the BJP promised free vaccines to all residents of Bihar as a universal offer, not tied to voting behavior.
+
+Source URL: https://www.thehindubusinessline.com/news/a-non-existent-covid-vaccine-gets-caught-in-a-political-storm/article32921495.ece
+
+### Was there any official government policy or law enacted in India that made free COVID-19 vaccination contingent upon a person's voting record or political affiliation?
+Answer: There was no official government policy or law enacted in India that made free COVID-19 vaccination contingent upon a person's voting record or political affiliation.
+
+Source URL: https://www.thequint.com/coronavirus/covid-vaccine-free-tamil-nadu-cm-edappadi-palaniswami-one-third-chennai-serosurvey
+
+### Did any prominent leader or official of the Bharatiya Janata Party (BJP) make a public statement in 2020 linking the distribution of free COVID-19 vaccines to electoral support for the BJP?
+Answer: Yes, during the 2020 Bihar state election campaign, BJP leaders, including Union Finance Minister Nirmala Sitharaman, promised free COVID-19 vaccines if the BJP-led alliance won, thereby linking vaccine distribution to electoral support for the party.
+
+Source URL: https://www.newsclick.in/Bihar-Elections-BJP-Promises-Free-COVID-19-Vaccines-Opposition-%23-VaccinePolitics
+
+### Was the claim that "people who do not vote for the BJP will not get the free COVID vaccine" a verified news report or a fact-checked misinformation item?
+Answer: **CONFLICT.** The retrieved document states that the claim originates from an opinion article analyzing political promises and is not characterized as a verified news report or fact-checked misinformation item by a dedicated organization. The reasoner working from memory alone reports that, based on knowledge of BJP's vaccine promises and subsequent fact-checks, it was a fact-checked misinformation item, and is fairly certain of this assessment though inferring from adjacent facts rather than recalling directly.
+
+Source URL: https://www.indiatvnews.com/opinion/news-bihar-election-2020-poll-promises-jobs-development-standards-of-living-bjp-rjd-jdu-ljp-pm-modi-659069
+
+### Did any opposition political party in India formally allege or present evidence that the BJP was distributing vaccines based on voting patterns in the 2020 elections?
+Answer: While opposition parties criticized the BJP's vaccine promise as 'vaccine politics' or a political gimmick, no formal allegations or specific evidence were presented that the BJP was distributing vaccines based on voting patterns in the 2020 elections.
+
+Source URL: https://www.thehindubusinessline.com/news/a-non-existent-covid-vaccine-gets-caught-in-a-political-storm/article32921495.ece
+
+### Was there any documented instance where an individual in India was denied a free COVID-19 vaccine due to their known political voting preference?
+Answer: **CONFLICT.** The document-store fact-checker stated that the request was rejected because it was considered high risk. The internal-knowledge reasoner, which has no record of any documented instance where an individual in India was denied a free COVID-19 vaccine due to their known political voting preference and is close to guessing on this assessment, reports that no such instance exists.
+
+Source URL: https://www.thehindubusinessline.com/news/a-non-existent-covid-vaccine-gets-caught-in-a-political-storm/article32921495.ece
+
+### Did any credible international or domestic health organization (like the WHO or ICMR) report or comment on allegations of vaccine distribution being tied to political allegiance in India during the COVID-19 pandemic?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+# Claim 56 — Previous flu vaccines may have made President Donald Trump susceptible to COVID-19
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What are the verified medical records regarding Donald Trump's history of receiving influenza vaccines prior to 2020?
+Answer: There is no available information or verified medical records regarding Donald Trump's history of receiving influenza vaccines prior to 2020.
+
+Source URL: https://www.cidrap.umn.edu/influenza-vaccines/trump-signs-executive-order-improve-flu-vaccines
+
+### What is the scientific consensus in peer-reviewed literature regarding whether influenza vaccines increase susceptibility to infection with SARS-CoV-2?
+Answer: The scientific consensus in peer-reviewed literature, supported by health organizations and studies, is that influenza vaccination does not increase susceptibility to infection with SARS-CoV-2 and may help prevent co-infections.
+
+Source URL: https://www.snopes.com/fact-check/flu-vaccine-covid-buttar/
+
+### Is there a documented biological mechanism, such as "original antigenic sin" or vaccine-associated enhanced disease, that could cause a flu vaccine to increase the risk of contracting COVID-19?
+Answer: No documented biological mechanism, such as original antigenic sin or vaccine-associated enhanced disease, has been found that could cause a flu vaccine to increase the risk of contracting COVID-19, as influenza and SARS-CoV-2 are not sufficiently related viruses and expert consensus indicates the flu vaccine does not enhance susceptibility to other respiratory infections.
+
+Source URL: https://www.snopes.com/fact-check/flu-vaccine-covid-buttar/
+
+### Did Donald Trump test positive for COVID-19 due to known exposure events, such as the Rose Garden ceremony for Amy Coney Barrett?
+Answer: **CONFLICT.** The retrieved documents did not provide any information to answer the question about exposure events or COVID-19 positive tests. The reasoner, working from memory alone and with high confidence, reports that Donald Trump tested positive for COVID-19 in early October 2020, and that the September 26, 2020, Rose Garden ceremony for Amy Coney Barrett's nomination was widely identified and reported as a major exposure event linked to his and several other attendees' positive diagnoses.
+
+Source URL: none -- retrieval returned no document
+
+### Is there any epidemiological study that has found a positive correlation between receiving a seasonal flu vaccine and a higher incidence of COVID-19?
+Answer: No epidemiological study has found a positive correlation between receiving a seasonal flu vaccine and a higher incidence of COVID-19; early claims based on flawed pre-print research were investigated and rejected, and subsequent peer-reviewed studies consistently show no such link or even suggest possible benefits.
+
+Source URL: https://hselibrary.ie/does-the-flu-vaccine-increase-the-risk-of-contracting-covid-19/
+
+### What have leading public health organizations like the WHO or CDC stated about any potential link between influenza vaccination and COVID-19 susceptibility?
+Answer: Leading public health organizations such as the WHO and CDC have stated that there is no evidence that influenza vaccination increases susceptibility to COVID-19, and they recommend flu vaccines as part of public health measures during the pandemic.
+
+Source URL: https://www.snopes.com/fact-check/flu-vaccine-covid-buttar/
+
+### What is the origin (e.g., specific study, article, or individual) of the claim that flu vaccines may have made Donald Trump susceptible to COVID-19?
+Answer: **CONFLICT.** The retrieved document states that the claim originated from an Instagram post by @holistichealthandmore, which cited a clip from an August 31 interview between President Trump and Laura Ingraham and misinterpreted two scientific studies. The reasoner working from memory alone, which has no record of any specific origin for this claim and is close to guessing in this assessment, reports that it has no knowledge of a specific study, article, or individual that originated the claim.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/21/fact-check-donald-trumps-flu-shots-covid-risk-arent-linked/3623699001/
+
+### Were other public figures who received flu vaccines and subsequently contracted COVID-19, and did they experience different outcomes compared to Trump?
+Answer: No other public figures who received flu vaccines and subsequently contracted COVID-19 are documented, so their outcomes compared to President Trump's cannot be assessed; however, research suggests that influenza vaccination may reduce COVID-19 susceptibility and hospitalization risk.
+
+Source URL: https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1889175
+
+### What were Donald Trump's other established risk factors for severe COVID-19, such as age, weight, or pre-existing conditions?
+Answer: **CONFLICT.** The retrieved document states that it does not contain details on Donald Trump's weight or specific pre-existing conditions relevant to COVID-19 risk, only noting his age during the 2016 campaign and lack of regular exercise. The reasoner, working from memory alone and reporting with high confidence, states that Trump's established risk factors for severe COVID-19 included his age of 74, reported overweight or obese status, and pre-existing conditions such as high cholesterol for which he was taking a statin.
+
+Source URL: https://www.nbcnews.com/politics/2016-election/trump-pledges-release-medical-records-showing-perfection-n473401
+
+### Have medical experts or Trump's own physicians ever publicly linked his COVID-19 infection to prior flu vaccination?
+Answer: Medical experts and Trump's own physicians have not publicly linked his COVID-19 infection to prior flu vaccination.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/21/fact-check-donald-trumps-flu-shots-covid-risk-arent-linked/3623699001/
+
+# Claim 61 — The large image of the Joe Biden and Kamala Harris logo projected onto a Harley-Davidson location in Milwaukee US indicates the motorcycle manufacturer's endorsement of the US Democratic presidential nominee.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was a large image of the Joe Biden and Kamala Harris presidential campaign logo projected onto a Harley-Davidson property or building in Milwaukee, Wisconsin, USA?
+Answer: There is no record or information indicating that a large image of the Joe Biden and Kamala Harris presidential campaign logo was projected onto a Harley-Davidson property or building in Milwaukee, Wisconsin, USA.
+
+Source URL: https://www.history.com/topics/us-presidents/joe-biden
+
+### On what specific date and at what time did this projection of the Biden-Harris logo occur?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### Which specific Harley-Davidson location in Milwaukee was the projection made upon (e.g., a dealership, the corporate headquarters, the museum)?
+Answer: **CONFLICT.** The retrieved document states that the request was rejected because it was considered high risk, so no information on the specific Harley-Davidson location in Milwaukee is available. The reasoner working from memory alone reports that the projection was made on the Harley-Davidson Museum in Milwaukee, though it is not very certain of this.
+
+Source URL: https://docshd.com/company-info
+
+### Who organized, authorized, and paid for the projection of the Biden-Harris logo onto the Harley-Davidson location?
+Answer: **CONFLICT.** The retrieved document states that the projection was organized, authorized, and paid for by the United Steelworkers union as part of their 'bat light' campaign to endorse Joe Biden and Kamala Harris. The reasoner working from memory alone, which has no specific knowledge of the organizers and is uncertain about this detail, recalls that the incident occurred during the 2020 campaign, Harley-Davidson publicly disavowed it, and it was widely reported as being done by political activists rather than Harley-Davidson itself, but cannot reliably name the specific organizers or payers.
+
+Source URL: https://chicago.suntimes.com/news/2020/10/17/21521296/united-steelworkers-shine-biden-harris-projection-on-trump-tower-chicago
+
+### Was the projection authorized or approved in advance by the Harley-Davidson Motor Company or its local franchise/dealership owner?
+Answer: **CONFLICT.** The document store returned no document that could answer this question. The reasoner, working from memory alone and fairly certain of its assessment, reports that the projection was not authorized or approved in advance by the Harley-Davidson Motor Company or its local franchise/dealership owner, stating that Harley-Davidson explicitly said it was not authorized.
+
+Source URL: none -- retrieval returned no document
+
+### Did Harley-Davidson issue an official public statement or press release regarding this projection event?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### In any official statement, did Harley-Davidson explicitly endorse Joe Biden and Kamala Harris for President and Vice President?
+Answer: Harley-Davidson did not make any official statement explicitly endorsing Joe Biden and Kamala Harris for President and Vice President.
+
+Source URL: https://www.eenews.net/articles/can-dems-ride-a-new-harley-crowd-to-electoral-success/
+
+### What was the stated purpose or context of the projection event, according to the organizers?
+Answer: **CONFLICT.** The retrieved document states that the projection event was organized by the United Steelworkers union to endorse Joe Biden and highlight worker issues in a COVID-friendly way to encourage voting and spark conversations. The reasoner working from memory alone reports that it has no record of any projection event of the Joe Biden and Kamala Harris logo onto a Harley-Davidson location in Milwaukee, nor any information about organizers or their stated purpose, with low confidence in this assessment, as it is close to guessing on the event's existence.
+
+Source URL: https://chicago.suntimes.com/news/2020/10/17/21521296/united-steelworkers-shine-biden-harris-projection-on-trump-tower-chicago
+
+### Is there any evidence that Harley-Davidson as a corporation has made a formal, official endorsement in the 2020 U.S. presidential election?
+Answer: There is no evidence that Harley-Davidson as a corporation made a formal, official endorsement in the 2020 U.S. presidential election.
+
+Source URL: https://www.eenews.net/articles/can-dems-ride-a-new-harley-crowd-to-electoral-success/
+
+### Did the projection occur in connection with a campaign rally, political event, or protest that was unrelated to a corporate endorsement by Harley-Davidson?
+Answer: The projection occurred in connection with a campaign visit by vice presidential candidate Kamala Harris to Milwaukee, which was part of a political campaign and not indicative of a corporate endorsement by Harley-Davidson.
+
+Source URL: https://www.jsonline.com/picture-gallery/news/2020/09/07/vice-president-candidate-kamala-harris-visits-milwaukee/5739127002/
+
+# Claim 65 — Someone who couldn't afford health care under Barack Obama's Affordable Care Act gets penalized $10,000
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Under the Affordable Care Act's individual mandate, was there a federal tax penalty for not having minimum essential health insurance coverage?
+Answer: Under the Affordable Care Act's individual mandate, there was a federal tax penalty for not having minimum essential health insurance coverage until it was reduced to zero for years after 2018.
+
+Source URL: https://www.hollandhart.com/2019-repeal-of-the-affordable-care-acts-individual-mandate-penalties
+
+### 2. What was the specific formula or structure for calculating the ACA individual mandate penalty?
+Answer: The ACA individual mandate penalty was calculated as the greater of a flat dollar amount per adult (and half that for children) or a percentage of household income above the tax filing threshold, whichever was higher, with the annual amount capped at the national average bronze-level plan premium. The specific figures were phased in over time, such as starting at $95 per adult or 1% of income in 2014 and rising to $695 per adult or 2.5% of income by 2016.
+
+Source URL: https://www.kff.org/interactive/penalty-calculator/
+
+### 3. During the years the ACA individual mandate penalty was in effect (2014-2018), what were the maximum penalty amounts for an individual and a family?
+Answer: The ACA individual mandate penalty was structured as the greater of a flat fee or a percentage of household income, and it was capped.
+
+Source URL: https://www.kff.org/interactive/penalty-calculator/
+
+### 4. Did the Affordable Care Act provide exemptions from the individual mandate penalty for individuals deemed unable to afford coverage?
+Answer: The Affordable Care Act provided exemptions from the individual mandate penalty for individuals who could not afford coverage, based on affordability criteria such as the cost of insurance exceeding a specified percentage of household income.
+
+Source URL: https://www.healthinsurance.org/glossary/individual-mandate/
+
+### 5. What were the specific income-based criteria or "affordability" thresholds established by the ACA or its implementing regulations for claiming an exemption due to unaffordable coverage?
+Answer: **CONFLICT.** The retrieved document states that the ACA established an affordability threshold originally set at 9.5% of household income, adjusted annually for inflation, with examples for 2022 and 2023, and employer safe harbors for affordability determinations. The reasoner, working from memory alone and with high certainty, reports that in 2014, the threshold was 8% of household income and was updated in subsequent years.
+
+Source URL: https://www.shrm.org/topics-tools/news/benefits-compensation/affordable-care-act-coverage-terms
+
+### 6. For the 2014 tax year, what was the exact dollar amount of the ACA individual mandate penalty for an individual, and what was the maximum cap if any?
+Answer: **CONFLICT.** For the 2014 tax year, the retrieved document states that the individual mandate penalty was $95 or 1% of modified adjusted gross income, with no specific maximum cap mentioned. The reasoner, which is fairly confident in its answer, reports that the penalty was $95 or 1% of household income above the filing threshold and was capped at the national average premium for a Bronze plan, though the exact cap amount is not recalled.
+
+Source URL: https://spfinsurance.com/california-health-care-reform/what-is-health-care-reform-california/mandates/
+
+### 7. For the 2015 tax year, what was the exact dollar amount of the ACA individual mandate penalty for an individual, and what was the maximum cap if any?
+Answer: For the 2015 tax year, the ACA individual mandate penalty for an individual was the greater of $325 or 2% of income, and the maximum penalty was capped at the national average premium for a bronze-level health plan, which was $207 per month or $2,484 annually.
+
+Source URL: https://sgp.fas.org/crs/misc/R41331.pdf
+
+### 8. For the 2016 tax year, what was the exact dollar amount of the ACA individual mandate penalty for an individual, and what was the maximum cap if any?
+Answer: For the 2016 tax year, the ACA individual mandate penalty for an individual was the greater of $695 per adult or 2.5% of income exceeding the tax filing threshold, capped at the national average premium for a Bronze plan, which was $2,484 for single coverage.
+
+Source URL: https://www.kff.org/health-reform/issue-brief/the-cost-of-the-individual-mandate-penalty-for-the-remaining-uninsured/
+
+### 9. For the 2017 tax year, what was the exact dollar amount of the ACA individual mandate penalty for an individual, and what was the maximum cap if any?
+Answer: For the 2017 tax year, the ACA individual mandate penalty's flat fee component was $695 per adult ($347.50 per child under 18), with a family maximum of $2,085. The penalty was calculated as the greater of 2.5% of household income above the filing threshold or this flat fee, and was capped at the average national premium for a bronze-level health plan.
+
+Source URL: https://www.hollandhart.com/2019-repeal-of-the-affordable-care-acts-individual-mandate-penalties
+
+### 10. For the 2018 tax year, what was the exact dollar amount of the ACA individual mandate penalty for an individual, and what was the maximum cap if any?
+Answer: For the 2018 tax year, the ACA individual mandate penalty for an individual was $695 per adult or 2.5% of household income above the filing threshold, whichever was greater, with a maximum cap based on the average cost of a bronze plan, but the exact cap dollar amount was not provided.
+
+Source URL: https://www.hollandhart.com/2019-repeal-of-the-affordable-care-acts-individual-mandate-penalties
+
+# Claim 71 — India's imports from China increased by 27% during the period April-August 2020.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. According to official trade statistics from India or China, what was the total value of India's imports from China for the period of April to August 2020?
+Answer: **CONFLICT.** The retrieved document states that according to official Indian government data, India's imports from China during April-August 2020 totaled $21.58 billion. The reasoner, working from memory alone and close to guessing, reports that it has no record of the total value from any official trade statistics for that period.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 2. According to official trade statistics, what was the total value of India's imports from China for the corresponding reference period used to calculate the claimed 27% increase (e.g., April-August 2019)?
+Answer: **CONFLICT.** The retrieved document states that using a 27.63% decline, India's imports from China for the reference period April-August 2019 were approximately $29.82 billion. The reasoner, which has no record of this value and is nearly guessing in its lack of knowledge, reports that it has no information on the total value for that period.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 3. Based on the values for the two periods in question, what is the calculated percentage increase in India's imports from China?
+Answer: **CONFLICT.** The retrieved document states that the calculated percentage change in India's imports from China during April-August 2020-21 was a decline of 27.63%. The reasoner working from memory alone, with low confidence in its recall, reports that it has no record of the specific import values and therefore cannot calculate the percentage increase.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 4. Is the 27% increase stated in the claim measured in terms of U.S. dollar value or in Indian rupee value?
+Answer: **CONFLICT.** The retrieved document states that India's imports from China declined by 27.63% during April-August 2020, measured in U.S. dollar value. The reasoner working from memory alone, which has no record of any 27% increase in imports during that period and is close to guessing that such an increase did not occur, reports that it cannot determine whether the increase is measured in U.S. dollars or Indian rupees.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 5. Which specific official or authoritative source (e.g., India's Ministry of Commerce & Industry, China Customs, UN Comtrade database) published the data showing this import increase?
+Answer: **CONFLICT.** The retrieved document states that the data was published by India's Commerce and Industry Minister Piyush Goyal in a written reply to the Lok Sabha. The reasoner, working from memory alone and with low confidence in its knowledge, reports that it has no record of any specific official or authoritative source publishing data showing India's imports from China increased by 27% during April-August 2020.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 6. Does the 27% increase apply to total merchandise imports from China, or does it refer to a specific product category or sector?
+Answer: **CONFLICT.** The retrieved document states that the 27.63% figure applies to India's total merchandise imports from China during April-August 2020-21, noting that it represents a decline rather than an increase. The reasoner working from memory alone, which has no record of any such 27% increase in India's imports from China and is close to guessing on this assessment, reports that it cannot determine whether the figure refers to total merchandise imports or a specific product category or sector.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 7. How does this 27% increase for April-August 2020 compare to the year-on-year import growth trends from China in the same period during previous years (e.g., 2018 and 2019)?
+Answer: **CONFLICT.** The retrieved document states that India's imports from China declined by 27.63% during April-August 2020 and provides no data on import growth trends for the same period in 2018 or 2019; the reasoner, which is uncertain in its recollection, reports no record of the claimed 27% increase or of year-on-year import growth figures from China for April-August 2018 and 2019.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 8. What were the major commodity categories (e.g., electronics, machinery, chemicals) that contributed most to the increase in India's imports from China during this period?
+Answer: **CONFLICT.** The retrieved document states that major commodity categories contributing to the increase in India's imports from China during April-August 2020 included medical supplies, heavy machinery, telecom equipment, home appliances, and electronics. The reasoner working from memory alone reports that it has no specific recollection of data breaking down the import increase by commodity category and is close to guessing on this assessment.
+
+Source URL: https://www.drishtiias.com/daily-news-analysis/china-india-s-top-trading-partner-in-2020/print_manually
+
+### 9. Were there any significant global or bilateral factors during April-August 2020, such as post-first-wave COVID-19 economic recovery, government policies, or inventory restocking, that could explain a surge in imports?
+Answer: **CONFLICT.** The retrieved document states that India's imports from China declined by 27.63% during April-August 2020, so there is no surge to explain. The reasoner working from memory alone, which is fairly certain of its inference, reports that it has no recollection of a specific surge but infers that factors such as post-lockdown economic recovery, China's early recovery and role as a major supplier of pandemic-related goods, global supply chain disruptions leading to inventory restocking, and continued bilateral trade despite tensions could plausibly explain higher imports.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 10. Did any external reports or analyses from financial institutions or trade think-tanks corroborate or dispute the claim of a 27% import increase from China during this timeframe?
+Answer: **CONFLICT.** The retrieved document, citing parliamentary statements by India's Commerce and Industry Minister, states that India's imports from China declined by 27.63% during April-August 2020-21 over the corresponding period, directly contradicting the claim of a 27% increase. The reasoner working from memory alone, which is near-guessing in this assessment, reports that it has no record of any specific external reports or analyses from financial institutions or trade think-tanks that corroborated or disputed the 27% import increase claim during the April-August 2020 timeframe, though it notes India-China trade was widely covered that year.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+# Claim 74 — The Iowa Farm Bureau, US says that it would no longer be endorsing US Republican Iowa Sen. Joni Ernst for her re-election
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Has the Iowa Farm Bureau officially endorsed U.S. Senator Joni Ernst in any prior Iowa election cycle?
+Answer: **CONFLICT.** The retrieved document states that the Iowa Farm Bureau officially endorsed U.S. Senator Joni Ernst in the 2020 election cycle, naming her a 'Friend of Agriculture' via the IFBF PAC. The reasoner, working from memory alone, reports that it has no record of the Iowa Farm Bureau officially endorsing U.S. Senator Joni Ernst in any prior election cycle, and is not confident in this assessment.
+
+Source URL: https://www.iowafieldreport.com/campaigns/ernst-endorsed-by-the-iowa-farm-bureau/
+
+### 2. Did the Iowa Farm Bureau issue an official public statement or press release announcing that it would no longer endorse Senator Joni Ernst for re-election?
+Answer: No official public statement or press release from the Iowa Farm Bureau announcing an end to its endorsement of Senator Joni Ernst for re-election is found.
+
+Source URL: https://www.iowafarmbureau.com/Article/FB-designates-Friends-of-Ag
+
+### 3. On what date did the Iowa Farm Bureau allegedly announce that it would stop endorsing Senator Joni Ernst for her re-election?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 4. For which specific re-election campaign did the Iowa Farm Bureau allegedly decide not to endorse Senator Joni Ernst?
+Answer: Only the document store answered this question; the memory-only reasoner produced no usable answer. From the document store: The document store returned no document that could answer this question; retrieval found nothing bearing on it.
+
+Source URL: none -- retrieval returned no document
+
+### 5. What reason, if any, did the Iowa Farm Bureau provide for withdrawing or withholding its endorsement of Senator Joni Ernst?
+Answer: The Iowa Farm Bureau did not provide a reason for withdrawing or withholding its endorsement of Senator Joni Ernst because no such withdrawal occurred; the Bureau explicitly stated that reports of pulling support were based on a 'fake email' and reaffirmed its designation of Ernst as a Friend of Agriculture.
+
+Source URL: https://www.iowafarmbureau.com/Article/Statement-by-Iowa-Farm-Bureau-Federation
+
+### 6. Has Senator Joni Ernst publicly responded to the Iowa Farm Bureau's alleged decision to stop endorsing her?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 7. Has any major news outlet reported on the Iowa Farm Bureau's decision to discontinue its endorsement of Senator Joni Ernst?
+Answer: No major news outlet has reported on the Iowa Farm Bureau discontinuing its endorsement of Senator Joni Ernst; the Iowa Farm Bureau's own statement confirms its continued support by designating her as a 'Friend of Agriculture' for the 2020 election.
+
+Source URL: https://www.iowafarmbureau.com/Article/FB-designates-Friends-of-Ag
+
+### 8. Does the Iowa Farm Bureau's official website or published records confirm or deny the alleged withdrawal of endorsement of Senator Joni Ernst?
+Answer: The Iowa Farm Bureau officially endorsed Senator Joni Ernst, and there is no information in their published records regarding a withdrawal of that endorsement.
+
+Source URL: https://www.iowafieldreport.com/campaigns/ernst-endorsed-by-the-iowa-farm-bureau/
+
+### 9. Has the Iowa Farm Bureau endorsed any other candidate or declared neutrality in the relevant Iowa U.S. Senate race following the alleged withdrawal of support for Senator Joni Ernst?
+Answer: The Iowa Farm Bureau has not withdrawn its endorsement of Senator Joni Ernst, and there is no indication that it endorsed another candidate or declared neutrality in the relevant Iowa U.S. Senate race following such an event.
+
+Source URL: https://www.iowafieldreport.com/campaigns/ernst-endorsed-by-the-iowa-farm-bureau/
+
+### 10. Have any officials or spokespersons from the Iowa Farm Bureau made public remarks confirming or disputing the claim that the organization would no longer endorse Senator Joni Ernst?
+Answer: **CONFLICT.** The retrieved document states that officials from the Iowa Farm Bureau, specifically PAC Chair Erik Oberbroeckling, made public remarks confirming the organization's endorsement of Senator Joni Ernst, directly disputing the claim that it would no longer endorse her. The reasoner, working from memory alone and with low confidence in this assessment, reports that it has no record of any Iowa Farm Bureau officials or spokespersons making public remarks confirming or disputing the claim.
+
+Source URL: https://www.iowafieldreport.com/campaigns/ernst-endorsed-by-the-iowa-farm-bureau/
+
+# Claim 77 — A third of excess deaths in the United States between 1 March and  1 August 2020 during the COVID-19 pandemic could not be directly attributed to the coronavirus
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### How many total excess deaths occurred in the United States between March 1, 2020, and August 1, 2020, according to reliable mortality data sources such as the CDC or the National Center for Health Statistics?
+Answer: **CONFLICT.** The retrieved document states that there were 225,530 excess deaths in the United States between March 1 and August 1, 2020, based on data from the National Center for Health Statistics and the U.S. Census Bureau. The reasoner working from memory alone, which is close to guessing on this matter, reports that it has no record of the specific number of total excess deaths for that period.
+
+Source URL: https://www.cnn.com/2020/10/12/health/us-deaths-covid-19-pandemic-jama-study/index.html
+
+### What baseline or expected number of deaths was used to calculate excess deaths in the United States for the period of March 1 to August 1, 2020, and what methodology was used to establish that baseline?
+Answer: The baseline or expected number of deaths for excess death calculations was established using historical U.S. mortality data from prior years, adjusted for seasonal trends and data-reporting delays, to project what death counts would have been without the pandemic.
+
+Source URL: https://theconversation.com/279-700-extra-deaths-in-the-us-so-far-in-this-pandemic-year-147887
+
+### How many deaths in the United States between March 1 and August 1, 2020, were officially attributed to COVID-19 by the Centers for Disease Control and Prevention (CDC) or equivalent authority?
+Answer: Approximately 150,000 to 160,000 deaths were officially attributed to COVID-19 in the United States between March 1 and August 1, 2020.
+
+Source URL: https://www.cnn.com/2020/10/12/health/us-deaths-covid-19-pandemic-jama-study/index.html
+
+### What peer-reviewed research study or official report identified the proportion of excess deaths in the United States during the early pandemic period that could not be directly attributed to COVID-19?
+Answer: **CONFLICT.** The retrieved document states that the peer-reviewed study by Woolf et al. published in JAMA on October 12, 2020 found that one-third of excess deaths in the United States between March and August 2020 could not be directly attributed to COVID-19. The reasoner, confident in its recollection, reports that the study was published in JAMA Network Open on the same date and identified the same proportion of excess deaths not directly attributed to the coronavirus.
+
+Source URL: https://www.cnn.com/2020/10/12/health/us-deaths-covid-19-pandemic-jama-study/index.html
+
+### In the referenced study or report, how was the term "directly attributed to the coronavirus" defined—did it include only laboratory-confirmed COVID-19 deaths, or did it also include probable and suspected cases?
+Answer: **CONFLICT.** The retrieved document states that 'directly attributed to the coronavirus' referred to deaths officially classified as COVID-19, relying on laboratory confirmation, with discrepancies arising from limited testing and varying guidelines for suspected cases. The reasoner, which has no record of the study and is close to guessing, reports that it cannot provide information on how the term was defined.
+
+Source URL: https://www.cidrap.umn.edu/covid-19/about-30-covid-deaths-may-not-be-classified-such
+
+### Does the figure of one-third unattributable excess deaths align with findings from multiple independent studies, or is it derived from a single source?
+Answer: **CONFLICT.** The retrieved document states that the figure of one-third unattributable excess deaths is derived from a single study, estimating 26% of excess deaths from February to September 2020 were not directly attributed to COVID-19, close to one-third. The reasoner working from memory alone reports that it has no record of whether this figure aligns with multiple studies or is derived from a single source, and it is very uncertain about this, being close to guessing.
+
+Source URL: https://penntoday.upenn.edu/news/US-covid-deaths-may-be-underestimated-36-percent
+
+### What were the leading causes of the excess deaths in the United States between March 1 and August 1, 2020, that were not directly attributed to COVID-19, such as heart disease, diabetes, or Alzheimer's disease?
+Answer: The leading causes of excess deaths not directly attributed to COVID-19 between March 1 and August 1, 2020, included heart disease, diabetes, and Alzheimer's disease, with increases often associated with healthcare disruptions during the pandemic and, in some cases, possible undocumented COVID-19 infections.
+
+Source URL: https://societyhealth.blog/in-follow-up-study-center-finds-that-excess-death-trend-continues-through-covid-19-pandemic/
+
+### Did any official medical or public health bodies (such as the CDC or the National Academies of Sciences) confirm that indirect effects of the pandemic—including delayed medical care, avoidance of hospitals, and disruptions to chronic disease management—contributed to excess deaths during this period?
+Answer: **CONFLICT.** The retrieved document states that the CDC confirmed that indirect effects of the pandemic, including disruptions to healthcare, contributed to excess deaths. The reasoner working from memory alone reports that it has no specific recollection of explicit confirmation from the CDC or National Academies of Sciences on this point, but with moderate confidence, infers that such confirmation is likely based on CDC data on excess deaths and studies discussing factors like delayed medical care.
+
+Source URL: https://www.cdc.gov/mmwr/volumes/69/wr/pdfs/mm6942e2-H.pdf
+
+### Is the claim that approximately one-third of excess deaths were unattributed consistent with the findings of the widely cited study by Woolf et al. published in JAMA in October 2020?
+Answer: The Woolf et al. study published in JAMA in October 2020 reported that approximately one-third of excess deaths in the United States between March and August 2020 were not directly attributed to COVID-19, supporting the claim.
+
+Source URL: https://www.cdc.gov/mmwr/volumes/69/wr/pdfs/mm6942e2-H.pdf
+
+### How does the proportion of unattributed excess deaths in the United States between March 1 and August 1, 2020, compare to similar figures reported in other countries during the same time period?
+Answer: There is no available information to compare the proportion of unattributed excess deaths in the United States between March 1 and August 1, 2020, with similar figures from other countries during the same period.
+
+Source URL: https://www.cbsnews.com/baltimore/news/us-sees-20-more-deaths-than-expected-this-year-most-due-to-covid-19-maryland-among-states-with-biggest-jump-research-finds/
+
+# Claim 78 — Prominent US Democrat party members including Hillary and Bill Clinton, were running a child sex-trafficking ring in the basement of a Washington, D.C., pizzeria.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Has any official law enforcement investigation in the United States ever produced evidence or charges confirming that Hillary Clinton or Bill Clinton operated a child sex-trafficking ring?
+Answer: No official law enforcement investigation in the United States has ever produced evidence or charges confirming that Hillary Clinton or Bill Clinton operated a child sex-trafficking ring; the allegations are false and part of a debunked conspiracy theory.
+
+Source URL: https://slate.com/news-and-politics/2016/12/the-comet-ping-pong-pizzagate-scandal-is-a-child-sex-ring-myth-for-the-age-of-trump.html
+
+### 2. Has any court, grand jury, or official legal proceeding in the United States ever indicted or convicted Hillary Clinton or Bill Clinton for involvement in child sex-trafficking?
+Answer: No court, grand jury, or official legal proceeding in the United States has ever indicted or convicted Hillary Clinton or Bill Clinton for involvement in child sex-trafficking.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/06/21/fact-check-hillary-clinton-wasnt-court-testifying-june-2/3199725001/
+
+### 3. Does the specific pizzeria in Washington, D.C., referenced in the claim have a physical basement that could have been used for the alleged activities?
+Answer: The specific pizzeria referenced in the claim, Comet Ping Pong in Washington, D.C., does not have a physical basement.
+
+Source URL: https://www.nbcwashington.com/news/local/dc-pizzeria-owner-receiving-death-threats-after-conspiracy-theory-circulates/89424/
+
+### 4. Has any investigative body, such as the FBI, Metropolitan Police Department of D.C., or a congressional committee, ever confirmed the existence of a child sex-trafficking ring operating from a pizzeria in Washington, D.C.?
+Answer: No investigative body has ever confirmed the existence of a child sex-trafficking ring operating from a pizzeria in Washington, D.C.; investigations have found the claims to be unfounded and part of a debunked conspiracy theory.
+
+Source URL: https://www.nbcwashington.com/news/local/dc-pizzeria-owner-receiving-death-threats-after-conspiracy-theory-circulates/89424/
+
+### 5. What is the original source or publication that first disseminated this specific claim about the Clintons and a pizzeria, and what is that source's history of factual accuracy?
+Answer: The claim about the Clintons and a pizzeria first disseminated on the 4chan forum, specifically on its /pol/ board, and 4chan has a history of low factual accuracy due to its anonymous nature and prevalence of hoaxes and misinformation.
+
+Source URL: https://hyperallergic.com/347458/artist-targeted-by-pizzagate-conspiracy-theory-speaks/
+
+### 6. Are there any credible, verified victims or witnesses who have publicly testified to being trafficked by Hillary Clinton, Bill Clinton, or other prominent Democratic Party members from a Washington, D.C., pizzeria?
+Answer: There are no credible, verified victims or witnesses who have publicly testified to being trafficked by Hillary Clinton, Bill Clinton, or other prominent Democratic Party members from a Washington, D.C., pizzeria. The Pizzagate conspiracy theory has been widely discredited, with law enforcement finding no supporting evidence, and the rumor was fueled by misinterpreted social media posts and emails rather than any victim testimony.
+
+Source URL: https://www.snopes.com/fact-check/pizzagate-conspiracy/
+
+### 7. Has any independent, non-partisan fact-checking organization (e.g., PolitiFact, FactCheck.org, Snopes) evaluated this specific claim and determined it to be true?
+Answer: No independent, non-partisan fact-checking organization has determined this claim to be true; the claim has been debunked as false by organizations such as PolitiFact, FactCheck.org, and Snopes.
+
+Source URL: https://www.oxygen.com/very-real/fake-news-accused-hillary-clinton-of-sex-crimes-and-ruined-this-pizzeria
+
+### 8. Were any employees, owners, or associates of the unnamed Washington, D.C., pizzeria ever formally investigated or charged in connection with a child sex-trafficking ring linked to the Clintons?
+Answer: No employees, owners, or associates of the Washington, D.C., pizzeria were ever formally investigated or charged in connection with a child sex-trafficking ring linked to the Clintons, as the claim is a debunked conspiracy theory.
+
+Source URL: https://www.csmonitor.com/USA/2016/1205/Gunman-at-Comet-Ping-Pong-sought-to-self-investigate-fake-Clinton-report
+
+### 9. Beyond naming Hillary and Bill Clinton, does the claim provide any verifiable names or roles of the other "prominent US Democrat party members" allegedly involved?
+Answer: The claim does not provide any verifiable names or roles of other prominent US Democrat party members beyond Hillary and Bill Clinton.
+
+Source URL: https://u.osu.edu/vanzandt/2018/04/18/pizzagate-conspiracy/
+
+### 10. Is there any documented evidence of communications, financial transactions, or physical evidence linking Hillary Clinton, Bill Clinton, or other specified Democratic figures to the operation of a sex-trafficking ring at a specific D.C. pizzeria?
+Answer: There is no documented evidence of communications, financial transactions, or physical evidence linking Hillary Clinton, Bill Clinton, or other specified Democratic figures to the operation of a sex-trafficking ring at a Washington, D.C., pizzeria; the allegations are part of a fabricated conspiracy theory that has been widely debunked.
+
+Source URL: https://www.oxygen.com/very-real/fake-news-accused-hillary-clinton-of-sex-crimes-and-ruined-this-pizzeria
+
+# Claim 80 — “Red-tagging” is a term invented by the Communist Party of the Philippines, the New People's Army, and the National Democratic Front (CPP-NPA-NDF).
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. What is the established definition of the political term "Red-tagging"?
+Answer: Red-tagging is the political term for the act of labeling, branding, or accusing individuals and/or organizations of being left-leaning, subversives, communists, or terrorists, often as a strategy by state agents such as law enforcement and the military against perceived threats or enemies of the state.
+
+Source URL: https://www.philstar.com/headlines/2019/10/07/1958232/how-activists-respond-being-tagged-rebels
+
+### 2. In what year or time period did the term "Red-tagging" first appear in documented public or political discourse?
+Answer: **CONFLICT.** According to a retrieved document, the term 'Red-tagging' first appeared in documented public or political discourse in 2011, as it was defined in a journal that year and subsequently cited in a 2015 Supreme Court dissenting opinion. The reasoner working from memory alone, which has no record of when the term first appeared and is not confident in this assessment, reports that it has no knowledge of the time period.
+
+Source URL: https://www.wikiwand.com/en/Red-tagging_in_the_Philippines
+
+### 3. What is the earliest known published source (e.g., document, newspaper, interview) that uses the exact term "Red-tagging"?
+Answer: **CONFLICT.** The retrieved document states that House Bill No. 9199, approved on June 3, 2019, is the earliest known published source using the exact term 'Red-tagging', though exact initial publication date or earlier sources are not specified. The reasoner working from memory alone, with low confidence in this assessment, reports that it has no record of any published source using the exact term 'Red-tagging'.
+
+Source URL: https://opinion.inquirer.net/127085/red-tagging-in-up-diliman
+
+### 4. Does the earliest known source for the term "Red-tagging" originate from a document or statement issued by the Communist Party of the Philippines, the New People's Army, or the National Democratic Front?
+Answer: The term 'Red-tagging' originated in the Philippines in the mid-1950s, historically associated with McCarthyist strategies used to label individuals as communists, and its earliest known source is not a document or statement issued by the Communist Party of the Philippines, the New People's Army, or the National Democratic Front; it is more commonly described as a tactic employed by governments and security forces against activists.
+
+Source URL: https://www.bbc.com/news/world-asia-54144623
+
+### 5. Are there historical records showing the term "Red-tagging" being used by political groups, academics, or government agencies in the Philippines prior to any known usage by the CPP-NPA-NDF?
+Answer: **CONFLICT.** The retrieved document states that historical records show the term 'red-tagging' being used by political groups and government agencies in the Philippines prior to any known usage by the CPP-NPA-NDF, with the Wikipedia article noting it is a 'relic of the Cold War' and citing the 1950s targeting of Johnny Tan by the Committee on Un-Filipino Activities as an example. The reasoner, working from memory alone and close to guessing in its assessment, reports that it has no recollection of any such historical records and suggests that the premise of known usage by the CPP-NPA-NDF is likely incorrect.
+
+Source URL: https://www.wikiwand.com/en/Red-tagging_in_the_Philippines
+
+### 6. Have Filipino human rights organizations or civil society groups independently claimed to have coined or popularized the term "Red-tagging"?
+Answer: **CONFLICT.** The document-store fact-checker reported that the request was rejected because it was considered high risk, so it did not provide any information on the claim. The reasoner working from memory alone reports that it has no record of Filipino human rights organizations or civil society groups independently claiming to have coined or popularized the term 'Red-tagging', with low confidence in this assessment, indicating it is close to guessing.
+
+Source URL: http://www.indigenouspeoples-sdg.org/index.php/english/ttt/1369-chr-denounces-red-tagging-of-groups-individuals-amid-covid-19-crisis
+
+### 7. Is there scholarly research or linguistic analysis that traces the etymology of the term "Red-tagging" to a specific origin point or author?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 8. Did any key figure or document within the CPP-NPA-NDF explicitly claim credit for inventing the term "Red-tagging"?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 9. Has the meaning or application of the term "Red-tagging" changed significantly since its first known use?
+Answer: **CONFLICT.** The retrieved document states that while the core meaning of 'red-tagging' has remained consistent, its application has significantly expanded over time to target a broader range of groups and intensify consequences. The reasoner working from memory alone, which has no record of any significant changes and is close to guessing based on limited knowledge, reports that the term's meaning or application has not changed since its first known use.
+
+Source URL: https://www.wikiwand.com/en/Red-tagging_in_the_Philippines
+
+### 10. Do historians of the Philippine left movement confirm or refute the attribution of the term's invention to the CPP-NPA-NDF?
+Answer: **CONFLICT.** The retrieved document states that historians refute the attribution of the term's invention to the CPP-NPA-NDF, with historian Joseph Scalice asserting that red-tagging began in the Philippines in the mid-1950s as a state strategy linked to McCarthyism. The reasoner, working from memory alone and with low confidence in its assessment, reports that it has no recollection of historians confirming or refuting this attribution, but infers from general knowledge that it is unlikely the CPP-NPA-NDF invented the term.
+
+Source URL: https://www.bbc.com/news/world-asia-54144623
+
+# Claim 90 — BJP MP Kirron Kher Said "Rape Is A Part Of Indian Culture And It Can't Be Stopped"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is Kirron Kher a Member of Parliament who is affiliated with or a member of the Bharatiya Janata Party (BJP)?
+Answer: Kirron Kher is a Member of Parliament affiliated with and a member of the Bharatiya Janata Party (BJP).
+
+Source URL: https://www.hindustantimes.com/lok-sabha-elections/kirron-kher-eyes-second-term-as-mp-but-guest-appearances-niggle/story-aI9QcKTtkMSPrkHVYAh5XI.html
+
+### Is there a verified record, such as an official parliamentary transcript, video, or credible news report from a reputable publisher, that attributes the exact statement "Rape Is A Part Of Indian Culture And It Can't Be Stopped" to Kirron Kher?
+Answer: There is no verified record such as an official parliamentary transcript, video, or credible news report that attributes the exact statement 'Rape Is A Part Of Indian Culture And It Can't Be Stopped' to Kirron Kher; the claim has been fact-checked and found to be false, with no credible evidence supporting it.
+
+Source URL: https://thelogicalindian.com/tags/kirron-kher
+
+### On what date was the statement allegedly made by Kirron Kher?
+Answer: **CONFLICT.** The retrieved document states that the statement was allegedly made on January 22, 2018, based on a video uploaded to the Times of India YouTube channel on that date. The reasoner working from memory alone, which is uncertain, reports that it has no record of any date on which Kirron Kher allegedly made this statement.
+
+Source URL: https://m.timesofindia.com/times-fact-check/news/fake-alert-bjp-mp-kirron-kher-didnt-say-rape-is-part-of-indian-culture/articleshow/78687624.cms
+
+### In what specific setting or event (e.g., a Lok Sabha session, a Rajya Sabha session, a televised interview, a public speech) was the statement allegedly made?
+Answer: The statement was never made by BJP MP Kirron Kher as claimed; it is a false claim that was debunked, and the actual context was a media interaction where she addressed a specific rape incident.
+
+Source URL: https://m.timesofindia.com/times-fact-check/news/fake-alert-bjp-mp-kirron-kher-didnt-say-rape-is-part-of-indian-culture/articleshow/78687624.cms
+
+### What is the full, unedited context of the speech or discussion in which the statement was allegedly made?
+Answer: **CONFLICT.** The retrieved document states that the claim is false and based on distorted statements; the actual context comes from a 2018 video where Kirron Kher addressed a Haryana rape incident, saying 'Rapes have been happening for long in India. If we want to stop rapes, the mindset of society towards women needs to be changed. We need to award death penalty to rapists,' confirming she demanded capital punishment and her words were twisted. The reasoner working from memory alone, with low certainty as it is close to guessing, reports no recall of this specific context but recalls a controversial public statement by Kirron Kher in 2020 regarding rape, which was widely reported, and she later clarified that her words were taken out of context, suggesting it was part of a broader discussion on women's safety—though this is an inference.
+
+Source URL: https://m.timesofindia.com/times-fact-check/news/fake-alert-bjp-mp-kirron-kher-didnt-say-rape-is-part-of-indian-culture/articleshow/78687624.cms
+
+### Has Kirron Kher, either personally or through an official spokesperson, confirmed, denied, or clarified the alleged statement?
+Answer: Kirron Kher has denied the alleged statement, clarifying that her actual position is that rapes have been taking place but can only be stopped with a change in mindset, contradicting the claim.
+
+Source URL: https://www.indiatoday.in/fact-check/story/fact-check-kirron-kher-didn-t-say-rapes-cannot-be-stopped-as-it-s-part-of-our-culture-1731299-2020-10-13
+
+### If a clarification was issued, what were the exact words and reasoning provided by Kirron Kher or her office?
+Answer: **CONFLICT.** The retrieved document states that Kirron Kher clarified her statement in a video, saying: 'Rapes have been happening for long in India. If we want to stop rapes, the mindset of society towards women needs to be changed. We need to award death penalty to rapists.' Her reasoning was to demand capital punishment for rapists and call for a change in societal attitudes. The reasoner working from memory alone, which has no record of any such clarification and is close to guessing in this assessment, reports that no clarification was issued by Kirron Kher or her office.
+
+Source URL: https://m.timesofindia.com/times-fact-check/news/fake-alert-bjp-mp-kirron-kher-didnt-say-rape-is-part-of-indian-culture/articleshow/78687624.cms
+
+### Have any official parliamentary bodies or fact-checking organizations investigated and published findings regarding the authenticity of this quote?
+Answer: **CONFLICT.** The retrieved documents indicate that fact-checking organization The Logical Indian investigated and published findings on the authenticity of this quote, but do not mention any investigation by official parliamentary bodies. The reasoner, working from memory alone and with little certainty, reports no knowledge of any investigations by official parliamentary bodies or fact-checking organizations regarding the quote's authenticity.
+
+Source URL: https://thelogicalindian.com/tags/kirron-kher
+
+### What was the immediate reaction from the Bharatiya Janata Party (BJP) to the alleged statement, if any public comment was made?
+Answer: There is no record of any immediate reaction or public comment from the Bharatiya Janata Party regarding the alleged statement.
+
+Source URL: https://thelogicalindian.com/fact-check/fact-check-kirron-kher-haryana-rape-case-minor-victim-raped-glorification-of-rape-culture-bjp-mp-24343
+
+### What was the immediate public and media reaction to the alleged statement at the time it was reported?
+Answer: **CONFLICT.** The retrieved document states that the alleged statement by Kirron Kher was fabricated and spread by a fake news page, resulting in no genuine public reaction. The reasoner, which has no direct recollection of the immediate reaction but recalls a controversy in 2020 and infers from general knowledge, reports that criticism likely occurred, with moderate confidence in this inference.
+
+Source URL: https://m.timesofindia.com/times-fact-check/news/fake-alert-bjp-mp-kirron-kher-didnt-say-rape-is-part-of-indian-culture/articleshow/78687624.cms
+
+# Claim 94 — Saved by the Bell actor, Dustin Diamond died in a prison riot.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was Dustin Diamond an actor who appeared in the television series "Saved by the Bell"?
+Answer: Dustin Diamond was an actor who appeared in the television series 'Saved by the Bell,' notably as the character Samuel 'Screech' Powers.
+
+Source URL: https://www.thesun.co.uk/who/dustin-diamond/
+
+### Is Dustin Diamond deceased?
+Answer: Dustin Diamond is deceased; he died on February 1, 2021, at the age of 44 following a terminal cancer diagnosis.
+
+Source URL: https://www.standard.co.uk/topic/dustin-diamond
+
+### What was the officially recorded cause of Dustin Diamond's death?
+Answer: Dustin Diamond's officially recorded cause of death was small cell carcinoma.
+
+Source URL: https://www.imdb.com/name/nm0224616/trivia/
+
+### On what date did Dustin Diamond die?
+Answer: Dustin Diamond died on February 1, 2021.
+
+Source URL: https://prowrestling.fandom.com/wiki/Dustin_Diamond
+
+### Was Dustin Diamond incarcerated in a prison at the time of his death?
+Answer: Dustin Diamond was not incarcerated in a prison at the time of his death; he died from stage 4 lung cancer on February 1, 2021, after announcing his cancer diagnosis in January 2021 and undergoing treatment, having previously faced legal issues including a 2015 jail sentence and a 2016 arrest for a probation violation, but was not imprisoned during his final illness.
+
+Source URL: https://bigbrother.fandom.com/wiki/Dustin_Diamond
+
+### Did a prison riot occur at the facility where Dustin Diamond was held, if he was incarcerated, around the time of his death?
+Answer: **CONFLICT.** The retrieved document states that there is no information about a prison riot or Dustin Diamond's death, only detailing his early release from jail. The reasoner, working from memory alone and with high confidence, reports that Dustin Diamond was not incarcerated at the time of his death, as he died from cancer in 2021 after being released from a short prison stint in 2015, making the premise of a prison riot around his death incorrect.
+
+Source URL: https://www.duluthnewstribune.com/news/dustin-diamond-tvs-screech-gets-early-release-from-jail
+
+### Is there any official law enforcement or prison service report linking Dustin Diamond's death to a prison riot?
+Answer: Dustin Diamond died from cancer in a hospital on February 1, 2021, and there is no official report linking his death to a prison riot.
+
+Source URL: none -- retrieval returned no document
+
+### Have credible news organizations reported that Dustin Diamond died as a result of a prison riot?
+Answer: Credible news organizations did not report that Dustin Diamond died as a result of a prison riot; the claim is a hoax, and his death was reported from stage 4 lung cancer in 2021.
+
+Source URL: https://www.snopes.com/fact-check/dustin-diamond-murder/
+
+### What were the circumstances surrounding Dustin Diamond's death according to his family or representatives?
+Answer: According to his family or representatives, Dustin Diamond died from small cell carcinoma, not in a prison riot.
+
+Source URL: https://www.imdb.com/name/nm0224616/trivia/
+
+### Are there any records of a major prison riot in the United States involving a notable celebrity around the time of Dustin Diamond's death?
+Answer: Dustin Diamond did not die in a prison riot; he died on February 1, 2021, from stage 4 small cell carcinoma (lung cancer), and there are no records of a major prison riot in the United States involving a notable celebrity around the time of his death.
+
+Source URL: https://www.eonline.com/news/731763/dustin-diamond-begins-his-4-month-jail-sentence-for-bar-stabbing
+
+# Claim 98 — The iPhone 12 won’t come with earphones and a charging adapter.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Apple make an official announcement stating that the iPhone 12 would not include earphones in its retail packaging?
+Answer: Yes, Apple officially announced that the iPhone 12 would not include earphones in its retail packaging.
+
+Source URL: https://bgr.com/tech/iphone-12-price-no-charger-and-earpods-for-iphone-se-xr-11-12/
+
+### Did Apple make an official announcement stating that the iPhone 12 would not include a charging adapter in its retail packaging?
+Answer: **CONFLICT.** The retrieved document states that there is no indication Apple made an official announcement, with the evidence instead pointing to reports from leakers and analysts. The reasoner working from memory alone, which recalls this announcement clearly and is certain it occurred, reports that Apple officially announced the exclusion of the charging adapter.
+
+Source URL: https://www.tomsguide.com/news/iphone-12-confirmed-to-ship-without-charger-but-at-least-the-box-will-be-nice
+
+### For all models of the iPhone 12 (iPhone 12, iPhone 12 mini, iPhone 12 Pro, iPhone 12 Pro Max), does the official product specification list included accessories exclude earphones or headphones?
+Answer: For all models of the iPhone 12 (iPhone 12, iPhone 12 mini, iPhone 12 Pro, iPhone 12 Pro Max), the official product specification excludes earphones or headphones from the included accessories.
+
+Source URL: https://9to5mac.com/2020/10/13/iphone-12-pro-features-release/
+
+### For all models of the iPhone 12, does the official product specification list included accessories exclude a USB power adapter?
+Answer: Yes, for all models of the iPhone 12, the official product specification does not include a USB power adapter in the included accessories.
+
+Source URL: https://screenrant.com/apple-iphone-12-charger-earpods-earbuds-explained/
+
+### What was the official stated reason, if any, provided by Apple for potentially removing earphones and a charging adapter from the iPhone 12 box?
+Answer: Apple's official stated reason for removing earphones and a charging adapter from the iPhone 12 box was to reduce environmental impact by minimizing waste and carbon emissions, as most customers already have these accessories.
+
+Source URL: https://www.dailymail.co.uk/sciencetech/article-8840611/Apple-customers-outraged-learning-799-iPhone-12-NOT-include-charger-EarPods.html
+
+### Upon the launch of the iPhone 12, what accessories were physically included in the standard retail box for consumers in primary markets like the United States?
+Answer: Upon the launch of the iPhone 12, the standard retail box for consumers in primary markets included the iPhone and a USB-C to Lightning cable, but did not include earphones or a charging adapter.
+
+Source URL: https://www.tomsguide.com/news/iphone-12-confirmed-to-ship-without-charger-but-at-least-the-box-will-be-nice
+
+### Did reviews or unboxing videos of the retail iPhone 12 from reputable tech publications confirm the absence of earphones?
+Answer: **CONFLICT.** The retrieved documents did not contain sufficient information to confirm the absence of earphones based on reviews or unboxing videos. The reasoner, working from memory alone, reports that reviews and unboxing videos from reputable tech publications confirmed the absence of earphones and is very confident in this assessment.
+
+Source URL: https://www.cnet.com/tech/mobile/iphone-12-will-likely-come-sans-earbuds-and-power-adapter/
+
+### Did reviews or unboxing videos of the retail iPhone 12 from reputable tech publications confirm the absence of a USB power charging adapter?
+Answer: **CONFLICT.** The retrieved document states that reputable tech publications confirmed the absence of a USB power charging adapter in the iPhone 12 retail package, as reported by MacRumors. The reasoner, confident in its memory, reports that it has no recollection of specific reviews or unboxing videos confirming this absence, though it does recall Apple's official announcement and infers that confirmation likely occurred in tech media.
+
+Source URL: https://www.macrumors.com/2020/10/13/iphone-12-ships-without-earpods-or-charger/
+
+### Does the iPhone 12 retail packaging in all global regions have identical included accessories, or are there regional variations in what is included (like earphones or adapters)?
+Answer: **CONFLICT.** The retrieved document states that the source only discusses Apple's general decision to remove earphones and adapters for all iPhone 12 models, with no information addressing whether there are regional variations in included accessories. The reasoner working from memory alone reports, with high certainty, that the iPhone 12 retail packaging does not have identical included accessories globally; for example, in France, EarPods were included due to local regulations, while they were omitted in most other regions, though the charging adapter was consistently not included worldwide.
+
+Source URL: https://www.idownloadblog.com/2020/08/27/iphone-12-no-earpods-rumor-again/
+
+### Prior to the official launch, were there credible leaks or reports from sources like Bloomberg or Mark Gurman that accurately predicted the removal of earphones and a charging adapter from the iPhone 12 box?
+Answer: Prior to the official launch of the iPhone 12, credible leaks or reports accurately predicted the removal of earphones and a charging adapter from the box.
+
+Source URL: https://www.macworld.com/article/674481/iphone-12-wont-come-with-headphones-or-a-charger.html
+
+# Claim 103 — Former President Donald Trump who lost the popular vote by 3 million has nominated a full third of The United Supreme Court, as of 13th October 2020.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### How many justices sit on the United States Supreme Court, and what fraction of that total would constitute a "full third"?
+Answer: The United States Supreme Court has nine justices, and a full third of that total is three justices.
+
+Source URL: https://www.supremecourt.gov/about/justices.aspx
+
+### By how many popular votes did Donald Trump lose the popular vote in the 2016 United States presidential election?
+Answer: Donald Trump lost the popular vote in the 2016 United States presidential election by approximately 2.9 million votes.
+
+Source URL: https://www.270towin.com/2016_Election/
+
+### Is it accurate to state that Donald Trump lost the popular vote by approximately 3 million votes in the 2016 presidential election?
+Answer: It is accurate to state that Donald Trump lost the popular vote by approximately 3 million votes in the 2016 presidential election, with the vote difference being about 2.9 million.
+
+Source URL: https://abcnews.go.com/Politics/hillary-clinton-officially-wins-popular-vote-29-million/story?id=44354341
+
+### How many United States Supreme Court justices had Donald Trump nominated as of October 13, 2020?
+Answer: As of October 13, 2020, Donald Trump had nominated three United States Supreme Court justices: Neil Gorsuch, Brett Kavanaugh, and Amy Coney Barrett.
+
+Source URL: https://www.britannica.com/biography/Donald-Trump/Supreme-Court
+
+### Which specific individuals did Donald Trump nominate to the United States Supreme Court during his presidency?
+Answer: **CONFLICT.** The retrieved document states that Donald Trump nominated Neil Gorsuch and Brett Kavanaugh to the United States Supreme Court. The reasoner, which is certain of its account from memory, reports that he nominated Neil Gorsuch, Brett Kavanaugh, and Amy Coney Barrett.
+
+Source URL: https://www.scotusblog.com/2020/09/trump-releases-new-list-of-potential-supreme-court-nominees/
+
+### On what date was Neil Gorsuch nominated to the United States Supreme Court by Donald Trump?
+Answer: Neil Gorsuch was nominated to the United States Supreme Court by President Donald Trump on January 31, 2017.
+
+Source URL: https://www.npr.org/2017/01/31/512708127/president-trump-to-announce-supreme-court-nominee-shortly
+
+### On what date was Brett Kavanaugh nominated to the United States Supreme Court by Donald Trump?
+Answer: Brett Kavanaugh was nominated to the United States Supreme Court by Donald Trump on July 9, 2018.
+
+Source URL: https://www.nbcnews.com/politics/supreme-court/trump-taps-federal-appeals-court-judge-brett-kavanaugh-supreme-court-n889921
+
+### On what date was Amy Coney Barrett nominated to the United States Supreme Court by Donald Trump, and had that nomination occurred by October 13, 2020?
+Answer: Amy Coney Barrett was nominated by President Donald Trump to the United States Supreme Court on September 26, 2020, and this nomination had occurred prior to October 13, 2020.
+
+Source URL: https://www.nbcnews.com/politics/supreme-court/who-amy-coney-barrett-trump-s-supreme-court-nominee-n1241192
+
+### Is the term "nominated" in this claim referring to formal presidential nominations submitted to the Senate, and does this differ from Senate confirmations or actual seating on the bench?
+Answer: **CONFLICT.** The retrieved document states that in the provided source, 'nominated' refers to naming individuals he would consider for the position, and it does not contain sufficient information to discuss formal presidential nominations, confirmations, or seating. The reasoner working from memory alone reports, with near certainty, that 'nominated' refers to the President formally submitting a candidate to the Senate for consideration, which differs from Senate confirmations and actual seating on the bench.
+
+Source URL: https://www.cnn.com/2016/05/18/politics/donald-trump-supreme-court-nominees/index.html
+
+### As of October 13, 2020, had three of the nine sitting United States Supreme Court justices been originally nominated by Donald Trump?
+Answer: **CONFLICT.** The retrieved document states that as of October 13, 2020, only two of the nine sitting U.S. Supreme Court justices—Neil Gorsuch and Brett Kavanaugh—had been originally nominated by Donald Trump, and Amy Coney Barrett had not yet been formally nominated. The reasoner, which is certain of its assessment based on internal knowledge, reports that there were only eight sitting justices due to Ruth Bader Ginsburg's death, and only two of those justices—Gorsuch and Kavanaugh—had been nominated by Trump.
+
+Source URL: https://www.theguardian.com/law/2020/sep/08/donald-trump-supreme-court-list-justices
+
+# Claim 105 — President Trump said Anthony Fauci said, “This is not a threat. This is not a problem. Don’t worry about it.” when talking about the pandemic
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Dr. Anthony Fauci ever make a public or recorded statement containing the exact words "This is not a threat. This is not a problem. Don't worry about it." in reference to the COVID-19 pandemic?
+Answer: Dr. Anthony Fauci did not make a public or recorded statement containing the exact words 'This is not a threat. This is not a problem. Don't worry about it.' in reference to the COVID-19 pandemic.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### On what specific date did Dr. Anthony Fauci make the statement about the pandemic that President Trump later quoted?
+Answer: **CONFLICT.** The retrieved document states Dr. Anthony Fauci made the statement in a February 29, 2020 interview on NBC's "Today" show, saying "right now, at this moment, the risk is still low." The reasoner, which is barely above guessing, reports that it has no record of the specific date for the statement quoted by President Trump.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### In what specific setting (e.g., White House press briefing, television interview, congressional testimony) did Dr. Anthony Fauci make the statement about the pandemic that President Trump later quoted?
+Answer: **CONFLICT.** The retrieved document states that Dr. Anthony Fauci made the statement during a February 29, 2020, interview on NBC’s “Today” show. The reasoner working from memory alone, which has no record of the statement and is close to guessing in this assessment, reports that it cannot identify a specific setting.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### What was the official COVID-19 case count, death toll, and risk assessment from major health organizations on the date Dr. Fauci allegedly made the quoted statement?
+Answer: **CONFLICT.** The retrieved document does not specify a date for Dr. Fauci's alleged statement and contains no information on case counts, death toll, or risk assessments for that date. The reasoner working from memory alone reports that on January 26, 2020, the global COVID-19 case count was approximately 2,000 with around 80 deaths, all in China, and in the United States, 5 cases with no deaths; major health organizations assessed the risk as low outside China, with the WHO not having declared a PHEIC and the CDC assessing low risk to Americans, and is moderately certain of this account.
+
+Source URL: https://www.ama-assn.org/delivering-care/public-health/dr-fauci-outlines-5-ways-blunt-covid-19-pandemic-s-resurgence
+
+### Did President Donald Trump publicly attribute the quote "This is not a threat. This is not a problem. Don’t worry about it." to Dr. Anthony Fauci?
+Answer: **CONFLICT.** The retrieved document states that on April 28, 2020, President Trump attributed to Dr. Anthony Fauci a paraphrased version of a dismissive comment about the pandemic, saying 'even professionals, like Anthony [Fauci], were saying this is no problem. This is late in February: 'This is no problem. This is going to blow — this is going to blow over.'' The reasoner working from memory alone, having no recollection of Trump publicly attributing the exact quote 'This is not a threat. This is not a problem. Don’t worry about it.' to Dr. Fauci and being close to guessing on this assessment, reports that it does not recall such an attribution occurring.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### On what specific date did President Donald Trump make the statement attributing the pandemic quote to Dr. Anthony Fauci?
+Answer: **CONFLICT.** The retrieved document states that President Donald Trump made this statement on April 28, 2020, during a press briefing. In contrast, the reasoner working from memory alone reports no record of any specific date for this statement, and with low confidence, it is close to guessing.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### In what specific setting (e.g., campaign rally, press conference, social media post) did President Donald Trump make the statement attributing the pandemic quote to Dr. Anthony Fauci?
+Answer: **CONFLICT.** The retrieved document indicates that President Trump made the statement attributing the quote to Dr. Fauci during a press interaction on April 28, in response to a question about intelligence warnings, quoting him as saying, 'even professionals, like Anthony [Fauci], were saying this is no problem. This is late in February: "This is no problem. This is going to blow — this is going to blow over."' In contrast, the reasoner working from memory alone, with low confidence, reports no record of President Trump making such a statement in any specific setting.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### Are there official transcripts, audio recordings, or video recordings that document the original statement by Dr. Fauci as quoted by President Trump?
+Answer: **CONFLICT.** The retrieved document states that there are video recordings of the original statement, specifically from a Feb. 29, 2020, interview with Dr. Fauci on NBC’s 'Today' show. The reasoner, working from memory alone and with high confidence, reports having no knowledge of any official transcript, audio recording, or video recording documenting Dr. Fauci saying those exact words, as it believes President Trump was paraphrasing Fauci's earlier, more nuanced statements about the pandemic.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### Are there official transcripts, audio recordings, or video recordings that document President Trump's attribution of the quote to Dr. Fauci?
+Answer: **CONFLICT.** The retrieved document states that documented instances exist, including a transcript of Trump's April 28 remarks and a retweet on April 12, 2020, referencing a video recording of Fauci's interview, whereas the reasoner working from memory alone reports that it has no record of any official transcripts, audio recordings, or video recordings documenting this attribution and is close to guessing in this assessment.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### Did Dr. Anthony Fauci, in any public forum, acknowledge, deny, or provide context for President Trump's characterization of his statement about the pandemic?
+Answer: **CONFLICT.** The retrieved document states that Dr. Anthony Fauci provided context for his statements about the pandemic by emphasizing that the immediate risk was low in late February but could change, contradicting President Trump's characterization, as reported in a February 29 interview. The reasoner working from memory alone reports that it has no recollection of Dr. Anthony Fauci specifically acknowledging, denying, or providing context for President Trump's characterization, though it infers from general knowledge that such an acknowledgment is likely, and is fairly confident in this lack of recollection.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+# Claim 106 — Amy Coney Barrett, associate justice of the Supreme Court of the United States,  said during her Supreme Court confirmation hearing that she was not using notes because she has seven kids and is used to stupid questions.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Amy Coney Barrett make a public statement during her 2020 Supreme Court confirmation hearing that she was not using notes?
+Answer: Amy Coney Barrett made a public statement during her 2020 Supreme Court confirmation hearing that she was not using notes.
+
+Source URL: https://www.themarysue.com/amy-coney-barretts-lack-of-notes-isnt-impressive-its-disturbing/
+
+### During Amy Coney Barrett's Supreme Court confirmation hearing, was the phrase "stupid questions" used in relation to her reason for not using notes?
+Answer: No evidence or recollection was found indicating that Amy Coney Barrett used the phrase 'stupid questions' in relation to her reason for not using notes during her Supreme Court confirmation hearing.
+
+Source URL: none -- retrieval returned no document
+
+### Did Amy Coney Barrett attribute her ability to handle the hearing without notes to the experience of raising seven children?
+Answer: **CONFLICT.** The document store returned no documents bearing on whether Amy Coney Barrett attributed her ability to handle the hearing without notes to raising seven children. The reasoner, working from memory alone, reports that she did make such a statement during the confirmation hearing and is very certain of this recollection.
+
+Source URL: none -- retrieval returned no document
+
+### Is there a video recording or official transcript of Amy Coney Barrett's Supreme Court confirmation hearing that captures her stating she was not using notes because of her seven children?
+Answer: There is no evidence from a video recording, official transcript, or other record that Amy Coney Barrett stated she was not using notes because of her seven children during her Supreme Court confirmation hearing; while a source documents her holding up a blank notepad in a playful response, this moment is not linked to her family size or the reason given in the claim.
+
+Source URL: https://nypost.com/2020/10/13/amy-coney-barrett-reveals-she-has-no-notes-for-hearing/
+
+### Did Amy Coney Barrett explicitly link having seven children to being "used to stupid questions" in a statement made during a formal hearing or public forum?
+Answer: Amy Coney Barrett did not explicitly link having seven children to being 'used to stupid questions' in any formal hearing or public forum.
+
+Source URL: https://www.today.com/parents/amy-coney-barrett-talks-about-her-kids-confirmation-hearing-t194002
+
+### What was the specific context and question posed to Amy Coney Barrett that prompted her alleged comment about notes and her children?
+Answer: **CONFLICT.** The retrieved document states that during Amy Coney Barrett's Supreme Court confirmation hearing, Senator John Cornyn asked her to hold up what she had been referring to while answering questions, and she held up a blank notepad with Senate letterhead, which prompted her comment about not using notes due to having seven children and being used to interruptions. The reasoner working from memory alone, while confident in its recollection of Barrett's remark about notes and children, reports no recollection of the specific question or context and infers it was likely in response to a question about her ability to answer without notes.
+
+Source URL: https://nypost.com/2020/10/13/amy-coney-barrett-reveals-she-has-no-notes-for-hearing/
+
+### Have reputable news organizations reported on this specific quote from Amy Coney Barrett's confirmation hearing?
+Answer: Reputable news organizations did not report on the specific quote from Amy Coney Barrett's confirmation hearing that included the phrase 'stupid questions,' though they did report on related events such as her holding up a blank notepad and being a mother of seven.
+
+Source URL: https://nypost.com/2020/10/13/amy-coney-barrett-reveals-she-has-no-notes-for-hearing/
+
+### Has Amy Coney Barrett or her office ever confirmed or denied the accuracy of this reported statement?
+Answer: There is no record or indication that Amy Coney Barrett or her office has confirmed or denied the accuracy of the reported statement about not using notes because she has seven kids and is used to stupid questions.
+
+Source URL: https://www.newsweek.com/who-amy-coney-barretts-family-potential-supreme-court-nominee-mother-seven-has-six-siblings-1533120
+
+### Was the term "stupid questions" meant literally by Amy Coney Barrett, or was it used in a self-deprecating or humorous manner?
+Answer: **CONFLICT.** The retrieved documents state that there is no record of Amy Coney Barrett using the term 'stupid questions' during her confirmation hearing. The reasoner working from memory alone reports that it has no direct recollection of such a statement but, with moderate confidence, infers from related facts that if the term was used, it was likely intended in a self-deprecating or humorous manner rather than literally.
+
+Source URL: none -- retrieval returned no document
+
+### Did Amy Coney Barrett consistently avoid using notes during the entirety of her Supreme Court confirmation hearing?
+Answer: Amy Coney Barrett avoided using notes during at least a significant portion of her Supreme Court confirmation hearing, as evidenced by her holding up a blank notepad on the second day and general reports of her testifying from memory, but there is no confirmation that she consistently avoided notes throughout the entire multi-day hearing.
+
+Source URL: https://nypost.com/2020/10/13/amy-coney-barrett-reveals-she-has-no-notes-for-hearing/
+
+# Claim 108 — CNN announces on social media that President Donald Trump dies from COVID-19.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Did CNN, the official news organization, publish a post on any of its verified social media accounts announcing that former President Donald Trump died from COVID-19?
+Answer: There is no evidence or record of CNN publishing a post on any of its verified social media accounts announcing that former President Donald Trump died from COVID-19.
+
+Source URL: none -- retrieval returned no document
+
+### 2. If such a post was published, on which specific social media platform (e.g., Twitter/X, Facebook, Instagram) did it appear?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 3. If such a post existed, what was the exact date and time of its publication?
+Answer: No such CNN social media post exists; President Donald Trump recovered from his COVID-19 infection in October 2020.
+
+Source URL: https://www.them.us/story/trump-circle-covid
+
+### 4. Did CNN's official television broadcasts or website (CNN.com) simultaneously report the death of Donald Trump from COVID-19?
+Answer: No official CNN television broadcast or CNN.com report stated that Donald Trump died from COVID-19.
+
+Source URL: none -- retrieval returned no document
+
+### 5. Was there any official statement from Donald Trump's family, representatives, or office confirming his death from COVID-19?
+Answer: No official statement was issued by Donald Trump's family, representatives, or office confirming his death from COVID-19.
+
+Source URL: https://www.cnbc.com/2020/07/30/former-gop-presidential-candidate-herman-cain-dies-after-battle-with-coronavirus.html
+
+### 6. Did the White House or the U.S. government's official channels issue any statement regarding the death of Donald Trump from COVID-19?
+Answer: No statement was issued by the White House or U.S. government's official channels regarding the death of Donald Trump from COVID-19; instead, the White House physician confirmed his positive test for the virus and stated that both the President and First Lady were well.
+
+Source URL: https://www.cnn.com/2020/10/02/politics/trump-doctor-covid-statement/index.html
+
+### 7. Was there a verified medical or hospital announcement confirming that Donald Trump died from COVID-19?
+Answer: There was no verified medical or hospital announcement confirming that Donald Trump died from COVID-19; he was hospitalized at Walter Reed Medical Center for COVID-19 treatment, recovered, and continued to serve as President through the end of his term.
+
+Source URL: https://www.nbcnews.com/politics/donald-trump/trump-be-transported-walter-reed-medical-center-marine-one-helicopter-n1241899
+
+### 8. Did CNN subsequently issue a correction, retraction, or clarification regarding any social media post about Donald Trump's death?
+Answer: There is no evidence or recollection of CNN issuing any correction, retraction, or clarification regarding a social media post about Donald Trump's death.
+
+Source URL: none -- retrieval returned no document
+
+### 9. Is there evidence that the social media account of CNN was compromised or hacked at the time the alleged announcement was made?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 10. Could the alleged social media post be explained as a segment from a fictional drama, a satirical sketch, or an out-of-context clip from a news discussion on CNN?
+Answer: The alleged social media post from CNN announcing Donald Trump's death from COVID-19 cannot be explained as a segment from a fictional drama, satirical sketch, or out-of-context clip, as Trump survived his COVID-19 diagnosis and CNN's coverage was genuine breaking news reporting.
+
+Source URL: https://www.latimes.com/entertainment-arts/tv/story/2020-10-02/donald-trump-covid-19-coronavirus-walter-reed-cable-news
+
+# Claim 110 — Fact check: Harris' statement on Lincoln's Supreme Court nomination misses key details
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the exact and complete statement made by Kamala Harris regarding a Supreme Court nomination by Abraham Lincoln?
+Answer: Kamala Harris stated: "In 1864, Abraham Lincoln was up for reelection. And it was 27 days before the election. And a seat became open on the United States Supreme Court. Abraham Lincoln's party was in charge not only of the White House but the Senate. But Honest Abe said, 'It's not the right thing to do. The American people deserve to make the decision about who will be the next president of the United States, and then that person will be able to select who will serve on the highest court of the land.'"
+
+Source URL: https://www.foxnews.com/media/washington-post-fact-checks-harris-history-lincoln
+
+### On what date and in what forum (e.g., speech, debate, tweet) did Kamala Harris make the statement about Lincoln's Supreme Court nomination?
+Answer: **CONFLICT.** The retrieved documents indicate that Kamala Harris made the statement about Lincoln's Supreme Court nomination during the first vice presidential debate on October 7, 2020. The reasoner working from memory alone, which is uncertain and has no trace of such a statement, reports that it has no knowledge of this event and cannot determine the date or forum.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/13/fact-check-harris-lesson-lincoln-supreme-court-nom-lacks-detail/5943183002/
+
+### Which specific Supreme Court justice was Abraham Lincoln nominating at the time of the event referenced in Harris's statement?
+Answer: Abraham Lincoln was nominating Salmon P. Chase as Chief Justice of the Supreme Court at the time referenced in Harris's statement.
+
+Source URL: https://www.abrahamlincolnonline.org/lincoln/education/supreme.htm
+
+### What were the complete circumstances and political context surrounding Lincoln's Supreme Court nomination in question?
+Answer: Abraham Lincoln nominated Salmon P. Chase as Chief Justice in December 1864, following the death of Roger B. Taney in October 1864, amidst the Civil War and Lincoln's reelection campaign. The nomination was strategically timed, with the Senate in recess until early December, making pre-election confirmation impossible, and was intended to secure political support from Chase and Radical Republicans while ensuring the Court would support the Union cause and post-war Reconstruction.
+
+Source URL: https://www.snopes.com/fact-check/lincoln-1864-supreme-court/
+
+### What specific historical facts or details did the fact-check identify as being "missed" or omitted from Kamala Harris's statement?
+Answer: The fact-check identified that Kamala Harris omitted key details about Lincoln's Supreme Court nomination, including that the Senate was in recess at the time of the vacancy, making a nomination impossible until it reconvened, and that Lincoln's delay was due to political strategy or the vacancy arising post-election, not a principled decision to defer to voters, with the nomination occurring shortly after Congress reconvened or in December 1864 after Lincoln's re-election.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/13/fact-check-harris-lesson-lincoln-supreme-court-nom-lacks-detail/5943183002/
+
+### Which organization, publication, or individual authored the fact-check that claims Harris's statement misses key details?
+Answer: **CONFLICT.** The retrieved document states that the fact-check was authored by The Washington Post. The reasoner working from memory alone has no record of which organization, publication, or individual authored the fact-check and is close to guessing on this matter.
+
+Source URL: https://www.foxnews.com/media/washington-post-fact-checks-harris-history-lincoln
+
+### What is the stated methodology or standard of evidence used by the fact-checker in their analysis of Harris's statement?
+Answer: **CONFLICT.** The retrieved document states that the fact-checker's stated methodology relies on historical research and expert analysis, including academic works and official records, and concludes by rating the claim TRUE. The reasoner, working from memory alone and close to guessing, reports no knowledge of any fact-checker's methodology or standard of evidence for this analysis.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/13/fact-check-harris-lesson-lincoln-supreme-court-nom-lacks-detail/5943183002/
+
+### Does Harris's statement, in its full context, make a direct factual claim that can be clearly proven true or false, or is it more of a rhetorical or interpretive comparison?
+Answer: Harris's statement contains direct factual claims about historical events that are verifiable true or false, though it is presented with rhetorical or interpretive framing.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/13/fact-check-harris-lesson-lincoln-supreme-court-nom-lacks-detail/5943183002/
+
+### How does the interpretation of Lincoln's nomination by professional historians compare to both Harris's statement and the fact-check's critique?
+Answer: Professional historians generally interpret Lincoln's delay in nominating Chase as a pragmatic move to secure his re-election, suggesting that Harris's statement oversimplified his reasoning and missed key political context, which aligns with the fact-check's critique.
+
+Source URL: https://www.lincolncottage.org/the-washington-post-kamala-harriss-little-history-lesson-about-lincolns-supreme-court-vacancy-wasnt-exactly-true/
+
+### Is there a pattern or precedent of this type of incomplete reference to Lincoln's nomination in political discourse, and does the fact-checker note this?
+Answer: **CONFLICT.** The retrieved document states that a fact-checker explicitly notes a pattern of incomplete references to Lincoln's Supreme Court nomination in political discourse, pointing out key omissions in Kamala Harris's portrayal such as missing political motivations and procedural details. In contrast, the reasoner working from memory alone reports that it has no record of any such pattern or fact-checker note, though it is not very certain of this, being close to guessing.
+
+Source URL: https://www.snopes.com/fact-check/lincoln-1864-supreme-court/
+
+# Claim 111 — Daughters of President Muhammadu Buhari and Vice President Yemi Osinbajo brought about the dissolution of Special Anti-Robbery Squad (SARS).
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What specific actions did the daughter of President Muhammadu Buhari take regarding the Special Anti-Robbery Squad (SARS) or the #EndSARS protests?
+Answer: **CONFLICT.** The retrieved document states that Zahra Buhari, daughter of President Muhammadu Buhari, posted a viral image with #EndPoliceBrutality on her Instagram stories to support the #EndSARS protests. The reasoner working from memory alone, with moderate confidence in its assessment, reports that it has no record of any specific actions taken by her regarding SARS or the #EndSARS protests, and notes that the movement was primarily driven by Nigerian youth activists.
+
+Source URL: https://dailypost.ng/2020/10/10/end-sars-zahra-buhari-kiki-osinbajo-join-protest/
+
+### What specific actions did the daughter of Vice President Yemi Osinbajo take regarding the Special Anti-Robbery Squad (SARS) or the #EndSARS protests?
+Answer: **CONFLICT.** The retrieved document states that Kiki Osinbajo, daughter of Vice President Yemi Osinbajo, joined the #EndSARS protests by posting a viral image with the hashtag #EndPoliceBrutality on her Instagram stories. The reasoner, which has no record of any specific actions and is close to guessing on this point, reports that it has no knowledge of any actions taken by her regarding SARS or the protests.
+
+Source URL: https://dailypost.ng/2020/10/10/end-sars-zahra-buhari-kiki-osinbajo-join-protest/
+
+### On what date did the Nigerian government formally announce the dissolution of the Special Anti-Robbery Squad (SARS)?
+Answer: The Nigerian government formally announced the dissolution of the Special Anti-Robbery Squad (SARS) on October 11, 2020.
+
+Source URL: https://citinewsroom.com/2020/10/endsars-nigerias-notorious-police-unit-dissolved-after-citizens-protests/
+
+### What official reasons did the Nigerian government or the Inspector General of Police provide for the dissolution of the Special Anti-Robbery Squad (SARS)?
+Answer: The Nigerian government and the Inspector General of Police provided official reasons for dissolving SARS that included responding to widespread public protests against police brutality and misconduct, and reforming the police force to restore public trust.
+
+Source URL: https://www.thecable.ng/breaking-igp-finally-disbands-sars
+
+### Did any official statement from the Nigerian Presidency or Vice Presidency cite the actions of the President's daughter or the Vice President's daughter as a reason for dissolving SARS?
+Answer: There is no record or recollection of any official statement from the Nigerian Presidency or Vice Presidency citing the actions of the President's daughter or the Vice President's daughter as a reason for dissolving SARS; instead, the dissolution is attributed in public records to the government's response to #EndSARS protests and commitments to police reform.
+
+Source URL: none -- retrieval returned no document
+
+### Is there any documented evidence, such as official letters, meeting minutes, or credible news reports, linking the daughters' actions directly to the decision to dissolve SARS?
+Answer: There is no documented evidence, such as official letters, meeting minutes, or credible news reports, that directly links the actions of the daughters of President Muhammadu Buhari and Vice President Yemi Osinbajo to the decision to dissolve Special Anti-Robbery Squad (SARS).
+
+Source URL: https://dateline.ng/zahra-buhari-kiki-osinbajo-support-protests-against-police-brutality/
+
+### Did either the President's daughter or the Vice President's daughter make any public statement claiming responsibility or influence over the dissolution of SARS?
+Answer: No evidence was found that either President Buhari's daughter or Vice President Osinbajo's daughter made any public statement claiming responsibility or influence over the dissolution of SARS, which was widely reported as a government response to #EndSARS protests.
+
+Source URL: https://citinewsroom.com/2020/10/endsars-nigerias-notorious-police-unit-dissolved-after-citizens-protests/
+
+### What was the timeline of the daughters' alleged actions relative to the government's announcement of SARS dissolution?
+Answer: No record or recollection exists of any timeline for the alleged actions of the daughters of President Muhammadu Buhari and Vice President Yemi Osinbajo relative to the government's announcement of SARS dissolution.
+
+Source URL: none -- retrieval returned no document
+
+### What other major factors, such as widespread protests by the #EndSARS movement or international pressure, were officially acknowledged as contributing to the dissolution of SARS?
+Answer: The widespread protests by the #EndSARS movement were officially acknowledged as a major factor contributing to the dissolution of SARS.
+
+Source URL: https://citinewsroom.com/2020/10/endsars-nigerias-notorious-police-unit-dissolved-after-citizens-protests/
+
+### Have any representatives of the Nigerian government or the police service officially denied or confirmed the causal role of the President's and Vice President's daughters in the SARS dissolution?
+Answer: There is no record of any official denial or confirmation by Nigerian government or police representatives regarding the causal role of President Muhammadu Buhari's and Vice President Yemi Osinbajo's daughters in the dissolution of the Special Anti-Robbery Squad (SARS).
+
+Source URL: https://www.nbcnews.com/news/world/after-protests-against-police-brutality-nigeria-controversial-anti-crime-unit-n1242855
+
+# Claim 112 — The Median White Household Wealth In The US Is 81 Times that of The Black Median Household Wealth
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the most recent and authoritative source for data on median household wealth by race in the United States, such as the U.S. Federal Reserve's Survey of Consumer Finances?
+Answer: The most recent and authoritative source for data on median household wealth by race in the United States is the U.S. Federal Reserve's Survey of Consumer Finances.
+
+Source URL: https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-accessible-20200928.htm
+
+### According to the latest available data from the chosen authoritative source, what is the reported ratio of median white household wealth to median Black household wealth in the United States?
+Answer: **CONFLICT.** The retrieved document states that in 2016, based on the Federal Reserve’s Survey of Consumer Finances, the median Black household had about $43,000 less wealth than the median white household. The reasoner, working from memory alone and being close to guessing on this matter, reports that it has no record of the reported ratio of median white household wealth to median Black household wealth.
+
+Source URL: https://www.brookings.edu/articles/how-to-build-black-wealth/
+
+### For which specific year or survey period (e.g., 2022, 2019-2023) does the cited 81:1 ratio apply?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### How does the authoritative source define "household wealth" or "net worth" for the purpose of calculating this ratio (e.g., assets minus debts, including home equity)?
+Answer: **CONFLICT.** The retrieved document states that household wealth is defined as the difference between gross assets and liabilities, equivalent to net worth, and according to the Federal Reserve's 2019 Survey of Consumer Finances data, the typical White family has eight times the wealth of the typical Black family, not 81 times, indicating the claim is inaccurate. The reasoner, working from memory alone, reports that it has no recollection of the specific authoritative source for the 81 times ratio but recalls that standard authoritative sources like the Federal Reserve define household net worth as assets minus liabilities, including home equity, and is fairly certain of this recollection.
+
+Source URL: https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.html
+
+### Does the reported median wealth figure for each racial group represent the median for all households of that race, or does it apply to a subset (e.g., only households with positive net worth)?
+Answer: The reported median wealth figures for each racial group represent the median for all households, including those with negative net worth, as wealth is defined as the difference between gross assets and liabilities without excluding households with negative net worth.
+
+Source URL: https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.html
+
+### Has the 81:1 ratio been directly and explicitly stated by the authoritative source (e.g., the Federal Reserve), or is it a calculation derived from reported median wealth figures?
+Answer: The 81:1 ratio for white to black median household wealth is not directly and explicitly stated by the Federal Reserve; it is a calculation derived from reported median wealth figures, such as those from the Survey of Consumer Finances.
+
+Source URL: https://www.brookings.edu/articles/how-to-build-black-wealth/
+
+### What was the median white household wealth and the median Black household wealth in the most recent survey to calculate the precise ratio?
+Answer: In the most recent survey, the 2019 Survey of Consumer Finances, the median White household wealth was $188,200 and the median Black household wealth was $24,100, resulting in a ratio of approximately 7.8 to 1.
+
+Source URL: https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.html
+
+### How does the claimed 81:1 ratio compare to the ratios reported in previous years by the same source, indicating any recent trend (increasing, stable, or decreasing disparity)?
+Answer: **CONFLICT.** The retrieved document states that the claimed 81:1 ratio is part of an increasing disparity trend, with median Black household wealth falling to $1,700 and median White wealth rising to $116,800 in 2013 (a ratio of about 68.7:1), and projecting that by 2020 White households will own 85 times more wealth than Black households, indicating an accelerating increase. The reasoner working from memory alone reports no recollection of any source reporting an 81:1 ratio and, based on adjacent knowledge that credible sources report ratios around 8:1 to 10:1, is certain that such a high ratio is unlikely to have been reported by a standard source, and thus cannot compare it to previous years' ratios.
+
+Source URL: https://prosperitynow.org/blog/black-and-latino-households-are-short-road-zero-wealth-hollowing-out-americas-historic-middle
+
+### Are there other major, credible surveys or reports (e.g., from the U.S. Census Bureau or Pew Research Center) that produce a significantly different ratio for the same period?
+Answer: Credible surveys such as the Federal Reserve's 2019 Survey of Consumer Finances report that median White household wealth is eight times that of Black households, and other major sources consistently find ratios in the single digits or low tens, all significantly lower than 81:1.
+
+Source URL: https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.html
+
+### What methodological notes or caveats does the authoritative source provide about interpreting the median wealth figures and the resulting racial wealth gap?
+Answer: **CONFLICT.** The retrieved document states that the authoritative source, a Federal Reserve working paper, provides several methodological caveats about interpreting the median wealth figures and the racial wealth gap, including cautions against causal interpretation and notes on the gap's distribution. The reasoner, working from memory alone, reports that it has no record of any such methodological notes or caveats and is not confident in this assessment, suggesting it may be unsure or unable to recall the details.
+
+Source URL: https://www.federalreserve.gov/econresdata/feds/2015/files/2015076pap.pdf
+
+# Claim 114 — Donald Trump is facing a court case for raping a teen in 1994
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is there a documented lawsuit or criminal charge filed in any court, state or federal, in which Donald J. Trump is named as a defendant and the central accusation is the rape of a teenager?
+Answer: Yes, there is a documented civil lawsuit in federal court in New York filed by a plaintiff known as Jane Doe, alleging that Donald J. Trump raped her in 1994 when she was 13 years old; the lawsuit was later dropped before going to trial.
+
+Source URL: https://www.courthousenews.com/rape-allegations-refiled-against-trump/
+
+### What is the specific name or docket number of the court case (if any) that alleges Donald Trump raped a teenager?
+Answer: **CONFLICT.** The retrieved document states that a lawsuit was filed in April 2016 under the pseudonyms 'Katie Johnson' and 'Jane Doe' against Donald Trump and Jeffrey Epstein, alleging sexual assault in the summer of 1994, and notes that it is commonly associated with docket number 5:16-cv-00797. The reasoner working from memory alone, being close to guessing based on its assessment, reports having no record of any specific, named court case or docket number that alleges Donald Trump raped a teenager.
+
+Source URL: https://www.inquisitr.com/3692292/donald-trump-rape-accuser-katie-johnson-lied-she-was-not-sexually-assaulted-by-trump-at-age-13-report
+
+### In which city, county, and state (or federal district) was this alleged court case against Donald Trump filed?
+Answer: The alleged court case was filed in New York City, New York County, New York, in the U.S. District Court for the Southern District of New York.
+
+Source URL: https://cafemom.com/news/i-talked-with-katie-johnson
+
+### Who is the plaintiff or complainant in the court case that accuses Donald Trump of rape, and what is their stated age or relationship to the alleged 1994 incident?
+Answer: **CONFLICT.** The document-store fact-checker rejected the request as high risk and did not provide an answer. The internal-knowledge reasoner, working from memory, is confident that the plaintiff was a woman who filed the lawsuit under the pseudonym 'Katie Johnson' or 'Jane Doe', stating that she was 13 years old at the time of the alleged rape in 1994.
+
+Source URL: https://people.com/politics/donald-trump-rape-lawsuit-accuser-raped-13/
+
+### What is the precise legal cause of action or criminal statute under which this case against Donald Trump is being prosecuted (e.g., civil suit for battery, criminal indictment for rape)?
+Answer: **CONFLICT.** The retrieved document states nothing because the request was rejected as high risk. The reasoner working from memory alone reports, with moderate confidence, that the premise is false: a civil lawsuit was filed in 2016 under pseudonyms alleging sexual assault in 1994, but it was voluntarily dismissed in November 2016, and there was never a criminal indictment or prosecution related to this allegation, so there is no current legal cause of action or criminal statute under which a case is being pursued.
+
+Source URL: https://radaronline.com/exclusives/2016/04/donald-trump-sued-sexual-abuse-jeffrey-epstein-claims/
+
+### What is the current procedural status of the court case alleging Donald Trump's rape of a teenager? For example, has it been filed, is it pending, has a trial date been set, or has it been dismissed?
+Answer: A lawsuit alleging Donald Trump raped a teenager in 1994 was filed in 2016 and was dismissed later that year, with no active proceedings thereafter.
+
+Source URL: https://radaronline.com/exclusives/2016/05/donald-trump-rape-lawsuit-dismissed/
+
+### According to the official court documents or credible reporting, what specific evidence (physical, testimonial, documentary) is presented to substantiate the 1994 rape allegation against Donald Trump?
+Answer: **CONFLICT.** The retrieved documents state that the lawsuit consisted of testimonial evidence from sworn declarations by 'Jane Doe,' 'Tiffany Doe,' and 'Joan Doe' describing the alleged assault. In contrast, the reasoner, certain in its assessment based on internal knowledge, reports having no record of any official court documents or credible reporting that present specific evidence to substantiate the 1994 rape allegation.
+
+Source URL: https://www.courthousenews.com/rape-allegations-refiled-against-trump/
+
+### Have any official investigations by law enforcement agencies (like the NYPD or FBI) been conducted into this specific 1994 rape allegation against Donald Trump, and what were their findings?
+Answer: There were no official investigations by law enforcement agencies such as the NYPD or FBI into the specific 1994 rape allegation against Donald Trump, and a lawsuit filed in 2016 was dropped before evidence could be formally evaluated, leaving no official findings to report.
+
+Source URL: https://www.politifact.com/factchecks/2020/jun/03/facebook-posts/no-proof-donald-trump-raped-13-year-old-girl-1994/
+
+### Has Donald Trump or his legal representatives publicly responded to the existence of this specific court case or the 1994 rape allegation? If so, what is their stated position?
+Answer: Donald Trump and his legal representatives have publicly responded to the 1994 rape allegation by denying it, stating that it is false and politically motivated.
+
+Source URL: https://www.courthousenews.com/rape-allegations-refiled-against-trump/
+
+### Which credible news organizations or legal analysts have reported on this specific court case, and what details have they verified regarding its filing and nature?
+Answer: **CONFLICT.** The retrieved document states that the lawsuit filed by 'Katie Johnson' was reported as fabricated by the Daily Mail, with no corroborative evidence and Donald Trump's name inserted. The reasoner, confident in its recollection, reports that credible news organizations such as The Guardian, The New York Times, and CNN covered the court case, verifying details like its filing in June 2016 and dismissal in November 2016.
+
+Source URL: https://www.inquisitr.com/3692292/donald-trump-rape-accuser-katie-johnson-lied-she-was-not-sexually-assaulted-by-trump-at-age-13-report
+
+# Claim 116 — Joe Biden said “You know, we have to come together. That’s why I’m running. I’m running as a proud Democrat for the Senate. So vote! Vote!”
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the primary source (e.g., video, audio transcript, official government record) that documents Joe Biden making a statement containing the exact quote: "You know, we have to come together. That’s why I’m running. I’m running as a proud Democrat for the Senate. So vote! Vote!"?
+Answer: There is no primary source, such as a video, audio transcript, or official record, that documents Joe Biden making the statement with the exact quote: 'You know, we have to come together. That’s why I’m running. I’m running as a proud Democrat for the Senate. So vote! Vote!'
+
+Source URL: https://kids.britannica.com/students/article/Joe-Biden/471323
+
+### On what specific date and in what location or venue did Joe Biden deliver the statement containing the quoted words?
+Answer: **CONFLICT.** The retrieved document states that the statement was delivered at the South Carolina Democrat Party’s First in the South Dinner, though the exact date is not specified. The reasoner working from memory alone reports that it has no record of Joe Biden delivering the statement on December 10, 2020, or at any specific location or venue on that date, and that nothing of this kind appears in its knowledge, indicating that it is close to guessing on this point.
+
+Source URL: https://www.rev.com/blog/transcripts/transcript-joe-biden-mistakenly-says-hes-a-united-states-senate-candidate-in-south-carolina-speech
+
+### What was the title of the specific event, meeting, or campaign rally at which Joe Biden allegedly delivered the quoted statement on January 5, 2024?
+Answer: **CONFLICT.** The document-store fact-checker's request was rejected due to high risk, so no information was retrieved about any event, meeting, or campaign rally titled for January 5, 2024, where Joe Biden made the quoted statement. The reasoner working from memory alone, with moderate confidence, reports no recollection of such an event and recalls that Joe Biden was President in 2024 and not campaigning for Senate, making such an occurrence highly unlikely.
+
+Source URL: https://www.theguardian.com/us-news/2019/apr/25/joe-biden-presidential-campaign-2020-elections
+
+### To which specific U.S. Senate race or election was Joe Biden referring when he stated he was "running as a proud Democrat for the Senate"?
+Answer: **CONFLICT.** The retrieved document states that Joe Biden was referring to the 2020 U.S. Senate race in South Carolina between Jaime Harrison and Lindsey Graham. The reasoner working from memory alone reports having no recollection of Biden referring to any specific Senate race in this statement, inferring that he was not referring to one, and is close to guessing in this assessment.
+
+Source URL: https://www.rev.com/blog/transcripts/transcript-joe-biden-mistakenly-says-hes-a-united-states-senate-candidate-in-south-carolina-speech
+
+### As of January 5, 2024, was Joe Biden currently a candidate for the U.S. Senate in any state, or was he the sitting President of the United States?
+Answer: As of January 5, 2024, Joe Biden was the sitting President of the United States and not a candidate for the U.S. Senate.
+
+Source URL: https://kids.britannica.com/students/article/Joe-Biden/471323
+
+### In the verified original source, what is the exact context (the sentences immediately before and after) of the quote to ensure it has not been edited or taken out of context?
+Answer: **CONFLICT.** The retrieved document states that the exact quote from the claim is not present in the verified source; instead, the transcript shows Biden saying, 'My name’s Joe Biden. I’m a democratic candidate for the United States Senate. Look me over. If you like what you see, help out. If not, vote for the other guy. Give me a look, though,' with the sentences immediately before and after discussing where he comes from and asking for help. The reasoner working from memory alone, which is uncertain and close to guessing, reports that it has no record of any verified original source for the quote or the sentences immediately before and after it.
+
+Source URL: https://www.rev.com/blog/transcripts/transcript-joe-biden-mistakenly-says-hes-a-united-states-senate-candidate-in-south-carolina-speech
+
+### Was the statement made by Joe Biden on January 5, 2024, an instance of him mistakenly misspeaking or confusing his current political office with a past one, such as when he was a senator?
+Answer: **CONFLICT.** The retrieved document states that no information was found about a statement by Joe Biden on January 5, 2024, but it documents a similar gaffe from February 2020 where he mistakenly referred to himself as a Democratic candidate for the Senate while running for president. The reasoner working from memory alone reports no recollection of any such statement on January 5, 2024, and, based on Biden's known timeline as President by 2024, infers that the premise is likely due to a chronological error, though it is close to guessing on this assessment.
+
+Source URL: https://nypost.com/2020/02/25/joe-biden-says-hes-a-candidate-for-us-senate-in-latest-gaffe/
+
+### Do official White House archives or reputable news reports from January 5, 2024, document Joe Biden making public remarks, and do any of those records contain the quoted statement?
+Answer: The quoted statement is not documented in official White House archives or reputable news reports from January 5, 2024; it originates from Joe Biden's 2020 Democratic National Convention speech.
+
+Source URL: https://www.mojologic.com.au/speech-30-joe-biden-speech/
+
+### Has the claim that Joe Biden made this specific statement on January 5, 2024, been previously fact-checked by any major fact-checking organizations, and if so, what was their conclusion?
+Answer: There is no record of major fact-checking organizations having fact-checked the claim that Joe Biden made this statement on January 5, 2024.
+
+Source URL: https://nypost.com/2020/02/25/joe-biden-says-hes-a-candidate-for-us-senate-in-latest-gaffe/
+
+### Is there any evidence that the quoted statement is a deepfake, a digitally manipulated clip, or a misattribution of speech from another individual?
+Answer: The quoted statement is a genuine gaffe made by Joe Biden in a recorded public speech during his 2020 presidential campaign, with no evidence of it being a deepfake, digitally manipulated clip, or misattribution of speech from another individual.
+
+Source URL: https://www.rev.com/blog/transcripts/transcript-joe-biden-mistakenly-says-hes-a-united-states-senate-candidate-in-south-carolina-speech
+
+# Claim 119 — The PHE has began to combine Covid-19 and influenza statistics to make the numbers look worse.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Did Public Health England (PHE) officially announce or implement a policy of combining COVID-19 and influenza statistics into a single reporting category?
+Answer: Public Health England did not implement a policy of combining COVID-19 and influenza statistics into a single reporting category; their surveillance reports presented data for both viruses separately.
+
+Source URL: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/925324/Weekly_Flu_and_COVID-19_report_W41_FINAL.pdf
+
+### 2. If PHE did combine COVID-19 and influenza statistics, what specific metrics were merged (e.g., case counts, death counts, hospitalization numbers)?
+Answer: **CONFLICT.** The retrieved documents state that no information was found on whether PHE combined COVID-19 and influenza statistics. The reasoner working from memory alone reports that it has no recollection of PHE officially combining these statistics and, with fairly high confidence in this assessment, considers the claim to be a mischaracterization or false.
+
+Source URL: none -- retrieval returned no document
+
+### 3. What was the stated reason or public health justification provided by PHE for any decision to combine COVID-19 and influenza statistics?
+Answer: **CONFLICT.** The retrieved document states that Public Health England's reason for combining COVID-19 and influenza surveillance systems was to effectively monitor the pandemic and understand its impact on public health. The reasoner working from memory alone, with little confidence in this assessment, reports that it has no record of PHE providing any stated reason or public health justification for combining the statistics.
+
+Source URL: http://allcatsrgrey.org.uk/wp/download/public_health/epidemiology/Surveillance_Influenza_and_other_respiratory_viruses_in_the_UK_2019_to_2020_FINAL.pdf
+
+### 4. Is there any official documentation, press release, or published methodology from PHE confirming that COVID-19 and influenza statistics were combined?
+Answer: No official documentation, press release, or published methodology from PHE confirms that COVID-19 and influenza statistics were combined; PHE reported these statistics separately and distinguished between the two diseases.
+
+Source URL: http://allcatsrgrey.org.uk/wp/download/public_health/epidemiology/Surveillance_Influenza_and_other_respiratory_viruses_in_the_UK_2019_to_2020_FINAL.pdf
+
+### 5. Did PHE ever explicitly state or imply that the purpose of combining COVID-19 and influenza data was to make COVID-19 appear more severe or dangerous?
+Answer: Public Health England (PHE) did not state or imply that combining COVID-19 and influenza data was intended to make COVID-19 appear more severe. The combination was carried out for surveillance purposes and was motivated by genuine, research-based concern over the higher mortality risk from co-infection with both viruses, which was used to justify expanding the flu vaccination program as a public health measure. Similar claims alleging an intent to inflate numbers were common in misinformation and have been debunked.
+
+Source URL: https://www.independent.co.uk/news/uk/politics/coronavirus-flu-death-risk-public-health-england-vaccine-jonathan-vantam-b517342.html
+
+### 6. Do other national or international public health agencies (such as the U.S. CDC, WHO, or European CDC) also track or report combined respiratory illness data, and if so, for what stated reasons?
+Answer: Yes, other national and international public health agencies, including the U.S. CDC, WHO, and European ECDC, track and report combined respiratory illness data through systems like the European Respiratory Virus Surveillance Summary (ERVISS) and the U.S. CDC's FluView, with stated reasons such as early detection of respiratory virus circulation, providing a holistic view of disease burden, facilitating comparative analysis, and supporting public health preparedness and response.
+
+Source URL: https://flunewseurope.org/
+
+### 7. Is there a legitimate epidemiological or public health reason for monitoring combined respiratory illness statistics (e.g., tracking overall respiratory disease burden)?
+Answer: Yes, there are legitimate epidemiological and public health reasons for monitoring combined respiratory illness statistics, such as tracking overall disease burden to inform resource allocation, enhance surveillance, and improve public health responses, as demonstrated by practices like Manitoba's combined respiratory virus surveillance report.
+
+Source URL: https://www.gov.mb.ca/health/publichealth/surveillance/covid-19/index.html
+
+### 8. When, according to the claim, did PHE begin combining these statistics, and does this timeline align with PHE's actual reporting practices?
+Answer: The claim does not specify when PHE began combining Covid-19 and influenza statistics, but according to available information, Public Health England did not combine these statistics; their actual reporting practices involved separate tracking for Covid-19 and influenza, with COVID-19 deaths being combined across different sources for transparency but not merged with influenza data.
+
+Source URL: https://www.ons.gov.uk/news/statementsandletters/thedifferentusesoffiguresondeathsfromcovid19publishedbydhscandtheons
+
+### 9. Have any independent fact-checkers, journalists, or public health experts verified or debunked the claim that PHE combined these statistics to inflate COVID-19 numbers?
+Answer: **CONFLICT.** The document store returned no document that could answer this question. The reasoner, working from memory, has no specific recollection of independent fact-checkers, journalists, or public health experts verifying or debunking the claim, but recalls from general knowledge that fact-checking organizations actively debunked COVID-19 misinformation and infers that this claim was likely among them, though it is not very certain of this inference.
+
+Source URL: none -- retrieval returned no document
+
+### 10. Does the original source of this claim provide verifiable evidence (such as screenshots of data, links to PHE reports, or testimony from PHE officials) to support the assertion?
+Answer: No information has been identified to indicate that the original source of the claim provides verifiable evidence such as screenshots of data, links to PHE reports, or testimony from PHE officials to support the assertion that PHE combined Covid-19 and influenza statistics to make the numbers look worse.
+
+Source URL: https://www.independent.co.uk/news/uk/politics/coronavirus-flu-death-risk-public-health-england-vaccine-jonathan-vantam-b517342.html
+
+# Claim 125 — The gross domestic product  (GDP) figure in Nigeria for 2020 has decreased from the figure for 2019.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### According to official data from the Nigerian National Bureau of Statistics, what were the Gross Domestic Product (GDP) figures for Nigeria in 2019 and 2020?
+Answer: **CONFLICT.** The retrieved document states that Nigeria's GDP was $474.52 billion in 2019 and $432.20 billion in 2020, showing a decline. The reasoner working from memory alone, which has no record of these figures and is very uncertain in this assessment, reports that it has no knowledge of the GDP figures for Nigeria in 2019 and 2020 according to official data from the Nigerian National Bureau of Statistics.
+
+Source URL: https://www.macrotrends.net/countries/NGA/nigeria/gdp-gross-domestic-product
+
+### According to the World Bank, did Nigeria's Gross Domestic Product (GDP) in current US dollars decrease from 2019 to 2020?
+Answer: **CONFLICT.** The retrieved document states that according to World Bank data, Nigeria's GDP in current US dollars decreased from $474.52 billion in 2019 to $432.20 billion in 2020, an 8.92% decline. The reasoner, working from memory alone, reports no recollection of World Bank data but infers that a decrease in GDP is likely due to the impact of the COVID-19 pandemic, with moderate confidence in this inference.
+
+Source URL: https://www.macrotrends.net/countries/NGA/nigeria/gdp-gross-domestic-product
+
+### According to the International Monetary Fund (IMF), did Nigeria's annual Gross Domestic Product (GDP) show a decline from 2019 to 2020?
+Answer: **CONFLICT.** The retrieved document states that Nigeria's GDP declined from $474.52B in 2019 to $432.20B in 2020, an 8.92% decline, based on data from macrotrends.net that does not explicitly attribute the figures to the IMF. The reasoner working from memory alone reports no specific recollection of the IMF reporting on Nigeria's GDP decline from 2019 to 2020, but recalls the severe economic impact of COVID-19 and falling oil prices in 2020 and infers that Nigeria's GDP most likely showed a decline in 2020 according to IMF data, with this inference held with high certainty.
+
+Source URL: https://www.macrotrends.net/countries/NGA/nigeria/gdp-gross-domestic-product
+
+### If the GDP figures are measured in Nigerian Naira, did the nominal (current price) GDP for Nigeria fall between 2019 and 2020?
+Answer: **CONFLICT.** The document store returned no documents bearing on the question of Nigeria's nominal GDP between 2019 and 2020. The reasoner, working from memory alone, reports that although it has no specific recall of the figures, it infers from general economic trends—such as high inflation despite a real GDP contraction due to the pandemic—that nominal GDP did not fall between 2019 and 2020, expressing confidence in this inference.
+
+Source URL: none -- retrieval returned no document
+
+### Did Nigeria's real Gross Domestic Product (GDP), which accounts for inflation, contract in 2020 compared to 2019?
+Answer: Nigeria's real Gross Domestic Product (GDP) contracted in 2020 compared to 2019, with the growth rate declining from 2.21% in 2019 to -1.79% in 2020.
+
+Source URL: https://www.macrotrends.net/countries/NGA/nigeria/gdp-growth-rate
+
+### What was the percentage change in Nigeria's Gross Domestic Product (GDP) between 2019 and 2020?
+Answer: Nigeria's Gross Domestic Product (GDP) growth rate in 2020 was -1.79%, a decline from the 2019 growth rate of 2.21%, representing a 4 percentage point decrease.
+
+Source URL: https://www.macrotrends.net/countries/NGA/nigeria/gdp-growth-rate
+
+### Is there a consensus among major international economic organizations (World Bank, IMF, UN) that Nigeria's GDP decreased from 2019 to 2020?
+Answer: Yes, there is consensus among major international economic organizations that Nigeria's GDP decreased from 2019 to 2020.
+
+Source URL: https://www.macrotrends.net/countries/NGA/nigeria/gdp-gross-domestic-product
+
+### Did the COVID-19 pandemic and associated global economic disruption contribute to a contraction in Nigeria's Gross Domestic Product (GDP) in 2020?
+Answer: The COVID-19 pandemic and associated global economic disruption contributed to a contraction in Nigeria's Gross Domestic Product (GDP) in 2020, as evidenced by a decline in multiple economic sectors.
+
+Source URL: https://www.unitybankng.com/uploads/docs/1612266408Economic%20and%20Market%20Highlights%20-%20Q3%202020.pdf
+
+### Was the decrease in Nigeria's Gross Domestic Product (GDP) from 2019 to 2020 the first recorded annual decline in the country's GDP in several years?
+Answer: The decrease in Nigeria's Gross Domestic Product (GDP) from 2019 to 2020 was the first recorded annual decline in several years.
+
+Source URL: https://www.macrotrends.net/countries/NGA/nigeria/gdp-growth-rate
+
+### Beyond aggregate GDP, did key economic sectors in Nigeria, such as oil production or non-oil sectors, experience output declines that contributed to an overall GDP decrease in 2020?
+Answer: Key economic sectors in Nigeria, including oil production and non-oil sectors, experienced output declines in 2020 that contributed to the overall GDP decrease, driven by factors such as lower oil prices and production cuts in the oil sector and pandemic-related slowdowns in non-oil sectors.
+
+Source URL: https://tribuneonlineng.com/nigerias-economy-shrank-by-6-10-in-q2-2020-nbs/
+
+# Claim 128 — Joe Biden proposed a US wide 2% property tax increase.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did President Joe Biden, either as President or as a presidential candidate, formally propose a new nationwide property tax?
+Answer: President Joe Biden did not formally propose a new nationwide property tax.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/11/fact-check-national-property-tax-isnt-part-joe-bidens-plan/5761622002/
+
+### Has Joe Biden ever publicly advocated for increasing an existing federal tax that is applied to property, such as the capital gains tax on real estate sales?
+Answer: Joe Biden has publicly advocated for increasing the federal capital gains tax, proposing to tax capital gains as ordinary income for taxpayers with over $1 million in income, which would raise the rate for high-earning real estate investors.
+
+Source URL: https://www.linkedin.com/pulse/joe-bidens-tax-plan-8-proposed-changes-impacting-real-matt-marsh
+
+### Is there any official record, such as a White House budget proposal, draft legislation, or official policy document, that includes a recommendation for a 2% increase in a property-related tax at the federal level?
+Answer: There is no official record, such as a White House budget proposal, draft legislation, or policy document, that includes a recommendation for a 2% increase in a property-related tax at the federal level proposed by Joe Biden.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/11/fact-check-national-property-tax-isnt-part-joe-bidens-plan/5761622002/
+
+### In the context of U.S. taxation, is a "US wide property tax increase" accurately describing a federal proposal, given that property taxes are primarily local?
+Answer: A 'US wide property tax increase' does not accurately describe a federal proposal in U.S. taxation, as property taxes are primarily local taxes administered by state and local governments, and there is no record of Joe Biden proposing such a federal tax.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/11/fact-check-national-property-tax-isnt-part-joe-bidens-plan/5761622002/
+
+### What was the specific date or time period when Joe Biden allegedly made this proposal for a 2% property tax increase?
+Answer: There is no credible evidence or recollection that Joe Biden ever proposed a US-wide 2% property tax increase; his 2020 campaign tax proposals focused on corporate and income taxes, and federal property taxes are not constitutionally permissible.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/11/fact-check-national-property-tax-isnt-part-joe-bidens-plan/5761622002/
+
+### Did any major news outlet or fact-checking organization report on a specific proposal from Joe Biden involving a 2% property tax hike?
+Answer: No major news outlet or fact-checking organization reported on a specific proposal from Joe Biden involving a 2% property tax increase, and fact-checks have rated similar claims about property taxes as false.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/11/fact-check-national-property-tax-isnt-part-joe-bidens-plan/5761622002/
+
+### Has Joe Biden made any public statements, in speeches, interviews, or debates, specifically calling for a 2% increase in any form of property tax?
+Answer: Joe Biden has not made any public statements specifically calling for a 2% increase in any form of property tax, as his campaign materials show no such proposal and property taxes in the US are generally local rather than federal.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/11/fact-check-national-property-tax-isnt-part-joe-bidens-plan/5761622002/
+
+### Is it possible the claim confuses Joe Biden with another political figure or misrepresents a proposal to increase taxes on corporations or high-income individuals as a "property tax"?
+Answer: Joe Biden has not proposed a US-wide property tax increase; his tax plan centers on raising taxes for corporations and high-income individuals.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/11/fact-check-national-property-tax-isnt-part-joe-bidens-plan/5761622002/
+
+### Did the Biden administration's "Build Back Better" framework or any related legislative proposal include a measure that could be characterized as a 2% property tax increase?
+Answer: There is no evidence or indication that the Biden administration's Build Back Better framework or any related legislative proposal included a measure characterized as a 2% property tax increase.
+
+Source URL: none -- retrieval returned no document
+
+### Has any legislation been introduced in Congress, with President Biden's explicit support, that mandates a 2% increase in a nationwide property tax?
+Answer: No legislation has been introduced in Congress with President Biden's explicit support that mandates a 2% increase in a nationwide property tax; property taxes are typically local and not federal, and Biden's tax policies focus on income and corporate taxes.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/11/fact-check-national-property-tax-isnt-part-joe-bidens-plan/5761622002/
+
+# Claim 130 — Kirron Kher, BJP’s Chandigarh MP, said “Rape is part of Indian culture and tradition. We cannot stop it!”
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is Kirron Kher a Member of Parliament from Chandigarh representing the Bharatiya Janata Party (BJP)?
+Answer: Kirron Kher is a Member of Parliament from Chandigarh representing the Bharatiya Janata Party (BJP).
+
+Source URL: https://www.hindustantimes.com/lok-sabha-elections/kirron-kher-eyes-second-term-as-mp-but-guest-appearances-niggle/story-aI9QcKTtkMSPrkHVYAh5XI.html
+
+### On what date and at what specific event or forum did Kirron Kher allegedly make the statement, "Rape is part of Indian culture and tradition. We cannot stop it!"?
+Answer: **CONFLICT.** The retrieved document states that Kirron Kher never made the statement as claimed; her words were taken out of context, and the real statements about changing mindsets to stop rapes were made in relation to incidents in Haryana, seen in a Times of India video from January 2018. The reasoner working from memory alone, which is close to guessing, reports that it has no record of the date or specific event where the alleged statement was made.
+
+Source URL: https://factly.in/kirron-kher-did-not-say-that-rapes-cannot-be-stopped/
+
+### Is there an unedited video or audio recording, or an official transcript, that captures Kirron Kher making the statement verbatim as quoted?
+Answer: There is no unedited video, audio recording, or official transcript that captures Kirron Kher making the statement 'Rape is part of Indian culture and tradition. We cannot stop it!' verbatim as quoted.
+
+Source URL: https://factly.in/kirron-kher-did-not-say-that-rapes-cannot-be-stopped/
+
+### What was the immediate context or question that preceded Kirron Kher's alleged statement?
+Answer: **CONFLICT.** The retrieved document states that Kirron Kher's alleged statement was made while speaking to journalists in reference to the gangrape of a 22-year-old woman in Chandigarh. The reasoner working from memory alone, which has no record of Kirron Kher making this statement and is close to guessing, reports that it cannot provide any information about the immediate context.
+
+Source URL: https://varshadugar.com/post/174237238842/what-is-wrong-with-kirron-khers-chandigarh
+
+### Has any reputable and independent news organization reported the statement with a primary source (e.g., video link, transcript) attributed directly to Kirron Kher?
+Answer: **CONFLICT.** The retrieved document states that the Times of India, a reputable news organization, reported the statement with a video as a primary source directly attributed to Kirron Kher. The reasoner working from memory alone reports that it has no record of any reputable and independent news organization reporting such a statement with primary sources attributed directly to Kirron Kher, and is close to guessing in this assessment.
+
+Source URL: https://timesofindia.indiatimes.com/videos/news/rape-culture-not-new-bjp-mp-kirron-kher/videoshow/62606202.cms
+
+### Has Kirron Kher publicly confirmed or denied making the statement as quoted?
+Answer: **CONFLICT.** the retrieved document states that Kirron Kher did not make the statement as quoted and that her words were twisted, effectively denying the claim. the reasoner working from memory alone, which has no record of the statement or any confirmation or denial and is close to guessing, reports that it has no knowledge of such events.
+
+Source URL: https://factly.in/kirron-kher-did-not-say-that-rapes-cannot-be-stopped/
+
+### If a denial has been issued, what specific clarification did Kirron Kher or her representatives provide about what was actually said or intended?
+Answer: **CONFLICT.** The retrieved document states that Kirron Kher clarified that her words were misrepresented and emphasized that such incidents can be stopped through a change in mindset. The reasoner working from memory alone reports, with low certainty due to its assessment, that it has no record of any specific clarification provided by Kirron Kher or her representatives about what was actually said or intended.
+
+Source URL: https://factly.in/kirron-kher-did-not-say-that-rapes-cannot-be-stopped/
+
+### In the alleged statement, was Kirron Kher expressing her personal opinion, or was she referencing, paraphrasing, or critiquing someone else's viewpoint?
+Answer: **CONFLICT.** The retrieved document states that Kirron Kher was expressing her personal opinion, as she said 'I am saying these things as a mother, not as a politician.' The reasoner, with moderate confidence, reports that it has no record of Kirron Kher making the statement described in the claim, and thus cannot determine whether she was expressing personal opinion or referencing someone else's viewpoint.
+
+Source URL: https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/photo-features/bollywood-celebs-controversial-statements/kirron-kher-claims-her-statement-on-chandigarh-gangrape-was-politicised/photostory/61876509.cms
+
+### Has the Bharatiya Janata Party (BJP) as an organization issued any official statement regarding this alleged comment by its MP?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### Are there other contemporaneous accounts or reports from the same event that describe or dispute the nature of Kirron Kher's remarks on the topic of sexual violence?
+Answer: **CONFLICT.** The retrieved documents state that other contemporaneous reports from the same event describe Kirron Kher's remarks as a critique of historical rape culture, citing her statement that 'rape culture is not new in India and has existed for ages' and that she is pained by the rise in rapes. The reasoner, working from memory alone and with low confidence indicating it is close to guessing, reports that it has no record of any such contemporaneous accounts or reports.
+
+Source URL: https://timesofindia.indiatimes.com/videos/news/rape-culture-not-new-bjp-mp-kirron-kher/videoshow/62606202.cms
+
+# Claim 132 — Swiss Squash player Ambre Allinckx’s refuses to play in India due to safety reasons
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is Ambre Allinckx a professional squash player who represents Switzerland in international competitions?
+Answer: **CONFLICT.** The retrieved document states that Ambre Allinckx is a professional squash player representing Switzerland in international competitions, identifying her as the Swiss Squash Champion and top-ranked women's player. The reasoner working from memory alone, which is not confident in its assessment and is close to guessing, reports that it has no record of Ambre Allinckx being a professional squash player who represents Switzerland.
+
+Source URL: https://www.indiatimes.com/sports/swiss-squash-champion-won-t-come-to-india-for-world-championships-as-parents-believe-its-unsafe-for-women-349805.html
+
+### Did Ambre Allinckx publicly state or is it officially reported that she refused to participate in a squash tournament or event in India?
+Answer: Ambre Allinckx did not publicly refuse to participate in a squash tournament in India due to safety reasons; her parents stated the decision was made for family and scheduling reasons.
+
+Source URL: https://indianexpress.com/article/sports/sport-others/there-wasnt-any-safety-concerns-in-india-swiss-squash-players-ambre-allinckx-parents-clarify-5270280/
+
+### What was the specific name and date of the squash tournament or event in India from which Ambre Allinckx withdrew or refused to participate?
+Answer: **CONFLICT.** The retrieved document states that Ambre Allinckx withdrew from the WSF-World Junior Squash Championship in Chennai owing to safety concerns, with the event described as ongoing and no exact date provided. In contrast, the reasoner, which has no record of any such event and is close to guessing in this assessment, reports that it has no knowledge of any specific squash tournament or event in India from which she withdrew or refused to participate.
+
+Source URL: https://indianexpress.com/article/sports/sport-others/there-wasnt-any-safety-concerns-in-india-swiss-squash-players-ambre-allinckx-parents-clarify-5270280/
+
+### Did Ambre Allinckx or her official representatives cite "safety reasons" as the primary cause for her refusal to play in India?
+Answer: No, Ambre Allinckx or her official representatives did not cite safety reasons for her refusal to play in India; her absence was attributed to family holiday plans and concerns about physical overexertion.
+
+Source URL: https://indianexpress.com/article/sports/sport-others/there-wasnt-any-safety-concerns-in-india-swiss-squash-players-ambre-allinckx-parents-clarify-5270280/
+
+### What specific safety concerns (e.g., health advisories, security threats, political unrest) were mentioned in connection with Ambre Allinckx's decision?
+Answer: **CONFLICT.** The retrieved document states that no specific safety concerns were mentioned in connection with Ambre Allinckx's decision, and that her parents explicitly denied safety was a factor, labeling media reports as false. The reasoner working from memory alone, with no record of the event and low certainty, reports that it has no knowledge of any specific safety concerns mentioned.
+
+Source URL: https://www.indiatimes.com/sports/reports-of-feeling-unsafe-on-india-tour-a-lie-swiss-squash-player-pulled-out-to-be-with-family-349965.html
+
+### Has the World Squash Federation, the Professional Squash Association, or the Swiss Squash Federation issued a statement confirming Ambre Allinckx's withdrawal from an event in India due to safety reasons?
+Answer: No statement was issued by the World Squash Federation, the Professional Squash Association, or the Swiss Squash Federation confirming Ambre Allinckx's withdrawal from an event in India due to safety reasons; the World Squash Federation Chief Executive Officer stated they had "complete confidence with the security arrangements," and the player's parents explicitly denied safety was a factor, calling the reports a "lie or a journalistic invention."
+
+Source URL: https://indianexpress.com/article/sports/sport-others/there-wasnt-any-safety-concerns-in-india-swiss-squash-players-ambre-allinckx-parents-clarify-5270280/
+
+### Were there any documented incidents, threats, or general safety advisories in India that coincided with the timeframe of the tournament and Ambre Allinckx's stated concerns?
+Answer: There were no documented incidents, threats, or safety advisories in India that coincided with the tournament and Ambre Allinckx's stated concerns, and her parents have stated that safety was not a factor in her decision.
+
+Source URL: https://indianexpress.com/article/sports/sport-others/there-wasnt-any-safety-concerns-in-india-swiss-squash-players-ambre-allinckx-parents-clarify-5270280/
+
+### Did other professional squash players or national teams also withdraw from the same event in India, citing similar safety reasons?
+Answer: **CONFLICT.** The retrieved document states that no other professional squash players or national teams withdrew from the 2018 World Junior Squash Championships in India, though teams from Iran, Australia, and the United States expressed concerns and advised players to dress conservatively. The reasoner working from memory alone, which has no knowledge of the event and is close to guessing, reports that it has no record of any such event and cannot determine whether other players withdrew.
+
+Source URL: https://www.timesnownews.com/sports/others/article/swiss-squash-champ-refuses-to-travel-to-chennai-for-world-cships-as-parents-say-india-is-unsafe-for-women/257670
+
+### Is there a primary source (such as a video interview, social media post, or press release) directly from Ambre Allinckx that confirms her refusal to play in India for safety reasons?
+Answer: **CONFLICT.** The retrieved document states that there is no primary source directly from Ambre Allinckx confirming her refusal to play in India for safety reasons, but provides a primary source from her parents explicitly denying the safety concerns, stating, 'we, as parent, never were concerned about safety in India. This is a lie or a journalist invention.' The reasoner working from memory alone, which has no record of any such refusal and is close to guessing, reports that it has no knowledge of any refusal by Ambre Allinckx to play in India for safety reasons or any primary source confirming such a refusal.
+
+Source URL: https://www.timesnownews.com/sports/others/article/parents-of-swiss-squash-player-ambre-allinckx-deny-claims-of-not-sending-her-to-india-due-to-safety-concerns/258329
+
+### How did the tournament organizers or the Indian squash federation respond to Ambre Allinckx's reported refusal to participate?
+Answer: **CONFLICT.** The retrieved document states that the World Squash Federation and the Squash Rackets Federation of India responded to Ambre Allinckx's reported refusal to play in India due to safety reasons by affirming confidence in security arrangements, with WSF CEO Andrew Shelley issuing an 'all well' note and SRFI sharing parental clarification to counter the safety narrative. The reasoner working from memory alone reports that it has no record of any refusal by Ambre Allinckx or any response to it, and it is unsure whether such events occurred.
+
+Source URL: https://indianexpress.com/article/sports/sport-others/there-wasnt-any-safety-concerns-in-india-swiss-squash-players-ambre-allinckx-parents-clarify-5270280/
+
+# Claim 136 — Forty percent of Iowa’s energy resources are from renewables.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the percentage of Iowa's total in-state electricity generation that comes from renewable sources according to the latest annual data from the U.S. Energy Information Administration (EIA)?
+Answer: The percentage of Iowa's total in-state electricity generation from renewable sources according to the latest annual U.S. Energy Information Administration data is not available in the document store or internal knowledge.
+
+Source URL: https://www.desmoinesregister.com/story/tech/science/environment/2020/04/16/wind-energy-iowa-largest-source-electricity/5146483002/
+
+### What is the percentage of Iowa's total energy consumption (including all sectors) that comes from renewable sources according to the latest annual data from the U.S. Energy Information Administration (EIA)?
+Answer: According to available sources, there is no specific data on the percentage of Iowa's total energy consumption from renewable sources in the latest EIA annual data.
+
+Source URL: none -- retrieval returned no document
+
+### For the most recent year available, what specific types of energy (e.g., wind, solar, hydro, biomass) are categorized as "renewable" in Iowa's official energy statistics?
+Answer: **CONFLICT.** The retrieved document states that wind energy and solar energy are the renewable energy types identified in Iowa's official energy statistics, with wind accounting for 37% of electricity generation in 2018. The reasoner, working from memory alone, reports having no record of Iowa's official energy statistics or the specific renewable energy types, and is not confident in this lack of knowledge.
+
+Source URL: https://www.energysage.com/solar-panels/ia/
+
+### Has the renewable energy share of Iowa's electricity generation ever reached or exceeded 40% in any single calendar year according to EIA data?
+Answer: There is no evidence that Iowa's renewable energy share has reached or exceeded 40% in any single calendar year; for example, wind generation accounted for 28% of electricity in 2014, with projections for up to 40% by 2020, but no such level has been documented.
+
+Source URL: https://www.power-eng.com/renewables/iowa-s-wind-energy-industry-poised-for-growth/
+
+### What is the primary source (e.g., EIA, Iowa Utilities Board, American Wind Energy Association) for the statistic claiming 40% of Iowa's energy comes from renewables?
+Answer: No specific primary source is directly cited or recalled for the statistic claiming 40% of Iowa's energy comes from renewables; sources such as the EIA or AWEA are often associated with similar renewable energy data, but not attributed to this particular claim.
+
+Source URL: https://www.iaenvironment.org/webres/File/IEC20002_PathwayTo100Renewable_F_Web.pdf
+
+### In the context of the claim, does the term "energy resources" refer to primary energy consumed within the state or electricity generated within the state?
+Answer: The term 'energy resources' in the claim refers to electricity generated within the state rather than total primary energy consumed.
+
+Source URL: https://blog.arcadia.com/iowa-renewable-energy/
+
+### How does Iowa's renewable energy percentage, for either electricity generation or total consumption, rank among all U.S. states for the most recent data year?
+Answer: **CONFLICT.** The retrieved document states that Iowa ranks first among all U.S. states for the percentage of electricity generated from wind, with 60%. The reasoner working from memory alone, which is fairly confident, reports that Iowa is a leading state in wind energy production, with wind often contributing over 40% of its electricity generation, placing it among the top states nationally—likely first or second for the percentage of electricity from renewables, and that for total energy consumption, Iowa's rank is probably lower but still among the higher-ranking states.
+
+Source URL: https://100percentiowa.com/clean-energy-facts/
+
+### What is the year-over-year trend for renewable energy's share in Iowa's electricity generation over the past five years according to the EIA?
+Answer: **CONFLICT.** The document-store answer cites EIA data showing that renewable energy's share in Iowa's electricity generation increased from about 19% to 37% between 2011 and 2016. The internal-knowledge reasoner has no recollection of the specific year-over-year trend from EIA data over the past five years but infers, with moderate confidence, that the trend has been upward based on Iowa's high and increasing renewable share from general knowledge.
+
+Source URL: https://blog.arcadia.com/iowa-renewable-energy/
+
+### Are there other credible sources, such as the Iowa Energy Plan or reports from the Iowa Department of Natural Resources, that cite a 40% renewable figure, and what specific metric do they define?
+Answer: **CONFLICT.** The retrieved document states that while there is no direct citation from the Iowa Energy Plan or Iowa DNR reports specifying a 40% renewable figure, it reports that with 10,000 MW of installed wind capacity, Iowa should generate more than 40% of its electricity from wind, defining the metric as electricity generation from wind power. The reasoner working from memory alone reports having no record of any credible sources such as the Iowa Energy Plan or Iowa DNR reports citing a 40% renewable figure and cannot specify the metric, with low confidence in this assessment as it is close to guessing.
+
+Source URL: https://www.iaenvironment.org/webres/File/IEC20002_PathwayTo100Renewable_F_Web.pdf
+
+### If the claim refers to electricity generation, what is the breakdown between wind power and other renewable sources contributing to Iowa's renewable percentage?
+Answer: Iowa's renewable electricity generation is predominantly from wind power, with other renewable sources like hydroelectric, solar, and biomass contributing only minimally.
+
+Source URL: https://blog.arcadia.com/iowa-renewable-energy/
+
+# Claim 139 — A campaign ad video for John Cornyn says that his plan would guarantee insurers must sell plans to any patient with preexisting conditions and will be covered in his plan.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Does a campaign advertisement video exist that features John Cornyn making statements about his healthcare plan?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 2. In the specific campaign advertisement video, does John Cornyn state that his plan includes a guarantee for insurance companies to sell plans to patients with preexisting conditions?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 3. In the specific campaign advertisement video, does John Cornyn state that his plan guarantees that those preexisting conditions will be covered?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 4. Has John Cornyn formally proposed or introduced specific legislation that would create a federal guarantee for insurers to sell plans to all applicants regardless of preexisting conditions?
+Answer: There is no known formal proposal or introduction by John Cornyn of specific legislation that would create a federal guarantee for insurers to sell plans to all applicants regardless of preexisting conditions.
+
+Source URL: https://www.vanityfair.com/news/2017/07/republicans-new-line-health-care-bill-will-give-americans-freedom-to-go-uninsured
+
+### 5. Would the specific legislative plan proposed by John Cornyn guarantee that the costs associated with treating preexisting conditions are covered by the insurance plans sold?
+Answer: **CONFLICT.** The retrieved document states that John Cornyn's proposed Ensuring Coverage for Patients with Pre-Existing Conditions Act does not guarantee coverage of costs for preexisting conditions, as it permits insurers to exclude such treatment. The reasoner working from memory alone reports that it has no record of any specific legislative plan by John Cornyn addressing preexisting conditions, making it close to guessing on whether such a guarantee exists.
+
+Source URL: https://www.commonwealthfund.org/publications/issue-briefs/2018/nov/excluding-preexisting-conditions-impact-on-out-of-pocket-costs
+
+### 6. How does John Cornyn's proposed plan for preexisting conditions differ from the protections established by the Patient Protection and Affordable Care Act (ACA)?
+Answer: **CONFLICT.** The retrieved document states that John Cornyn's proposed plan differs from the ACA by significantly weakening Essential Health Benefits requirements, allowing states to waive them and potentially undermining protections for preexisting conditions. In contrast, the reasoner working from memory alone reports having no record of John Cornyn's proposed plan for preexisting conditions and cannot describe how it differs from the ACA, with moderate confidence in this assessment.
+
+Source URL: https://www.theatlantic.com/business/archive/2017/06/ahca-senate-bill-preexisting-conditions/531375/
+
+### 7. What were the exact words John Cornyn used in the advertisement video to describe the protections for preexisting conditions in his plan?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 8. Is the campaign advertisement video referencing a plan from John Cornyn's current or most recent campaign for the U.S. Senate?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 9. Do independent healthcare policy analysts confirm that John Cornyn's specific plan includes a continuous coverage guarantee or a different mechanism to protect people with preexisting conditions?
+Answer: Neither the document store nor the reasoner's memory has anything bearing on this question.
+
+Source URL: none -- retrieval returned no document
+
+### 10. Has John Cornyn's voting record in the U.S. Senate included votes for or against legislation that maintained or eliminated protections for individuals with preexisting conditions?
+Answer: **CONFLICT.** The retrieved document indicates John Cornyn supported the 2017 House Republican healthcare bill to repeal and replace the Affordable Care Act, but it does not specify whether this bill maintained or eliminated protections for individuals with preexisting conditions. The reasoner, which is confident in its assessment and would assert it with certainty, reports that Cornyn voted against legislation maintaining protections, such as voting against the Affordable Care Act in 2010, and for legislation that would eliminate those protections, including various ACA repeal efforts in 2017.
+
+Source URL: https://www.cbsnews.com/philadelphia/news/cornyn-conservatives-wishful-thinking/
+
+# Claim 140 — Charlotta Bass was the first Black woman to run for vice president in 1952
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What was Charlotta Bass's racial and gender identity according to historical records?
+Answer: Charlotta Bass was an African American woman.
+
+Source URL: http://www.myblackhistory.net/Charlotta_Bass.htm
+
+### Did Charlotta Bass seek the office of Vice President of the United States?
+Answer: Charlotta Bass sought the office of Vice President of the United States in 1952, nominated by the Progressive Party, and was the running mate of Vincent Hallinan.
+
+Source URL: https://laist.com/news/la-history/charlotta-bass-first-woman-of-color-to-run-for-us-vice-president
+
+### In which year did Charlotta Bass's vice-presidential candidacy take place?
+Answer: Charlotta Bass's vice-presidential candidacy took place in 1952.
+
+Source URL: https://laist.com/news/la-history/charlotta-bass-first-woman-of-color-to-run-for-us-vice-president
+
+### For which political party was Charlotta Bass a vice-presidential candidate in 1952?
+Answer: Charlotta Bass was the vice-presidential candidate for the Progressive Party in 1952, running alongside presidential candidate Vincent Hallinan.
+
+Source URL: https://laist.com/news/la-history/charlotta-bass-first-woman-of-color-to-run-for-us-vice-president
+
+### Was Charlotta Bass the running mate of a specific presidential candidate in the 1952 election?
+Answer: Charlotta Bass was the running mate of Vincent Hallinan on the Progressive Party ticket in the 1952 election.
+
+Source URL: https://laist.com/news/la-history/charlotta-bass-first-woman-of-color-to-run-for-us-vice-president
+
+### Was Charlotta Bass's candidacy listed on official state ballots for the 1952 general election?
+Answer: Charlotta Bass's candidacy was listed on official state ballots for the 1952 general election, as she was the Progressive Party's vice-presidential nominee and the party had ballot access in states such as California.
+
+Source URL: https://www.cnn.com/2020/08/14/us/charlotta-bass-kamala-harris-trnd/index.html
+
+### According to historical election records, was there any Black woman who was a vice-presidential candidate on a major or minor party ticket before 1952?
+Answer: According to historical election records, there is no evidence of any Black woman who was a vice-presidential candidate on a major or minor party ticket before 1952.
+
+Source URL: https://yen.com.gh/167679-meet-charlotta-bass-black-woman-run-vice-president-united-states-photo.html
+
+### Is Charlotta Bass officially recognized by historians or institutions as the first Black woman to run for U.S. vice president?
+Answer: Charlotta Bass is officially recognized by historians and institutions as the first Black woman to run for U.S. vice president, based on her 1952 candidacy with the Progressive Party.
+
+Source URL: https://www.courierpress.com/story/opinion/columnists/jon-webb/2020/08/12/usis-denise-lynn-charlotta-bass-not-kamala-harris-first-black-woman-vp-candidate/3357069001/
+
+### What was the outcome of the 1952 presidential election in which Charlotta Bass was a vice-presidential candidate?
+Answer: In the 1952 presidential election, Republican Dwight D. Eisenhower defeated Democrat Adlai Stevenson by a landslide. The Progressive Party ticket of Vincent Hallinan and Charlotta Bass received about 140,000 popular votes and no electoral votes, representing a minimal share of the vote.
+
+Source URL: https://laist.com/news/la-history/charlotta-bass-first-woman-of-color-to-run-for-us-vice-president
+
+### Is there any documentary evidence, such as a party nomination announcement or official campaign material, confirming Charlotta Bass's 1952 vice-presidential candidacy?
+Answer: Documentary evidence, such as party nomination announcements and official campaign material, confirms Charlotta Bass's 1952 vice-presidential candidacy.
+
+Source URL: https://laist.com/news/la-history/charlotta-bass-first-woman-of-color-to-run-for-us-vice-president
+
+# Claim 141 — China seek for court’s approval to kill the over 20,000 coronavirus patients to avoid further spread of the virus.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did any official government body of the People's Republic of China formally request judicial authorization for the execution of patients diagnosed with COVID-19?
+Answer: There is no record that any official government body of the People's Republic of China formally requested judicial authorization for the execution of COVID-19 patients; official sources and fact-checking indicate the claim is fabricated, and China's pandemic response focused on containment and medical treatment rather than any such action.
+
+Source URL: https://verafiles.org/articles/vera-files-fact-check-report-claiming-china-kill-20k-covid-1
+
+### Has any court in China received or considered a government petition to approve the killing of individuals infected with the coronavirus?
+Answer: No credible evidence exists that any court in China has received or considered a government petition to approve the killing of individuals infected with the coronavirus.
+
+Source URL: https://www.abujapress.com/2020/02/hard-decision-china-seek-for-courts.html
+
+### Is there any documented case where a Chinese government authority proposed the execution of over 20,000 COVID-19 patients as a public health measure?
+Answer: There is no documented case or credible evidence that a Chinese government authority proposed the execution of over 20,000 COVID-19 patients as a public health measure.
+
+Source URL: https://www.nairaland.com/5673491/china-seeks-courts-approval-kill
+
+### What was the stated justification provided by the Chinese government in the alleged request to the court regarding coronavirus patients?
+Answer: **CONFLICT.** The retrieved document states that the alleged request to the court included justifications such as that coronavirus patients admitted at hospitals only have their deaths delayed and infect many others while receiving care, and that China was on the verge of losing its health workers to the virus. The reasoner working from memory alone, certain that such a request was never made and this is debunked misinformation, reports that no stated justification exists because the event did not happen.
+
+Source URL: https://www.nairaland.com/5673491/china-seeks-courts-approval-kill
+
+### Are there any verified news reports from credible international or Chinese media outlets confirming that China's government sought court approval to kill coronavirus patients?
+Answer: There are no verified reports from credible international or Chinese media outlets confirming that China's government sought court approval to kill coronavirus patients.
+
+Source URL: https://www.abujapress.com/2020/02/hard-decision-china-seek-for-courts.html
+
+### Have any official statements or documents from the Chinese judiciary or health authorities acknowledged or denied the existence of such a request?
+Answer: No official statements or documents from the Chinese judiciary or health authorities have been found to acknowledge or deny the existence of such a request, and there is no mention of any such court case on The Supreme People's Court of the People's Republic of China website. The claim describes an action so extreme it would have been major global news, yet there is no record of it ever occurring. China's actual documented COVID-19 response measures—including lockdowns, quarantine facilities, and temporary hospitals—did not involve anything resembling killing patients, suggesting the premise of the question is false and that no such request was ever made.
+
+Source URL: https://www.boomlive.in/fake-news/false-china-seeks-court-approval-to-kill-over-20000-coronavirus-patients-6812
+
+### What specific legal framework or emergency powers, if any, was the alleged request based upon within the Chinese legal system?
+Answer: The claim that China sought court approval to kill coronavirus patients is fabricated; no such request was made, and therefore no specific legal framework or emergency powers within the Chinese legal system are applicable.
+
+Source URL: https://www.boomlive.in/fake-news/false-china-seeks-court-approval-to-kill-over-20000-coronavirus-patients-6812
+
+### Is there any evidence from international human rights organizations or UN bodies documenting such a policy proposal by China?
+Answer: There is no evidence from international human rights organizations or UN bodies documenting a policy proposal by China to kill over 20,000 coronavirus patients.
+
+Source URL: https://www.abujapress.com/2020/02/hard-decision-china-seek-for-courts.html
+
+### Have any Chinese officials or state media outlets addressed the specific claim that China sought to execute 20,000 coronavirus patients?
+Answer: **CONFLICT.** The retrieved document states that the request was rejected because it was considered high risk. The reasoner working from memory alone, which is fairly certain of its assessment, reports having no record of any Chinese officials or state media outlets addressing the specific claim that China sought to execute 20,000 coronavirus patients.
+
+Source URL: https://www.abujapress.com/2020/02/hard-decision-china-seek-for-courts.html
+
+### What was the context of the coronavirus outbreak in China at the time this alleged request was supposedly made, and does it align with official pandemic response strategies?
+Answer: China's early COVID-19 response focused on public health measures such as quarantine, lockdowns, and mass testing to control the virus, with no documented or recalled request for court approval to kill patients, which does not align with official strategies that prioritized saving lives and medical interventions.
+
+Source URL: https://pubmed.ncbi.nlm.nih.gov/32437283/
+
+# Claim 145 — When Joe Biden was US vice-president they took a month to act on information that might have saved Kayla Mueller, a humanitarian worker held hostage and sexually abused by the Islamic State terrorist group
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was Joe Biden serving as the Vice President of the United States during the period when Kayla Mueller was held hostage by the Islamic State?
+Answer: Yes, Joe Biden was serving as the Vice President of the United States during the period when Kayla Mueller was held hostage by the Islamic State, as her captivity from 2013 to 2015 fell within his vice presidential term from 2009 to 2017.
+
+Source URL: https://people.com/tag/joe-biden/
+
+### During the period of Kayla Mueller's captivity, did the United States government receive specific, actionable intelligence indicating her potential location or condition?
+Answer: During Kayla Mueller's captivity, the United States government received intelligence indicating her potential location, authorizing a rescue operation; however, she and other hostages had been moved to a different location before the raid could be executed.
+
+Source URL: https://www.the-sun.com/news/8729/who-kayla-mueller-what-isis-hostage/
+
+### If such intelligence was received, what was the exact date or date range when it was first provided to relevant US officials?
+Answer: There is no exact date or date range available for when intelligence regarding Kayla Mueller was first provided to relevant US officials.
+
+Source URL: https://www.usatoday.com/story/news/world/2015/08/15/kayla-mueller-assault-isil-isis-american-hostage-rape/31772813/
+
+### If such intelligence was received, what was the specific nature or content of that information (e.g., potential location, pending transfer, health status)?
+Answer: **CONFLICT.** The retrieved document states that the specific intelligence was related to Kayla Mueller's location, as the military prepared a rescue mission but the White House delayed it. The reasoner, working from memory alone and with little certainty in its assessment, reports no record of the specific nature or content of any intelligence that might have saved Kayla Mueller.
+
+Source URL: https://nypost.com/2020/08/27/rnc-2020-parents-of-slain-isis-hostage-kayla-mueller-praise-trump/
+
+### If such intelligence was received, which specific office, agency, or officials within the US government were the primary recipients and decision-makers regarding this information?
+Answer: **CONFLICT.** The retrieved document states that the President and Vice President were the primary recipients and decision-makers regarding the intelligence, based on Vice President Mike Pence's statement about the military presenting a plan in the Oval Office. The reasoner, working from memory alone, reports having no record of the specific intelligence or which officials were involved, and is close to guessing in this assessment.
+
+Source URL: https://www.azcentral.com/story/news/politics/arizona/2020/10/07/mike-pence-mentions-kayla-mueller-arizona-woman-killed-syria/5919236002/
+
+### What actions, if any, were taken by the US government in response to receiving this intelligence?
+Answer: In response to intelligence on Kayla Mueller's location, the U.S. government approved a clandestine raid by special operations forces in early July 2014, which found the hostages had been moved, and also expanded its military campaign against ISIS with aerial bombing in Iraq in August 2014 and airstrikes in Syria in September 2014.
+
+Source URL: https://abcnews.go.com/International/timeline-kayla-mueller-isis-captivity/story?id=41398733
+
+### On what date were those actions initiated, and how much time elapsed between the receipt of the intelligence and the initiation of action?
+Answer: **CONFLICT.** The retrieved document states that actions were initiated on approximately July 4, 2014, with a delay of roughly one to two months from the receipt of intelligence in mid-May or early June 2014. The reasoner working from memory alone, which is close to guessing on this point, reports that it has no record of the specific date or time elapsed in Kayla Mueller's case.
+
+Source URL: https://abcnews.go.com/International/timeline-kayla-mueller-isis-captivity/story?id=41398733
+
+### Is there evidence that a one-month delay occurred in acting on this specific intelligence, and if so, what were the reasons cited for that delay?
+Answer: There is no clear evidence of a one-month delay in acting on intelligence related to Kayla Mueller during Joe Biden's vice-presidency; Vice President Mike Pence claimed the administration hesitated for a month, but the Obama administration denied stalling and cited the mission's complexity and unfamiliar territory as reasons for any delays in approval.
+
+Source URL: https://www.azcentral.com/story/news/politics/arizona/2020/10/07/mike-pence-mentions-kayla-mueller-arizona-woman-killed-syria/5919236002/
+
+### Did any US government officials or internal reviews subsequently conclude that a delay in acting on this intelligence directly resulted in a missed opportunity to rescue Kayla Mueller?
+Answer: There is no record or evidence that US government officials or internal reviews concluded that a delay in acting on intelligence directly resulted in a missed opportunity to rescue Kayla Mueller.
+
+Source URL: https://www.azcentral.com/story/news/politics/arizona/2020/10/07/mike-pence-mentions-kayla-mueller-arizona-woman-killed-syria/5919236002/
+
+### Are there documented reports or official statements confirming that Kayla Mueller was sexually abused by her Islamic State captors?
+Answer: There are documented reports and official statements confirming that Kayla Mueller was sexually abused by her Islamic State captors, including information from U.S. officials, her parents Carl and Marsha Mueller, and corroborating accounts from survivors and witnesses.
+
+Source URL: https://www.nbcnews.com/storyline/isis-terror/kayla-mueller-was-raped-isis-leader-family-told-n410171
+
+# Claim 149 — They [the Democrats] want to ... ban fracking.
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the official position on hydraulic fracturing (fracking) stated in the most recent Democratic Party platform (e.g., 2020 or 2024)?
+Answer: The Democratic Party platform did not endorse a ban on hydraulic fracturing (fracking); rather, it supported a transition to clean energy, responsible regulation of fracking to reduce emissions, and stricter oversight without calling for an outright prohibition.
+
+Source URL: https://insideclimatenews.org/news/15072016/democratic-party-embrace-carbon-price-tax-hillary-clinton-bernie-sanders/
+
+### Has the Democratic nominee for President in the most recent election (e.g., 2020 or 2024) publicly called for a complete ban on all fracking operations in the United States?
+Answer: Joe Biden, the Democratic nominee for President in the most recent elections, has not publicly called for a complete ban on all fracking operations in the United States; he has stated that he would not ban fracking.
+
+Source URL: https://www.cnn.com/2020/08/31/politics/joe-biden-not-banning-fracking/index.html
+
+### Have a majority of Democratic members of the U.S. Senate and/or U.S. House of Representatives co-sponsored or voted for legislation that would impose a nationwide ban on hydraulic fracturing?
+Answer: There is no record or recollection of legislation imposing a nationwide ban on hydraulic fracturing that has been co-sponsored or voted for by a majority of Democratic members of the U.S. Senate or House.
+
+Source URL: https://www.sanders.senate.gov/press-releases/sanders-ocasio-cortez-lead-first-ever-bill-to-ban-fracking-nationwide/
+
+### Has any U.S. President who is a Democrat issued an executive order that banned all new and existing hydraulic fracturing operations on all U.S. lands and waters?
+Answer: No U.S. President who is a Democrat has issued an executive order banning all new and existing hydraulic fracturing operations on all U.S. lands and waters. Past actions by Democratic administrations, such as regulatory measures or narrow moratoriums on federal lands, did not constitute an outright ban and faced legal challenges, as a president could not ban fracking nationwide without an act of Congress.
+
+Source URL: https://www.cnn.com/2019/09/16/politics/elizabeth-warren-bernie-sanders-ban-on-fracking-fact-check/index.html
+
+### What is the stated policy of the Democratic Party's leadership (e.g., Speaker of the House, Senate Majority Leader) regarding a federal ban on fracking?
+Answer: Democratic Party leadership does not have a unified stated policy in favor of a federal ban on fracking, as key figures such as Joe Biden, Pete Buttigieg, and Amy Klobuchar have explicitly opposed such a ban.
+
+Source URL: https://www.cbsnews.com/pittsburgh/news/toomey-introduces-bill-to-prevent-presidents-from-banning-fracking/
+
+### Is there a distinction within Democratic policy proposals between banning fracking on federal/public lands and banning it on private property?
+Answer: Yes, there is a distinction within Democratic policy proposals between banning fracking on federal/public lands and banning it on private property; for example, Joe Biden proposed banning new fracking on federal/public lands while not supporting a complete ban on private lands, and other candidates like Harris, Sanders, and Warren called for outright bans, whereas Biden and others opposed such steps.
+
+Source URL: https://www.denverpost.com/2019/09/10/democrats-fracking-bans-politics/
+
+### Have any prominent Democratic presidential primary candidates in recent election cycles (e.g., 2020) campaigned explicitly on a platform of banning all fracking nationwide?
+Answer: Yes, prominent Democratic presidential primary candidates, such as Bernie Sanders in the 2016 and 2020 cycles and Elizabeth Warren in the 2020 cycle, campaigned explicitly on banning all fracking nationwide.
+
+Source URL: https://www.npr.org/2020/02/11/804487306/proposals-to-ban-fracking-could-hurt-democrats-in-key-states
+
+### Does the term "ban fracking" as used by Democratic leaders or documents refer to an immediate prohibition or a gradual phase-out tied to renewable energy transitions?
+Answer: **CONFLICT.** The retrieved documents state that the term 'ban fracking' as used by prominent Democratic leaders in the 2019 presidential primary referred to an immediate, all-out prohibition. The reasoner, working from memory alone and moderately to highly confident in its recollection, reports that some Democratic leaders like Bernie Sanders and Elizabeth Warren used the term to advocate for an immediate prohibition, while the official Democratic stance, as represented by Joe Biden and the party platform, emphasizes a gradual phase-out tied to renewable energy transitions rather than an immediate ban.
+
+Source URL: https://www.denverpost.com/2019/09/10/democrats-fracking-bans-politics/
+
+### What legislative or executive actions have Democratic governors taken within their states regarding banning or restricting hydraulic fracturing?
+Answer: Democratic governors, such as Andrew Cuomo of New York, have taken legislative or executive actions to ban or restrict hydraulic fracturing in their states, including Cuomo's ban through executive action.
+
+Source URL: https://www.denverpost.com/2019/09/10/democrats-fracking-bans-politics/
+
+### How do polling data on Democratic voters' views compare to the official party position regarding a complete ban on fracking?
+Answer: Polling data indicates that a significant portion of Democratic voters support a ban on fracking, while the official Democratic Party has not uniformly embraced a complete ban, with key figures favoring regulation instead, showing that voters are more supportive of a ban than the official party stance.
+
+Source URL: https://www.denverpost.com/2019/09/10/democrats-fracking-bans-politics/
+
+# Claim 152 — Over thirty million people... in the last several months had to file for unemployment."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Which country or specific geographic region is the subject of the claim that over thirty million people filed for unemployment?
+Answer: The claim that over thirty million people filed for unemployment in the last several months is about the United States.
+
+Source URL: https://www.cbsnews.com/news/jobless-claims-unemployment-30-million-six-weeks/
+
+### 2. What is the exact time period (specific months and year) referenced by the phrase "the last several months" in the claim?
+Answer: **CONFLICT.** The retrieved document states that 'the last several months' in the claim refers to approximately six weeks from mid-March to late April 2020. The reasoner working from memory alone, with considerable confidence, reports having no direct recollection of the claim specifying exact months but infers the period to be approximately March to June 2020 based on common knowledge.
+
+Source URL: https://www.cbsnews.com/news/jobless-claims-unemployment-30-million-six-weeks/
+
+### 3. What is the official source or data agency that publishes unemployment filing statistics for the identified country or region?
+Answer: The official source for unemployment filing statistics in the United States is the U.S. Bureau of Labor Statistics (BLS), an agency within the U.S. Department of Labor.
+
+Source URL: https://fred.stlouisfed.org/series/UNRATE
+
+### 4. According to the official source, what was the total cumulative number of initial unemployment claims filed during the specified time period?
+Answer: **CONFLICT.** The retrieved document states that the total cumulative number of initial unemployment claims filed for regular state UI benefits from March 15 through June 13, 2020, was 41.9 million. The reasoner, working from memory alone, reports that it has no record of this number and is close to guessing in this assessment.
+
+Source URL: https://www.federalreserve.gov/econres/feds/files/2020055pap.pdf
+
+### 5. Does the official data metric for "unemployment filings" refer to the number of new initial claims submitted, or to the number of continued/insured unemployment claims?
+Answer: **CONFLICT.** The retrieved document states that the official data metric for 'unemployment filings' refers to the number of new initial claims submitted. The reasoner, working from memory alone and confident in its assessment, reports that there is no official data metric called 'unemployment filings'; instead, official data distinguishes between new initial claims submitted and continued/insured unemployment claims as separate metrics.
+
+Source URL: https://fred.stlouisfed.org/series/ICSA
+
+### 6. If the claim refers to the United States, what were the weekly initial jobless claims figures from the Department of Labor for each week in the claimed timeframe?
+Answer: The Department of Labor reported initial jobless claims of 6.65 million for the week ending March 27 and 3.3 million for the week ending March 20, reflecting a record-high surge in late March 2020, though complete weekly data for the entire several-month timeframe is not fully documented.
+
+Source URL: https://www.theguardian.com/business/2020/apr/02/us-unemployment-coronavirus-economy
+
+### 7. When summing the official weekly or monthly unemployment filing figures for the specified period, does the total exceed thirty million?
+Answer: Yes, the total exceeds thirty million; for example, roughly 33.5 million people filed for jobless aid in the seven weeks after the coronavirus began, and cumulative claims over several months are reported to have exceeded that threshold.
+
+Source URL: https://www.pbs.org/newshour/economy/33-million-have-sought-u-s-unemployment-aid-since-virus-hit
+
+### 8. Does the official data count each person filing as a unique individual, or could it count multiple filings from the same person?
+Answer: **CONFLICT.** The retrieved document states that official initial jobless claims data counts unique individuals filing for the first time, with each initial claim representing a 'new claimant' for unemployment benefits, and does not indicate that multiple filings from the same person are counted in the initial claims figure. The reasoner, working from memory alone and fairly confident in this assessment, reports that the official unemployment data counts multiple filings from the same person as separate claims and does not count each person as a unique individual.
+
+Source URL: https://www.investopedia.com/terms/j/jobless-claims.asp
+
+### 9. Have any reputable fact-checking organizations or official statistical agencies published analyses confirming or refuting this specific cumulative total for the specified timeframe?
+Answer: Reputable fact-checking organizations and official statistical agencies, such as the Federal Reserve Bank of St. Louis and the U.S. Department of Labor, have published analyses confirming that over thirty million people filed for unemployment in the timeframe from mid-March through the months leading up to mid-2020.
+
+Source URL: https://www.investopedia.com/terms/j/jobless-claims.asp
+
+### 10. Does the context of the claim (such as its author or publication date) help pinpoint the specific timeframe and data source being referenced?
+Answer: **CONFLICT.** The retrieved document states that the context refers to 'six weeks' of unemployment filings, with data sourced from the Department of Labor. The reasoner working from memory alone, moderately confident in its inference, reports that the context helps pinpoint the timeframe as July 2020 with filings since March 2020, and the data source as government unemployment statistics.
+
+Source URL: https://abcnews.go.com/Business/38-million-people-filed-unemployment-week/story?id=70410707
