@@ -59,7 +59,7 @@ DEFAULT_RUN_DIR = EXPERIMENTS_DIR / "runs" / "06_symmetric_conflict"
 
 sys.path.insert(0, str(EXPERIMENTS_DIR))
 from fusion_common import call_json, set_model  # noqa: E402
-from exp06_prompts import (ADJUDICATE_MERGE_PROMPT, NONE_DESCRIPTION,  # noqa: E402
+from exp06_prompts import (adjudicate_prompt, CONF_VARIANTS, NONE_DESCRIPTION,  # noqa: E402
                            BASES, valid_adj, NO_CONFIDENCE, render_record,
                            MERGED_BOTH_EMPTY, MERGED_MO_FAILED)
 
@@ -68,6 +68,18 @@ from exp06_prompts import (ADJUDICATE_MERGE_PROMPT, NONE_DESCRIPTION,  # noqa: E
 # pass, and a number in it would reach the verdict stage with no scale attached.
 SCORE_LEAK = re.compile(r"\b\d{1,3}\s*(?:/|out of)\s*100\b|\bconfiden\w*\s*(?:of|:|=)?\s*\d"
                         r"|\bscored?\s+\d|\b\d{1,3}\s*%\s*(?:confiden|sure|certain)", re.I)
+
+# The same check for the other way the score can do damage: worded as a verdict on the reasoner
+# rather than as the reach of one finding. Under CONF_RULES_V1 this fired on 152 of 354 conflict
+# entries while the document side went unqualified in all but 2, which is the asymmetry that made
+# the verdict stage prefer whichever side wrote in more detail. CONF_RULES_V2 bans the vocabulary
+# outright; this is how we confirm it stayed banned rather than assuming it. Counted and reported,
+# not fatal -- a run that trips it is still worth having, it just is not the intended condition.
+HEDGE_LEAK = re.compile(r"\bclose to guess\w*"
+                        r"|\b(?:not|less|little|low|lower|moderate|weak)\s+(?:\w+\s+){0,2}"
+                        r"(?:confiden\w*|certainty)"
+                        r"|\bconfidence\s+(?:is|was|being)\s+(?:low|weak|limited)"
+                        r"|\b(?:uncertain|unsure|tentative|hesitant)\b", re.I)
 
 
 def rule_label(infact_answerable: bool, mo_basis: str):
@@ -92,17 +104,44 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run-dir", type=str, default=str(DEFAULT_RUN_DIR))
     parser.add_argument("--model", type=str, default="xiaomi/mimo-v2.5-pro")
-    parser.add_argument("--workers", type=int, default=8)
+    # Pure LLM API calls -- the local box is not the constraint here, so this is set well
+    # above the core count. (Embedding, which IS local, is memory-bandwidth bound and does
+    # not benefit from more workers; see poisoned_kb.EMBED_BATCH_SIZE.)
+    parser.add_argument("--workers", type=int, default=16)
     parser.add_argument("--sides", type=str, default="clean,poisoned",
                         help="Which tables to (re)build. Restricting this re-uses the existing "
                              "results file for the other side, which is what you want after a "
                              "run died partway -- the surviving side cost real money.")
     parser.add_argument("--expect", type=int, default=100,
                         help="Expected rows per table; 0 disables the check")
+    parser.add_argument("--no-report", action="store_true",
+                        help="Write results_<side>_vs_mo.json for the side(s) in --sides and "
+                             "stop there. For a run dir that structurally has only one side "
+                             "(e.g. claims with no poisoned corpus at all, so there is no "
+                             "results_poisoned_vs_mo.json to reuse and never will be) -- the "
+                             "two-sided report has nothing to compare and would just error "
+                             "trying to load the missing side.")
+    parser.add_argument("--conf-rules", choices=sorted(CONF_VARIANTS), default="v2",
+                        help="Which confidence-wording rules the merge is written under. v2 is "
+                             "the current design; v1 reproduces the condition that produced "
+                             "runs/14_binary100_pr008 and exists for the ablation. Nothing else "
+                             "about the prompt changes -- the deciding test and the agree/conflict "
+                             "rules are identical in both.")
     args = parser.parse_args()
 
     set_model(args.model)
     run_dir = Path(args.run_dir).resolve()
+    want_sides = [s.strip() for s in args.sides.split(",") if s.strip()]
+    prompt_template = adjudicate_prompt(args.conf_rules)
+    print(f"Confidence-wording rules: {args.conf_rules}", flush=True)
+
+    # The prompt is the experimental condition, so it is archived beside the results rather than
+    # left to be reconstructed from the flag and whatever the source tree looks like later.
+    (run_dir / "prompts_used.md").write_text(
+        f"# Pass E prompt — `--conf-rules {args.conf_rules}`\n\n"
+        f"Model: `{args.model}`. Written by `exp06_adjudicate.py` at run time; this is the exact "
+        f"template, before per-row substitution.\n\n"
+        f"## ADJUDICATE_MERGE_PROMPT\n\n```\n{prompt_template}\n```\n")
 
     def load(name):
         p = run_dir / f"answers_{name}.json"
@@ -110,26 +149,46 @@ def main():
             sys.exit(f"{p} not found -- run the earlier passes first")
         return {r["claim_id"]: r for r in json.load(open(p))}
 
-    clean, poisoned, mo = load("clean"), load("poisoned"), load("model_only")
-    cids = sorted(set(clean) & set(poisoned) & set(mo))
-    missing = (set(clean) | set(poisoned) | set(mo)) - set(cids)
-    if missing:
-        print(f"WARNING: claims present in only some passes, excluded: {sorted(missing)}")
+    # A run dir that never had pass C (e.g. arm C/M measured on claims with no poisoned corpus
+    # at all) legitimately has no answers_poisoned.json. Only load what --sides asked to build.
+    clean = load("clean") if "clean" in want_sides else {}
+    poisoned = load("poisoned") if "poisoned" in want_sides else {}
+    mo = load("model_only")
+    # Each side's table covers the claims THAT side has, intersected with model-only -- not the
+    # intersection across both sides. The two differ whenever only some claims were attacked (the
+    # clean KB has all 100, the poisoned corpus exists for 71), and a global intersection would
+    # silently build the clean table at 71 claims too. That is not hypothetical: it is how runs/15
+    # and runs/16 were first built, and it cost arm CM the 29 claims arm PM backfills from. The
+    # two-sided report re-intersects below, which is the one place alignment is actually needed.
+    side_cids = {}
+    for _name, _d in (("clean", clean), ("poisoned", poisoned)):
+        if _name in want_sides:
+            side_cids[_name] = sorted(set(mo) & set(_d))
+            _gap = (set(mo) | set(_d)) - set(side_cids[_name])
+            if _gap:
+                print(f"WARNING: {_name}: claims in only some passes, excluded: {sorted(_gap)}")
 
-    want_sides = [s.strip() for s in args.sides.split(",") if s.strip()]
     tables = {}
     for side, data in (("clean", clean), ("poisoned", poisoned)):
         if side not in want_sides:
-            # Not rebuilding this side: load what a previous run left behind, so the report
-            # below still has both tables to compare.
+            # Not rebuilding this side. If a previous run left one behind, reuse it so the
+            # report below still has both tables to compare (the resume-after-credit-failure
+            # case). If none exists and never will -- a run dir whose claims have no poisoned
+            # corpus at all -- there is nothing to reuse; skip it and rely on --no-report to
+            # skip the comparison that would otherwise need it.
             p = run_dir / f"results_{side}_vs_mo.json"
-            if not p.exists():
-                sys.exit(f"--sides excludes {side} but {p} does not exist")
-            tables[side] = json.load(open(p))
-            print(f"{side}: reusing {len(tables[side])} rows from {p.name}", flush=True)
+            if p.exists():
+                tables[side] = json.load(open(p))
+                print(f"{side}: reusing {len(tables[side])} rows from {p.name}", flush=True)
+            elif args.no_report:
+                print(f"{side}: skipped, no {p.name} to reuse (--no-report)", flush=True)
+            else:
+                sys.exit(f"--sides excludes {side} but {p} does not exist "
+                         f"(pass --no-report if this side structurally never has one)")
             continue
         t0 = time.perf_counter()
         jobs, rows = [], []
+        cids = side_cids[side]
 
         for cid in cids:
             infact_rows = {r["question"]: r for r in data[cid]["rows"]}
@@ -177,7 +236,7 @@ def main():
                              else NONE_DESCRIPTION)
             conf = row["mo_confidence"]
             return call_json(
-                ADJUDICATE_MERGE_PROMPT
+                prompt_template
                 .replace("[CLAIM]", mo[row["claim_id"]]["claim"])
                 .replace("[QUESTION]", row["question"])
                 .replace("[INFACT_ANSWER]", infact_answer)
@@ -200,13 +259,20 @@ def main():
         n, k, r = rate_rows([x for x in rows if x["relation"]])
         leaks = [x for x in rows if x["merged"] and SCORE_LEAK.search(x["merged"])]
         no_merge = [x for x in rows if not x["merged"]]
+        # Reported on every run, not only when it fires: under v1 the expected count is large and
+        # under v2 it should be near zero, so the number itself is the check.
+        conflicts = [x for x in rows if x["relation"] == "conflict" and x["merged"]]
+        hedged = [x for x in conflicts if HEDGE_LEAK.search(x["merged"])]
         print(f"{side}: {len(rows)} rows | {len(jobs)} LLM-adjudicated, "
               f"{len(rows) - len(jobs)} templated | conflict {k}/{n} = {pct(k, n)} "
-              f"| merged {len(rows) - len(no_merge)}/{len(rows)}"
+              f"| merged {len(rows) - len(no_merge)}/{len(rows)} "
+              f"| memory side worded as unsure in {len(hedged)}/{len(conflicts)} conflicts"
               + (f" | SCORE LEAKED into {len(leaks)} merged entries" if leaks else "")
               + f" ({time.perf_counter() - t0:.0f}s)", flush=True)
         for x in leaks:
             print(f"  leak [{x['claim_id']}] {x['merged'][:160]}", file=sys.stderr)
+        for x in hedged[:10]:
+            print(f"  hedge [{x['claim_id']}] {x['merged'][:160]}", file=sys.stderr)
         tables[side] = rows
         with open(run_dir / f"results_{side}_vs_mo.json", "w") as f:
             json.dump(rows, f, indent=2)
@@ -228,7 +294,22 @@ def main():
             "\n\n".join(f"# Claim {cid} — {records[str(cid)]['claim']}\n\n"
                         f"{records[str(cid)]['record']}" for cid in cids))
 
+    if args.no_report:
+        print(f"\n--no-report: wrote results_{{{','.join(want_sides)}}}_vs_mo.json, "
+              f"skipping the two-sided report", flush=True)
+        return
+
     # ---------------------------------------------------------------- report
+    # The two tables can legitimately cover different claim sets -- the clean KB has every claim,
+    # the poisoned corpus only the attacked ones -- and every comparison below pairs them row for
+    # row (the zip() under "Answerability" most explicitly). Restrict both to the claims they
+    # share and sort them the same way, so that pairing is real rather than positional luck.
+    report_cids = sorted({r["claim_id"] for r in tables["clean"]}
+                         & {r["claim_id"] for r in tables["poisoned"]})
+    for _side in ("clean", "poisoned"):
+        tables[_side] = sorted((r for r in tables[_side] if r["claim_id"] in set(report_cids)),
+                               key=lambda r: (r["claim_id"], r["question"]))
+
     labelled = {s: [r for r in t if r["relation"]] for s, t in tables.items()}
     n_c, k_c, r_c = rate_rows(labelled["clean"])
     n_p, k_p, r_p = rate_rows(labelled["poisoned"])
@@ -241,7 +322,7 @@ def main():
          "rather than deleted, so both tables cover the identical question set. Earlier probes "
          "measured only the questions retrieval had already succeeded on, which excluded exactly "
          "the cases of interest.", "",
-         f"Sample: **{len(cids)} claims**, {len(tables['clean'])} questions, "
+         f"Sample: **{len(report_cids)} claims**, {len(tables['clean'])} questions, "
          f"{3 * len(tables['clean'])} answers.", "",
          "---", "", "## Headline", "",
          "| comparison | rows | conflicts | **conflict rate** |", "|---|---|---|---|",
@@ -326,7 +407,7 @@ def main():
     L += ["", "---", "", "## Per claim", "",
           "| claim | gold | flipped | clean answered | poisoned answered | planted | "
           "vs clean | vs poisoned |", "|---|---|---|---|---|---|---|---|"]
-    for cid in cids:
+    for cid in report_cids:
         cells = []
         for side in ("clean", "poisoned"):
             s = [r for r in labelled[side] if r["claim_id"] == cid]

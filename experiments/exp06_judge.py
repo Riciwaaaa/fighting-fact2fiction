@@ -44,7 +44,9 @@ import argparse
 import json
 import os
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -54,7 +56,7 @@ DEFAULT_RUN_DIR = EXPERIMENTS_DIR / "runs" / "06_symmetric_conflict"
 
 sys.path.insert(0, str(EXPERIMENTS_DIR))
 from exp06_prompts import (render_record, MERGED_RECORD_HEADER,  # noqa: E402
-                           INFACT_NATIVE_HEADER, JUDGE_EXTRA_RULES, NONE_DESCRIPTION)
+                           INFACT_NATIVE_HEADER, JUDGE_RULE_VARIANTS, NONE_DESCRIPTION)
 
 # arm -> (source file, merged?, keep unanswerable rows?)
 ARMS = {
@@ -222,6 +224,9 @@ def main():
                         help="Merged arms only: delete questions neither side could answer, "
                              "the way InFact's own procedure deletes unanswerable ones.")
     parser.add_argument("--fc-model", type=str, default="mimo_v25_pro")
+    # Two LLM calls per claim (verdict, then justification) and no local compute,
+    # so this is bounded by the API rather than by the box.
+    parser.add_argument("--workers", type=int, default=16)
     parser.add_argument("--tag", type=str, default="",
                         help="Appended to the output filenames. Use it to run an arm more than "
                              "once: the judge is not deterministic, and claim 14 was observed "
@@ -234,6 +239,11 @@ def main():
     parser.add_argument("--report-tags", type=str, default=",_r2,_r3",
                         help="Comma-separated --tag values to aggregate (empty string = the "
                              "untagged first round).")
+    parser.add_argument("--judge-rules", choices=sorted(JUDGE_RULE_VARIANTS), default="v2",
+                        help="Which extra rules the merged arms' judge is given. v2 is the "
+                             "current design; v1 reproduces the condition that produced "
+                             "runs/14_binary100_pr008 and exists for the ablation. The baseline "
+                             "arms (C, P, P0, M) get no extra rules under either.")
     args = parser.parse_args()
 
     run_dir = Path(args.run_dir).resolve()      # resolve before chdir
@@ -280,22 +290,28 @@ def main():
         header = MERGED_RECORD_HEADER if merged else INFACT_NATIVE_HEADER
         # The baseline arms get InFact's judge exactly as it ships. A baseline that has been
         # handed our rules is not a baseline.
-        extra_rules = JUDGE_EXTRA_RULES if merged else None
-        judge = Judge(llm=llm, logger=logger, classes=classes,
-                      class_definitions=class_definitions, extra_rules=extra_rules)
+        extra_rules = JUDGE_RULE_VARIANTS[args.judge_rules] if merged else None
 
-        out, records, prompts = [], [], []
-        t0 = time.perf_counter()
-        for cid in cids:
-            rows = rows_by_arm[arm].get(cid, [])
+        results, t0 = {}, time.perf_counter()
+        write_lock = threading.Lock()
+
+        def judge_claim(cid, _arm=arm, _header=header, _merged=merged,
+                        _extra_rules=extra_rules, _suffix=suffix):
+            rows = rows_by_arm[_arm][cid]
             claim_text = questions[cid]["claim"]
-            record = render_record(rows, header=header, mark_conflicts=merged)
+            record = render_record(rows, header=_header, mark_conflicts=_merged)
 
             content = Content(text=claim_text)
             doc = FCDocument(claim=Claim(text=claim_text, original_context=content))
             doc.add_reasoning(record)
 
-            prompt = str(JudgePrompt(doc, classes, class_definitions, extra_rules))
+            prompt = str(JudgePrompt(doc, classes, class_definitions, _extra_rules))
+            # One Judge per claim, not one shared across the arm. Judge stashes the model's raw
+            # response on itself (`latest_reasoning`) and get_latest_reasoning() reads it back,
+            # so a shared instance run from several threads would hand one claim another
+            # claim's reasoning. Construction is cheap -- it just wraps the existing llm.
+            judge = Judge(llm=llm, logger=logger, classes=classes,
+                          class_definitions=class_definitions, extra_rules=_extra_rules)
             verdict = judge.judge(doc)
             reasoning = judge.get_latest_reasoning()
 
@@ -310,22 +326,43 @@ def main():
 
             gold = questions[cid]["gold_label"]
             correct = verdict.value == str(gold).lower()
-            out.append({"arm": arm, "drop_empty": args.drop_empty, "claim_id": cid,
-                        "claim": claim_text, "gold_label": gold,
-                        "verdict": verdict.value, "correct": correct,
-                        "fallback_to_refuted": fallback,
-                        "n_entries": len(rows),
-                        "justification": doc.justification,
-                        "judge_reasoning": reasoning})
-            records.append(f"# Claim {cid} — {claim_text}\n\n{record}")
-            prompts.append(f"# Claim {cid}\n\n```\n{prompt}\n```")
+            rec = {"arm": _arm, "drop_empty": args.drop_empty, "claim_id": cid,
+                   "claim": claim_text, "gold_label": gold,
+                   "verdict": verdict.value, "correct": correct,
+                   "fallback_to_refuted": fallback,
+                   "n_entries": len(rows),
+                   "justification": doc.justification,
+                   "judge_reasoning": reasoning}
 
-            print(f"[{arm}{suffix} {cid}] {len(rows)} entries | gold {gold} -> "
-                  f"{verdict.value}{' (FALLBACK)' if fallback else ''} "
-                  f"{'OK' if correct else 'WRONG'}", flush=True)
+            with write_lock:
+                results[cid] = (rec, f"# Claim {cid} — {claim_text}\n\n{record}",
+                                f"# Claim {cid}\n\n```\n{prompt}\n```")
+                print(f"[{_arm}{_suffix} {cid}] {len(rows)} entries | gold {gold} -> "
+                      f"{verdict.value}{' (FALLBACK)' if fallback else ''} "
+                      f"{'OK' if correct else 'WRONG'}", flush=True)
+                # Written on every completion, as the serial version did: a run that dies
+                # partway (credits, a kill) leaves the claims it finished rather than nothing.
+                with open(run_dir / f"verdicts_{_arm}{_suffix}.json", "w") as f:
+                    json.dump([results[c][0] for c in sorted(results)], f, indent=2)
 
-            with open(run_dir / f"verdicts_{arm}{suffix}.json", "w") as f:
-                json.dump(out, f, indent=2)
+        # A claim absent from this arm's source is NOT a claim with an empty record. Arms P and
+        # P+M only exist where Fact2Fiction actually attacked; feeding the judge an empty record
+        # for the rest makes it invent a verdict from the claim text alone (it says so outright
+        # -- "the Record section does not contain any actual evidence" -- and then rules anyway),
+        # and downstream that looks like a real verdict, so the P<-C / P+M<-CM backfill never
+        # fires. Judge only what this arm has; exp08_final_report.py fills the rest in.
+        arm_cids = [c for c in cids if c in rows_by_arm[arm]]
+        skipped = len(cids) - len(arm_cids)
+        if skipped:
+            print(f"{arm}{suffix}: {skipped} of {len(cids)} claims have no record for this arm "
+                  f"and are left out (they get backfilled from the unpoisoned arm)", flush=True)
+
+        with ThreadPoolExecutor(max_workers=max(1, args.workers)) as ex:
+            list(ex.map(judge_claim, arm_cids))
+
+        out = [results[c][0] for c in sorted(results)]
+        records = [results[c][1] for c in sorted(results)]
+        prompts = [results[c][2] for c in sorted(results)]
 
         (run_dir / f"records_{arm}{suffix}.md").write_text("\n\n".join(records))
         (run_dir / f"judge_prompts_{arm}{suffix}.md").write_text("\n\n".join(prompts))

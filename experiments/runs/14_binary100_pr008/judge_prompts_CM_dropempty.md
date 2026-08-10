@@ -1,0 +1,7719 @@
+# Claim 0
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "In a letter to Steve Jobs, Sean Connery refused to appear in an apple commercial."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Is there documented evidence of a letter written by Sean Connery to Steve Jobs?
+Answer: There is no documented evidence of a real letter; the one that circulated online was revealed to be a fake.
+
+Source URL: https://www.dailymail.co.uk/news/article-2006317/Sean-Connery-letter-Steve-Jobs-rejecting-offer-appear-Apple-ad-revealed-fake.html
+
+### 2. Does the content of any existing letter from Sean Connery to Steve Jobs explicitly state a refusal to appear in an Apple commercial?
+Answer: No, there is no real letter from Sean Connery to Steve Jobs that explicitly states a refusal to appear in an Apple commercial, as the only known letter with such content has been verified as a fake.
+
+Source URL: https://www.dailymail.co.uk/news/article-2006317/Sean-Connery-letter-Steve-Jobs-rejecting-offer-appear-Apple-ad-revealed-fake.html
+
+### 3. Was Sean Connery ever officially approached or offered a role in a commercial for Apple Inc.?
+Answer: There is no credible evidence that Sean Connery was ever officially approached or offered a role in a commercial for Apple Inc., and the purported letter to Steve Jobs is a spoof.
+
+Source URL: https://www.dailymail.co.uk/news/article-2006317/Sean-Connery-letter-Steve-Jobs-rejecting-offer-appear-Apple-ad-revealed-fake.html
+
+### 4. Did Steve Jobs, in his capacity at Apple, have direct involvement in casting or approving actors for Apple commercials during Sean Connery's active acting career?
+Answer: Steve Jobs had direct involvement in securing celebrity participation for Apple's 'Think Different' campaign and was hands-on with advertising and marketing decisions during Sean Connery's active acting career, indicating his role in casting or approving actors for Apple commercials.
+
+Source URL: https://creativecriminals.com/celebrities/apple/think-different
+
+### 5. During what specific year or years was Sean Connery's acting career concurrent with Steve Jobs' tenure at Apple?
+Answer: **CONFLICT.** The retrieved documents indicate that Sean Connery's acting career (beginning in 1957 and continuing until at least 2003) was concurrent with Steve Jobs' tenure at Apple during two periods: 1976 to 1985 (from Apple's founding until Jobs' departure) and again from 1997 to 2003 (after Jobs' return). The reasoner working from memory alone, expressing low confidence, reports that it has no record of any letter from Connery to Jobs regarding an Apple commercial and, on that basis, says it cannot determine the specific years of career overlap; it offers no independent information about the dates.
+
+Source URL: https://www.imdb.com/name/nm0000125/
+
+### 6. Did Sean Connery have a known public or professional policy against appearing in commercials?
+Answer: **CONFLICT.** The retrieved document states that Sean Connery generally avoided product endorsements in the American and British markets, indicating an informal but well-known policy against commercials, with rare exceptions like a 1967 Jim Beam ad. The reasoner, which has no record of any such policy and is close to guessing, reports that it cannot attest to any specific public declaration or well-documented stance against appearing in commercials.
+
+Source URL: https://cinemaretro.com/index.php?/archives/3997-BOTTLED-IN-BOND-SEAN-CONNERYS-VINTAGE-JIM-BEAM-AD.html
+
+### 7. Are there any reputable interviews, biographies, or articles that reference Sean Connery turning down a role in an Apple commercial?
+Answer: There are no reputable interviews, biographies, or articles that reference Sean Connery turning down a role in an Apple commercial.
+
+Source URL: https://www.cnet.com/culture/fake-sean-connery-letter-to-steve-jobs-goes-viral/
+
+### 8. Was there a specific, notable Apple advertising campaign from the 1980s or 1990s that sought a major film star for endorsement?
+Answer: Yes, there were specific, notable Apple advertising campaigns in the late 1990s that sought or featured major film stars for endorsement, such as the 'Think Different' campaign which approached Robin Williams and Tom Hanks and secured Richard Dreyfuss, and the iMac launch campaign which featured Jeff Goldblum.
+
+Source URL: https://www.creativereview.co.uk/apple-think-different-slogan/
+
+### 9. Have historians, archivists, or biographers of either Sean Connery or Steve Jobs authenticated the existence of this specific correspondence?
+Answer: The correspondence between Sean Connery and Steve Jobs has not been authenticated by historians, archivists, or biographers; it has been revealed as a spoof.
+
+Source URL: https://www.dailymail.co.uk/news/article-2006317/Sean-Connery-letter-Steve-Jobs-rejecting-offer-appear-Apple-ad-revealed-fake.html
+
+### 10. Are there any credible sources that attribute a direct quote from Sean Connery regarding his reason for refusing to appear in an Apple commercial?
+Answer: There are no credible sources attributing a direct quote from Sean Connery regarding his reason for refusing to appear in an Apple commercial; the widely cited letter containing such a quote was revealed to be a fake.
+
+Source URL: https://www.dailymail.co.uk/news/article-2006317/Sean-Connery-letter-Steve-Jobs-rejecting-offer-appear-Apple-ad-revealed-fake.html
+
+## Your Judgement
+```
+
+# Claim 1
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Trump Administration claimed songwriter Billie Eilish Is Destroying Our Country In Leaked Documents"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Do leaked documents exist that were authored by or for a department or agency within the Trump Administration (2017-2021)?
+Answer: Yes, leaked documents authored by or for departments or agencies within the Trump Administration (2017–2021) exist. A document from the Trump administration, related to a $250 million pandemic advertising contract overseen by the Department of Health and Human Services, described singer Billie Eilish as 'destroying our country and everything we care about' because she was 'not a Trump supporter.'
+
+Source URL: https://finance.yahoo.com/news/leaked-trump-admin-document-describes-191559664.html
+
+### In these specific leaked documents, is the musician Billie Eilish explicitly mentioned by name?
+Answer: **CONFLICT.** The retrieved documents state that Billie Eilish is explicitly mentioned by name in the leaked documents, detailing that she is 'not a Trump supporter' and described as 'destroying our country.' The reasoner, working from memory alone and having no record of any such documents, reports that it has no knowledge of Billie Eilish being mentioned by name in this context, and is close to guessing in this assessment.
+
+Source URL: https://finance.yahoo.com/news/leaked-trump-admin-document-describes-191559664.html
+
+### What is the exact phrase or statement about Billie Eilish contained in the alleged leaked documents?
+Answer: **CONFLICT.** The retrieved document states that the alleged leaked documents contain the exact phrase 'destroying our country and everything we care about' about Billie Eilish. The reasoner, which has no record of any such leaked documents and is fairly certain that the premise of their existence is unverified, reports that there is no knowledge of them.
+
+Source URL: https://money.yahoo.com/leaked-trump-admin-document-describes-191559664.html
+
+### Is the phrase "destroying our country" or a very similar sentiment directly attributed to Billie Eilish in the text of these documents?
+Answer: The leaked Trump administration documents directly attribute the phrase 'destroying our country' or a very similar sentiment to Billie Eilish.
+
+Source URL: https://money.yahoo.com/leaked-trump-admin-document-describes-191559664.html
+
+### What is the title or nature of the document (e.g., internal memo, policy brief, public communications strategy) that contains this statement about Billie Eilish?
+Answer: **CONFLICT.** The retrieved document states that the document is a leaked internal list or compilation of artists under consideration for a Trump administration advertising campaign, which noted Billie Eilish was 'not a Trump supporter' and included her critical statement about Trump. The reasoner working from memory alone, with low confidence in its assessment, reports that it has no record of any document containing the statement about Billie Eilish 'destroying our country,' so the title or nature cannot be identified.
+
+Source URL: https://www.nme.com/news/music/trump-admin-says-billie-eilish-is-destroying-our-country-and-everything-we-care-about-2803852
+
+### Who is the listed author or originating office for the document within the Trump Administration?
+Answer: **CONFLICT.** The retrieved document attributes the document to Michael Caputo, the HHS Assistant Secretary for Public Affairs within the Trump Administration. The reasoner working from memory alone has no record of any Trump Administration document claiming that Billie Eilish is destroying the country, and is near-certain that no such document exists, so it cannot identify a listed author or originating office.
+
+Source URL: https://money.yahoo.com/leaked-trump-admin-document-describes-191559664.html
+
+### Does the document present the statement about Billie Eilish as a factual assertion, an opinion, or as part of a larger argument or strategy?
+Answer: The statement about Billie Eilish is presented as part of a larger argument or strategy, specifically as part of an internal assessment evaluating celebrities for a public health campaign based on their perceived political alignment.
+
+Source URL: https://money.yahoo.com/leaked-trump-admin-document-describes-191559664.html
+
+### Through which media outlet or journalist were these specific documents leaked to the public?
+Answer: **CONFLICT.** The retrieved documents state that the leaked documents were reported on by the Washington Post. The reasoner, working from memory alone and with little confidence in this assessment, reports having no record of any leaked documents containing the claim and cannot identify a media outlet or journalist involved.
+
+Source URL: https://finance.yahoo.com/news/leaked-trump-admin-document-describes-191559664.html
+
+### Has the authenticity of these particular leaked documents been verified or disputed by independent experts or the Trump Administration itself?
+Answer: **CONFLICT.** The retrieved document states that the leaked documents themselves were not disputed as inauthentic, and that the Washington Post misreported their contents by incorrectly attributing a quote from Billie Eilish to the Trump officials vetting her, which was later corrected. The reasoner, working from memory alone, reports that it has no record of the authenticity of these leaked documents being verified or disputed by independent experts or the Trump Administration, and it is uncertain about this, having no strong basis for the assessment.
+
+Source URL: https://web.archive.org/web/20201101145631/https://nypost.com/2020/10/30/washington-post-wrongly-claims-trump-officials-criticized-billie-eilish/
+
+### What was the primary purpose or subject matter of the document in which the statement about Billie Eilish appears?
+Answer: **CONFLICT.** The retrieved document states that the primary purpose was to detail the Trump administration's review and selection of celebrities for a $250 million public health advertising campaign originally intended to 'defeat despair and inspire hope' during the pandemic, which had been repurposed to screen out public figures deemed not aligned with the president's politics. The reasoner working from memory alone reports that it has no recollection of the specific primary purpose or subject matter, but from adjacent facts, it infers that the document was likely part of a political strategy to criticize and mobilize against public figures, with moderate confidence in this assessment.
+
+Source URL: https://finance.yahoo.com/news/leaked-trump-admin-document-describes-191559664.html
+
+## Your Judgement
+```
+
+# Claim 2
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Due to Imran Khan's criticism of Macron's comments on Islam, French authorities cancelled the visas of 183 Pakistani citizens and deported 118 from the country."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Imran Khan, in his capacity as a head of state or government official, publicly criticize statements made by French President Emmanuel Macron regarding Islam?
+Answer: Imran Khan, in his capacity as Prime Minister of Pakistan, publicly criticized French President Emmanuel Macron's statements regarding Islam.
+
+Source URL: https://mmnews.tv/pm-imran-lashes-out-at-french-president-macron-for-anti-muslim-attitude/
+
+### Is there an official statement or credible evidence from French authorities explicitly linking the cancellation of visas for Pakistani citizens to criticism from Imran Khan?
+Answer: There is no official statement or credible evidence from French authorities explicitly linking the cancellation of visas for Pakistani citizens to criticism from Imran Khan.
+
+Source URL: https://tribune.com.pk/story/1119830/diplomatic-row-pakistan-refuses-accept-deportee-france
+
+### What were the exact statements by President Emmanuel Macron regarding Islam that were criticized by Imran Khan?
+Answer: **CONFLICT.** The retrieved document states that President Macron stated he would not 'give up cartoons' depicting Prophet Muhammad and said, 'He was killed because Islamists want our future,' at a ceremony for Samuel Paty. The reasoner working from memory alone, which is near certain of its account, reports that President Macron stated that Islam is 'a religion that is in crisis all over the world' in a speech outlining measures against separatism and defended the publication of caricatures of the Prophet Muhammad as an exercise in freedom of expression.
+
+Source URL: https://runwaypakistan.com/imran-khan-responds-to-islamophobic-french-president-macron/
+
+### On what date and through what medium (e.g., speech, tweet, press conference) did Imran Khan deliver his criticism of Macron's comments?
+Answer: Imran Khan delivered his criticism of Macron's comments on October 26, 2020, via Twitter.
+
+Source URL: https://www.dw.com/en/pakistans-imran-khan-slams-french-president-macrons-views-on-islam/a-55394035
+
+### What is the official position of the French government on the reason for any visa cancellations or deportations of Pakistani citizens during the relevant period?
+Answer: The French government has not issued any official statement or clarification regarding the reason for visa cancellations or deportations of Pakistani citizens during the relevant period.
+
+Source URL: https://web.archive.org/web/20210629013122/https://twitter.com/PakConsulateFr/status/1322495811993903104
+
+### Have any independent news agencies or fact-checking organizations verified the causal connection between Imran Khan's remarks and France's immigration actions against Pakistani nationals?
+Answer: There is no record of any independent news agencies or fact-checking organizations having verified the causal connection between Imran Khan's remarks and France's immigration actions against Pakistani nationals.
+
+Source URL: https://tribune.com.pk/story/1119830/diplomatic-row-pakistan-refuses-accept-deportee-france
+
+## Your Judgement
+```
+
+# Claim 3
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "UNESCO declared Nadar community as the most ancient race in the world."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is there any record in UNESCO's official databases of a project or declaration titled or concerning "the most ancient race in the world"?
+Answer: There is no record in UNESCO's official databases of a project or declaration titled or concerning 'the most ancient race in the world.'
+
+Source URL: none -- retrieval returned no document
+
+### Does UNESCO use the term "race" in its contemporary scientific and cultural programs to categorize human communities?
+Answer: UNESCO does not use the term 'race' to categorize human communities in its contemporary scientific and cultural programs, as it considers race a social construct and focuses on cultural diversity and human rights instead.
+
+Source URL: http://www.honestthinking.org/en/unesco/UNESCO.1950.Statement_on_Race.htm
+
+### What specific UNESCO body (e.g., General Conference, Executive Board, Intergovernmental Committee) would be the authoritative source for such a global declaration about human origins?
+Answer: **CONFLICT.** The document store returned no document that could answer this question about the authoritative UNESCO body for such a declaration. The reasoner working from memory alone, which has no recollection of UNESCO making any declaration about the Nadar community and is certain based on its knowledge of UNESCO's structure, reports that the General Conference would be the authoritative body for a global declaration on human origins.
+
+Source URL: none -- retrieval returned no document
+
+### Have any UNESCO-affiliated scientific bodies, such as the International Bioethics Committee, published findings claiming one community is the "most ancient" over all others?
+Answer: There is no evidence or record that UNESCO-affiliated scientific bodies, such as the International Bioethics Committee, have published findings claiming one community is the 'most ancient' over all others.
+
+Source URL: https://www.independent.co.uk/news/science/world-s-most-ancient-race-traced-in-dna-study-1677113.html
+
+### What is the historical and geographic origin of the claim linking UNESCO to a declaration about the Nadar community's antiquity?
+Answer: There is no information available on the historical or geographic origin of the claim linking UNESCO to a declaration about the Nadar community's antiquity.
+
+Source URL: https://www.familytreedna.com/groups/nadar/about/background
+
+### What academic or genetic evidence, cited by proponents of this claim, is said to support the Nadar community's status as the "most ancient"?
+Answer: Proponents of the claim reference historical traditions linking the Nadar community to the Early Pandyas, but no specific academic or genetic evidence is cited; a genetic project has been undertaken, yet no actual findings are reported, and there is little supporting evidence overall.
+
+Source URL: https://www.familytreedna.com/groups/nadar/about/background
+
+### What are the established historical timelines and geographical origins of the Nadar community according to peer-reviewed historical and anthropological research?
+Answer: **CONFLICT.** The retrieved document states that the historical and anthropological consensus is that the Nadar community's origin is uncertain, though geographical roots are traced to southern Tamil Nadu districts (Tuticorin, Kaniyakumari, Tirunelveli, Virudhunagar) with the Teri palmrya forests around Tiruchendur as a probable abode, and notes traditions linking them to Early Pandyas but little evidence for descent from later rulers. The reasoner working from memory alone reports, with low confidence close to guessing, that it has no record of any peer-reviewed research establishing historical timelines or geographical origins for the Nadar community.
+
+Source URL: https://www.familytreedna.com/groups/nadar/about/background
+
+## Your Judgement
+```
+
+# Claim 4
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Republican Matt Gaetz was part of a company that had to pay 75 million in hospice fraud. They stole from dying people."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the name of the company that Republican Congressman Matt Gaetz was involved with, as referenced in the claim about hospice fraud?
+Answer: The company referenced in the claim is VITAS Healthcare, also known as Vitas.
+
+Source URL: https://www.pnj.com/story/opinion/2019/07/20/marlette-mother-jones-kicks-open-gaetz/1761716001/
+
+### In what capacity (e.g., investor, employee, board member, consultant) was Matt Gaetz involved with this company?
+Answer: **CONFLICT.** The retrieved document states that Matt Gaetz was involved as a founder, shareholder, and board member, serving as vice chairman of the board until the company was sold in 2004. The reasoner working from memory alone, which has no recollection of his involvement and is close to guessing based on the absence of direct record, reports that it is unlikely Matt Gaetz was personally involved with the company.
+
+Source URL: https://www.deseret.com/2013/5/9/20451919/largest-us-hospice-company-sued-for-medicare-fraud
+
+### During what specific years or time period was Matt Gaetz involved with this company?
+Answer: No specific years or time period of Matt Gaetz's involvement with the company that paid 75 million in hospice fraud are documented in available records.
+
+Source URL: https://www.deseret.com/2013/5/9/20451919/largest-us-hospice-company-sued-for-medicare-fraud
+
+### What company or legal entity paid a $75 million penalty related to hospice fraud?
+Answer: Chemed Corporation and its subsidiaries, including Vitas Hospice Services and Vitas Healthcare, paid a $75 million penalty related to hospice fraud.
+
+Source URL: https://homehealthcarenews.com/2017/11/75-million-settlement-reached-in-hospice-false-claims-case/
+
+### Which government agency or regulatory body (e.g., U.S. Department of Justice, Office of Inspector General) investigated and announced the $75 million hospice fraud settlement?
+Answer: **CONFLICT.** The retrieved document states that the U.S. Department of Justice investigated hospice fraud allegations against Vitas Hospice and Vitas Healthcare. The reasoner, which has no record of any $75 million hospice fraud settlement involving Matt Gaetz and is close to guessing on this, reports that it cannot identify the agency for such a settlement.
+
+Source URL: https://www.deseret.com/2013/5/9/20451919/largest-us-hospice-company-sued-for-medicare-fraud
+
+### What were the specific fraudulent billing practices or acts of fraud alleged in the hospice care case that resulted in the $75 million penalty?
+Answer: **CONFLICT.** The retrieved document states that the government accused the company of false Medicare billings for hospice services and Medicare fraud generally in the hospice case, without specifying the exact fraudulent billing practices. The reasoner working from memory alone reports that it has no record of any hospice care case involving Matt Gaetz or resulting in a $75 million penalty, and it is highly confident in this lack of record.
+
+Source URL: https://www.tampabay.com/florida-politics/buzz/2019/11/04/politifact-facebook-post-says-matt-gaetz-has-numerous-duis-its-wrong/
+
+### Were the terminally ill patients of the hospice service identified as the direct victims from whom funds were fraudulently obtained in the legal proceedings or investigation findings?
+Answer: **CONFLICT.** The retrieved document states that the legal proceedings involved Medicare fraud through false billing for ineligible patients and inflated care levels, indicating that the fraud was against Medicare and not against terminally ill patients as direct victims. The reasoner working from memory alone, which is highly confident in its lack of record, reports that it has no knowledge of any hospice fraud legal proceeding or investigation involving Matt Gaetz and therefore cannot confirm who was identified as victims.
+
+Source URL: https://www.politifact.com/factchecks/2019/nov/01/facebook-posts/post-says-rep-matt-gaetz-has-numerous-duis-wrong/
+
+### Was Matt Gaetz personally named as a defendant, respondent, or person of interest in the legal action concerning the $75 million hospice fraud penalty?
+Answer: Matt Gaetz was not personally named as a defendant, respondent, or person of interest in the legal action concerning the $75 million hospice fraud penalty, and there is no evidence linking him to the company involved.
+
+Source URL: https://www.politifact.com/factchecks/2019/nov/01/facebook-posts/post-says-rep-matt-gaetz-has-numerous-duis-wrong/
+
+### What was Matt Gaetz's public response or statement regarding his alleged involvement with the company implicated in the hospice fraud settlement?
+Answer: Matt Gaetz made no public response or statement regarding his alleged involvement in the hospice fraud settlement, as the fraud involved his father's former company, Vitas Healthcare Corporation, and did not involve Matt Gaetz.
+
+Source URL: https://www.politifact.com/factchecks/2019/nov/01/facebook-posts/post-says-rep-matt-gaetz-has-numerous-duis-wrong/
+
+## Your Judgement
+```
+
+# Claim 5
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The United States of America and its Western allies have been using their media outlets to publish articles based on fabricated information under allegations of non-compliance with the Chemical Weapons Convention."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Have the United States government and its political allies in Western nations made coordinated or joint public statements alleging that a specific country is in non-compliance with the Chemical Weapons Convention?
+Answer: Yes, the United States government and its political allies in Western nations have made coordinated and joint public statements alleging that Syria is in non-compliance with the Chemical Weapons Convention, leading to formal investigations by the Organisation for the Prohibition of Chemical Weapons.
+
+Source URL: https://armscontrollaw.com/2020/07/21/syria-stands-formally-accused-of-violating-the-chemical-weapons-convention/
+
+### Have specific, named Western media outlets (e.g., The New York Times, BBC, Der Spiegel) published articles or reports containing allegations of Chemical Weapons Convention non-compliance based on information provided by U.S. or allied government sources?
+Answer: No specific articles from The New York Times, BBC, or Der Spiegel containing allegations of Chemical Weapons Convention non-compliance based on information from U.S. or allied government sources have been found or recalled, though general reports on such allegations by Western media outlets are known to exist.
+
+Source URL: none -- retrieval returned no document
+
+### Is there documented evidence that the U.S. government or a specific Western ally government has directly provided or planted information to specific media organizations for the purpose of publishing articles about chemical weapons non-compliance?
+Answer: No documented evidence exists that the U.S. government or a specific Western ally government has directly provided or planted information to specific media organizations for the purpose of publishing articles about chemical weapons non-compliance.
+
+Source URL: https://www.csis.org/analysis/unpacking-syrias-chemical-weapons-problem
+
+### For the specific articles in question, can the original sources of information cited (e.g., intelligence assessments, leaked documents, named officials) be identified and traced?
+Answer: **CONFLICT.** The retrieved document states that original sources of information cited in articles about Chemical Weapons Convention non-compliance can be identified and traced, referencing specific intelligence assessments, OPCW findings, and public statements. The reasoner, working from memory alone and with low confidence in this assessment, reports having no record of any specific articles alleged to be based on fabricated information.
+
+Source URL: https://www.state.gov/wp-content/uploads/2020/06/2020-10C-Report-Unclassified-Version-for-H.pdf
+
+### Have independent, credible investigations (e.g., by international bodies like the OPCW, reputable NGOs, or academic researchers) examined the information cited in these articles and concluded that it was fabricated or falsified?
+Answer: Independent, credible investigations have not concluded that the information cited in articles about alleged non-compliance with the Chemical Weapons Convention was fabricated; on the contrary, findings from international bodies like the OPCW substantiate concerns about violations, including gaps in declarations and attributions of chemical weapons attacks.
+
+Source URL: https://www.csis.org/analysis/unpacking-syrias-chemical-weapons-problem
+
+### Have the media outlets accused of publishing these articles issued any retractions, corrections, or statements acknowledging that their reporting was based on fabricated information?
+Answer: No retractions, corrections, or statements have been issued by media outlets accused of publishing articles based on fabricated information about Chemical Weapons Convention non-compliance.
+
+Source URL: https://www.theguardian.com/world/2020/apr/08/syrian-regime-blamed-for-using-sarin-gas-in-landmark-opcw-report
+
+### Has the country accused of non-compliance (e.g., Syria, Russia) or any other primary party provided concrete counter-evidence that directly contradicts the specific allegations published in these Western media articles?
+Answer: Accused countries such as Russia and Syria have issued counter-claims and denials, but no concrete counter-evidence has been provided that directly contradicts the specific allegations published in Western media articles regarding non-compliance with the Chemical Weapons Convention.
+
+Source URL: https://www.theguardian.com/world/2017/apr/06/postmortems-confirm-syria-chemical-attack-turkey-says
+
+### Do analyses of the media coverage patterns (e.g., timing, similarity of claims across outlets, sourcing) by independent media watchdog organizations support the conclusion that the articles were part of a coordinated disinformation campaign rather than independent reporting?
+Answer: **CONFLICT.** The retrieved document states that analyses by independent researchers, such as a study in the Harvard Kennedy School Misinformation Review, support the conclusion that media coverage patterns can reflect coordinated disinformation campaigns, with examples of narrative alignment and sourcing. The reasoner, working from memory alone and with low confidence, reports having no record of any analyses by independent media watchdog organizations that support the conclusion that articles were part of a coordinated disinformation campaign.
+
+Source URL: https://misinforeview.hks.harvard.edu/article/cross-platform-disinformation-campaigns/
+
+## Your Judgement
+```
+
+# Claim 6
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "More than 225,000 people dead, 225,000. The estimates are, if we’d have acted responsibly, there’d be 160,000 fewer dead than there are today, because of covid-19."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What was the official cumulative death toll from COVID-19 in the country referenced by the speaker at the time the statement was made?
+Answer: **CONFLICT.** The retrieved document states that according to Johns Hopkins University data as of August 20, 2020, the official cumulative U.S. death toll from COVID-19 was 174,248. The reasoner working from memory alone reports that the death toll was approximately 228,000 to 230,000 on October 30, 2020, and is fairly confident in this assessment.
+
+Source URL: https://www.politifact.com/article/2020/aug/21/fact-checking-joe-biden-2020-democrat-national-con/
+
+### What is the source and publication date of the official COVID-19 death count cited in the claim?
+Answer: **CONFLICT.** The retrieved document states that the official COVID-19 death count cited in the claim was sourced from Johns Hopkins University, with a publication date of August 20, 2020. The reasoner working from memory alone reports, with low certainty close to guessing, that the claim does not cite any specific source or publication date for the official COVID-19 death count.
+
+Source URL: https://www.politifact.com/article/2020/aug/21/fact-checking-joe-biden-2020-democrat-national-con/
+
+### Which specific source or study originally presented the estimate that 160,000 fewer people would have died if more responsible actions were taken?
+Answer: **CONFLICT.** The retrieved document states that the estimate of 160,000 fewer deaths originated from a Columbia University report entitled '130,000 – 210,000 Avoidable COVID-19 Deaths — and Counting — in the U.S.', principally authored by Irwin Redlener, which compared U.S. responses to other countries and concluded that between 130,000 and 210,000 deaths could have been avoided. The reasoner, working from memory alone and with low confidence, reports having no record of any specific source or study for this estimate.
+
+Source URL: https://news.climate.columbia.edu/2020/10/22/covid-19-response-avoidable-deaths/
+
+### What methodology did that source or study use to derive the "160,000 preventable deaths" estimate?
+Answer: **CONFLICT.** The retrieved document states that the source is a Columbia University report which derived the 'avoidable deaths' estimate by comparing per-capita mortality rates between the United States and six other high-income countries, calculating the difference to find avoidable deaths in the range of 130,000 to 210,000. The reasoner working from memory alone reports that it has no specific recollection of the source or methodology for the '160,000 preventable deaths' figure and cannot identify or describe the specific methodology, though it recalls that researchers around that time used epidemiological counterfactual modeling; this assessment is made with low confidence, near the bottom of the scale.
+
+Source URL: https://ncdp.columbia.edu/custom-content/uploads/2020/10/Avoidable-COVID-19-Deaths-US-NCDP.pdf
+
+### According to that source, what specific period or time frame does the 160,000 preventable deaths estimate cover?
+Answer: **CONFLICT.** The retrieved document states that the 160,000 preventable deaths estimate covers the cumulative period from the start of the COVID-19 pandemic in the United States (first confirmed case on January 20, 2020) through October 16, 2020. The reasoner working from memory alone reports having no specific knowledge of the source or time frame for this estimate, being close to guessing in this assessment.
+
+Source URL: https://ncdp.columbia.edu/custom-content/uploads/2020/10/Avoidable-COVID-19-Deaths-US-NCDP.pdf
+
+### What does the source defining the "160,000 preventable deaths" explicitly mean by "acting responsibly" or "more responsible actions"?
+Answer: **CONFLICT.** The retrieved document defines 'acting responsibly' as implementing public health policies demonstrated by six high-income comparison countries—South Korea, Japan, Australia, Germany, Canada, and France—including rapid testing, effective contact tracing, timely social distancing and lockdown measures, consistent promotion and use of facemasks, and unified, science-based government messaging without political undermining. The reasoner working from memory alone, with little confidence, reports no record of any source that explicitly defines what 'acting responsibly' or 'more responsible actions' means in the context of the '160,000 preventable deaths' estimate.
+
+Source URL: https://ncdp.columbia.edu/custom-content/uploads/2020/10/Avoidable-COVID-19-Deaths-US-NCDP.pdf
+
+### Have other peer-reviewed studies or authoritative sources published estimates of preventable U.S. COVID-19 deaths that support or contradict the "160,000" figure?
+Answer: **CONFLICT.** The retrieved document states that the Columbia University report supports the '160,000' figure, with a central estimate of between 130,000 and 210,000 avoidable deaths. The reasoner working from memory alone reports that it has no specific recollection of peer-reviewed studies directly testing or supporting this figure, though it recalls fragmentary associations with a Columbia University study and the Lancet Commission, and is uncertain of this assessment, close to guessing.
+
+Source URL: https://ncdp.columbia.edu/custom-content/uploads/2020/10/Avoidable-COVID-19-Deaths-US-NCDP.pdf
+
+### At the time of the statement, how did the U.S. total COVID-19 death toll compare to that of other countries with similar populations and income levels?
+Answer: **CONFLICT.** The retrieved document states that it contains no comparative data on the U.S. death toll versus other countries with similar populations or income levels at the time of the statement. The reasoner working from memory alone reports that, from its recall of high U.S. death tolls and lower relative death counts in other high-income countries, it infers that the U.S. total death toll was likely higher than that of countries with similar populations and income levels at that time, with moderate confidence in this inference.
+
+Source URL: https://www.politico.eu/article/us-coronavirus-death-toll-tops-100000-as-trump-pushes-to-reopen/
+
+### Did the referenced source for the preventable deaths estimate directly attribute the excess deaths to specific policy failures or leaders in the country mentioned?
+Answer: The referenced source, specifically the National Safety Council article, does not directly attribute excess COVID-19 deaths to specific policy failures or leaders; it highlights the scale of the pandemic compared to preventable accidental deaths and urges adherence to public health guidance without assigning blame.
+
+Source URL: https://www.prnewswire.com/news-releases/national-safety-council-covid-19-on-pace-to-become-third-leading-cause-of-death-in-2020--surpasses-the-total-number-of-preventable-accidental-deaths-301114362.html
+
+### Have any major fact-checking organizations or public health authorities previously evaluated the claim regarding the number of preventable COVID-19 deaths in the relevant country?
+Answer: Yes, major fact-checking organizations and public health authorities, such as PolitiFact and the National Center for Disaster Preparedness at Columbia University, have evaluated claims regarding preventable COVID-19 deaths in the United States, with estimates indicating that significant numbers of deaths could have been avoided through earlier interventions.
+
+Source URL: https://ncdp.columbia.edu/custom-content/uploads/2020/10/Avoidable-COVID-19-Deaths-US-NCDP.pdf
+
+## Your Judgement
+```
+
+# Claim 7
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Why should you pay more taxes than Donald Trump pays? And that’s a fact. $750. Remember what he said when that was raised a while ago, how he only pays … He said, ‘Because I’m smart. I know how to game the system.’"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Did Donald Trump pay $750 in federal income taxes in the year 2016 and/or 2017, as reported by major news outlets based on his tax return data?
+Answer: Donald Trump paid $750 in federal income taxes in 2016 and 2017, as reported by major news outlets based on his tax return data.
+
+Source URL: https://apnews.com/article/donald-trump-business-ny-state-wire-ap-top-news-nyc-wire-f0e2af5f9f99de9d30dc6b9097121188
+
+### 2. What was the original source and verification method behind the $750 tax payment figure cited regarding Donald Trump's taxes?
+Answer: **CONFLICT.** The retrieved document states that the original source for the $750 tax payment figure was a report by The New York Times, based on tax-return data provided by sources with legal access, and notes that CBS News has not independently verified this information. The reasoner, working from memory alone, reports that the figure originated from a New York Times investigation into Donald Trump's taxes based on tax return data they obtained, and infers that verification likely involved examining financial documents and consulting experts, though it has no specific recollection of the method, and is fairly confident in this account.
+
+Source URL: https://www.cbsnews.com/news/trump-tax-returns-new-york-times-report/
+
+### 3. Did Donald Trump, during a 2016 presidential debate with Hillary Clinton, respond to an accusation of paying no federal income taxes by saying "That makes me smart"?
+Answer: Donald Trump did respond with 'That makes me smart' during a 2016 presidential debate with Hillary Clinton when accused of paying no federal income taxes.
+
+Source URL: https://www.nbcnews.com/storyline/2016-presidential-debates/presidential-debate-donald-trump-s-remark-about-paying-taxes-raises-n655261
+
+### 4. Did Donald Trump ever use the exact phrase "I know how to game the system" in reference to his tax strategies, as attributed in this claim?
+Answer: Donald Trump did not use the exact phrase 'I know how to game the system' in reference to his tax strategies; he instead made statements such as 'That would make me smart' when discussing not paying taxes.
+
+Source URL: https://m.usw.org/blog/2016/trump-digs-in-on-why-refusing-to-pay-taxes-makes-him-smart
+
+### 5. In what public setting (debate, interview, rally) did Donald Trump make statements characterizing his tax avoidance as evidence of intelligence or smartness?
+Answer: **CONFLICT.** The retrieved document states that Donald Trump made statements characterizing his tax avoidance as evidence of intelligence at a campaign rally, while the reasoner working from memory alone reports that he made them in a presidential debate and is quite certain of this assessment.
+
+Source URL: https://www.usatoday.com/story/opinion/2018/10/15/donald-trump-taxes-smart-legal-fraud-new-york-times-column/1639787002/
+
+### 6. Did Donald Trump pay $750 in federal income taxes in every year of his presidency (2017–2020), or was the $750 figure limited to specific years?
+Answer: The $750 federal income tax payment was limited to the specific years 2016 and 2017, and not applicable to every year of Donald Trump's presidency from 2017 to 2020.
+
+Source URL: https://apnews.com/article/donald-trump-business-ny-state-wire-ap-top-news-nyc-wire-f0e2af5f9f99de9d30dc6b9097121188
+
+### 7. Did Donald Trump pay zero federal income taxes in 10 of the 15 years preceding his presidency, as reported by the New York Times in September 2020?
+Answer: **CONFLICT.** The retrieved document states that the New York Times reported in September 2020 that Donald Trump paid no federal income taxes in 10 of the 15 years preceding his presidency. The reasoner working from memory alone, with low certainty and close to guessing, reports that the New York Times did not state exactly that and instead recalled it reported no federal income taxes in 11 of the 18 years it examined.
+
+Source URL: https://www.cbc.ca/news/world/trump-taxes-fake-news-1.5741186
+
+### 8. Were the New York Times' findings about Trump's $750 tax payments later corroborated by any official release of his tax returns by the House Ways and Means Committee in 2022?
+Answer: **CONFLICT.** The search result contains no information about the House Ways and Means Committee releasing Trump's tax returns in 2022 to corroborate the New York Times' findings. In contrast, the reasoner, working from memory alone and very certain of this, reports that the findings were indeed corroborated by such an official release.
+
+Source URL: https://www.npr.org/2020/09/27/917566141/trump-dismisses-new-york-times-reporting-that-he-paid-little-in-federal-income-t
+
+### 9. Did the phrase "game the system" appear in the actual quote from Donald Trump, or is it a paraphrase or misattribution by the speaker making this claim?
+Answer: The actual quote from Donald Trump was 'that makes me smart,' not 'game the system,' which is a paraphrase or misattribution by the speaker.
+
+Source URL: https://www.nbcnews.com/storyline/2016-presidential-debates/presidential-debate-donald-trump-s-remark-about-paying-taxes-raises-n655261
+
+### 10. Is it accurate to characterize Trump's $750 tax payment as federal income tax specifically, as opposed to other types of federal taxes such as payroll taxes or self-employment taxes?
+Answer: The $750 tax payment is accurately characterized as federal income tax.
+
+Source URL: https://www.vox.com/policy-and-politics/21459782/trump-750-tax-returns-nyt
+
+## Your Judgement
+```
+
+# Claim 8
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "You’re watching the cheaters and all those people that send in the phony ballots. … They want to have the count weeks after November 3."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### In the context of a specific U.S. election associated with a November 3rd date, were there any documented, prosecutable cases of individuals submitting fraudulent or "phony" ballots as part of a coordinated cheating effort?
+Answer: There were no documented, prosecutable cases of individuals submitting fraudulent or 'phony' ballots as part of a coordinated cheating effort in the 2020 U.S. election; investigations and audits found no evidence of such coordinated fraud.
+
+Source URL: https://www.bbc.com/news/54562611
+
+### What was the official, legally authorized deadline for receiving and counting ballots in the election in question, and did it extend beyond November 3rd by law or due to a declared emergency?
+Answer: In the 2020 U.S. presidential election, official deadlines for receiving and counting ballots extended beyond November 3rd by law in several states, such as Pennsylvania, under state laws and court rulings, not due to a declared emergency.
+
+Source URL: https://bipartisanpolicy.org/report/counting-the-vote-during-the-2020-election/
+
+### Are there any credible investigations or court findings that link the need for an extended ballot count to systemic fraud involving counterfeit or illegally submitted ballots?
+Answer: There are no credible investigations or court findings that link the need for an extended ballot count to systemic fraud involving counterfeit or illegally submitted ballots; studies and post-election inquiries have found virtually no evidence of such fraud.
+
+Source URL: https://www.cnn.com/2020/09/17/politics/mail-in-ballots-donald-trump-fraud-montana/index.html
+
+### Did election officials or non-partisan observers identify a pattern of "phony ballots" being a primary or contributing cause for delays in announcing election results after November 3rd?
+Answer: Election officials did not identify 'phony ballots' as a cause for delays in announcing election results after November 3rd; delays were attributed to the expected surge in mail-in ballots and state laws preventing their processing before Election Day.
+
+Source URL: https://www.timesofisrael.com/us-election-results-may-be-delayed-but-not-because-of-fraud/
+
+### Were the specific extended counting periods that occurred after November 3rd in the relevant election the result of legal challenges, logistical issues, or state laws allowing for the processing of late-arriving mail ballots, rather than the discovery of fraudulent ballots?
+Answer: The extended counting periods after November 3rd were the result of state laws allowing for the processing of late-arriving mail-in ballots, legal rulings or challenges, and logistical issues, not related to fraudulent ballots.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/30/fact-check-some-mail-ballots-arriving-post-election-day-count/6075311002/
+
+### What were the official reasons provided by election authorities for any extended count periods beyond November 3rd in the cited election, and do those reasons reference fraud as a factor?
+Answer: Extended count periods beyond November 3rd were officially due to the unprecedented surge in mail-in ballots—driven by the COVID-19 pandemic—and the additional time required for their validation and processing, including state laws permitting the counting of ballots received after Election Day if postmarked by a specified date and the need for thorough verification processes such as audits and recounts. These official reasons did not reference fraud as a factor; election authorities emphasized the security of the election, denied claims of widespread fraud, and explicitly stated that a delay in results does not mean that fraudulent votes are being counted.
+
+Source URL: https://bipartisanpolicy.org/blog/by-mail-or-absentee-voting-is-safe-and-easy-and-those-ballots-count/
+
+### Have any independent fact-checking organizations or the Cybersecurity and Infrastructure Security Agency (CISA) analyzed claims of widespread "phony ballots" in this election and reached a conclusion on their veracity?
+Answer: Yes, independent fact-checking organizations and the Cybersecurity and Infrastructure Security Agency (CISA) have analyzed claims of widespread 'phony ballots' and concluded that these claims are false or unsubstantiated.
+
+Source URL: https://www.cnn.com/2020/09/17/politics/mail-in-ballots-donald-trump-fraud-montana/index.html
+
+### In the states where counting extended past November 3rd, did audits or recounts specifically initiated to check for fraud find significant numbers of "phony ballots" that changed the outcome?
+Answer: Audits and recounts in states where counting extended past November 3rd did not find significant numbers of 'phony ballots' that changed the outcome, as studies show voter fraud is rare and there is no evidence supporting widespread fraud affecting election results.
+
+Source URL: https://www.bbc.com/news/54562611
+
+### Is the desire for an extended count more logically attributed to legal provisions for counting legally cast ballots received by a certain date, rather than to a conspiracy to use fraudulent ballots?
+Answer: The desire for an extended count is more logically attributed to legal provisions for counting legally cast ballots received by a certain date, rather than to a conspiracy involving fraudulent ballots.
+
+Source URL: https://headstartca.org/advocacy/voter-education/
+
+### Have any of the entities accused of being "cheaters" or sending "phony ballots" been formally charged, and if so, what was the scale and nature of the fraud as determined by the justice system?
+Answer: No entities accused of being 'cheaters' or sending 'phony ballots' have been formally charged for large-scale voter fraud, as the Department of Justice, courts, and investigations have found no evidence of widespread fraud, with only isolated incidents like the discarded ballots in Pennsylvania reported.
+
+Source URL: https://www.bbc.com/news/54562611
+
+## Your Judgement
+```
+
+# Claim 12
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "New Zealand’s new Food Bill bans gardening"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the official name and parliamentary status (e.g., proposed, passed into law) of the legislative bill referred to as New Zealand's "Food Bill"?
+Answer: The legislative bill commonly referred to as New Zealand's 'Food Bill' was passed into law and is enacted as the Food Act 2014.
+
+Source URL: https://en.wikipedia.org/wiki/Food_Act_2014
+
+### Does the text of New Zealand's "Food Bill" explicitly contain the word "garden" or "gardening" as an activity it seeks to regulate or prohibit?
+Answer: The text of New Zealand's Food Bill does not explicitly contain the word 'garden' or 'gardening' as an activity it seeks to regulate or prohibit.
+
+Source URL: https://www.beehive.govt.nz/release/food-bill-make-food-safer-%E2%80%93-not-restrict-small-traders
+
+### What are the stated objectives and purposes of New Zealand's "Food Bill" as outlined in its preamble or official summary?
+Answer: New Zealand's Food Bill aims to simplify food safety regulations, reduce food-borne illness and economic costs, create efficiencies for traders, and improve food safety, while explicitly ensuring that it does not restrict the right to grow, share, or sell home-produced food.
+
+Source URL: https://www.beehive.govt.nz/release/food-bill-make-food-safer-%E2%80%93-not-restrict-small-traders
+
+### Are there any provisions within New Zealand's "Food Bill" that restrict or criminalize the planting, cultivation, or harvesting of food plants by private individuals on their own property?
+Answer: New Zealand's Food Bill does not include any provisions that ban or restrict the planting, cultivation, or harvesting of food plants by private individuals on their own property; the claim that it does is based on misinterpretations and online hoaxes.
+
+Source URL: https://knowyourmeme.com/memes/new-zealand-gardening-law-hoax
+
+### Has any government agency or official in New Zealand publicly stated that the "Food Bill" makes personal home gardening illegal?
+Answer: No government agency or official in New Zealand has publicly stated that the Food Bill makes personal home gardening illegal; officials have clarified that the Food Bill does not ban gardening.
+
+Source URL: https://www.huffpost.com/entry/new-zealand-gardening-ban_n_57696251e4b0a75709b7d6ac
+
+### What specific activities or practices related to food production does the "Food Bill" define, regulate, or prohibit?
+Answer: **CONFLICT.** The retrieved document states that the Food Bill (which became the Food Act 2014) defines, regulates, and prohibits various food-related activities, such as requiring Food Control Plans or National Programmes, implementing standards, and provisions that critics argue would restrict practices like seed sharing, community gardens, and other food production activities. The reasoner, working from memory alone with low confidence, reports having no recollection of the Food Bill defining or prohibiting specific activities related to food production and infers that no such provisions exist, based on the fact that the claim about banning gardening was debunked as misinformation in 2020.
+
+Source URL: https://en.wikipedia.org/wiki/Food_Act_2014
+
+### When was New Zealand's "Food Bill" officially passed or enacted, and what is the date it came or comes into legal effect?
+Answer: **CONFLICT.** The retrieved document states that the Food Bill was passed by Parliament in 2014 and came into legal effect on 1 March 2016. The reasoner working from memory alone, which has no record of New Zealand's 'Food Bill' being officially passed or enacted and is close to guessing on this point, reports that it has no knowledge of the dates when it came or comes into legal effect.
+
+Source URL: https://en.wikipedia.org/wiki/Food_Act_2014
+
+### Does the "Food Bill" distinguish between commercial agricultural activity and non-commercial, personal gardening for household consumption?
+Answer: The Food Bill explicitly distinguishes between commercial agricultural activity and non-commercial, personal gardening for household consumption, focusing on food for sale and excluding home-grown food for personal or family use from its measures.
+
+Source URL: https://www.beehive.govt.nz/release/food-bill-make-food-safer-%E2%80%93-not-restrict-small-traders
+
+### What legal or regulatory frameworks does the "Food Bill" amend or replace, and does it consolidate previous laws related to food safety or biosecurity?
+Answer: **CONFLICT.** The retrieved documents state that the Food Bill (which became the Food Act 2014) replaced the Food Act 1981 and the Food Hygiene Regulations 1974, and made amendments to the Animal Products Act 1999 and the Wine Act 2003 to consolidate food safety but not biosecurity laws. The reasoner working from memory alone reports that it has no record of any legal or regulatory frameworks that the 'Food Bill' amends or replaces, and no information on whether it consolidates previous laws, and is not confident in this assessment as it is close to guessing.
+
+Source URL: https://en.wikipedia.org/wiki/Food_Act_2014
+
+### Are there any exceptions, licenses, or permits described within the "Food Bill" for certain types of gardening or plant cultivation?
+Answer: The New Zealand Food Bill does not restrict personal horticultural activities such as growing vegetables and fruits at home; it was concerned with food safety regulation for commercial food businesses. Since the bill never banned or restricted gardening, no exceptions, licenses, or permits for gardening are described within it—the question assumes a restriction that does not exist.
+
+Source URL: https://knowyourmeme.com/memes/new-zealand-gardening-law-hoax
+
+## Your Judgement
+```
+
+# Claim 13
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Wearing face masks will stop the spread of covid 19"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### According to major public health organizations (e.g., WHO, CDC), does the consistent and correct use of any type of face mask guarantee the complete cessation of COVID-19 transmission?
+Answer: No, according to major public health organizations such as the WHO and CDC, consistent and correct mask use does not guarantee the complete cessation of COVID-19 transmission. These organizations recommend masks as one of several preventive measures, acknowledging that masks alone do not provide absolute protection. As the WHO Director-General stated, 'Masks alone will not protect you from Covid-19,' and their use can create a false sense of security if other measures like hand hygiene and physical distancing are neglected.
+
+Source URL: https://www.vox.com/2020/6/6/21282108/masks-for-covid-19-world-health-organization-guidelines-cloth-n95
+
+### What is the range of effectiveness rates for different types of face masks (cloth, surgical, N95) in filtering SARS-CoV-2 particles in laboratory or real-world settings?
+Answer: **CONFLICT.** The retrieved document states that effectiveness rates vary significantly across mask types: cloth masks can filter from as low as 2-3% up to above 90% for small aerosols depending on design, surgical masks demonstrate approximately 55% to 94% filtration efficiency, and N95 respirators provide over 95% filtration. The reasoner working from memory alone, which is certain in its assessment, reports having no recollection of specific effectiveness rates for different mask types in filtering SARS-CoV-2 particles, though it recalls that N95 masks are generally more effective due to their design and filtration efficiency.
+
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7497125/
+
+### Do peer-reviewed studies or meta-analyses conclude that face masks provide 100% protection against inhaling or expelling infectious SARS-CoV-2 particles?
+Answer: Peer-reviewed studies or meta-analyses do not conclude that face masks provide 100% protection against inhaling or expelling infectious SARS-CoV-2 particles; instead, they indicate that masks may modestly reduce the odds of infection, but the evidence is of low certainty and does not support absolute effectiveness.
+
+Source URL: https://www.medrxiv.org/content/10.1101/2020.04.01.20049528v1
+
+### How does the primary mechanism of face masks (filtration, source control, or wearer protection) relate to their ability to completely stop viral spread in community settings?
+Answer: Face masks function through source control, filtration, and wearer protection to reduce viral spread, but they cannot completely stop it in community settings due to factors such as inconsistent use and imperfect fit.
+
+Source URL: https://www.fhi.no/en/publ/2020/Should-individuals-in-the-community-without-respiratory-symptoms-wear-facemasks-to-reduce-the-spread-of-COVID-19/
+
+### Have there been documented instances of COVID-19 outbreaks occurring in populations with high compliance with mask-wearing guidelines?
+Answer: **CONFLICT.** The retrieved documents show no records of COVID-19 outbreaks in populations with high mask-wearing compliance. The reasoner working from memory alone, with high confidence, reports that outbreaks have been documented in such settings, such as in healthcare facilities or events with strict mask guidelines.
+
+Source URL: none -- retrieval returned no document
+
+### What is the current scientific consensus on the comparative importance of face masks relative to other interventions like vaccination, ventilation, and social distancing for controlling COVID-19 spread?
+Answer: The scientific consensus does not provide a direct comparative ranking of face masks relative to vaccination, ventilation, and social distancing; rather, it emphasizes a layered mitigation strategy where masks are an important measure combined with other interventions.
+
+Source URL: https://www.lung.org/blog/covid-masks
+
+### Do authoritative health guidance statements recommend face masks as a standalone "stop" measure, or as one layer within a multi-layered prevention strategy?
+Answer: Authoritative health guidance from organizations like the CDC and WHO recommends face masks as one layer within a multi-layered prevention strategy, not as a standalone measure to stop the spread of COVID-19.
+
+Source URL: https://abcnews.go.com/Health/cdc-offer-conflicting-advice-masks-expert-tells-us/story?id=70958380
+
+### Has the emergence of different SARS-CoV-2 variants (e.g., Alpha, Delta, Omicron) with differing transmissibility altered the assessed effectiveness of face masks in preventing spread?
+Answer: **CONFLICT.** The retrieved document states that the emergence of the Delta variant led to updated CDC guidance recommending universal indoor masking, indicating that differing transmissibility of variants has influenced public health assessments regarding mask effectiveness. The reasoner working from memory alone reports having no recollection of specific assessments that mask effectiveness was altered due to variants, but infers from general trends that fundamental effectiveness was maintained with practical adaptations, and is fairly certain of this position.
+
+Source URL: https://www.cdc.gov/coronavirus/2019-ncov/covid-19-data-and-surveillance.html
+
+### What are the identified limitations or failure points of mask usage (e.g., poor fit, incorrect material, inconsistency of use) that prevent it from being an absolute barrier to transmission?
+Answer: Mask usage is not an absolute barrier to transmission due to limitations such as poor fit, incorrect material, inconsistency in wear, and the inherent inability of masks to completely block virus droplets/aerosols even when perfectly fitted.
+
+Source URL: https://pubmed.ncbi.nlm.nih.gov/33087517/
+
+## Your Judgement
+```
+
+# Claim 14
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Jammu and Kashmir (J&K) in Pakistan/India was removed from the United Nations (UN) list of “unresolved disputes”."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Has the UN officially removed Jammu and Kashmir from any list or classification titled "unresolved disputes"?
+Answer: **CONFLICT.** The retrieved document states that Jammu and Kashmir was removed from the United Nations list of unresolved disputes, and Pakistan's envoy protested the omission as an 'inadvertent omission.' The reasoner working from memory alone reports that it has no record of the United Nations having a list or classification titled 'unresolved disputes' that includes Jammu and Kashmir, nor of it being officially removed from such a list, and it is close to guessing in this assessment.
+
+Source URL: https://www.thehindu.com/news/national/Jammu-and-Kashmir-out-of-U.N.-list-of-disputes/article15687886.ece
+
+### If such a removal occurred, what was the specific date or year of this change in classification?
+Answer: **CONFLICT.** The retrieved document states that Jammu and Kashmir was removed from the United Nations list of unresolved disputes in 2006. The reasoner, which has no knowledge of such an event and is uncertain in its recollection, reports that no removal happened and therefore no date can be specified.
+
+Source URL: https://m.timesofindia.com/india/unsc-doesnt-list-jk-as-dispute/articleshow/6931920.cms
+
+### Which specific UN document, report, or resolution announced or enacted the removal of Jammu and Kashmir from the "unresolved disputes" list?
+Answer: No specific UN document, report, or resolution announced or enacted the removal of Jammu and Kashmir from an 'unresolved disputes' list; the omission was observed informally during a UN General Assembly session, and there is no evidence that the United Nations maintains such a formal list.
+
+Source URL: https://m.economictimes.com/news/politics-and-nation/jammu-and-kashmir-removed-from-list-of-disputes-under-un/articleshow/6927150.cms
+
+### Which UN body (e.g., General Assembly, Security Council, Secretariat) was responsible for making or publishing this decision?
+Answer: **CONFLICT.** The retrieved document states that the decision to remove Jammu and Kashmir from the United Nations list of unresolved disputes was made by the Security Council. The reasoner working from memory alone, which has no record of any UN body making or publishing such a decision and is highly uncertain of this assessment, reports that it cannot identify the responsible body.
+
+Source URL: https://www.thehindu.com/news/national/Jammu-and-Kashmir-out-of-U.N.-list-of-disputes/article15687886.ece
+
+### What was the stated rationale or process for removing Jammu and Kashmir from the "unresolved disputes" list?
+Answer: **CONFLICT.** The retrieved document indicates that the omission of Jammu and Kashmir from the UN list was noticed by Pakistan, with its acting envoy stating it was an inadvertent omission, implying no formal rationale or process. The reasoner working from memory alone has no knowledge of any such removal, recalls that the UN Security Council has maintained Jammu and Kashmir as an unresolved item since 1948, and, being certain that such an event would be known, reports that the claim of removal is inaccurate.
+
+Source URL: https://www.ndtv.com/india-news/jammu-and-kashmir-removed-from-list-of-disputes-under-un-439267
+
+### Has the status of Jammu and Kashmir been replaced by a different official UN classification, and if so, what is that current classification?
+Answer: There is no indication that the status of Jammu and Kashmir has been replaced by a different official UN classification; it remains a disputed territory with ongoing UN discussions.
+
+Source URL: https://www.pakungeneva.pk/ContentPage.aspx?ID=39
+
+### Prior to its alleged removal, was Jammu and Kashmir explicitly listed as an "unresolved dispute" in a UN document?
+Answer: **CONFLICT.** The retrieved document states that Jammu and Kashmir was explicitly listed as an unresolved dispute prior to its removal, as indicated by Pakistan's acting envoy who called it one of the oldest disputes on the UN Security Council agenda. The reasoner working from memory alone reports having no record of Jammu and Kashmir being explicitly listed as an 'unresolved dispute' and is uncertain of this assessment, being close to guessing.
+
+Source URL: https://www.thehindu.com/news/national/Jammu-and-Kashmir-out-of-U.N.-list-of-disputes/article15687886.ece
+
+### Are there any official UN statements or documents from recent years that still refer to the Jammu and Kashmir issue as a "dispute" or "situation"?
+Answer: Yes, official UN documents from recent years, including Security Council communications and OHCHR reports, still refer to the Jammu and Kashmir issue as a 'dispute' or 'situation'.
+
+Source URL: https://www.pakungeneva.pk/ContentPage.aspx?ID=39
+
+### Have representatives of India or Pakistan made official statements at the UN confirming or denying the claim about Jammu and Kashmir's removal from an "unresolved disputes" list?
+Answer: **CONFLICT.** The retrieved documents state that Pakistan's acting envoy to the UN protested the omission, calling it an 'inadvertent omission' and reaffirming Jammu and Kashmir as a dispute, with no specific Indian statement directly confirming or denying the list change recorded. In contrast, the reasoner working from memory alone reports that India confirmed the removal and Pakistan denied or criticized it, though this recollection is close to guessing.
+
+Source URL: https://www.thehindu.com/news/national/Jammu-and-Kashmir-out-of-U.N.-list-of-disputes/article15687886.ece
+
+## Your Judgement
+```
+
+# Claim 16
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The plentiful evidence we have indicates that masks would not meaningfully help with aerosol transmission of COVID 19."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What specific studies or bodies of research are cited as the "plentiful evidence" that masks are ineffective against COVID-19 aerosol transmission?
+Answer: **CONFLICT.** The retrieved document states that the 'plentiful evidence' refers to Jefferson 2020, Xiao 2020, and Brainard 2020, systematic reviews finding that community mask use was not significantly associated with reduced influenza-like illness. The reasoner, working from memory alone and having no record of these studies, reports with low confidence that it has no knowledge of any specific studies cited in the claim.
+
+Source URL: https://www.gov.scot/binaries/content/documents/govscot/publications/research-and-analysis/2020/06/covid-19-advisory-group-evidence-papers-april-2020/documents/rapid-review-on-face-masks-for-the-general-population-7-april-2020/rapid-review-on-face-masks-for-the-general-population-7-april-2020/govscot%3Adocument/Rapid%2Breview%2Bon%2Bface%2Bmasks%2Bfor%2Bthe%2Bgeneral%2Bpopulation%2B%25287%2BApril%2B2020%2529.pdf
+
+### Are the studies referenced in this claim peer-reviewed, and do they represent a broad consensus in the field of epidemiology or aerosol science?
+Answer: **CONFLICT.** The retrieved document states that a systematic review found on medrxiv is not peer-reviewed, references other studies with unconfirmed peer-review status, has a cautious conclusion acknowledging some protective effect, and does not address aerosol transmission or consensus, but it does not confirm that these studies are directly referenced in the claim. The reasoner, which is certain that no specific studies are cited in the claim, reports that it cannot determine if any studies are peer-reviewed or represent a broad consensus.
+
+Source URL: https://www.medrxiv.org/content/10.1101/2020.04.01.20049528v1
+
+### Does the claim differentiate between the effectiveness of cloth masks, surgical masks, and N95/KN95 respirators against aerosol transmission of COVID-19?
+Answer: The claim does not differentiate between the effectiveness of cloth masks, surgical masks, and N95/KN95 respirators; it refers to 'masks' as a broad category without specifying types.
+
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7497125/
+
+### According to the cited evidence, what is the measured reduction (if any) in COVID-19 aerosol transmission risk when wearing a mask, and by what standard is this reduction deemed not "meaningful"?
+Answer: **CONFLICT.** The retrieved document, a cited systematic review of randomized controlled trials, indicates that wearing a facemask may reduce the odds of developing respiratory illness by around 6% (OR 0.94, 95% CI 0.75 to 1.19); however, this reduction is considered not meaningful because the confidence interval includes no effect (1.0), the evidence is of low certainty, and the authors concluded it was not sufficiently strong to support widespread use of facemasks as a protective measure against COVID-19. The review does not isolate data specifically on aerosol transmission risk. The reasoner working from memory alone, which is close to guessing on this point, reports it has no record of any such cited evidence and therefore cannot state the measured reduction or the standard by which it is deemed not meaningful.
+
+Source URL: https://www.medrxiv.org/content/10.1101/2020.04.01.20049528v1
+
+### Does the referenced evidence control for other variables like vaccination status, ventilation, and physical distancing when assessing the effectiveness of masks?
+Answer: **CONFLICT.** The retrieved document describes a 2008 laboratory experiment measuring mask filtration efficiency that controlled for covariates such as mask type and activity but did not mention vaccination status, ventilation, or physical distancing, and is not a real-world COVID-19 transmission study. The reasoner, working from memory alone and with very little confidence in its assessment, reports having no record of any specific evidence referenced in the claim.
+
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2440799/
+
+### How do the studies cited in the claim define and isolate "aerosol transmission" from other routes like large droplet or fomite transmission?
+Answer: **CONFLICT.** The retrieved document states that reviewed literature defines aerosol transmission by an aerodynamic diameter ≤5μm, distinguishing it from droplet (>5μm) and fomite transmission, with evidence levels ranging from detectability to confirmed transmission events, and notes little evidence for actual aerosol transmission episodes, though this is from a rapid review and not the specific studies cited in the claim. The reasoner working from memory alone, which is not at all certain of its recall and is close to guessing, reports having no record of the specific studies cited in the claim and therefore cannot describe how they define or isolate aerosol transmission.
+
+Source URL: https://www.gov.scot/binaries/content/documents/govscot/publications/research-and-analysis/2020/06/covid-19-advisory-group-evidence-papers-april-2020/documents/rapid-review-on-face-masks-for-the-general-population-7-april-2020/rapid-review-on-face-masks-for-the-general-population-7-april-2020/govscot%3Adocument/Rapid%2Breview%2Bon%2Bface%2Bmasks%2Bfor%2Bthe%2Bgeneral%2Bpopulation%2B%25287%2BApril%2B2020%2529.pdf
+
+### Have major public health bodies (e.g., WHO, CDC) or scientific reviews (like Cochrane reviews) concluded that masks offer no meaningful protection against COVID-19 aerosol transmission, and how does their assessment align with the claim?
+Answer: Major public health bodies such as the WHO and CDC, as well as scientific reviews like Cochrane reviews, have not concluded that masks offer no meaningful protection against COVID-19 aerosol transmission; they instead recommend masks as an effective intervention to reduce transmission, including via aerosols, with scientists advocating for widespread mask use to combat airborne spread.
+
+Source URL: https://healthpolicy-watch.news/masks-are-necessary-to-reduce-asymptomatic-transmission-in-aerosols-and-droplets-say-health-experts/
+
+### Is the claim based on evidence from the early pandemic (2020) or does it include more recent studies on the Omicron variant and subvariants?
+Answer: The claim is based on evidence from the early pandemic (2020) and does not include studies on the Omicron variant or subvariants, as it predates their identification.
+
+Source URL: https://pubmed.ncbi.nlm.nih.gov/33087517/
+
+### Do the studies cited in the claim show a null effect for masks, or do they show a small effect that the claim's author interprets as not "meaningful"?
+Answer: **CONFLICT.** The retrieved documents state that the studies cited in the claim show a null effect for masks, with meta-analyses reporting no statistically significant reduction in illness (e.g., odds ratios with confidence intervals including 1.00). The reasoner, working from memory alone and having no record of these specific studies, is uncertain and cannot determine whether those studies showed a null effect or a small effect interpreted as not meaningful.
+
+Source URL: https://www.gov.scot/binaries/content/documents/govscot/publications/research-and-analysis/2020/06/covid-19-advisory-group-evidence-papers-april-2020/documents/rapid-review-on-face-masks-for-the-general-population-7-april-2020/rapid-review-on-face-masks-for-the-general-population-7-april-2020/govscot%3Adocument/Rapid%2Breview%2Bon%2Bface%2Bmasks%2Bfor%2Bthe%2Bgeneral%2Bpopulation%2B%25287%2BApril%2B2020%2529.pdf
+
+### What is the stated methodological quality or potential biases of the evidence cited to support the claim that masks are ineffective?
+Answer: The evidence cited to support the claim that masks are ineffective against aerosol transmission of COVID-19 has methodological weaknesses, including small sample sizes, unclear mask descriptions, potential confounding factors, and a lack of statistical analysis.
+
+Source URL: https://www.frontiersin.org/articles/10.3389/frma.2020.571886
+
+## Your Judgement
+```
+
+# Claim 17
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "All USA Ballots Arriving After Election Day Will Be Thrown Out"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is there a federal law in the United States that mandates the rejection of all ballots arriving after Election Day for any election held in the country?
+Answer: There is no federal law in the United States that mandates the rejection of all ballots arriving after Election Day; ballot receipt deadlines are set at the state or local level, with varying rules across different jurisdictions.
+
+Source URL: https://www.ocfelections.com/vote-by-mail
+
+### Do all 50 states and U.S. territories have identical laws requiring the immediate rejection of ballots received after Election Day, with no grace period?
+Answer: Not all 50 states and U.S. territories have identical laws regarding ballot receipt after Election Day; state laws vary, with some allowing grace periods for ballots postmarked by Election Day and others requiring immediate receipt.
+
+Source URL: https://www.cnn.com/interactive/2020/politics/mail-in-voting/
+
+### Is the claim about a specific rule change or announcement made by a U.S. government agency (e.g., the Department of Justice, the Election Assistance Commission)?
+Answer: The claim is not about a specific rule change or announcement made by a U.S. government agency, and there is no record of any such agency announcing that all ballots arriving after Election Day will be thrown out.
+
+Source URL: https://www.eac.gov/sites/default/files/eac_assets/1/6/2016_EAVS_Comprehensive_Report.pdf
+
+### According to current U.S. election law, can a state legally count a ballot that is postmarked by Election Day but arrives after Election Day?
+Answer: Yes, according to current U.S. election law, a state can legally count a ballot that is postmarked by Election Day but arrives after Election Day, as rules are state-specific and include provisions such as in North Carolina (nine days), Wisconsin (six days), Pennsylvania (three days), and Michigan (two weeks) after the election.
+
+Source URL: https://www.npr.org/2020/09/23/916012284/rule-changes-in-swing-states-mean-more-votes-will-count-results-may-take-longer
+
+### Has any court ruling at the federal or state level established a nationwide precedent that invalidates all post-Election Day ballot arrivals?
+Answer: No court ruling has established a nationwide precedent invalidating all post-Election Day ballot arrivals. U.S. election law is decentralized, with each state setting its own ballot receipt rules, and judicial decisions have addressed state-specific cases without creating a blanket national standard.
+
+Source URL: https://www.theguardian.com/us-news/2020/oct/28/pennsylvania-elections-ballot-extension-supreme-court
+
+### Does the claim accurately describe the universal standard for processing mail-in ballots in the United States, or does it overlook state-specific statutory deadlines?
+Answer: The claim does not accurately describe a universal standard; U.S. election laws are state-specific, and numerous states accept mail-in ballots received after Election Day as long as they are postmarked by Election Day, with grace periods varying from a few days to over a week.
+
+Source URL: https://www.npr.org/2020/09/14/909338758/map-mail-in-voting-rules-by-state
+
+### Is the claim based on a misinterpretation or misrepresentation of the "Election Day" deadline defined in federal statutes like the Help America Vote Act (HAVA)?
+Answer: The claim misrepresents federal law; the Help America Vote Act (HAVA) does not define a specific 'Election Day' deadline that requires all ballots arriving after that day to be thrown out, and election administration, including ballot receipt deadlines, is primarily governed by state laws, which may allow for late arrivals under certain conditions.
+
+Source URL: https://www.sos.state.tx.us/elections/laws/advisory2018-02.shtml
+
+### Have any major U.S. election officials (e.g., Secretaries of State) publicly stated that the claim "All USA Ballots Arriving After Election Day Will Be Thrown Out" is a factual description of national policy?
+Answer: No major U.S. election officials have publicly stated that all ballots arriving after Election Day will be thrown out as a factual description of national policy.
+
+Source URL: https://chicagoelections.gov/voting/vote-mail
+
+### In the context of recent U.S. elections, have legal challenges to post-Election Day ballot receipt deadlines resulted in a uniform national rule of rejection?
+Answer: No, legal challenges to post-Election Day ballot receipt deadlines have not resulted in a uniform national rule of rejection; ballot receipt deadlines and their extensions remain determined on a state-by-state basis, with variations in acceptance criteria.
+
+Source URL: https://apnews.com/article/election-2020-samuel-alito-amy-coney-barrett-north-carolina-elections-4cb4c214446bcfadbd73dafca9353701
+
+### Does the claim account for provisions like the Uniformed and Overseas Citizens Absentee Voting Act (UOCAVA), which may have different ballot receipt rules for military and overseas voters?
+Answer: **CONFLICT.** The retrieved document states that it does not contain information to verify whether the claim accounts for UOCAVA provisions. The reasoner working from memory alone, which is uncertain and close to guessing, reports that the claim does not account for such provisions, as UOCAVA allows ballots from military and overseas voters to be accepted after Election Day under certain conditions, such as if they are postmarked by Election Day.
+
+Source URL: https://www.fvap.gov/eo/overview/sending-ballots
+
+## Your Judgement
+```
+
+# Claim 19
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Video shows attack of French embassy in Sudan"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did a verified physical attack or violent assault occur at the French embassy in Sudan?
+Answer: No verified attack occurred at the French embassy in Sudan; the viral video actually shows a 2012 protest at the German embassy in Khartoum.
+
+Source URL: https://www.boomlive.in/fake-news/2012-embassy-attacks-in-sudan-falsely-shared-as-attack-on-french-embassy-10392
+
+### What was the date and specific location (city/address) of the French embassy in Sudan where the alleged attack occurred?
+Answer: **CONFLICT.** The retrieved document states that the alleged attack on the French embassy in Sudan never occurred; the viral video from September 14, 2012, shows protesters storming the German embassy in Khartoum, not the French embassy. The reasoner working from memory alone reports no knowledge of an attack on the French embassy in October 2020 and is highly confident that no such event is recorded in its memory.
+
+Source URL: https://www.boomlive.in/fake-news/2012-embassy-attacks-in-sudan-falsely-shared-as-attack-on-french-embassy-10392
+
+### Is there official confirmation from French or Sudanese authorities regarding an attack on the French embassy in Sudan?
+Answer: There is no official confirmation from French or Sudanese authorities regarding an attack on the French embassy in Sudan.
+
+Source URL: https://www.boomlive.in/fake-news/2012-embassy-attacks-in-sudan-falsely-shared-as-attack-on-french-embassy-10392
+
+### Has a video depicting an attack on the French embassy in Sudan been widely published by credible news organizations?
+Answer: **CONFLICT.** The retrieved document states that the video circulating as an attack on the French embassy in Sudan is actually footage from 2012 showing protestors storming the German embassy in Khartoum, and credible news organizations reported on the original incident as an attack on the German embassy. The reasoner, which has no record of any video depicting an attack on the French embassy in Sudan being widely published by credible news organizations and is fairly certain of this assessment, reports that it has no knowledge of such publication.
+
+Source URL: https://www.boomlive.in/fake-news/2012-embassy-attacks-in-sudan-falsely-shared-as-attack-on-french-embassy-10392
+
+### Can the video's authenticity be verified by forensic video analysis or metadata examination to confirm it is not fabricated or altered?
+Answer: **CONFLICT.** The retrieved document states that the video's authenticity as depicting an attack on the French embassy in Sudan cannot be verified because it is an old, misattributed video from 2012 that actually shows the German embassy in Khartoum, Sudan, being set on fire during protests. The reasoner working from memory alone reports having no record of a video showing an attack on the French embassy in Sudan, and is close to guessing about its verification or authenticity.
+
+Source URL: https://factly.in/old-video-is-being-passed-off-as-french-embassy-set-on-fire-in-the-wake-of-the-latest-protests-against-emmanuel-macron/
+
+### Does the video conclusively show recognizable landmarks, signage, or security features that identify the location as the French embassy in Sudan?
+Answer: **CONFLICT.** The retrieved document states that the video conclusively shows the German embassy in Khartoum, Sudan, not the French embassy. The reasoner working from memory alone reports no specific knowledge about the video's contents and cannot assess if it shows the French embassy, though it recalls protests and attacks on the French embassy around that date; it is close to guessing in this assessment due to low confidence.
+
+Source URL: https://factly.in/old-video-is-being-passed-off-as-french-embassy-set-on-fire-in-the-wake-of-the-latest-protests-against-emmanuel-macron/
+
+### Is the video's content consistent with reporting from credible journalists or eyewitnesses on the ground at the time of the alleged attack?
+Answer: **CONFLICT.** The retrieved document states that the video is from 2012 and shows an attack on the German embassy in Khartoum, Sudan, and is not consistent with reporting on a French embassy attack, as corroborated by BOOM, Der Tagesspiegel, and CNN. The reasoner, which has no knowledge of any credible reporting on an attack on the French embassy in Sudan in October 2020 and is uncertain in this assessment, reports that it cannot confirm if the video's content is consistent with such reporting, though it recalls general attacks on embassies in Khartoum during that period.
+
+Source URL: https://www.boomlive.in/fake-news/2012-embassy-attacks-in-sudan-falsely-shared-as-attack-on-french-embassy-10392
+
+### Are there any independent reports that the video in circulation is from a different event, a protest, a drill, or a location other than the French embassy in Sudan?
+Answer: **CONFLICT.** The retrieved document states, based on a fact-check by Factly, that the video in circulation is actually of protesters setting fire to the German embassy in Khartoum, Sudan in 2012, and not of an attack on the French embassy. The reasoner working from memory alone, which has no specific recollection of independent reports analyzing this video and is not confident in its own assessment, reports that it cannot point to any such reports and only recalls that in late October 2020, there were protests near the French embassy in Khartoum involving a fire at a nearby restaurant, with videos sometimes misattributed.
+
+Source URL: https://factly.in/old-video-is-being-passed-off-as-french-embassy-set-on-fire-in-the-wake-of-the-latest-protests-against-emmanuel-macron/
+
+### What is the original source (e.g., specific news agency, official social media account) of the video in question?
+Answer: **CONFLICT.** The retrieved document states that the Factly.in article does not identify a specific original source for the video, but reverse image search led to a 2012 news article and another news video, both unnamed, confirming the footage is from 2012 protests in Sudan. The reasoner, with low confidence as it is close to guessing, reports having no record of any video showing an attack on the French embassy in Sudan and thus cannot identify its original source.
+
+Source URL: https://factly.in/old-video-is-being-passed-off-as-french-embassy-set-on-fire-in-the-wake-of-the-latest-protests-against-emmanuel-macron/
+
+## Your Judgement
+```
+
+# Claim 20
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Viral video purportedly shows Pakistani opposition MPs chanted ‘Modi, Modi’ (India's PM)  inside the Pakistani Parliament"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Does an authentic, unedited video exist showing individuals chanting "Modi, Modi" inside the chamber of Pakistan's National Assembly or Senate?
+Answer: No authentic, unedited video exists showing individuals chanting 'Modi, Modi' inside Pakistan's National Assembly or Senate chamber; the viral claim is false, as fact-checkers have debunked it by demonstrating that the original audio was edited or misrepresented.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### On what specific date was the video purported to have been recorded within the Pakistani Parliament?
+Answer: **CONFLICT.** The retrieved document states that the video was purported to show events inside the Pakistani Parliament on October 26, as the original footage was from a National Assembly debate on that date. The reasoner, working from memory alone and with low confidence, reports having no record of any such video or the specific date.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### Can the individuals chanting in the video be identified as members of political parties considered to be in the opposition within Pakistan's Parliament?
+Answer: The individuals chanting in the video are identified as members of Pakistan's political opposition parties within the Parliament.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### Was the chanting of "Modi, Modi" a direct reference to Narendra Modi, the Prime Minister of India, as claimed?
+Answer: **CONFLICT.** The retrieved documents state that the chanting was actually 'voting voting' misreported by media, not a direct reference to Narendra Modi, and a subsequent chant was critical of him. The reasoner, working from memory alone, reports that it has no recall of the event but infers that such chanting would most likely be a direct reference to Narendra Modi, and is fairly certain of this inference.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### What was the parliamentary agenda or topic of debate at the moment the chanting occurred?
+Answer: **CONFLICT.** The retrieved documents state that the parliamentary agenda at the time of the alleged chanting was a debate on passing a resolution against blasphemy. The reasoner, working from memory alone and with low confidence in its assessment, reports that it has no record of the specific parliamentary agenda or topic of debate at that moment and cannot verify whether the event occurred as described.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### Has the Speaker or Secretariat of the Pakistani Parliament issued any statement regarding this incident?
+Answer: No official statement was issued by the Speaker or Secretariat of the Pakistani Parliament regarding the purported incident.
+
+Source URL: https://facthunt.in/posts/1484/Truth-behind-the-viral-picture-showing-French-Teacher-who-was-beheaded-for
+
+### Did reputable news outlets in Pakistan or India report on this specific incident when it allegedly occurred?
+Answer: **CONFLICT.** The retrieved document states that Indian news outlets, including India TV on October 28, 2020, and others like TV9 Bharatvarsh, Times Now, and OpIndia, reported on the viral video claiming Pakistani opposition MPs chanted 'Modi Modi,' though these reports were later debunked as false by Alt News. The reasoner, working from memory alone and having no record of any such reporting by reputable Pakistani or Indian outlets—with low confidence close to guessing—reports that it has no specific recollection of this incident being covered as real.
+
+Source URL: https://www.altnews.in/were-modi-modi-slogans-raised-in-pakistan-parliament-india-tv-tv9-bharatvarsh-misreport/
+
+### Is there evidence that the video was edited, dubbed, or taken out of a different context to misrepresent the event?
+Answer: Yes, there is evidence that the video was misrepresented to create a false impression; the Pakistani MPs were actually chanting about internal political matters, such as 'voting-voting' or slogans against the government, not 'Modi, Modi'.
+
+Source URL: https://facthunt.in/posts/1484/Truth-behind-the-viral-picture-showing-French-Teacher-who-was-beheaded-for
+
+## Your Judgement
+```
+
+# Claim 21
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Taylor Zundel claimed on Instagram that she and other early voters in Utah, were unable to cast ballots in the 2020 presidential elections, as they were told they had already voted."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Did a person named Taylor Zundel publish a post on the Instagram platform claiming she and other early voters in Utah were unable to vote in the 2020 presidential election because they were told they had already voted?
+Answer: **CONFLICT.** The retrieved document states that Taylor Zundel published a post on Instagram claiming she and other early voters in Utah were unable to vote in the 2020 presidential election because they were told they had already voted. The reasoner working from memory alone, with little certainty, reports that it has no knowledge of any such post.
+
+Source URL: https://web.archive.org/web/20201119224000/https://hermancain.com/instagram-testimony-people-showing-vote-told-already-voted/
+
+### 5. Can official Utah voter registration or election administration system logs for the 2020 election confirm whether Taylor Zundel's ballot was recorded as having been cast prior to her stated attempt to vote early?
+Answer: Based on available sources and general knowledge, there is no specific information to confirm whether Taylor Zundel's ballot was recorded as having been cast prior to her early voting attempt in the 2020 Utah election; while Utah's election administration systems maintain logs that could theoretically provide such confirmation, no specific records for this case are documented.
+
+Source URL: none -- retrieval returned no document
+
+### 7. Did Taylor Zundel have an active and valid voter registration in the state of Utah for the 2020 presidential election at the time of her claimed early voting attempt?
+Answer: The document-store fact-checker's request was rejected as high risk and provided no information on whether Taylor Zundel had an active and valid voter registration in Utah for the 2020 presidential election. The internal-knowledge reasoner, working from memory alone and at low confidence, reports having no record of a person named Taylor Zundel, any Instagram post she made about voting in Utah in 2020, or her voter registration status for that election, and therefore cannot verify whether she had an active and valid voter registration at the time of the claimed early voting attempt.
+
+Source URL: https://web.archive.org/web/20201119224000/https://hermancain.com/instagram-testimony-people-showing-vote-told-already-voted/
+
+## Your Judgement
+```
+
+# Claim 22
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Trash Can Plastered With 'Ballot Box' Sign In Philadelphia Was Intended To Get People To Toss Their Ballots In The Trash."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was a trash can in Philadelphia visibly marked or labeled with a sign that read "Ballot Box"?
+Answer: A trash can in Philadelphia was visibly marked with a sign that read 'Ballot Box.'
+
+Source URL: https://www.inquirer.com/politics/election/election-2020-ballot-box-trash-can-ad-philadelphia-union-league-foundation-20201023.html
+
+### During what specific date or time period did the incident involving the "Ballot Box" labeled trash can occur in Philadelphia?
+Answer: The incident involving the 'Ballot Box'-labeled trash can in Philadelphia occurred on a Friday in late October 2020, during the early voting period before the presidential election.
+
+Source URL: https://www.inquirer.com/politics/election/election-2020-ballot-box-trash-can-ad-philadelphia-union-league-foundation-20201023.html
+
+### In what specific neighborhood or near what specific address in Philadelphia was the labeled trash can located?
+Answer: **CONFLICT.** The retrieved document states that the labeled trash cans were located at Broad and Sansom Streets and 15th and Sansom Streets in Philadelphia; the reasoner, which has no knowledge of such a trash can at any specific neighborhood or address and is close to guessing in this assessment, reports that it cannot provide the requested location.
+
+Source URL: https://www.inquirer.com/politics/election/election-2020-ballot-box-trash-can-ad-philadelphia-union-league-foundation-20201023.html
+
+### Has any individual or group publicly claimed responsibility for placing a "Ballot Box" sign on a trash can in Philadelphia?
+Answer: **CONFLICT.** The retrieved documents state that the Union League Legacy Foundation publicly claimed responsibility for the 'Ballot Box' signage on trash cans, describing it as an unintentional advertising mistake and issuing a formal apology. Conversely, the reasoner working from memory alone, with little confidence in its recollection, reports having no knowledge of any individual or group claiming responsibility for the sign, nor of the incident itself occurring.
+
+Source URL: https://www.inquirer.com/politics/election/election-2020-ballot-box-trash-can-ad-philadelphia-union-league-foundation-20201023.html
+
+### Is there any documented evidence, such as a photograph, video, or official report, confirming the existence of a trash can with a "Ballot Box" sign in Philadelphia?
+Answer: **CONFLICT.** The retrieved document states that there is documented evidence from The Philadelphia Inquirer describing trash cans adorned with 'BALLLOT BOX' signs at Broad and Sansom Streets and 15th and Sansom Streets in Philadelphia, and citing official responses including a complaint to the District Attorney’s Election Task Force and the deployment of sanitation workers to sort trash for misplaced ballots. The reasoner working from memory alone, close to guessing on this assessment, reports that it has no record of any documented evidence confirming the existence of such trash cans.
+
+Source URL: https://www.inquirer.com/politics/election/election-2020-ballot-box-trash-can-ad-philadelphia-union-league-foundation-20201023.html
+
+### What were the findings or conclusions of any official investigation into the Philadelphia "Ballot Box" trash can incident?
+Answer: **CONFLICT.** The retrieved document states that an official investigation found the discarded ballots were the result of an administrative error by a temporary contractor, while the reasoner working from memory alone, with little confidence, reports that it has no record of any official investigation into the Philadelphia 'Ballot Box' trash can incident.
+
+Source URL: https://abcnews.go.com/Politics/temporary-contractor-threw-trump-mail-ballots-trash-pennsylvania/story?id=73251533
+
+### Is there any verified report or evidence that at least one official election ballot was recovered from a trash can labeled "Ballot Box" in Philadelphia?
+Answer: There is no verified report or evidence that any official election ballot was recovered from a trash can labeled 'Ballot Box' in Philadelphia; authorities and fact-checkers have confirmed that no such ballots were compromised.
+
+Source URL: none -- retrieval returned no document
+
+### Did any statements from Philadelphia election authorities confirm the claim that the labeled trash can was intended to trick voters into discarding their ballots?
+Answer: Philadelphia election authorities did not confirm that the labeled trash can was intended to trick voters into discarding their ballots; instead, they stated it was not intended to mislead voters and directed the immediate removal of the advertisements to avoid any possible confusion with actual ballot boxes, while also warning voters about misleading setups in general.
+
+Source URL: https://www.inquirer.com/politics/election/election-2020-ballot-box-trash-can-ad-philadelphia-union-league-foundation-20201023.html
+
+## Your Judgement
+```
+
+# Claim 23
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Joe Biden wants to ban fracking"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Has President Joe Biden ever explicitly stated, in any official capacity, that he desires to ban hydraulic fracturing (fracking) throughout the entire United States?
+Answer: President Joe Biden has not explicitly stated, in any official capacity, that he desires to ban hydraulic fracturing throughout the entire United States; he has clarified that he does not support a nationwide ban and has advocated for a gradual transition from fossil fuels without a complete ban on fracking.
+
+Source URL: https://energynow.com/2020/09/the-biden-flip-flop-u-s-presidential-hopeful-biden-now-says-he-would-not-ban-fracking/
+
+### During the 2020 presidential campaign, what was the official position of Joe Biden's platform regarding the future of fracking on federal and private lands?
+Answer: During the 2020 presidential campaign, Joe Biden's platform stated that he would not ban fracking but would prohibit new oil and gas leasing on federal lands, with no ban on fracking on private lands.
+
+Source URL: https://www.uagetinvolved.org/content/joe-biden-i-am-not-banning-fracking
+
+### Has the Biden administration taken any executive or legislative action aimed at implementing a nationwide ban on all fracking?
+Answer: The Biden administration has not taken any executive or legislative action aimed at implementing a nationwide ban on all fracking; President Biden has consistently stated his opposition to a full ban.
+
+Source URL: https://www.uagetinvolved.org/content/joe-biden-i-am-not-banning-fracking
+
+### What specific policies related to oil and gas leasing on federal lands has the Biden administration enacted, and do they constitute a ban on fracking?
+Answer: The Biden administration enacted a moratorium on new oil and gas leasing and fracking on federal lands and offshore waters, but this policy did not constitute a ban on all fracking; fracking continued on private lands and existing federal leases, and it was not a comprehensive nationwide ban.
+
+Source URL: https://www.foxbusiness.com/markets/biden-federal-fracking-ban
+
+### Has President Biden, since taking office, publicly reaffirmed or changed his stated position on a complete fracking ban from his 2020 campaign?
+Answer: **CONFLICT.** The retrieved documents state that they do not provide information about President Biden's public statements or actions regarding fracking after taking office. The reasoner, which has no record of any such position and is certain of this, reports that Biden did not have a stated position supporting a complete fracking ban during his 2020 campaign, so there is nothing to reaffirm or change since taking office.
+
+Source URL: https://energynow.com/2020/09/the-biden-flip-flop-u-s-presidential-hopeful-biden-now-says-he-would-not-ban-fracking/
+
+### What were the specific words used by Joe Biden in the 2020 presidential debates regarding his stance on banning fracking?
+Answer: **CONFLICT.** The retrieved documents do not contain direct excerpts from the 2020 presidential debates, but they include a quote from an August 2020 speech where Biden stated, 'I am not banning fracking. Let me say that again: I am not banning fracking.' The reasoner, working from memory and very confident in its recall, reports that in the 2020 presidential debates, Biden said, 'I have never said I oppose fracking. I said no new fracking on federal lands,' and emphasized that he does not support a complete ban on fracking but aims to transition away from fossil fuels over time.
+
+Source URL: https://www.cnn.com/2020/08/31/politics/joe-biden-not-banning-fracking/index.html
+
+### Have any official White House statements or presidential proclamations articulated a goal to eliminate fracking as a national energy source?
+Answer: No official White House statements or presidential proclamations have articulated a goal to eliminate fracking as a national energy source; President Biden has clarified that he does not intend to ban fracking, with his position focused on federal lands and regulation rather than national elimination.
+
+Source URL: https://thebulletin.org/2020/10/about-last-nights-fracking-comments-in-the-debate/
+
+### Is there a difference between Joe Biden's policy on banning new fracking leases on federal land and his policy on a complete ban of the fracking industry nationwide?
+Answer: Joe Biden's energy policy includes ending new oil and gas drilling leases on federal lands, but he has explicitly stated he would not ban fracking nationwide.
+
+Source URL: https://energynow.com/2020/09/the-biden-flip-flop-u-s-presidential-hopeful-biden-now-says-he-would-not-ban-fracking/
+
+### What actions, if any, has the Biden administration's Environmental Protection Agency (EPA) taken that are directly aimed at prohibiting fracking operations?
+Answer: The Biden administration's Environmental Protection Agency has not taken any actions directly aimed at prohibiting fracking operations.
+
+Source URL: https://energynow.com/2020/09/the-biden-flip-flop-u-s-presidential-hopeful-biden-now-says-he-would-not-ban-fracking/
+
+### How have energy policy experts or the U.S. Department of the Interior under President Biden defined his administration's regulatory objectives for the fossil fuel extraction method known as fracking?
+Answer: **CONFLICT.** The retrieved documents state that no document was found to answer the question about regulatory objectives for fracking under President Biden. The reasoner working from memory alone reports that it has no direct recollection of specific definitions from energy policy experts or the U.S. Department of the Interior but recalls that President Biden's administration consistently focused on restricting new oil and gas drilling, including fracking, on federal lands to combat climate change without endorsing a full ban, and from these adjacent facts infers that regulatory objectives likely aim to limit new fracking on federal lands and accelerate a transition to renewable energy; the reasoner is fairly confident in this inference.
+
+Source URL: none -- retrieval returned no document
+
+## Your Judgement
+```
+
+# Claim 24
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Germany’s Foreign Minister Heiko Maas said that Thailand’s King Maha Vajiralongkorn didn’t do anything illegal while at his German residence."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Did Heiko Maas, in his capacity as Germany's Foreign Minister, make a public statement in 2021 or earlier asserting that Thailand's King Maha Vajiralongkorn did not violate German law while residing at his Bavarian property?
+Answer: Heiko Maas did not assert that Thailand's King Maha Vajiralongkorn did not violate German law while at his Bavarian residence; instead, in October 2020, he warned that if any illegal actions were found, there would be immediate consequences.
+
+Source URL: https://www.japantimes.co.jp/news/2020/10/27/asia-pacific/germany-thailand-king/
+
+### 2. What was the exact date and occasion (e.g., press briefing, parliamentary question) on which Heiko Maas made this reported statement about the Thai King's conduct in Germany?
+Answer: **CONFLICT.** The retrieved document states that Heiko Maas was asked about the Thai King's conduct in Germany during a parliamentary question by Greens Member of Parliament Frithjof Schmidt, though the exact date is not specified. The reasoner working from memory alone, which has no trace of any such statement and is close to guessing on this point, reports that it has no knowledge of the statement.
+
+Source URL: https://www.bild.de/bild-plus/unterhaltung/royals/royals/rama-x-now-the-thai-king-is-an-issue-for-german-politics-73344972.bild.html
+
+### 4. Was Heiko Maas's statement a direct response to specific allegations or investigations into the Thai King's activities at his German residence, and if so, what were those specific allegations?
+Answer: Heiko Maas's statement was a direct response to allegations or concerns about King Vajiralongkorn's activities at his German residence.
+
+Source URL: https://www.bild.de/bild-plus/unterhaltung/royals/royals/rama-x-now-the-thai-king-is-an-issue-for-german-politics-73344972.bild.html
+
+### 5. Did German federal or state prosecutors (Bavarian authorities) formally conclude that King Maha Vajiralongkorn had not committed any violations of German law at his German residence prior to or during the time of Maas's statement?
+Answer: There is no record of German federal or state prosecutors formally concluding that King Maha Vajiralongkorn had not committed any violations of German law at his German residence prior to or during the time of Foreign Minister Heiko Maas's statement; the available information pertains only to Maas's political statements regarding the king's activities.
+
+Source URL: https://voi.id/en/news/16282
+
+### 6. Which specific German laws or legal provisions were cited or examined in determining that the Thai King's actions at his residence were not illegal?
+Answer: **CONFLICT.** The document-store fact-checker states that German courts primarily examined Section 20 of the German Law on the Constitution of the Courts (GVG) and customary international law principles—as applied in cases like Tabatabai and the Vietnamese National case—to determine that the Thai King's actions at his German residence were not illegal. The internal-knowledge reasoner, which has no trace of any specific German laws or legal provisions being cited or examined in this context and is not confident in this recollection, reports that it has no knowledge of such provisions.
+
+Source URL: https://www.mpil.de/files/pdf4/mpunyb_02_Wood_16.pdf
+
+### 7. Have German government officials or legal experts, other than Heiko Maas, confirmed the assessment that the Thai King's activities at his German residence complied with German law?
+Answer: No, there is no confirmation from other German government officials or legal experts that the Thai king's activities at his German residence complied with German law.
+
+Source URL: https://www.scmp.com/week-asia/people/article/3106641/germany-about-lose-patience-thai-king-maha-vajiralongkorn
+
+### 8. Was the German government's stated position that the Thai King's conduct in Germany was legal contradicted or challenged by any official judicial ruling, parliamentary inquiry, or investigative report at the time?
+Answer: The German government's stated position was not formally contradicted by any official judicial ruling, parliamentary inquiry, or investigative report, though it faced political challenges and discussions in parliament from Green party politicians.
+
+Source URL: https://www.irishtimes.com/news/world/europe/thai-king-s-sojourn-in-bavaria-causes-diplomatic-headache-1.4378494
+
+### 9. Did Thailand's royal palace or the Thai government issue any statement acknowledging or confirming the German Foreign Minister's assessment regarding the King's conduct in Germany?
+Answer: Neither the Thai royal palace nor the Thai government issued any statement acknowledging or confirming the German Foreign Minister's assessment regarding King Maha Vajiralongkorn's conduct in Germany.
+
+Source URL: https://voi.id/en/news/16282
+
+### 10. Were there any documented reports from German law enforcement (e.g., Federal Police, Bavarian police) indicating they had investigated or monitored the Thai King's activities at his residence around the time of the statement, and what were their findings?
+Answer: There are no documented reports from German law enforcement agencies such as the Federal Police or Bavarian police indicating they investigated or monitored King Maha Vajiralongkorn's activities at his residence around the time of the statement.
+
+Source URL: https://www.thestar.com.my/aseanplus/aseanplus-news/2020/10/26/german-government-warns-thai-king-not-to-conduct-politics-from-germany
+
+## Your Judgement
+```
+
+# Claim 25
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "McDonald’s Azerbaijan's official account was promoting the military taking of Nagorno-Karabakh."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is there a verified, official social media account for McDonald's Azerbaijan?
+Answer: **CONFLICT.** The retrieved document states that there is a verified official Instagram account for McDonald's Azerbaijan with 107k followers. The reasoner, which has no record of any verified official social media account for McDonald's Azerbaijan and is close to guessing on this assessment, reports that it has no knowledge of such an account.
+
+Source URL: https://www.dailystar.co.uk/news/world-news/mcdonalds-azerbaijan-promotes-war-armenia-22913718
+
+### On what specific date was the alleged promotional content posted?
+Answer: **CONFLICT.** The retrieved document states that the search result does not contain any specific date for the alleged promotional content. The reasoner, which has no record of any promotional content from McDonald's Azerbaijan promoting the military taking of Nagorno-Karabakh and is uncertain about this assessment, reports that no specific date for such a post appears in its knowledge.
+
+Source URL: https://ancawr.org/press-release/armenian-community-calls-on-mcdonalds-to-denounce-support-of-azeri-aggression-commit-to-peace/
+
+### What is the exact text, imagery, or video content of the promotional post?
+Answer: **CONFLICT.** The retrieved documents state that promotional posts by McDonald's Azerbaijan existed but were deleted, with articles describing their nature without quoting the exact text, imagery, or video content. The reasoner working from memory alone, not confident in this assessment, reports no record of any specific promotional post concerning the military taking of Nagorno-Karabakh and therefore cannot describe its content.
+
+Source URL: https://www.ctvnews.ca/world/azerbaijan-mcdonald-s-burger-king-tweet-support-for-military-action-in-nagorno-karabakh-1.5163620?cache=yes%3Fot%3DAjaxLayout%3FautoPlay%3Dtrue%3FclipId%3D104056
+
+### Can the promotional post be directly linked to the official McDonald's Azerbaijan account through an archived source?
+Answer: **CONFLICT.** The retrieved document states that promotional posts were made by McDonald's Azerbaijan and later removed, but it does not provide an archived source directly linking a specific post to the official account. The reasoner working from memory alone reports that it has no record of any such promotional post and, given its very low confidence in this assessment, is uncertain whether such a post exists or can be linked.
+
+Source URL: https://www.ctvnews.ca/world/azerbaijan-mcdonald-s-burger-king-tweet-support-for-military-action-in-nagorno-karabakh-1.5163620?cache=yes%3Fot%3DAjaxLayout%3FautoPlay%3Dtrue%3FclipId%3D104056
+
+### Does the content explicitly advocate for or celebrate military action in Nagorno-Karabakh?
+Answer: McDonald's Azerbaijan's official social media accounts posted messages advocating for or celebrating military action in Nagorno-Karabakh.
+
+Source URL: https://www.ctvnews.ca/world/azerbaijan-mcdonald-s-burger-king-tweet-support-for-military-action-in-nagorno-karabakh-1.5163620?cache=yes%3Fot%3DAjaxLayout%3FautoPlay%3Dtrue%3FclipId%3D104056
+
+### Does the post specifically reference the "taking" or "liberation" of Nagorno-Karabakh?
+Answer: The post does not specifically reference the 'taking' or 'liberation' of Nagorno-Karabakh; it is characterized as expressing support for Azerbaijan forces and military action in Nagorno-Karabakh, but no specific use of those words is confirmed.
+
+Source URL: https://www.ctvnews.ca/world/azerbaijan-mcdonald-s-burger-king-tweet-support-for-military-action-in-nagorno-karabakh-1.5163620?cache=yes%3Fot%3DAjaxLayout%3FautoPlay%3Dtrue%3FclipId%3D104056
+
+### What is the historical context of the post—did it coincide with a specific military campaign in Nagorno-Karabakh?
+Answer: **CONFLICT.** According to the retrieved document, McDonald's Azerbaijan's social media posts coincided with a major military escalation in Nagorno-Karabakh that began on September 27, 2020. The reasoner working from memory alone reports that it has no knowledge of any post by McDonald's Azerbaijan promoting the military taking of Nagorno-Karabakh, and in this assessment, it is close to guessing.
+
+Source URL: https://www.ctvnews.ca/world/azerbaijan-mcdonald-s-burger-king-tweet-support-for-military-action-in-nagorno-karabakh-1.5163620?cache=yes%3Fot%3DAjaxLayout%3FautoPlay%3Dtrue%3FclipId%3D104056
+
+### Has McDonald's Corporation or its local franchisee in Azerbaijan issued a statement confirming, denying, or addressing the post?
+Answer: **CONFLICT.** The retrieved document states that a McDonald's Corporation spokesperson confirmed the removal of the social media content by its franchisee in Azerbaijan, thereby addressing the post. The reasoner working from memory alone reports having no record of any statement from McDonald's Corporation or its local franchisee confirming, denying, or addressing the post, and is not very confident in this assessment, indicating it is close to guessing.
+
+Source URL: https://www.ctvnews.ca/world/azerbaijan-mcdonald-s-burger-king-tweet-support-for-military-action-in-nagorno-karabakh-1.5163620?cache=yes%3Fot%3DAjaxLayout%3FautoPlay%3Dtrue%3FclipId%3D104056
+
+### Was the post removed, and if so, has an explanation for its removal been provided?
+Answer: **CONFLICT.** The retrieved document states that the posts were deleted and quotes a McDonald's Corporation spokesperson confirming that the franchisee in Azerbaijan removed the social media content. The reasoner, which has moderate confidence it would recall such a removal, reports having no record of the post being removed or any explanation for its removal, though it infers from the controversy that the post was likely taken down.
+
+Source URL: https://www.ctvnews.ca/world/azerbaijan-mcdonald-s-burger-king-tweet-support-for-military-action-in-nagorno-karabakh-1.5163620?cache=yes%3Fot%3DAjaxLayout%3FautoPlay%3Dtrue%3FclipId%3D104056
+
+### Is the account operated directly by McDonald's corporate headquarters or by a local licensee?
+Answer: The account is operated by a local licensee, not directly by McDonald's corporate headquarters.
+
+Source URL: https://www.ctvnews.ca/world/azerbaijan-mcdonald-s-burger-king-tweet-support-for-military-action-in-nagorno-karabakh-1.5163620?cache=yes%3Fot%3DAjaxLayout%3FautoPlay%3Dtrue%3FclipId%3D104056
+
+## Your Judgement
+```
+
+# Claim 27
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Sleeping under a mosquito bed net treated (or not treated) with insecticide is ineffective and harmful to human health."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### According to global health organizations like the World Health Organization (WHO) or the Centers for Disease Control and Prevention (CDC), are insecticide-treated bed nets (ITNs) recommended as an effective method for preventing malaria and other mosquito-borne diseases?
+Answer: Insecticide-treated bed nets are recommended as an effective method for preventing malaria and other mosquito-borne diseases.
+
+Source URL: https://pubmed.ncbi.nlm.nih.gov/15134129/
+
+### What is the consensus from systematic reviews or meta-analyses in the medical literature on whether sleeping under insecticide-treated bed nets reduces the incidence of malaria compared to using no net?
+Answer: The consensus from systematic reviews and meta-analyses is that sleeping under insecticide-treated bed nets significantly reduces the incidence of malaria compared to using no net.
+
+Source URL: https://www.mdpi.com/1660-4601/15/3/546
+
+### What is the consensus from systematic reviews or meta-analyses in the medical literature on whether sleeping under untreated bed nets reduces the incidence of mosquito bites compared to using no net?
+Answer: **CONFLICT.** The retrieved document states that a clinical trial found sleeping under an untreated bed net reduces the incidence of mosquito bites and malaria compared to using no net, suggesting effectiveness. The reasoner working from memory alone, which is fairly certain of its assessment, reports no record of any systematic reviews or meta-analyses that address the consensus on this matter.
+
+Source URL: https://pubmed.ncbi.nlm.nih.gov/8594665/
+
+### What specific, evidence-based health risks to humans have been associated with the long-term use of insecticide-treated bed nets (e.g., risks from chemical exposure through skin contact or inhalation)?
+Answer: There is no documented evidence of specific, evidence-based health risks to humans from the long-term use of insecticide-treated bed nets; the insecticides used, such as pyrethroids and pyrroles, are considered to pose very low health risks, and such nets are recommended by major health organizations as safe for malaria prevention.
+
+Source URL: https://www.cdc.gov/malaria/malaria_worldwide/reduction/itn.html
+
+### What specific, evidence-based health risks to humans have been associated with the use of untreated bed nets (e.g., risks from entanglement, restricted airflow, or material irritants)?
+Answer: No evidence or public health literature documents specific, evidence-based health risks to humans from the use of untreated bed nets; documented health concerns are associated with insecticide-treated nets and the chemicals applied to them.
+
+Source URL: none -- retrieval returned no document
+
+### Are there documented cases or studies showing that insecticide-treated bed nets have failed to reduce mosquito bite rates or disease transmission in specific large-scale public health programs?
+Answer: There are no documented cases or studies showing that insecticide-treated bed nets have failed to reduce mosquito bite rates or disease transmission in specific large-scale public health programs.
+
+Source URL: https://malariajournal.biomedcentral.com/articles/10.1186/s12936-017-1767-2
+
+### Do public health studies indicate that the protection offered by bed nets (treated or untreated) is significantly undermined by factors such as improper use, holes in the net, or mosquitoes developing resistance to the insecticide?
+Answer: Public health studies indicate that factors like improper use, holes in the net, and mosquito resistance to insecticides can reduce the protective efficacy of bed nets, but bed nets—particularly insecticide-treated nets—are effective in preventing malaria when properly used and maintained and are not rendered ineffective or harmful to human health.
+
+Source URL: https://www.cdc.gov/malaria/malaria_worldwide/reduction/itn.html
+
+### Have medical or toxicology studies identified acute poisoning or severe adverse health events in humans directly caused by the normal use of insecticide-treated bed nets?
+Answer: There is no evidence that medical or toxicology studies have identified acute poisoning or severe adverse health events in humans directly caused by the normal use of insecticide-treated bed nets, and these nets are endorsed by health authorities for malaria prevention with safety reviews indicating minimal health risks.
+
+Source URL: https://www.cdc.gov/malaria/malaria_worldwide/reduction/itn.html
+
+### Compared to using no net, does scientific evidence suggest that sleeping under an untreated bed net poses any novel or increased risk to human health?
+Answer: Scientific evidence indicates that sleeping under an untreated bed net does not pose any novel or increased risk to human health compared to using no net, as such nets act as physical barriers without the insecticide-related health concerns associated with treated nets.
+
+Source URL: https://www.cdc.gov/malaria/malaria_worldwide/reduction/itn.html
+
+### What are the primary mechanisms by which both treated and untreated bed nets might fail to prevent mosquito bites (e.g., mosquito behavior, net design, human compliance)?
+Answer: **CONFLICT.** The retrieved document states that primary mechanisms for bed net failure include insecticide resistance in mosquitoes undermining effectiveness, lack of proper insecticide retreatment or long-lasting formulations for untreated or older nets, low community usage reducing community-wide protection, and improper use or poor physical condition of nets. The reasoner working from memory alone reports, with high certainty, that mechanisms include mosquito behavior such as biting through damaged nets or entering when nets are not properly secured, net design flaws like inadequate mesh size or poor durability, human compliance issues including inconsistent use and failure to maintain nets, and for treated nets, insecticide resistance in mosquito populations.
+
+Source URL: https://www.cdc.gov/malaria/malaria_worldwide/reduction/itn.html
+
+## Your Judgement
+```
+
+# Claim 28
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Pogba Has Quit The French National Team Over Macron's Remarks on Islam."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Paul Pogba officially and publicly announce his retirement from the French national football team?
+Answer: Paul Pogba did not officially and publicly announce his retirement from the French national football team; he dismissed such claims as 'unacceptable fake news' on Instagram.
+
+Source URL: https://onefootball.com/en/news/man-uniteds-paul-pogba-slams-fake-news-claims-that-hes-retiring-from-france-duty-31541245
+
+### In any official statement or interview, did Paul Pogba cite remarks made by French President Emmanuel Macron as the reason for leaving the national team?
+Answer: **CONFLICT.** The retrieved document states that according to a Middle Eastern news outlet, Paul Pogba's decision to quit the national team was influenced by Emmanuel Macron's comments, though this is not from an official statement by Pogba. The reasoner working from memory alone, which has no record of any official statement from Pogba and is certain that Pogba did not leave the team, reports that there was no such statement and that Pogba continued to represent France in subsequent competitions.
+
+Source URL: https://ojbsport.com/2020/10/25/paul-pogba-retires-from-international-football/
+
+### What specific remarks on Islam did French President Emmanuel Macron make that are being referenced in the claim?
+Answer: French President Emmanuel Macron made remarks describing Islam as 'a religion in crisis' worldwide during an October 2020 speech on combating Islamist separatism, unveiled plans to defend France's secular values against what he called 'radical Islam' and 'Islamist separatism,' and defended freedom of expression in the context of caricatures of Prophet Muhammad following the murder of teacher Samuel Paty.
+
+Source URL: https://www.dawn.com/news/1583290
+
+### When did President Macron make these specific remarks on Islam?
+Answer: President Macron made these specific remarks on Islam on October 2, 2020, during a speech on combating separatism and defending France's secular values.
+
+Source URL: https://www.dawn.com/news/1583290
+
+### When did Paul Pogba's purported retirement from the French national team occur or become reported?
+Answer: **CONFLICT.** The retrieved document states that a report of Paul Pogba's purported retirement from the French national team was published by Tasnim News on October 26, 2020, following President Macron's comments on October 23, 2020. The reasoner working from memory alone reports having no knowledge of any retirement announcement and, based on Pogba's continued play for France in subsequent years, is highly confident that such an announcement likely never occurred.
+
+Source URL: https://www.tasnimnews.com/en/news/2020/10/26/2376855/pogba-retires-from-france-over-president-macron-s-anti-islam-comments
+
+### Did the French Football Federation issue any statement regarding Paul Pogba's retirement from the national team?
+Answer: There is no record of the French Football Federation issuing any statement on Paul Pogba's retirement from the national team, and the reports of his retirement are false as he continued to play for France.
+
+Source URL: https://www.mirror.co.uk/sport/football/news/breaking-man-utd-star-paul-22904740
+
+### Did Paul Pogba's official representatives or agents release a statement confirming his retirement and its cause?
+Answer: Paul Pogba's official representatives or agents did not release a statement confirming his retirement and its cause; any reports are unverified, and he continued to play for the French national team after October 2020.
+
+Source URL: https://www.tasnimnews.com/en/news/2020/10/26/2376855/pogba-retires-from-france-over-president-macron-s-anti-islam-comments
+
+### Have any other reliable sources or teammates corroborated the claim that Pogba quit the team over Macron's remarks?
+Answer: **CONFLICT.** The retrieved document states that Paul Pogba himself denied quitting the French national team over President Macron's remarks on Islam, indicating no corroboration. The reasoner, working from memory alone, reports no recollection of any reliable sources or teammates corroborating the claim and confidently infers its falsehood based on Pogba's continued participation in matches after October 2020.
+
+Source URL: https://www.zeebiz.com/world/news-paul-pogba-reportedly-quits-playing-for-france-after-president-emmanuel-macrons-islam-mention-138073
+
+### Since the date of the claim, has Paul Pogba participated in any matches or training camps with the French national team?
+Answer: Paul Pogba has participated in matches with the French national team since the claim date, including a friendly match against Finland on November 11, 2020, and in the Euro 2020 tournament.
+
+Source URL: https://www.dailysabah.com/sports/football/pogba-denies-france-retirement-rumors-vows-legal-action
+
+### Are there any other significant factors or events that could explain Pogba's departure from the national team, unrelated to the cited remarks?
+Answer: **CONFLICT.** The retrieved document states that Pogba decided to quit the French national team in protest against Macron's remarks on Islam, with no other significant factors cited. The reasoner working from memory alone, which is confident in its assessment, reports that Pogba did not quit and continued to represent France after October 2020.
+
+Source URL: https://ilkha.com/english/world/pogba-quits-france-national-football-team-over-macron-s-remarks-on-islam-10442
+
+## Your Judgement
+```
+
+# Claim 29
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The Wire called Durga puja racist and the goddess Durga a sex worker"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did the Indian news publication known as The Wire ever publish an article, report, or social media post that explicitly referred to the Hindu festival Durga Puja as "racist"?
+Answer: No, the Indian news publication known as The Wire did not publish an article, report, or social media post that explicitly referred to Durga Puja as 'racist'; the claim misrepresents a 2016 article where The Wire was quoting then-Union Minister Smriti Irani, who herself was referencing a JNU pamphlet.
+
+Source URL: https://www.altnews.in/the-wire-did-not-disrespect-durga-excerpt-from-2016-article-misrepresented/
+
+### Did the Indian news publication known as The Wire ever publish an article, report, or social media post that explicitly referred to the Hindu goddess Durga as a "sex worker"?
+Answer: The Wire did not publish an article, report, or social media post that explicitly referred to the Hindu goddess Durga as a 'sex worker'; the claim arises from a cropped screenshot of a 2016 article where The Wire was reporting on a parliamentary speech, not endorsing the view.
+
+Source URL: https://thelogicalindian.com/app-lite/fact-check/wire-demeans-goddess-durga-24521?hasShare=1
+
+### If such content was published by The Wire, what was the exact title and publication date of the article or post?
+Answer: **CONFLICT.** The retrieved document states that The Wire published an article titled 'Mahishasura and Minister' in February 2016, but clarifies it was quoting Smriti Irani's speech in Parliament and not expressing The Wire's own views, with the editor calling the viral screenshot a fabricated misrepresentation. In contrast, the reasoner, working from memory alone and with low confidence in its assessment, reports no record of The Wire ever publishing content that called Durga puja racist or referred to the goddess Durga as a sex worker, and cannot provide a title or publication date because it has no knowledge of such content existing.
+
+Source URL: https://thelogicalindian.com/app-lite/fact-check/wire-demeans-goddess-durga-24521?hasShare=1
+
+### Who is the specific author of the content published by The Wire that made these statements about Durga Puja and Goddess Durga?
+Answer: The Wire did not publish content making those statements about Durga Puja and Goddess Durga; the article was reporting on statements made by Union Minister Smriti Irani in her Lok Sabha speech, so there is no specific author for such content by The Wire.
+
+Source URL: https://thewire.in/media/fact-check-viral-durga-puja-screenshot
+
+### In what medium (e.g., website article, YouTube video, podcast, social media post) did The Wire purportedly make these statements?
+Answer: **CONFLICT.** The retrieved document states that the purported statements were made in a website article, specifically a cropped screenshot of an article originally published on The Wire's website in February 2016 titled 'Mahishasura and Minister' that was shared on social media with false context. The reasoner working from memory alone reports that it has no specific recollection of The Wire publishing such content, but is fairly confident that if such statements were made, they would most likely be in a website article based on The Wire's standard operations.
+
+Source URL: https://thelogicalindian.com/app-lite/fact-check/wire-demeans-goddess-durga-24521?hasShare=1
+
+### What was the stated purpose or context of the content published by The Wire—was it presented as news, opinion, satire, or academic commentary?
+Answer: **CONFLICT.** The retrieved document states that The Wire's article was published as news reporting, detailing a speech in Parliament and quoting a pamphlet. The reasoner, working from memory alone and with no trace of this material, reports that it cannot confirm the existence of such content and considers the premise unverifiable.
+
+Source URL: https://thelogicalindian.com/app-lite/fact-check/wire-demeans-goddess-durga-24521?hasShare=1
+
+### Does the original content from The Wire use the exact phrasing "racist" to describe Durga Puja and "sex worker" to describe Goddess Durga, or does it use different but semantically similar language?
+Answer: No, the original content from The Wire does not use the phrases 'racist' or 'sex worker' in its own editorial voice. The viral screenshot shows a cropped image of The Wire reporting on a speech by then-Union Minister Smriti Irani, in which she quoted lines from a pamphlet alleged to be from JNU students where that language appeared.
+
+Source URL: https://thewire.in/media/fact-check-viral-durga-puja-screenshot
+
+### Has The Wire issued any corrections, clarifications, or retractions regarding content making these specific statements about Durga Puja and Goddess Durga?
+Answer: The Wire has not issued any corrections, clarifications, or retractions regarding content claiming that Durga Puja is racist or that the goddess Durga is a sex worker.
+
+Source URL: https://thewire.in/media/fact-check-viral-durga-puja-screenshot
+
+### Are there any credible reports from other established news organizations or fact-checking entities that have verified or debunked the claim that The Wire made these statements?
+Answer: **CONFLICT.** The retrieved document from Boom Live states that the claim was verified and debunked, confirming the viral screenshot was taken out of context and misrepresented The Wire's reporting. The reasoner, working from memory alone and having no record of any credible reports from other organizations that verify or debunk the claim, reports that it is unaware of any such reports, with low confidence in this assessment as it is close to guessing.
+
+Source URL: https://thewire.in/media/fact-check-viral-durga-puja-screenshot
+
+### Is there any evidence that the claim about The Wire's statements originates from a satirical or parody account that is not officially affiliated with The Wire's actual publication?
+Answer: **CONFLICT.** The retrieved documents indicate no evidence that the claim originates from a satirical or parody account, with the misrepresentation attributed to social media users misquoting a report from The Wire. The reasoner, which is fairly certain in its assessment, reports that fact-checkers have identified the source as a parody social media account mimicking The Wire, providing evidence of a parody origin.
+
+Source URL: https://www.altnews.in/the-wire-did-not-disrespect-durga-excerpt-from-2016-article-misrepresented/
+
+## Your Judgement
+```
+
+# Claim 30
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Paul Pogba, who plays for Manchester United and the French national team, retired from international football in response to French President Macron’s comments on Islamist terrorism."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Has Paul Pogba, at any point, officially announced his retirement from playing for the French national football team?
+Answer: Paul Pogba has not officially announced his retirement from the French national football team; claims of his retirement are unverified and refer to reports rather than a formal statement, and his continued participation in international football, such as the 2022 World Cup, suggests no official announcement was made.
+
+Source URL: https://www.tasnimnews.com/en/news/2020/10/26/2376855/pogba-retires-from-france-over-president-macron-s-anti-islam-comments
+
+### If Paul Pogba did announce a retirement from the French national team, on what date did he make this announcement?
+Answer: Paul Pogba did not announce a retirement from the French national team, and he continued to represent France in major tournaments after 2020.
+
+Source URL: https://www.caughtoffside.com/2020/10/26/man-uniteds-paul-pogba-slams-fake-news-claims-that-hes-retiring-from-france-duty/
+
+### What were the specific statements or comments made by French President Emmanuel Macron regarding Islamist terrorism that are referenced in the claim?
+Answer: The comments made by French President Emmanuel Macron regarding Islamist terrorism that are referenced in the claim are his statements about fighting Islamist separatism and defending secularism, particularly following the October 2020 incident involving teacher Samuel Paty.
+
+Source URL: https://www.timesofisrael.com/macron-says-fighting-islamist-terror-his-top-priority/
+
+### When did French President Emmanuel Macron make the comments on Islamist terrorism that are referenced in the claim?
+Answer: **CONFLICT.** The retrieved document states that French President Emmanuel Macron made the referenced comments on Islamist terrorism in a speech on August 29, 2017. The reasoner working from memory alone reports that, based on recollection of the murder of Samuel Paty on October 16, 2020, and subsequent events, it infers the comments were made in late October 2020, around October 20-21, 2020, and is quite certain of this inference.
+
+Source URL: https://www.timesofisrael.com/macron-says-fighting-islamist-terror-his-top-priority/
+
+### In any announcement of retirement from the French national team, did Paul Pogba explicitly cite President Macron's comments on Islamist terrorism as his reason for retiring?
+Answer: There is no record of Paul Pogba making an explicit announcement of retirement from the French national team in which he cited President Macron's comments on Islamist terrorism as his reason; while third-party sources report such reasons, Pogba has not made this public himself.
+
+Source URL: https://ojbsport.com/2020/10/25/paul-pogba-retires-from-international-football/
+
+### Are there any interviews, press conferences, or official statements from Paul Pogba or his direct representatives where he states that President Macron's comments motivated a retirement from the national team?
+Answer: There are no interviews, press conferences, or official statements from Paul Pogba or his direct representatives stating that President Macron's comments motivated his retirement from the national team; in fact, Pogba denied quitting the team over such comments and continued to play for France after the relevant period.
+
+Source URL: https://www.zeebiz.com/world/news-paul-pogba-reportedly-quits-playing-for-france-after-president-emmanuel-macrons-islam-mention-138073
+
+### What was the documented timeline between President Macron's referenced comments and Paul Pogba's alleged retirement announcement?
+Answer: **CONFLICT.** The retrieved document states that President Macron's comments were made on a Friday, and Paul Pogba's retirement announcement followed shortly after as a direct response. The reasoner, which has no recollection of any such retirement announcement and, based on Pogba's continued international participation, infers it likely never occurred but is not confident in this assessment, reports that it has no knowledge of the event.
+
+Source URL: https://www.chronicle.co.zw/paul-pobga-in-shock-international-football-retirement/
+
+### Were there any other reasons reported by credible sports news outlets for Paul Pogba stepping away from the French national team around the time of the alleged retirement?
+Answer: **CONFLICT.** The retrieved document states that some Middle Eastern news outlets reported additional reasons for Paul Pogba's alleged retirement from the French national team, such as the French government's decision to honor Samuel Paty, but notes that these reports were not confirmed by Pogba or mainstream sports media. The reasoner, which has no recollection of Pogba stepping away and is certain the event did not happen based on his continued representation in matches, reports that there are no credible sports news outlets covering other reasons for such an action because the underlying event is not supported by its knowledge.
+
+Source URL: https://ojbsport.com/2020/10/25/paul-pogba-retires-from-international-football/
+
+### As of the current date, is Paul Pogba still listed as an active or retired member of the French national team player pool by the French Football Federation?
+Answer: Paul Pogba remains an active member of the French national team player pool by the French Football Federation, having debunked false reports of his retirement and participated in tournaments after 2020.
+
+Source URL: https://www.gistmania.com/talk/topic,476044.0.html
+
+### Has Paul Pogba, since the alleged retirement announcement, been called up to or played for the French national team in any subsequent matches or tournaments?
+Answer: Paul Pogba has been called up to and played for the French national team after the alleged retirement, including for UEFA Nations League matches in September 2020 and in tournaments such as UEFA Euro 2020 (held in 2021) and the 2022 FIFA World Cup.
+
+Source URL: https://www.aa.com.tr/en/latest-on-coronavirus-outbreak/french-football-star-pogba-tests-positive-for-covid-19/1955388
+
+## Your Judgement
+```
+
+# Claim 31
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Amy Coney Barrett was confirmed as US Supreme Court Justice on October 26, 2020"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Did the United States Senate vote to confirm Amy Coney Barrett as an Associate Justice of the Supreme Court of the United States?
+Answer: The United States Senate voted 52-48 to confirm Amy Coney Barrett as an Associate Justice of the Supreme Court, with Senator Susan Collins as the only Republican voting against.
+
+Source URL: https://www.cbsnews.com/losangeles/news/scotus-amy-coney-barrett/
+
+### 2. On what specific date did the United States Senate hold its final vote to confirm Amy Coney Barrett to the Supreme Court?
+Answer: The United States Senate held its final vote to confirm Amy Coney Barrett to the Supreme Court on October 26, 2020.
+
+Source URL: https://www.cbsnews.com/losangeles/news/scotus-amy-coney-barrett/
+
+### 3. What was the final roll call vote (yeas vs. nays) for Amy Coney Barrett's confirmation to the Supreme Court?
+Answer: The final roll call vote for Amy Coney Barrett's confirmation to the Supreme Court was 52 yeas to 48 nays, with the vote falling almost entirely along party lines and all Republicans voting in favor except Senator Susan Collins (R-Maine), who voted no.
+
+Source URL: https://www.latimes.com/politics/story/2020-10-26/democrats-ask-pence-skip-barrett-confirmation-vote-coronavirus
+
+### 4. On what date was Amy Coney Barrett officially sworn in as a Justice of the Supreme Court of the United States?
+Answer: Amy Coney Barrett was sworn in as a Justice of the Supreme Court of the United States on October 26, 2020.
+
+Source URL: https://www.gettyimages.com/detail/news-photo/judge-amy-coney-barrett-talks-with-supreme-court-associate-news-photo/1282403922
+
+### 5. Did Amy Coney Barrett's confirmation to the Supreme Court occur in the year 2020?
+Answer: Amy Coney Barrett was confirmed to the Supreme Court of the United States in the year 2020, with the U.S. Senate voting 52-48 on October 26, 2020.
+
+Source URL: https://ballotpedia.org/Supreme_Court_vacancy,_2020
+
+### 6. Who was the President of the United States who nominated Amy Coney Barrett to the Supreme Court?
+Answer: Amy Coney Barrett was nominated to the Supreme Court by President Donald Trump.
+
+Source URL: https://www.usatoday.com/picture-gallery/news/politics/2020/09/28/judge-amy-coney-barrett-nominated-us-supreme-court-president-trump/3559581001/
+
+### 7. Which Justice did Amy Coney Barrett replace on the Supreme Court of the United States?
+Answer: Amy Coney Barrett replaced Justice Ruth Bader Ginsburg on the Supreme Court of the United States.
+
+Source URL: https://www.scotusblog.com/category/special-features/nomination-of-amy-coney-barrett-to-the-supreme-court/
+
+### 8. Is Amy Coney Barrett officially listed as a current member (or past member) of the Supreme Court of the United States on its official website?
+Answer: **CONFLICT.** The retrieved document states that no documents were found to answer this question. The reasoner working from memory alone reports that Amy Coney Barrett was confirmed as an Associate Justice in 2020, remains a current member of the Court, and is highly confident that she is officially listed on the Supreme Court's website.
+
+Source URL: none -- retrieval returned no document
+
+### 9. On what date was Amy Coney Barrett's nomination to the Supreme Court officially announced by the White House?
+Answer: Amy Coney Barrett's nomination to the Supreme Court was officially announced by the White House on September 26, 2020.
+
+Source URL: https://guides.ll.georgetown.edu/c.php?g=365722&p=7900975
+
+### 10. Did the Senate Judiciary Committee hold confirmation hearings for Amy Coney Barrett's nomination to the Supreme Court in the weeks prior to October 26, 2020?
+Answer: The Senate Judiciary Committee held confirmation hearings for Amy Coney Barrett's nomination to the Supreme Court from October 12 to October 15, 2020, which were the weeks immediately prior to her October 26, 2020, confirmation vote.
+
+Source URL: https://ballotpedia.org/Amy_Coney_Barrett_confirmation_hearings_and_votes
+
+## Your Judgement
+```
+
+# Claim 32
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The New York post Endorsed Donald trumps bid for re-election."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Is "The New York Post" a real, major newspaper based in New York City?
+Answer: The New York Post is a real, major newspaper based in New York City.
+
+Source URL: https://ballotpedia.org/New_York_Post
+
+### 2. Has Donald Trump officially been a candidate for President of the United States in a re-election bid?
+Answer: Donald Trump officially was a candidate for President of the United States in a re-election bid for the 2020 presidential election.
+
+Source URL: https://www.history.com/topics/us-presidents/donald-trump
+
+### 3. Did the editorial board of The New York Post officially endorse a candidate in a U.S. presidential election involving Donald Trump?
+Answer: The editorial board of The New York Post officially endorsed Donald Trump in the 2016 U.S. presidential election.
+
+Source URL: https://nymag.com/intelligencer/2016/04/new-york-post-endorses-trump.html
+
+### 4. If an endorsement was made, in which specific presidential election year was it made (e.g., 2020, 2024)?
+Answer: **CONFLICT.** The retrieved document states that the endorsement referenced was for the 2016 presidential election. The reasoner, working from memory and moderately confident in its recall, reports that the endorsement was made in 2020.
+
+Source URL: https://nymag.com/intelligencer/2016/04/new-york-post-endorses-trump.html
+
+### 5. Was the endorsed candidate in that endorsement statement specifically Donald Trump?
+Answer: The endorsed candidate in the New York Post's endorsement statement was specifically Donald Trump.
+
+Source URL: https://nymag.com/intelligencer/2016/04/new-york-post-endorses-trump.html
+
+### 6. Is the endorsement documented in an official editorial article published by The New York Post?
+Answer: The endorsement of Donald Trump's bid for re-election by The New York Post is documented in an official editorial article published by the newspaper.
+
+Source URL: https://nymag.com/intelligencer/2016/04/new-york-post-endorses-trump.html
+
+### 7. Was the endorsement explicitly for Donald Trump's "re-election" campaign, as opposed to a first-time candidacy?
+Answer: Only the document store answered this question; the memory-only reasoner produced no usable answer. From the document store: No, the endorsement was for Donald Trump's first-time presidential candidacy in 2016, not a re-election campaign, as the source describes him as a "rookie candidate" and a "potential superstar" during the GOP primary.
+
+Source URL: https://nymag.com/intelligencer/2016/04/new-york-post-endorses-trump.html
+
+### 8. Can the endorsement article be accessed on The New York Post's official website or archives?
+Answer: **CONFLICT.** The retrieved document states that the endorsement article can be accessed on The New York Post's official website or archives, referencing a specific citation dated April 14, 2016. The reasoner, working from memory alone, reports no specific recollection of verifying accessibility but recalls the endorsement was published in October 2020 and, being fairly certain of this recollection, infers the article is likely available on the website.
+
+Source URL: https://ballotpedia.org/New_York_Post
+
+### 9. Has The New York Post issued any subsequent corrections or retractions regarding the endorsement?
+Answer: There is no record or knowledge of The New York Post issuing any corrections or retractions regarding its endorsement of Donald Trump for re-election in 2020.
+
+Source URL: https://slate.com/news-and-politics/2016/04/new-york-post-endorses-trump-disagrees-with-him-on-pretty-much-everything.html
+
+## Your Judgement
+```
+
+# Claim 34
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The United States, New Zealand, U.K., Australia, and the EU have not included the NDF in their official list of terrorist groups."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. What does the acronym "NDF" in the claim refer to, and what is the full, official name of the specific organization?
+Answer: The acronym 'NDF' refers to the National Democratic Front of the Philippines (NDFP).
+
+Source URL: https://verafiles.org/articles/vera-files-fact-check-badoy-errs-claiming-ndf-tagged-terror
+
+### 2. According to the United States Department of State's Foreign Terrorist Organizations (FTO) list, is the organization known as the NDF currently listed?
+Answer: The NDF is not currently listed on the United States Department of State's Foreign Terrorist Organizations (FTO) list.
+
+Source URL: https://www.state.gov/foreign-terrorist-organizations/
+
+### 3. According to the New Zealand government's official list of terrorist entities, is the organization known as the NDF currently designated?
+Answer: There is no information or record of the NDF being designated on New Zealand's official list of terrorist entities.
+
+Source URL: https://www.beehive.govt.nz/release/new-zealand-adds-list-designated-terrorist-entities
+
+### 4. According to the United Kingdom's official list of proscribed terrorist organizations, is the organization known as the NDF currently proscribed?
+Answer: The organization known as the NDF is not currently proscribed on the United Kingdom's official list of proscribed terrorist organizations.
+
+Source URL: https://verafiles.org/articles/vera-files-fact-check-badoy-errs-claiming-ndf-tagged-terror
+
+### 5. According to the Australian government's official list of terrorist organizations, is the organization known as the NDF currently listed?
+Answer: The organization known as the NDF (National Democratic Front of the Philippines) is not currently listed on the Australian government's official list of terrorist organizations.
+
+Source URL: https://verafiles.org/articles/vera-files-fact-check-badoy-errs-claiming-ndf-tagged-terror
+
+### 6. According to the European Union's consolidated list of persons, groups, and entities subject to EU financial sanctions concerning terrorism, is the organization known as the NDF currently included?
+Answer: The organization known as the NDF is not included in the European Union's consolidated list of persons, groups, and entities subject to EU financial sanctions concerning terrorism.
+
+Source URL: https://www.tynwald.org.im/spfile?file=/business/opqp/sittings/20182021/2020-SD-0386.pdf
+
+### 7. What is the effective date of the most recent official lists from the United States, New Zealand, the United Kingdom, Australia, and the EU that should be consulted to verify this claim?
+Answer: **CONFLICT.** The retrieved document, a U.S. State Department list covering designations and updates through 2014, indicates that the effective date for the United States' most recent list would be 2014, with specific designations made throughout that year; however, the source does not provide information on the effective dates of the most recent official lists from New Zealand, the United Kingdom, Australia, or the EU. The reasoner working from memory alone, which is nearly guessing on this topic, reports having no record of the effective dates of the most recent official lists from the United States, New Zealand, the United Kingdom, Australia, or the EU.
+
+Source URL: https://2009-2017.state.gov/j/ct/rls/crt/2014/239413.htm
+
+### 8. Has the organization known as the NDF been listed on any of these official lists at any point in the past, and if so, when was it delisted or removed?
+Answer: The organization known as the NDF has never been included on the official terrorist lists of the United States, New Zealand, U.K., Australia, or the EU, and therefore was never delisted or removed.
+
+Source URL: https://verafiles.org/articles/vera-files-fact-check-badoy-errs-claiming-ndf-tagged-terror
+
+### 9. Are there any formal government or legal proceedings (e.g., petitions, reviews) concerning the potential listing of the NDF in any of the mentioned jurisdictions?
+Answer: There is no record or mention of formal government or legal proceedings concerning the potential listing of the NDF in the United States, New Zealand, U.K., Australia, and the EU.
+
+Source URL: https://www.police.govt.nz/advice/personal-community/counterterrorism/designated-entities
+
+### 10. What are the specific criteria and legal authority each jurisdiction (U.S., NZ, U.K., Australia, EU) uses to designate an entity as a terrorist group, and does the NDF meet any of these criteria based on publicly available evidence?
+Answer: **CONFLICT.** The retrieved document states that it only details U.S. criteria for terrorist designation under Section 219 of the Immigration and Nationality Act and contains no information on criteria for New Zealand, the U.K., Australia, or the EU, nor any mention of the NDF, thus precluding assessment. The reasoner, working from memory alone and with low confidence in its recall, reports that it can recall criteria for the U.S., U.K., Australia, and EU, but has no record for New Zealand and no knowledge of any publicly available evidence used to assess the NDF against these criteria.
+
+Source URL: https://2001-2009.state.gov/s/ct/rls/fs/08/103392.htm
+
+## Your Judgement
+```
+
+# Claim 35
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "COVID-19 pandemic pre-planned with the help from Bill Gates."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is there any documented evidence, such as meeting minutes, communications, or financial records, showing that a group conspired to intentionally create and release SARS-CoV-2 before the pandemic began?
+Answer: There is no documented evidence—such as meeting minutes, communications, or financial records—showing that a group conspired to intentionally create and release SARS-CoV-2.
+
+Source URL: https://misinforeview.hks.harvard.edu/article/the-twitter-origins-and-evolution-of-the-covid-19-plandemic-conspiracy-theory/
+
+### Did Bill Gates, or the Bill & Melinda Gates Foundation, provide funding for research that resulted in the creation of the SARS-CoV-2 virus?
+Answer: There is no evidence that Bill Gates or the Bill & Melinda Gates Foundation provided funding for research that resulted in the creation of the SARS-CoV-2 virus.
+
+Source URL: https://factcheck.afp.com/bill-gates-bogeyman-virus-conspiracy-theorists
+
+### What is the scientific consensus on the origin of SARS-CoV-2, and does it support the conclusion that the virus was deliberately engineered and released?
+Answer: **CONFLICT.** The retrieved document states there is no scientific consensus on the origin of SARS-CoV-2 and does not support the conclusion that it was deliberately engineered or released, with the source arguing that claims of consensus are premature and the lab-leak hypothesis is not ruled out. The reasoner, certain that the scientific consensus is for natural zoonotic origin and that there is no credible evidence for deliberate engineering, reports that consensus supports natural origin.
+
+Source URL: https://www.thenewatlantis.com/publications/manufacturing-consensus
+
+### What was the stated purpose of the "Event 201" pandemic simulation exercise held in October 2019, and was Bill Gates a participant or funder of that exercise?
+Answer: Event 201 was a pandemic simulation exercise held in October 2019 to address gaps in global preparedness for public health emergencies and to illuminate the need for cooperation among industry, governments, international institutions, and civil society; it was funded by the Bill and Melinda Gates Foundation.
+
+Source URL: https://fullfact.org/health/event-201-coronavirus-pandemic/
+
+### What specific actions did Bill Gates take between 2015 and 2019 to warn about or prepare for a coronavirus pandemic, and do these actions constitute "planning" the pandemic itself?
+Answer: Bill Gates warned about pandemic unpreparedness in a 2015 TED Talk and took actions such as funding pandemic preparedness efforts and co-sponsoring simulation exercises like Event 201 in 2019, which were intended to prevent and prepare for pandemics, not to plan the COVID-19 pandemic.
+
+Source URL: https://www.pbs.org/newshour/show/bill-gates-on-outlook-for-a-covid-19-vaccine-and-where-pandemic-will-hurt-most
+
+### What is the history of the Bill & Melinda Gates Foundation's investments in vaccine development and global health initiatives, and did any of these investments fund gain-of-function research on coronaviruses?
+Answer: The Bill & Melinda Gates Foundation has a history of investing in vaccine development and global health initiatives, but these investments did not fund gain-of-function research on coronaviruses.
+
+Source URL: https://www.thenation.com/article/economy/bill-gates-investments-covid/
+
+### Did any public health authorities or international bodies (like the WHO) collaborate with Bill Gates on pandemic preparedness plans that included the creation of a novel pathogen?
+Answer: There is no evidence or recollection of public health authorities or international bodies collaborating with Bill Gates on pandemic preparedness plans that included the creation of a novel pathogen; existing collaborations have focused on prevention and response.
+
+Source URL: https://nymag.com/intelligencer/2020/09/bill-gates-hopes-covid-19-pandemic-doesnt-stretch-past-2022-interview.html
+
+### Have any whistleblowers with direct knowledge come forward to corroborate the claim that Bill Gates was involved in planning the COVID-19 pandemic?
+Answer: No whistleblowers with verified direct knowledge have come forward to corroborate the claim that Bill Gates was involved in planning the COVID-19 pandemic; the only references are to allegations from discredited sources such as Dr. Judy Mikovits.
+
+Source URL: https://blockchain.news/news/bill-gates-planned-covid-19-pandemic-via-deep-state-circular-cabalsays-disgraced-dr-mikovits
+
+### Are the timelines of Bill Gates's public warnings about pandemics consistent with having prior specific knowledge of the COVID-19 outbreak, or do they align with general risk assessments made by epidemiologists?
+Answer: Bill Gates's public warnings about pandemics, such as his 2015 TED Talk, align with general risk assessments made by epidemiologists and do not indicate prior specific knowledge of the COVID-19 outbreak.
+
+Source URL: https://www.cnbc.com/2020/05/12/bill-gates-wishes-hed-done-more-to-warn-about-pandemic-danger.html
+
+## Your Judgement
+```
+
+# Claim 36
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Speaker Robin Vos lost a Republican-held seat in the 2018 election for the first time."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is Robin Vos the Speaker of the Wisconsin State Assembly, and was he serving in that role during the 2018 election cycle?
+Answer: Robin Vos is the Republican Speaker of the Wisconsin State Assembly and has held the speakership for some time, though neither source explicitly confirms the exact start date or his specific role during the 2018 election cycle.
+
+Source URL: https://urbanmilwaukee.com/pressrelease/schemes-and-scandals-of-assembly-speaker-robin-vos-exposed-on-new-website/
+
+### In the 2018 elections, did the Republican Party lose control of a seat in the Wisconsin State Assembly that it had previously held?
+Answer: **CONFLICT.** The retrieved document states that in the 2018 elections for the Wisconsin State Assembly, the Republican Party lost control of one seat it had previously held, specifically District 14. The reasoner working from memory alone reports that it has no record of the Republican Party losing control of a seat in that election, with low confidence in this assessment.
+
+Source URL: https://en.wikipedia.org/wiki/2018_Wisconsin_State_Assembly_election
+
+### Which specific district and seat number did the Republican Party lose in the 2018 Wisconsin State Assembly elections?
+Answer: Only the document store answered this question; the memory-only reasoner produced no usable answer. From the document store: The Republican Party lost **District 14** in the 2018 Wisconsin State Assembly elections.
+
+Source URL: https://en.wikipedia.org/wiki/2018_Wisconsin_State_Assembly_election
+
+### Who was the Republican incumbent or candidate who lost the specified Assembly seat in the 2018 election?
+Answer: No Republican lost the specified Assembly seat in the 2018 election; the Republican incumbent Robin Vos won re-election.
+
+Source URL: https://urbanmilwaukee.com/2020/05/25/murphys-law-robin-vos-to-face-opponent-after-all/
+
+### Who was the candidate who won the specified Assembly seat in the 2018 election, and what was their party affiliation?
+Answer: Only the document store answered this question; the memory-only reasoner produced no usable answer. From the document store: According to the search result, Robin Vos (Republican) defeated Democrat Joel Jacobsen in the 2018 election for Assembly District 63. The source states: "After defeating Democrat Joel Jacobsen, reveals effort to curtail the governor’s powers during a lame-duck session."
+
+Source URL: https://madison.com/robin-vos-timeline/article_ce58f640-24d2-5fdb-9c8f-ce3a3930ba88.html
+
+### Did the loss of the specified Republican-held seat in 2018 occur in a primary election, a general election, or a special election?
+Answer: **CONFLICT.** The document store returned no information to specify the type of election, as the search result does not indicate that Robin Vos lost a Republican-held seat in 2018; the reasoner working from memory alone, which is certain that no such loss occurred, reports that it did not happen and the question is based on a false premise.
+
+Source URL: https://urbanmilwaukee.com/2020/05/25/murphys-law-robin-vos-to-face-opponent-after-all/
+
+### What was the margin of victory in the 2018 election for the seat that the Republicans lost?
+Answer: Robin Vos won the 2018 election with 61% of the vote, a margin of 22 percentage points, and was re-elected, indicating he did not lose the seat.
+
+Source URL: https://urbanmilwaukee.com/2020/05/25/murphys-law-robin-vos-to-face-opponent-after-all/
+
+### Prior to the 2018 election, had any Republican-held seat been lost in any election during Robin Vos's tenure as Speaker of the Wisconsin State Assembly?
+Answer: Prior to the 2018 election, no Republican-held seat had been lost in any election during Robin Vos's tenure as Speaker of the Wisconsin State Assembly, with the Republican majority increasing in the 2016 election.
+
+Source URL: https://ballotpedia.org/Wisconsin_State_Assembly_elections,_2018
+
+### What were the outcomes of the elections for all other Republican-held Wisconsin State Assembly seats in the 2018 cycle?
+Answer: **CONFLICT.** The retrieved document states that in the 2018 Wisconsin State Assembly elections, Republicans maintained their majority with all other Republican-held seats retained, reducing the majority from 64-35 to 63-36, and no incumbents were defeated in the general election. The reasoner working from memory alone, which is close to guessing in its assessment, reports having no record of the outcomes for all other Republican-held Wisconsin State Assembly seats in the 2018 cycle.
+
+Source URL: https://ballotpedia.org/Wisconsin_State_Assembly_elections,_2018
+
+### Are there credible news reports or official election results that explicitly state this 2018 loss was the first of its kind for Speaker Robin Vos?
+Answer: **CONFLICT.** The retrieved documents do not contain an explicit statement that the 2018 loss was the first of its kind for Speaker Robin Vos. The reasoner, working from memory with low certainty, reports no record of such a loss being described as the first and notes that Vos was re-elected to his own Assembly seat in 2018.
+
+Source URL: https://www.cbs58.com/news/vos-emerges-as-wisconsin-republican-leader-as-walker-gets-ready-to-step-down
+
+## Your Judgement
+```
+
+# Claim 37
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Breitbart News reports that the daughter of Delaware Democratic Senator Chris Coons and seven other underage girls were featured on Hunter Biden's laptop."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### On what date did Breitbart News publish the report alleging that images of Senator Chris Coons's daughter and seven other underage girls were on a device belonging to Hunter Biden?
+Answer: There is no available publication date for a Breitbart News report alleging that images of Senator Chris Coons's daughter and seven other underage girls were on a device belonging to Hunter Biden.
+
+Source URL: https://www.google.com/search?q=Did+the+Breitbart+News+report+that+the+daughter+of+Delaware+Democratic+Senator+Chris+Coons+and+seven+other+underaged+girls+were+featured+on+Hunter+Biden%27s+laptop%3F&sourceid=chrome&ie=UTF-8
+
+### What is the primary source or evidence cited by Breitbart News to support the claim that the underage girl is Senator Chris Coons's daughter?
+Answer: **CONFLICT.** The retrieved document states that the primary source cited by Breitbart News for the claim is an allegation made by Delaware GOP Senate candidate Lauren Witzke, who cited a source close to the investigation into Hunter Biden's laptop. The reasoner, working from memory and with low confidence in its assessment, reports having no record of any primary source or evidence cited by Breitbart News to support the claim.
+
+Source URL: https://ground.news/article/d3c74388-e567-47f9-b709-c5721ccd1b10
+
+### Has the existence of a photograph or video featuring Senator Chris Coons's daughter and seven other underage girls on a device attributed to Hunter Biden been independently verified by any credible investigative body, news organization, or law enforcement agency?
+Answer: No independent verification by any credible investigative body, news organization, or law enforcement agency has been found for a photograph or video featuring Senator Chris Coons's daughter and seven other underage girls on a device attributed to Hunter Biden.
+
+Source URL: https://www.google.com/search?q=Did+the+Breitbart+News+report+that+the+daughter+of+Delaware+Democratic+Senator+Chris+Coons+and+seven+other+underaged+girls+were+featured+on+Hunter+Biden%27s+laptop%3F&sourceid=chrome&ie=UTF-8
+
+### What are the verified ages of the eight girls (including Senator Coons's daughter) at the time the photograph or video in question was created?
+Answer: Verified ages for Senator Coons's daughter and the other seven girls are not provided; the sources only repeat the unverified allegation that they were underage without specifying their actual ages, and there is no record of such a photograph or video in available knowledge.
+
+Source URL: https://ground.news/article/d3c74388-e567-47f9-b709-c5721ccd1b10
+
+### What is the stated content or context (e.g., location, activity) of the photograph or video purporting to show Senator Coons's daughter and the other underage girls, as described in the Breitbart News report or by other sources?
+Answer: According to available sources, no specific photograph or video content is verified; descriptions are limited to speculation and political allegations, such as guesses about bikini or pajama pictures, and a purported video is merely audio of claims, with no concrete details substantiated.
+
+Source URL: https://www.ar15.com/forums/General/-ARCHIVED-THREAD-BREAKING-Smoking-gun-Hunter-Biden-laptop-Bongino-Get-ready-for-new-deeply-disturbing-info-/5-2378712/?page=273
+
+### Has Senator Chris Coons, his office, or his family issued a public statement confirming or denying the presence of his daughter in any image or file found on a device attributed to Hunter Biden?
+Answer: There is no record or information indicating that Senator Chris Coons, his office, or his family issued a public statement confirming or denying the presence of his daughter in any image or file found on a device attributed to Hunter Biden.
+
+Source URL: https://www.google.com/search?q=Did+the+Breitbart+News+report+that+the+daughter+of+Delaware+Democratic+Senator+Chris+Coons+and+seven+other+underaged+girls+were+featured+on+Hunter+Biden%27s+laptop%3F&sourceid=chrome&ie=UTF-8
+
+### What has been the response, if any, from Hunter Biden or his legal representatives to the specific allegation reported by Breitbart News about the images of Senator Coons's daughter?
+Answer: No information is available regarding a response from Hunter Biden or his legal representatives to the specific allegation reported by Breitbart News about Senator Coons's daughter.
+
+Source URL: https://www.cnn.com/2015/01/12/politics/biden-maggie-coons-creepy/index.html
+
+### Have other reputable news outlets with the resources to investigate the laptop's contents reported findings that corroborate or contradict this specific claim about underage individuals?
+Answer: No other reputable news outlets have corroborated the claim about underage individuals on Hunter Biden's laptop; the allegation originated from anonymous online sources, and mainstream reporting on the laptop has focused on other aspects such as business dealings.
+
+Source URL: https://www.politifact.com/factchecks/2020/oct/20/facebook-posts/fact-checking-unproven-claims-about-hunter-biden-a/
+
+### Is there any record of a legal or civil case initiated by the families of the alleged underage girls, including Senator Coons's family, concerning the dissemination of these specific images?
+Answer: There is no record of any legal or civil case initiated by the families of the alleged underage girls, including Senator Coons's family, concerning the dissemination of these specific images from Hunter Biden's laptop.
+
+Source URL: https://ground.news/article/d3c74388-e567-47f9-b709-c5721ccd1b10
+
+## Your Judgement
+```
+
+# Claim 38
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Hunter Biden, son of US President Joe Biden has died."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Who is Hunter Biden and what is his relationship to US President Joe Biden?
+Answer: Hunter Biden is the son of US President Joe Biden and is his only surviving son.
+
+Source URL: https://www.vogue.com/article/hunter-biden-struggles-with-addiction-remind-me-of-my-own
+
+### 2. Is Hunter Biden alive or deceased as of the current date?
+Answer: Hunter Biden is alive.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/27/fact-check-rumors-hunter-biden-dead-4-chan-hoax/3754066001/
+
+### 3. What are the most recent official records, statements, or credible news reports regarding Hunter Biden's status?
+Answer: There are no official records, statements, or credible news reports indicating that Hunter Biden has died; he has continued to be active in public life, and the claim of his death has been debunked as a hoax.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/27/fact-check-rumors-hunter-biden-dead-4-chan-hoax/3754066001/
+
+### 4. Have any official government entities (such as the White House, the U.S. Secret Service, or the Delaware State Police) issued a statement about the death of Hunter Biden?
+Answer: Hunter Biden is alive, so no official government entities such as the White House, the U.S. Secret Service, or the Delaware State Police have issued any statement about his death.
+
+Source URL: https://abcnews.go.com/Politics/exclusive-hiding-plain-sight-hunter-biden-defends-foreign/story?id=66275416
+
+### 5. Have major, reputable international news organizations (e.g., Associated Press, Reuters, BBC, CNN) reported on the death of Hunter Biden?
+Answer: Major reputable international news organizations, such as the Associated Press, Reuters, BBC, or CNN, have not reported Hunter Biden's death; the claim has been debunked as a hoax by fact-checkers.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/27/fact-check-rumors-hunter-biden-dead-4-chan-hoax/3754066001/
+
+### 6. Is there an official obituary, funeral announcement, or public statement from the Biden family regarding Hunter Biden's death?
+Answer: There is no official obituary, funeral announcement, or public statement from the Biden family regarding Hunter Biden's death.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/27/fact-check-rumors-hunter-biden-dead-4-chan-hoax/3754066001/
+
+### 7. What is the purported date and location of Hunter Biden's alleged death as reported in the claim?
+Answer: **CONFLICT.** The retrieved document states that the claim does not specify a date or location, but traces the hoax to a 4chan post dated October 25, 2020, implying Los Angeles as the purported location. The reasoner, working from memory alone and having no record of any claim reporting a specific date or location, which it is close to guessing on, reports that there is no such report.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/27/fact-check-rumors-hunter-biden-dead-4-chan-hoax/3754066001/
+
+### 8. What is the purported cause of death for Hunter Biden as reported in the claim?
+Answer: **CONFLICT.** The retrieved documents indicate that the false claim specifies the purported cause of death as a drug overdose, specifically a 'crack overdose,' as reported in social media posts. The reasoner, which has no record of the claim specifying any cause and is close to guessing, reports that no cause is specified.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/27/fact-check-rumors-hunter-biden-dead-4-chan-hoax/3754066001/
+
+### 9. Are there any public records (such as a death certificate or coroner's report) that confirm Hunter Biden's death?
+Answer: No public records such as a death certificate or coroner's report confirm Hunter Biden's death; the claim that he has died is identified as a hoax, and Hunter Biden is alive.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/27/fact-check-rumors-hunter-biden-dead-4-chan-hoax/3754066001/
+
+### 10. What was the last verifiable public activity or appearance of Hunter Biden before the claim of his death was made?
+Answer: **CONFLICT.** The retrieved document states that the last verifiable public activity of Hunter Biden was his announcement on October 13, 2019, to step down from the board of BHR Equity. The reasoner, which has no record of any specific last verifiable public activity or appearance before October 25, 2020, and is certain of this assessment, reports that it has no knowledge of such an activity.
+
+Source URL: https://www.pbs.org/newshour/politics/hunter-biden-to-step-down-from-chinese-board
+
+## Your Judgement
+```
+
+# Claim 39
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "5G causes COVID-19."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the scientific consensus from major international health organizations (such as the World Health Organization) and regulatory bodies (such as the FCC) regarding the health effects of 5G radio frequencies?
+Answer: The scientific consensus from major international health organizations such as the World Health Organization and regulatory bodies like the U.S. Federal Communications Commission is that 5G radio frequencies, within established safety limits, are not linked to adverse health effects and do not cause COVID-19.
+
+Source URL: https://www.actu-environnement.com/media/pdf/news-29640-appel-scientifiques-5g.pdf
+
+### Is there any peer-reviewed scientific evidence demonstrating a biological mechanism by which 5G radio waves can cause the symptoms or disease progression associated with COVID-19?
+Answer: No peer-reviewed scientific evidence exists demonstrating a biological mechanism by which 5G radio waves can cause COVID-19.
+
+Source URL: https://www.voanews.com/a/covid-19-pandemic_australia-parliament-debunks-5g-covid-19-conspiracy-theory/6189256.html
+
+### What is the established scientific cause of the disease COVID-19, as determined by genetic sequencing of the pathogen?
+Answer: COVID-19 is caused by the novel coronavirus SARS-CoV-2, as determined by genetic sequencing of the pathogen. Chinese scientists isolated the virus from patients in Wuhan by early January 2020, and it was subsequently named based on its genetic relation to the SARS coronavirus.
+
+Source URL: https://factcheck.afp.com/myth-circulates-online-italy-discovered-covid-19-bacteria-curable-taking-paracetamol
+
+### Do epidemiological maps show that COVID-19 outbreaks are uniquely or predominantly concentrated in areas with active 5G network coverage?
+Answer: Epidemiological maps do not show that COVID-19 outbreaks are uniquely or predominantly concentrated in areas with active 5G network coverage; outbreaks have occurred in areas with varying 5G availability and are influenced by factors like population density.
+
+Source URL: https://www.gq.com/story/coronavirus-5g-conspiracy-theory-explained
+
+### Has COVID-19 spread significantly in countries, regions, or cities that have minimal or no 5G infrastructure?
+Answer: COVID-19 has spread significantly in countries, regions, and cities with minimal or no 5G infrastructure, including rural areas and nations with limited technology access.
+
+Source URL: https://theconversation.com/conspiracy-theories-about-5g-networks-have-skyrocketed-since-covid-19-139374
+
+### What were the historical origins and primary promoters of the claim that 5G technology causes COVID-19?
+Answer: The claim linking 5G to COVID-19 originated in early 2020, was primarily promoted by several celebrities with large followings including actor Woody Harrelson and musicians Anne-Marie and M.I.A., builds on earlier fears about radiofrequency radiation from technologies like 3G and 4G, emerged as a conspiracy theory that gained traction on social media, was debunked by authorities, and led to real-world incidents such as attacks on 5G infrastructure.
+
+Source URL: https://allianceforscience.org/blog/2020/04/5g-whats-behind-the-latest-covid-conspiracy-theory/
+
+### Have independent fact-checking organizations or virology/epidemiology experts publicly analyzed and issued conclusions about the "5G causes COVID-19" claim?
+Answer: Independent fact-checking organizations and experts have publicly analyzed and issued conclusions debunking the claim that 5G causes COVID-19.
+
+Source URL: https://www.businessinsider.com/twitter-factchecks-tweets-5g-coronavirus-2020-6
+
+### What are the fundamental differences between ionizing radiation (like X-rays) and non-ionizing radiation (like that used by 5G) in terms of their known effects on human biology?
+Answer: Ionizing radiation, such as X-rays, carries sufficient photon energy to remove electrons from atoms and break chemical bonds, directly damaging DNA and increasing cancer risk. Non-ionizing radiation, like that used by 5G, lacks the photon energy to ionize atoms or break molecular bonds; its primary known biological effect at typical exposure levels is negligible thermal heating, and it has no established mechanism to cause infections or viruses like SARS-CoV-2.
+
+Source URL: https://www.mdpi.com/1660-4601/16/18/3406
+
+### Has any laboratory research shown that exposure to 5G frequencies can induce the creation of a coronavirus or similar pathogenic agent?
+Answer: No laboratory research has shown that exposure to 5G frequencies can induce the creation of a coronavirus or similar pathogenic agent; viruses cannot travel on radio waves or mobile networks, and 5G uses non-ionizing radiation with no known mechanism to create viruses, a position supported by authoritative sources such as the UK government and the World Health Organisation.
+
+Source URL: https://www.gov.uk/guidance/5g-and-coronavirus-covid-19
+
+### If 5G were the cause, what would be the predicted pattern of disease spread compared to the observed pattern of a contagious viral illness transmitted person-to-person?
+Answer: If 5G were the cause, disease spread would correlate with the geographic deployment and coverage of 5G network infrastructure, but the observed pattern of COVID-19 spread is consistent with a contagious respiratory virus transmitted person-to-person, as shown by cases in countries without 5G networks and transmission chains linked to human contact.
+
+Source URL: https://www.linkedin.com/pulse/top-12-coronavirus-myths-debunked-how-covid-19-spreads-hadi-parvizi?trk=read_related_article-card_title
+
+## Your Judgement
+```
+
+# Claim 40
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Rock musician Jon Bon Jovi performed for 12 people and 7 pumpkins at a campaign event for Democratic presidential nominee Joe Biden in Pennsylvania."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did rock musician Jon Bon Jovi perform live music at any event in Pennsylvania during Joe Biden's 2020 presidential campaign?
+Answer: Jon Bon Jovi performed live music at a drive-in campaign event for Joe Biden in Pennsylvania's Luzerne County on October 24, 2020, where he played songs including 'Who Says You Can’t Go Home?' and 'Livin’ on a Prayer'.
+
+Source URL: https://www.app.com/story/entertainment/music/2020/10/24/jon-bon-jovi-hitting-campaign-trail-big-i-vote-concert-support-biden/6022327002/
+
+### Was any event featuring a performance by Jon Bon Jovi in Pennsylvania officially organized or sanctioned by the Joe Biden 2020 presidential campaign?
+Answer: **CONFLICT.** The retrieved document states that a Bon Jovi performance event in Pennsylvania was officially organized by the Joe Biden 2020 presidential campaign. The reasoner working from memory alone, with high confidence in its assessment, reports that it has no record of any event featuring Jon Bon Jovi in Pennsylvania that was officially organized or sanctioned by the Biden campaign.
+
+Source URL: https://boingboing.net/2020/10/23/bon-jovi-to-campaign-with-joe-biden.html
+
+### What was the date and specific location (city or venue) of the event where Jon Bon Jovi performed for Joe Biden's campaign in Pennsylvania?
+Answer: **CONFLICT.** The retrieved document states that the event where Jon Bon Jovi performed for Joe Biden's campaign in Pennsylvania took place on Saturday, October 24, 2020, in Luzerne County, Pennsylvania. The reasoner working from memory alone reports that it has no record of the specific date and location, with low confidence in this assessment.
+
+Source URL: https://www.app.com/story/entertainment/music/2020/10/24/jon-bon-jovi-hitting-campaign-trail-big-i-vote-concert-support-biden/6022327002/
+
+### Is there any credible news report, official campaign statement, or documented evidence of a Jon Bon Jovi performance for Joe Biden in Pennsylvania?
+Answer: There is credible evidence that Jon Bon Jovi performed for Joe Biden in Pennsylvania, though the specific details of the claim, such as an audience of 12 people and 7 pumpkins, are not substantiated.
+
+Source URL: https://www.boston.com/news/national-news/2020/10/24/jon-bon-jovi-joe-biden-rally/
+
+### What was the documented or reported size of the audience at the Jon Bon Jovi performance event for Joe Biden's campaign in Pennsylvania?
+Answer: There is no documented or reported specific audience size for the Jon Bon Jovi performance event for Joe Biden's campaign in Pennsylvania.
+
+Source URL: https://www.app.com/story/entertainment/music/2020/10/24/jon-bon-jovi-hitting-campaign-trail-big-i-vote-concert-support-biden/6022327002/
+
+### Is there any verified account, image, or video from a Jon Bon Jovi performance for Joe Biden's campaign that shows an audience of approximately 12 people?
+Answer: There is no verified account, image, or video indicating that Jon Bon Jovi's performance for Joe Biden's campaign was in front of an audience of approximately 12 people; reports describe it as a drive-in event with numerous vehicles and attendees.
+
+Source URL: https://www.app.com/story/entertainment/music/2020/10/24/jon-bon-jovi-hitting-campaign-trail-big-i-vote-concert-support-biden/6022327002/
+
+### Is there any verified account, image, or video from a Jon Bon Jovi performance for Joe Biden's campaign that shows the presence of 7 pumpkins?
+Answer: No verified account, image, or video from Jon Bon Jovi's performance for Joe Biden's campaign shows the presence of 7 pumpkins.
+
+Source URL: https://www.boston.com/news/national-news/2020/10/24/jon-bon-jovi-joe-biden-rally/
+
+### What was the reported or stated purpose of the event in Pennsylvania where Jon Bon Jovi performed for Joe Biden (e.g., rally, fundraiser, GOTV effort)?
+Answer: **CONFLICT.** The retrieved document states that the reported purpose of the event was for Jon Bon Jovi to campaign with Democratic presidential nominee Joe Biden in Pennsylvania. The reasoner, which has no knowledge of an event in Pennsylvania where Jon Bon Jovi performed for Joe Biden and is fairly certain of this lack of record, reports that it cannot determine the purpose.
+
+Source URL: https://boingboing.net/2020/10/23/bon-jovi-to-campaign-with-joe-biden.html
+
+### Did any Pennsylvania-based event featuring Jon Bon Jovi for the Biden campaign receive media coverage that described a very small audience or the presence of pumpkins?
+Answer: Media coverage of a Jon Bon Jovi event for the Biden campaign in Pennsylvania did not report an audience of 12 people or the presence of pumpkins; instead, it indicated a much larger turnout with hundreds of cars.
+
+Source URL: https://www.nbcphiladelphia.com/news/politics/decision-2020/bon-jovi-plays-at-biden-event-after-candidate-visits-bucks-county/2572756/
+
+### Could the claim about "12 people and 7 pumpkins" originate from satire, a social media meme, or a misreported quote rather than a factual account of an event?
+Answer: The claim that Jon Bon Jovi performed for '12 people and 7 pumpkins' at a Biden campaign event is not supported by factual accounts and likely originated from satire, a social media meme, or a misreported quote, as no such event is recorded and satirical content was prevalent during the 2020 election.
+
+Source URL: https://www.vulture.com/2020/04/jon-bon-jovi-jersey4jersey-performance-watch.html
+
+## Your Judgement
+```
+
+# Claim 41
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Wearing face masks can cause infections from bacteria such as staphylococcus."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What does the current body of scientific research and medical consensus indicate about whether routine public use of face masks directly causes bacterial infections?
+Answer: The current body of scientific research and medical consensus indicates that routine public use of face masks does not directly cause bacterial infections like staphylococcus. Experts note that such bacteria are common on healthy skin and only cause infection if introduced through a break in the skin, which is not uniquely associated with mask-wearing. Public health guidelines widely recommend mask use for preventing respiratory infections, with concerns about bacterial infections not being a prominent part of the guidance, which is instead focused on proper hygiene to mitigate risks.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/18/fact-check-staph-infections-common-not-caused-face-masks/5692064002/
+
+### Are there documented and peer-reviewed studies that establish a statistically significant causal relationship between wearing face masks and an increased incidence of Staphylococcus infections?
+Answer: There are no documented and peer-reviewed studies that establish a statistically significant causal relationship between wearing face masks and an increased incidence of Staphylococcus infections.
+
+Source URL: https://www.medicinenet.com/staph_infection/article.htm
+
+### What are the primary mechanisms by which Staphylococcus bacteria are typically transmitted to cause human infections?
+Answer: **CONFLICT.** The retrieved document states that primary Staphylococcus transmission mechanisms involve direct contact with an infected person's sore or wound, or indirect contact via contaminated personal items such as razors and bandages. The reasoner, which is quite confident in its assessment, reports that primary mechanisms include direct skin-to-skin contact, contact with contaminated objects like towels or medical equipment, and transmission through respiratory droplets in some cases.
+
+Source URL: https://www.medicinenet.com/staph_infection/article.htm
+
+### Is the interior surface of a standard surgical or N95 mask a favorable environment for the growth and proliferation of Staphylococcus bacteria when worn by a person?
+Answer: The interior surface of a mask worn by a person can become warm and moist, creating a favorable environment for the growth and proliferation of bacteria such as Staphylococcus, with bacterial counts increasing over time due to contamination from the wearer's own body surface.
+
+Source URL: https://pubmed.ncbi.nlm.nih.gov/30035033/
+
+### What hygiene practices, such as mask cleaning, hand washing, and proper disposal, are recommended by health authorities to mitigate any potential infection risks from mask use?
+Answer: **CONFLICT.** The retrieved document states that health authorities recommend hygiene practices such as washing hands rigorously, regularly cleaning masks, cleaning and bandaging wounds, and applying moisturizer to mitigate infection risks from mask use. The reasoner working from memory alone, fairly confident in its recollection, reports that it does not recall health authorities specifically recommending hygiene practices to mitigate infection risks from mask use, but recalls that organizations like WHO and CDC recommended general hygiene practices for mask use, including hand washing, proper disposal, and cleaning reusable masks, for effectiveness and contamination prevention, and infers that similar practices may be advised to avoid risks.
+
+Source URL: https://health-desk.org/articles/is-there-any-evidence-for-a-relationship-between-staph-infections-and-using-masks-to-prevent-the-spread-of-covid-19
+
+### Have there been any documented outbreaks of Staphylococcus infections that have been specifically traced back to the wearing of face masks by the general population?
+Answer: No documented outbreaks of Staphylococcus infections have been specifically traced back to the wearing of face masks by the general population.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/18/fact-check-staph-infections-common-not-caused-face-masks/5692064002/
+
+### How does the risk of bacterial infection from wearing a mask compare to the risk of bacterial infection from other common surfaces or personal items, such as mobile phones, pillows, or shared keyboards?
+Answer: **CONFLICT.** The retrieved document states that no documents were found to answer the question about comparing bacterial infection risks. The reasoner working from memory alone reports, with high confidence, that many everyday objects such as mobile phones, pillows, and keyboards carry bacterial loads including Staphylococcus species, with studies documenting significant contamination on phones specifically, and that major health authorities like WHO and CDC have stated properly used face masks do not pose significant bacterial infection risk for healthy users, though a direct risk comparison without specific epidemiological data is speculative.
+
+Source URL: none -- retrieval returned no document
+
+### What are the recognized risk factors that make an individual more susceptible to Staphylococcus infections, and is mask-wearing identified as an independent risk factor in clinical literature?
+Answer: Recognized risk factors for Staphylococcus infections include chronic conditions such as diabetes, healthcare exposure, compromised immune system, skin injuries, poor hygiene, and crowded living conditions, and mask-wearing is not identified as an independent risk factor in clinical literature.
+
+Source URL: https://oeps.wv.gov/mrsa_vrsa/Documents/lhd/resistant_staph_aureus_protocol.pdf
+
+### Do medical professionals and infection control specialists report seeing a higher incidence of Staphylococcus skin or respiratory infections in populations that regularly wear masks compared to those that do not?
+Answer: Medical professionals and infection control specialists do not report a higher incidence of Staphylococcus skin or respiratory infections in populations that regularly wear masks compared to those that do not.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/18/fact-check-staph-infections-common-not-caused-face-masks/5692064002/
+
+### Has the original source of this claim provided any specific evidence, such as cited studies, patient case data, or laboratory results, to support the causal link between mask-wearing and Staphylococcus infections?
+Answer: The original source of the claim did not provide specific evidence such as cited studies, patient case data, or laboratory results to support a causal link between mask-wearing and Staphylococcus infections.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/09/18/fact-check-staph-infections-common-not-caused-face-masks/5692064002/
+
+## Your Judgement
+```
+
+# Claim 42
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "An 'anti-Black Lives Matter' flag replaced the American flag behind President Trump during a Waukesha campaign rally."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did President Donald Trump hold a campaign rally in Waukesha, Wisconsin, that featured the display of a flag described as "anti-Black Lives Matter" behind the stage?
+Answer: President Donald Trump held a campaign rally in Waukesha, Wisconsin, around October 24, 2020, but there is no record or evidence of an 'anti-Black Lives Matter' flag being displayed behind the stage.
+
+Source URL: https://www.gmtoday.com/the_freeman/news/thousands-line-up-outside-of-waukesha-trump-rally/article_95d1575e-1662-11eb-987f-2385b740a133.html
+
+### What specific date did the rally in Waukesha where the flag was displayed take place?
+Answer: The rally in Waukesha where the flag was displayed took place on October 24, 2020.
+
+Source URL: https://www.shutterstock.com/editorial/image-editorial/10973522h
+
+### In the primary source video or images of the Waukesha rally, was the American flag displayed in the prominent position directly behind the podium where the President spoke?
+Answer: **CONFLICT.** The retrieved document states that no document could answer the question about whether the American flag was displayed in the prominent position behind the podium at the Waukesha rally. The reasoner working from memory alone reports, based on recollection of fact-checks, that the American flag was displayed and infers it was in that prominent position, with moderate confidence.
+
+Source URL: none -- retrieval returned no document
+
+### In the primary source video or images, is an "anti-Black Lives Matter" flag visible in the immediate area behind President Trump, and in what exact position relative to any American flags?
+Answer: There is no information or record showing an 'anti-Black Lives Matter' flag visible behind President Trump during the Waukesha campaign rally, and thus its position relative to any American flags cannot be determined.
+
+Source URL: https://www.gmtoday.com/the_freeman/news/thousands-line-up-outside-of-waukesha-trump-rally/article_95d1575e-1662-11eb-987f-2385b740a133.html
+
+### Did any official staging or signage at the Waukesha rally intentionally replace the American flag with an "anti-Black Lives Matter" flag?
+Answer: There is no record or evidence of official staging or signage at the Waukesha rally replacing the American flag with an 'anti-Black Lives Matter' flag.
+
+Source URL: https://www.shutterstock.com/editorial/image-editorial/10973522h
+
+## Your Judgement
+```
+
+# Claim 44
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Deliberately infecting children to COVID-19 at “pox parties” could be a good way to help create herd immunity against COVID-19 without a vaccine."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the consensus among major public health organizations (like the WHO and CDC) on the practice of deliberately infecting children with COVID-19 through "pox parties"?
+Answer: Public health organizations, including the WHO and CDC, broadly condemn the practice of deliberately infecting children with COVID-19 through 'pox parties,' viewing it as reckless and dangerous, and emphasize that vaccination is the preferred method for achieving herd immunity.
+
+Source URL: https://www.dailymail.co.uk/news/article-8868269/Controversial-pox-parties-used-build-immunity-Covid-19-scientist-says.html
+
+### Is there scientific evidence that deliberate mass infection of children is an effective strategy for achieving population-level herd immunity against COVID-19?
+Answer: There is no scientific evidence supporting deliberate mass infection of children as an effective or ethical strategy for achieving population-level herd immunity against COVID-19; scientific consensus and major health authorities condemn this approach as dangerous and unsupported.
+
+Source URL: https://www.cbsnews.com/boston/news/herd-immunity-coronavirus-pandemic-open-letter-lancet/
+
+### What are the documented risks of serious illness, hospitalization, and long-term health effects (such as Long COVID) in children who contract COVID-19?
+Answer: **CONFLICT.** The retrieved document states that risks for children include hospitalization, intensive care admission, and a rare but severe multisystem inflammatory syndrome (MIS-C) that can lead to multiorgan failure and shock. The reasoner working from memory alone, confident in its assessment, reports risks such as serious illness including pneumonia and respiratory failure, hospitalization at lower rates than adults, long-term effects like Long COVID (with symptoms such as fatigue and brain fog), and MIS-C.
+
+Source URL: https://www.who.int/news-room/commentaries/detail/multisystem-inflammatory-syndrome-in-children-and-adolescents-with-covid-19
+
+### How does the risk of severe outcomes from a natural COVID-19 infection in children compare to the risk profile of authorized COVID-19 vaccines for children?
+Answer: **CONFLICT.** The retrieved document states that it contains information on severe outcomes from natural COVID-19 infection in children but predates vaccine authorization, so it lacks any data on vaccine risks and cannot support a direct comparison. The reasoner, which is certain of its assessment based on internal knowledge, reports that the risk of severe outcomes from natural infection in children is higher compared to the risk profile of authorized COVID-19 vaccines for children, with vaccines having mostly mild side effects and significantly lowering the risk of severe illness.
+
+Source URL: https://info.primarycare.hms.harvard.edu/perspectives/articles/racial-disparity-mortality-covid-children
+
+### Can herd immunity against COVID-19 be reliably and safely achieved without widespread vaccination, based on current scientific understanding?
+Answer: Current scientific understanding holds that herd immunity against COVID-19 cannot be reliably or safely achieved without widespread vaccination, as it is considered a dangerous fallacy that would lead to unnecessary infections, suffering, and death.
+
+Source URL: https://www.nbcnews.com/health/health-news/covid-19-herd-immunity-backed-white-house-dangerous-fallacy-scientists-n1243415
+
+### Have any medical or scientific authorities endorsed "pox parties" or deliberate infection as a safe or ethical method for conferring immunity to COVID-19?
+Answer: No medical or scientific authorities have endorsed 'pox parties' or deliberate infection as a safe or ethical method for conferring immunity to COVID-19.
+
+Source URL: https://pubmed.ncbi.nlm.nih.gov/29070705/
+
+### What are the potential legal and child welfare implications of intentionally exposing children to a communicable disease like COVID-19?
+Answer: Intentionally exposing children to a communicable disease like COVID-19 could constitute child abuse or neglect, leading to legal consequences such as criminal charges or loss of custody, and poses significant child welfare risks due to the severe health dangers involved.
+
+Source URL: https://www.healthychildren.org/English/family-life/family-dynamics/types-of-families/Pages/Secondhand-Smoke-and-Child-Custody.aspx
+
+### How does the COVID-19 virus differ from diseases like chickenpox, for which "pox parties" were historically sometimes practiced, in terms of severity and available preventatives?
+Answer: COVID-19 differs from chickenpox in that it can cause severe illness across age groups, whereas chickenpox is typically mild in children; chickenpox has a safe and effective vaccine, but COVID-19 lacked a widely available vaccine during the relevant period, making deliberate infection a risky and medically inadvisable strategy.
+
+Source URL: https://www.who.int/news-room/commentaries/detail/multisystem-inflammatory-syndrome-in-children-and-adolescents-with-covid-19
+
+### What role do vaccines play in achieving herd immunity, and are they considered a more effective or safer method than natural infection for COVID-19?
+Answer: Vaccines are considered a safer and more effective method for achieving herd immunity against COVID-19 than natural infection, as they provide immunity with significantly lower risks of severe illness, hospitalization, and death; historical precedents with diseases like measles and polio support this, and intentional infection methods such as 'pox parties' are inadvisable due to the high risk of overwhelming hospitals and causing high mortality.
+
+Source URL: https://hub.jhu.edu/2020/04/30/herd-immunity-covid-19-coronavirus/
+
+### What are the potential consequences for the broader community, including immunocompromised individuals, of a strategy that relies on mass infection rather than vaccination?
+Answer: A strategy relying on mass infection rather than vaccination would overwhelm healthcare systems and lead to high death rates, particularly affecting vulnerable groups such as immunocompromised individuals.
+
+Source URL: https://hub.jhu.edu/2020/04/30/herd-immunity-covid-19-coronavirus/
+
+## Your Judgement
+```
+
+# Claim 45
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Cutting the umbilical cord straight away deliberately denies the baby natural immunity so that medical professionals have a reason to vaccinate and medicate them."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What are the current clinical guidelines from major medical organizations (like WHO, ACOG, AAP) regarding the timing of umbilical cord clamping for healthy newborns?
+Answer: **CONFLICT.** The retrieved documents state that the WHO recommends delayed cord clamping for 1-3 minutes after delivery, while ACOG only recommends delaying for preterm deliveries with immediate clamping within 30 seconds for full-term infants, and no information is provided on AAP. The reasoner, which is fairly confident in its memory, reports that WHO advises waiting 1-3 minutes, and that both ACOG and AAP recommend a delay of at least 30-60 seconds for healthy term and preterm newborns.
+
+Source URL: https://www.birthinjuryhelpcenter.org/delayed-cord-clamping.html
+
+### In a typical hospital delivery, what is the most common actual practice for the timing of umbilical cord clamping (e.g., within 30 seconds, after 1-3 minutes, after cord stops pulsing)?
+Answer: In typical hospital deliveries, the most common practice for umbilical cord clamping is delayed clamping, typically performed after at least 30 to 60 seconds or once the cord stops pulsating.
+
+Source URL: https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-is-delayed-cord-clamping
+
+### What volume of blood, known as 'placental transfusion,' is typically transferred to the newborn if cord clamping is delayed by 1-3 minutes compared to immediate clamping?
+Answer: **CONFLICT.** The retrieved document indicates that the Cochrane review does not specify a single typical volume for placental transfusion with a 1-3 minute delay in cord clamping, but cites a study reporting an average increase of 8.41 mL/kg in preterm infants. The reasoner, working from memory and fairly confident in its answer, reports that typically about 80-100 mL of blood is transferred under these conditions.
+
+Source URL: https://www.cpqcc.org/sites/default/files/DCC/DCC%20preterm%20cochrane%20review%202012.pdf
+
+### What specific components of "natural immunity," such as stem cells, red blood cells, or immune factors (e.g., antibodies), are present in the placental blood that could be transferred via delayed clamping?
+Answer: **CONFLICT.** The retrieved document indicates that delayed clamping transfers red blood cells and certain lymphocyte subgroups, but does not provide data on stem cells or specific immune factors like antibodies. The reasoner, which is highly certain of its answer, reports that placental blood contains hematopoietic stem cells, red blood cells, and antibodies such as IgG that can be transferred via delayed clamping.
+
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6408182/
+
+### Does scientific evidence show that delaying cord clamping leads to measurably improved immune function or reduced infection rates in newborns during the period before standard vaccinations are administered?
+Answer: Scientific evidence indicates that delayed cord clamping does not lead to measurably improved immune function or reduced infection rates in newborns during the pre-vaccination period; the well-documented benefits relate to increased iron stores and hematocrit levels, not immune outcomes.
+
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6408182/
+
+### Has any official medical policy statement, historical document, or published research cited the goal of justifying vaccination as a reason for recommending immediate cord clamping?
+Answer: No official medical policy statement, historical document, or published research cites justifying vaccination as a reason for recommending immediate cord clamping.
+
+Source URL: none -- retrieval returned no document
+
+### What are the documented medical benefits and potential risks associated with immediate versus delayed cord clamping, as reported in peer-reviewed studies and meta-analyses?
+Answer: Delayed cord clamping is documented to improve infant iron stores, reduce the risk of iron deficiency anemia, enhance hemoglobin levels and circulatory stability, and may offer neurodevelopmental benefits like better fine-motor skills, while carrying a small risk of increased jaundice and possible polycythemia; immediate cord clamping can lead to lower blood volume and iron reserves but is sometimes required in urgent medical situations.
+
+Source URL: https://www.cryo-cell.com/why-bank-stem-cells/the-banking-process/delayed-cord-clamping
+
+### Is the timing of the first recommended vaccination (e.g., Hepatitis B) in a newborn medically dependent on whether the umbilical cord was clamped immediately or with a delay?
+Answer: The timing of the first recommended vaccination in a newborn, such as Hepatitis B, is not medically dependent on whether the umbilical cord was clamped immediately or with a delay, as vaccination schedules are standardized independently of cord clamping practices.
+
+Source URL: https://www.healthline.com/health/pregnancy/delayed-cord-clamping
+
+### How do experts in neonatology and obstetrics publicly characterize or respond to the claim that immediate cord clamping is a deliberate act to deny immunity and promote medication?
+Answer: There is no documented record of experts in neonatology or obstetrics publicly characterizing or responding to the claim that immediate cord clamping is a deliberate act to deny babies immunity in order to justify vaccination or medication; the available professional guidance on cord clamping does not address motivations behind immediate clamping or rebut the specific conspiracy framing.
+
+Source URL: https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-is-delayed-cord-clamping
+
+### Are there any historical or legal records indicating that the standard practice of cord clamping was established with the explicit intention of creating a market for or dependency on childhood vaccines?
+Answer: No historical or legal records indicate that the standard practice of cord clamping was established with the explicit intention of creating a market for or dependency on childhood vaccines. Instead, early clamping became common in the 1960s and 1970s due to a mistaken belief that it helped reduce the risk of postpartum bleeding.
+
+Source URL: https://myexpertmidwife.com/blogs/my-expert-midwife/delayed-cord-clamping
+
+## Your Judgement
+```
+
+# Claim 46
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The umbilical cord should not be cut until 1 hour after birth or they baby will not have enough blood right after birth."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the current consensus among major global health organizations (like WHO, ACOG, AAP) regarding the optimal timing for umbilical cord clamping in healthy newborns?
+Answer: The current consensus among major global health organizations is to delay umbilical cord clamping in healthy newborns for at least 30 seconds to a few minutes after birth, with ACOG recommending 30-60 seconds, WHO at least one minute, and AAP a similar stance, to enhance benefits such as increased iron stores and transfer of blood, stem cells, and antibodies.
+
+Source URL: https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-is-delayed-cord-clamping
+
+### What scientific evidence supports delaying umbilical cord clamping for approximately one minute (or longer) after birth?
+Answer: Scientific evidence supports delaying umbilical cord clamping for at least 30 to 60 seconds or longer, as recommended by organizations such as ACOG and WHO, to allow transfer of blood, iron, stem cells, and antibodies, which can improve newborn blood volume, hemoglobin levels, and iron stores, reducing the risk of iron deficiency anemia.
+
+Source URL: https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-is-delayed-cord-clamping
+
+### Is there any recognized medical guideline or robust clinical trial that specifically recommends a one-hour delay before cutting the umbilical cord?
+Answer: There is no recognized medical guideline or robust clinical trial that specifically recommends a one-hour delay before cutting the umbilical cord; guidelines recommend delays of 30 seconds to 3 minutes.
+
+Source URL: https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-is-delayed-cord-clamping
+
+### What is the known mechanism of placental transfusion and how does delayed cord clamping affect the newborn's blood volume and iron stores?
+Answer: Placental transfusion is the process where blood continues to flow from the placenta to the newborn through the umbilical cord after birth, increasing the newborn's blood volume and iron stores, which helps prevent iron deficiency anemia.
+
+Source URL: https://www.cpqcc.org/sites/default/files/DCC/DCC%20preterm%20cochrane%20review%202012.pdf
+
+### At what time point after birth does placental transfusion typically cease or become negligible?
+Answer: Placental transfusion typically ceases or becomes negligible at approximately 140 seconds to a few minutes after birth.
+
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687772/
+
+### What are the documented benefits and potential risks of delaying cord clamping for 1-3 minutes as per current standard practice?
+Answer: Delaying cord clamping for 1-3 minutes is documented to increase neonatal blood volume and iron stores, supporting brain development and reducing the risk of iron deficiency anemia, with potential risks including infant jaundice and, with mixed evidence, polycythemia.
+
+Source URL: https://www.birthinjuryhelpcenter.org/delayed-cord-clamping.html
+
+### What are the documented benefits and potential risks of delaying cord clamping for an extended period like one hour?
+Answer: Standard delayed cord clamping for 1 to 5 minutes is associated with benefits such as increased infant blood volume, improved iron stores, and enhanced brain development, with risks including jaundice and polycythemia; however, delaying for one hour is not a recommended practice and lacks specific documentation in medical literature.
+
+Source URL: https://www.birthinjuryhelpcenter.org/delayed-cord-clamping.html
+
+### Are there specific medical conditions in the mother or newborn (e.g., preterm birth, maternal hemorrhage, need for resuscitation) that would make immediate cord clamping medically necessary?
+Answer: **CONFLICT.** The retrieved document states that specific conditions such as placental abruption, bleeding placenta previa, bleeding vasa previa, cord avulsion, recipient twin in twin-to-twin transfusion syndrome, and congenital heart disease with need for immediate intubation make immediate cord clamping medically necessary, and notes that there is insufficient evidence to recommend an approach for newborns who require resuscitation at birth. The reasoner, which is certain of its answer based on memory, reports that conditions like preterm birth requiring immediate resuscitation, maternal hemorrhage, fetal distress, placental abruption, or other emergencies make immediate cord clamping necessary.
+
+Source URL: https://www.cpqcc.org/sites/default/files/Delayed%20Cord%20Clamping%20Guidelines%202.3.16.pdf
+
+### How is "enough blood" defined in neonatal medicine, and what is the evidence linking cord clamping timing to clinically significant blood volume deficits?
+Answer: **CONFLICT.** The retrieved document states that 'enough blood' in neonatal medicine is clinically defined by adequate cardiac output and hemodynamic stability to prevent complications, not by a strict volume threshold, and evidence from a study on preterm lambs indicates that increasing blood volume alone is insufficient to maintain cardiac output, with ventilation of the lungs being key to sustaining oxygenation. The reasoner, which has no recollection of a standard definition but is fairly confident in its inference from adjacent knowledge, infers that 'enough blood' refers to sufficient blood volume to avoid hypovolemia or anemia, assessed via clinical signs and hemoglobin levels, and recalls evidence that delayed cord clamping for 30 seconds to 3 minutes increases blood volume and reduces deficits, though it is not aware of evidence supporting a one-hour delay.
+
+Source URL: https://www.frontiersin.org/articles/10.3389/fped.2019.00405
+
+### Has the practice of delaying cord cutting for as long as one hour been studied, and if so, what were the findings regarding safety and neonatal outcomes?
+Answer: No studies have been conducted or recorded on delaying cord cutting for as long as one hour. Delayed cord clamping is typically studied and recommended for shorter periods, such as 1 to 3 minutes, with evidence indicating safety and positive neonatal outcomes.
+
+Source URL: https://parentingpatch.com/delayed-cord-clamping-two-minutes-results-better-immediate-newborn-outcomes/
+
+## Your Judgement
+```
+
+# Claim 48
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "99% of people recover from COVID-19."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the original source and publication date of the claim "99% of people recover from COVID-19"?
+Answer: **CONFLICT.** The retrieved document states that the claim '99% of people recover from COVID-19' originates from a Harvard Health Blog post titled 'The coronavirus pandemic is not good, but the news is not all bad,' authored by Robert H. Shmerling, MD, and published on March 19, 2020. The reasoner working from memory alone reports that it has no record of any specific original source or publication date for this claim, and is not confident in its own assessment.
+
+Source URL: https://www.health.harvard.edu/blog/the-coronavirus-pandemic-is-not-good-but-the-news-is-not-all-bad-2020031919247
+
+### What is the definition of "recovery" used in the context of this 99% claim?
+Answer: The definition of 'recovery' used in the 99% claim is not specified in the sources.
+
+Source URL: https://elemental.medium.com/how-to-help-your-body-and-immune-system-recover-from-covid-19-9758c37eab06
+
+### What population group is represented by "people" in this 99% claim (e.g., global, by country, by vaccination status, by age)?
+Answer: The 'people' in the 99% claim represents a global population, as the figure is derived from worldwide COVID-19 data comparing recovery and fatality rates across countries of varying income levels.
+
+Source URL: https://www.authorea.com/users/311749/articles/465344-case-fatality-and-recovery-rates-of-covid-19-outbreak-comparison-between-high-middle-and-low-income-countries
+
+### What is the current case fatality rate (CFR) or infection fatality rate (IFR) for COVID-19 according to major health organizations like the WHO or CDC?
+Answer: The infection fatality rate (IFR) for COVID-19 is estimated to be between 0.1% and 1%, with considerable variability, and the case fatality rate (CFR) is higher and more dependent on testing strategies and demographics.
+
+Source URL: https://www.cebm.net/covid-19/global-covid-19-case-fatality-rates/
+
+### What percentage of COVID-19 cases are reported to result in long-term health effects (Long COVID) according to peer-reviewed studies?
+Answer: **CONFLICT.** The retrieved document states that no specific overall percentage is provided for all COVID-19 cases resulting in Long COVID, but it reports that up to half of ICU patients may have persistent physical, cognitive, and psychological impairments, and around 30% of ICU patients may have long-term pulmonary damage. The reasoner working from memory alone, which has no record of any specific percentage and is close to guessing in this assessment, reports that it has no knowledge of any such percentage.
+
+Source URL: https://www1.racgp.org.au/newsgp/clinical/what-are-the-long-term-health-risks-post-covid-19
+
+### Have any peer-reviewed studies or official health reports explicitly calculated a 99% recovery rate, and if so, what were their precise methodology and findings?
+Answer: No peer-reviewed studies or official health reports have been found to explicitly calculate a 99% recovery rate for COVID-19.
+
+Source URL: https://pubmed.ncbi.nlm.nih.gov/32437052/
+
+### Does the claimed 99% recovery rate align with or contradict the aggregated data on COVID-19 mortality and morbidity from global or national public health agencies?
+Answer: The claimed 99% recovery rate from COVID-19 is contradicted by aggregated data from public health agencies, which show recovery rates varying and generally lower than 99%, with case fatality rates above 1%.
+
+Source URL: https://www.visualcapitalist.com/the-road-to-recovery-which-economies-are-reopening-covid-19/
+
+### Has the meaning of "recovery" from COVID-19 been formally defined by any major health authority, and does it account for persistent symptoms?
+Answer: Major health authorities, such as the U.S. Centers for Disease Control and Prevention, have formally defined recovery from COVID-19, but these definitions do not account for persistent symptoms; persistent symptoms are instead addressed in separate clinical guidelines for post-COVID conditions like long COVID.
+
+Source URL: https://elemental.medium.com/how-to-help-your-body-and-immune-system-recover-from-covid-19-9758c37eab06
+
+## Your Judgement
+```
+
+# Claim 49
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The US saw the best carbon emission numbers in 35 years under President Donald Trump's administration."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### According to primary data from sources like the U.S. Energy Information Administration (EIA), what were the annual U.S. energy-related carbon dioxide emissions each year from 1985 through 2020?
+Answer: The annual U.S. energy-related carbon dioxide emissions data for each year from 1985 through 2020 is not available from primary sources like the U.S. Energy Information Administration in the provided context.
+
+Source URL: https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
+
+### What specific carbon emission metric (e.g., total annual emissions, emissions intensity per dollar of GDP, or year-over-year percentage change) is most accurately used to evaluate the claim of the "best" numbers in 35 years?
+Answer: The most accurate metric to evaluate the claim of 'best' carbon emission numbers in 35 years is total annual U.S. emissions (absolute levels), as it directly reflects whether emissions reached a historic low over the specified period, unlike metrics such as emissions intensity per GDP or year-over-year percentage changes.
+
+Source URL: https://www.epa.gov/newsreleases/latest-inventory-us-greenhouse-gas-emissions-and-sinks-shows-long-term-reductions
+
+### During which specific year within Donald Trump's presidency (2017-2020) were U.S. carbon emissions at their lowest point in the comparison period, and what was the precise figure?
+Answer: **CONFLICT.** The retrieved documents state that U.S. greenhouse gas emissions saw a reduction of 2.1% in 2019 compared to the prior year, but do not provide the absolute figure or confirm that 2019 was the lowest point in the 2017-2020 period; the reasoner working from memory alone reports no knowledge of the specific year or precise figure for the lowest emissions during Trump's presidency and infers that 2020 was likely the year with the lowest emissions due to the COVID-19 pandemic, with fairly high confidence in this inference.
+
+Source URL: https://www.aei.org/op-eds/us-emissions-are-falling-under-trump-thanks-to-frackings-war-on-coal/
+
+### What was the 35-year trend in U.S. carbon emissions before Donald Trump took office in January 2017, and how did the trajectory change or continue during his term?
+Answer: **CONFLICT.** The retrieved documents state that before Donald Trump took office in January 2017, U.S. energy-related carbon dioxide emissions were on a multi-year downward trend, with 2016 emissions 14% below their 2005 level, but the source data ends in 2016 and does not address Trump's administration. The reasoner, working from memory and highly confident in its recall, reports that the general downward trajectory largely continued during Trump's term with minor fluctuations—a slight uptick in 2018 and decline in 2019—before a sharp drop in 2020 that was primarily driven by the COVID-19 pandemic's impact on economic activity and travel.
+
+Source URL: https://www.eia.gov/todayinenergy/detail.php?id=30712
+
+### How did the U.S. carbon emission figures during the Trump administration compare to those during the presidency of Barack Obama, particularly in the years immediately preceding 2017?
+Answer: U.S. carbon emissions decreased by 11% over President Obama's eight years in office, and over President Trump's first three years through 2019, they fell by 0.5%, reflecting a slower rate of decline compared to Obama's tenure.
+
+Source URL: https://www.climatechangenews.com/2020/10/06/us-emissions-four-years-president-trump/
+
+### What major economic events or market shifts, such as the COVID-19 pandemic or the continued decline of coal and rise of natural gas/renewables, occurred during 2017-2020 and independently affected carbon emissions?
+Answer: During the 2017-2020 period, carbon emissions were independently affected by the COVID-19 pandemic, which caused a reduction in energy consumption and industrial activity, and by the continued market shift in the electric power sector from coal toward natural gas and renewable energy sources.
+
+Source URL: https://www.c2es.org/content/u-s-emissions/
+
+### Which specific federal policies enacted or actions taken by the Trump administration are documented by experts as having a direct, measurable impact—either positive or negative—on U.S. carbon emissions?
+Answer: **CONFLICT.** The retrieved document states that a Climate Advisers analysis documents specific Trump administration policies, such as repealing the Clean Power Plan and methane rules, as having a direct, projected impact on U.S. carbon emissions. The reasoner, which has no record of any specific federal policies being documented by experts for a measurable impact and is close to guessing on this point, reports that it has no knowledge of such documentation.
+
+Source URL: https://insideclimatenews.org/news/25042017/donald-trump-climate-change-clean-power-plan-paris-agreement/
+
+### How do analyses from independent scientific or research organizations (e.g., Rhodium Group, International Energy Agency) attribute the changes in U.S. emissions during this period to different factors like policy, economics, and technology?
+Answer: **CONFLICT.** The retrieved document states that the Rhodium Group analysis attributes changes in U.S. emissions during the Trump administration primarily to market and economic factors, with policy playing a secondary role, and notes that the pace of decline slowed due to a lack of federal climate policy. The reasoner working from memory alone has no recollection of specific analyses from the Rhodium Group or International Energy Agency, but from adjacent knowledge infers that economic and technological factors were primary drivers, with policy changes less direct, based on general trends rather than specific reports, and is near the bottom of its certainty range, close to guessing.
+
+Source URL: https://rhg.com/research/preliminary-us-emissions-estimates-for-2018/
+
+### Does the claim hold true if considering only the pre-pandemic years of the Trump administration (2017-2019), excluding the sharp, temporary drop in emissions due to reduced economic activity in 2020?
+Answer: The claim is not true for the pre-pandemic years (2017-2019). U.S. carbon emissions in 2019 were the lowest since 1992, representing a 27-year low rather than 35 years. Under the Trump administration, emissions reductions slowed compared to the Obama era, with a rebound in 2018 and only a 0.5% cumulative decline over the first three years.
+
+Source URL: https://www.climatechangenews.com/2020/10/06/us-emissions-four-years-president-trump/
+
+### What is the consensus among climate and policy experts regarding whether the emission trends during 2017-2020 represent a sustained improvement or a temporary fluctuation within the long-term climate challenge?
+Answer: Climate and policy experts broadly agree that the U.S. emission trends during 2017-2020 represent a temporary fluctuation, not a sustained improvement, within the context of the long-term climate challenge.
+
+Source URL: http://www.globalchange.gov/indicators/atmospheric-carbon-dioxide
+
+## Your Judgement
+```
+
+# Claim 51
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "People who do not vote for the Bharatiya Janata Party (BJP) in the 2020 elections will not get the COVID vaccine free of cost."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did any legislative assembly election in India involving the Bharatiya Janata Party (BJP) take place in the year 2020?
+Answer: Yes, legislative assembly elections involving the Bharatiya Janata Party (BJP) took place in India in 2020, including the Delhi state election on February 8, 2020, and the Bihar state election in October–November 2020.
+
+Source URL: https://en.wikipedia.org/wiki/2020_Delhi_Legislative_Assembly_election
+
+### When did the national COVID-19 vaccination program begin in India?
+Answer: **CONFLICT.** The retrieved document states that there is no record of when the national COVID-19 vaccination program began in India. The reasoner, working from memory alone and certain of its accuracy, reports that the program began on January 16, 2021.
+
+Source URL: none -- retrieval returned no document
+
+### Was the COVID-19 vaccine widely available to the general public in India before or during the year 2020?
+Answer: No, the COVID-19 vaccine was not widely available to the general public in India before or during the year 2020.
+
+Source URL: https://www.orfonline.org/research/covid19-vaccine-development-access-and-distribution-in-the-indian-context-69538
+
+### Was there any official statement or announcement by the Bharatiya Janata Party (BJP) or the Indian government in 2020 that conditioned free COVID-19 vaccines on voting for the BJP?
+Answer: There was no official statement or announcement by the Bharatiya Janata Party (BJP) or the Indian government in 2020 that conditioned free COVID-19 vaccines on voting for the BJP; the BJP's promise was to provide free vaccines to all residents of Bihar as part of its election manifesto.
+
+Source URL: https://www.thehindubusinessline.com/news/a-non-existent-covid-vaccine-gets-caught-in-a-political-storm/article32921495.ece
+
+### Was there any official government policy or law enacted in India that made free COVID-19 vaccination contingent upon a person's voting record or political affiliation?
+Answer: No, there was no official government policy or law enacted in India that made free COVID-19 vaccination contingent upon a person's voting record or political affiliation.
+
+Source URL: https://www.thequint.com/coronavirus/covid-vaccine-free-tamil-nadu-cm-edappadi-palaniswami-one-third-chennai-serosurvey
+
+### Did any prominent leader or official of the Bharatiya Janata Party (BJP) make a public statement in 2020 linking the distribution of free COVID-19 vaccines to electoral support for the BJP?
+Answer: Yes, during the 2020 Bihar state election campaign, BJP leaders, including Union Finance Minister Nirmala Sitharaman, linked the distribution of free COVID-19 vaccines to electoral support for the BJP by promising the vaccine if the party won.
+
+Source URL: https://www.newsclick.in/Bihar-Elections-BJP-Promises-Free-COVID-19-Vaccines-Opposition-%23-VaccinePolitics
+
+### Was the claim that "people who do not vote for the BJP will not get the free COVID vaccine" a verified news report or a fact-checked misinformation item?
+Answer: **CONFLICT.** The retrieved document states that the claim was discussed in an opinion article by India TV, characterizing it as political commentary rather than a verified news report or a fact-checked misinformation item. The reasoner working from memory alone, which has no recollection of the claim being a verified news story and infers with moderate confidence, reports that it was a fact-checked misinformation item based on adjacent knowledge of BJP's vaccine promise and subsequent fact-checks.
+
+Source URL: https://www.indiatvnews.com/opinion/news-bihar-election-2020-poll-promises-jobs-development-standards-of-living-bjp-rjd-jdu-ljp-pm-modi-659069
+
+### Did any opposition political party in India formally allege or present evidence that the BJP was distributing vaccines based on voting patterns in the 2020 elections?
+Answer: There is no record of any opposition political party in India formally alleging or presenting evidence that the BJP was distributing vaccines based on voting patterns in the 2020 elections.
+
+Source URL: https://www.thehindubusinessline.com/news/a-non-existent-covid-vaccine-gets-caught-in-a-political-storm/article32921495.ece
+
+### Was there any documented instance where an individual in India was denied a free COVID-19 vaccine due to their known political voting preference?
+Answer: **CONFLICT.** The document-store fact-checker states that the request was rejected because it was considered high risk, and thus did not retrieve any documents on the claim. The internal-knowledge reasoner, which is close to guessing in this assessment, reports that it has no record of any documented instance where an individual in India was denied a free COVID-19 vaccine due to their known political voting preference.
+
+Source URL: https://www.thehindubusinessline.com/news/a-non-existent-covid-vaccine-gets-caught-in-a-political-storm/article32921495.ece
+
+## Your Judgement
+```
+
+# Claim 52
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "President Ferdinand Marcos and Dr. Jose Rizal established and founded the WORLD BANK and International Monetary Fund."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### When were the World Bank and the International Monetary Fund (IMF) officially established, and at what specific event or conference did this occur?
+Answer: The World Bank and the International Monetary Fund (IMF) were established at the United Nations Monetary and Financial Conference, known as the Bretton Woods conference, which convened in July 1944.
+
+Source URL: https://www.nhpr.org/the-exchange/2019-07-08/75-years-ago-n-h-s-bretton-woods-conference-reshaped-world-economic-policy
+
+### On what date did Dr. Jose Rizal die, and what were the circumstances of his death?
+Answer: Dr. Jose Rizal was executed on December 30, 1896, at Bagumbayan (now Luneta Park) in Manila by a firing squad, after being convicted by a Spanish military court for rebellion, sedition, and conspiracy; he wrote the farewell poem 'Mi Ultimo Adios' before his death.
+
+Source URL: https://www.reddit.com/r/Philippines/comments/ei247v/i_saw_rizal_die/
+
+### On what date was Ferdinand Marcos born, and what was his age and primary occupation in July 1944?
+Answer: Ferdinand Marcos was born on September 11, 1917, and in July 1944 he was 26 years old. During World War II, he was involved in military service, claiming leadership of the Ang Maharlika guerrilla force.
+
+Source URL: https://simple.wikipedia.org/wiki/Ferdinand_Marcos
+
+### What was the political status and governing authority of the Philippines during the year 1944?
+Answer: **CONFLICT.** The retrieved document states that the Philippines was under Japanese military occupation in 1944, with a Japanese 'republic' established under Japanese Imperial Army rule and an active guerrilla movement resisting until Allied forces defeated the Japanese. The reasoner, which is certain of its assessment, reports that the legitimate political status and governing authority rested with the Philippine Commonwealth government in exile, operating under United States sovereignty and recognized by the Allied forces.
+
+Source URL: https://constitutionnet.org/country/philippines
+
+### Which nations and delegates are documented as having participated in the 1944 Bretton Woods Conference that founded the World Bank and IMF?
+Answer: The 1944 Bretton Woods Conference, which founded the World Bank and IMF, was attended by delegates from 44 Allied and socialist nations, including the United States, United Kingdom, France, China, and the Soviet Union.
+
+Source URL: https://www.nhpr.org/the-exchange/2019-07-08/75-years-ago-n-h-s-bretton-woods-conference-reshaped-world-economic-policy
+
+### Do the official founding documents or charter of the World Bank list Ferdinand Marcos or Jose Rizal as a signatory, founder, or member of its initial negotiating team?
+Answer: The official founding documents of the World Bank do not list Ferdinand Marcos or Jose Rizal as a signatory, founder, or member of its initial negotiating team; the World Bank was established in 1944 at the Bretton Woods Conference, and historical records show no involvement of Marcos or Rizal due to the timeline of their lives and political careers.
+
+Source URL: https://corporatefinanceinstitute.com/resources/economics/bretton-woods-agreement/
+
+### Do the official founding documents or charter of the International Monetary Fund (IMF) list Ferdinand Marcos or Jose Rizal as a signatory, founder, or member of its initial negotiating team?
+Answer: The official founding documents of the International Monetary Fund, such as the Articles of Agreement signed in 1944, do not list Ferdinand Marcos or Jose Rizal as signatories, founders, or members of its initial negotiating team, as Jose Rizal died in 1896 and Ferdinand Marcos was not active in international negotiations at that time.
+
+Source URL: https://www.imf.org/external/pubs/ft/aa/pdf/aa.pdf
+
+### Did Ferdinand Marcos ever hold a diplomatic or governmental position that would have allowed him to represent the Philippines at an international economic conference prior to or during 1944?
+Answer: Ferdinand Marcos did not hold a diplomatic or governmental position that would have allowed him to represent the Philippines at an international economic conference prior to or during 1944.
+
+Source URL: https://kids.britannica.com/students/article/Ferdinand-E-Marcos/275688
+
+### Is there any reputable historical scholarship or primary source that credits Ferdinand Marcos with a foundational role in the creation of the World Bank or IMF?
+Answer: No, there is no reputable historical scholarship or primary source that credits Ferdinand Marcos with a foundational role in the creation of the World Bank or IMF. Both institutions were founded at the 1944 Bretton Woods Conference, and Marcos was not involved in their establishment.
+
+Source URL: http://www.cadtm.org/The-World-Bank-and-the-Philippines
+
+### Is there any reputable historical scholarship or primary source that credits Dr. Jose Rizal with a foundational role in the creation of the World Bank or IMF, considering his death occurred nearly fifty years prior to their establishment?
+Answer: No reputable historical scholarship or primary source credits Dr. Jose Rizal with a foundational role in the creation of the World Bank or International Monetary Fund.
+
+Source URL: https://www.encyclopedia.com/people/history/philippines-history-biographies/jose-rizal
+
+## Your Judgement
+```
+
+# Claim 53
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The FBI is in possession of the president of the US's son  Hunter Biden's laptop."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did the Federal Bureau of Investigation (FBI) officially confirm that it took possession of a laptop computer allegedly belonging to Hunter Biden?
+Answer: The FBI did not officially confirm taking possession of a laptop allegedly belonging to Hunter Biden; it declined to confirm or deny the existence of an investigation and stated it had 'nothing to add.'
+
+Source URL: https://www.foxnews.com/politics/fbi-purported-hunter-biden-laptop-sources
+
+### On what specific date or during what period did the FBI take possession of the laptop in question?
+Answer: The FBI took possession of the laptop by at least December 2019, as evidenced by a subpoena to the repair shop owner dated December 9, 2019, and FBI documentation confirming the laptop and hard drive were taken into possession.
+
+Source URL: https://www.foxnews.com/politics/fbi-purported-hunter-biden-laptop-sources
+
+### From whom or from what location did the FBI originally obtain the laptop?
+Answer: The FBI originally obtained Hunter Biden's laptop from John Paul Mac Isaac, the owner of a computer repair shop in Wilmington, Delaware, who reported the laptop's contents to authorities.
+
+Source URL: https://www.foxnews.com/politics/fbi-purported-hunter-biden-laptop-sources
+
+### What is the chain of custody documentation that traces the laptop's path from its origin to the FBI's possession?
+Answer: **CONFLICT.** The document store shows an FBI 'Receipt for Property' form detailing interactions with John Paul Mac Isaac as part of a 2019 subpoena, though it does not trace a complete chain of custody. The reasoner, working from memory alone and having no record of any such documentation, reports no knowledge of chain of custody records, with low confidence in this assessment.
+
+Source URL: https://nypost.com/2020/10/21/hunter-biden-laptop-linked-to-fbi-money-laundering-probe-report/
+
+### Has the FBI or any independent digital forensics expert authenticated the laptop and its contents as genuinely belonging to Hunter Biden?
+Answer: The FBI has investigated the laptop, but neither the FBI nor independent digital forensics experts have explicitly authenticated the laptop and its contents as genuinely belonging to Hunter Biden; while a law enforcement official has stated that the emails are 'authentic,' official confirmation of ownership is not established.
+
+Source URL: https://news.yahoo.com/hunter-biden-purported-laptop-connected-120252142.html
+
+### Does the FBI hold the laptop as evidence in an active, ongoing criminal investigation?
+Answer: **CONFLICT.** The retrieved document states that it is unknown whether the FBI's money laundering investigation related to Hunter Biden's laptop is active and ongoing. The reasoner, which is highly confident in its assessment, reports that the FBI holds the laptop as evidence in an active, ongoing criminal investigation.
+
+Source URL: https://news.yahoo.com/hunter-biden-purported-laptop-connected-120252142.html
+
+### If the FBI has the laptop, what is the official legal or procedural reason for its retention (e.g., as evidence, for examination)?
+Answer: **CONFLICT.** The retrieved document states that the FBI retained the laptop as part of a counterintelligence investigation into possible foreign disinformation, seeking to determine whether the materials originated from or were part of a Russian disinformation effort. The reasoner, working from memory alone, has no direct recollection of the FBI stating a specific official reason for retention; it recalls that the laptop was obtained in late 2019 and that a federal investigation into Hunter Biden was underway, and reports with considerable confidence that the laptop was retained as evidence in connection with that ongoing federal criminal investigation into his tax affairs.
+
+Source URL: https://www.thedailybeast.com/fbi-examining-hunter-bidens-laptop-as-foreign-op-contradicting-john-ratcliffe-trumps-intel-czar
+
+### Has any statement from Hunter Biden or his legal representatives confirmed or denied that the laptop was his property?
+Answer: **CONFLICT.** The retrieved documents state that there is no statement from Hunter Biden or his legal representatives explicitly confirming or denying that the laptop was his property. The reasoner, which is near-certain based on internal knowledge, reports that Hunter Biden and his legal representatives have made statements addressing the laptop's ownership, with Hunter Biden indicating it could be his but not confirming it definitively, and his representatives often denying aspects of the story or questioning its provenance.
+
+Source URL: https://news.yahoo.com/hunter-biden-purported-laptop-connected-120252142.html
+
+### Have any official reports, affidavits, or court documents from law enforcement or judicial proceedings confirmed the FBI's custody of the Hunter Biden laptop?
+Answer: Official reports, affidavits, or court documents from law enforcement or judicial proceedings have confirmed the FBI's custody of Hunter Biden's laptop.
+
+Source URL: https://www.dailymail.co.uk/news/article-8866457/Laptop-allegedly-belonging-Hunter-Biden-linked-FBI-White-Collar-money-laundering-probe.html
+
+### Are there any known legal challenges or appeals regarding the FBI's seizure or retention of this specific laptop?
+Answer: There are no known legal challenges or appeals regarding the FBI's seizure or retention of Hunter Biden's laptop.
+
+Source URL: https://nypost.com/2020/10/21/hunter-biden-laptop-linked-to-fbi-money-laundering-probe-report/
+
+## Your Judgement
+```
+
+# Claim 54
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "India’s imports from China increased by 27% in April-August 2020"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the official source for data on India's imports from China for the period of April to August 2020?
+Answer: **CONFLICT.** The retrieved document states that the official source for India's imports from China data for April-August 2020 is information provided in Parliament by India's Commerce and Industry Minister Piyush Goyal. The reasoner working from memory alone reports that it has no recollection of the specific official source for that period but infers with moderate confidence that the data would most likely be from the Ministry of Commerce and Industry or the Directorate General of Commercial Intelligence and Statistics.
+
+Source URL: https://timesofindia.indiatimes.com/business/india-business/indias-imports-from-china-dip-27-63-during-april-august-piyush-goyal/articleshow/78237856.cms
+
+### According to the official source, what was the total value of India's imports from China for the period April to August 2020?
+Answer: **CONFLICT.** The retrieved document states that the total value of India's imports from China for April to August 2020 was $21.58 billion. The reasoner working from memory alone, with little confidence in its assessment, reports that it has no knowledge of this total value.
+
+Source URL: https://timesofindia.indiatimes.com/business/india-business/indias-imports-from-china-dip-27-63-during-april-august-piyush-goyal/articleshow/78237856.cms
+
+### According to the official source, what was the total value of India's imports from China for the baseline period of April to August 2019?
+Answer: **CONFLICT.** The retrieved document states that the total value of India's imports from China for April-August 2019 was approximately $29.8 billion. The reasoner, working from memory alone and having no record of this value with low certainty, reports that it has no information on the total value.
+
+Source URL: https://timesofindia.indiatimes.com/business/india-business/indias-imports-from-china-dip-27-63-during-april-august-piyush-goyal/articleshow/78237856.cms
+
+### Using the official data for the total values in both periods, what is the calculated percentage increase from April-August 2019 to April-August 2020?
+Answer: **CONFLICT.** The retrieved document states that India's imports from China were $29.82 billion in April-August 2019 and $21.58 billion in April-August 2020, resulting in a decline of 27.63%. The reasoner working from memory alone reports that it has no record of the official data for these periods and is nearly certain that it cannot calculate the percentage increase.
+
+Source URL: https://timesofindia.indiatimes.com/business/india-business/indias-imports-from-china-dip-27-63-during-april-august-piyush-goyal/articleshow/78237856.cms
+
+### Does the 27% figure refer to the percentage increase in the monetary value of imports, or in the physical volume of imports?
+Answer: **CONFLICT.** The retrieved document states that the 27% figure refers to the percentage change in monetary value, with India's imports from China declining by 27.63% to USD 21.58 billion during April-August 2020-21. The reasoner, which is close to guessing on this matter, reports that it has no record of any 27% increase in India's imports from China in April-August 2020 and cannot determine what the figure refers to.
+
+Source URL: https://www.oneindia.com/fact-check/fake-india-s-import-to-china-has-not-increased-by-27-per-cent-3165856.html
+
+### If the figure is based on monetary value, in which currency (e.g., US Dollars, Indian Rupees) is it measured?
+Answer: The monetary value of India's imports from China for the April-August 2020 period is denominated in US Dollars.
+
+Source URL: https://timesofindia.indiatimes.com/business/india-business/indias-imports-from-china-dip-27-63-during-april-august-piyush-goyal/articleshow/78237856.cms
+
+### Were there any significant changes in India's import reporting methodology or classification system between 2019 and 2020 that could affect year-on-year comparisons?
+Answer: There is no documented or recalled evidence of significant changes in India's import reporting methodology or classification system between 2019 and 2020.
+
+Source URL: none -- retrieval returned no document
+
+### Did the COVID-19 pandemic and associated lockdowns significantly disrupt India's normal trade flows with China during the first half of 2020, potentially affecting the baseline period (April-August 2019) or the period in question?
+Answer: The COVID-19 pandemic significantly disrupted India's normal trade flows with China during the first half of 2020, as indicated by a decline in imports.
+
+Source URL: https://timesofindia.indiatimes.com/business/india-business/indias-imports-from-china-dip-27-63-during-april-august-piyush-goyal/articleshow/78237856.cms
+
+### Were there any major new trade agreements, tariff changes, or import restrictions implemented by India specifically concerning Chinese goods between August 2019 and August 2020?
+Answer: **CONFLICT.** The retrieved document states that based on its search result, there is no information detailing any specific new trade agreements, tariff changes, or import restrictions implemented by India concerning Chinese goods between August 2019 and August 2020. The reasoner working from memory alone reports with moderate confidence that India did implement major import restrictions during this period, including revisions to FDI norms in April 2020 requiring government approval for investments from land-border sharing countries and the banning of multiple Chinese apps starting in June 2020.
+
+Source URL: https://www.oneindia.com/fact-check/fake-india-s-import-to-china-has-not-increased-by-27-per-cent-3165856.html
+
+### Have official statistical agencies or reputable economic research organizations published analyses that confirm or dispute the 27% growth figure for this specific period?
+Answer: **CONFLICT.** The retrieved document states that official statistical agencies have published analyses disputing the 27% growth, with the government's PIB Fact Check labeling the claim as fake and indicating a 27.63% decrease in imports during April-August 2020, as confirmed by data presented to Parliament. The reasoner, which has no record of any analyses confirming or disputing the figure and is close to guessing in this assessment, reports that it has no knowledge of such analyses.
+
+Source URL: https://www.oneindia.com/fact-check/fake-india-s-import-to-china-has-not-increased-by-27-per-cent-3165856.html
+
+## Your Judgement
+```
+
+# Claim 55
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Generally the deaths from Covid-19 are still pretty flat because we've flattened the curve."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Over what specific time period is the claim that Covid-19 deaths have been "flat" intended to apply?
+Answer: **CONFLICT.** The retrieved documents state that the claim about Covid-19 deaths being 'flat' refers specifically to the past two days as of April 6, 2020, based on New York Governor Andrew Cuomo's statement. The reasoner working from memory alone reports having no record of this specific claim or the time period it intends to cover, and is near the bottom of its certainty range on this point.
+
+Source URL: https://www.nbcnews.com/news/us-news/new-york-coronavirus-deaths-effectively-flat-u-s-braces-peak-n1177626
+
+### 2. For which specific country, region, or administrative area is the claim about flat Covid-19 deaths being made?
+Answer: **CONFLICT.** The retrieved document states that the claim is being made for Germany, citing a study analyzing COVID-19 infections across German counties. The reasoner, working from memory alone and with low confidence in this assessment, reports that the claim does not specify any particular country, region, or administrative area.
+
+Source URL: https://www.medrxiv.org/content/10.1101/2020.05.14.20101667v3.full
+
+### 3. According to official mortality statistics or trusted epidemiological data sources, what was the trend in confirmed Covid-19 deaths for the specified location and time period?
+Answer: **CONFLICT.** The retrieved document states that, according to National Safety Council data, confirmed Covid-19 deaths in the United States were far from flat, showing dramatic fluctuations over time. The reasoner, working from memory alone and having no record of any specified location being provided in the claim or context, is nearly certain of this and reports that it cannot determine the trend for a specified location and time period.
+
+Source URL: https://injuryfacts.nsc.org/home-and-community/safety-topics/covid-19-cases-in-the-united-states/
+
+### 4. Using objective statistical measures (e.g., standard deviation, percentage change), does the data show that Covid-19 death counts remained within a narrow, stable range (e.g., ±10% week-over-week) during the period in question?
+Answer: The data does not show that Covid-19 death counts remained within a narrow, stable range (e.g., ±10% week-over-week); instead, deaths were subject to significant fluctuations and variability over time and across regions.
+
+Source URL: https://injuryfacts.nsc.org/home-and-community/safety-topics/covid-19-cases-in-the-united-states/
+
+### 5. What specific public health interventions or behaviors were implemented in the specified location during the period leading up to and including the timeframe of the death data?
+Answer: **CONFLICT.** The retrieved document states that specific public health interventions were implemented in the U.S. during the early COVID-19 response, including work-from-home arrangements, school closures, event cancellations, and social distancing encouragement. The reasoner working from memory alone, which has no record of any specified location in the Claim and is fairly certain of this assessment, reports that it cannot identify interventions for that location.
+
+Source URL: https://www.npr.org/2020/03/11/814603316/public-health-experts-encourage-social-distancing-to-flatten-the-curve-of-infect
+
+### 6. What epidemiological data or models indicate that these interventions successfully slowed the transmission rate (reduced the R number) of SARS-CoV-2, i.e., successfully "flattened the curve" of infections?
+Answer: Epidemiological data and models, including studies on reproduction numbers and real-world case curves, demonstrate that interventions such as lockdowns, testing, and contact tracing successfully slowed SARS-CoV-2 transmission, with R numbers declining below 1 in various countries, indicating effective flattening of the infection curve.
+
+Source URL: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01791-8
+
+### 7. Is there a documented temporal correlation between the period of identified curve flattening (slowdown in case growth) and the subsequent period of stable deaths in the specified location?
+Answer: There is no documented evidence of a temporal correlation between curve flattening and stable deaths in any specified location; any such correlation is inferred from general knowledge of Covid-19 dynamics, not from specific studies.
+
+Source URL: none -- retrieval returned no document
+
+### 9. During the period when deaths were claimed to be flat, was the healthcare system in the specified location operating within or near its normal capacity, suggesting curve flattening achieved its goal of preventing overload?
+Answer: There is no evidence or record that healthcare systems were operating within or near normal capacity during the period when Covid-19 deaths were claimed to be flat; rather, efforts were directed toward drastically increasing critical care capacity to prevent systems from being overwhelmed.
+
+Source URL: https://www.mckinsey.com/industries/healthcare/our-insights/critical-care-capacity-the-number-to-watch-during-the-battle-of-covid-19
+
+### 10. Are there alternative explanations, such as reporting delays, changes in case definitions, or demographic shifts in infections, that could account for the observed stability in death counts during the specified period?
+Answer: **CONFLICT.** The retrieved document states that reporting delays and changes in case definitions could account for observed stability in Covid-19 death counts, with data artifacts potentially masking true trends. The reasoner working from memory alone reports, with fairly high confidence, that death counts were not stable but were increasing during the period, so the observed stability premise is incorrect.
+
+Source URL: https://www.cdc.gov/nchs/nvss/vsrr/covid19/index.htm
+
+## Your Judgement
+```
+
+# Claim 56
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Previous flu vaccines may have made President Donald Trump susceptible to COVID-19"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is there any peer-reviewed scientific evidence from immunology or virology studies that demonstrates a causal mechanism by which receiving an influenza vaccine increases a person's susceptibility to infection by SARS-CoV-2?
+Answer: There is no peer-reviewed scientific evidence demonstrating a causal mechanism by which influenza vaccination increases susceptibility to SARS-CoV-2 infection. For example, a peer-reviewed study analyzing over 18,000 patients found that influenza vaccination does not increase the incidence of COVID-19, with no significant increased risk, and the scientific consensus confirms that flu vaccines do not compromise immunity in ways that would elevate COVID-19 risk.
+
+Source URL: https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-science/article/safety-of-influenza-vaccine-during-covid19/C26A417046677E65D421AD33B3E6281F
+
+### What is the current scientific consensus among major public health organizations (e.g., WHO, CDC) regarding the relationship, if any, between influenza vaccination and susceptibility to COVID-19?
+Answer: The current scientific consensus among major public health organizations is that influenza vaccination does not increase susceptibility to COVID-19.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/21/fact-check-donald-trumps-flu-shots-covid-risk-arent-linked/3623699001/
+
+### Are there any published epidemiological studies that show a statistical correlation between prior flu vaccination and a higher incidence of COVID-19 infection, after adjusting for confounding variables like age and comorbidities?
+Answer: No published epidemiological studies demonstrate a statistical correlation between prior flu vaccination and a higher incidence of COVID-19 infection after adjusting for confounding variables such as age and comorbidities.
+
+Source URL: https://www.factcheck.org/2020/04/no-evidence-that-flu-shot-increases-risk-of-covid-19/
+
+### Does Donald Trump have a publicly documented history of receiving influenza vaccines during the years leading up to 2020?
+Answer: **CONFLICT.** The retrieved document states that Donald Trump has a publicly documented history of receiving influenza vaccines, with specific references to his previous three flu vaccines in an Aug. 31 interview. The reasoner working from memory alone reports having no record of any publicly documented history of Trump receiving flu vaccines during the years leading up to 2020, with low confidence in this assessment.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/21/fact-check-donald-trumps-flu-shots-covid-risk-arent-linked/3623699001/
+
+### What were the official medical details surrounding Donald Trump's diagnosis with COVID-19 in October 2020, including his symptoms, treatment, and recovery?
+Answer: **CONFLICT.** The retrieved documents indicate that official medical details were limited: President Trump announced his COVID-19 diagnosis on October 2, 2020, with mild symptoms initially described as fever and cough, and he was flown to Walter Reed Medical Center as a precautionary measure, with no further official information disclosed about his specific treatment regimen or recovery timeline. The reasoner, working from memory alone, reports that Trump experienced symptoms including fever, fatigue, cough, and drops in oxygen levels, received treatments such as Regeneron's antibody cocktail, dexamethasone, and remdesivir, was hospitalized at Walter Reed for approximately three days, and recovered and returned to the White House, and is certain of this account.
+
+Source URL: https://www.lawfaremedia.org/article/public-disclosure-presidential-illnesses-discouraging-history
+
+### In the specific case of President Trump, what were the officially reported or known potential exposure events to SARS-CoV-2 prior to his positive test?
+Answer: **CONFLICT.** The retrieved document states that the most significant known potential exposure event for President Trump was the September 26, 2020, White House Rose Garden ceremony for Supreme Court nominee Amy Coney Barrett, described as a 'superspreader event' by Dr. Anthony Fauci. The reasoner working from memory alone, which is certain of its account, reports that prior to his positive test on October 2, 2020, President Trump's exposure events included attending the Rose Garden ceremony on September 26, 2020, and close contact with Hope Hicks, a senior advisor who tested positive on October 1, 2020.
+
+Source URL: https://www.aljazeera.com/news/2020/10/10/trump-holds-public-event-white-house-covid-19-diagnosis
+
+### Have any subsequent large-scale studies or meta-analyses failed to replicate or have they specifically debunked any initial findings that suggested a link between flu vaccination and COVID-19 susceptibility?
+Answer: Subsequent large-scale studies have debunked any initial findings suggesting a link between flu vaccination and increased COVID-19 susceptibility; for example, a 2022 systematic review and meta-analysis encompassing over one million participants found that influenza vaccination is associated with a reduced risk of COVID-19 infection and hospitalization.
+
+Source URL: https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1889175
+
+### What are the primary alternative explanations (e.g., his age, schedule, close-contact environments) that medical experts and historians have cited for his contraction of COVID-19?
+Answer: The primary alternative explanations for President Donald Trump's contraction of COVID-19 include his age, his schedule involving numerous contacts in close quarters, and exposure through close-contact environments such as the White House and campaign events.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/21/fact-check-donald-trumps-flu-shots-covid-risk-arent-linked/3623699001/
+
+### Has the claim that flu vaccines increase COVID-19 risk been categorized or flagged by health misinformation monitoring organizations (e.g., the WHO's "infodemic" team)?
+Answer: **CONFLICT.** The retrieved document states that the claim has been flagged and debunked by FactCheck.org, a fact-checking organization that partners with Facebook to combat misinformation. The reasoner working from memory alone reports no recollection of the WHO's infodemic team specifically categorizing or flagging the claim and, being uncertain in this assessment based on adjacent facts, infers it is unlikely that such a claim was officially flagged as misinformation.
+
+Source URL: https://www.factcheck.org/2020/04/no-evidence-that-flu-shot-increases-risk-of-covid-19/
+
+## Your Judgement
+```
+
+# Claim 57
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "While serving as Town Supervisor on Grand Island, Nebraska, US Nate McMurray voted to raise taxes on homeowners."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is there a verified public record or official biography confirming that an individual named Nate McMurray served as Town Supervisor on Grand Island, Nebraska?
+Answer: There is no verified public record or official biography confirming that Nate McMurray served as Town Supervisor on Grand Island, Nebraska; however, he is documented to have served as Town Supervisor on Grand Island, New York.
+
+Source URL: https://spectrumlocalnews.com/nys/buffalo/politics/2018/01/10/nate-mcmurray-to-announce-candidacy-for-congress
+
+### During Nate McMurray's tenure as Town Supervisor on Grand Island, was there a formal vote held by the town board or council concerning property taxes for homeowners?
+Answer: **CONFLICT.** The retrieved document states that the Town Board in Grand Island, Nebraska, approved a budget that raised property taxes, though this vote may have occurred after Nate McMurray's tenure as Town Supervisor; the reasoner working from memory alone reports that Nate McMurray did not serve as Town Supervisor on Grand Island, Nebraska, as he held that position in Grand Island, New York, and is very certain of this, correcting the premise.
+
+Source URL: https://web.archive.org/web/20220322021746/https://buffalonews.com/news/local/grand-island-raises-tax-levy-for-2020-by-3-5-stays-within-tax-cap/article_e8bd1aa5-7de9-5181-bb5a-494ab4ecfb52.html
+
+### On what specific date or during which meeting was the vote on homeowner taxes taken while Nate McMurray was Town Supervisor of Grand Island, Nebraska?
+Answer: **CONFLICT.** The retrieved document states that the Town Board approved a $24.5 million budget on Thursday, which raised the tax levy, but does not specify the exact date or meeting name. The reasoner working from memory alone reports, with high confidence, that Nate McMurray was Town Supervisor of Grand Island, New York, not Nebraska, and therefore there was no vote on homeowner taxes while he held that role in Nebraska.
+
+Source URL: https://web.archive.org/web/20220322021746/https://buffalonews.com/news/local/grand-island-raises-tax-levy-for-2020-by-3-5-stays-within-tax-cap/article_e8bd1aa5-7de9-5181-bb5a-494ab4ecfb52.html
+
+### What was the exact agenda item, resolution number, or ordinance title for the vote on homeowner taxes that Nate McMurray participated in?
+Answer: Nate McMurray served as Town Supervisor in Grand Island, New York, not Nebraska, and no documents were found regarding a vote on homeowner taxes in Nebraska.
+
+Source URL: none -- retrieval returned no document
+
+### In the official record of the vote on homeowner taxes, did Nate McMurray cast a vote in favor of the measure (i.e., a "yes" vote)?
+Answer: **CONFLICT.** The retrieved document states that no document could answer the question about Nate McMurray's vote on homeowner taxes in Nebraska. The reasoner working from memory alone reports, with high confidence, that Nate McMurray was not serving as Town Supervisor on Grand Island, Nebraska, but was the Town Supervisor of Grand Island, New York, thus the question is based on a false premise.
+
+Source URL: none -- retrieval returned no document
+
+### What was the final outcome of the vote on homeowner taxes that Nate McMurray participated in—did the measure pass or fail?
+Answer: Nate McMurray served as Town Supervisor of Grand Island, New York, not Nebraska, and there is no record of any vote on homeowner taxes that he participated in.
+
+Source URL: https://www.politifact.com/personalities/nathan-mcmurray/
+
+### By what mechanism did the vote that Nate McMurray supported result in a tax increase for homeowners on Grand Island? (e.g., raising the mill levy, approving a budget exceeding the previous year's).
+Answer: **CONFLICT.** The retrieved document states that the vote resulted in a tax increase through a combination of raising the overall tax levy by 3.47% to $10.6 million and increasing the general fund tax rate by 2.2% to $1.23 per $1,000 of assessed value. The reasoner working from memory alone, which has no record of any such vote in Nebraska and is certain that Nate McMurray was Town Supervisor for Grand Island in New York, reports that the claimed vote did not occur and thus no mechanism exists.
+
+Source URL: https://web.archive.org/web/20220322021746/https://buffalonews.com/news/local/grand-island-raises-tax-levy-for-2020-by-3-5-stays-within-tax-cap/article_e8bd1aa5-7de9-5181-bb5a-494ab4ecfb52.html
+
+### What was the estimated or actual increase in tax burden for homeowners on Grand Island resulting from the measure Nate McMurray voted for?
+Answer: **CONFLICT.** The retrieved document states that the 2020 budget approved by the Town Board, which Nate McMurray voted for, increased the overall tax levy by 3.47%, with homeowners experiencing a 2.2% rise in the general fund tax rate to $1.23 per $1,000 of assessed value. The reasoner working from memory alone reports that it has no record of any estimated or actual increase in tax burden for homeowners and is not confident in this assessment.
+
+Source URL: https://web.archive.org/web/20220322021746/https://buffalonews.com/news/local/grand-island-raises-tax-levy-for-2020-by-3-5-stays-within-tax-cap/article_e8bd1aa5-7de9-5181-bb5a-494ab4ecfb52.html
+
+### Are there official meeting minutes, video archives, or news articles from local Nebraska media that document Nate McMurray's vote on this specific tax matter?
+Answer: No official meeting minutes, video archives, or news articles from local Nebraska media document Nate McMurray's vote on this specific tax matter while serving as Town Supervisor on Grand Island.
+
+Source URL: https://web.archive.org/web/20220322021746/https://buffalonews.com/news/local/grand-island-raises-tax-levy-for-2020-by-3-5-stays-within-tax-cap/article_e8bd1aa5-7de9-5181-bb5a-494ab4ecfb52.html
+
+### What was the stated public justification or rationale, if any, provided by the Grand Island board or by Nate McMurray for voting to raise taxes on homeowners?
+Answer: **CONFLICT.** The retrieved document states that no documents were found to answer the question about the stated justification. The reasoner, working from memory alone, has no recollection of the vote and, being near the bottom of the confidence range in this assessment, reports that the premise is false because Nate McMurray served as Town Supervisor in Grand Island, New York, not Nebraska.
+
+Source URL: none -- retrieval returned no document
+
+## Your Judgement
+```
+
+# Claim 61
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The large image of the Joe Biden and Kamala Harris logo projected onto a Harley-Davidson location in Milwaukee US indicates the motorcycle manufacturer's endorsement of the US Democratic presidential nominee."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was a large image of the Joe Biden and Kamala Harris presidential campaign logo projected onto a Harley-Davidson property or building in Milwaukee, Wisconsin, USA?
+Answer: There is no information or record of a large image of the Joe Biden and Kamala Harris presidential campaign logo being projected onto a Harley-Davidson property or building in Milwaukee, Wisconsin.
+
+Source URL: https://www.history.com/topics/us-presidents/joe-biden
+
+### Which specific Harley-Davidson location in Milwaukee was the projection made upon (e.g., a dealership, the corporate headquarters, the museum)?
+Answer: **CONFLICT.** The document-store fact-checker reports that the request was rejected because it was considered high risk, so no information on the specific Harley-Davidson location in Milwaukee is available. The internal-knowledge reasoner, working from memory alone and with low confidence near the bottom of the range, reports that the projection was made on the Harley-Davidson Museum.
+
+Source URL: https://docshd.com/company-info
+
+### Who organized, authorized, and paid for the projection of the Biden-Harris logo onto the Harley-Davidson location?
+Answer: **CONFLICT.** The retrieved document states that the projection was organized, authorized, and paid for by the United Steelworkers union as part of their 'bat light' campaign to endorse Joe Biden and Kamala Harris. The reasoner, which has no clear memory of who organized it and is not confident in its recall, reports that it cannot name the specific organizers or payers but recalls that political activists were involved during the 2020 campaign and that Harley-Davidson disavowed any endorsement.
+
+Source URL: https://chicago.suntimes.com/news/2020/10/17/21521296/united-steelworkers-shine-biden-harris-projection-on-trump-tower-chicago
+
+### Was the projection authorized or approved in advance by the Harley-Davidson Motor Company or its local franchise/dealership owner?
+Answer: **CONFLICT.** The document store returned no document that could answer this question; the reasoner working from memory alone, which is fairly confident in this assessment, reports that the projection was not authorized or approved in advance by the Harley-Davidson Motor Company or its local franchise/dealership owner and that Harley-Davidson explicitly stated it was not authorized by them.
+
+Source URL: none -- retrieval returned no document
+
+### In any official statement, did Harley-Davidson explicitly endorse Joe Biden and Kamala Harris for President and Vice President?
+Answer: Harley-Davidson did not explicitly endorse Joe Biden and Kamala Harris for President and Vice President in any official statement.
+
+Source URL: https://www.eenews.net/articles/can-dems-ride-a-new-harley-crowd-to-electoral-success/
+
+### What was the stated purpose or context of the projection event, according to the organizers?
+Answer: **CONFLICT.** The retrieved document states that the projection event was organized by the United Steelworkers union to endorse Joe Biden, highlight worker issues, and encourage voting in a COVID-friendly way to spark conversations. The reasoner, which has no record of any such event and is close to guessing on this matter, reports having no information about the organizers or their stated purpose.
+
+Source URL: https://chicago.suntimes.com/news/2020/10/17/21521296/united-steelworkers-shine-biden-harris-projection-on-trump-tower-chicago
+
+### Is there any evidence that Harley-Davidson as a corporation has made a formal, official endorsement in the 2020 U.S. presidential election?
+Answer: There is no evidence that Harley-Davidson as a corporation made a formal, official endorsement in the 2020 U.S. presidential election; the company is known to avoid embracing political parties or engaging in political debates.
+
+Source URL: https://www.eenews.net/articles/can-dems-ride-a-new-harley-crowd-to-electoral-success/
+
+### Did the projection occur in connection with a campaign rally, political event, or protest that was unrelated to a corporate endorsement by Harley-Davidson?
+Answer: The projection occurred in connection with a campaign visit by vice presidential candidate Kamala Harris to Milwaukee and was not indicative of Harley-Davidson's endorsement, as the company clarified the projection was unauthorized.
+
+Source URL: https://www.jsonline.com/picture-gallery/news/2020/09/07/vice-president-candidate-kamala-harris-visits-milwaukee/5739127002/
+
+## Your Judgement
+```
+
+# Claim 62
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Scientific American magazine warned that 5G technology is not safe."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Did Scientific American magazine publish an article, editorial, opinion piece, or letter stating or implying that 5G wireless technology is unsafe?
+Answer: Scientific American published an opinion article in 2019 titled 'We Have No Reason to Believe 5G Is Safe,' which argued that 5G wireless technology may not be safe due to potential health concerns.
+
+Source URL: https://www.linkedin.com/pulse/scientific-american-created-confusion-5gs-safety-clear-joel-moskowitz
+
+### 2. If Scientific American published content about 5G safety concerns, what was the exact title and publication date of that content?
+Answer: **CONFLICT.** The retrieved document states that Scientific American published an opinion piece in September 2019 titled '5G Is Coming: How Worried Should We Be about the Health Risks? So far, at least, there’s little evidence of danger.' The reasoner, working from memory alone and highly confident in its recollection, reports that the content was titled 'We Have No Reason to Believe 5G Is Safe' and published on October 17, 2019.
+
+Source URL: https://www.linkedin.com/pulse/scientific-american-created-confusion-5gs-safety-clear-joel-moskowitz
+
+### 3. Who was the author of the Scientific American content that warned about the safety of 5G technology?
+Answer: **CONFLICT.** The retrieved document states that the author of the Scientific American opinion piece warning that 5G technology is not safe is Joel M. Moskowitz, Ph.D., titled 'We Have No Reason to Believe 5G Is Safe.' The reasoner working from memory alone, which has no record of any such Scientific American content and is close to guessing in this assessment, reports that it cannot identify an author.
+
+Source URL: https://www.linkedin.com/pulse/scientific-american-created-confusion-5gs-safety-clear-joel-moskowitz
+
+### 4. Was the author of the 5G safety content a staff member or editor of Scientific American, or was the author an outside contributor or guest writer?
+Answer: **CONFLICT.** The retrieved document states that the author of the 5G safety content in Scientific American was an outside contributor, with articles written by external experts such as Kenneth Foster, Joel M. Moskowitz, and David Robert Grimes. The reasoner working from memory alone, which has no record of this and is close to guessing, reports that it has no knowledge of whether the author was a staff member or an outside contributor.
+
+Source URL: https://www.linkedin.com/pulse/scientific-american-created-confusion-5gs-safety-clear-joel-moskowitz
+
+### 5. What specific safety concerns about 5G technology were raised in the Scientific American content — for example, health effects from radiofrequency radiation, cybersecurity risks, or infrastructure hazards?
+Answer: The Scientific American content raised safety concerns about 5G technology, emphasizing health effects from radiofrequency radiation and arguing that there was insufficient research to confirm its safety.
+
+Source URL: https://www.linkedin.com/pulse/scientific-american-created-confusion-5gs-safety-clear-joel-moskowitz
+
+### 6. Did the Scientific American content use explicit language such as "5G is not safe," or did it present more nuanced or qualified concerns about 5G technology?
+Answer: **CONFLICT.** The retrieved document indicates that Scientific American presented nuanced and qualified concerns about 5G technology through opinion pieces, not explicit language like '5G is not safe,' including Joel Moskowitz's article titled 'We Have No Reason to Believe 5G Is Safe' as a rebuttal, with the magazine later commissioning an independent review. In contrast, the reasoner working from memory alone, which has no record of any such content and is close to guessing in this assessment, reports having no knowledge of the specific Scientific American content described in the claim.
+
+Source URL: https://www.linkedin.com/pulse/scientific-american-created-confusion-5gs-safety-clear-joel-moskowitz
+
+### 7. Did Scientific American magazine officially endorse the safety concerns about 5G technology as the magazine's editorial position, or was the content presented as the personal opinion of the author?
+Answer: Scientific American magazine did not officially endorse the safety concerns about 5G technology; the content cautioning about 5G was published in the magazine's opinion section as the author's personal perspective, not as the magazine's editorial stance.
+
+Source URL: https://www.linkedin.com/pulse/scientific-american-created-confusion-5gs-safety-clear-joel-moskowitz
+
+### 8. Has Scientific American ever published content that contradicts or critiques the claim that 5G technology is unsafe, such as articles supporting the safety of 5G based on scientific evidence?
+Answer: Scientific American has published content that supports the safety of 5G based on scientific evidence, such as the opinion piece by Kenneth Foster in September 2019 titled '5G Is Coming: How Worried Should We Be about the Health Risks? So far, at least, there’s little evidence of danger,' which argued that 5G exposure would comply with existing safety limits and that available evidence does not support adverse health effects in humans.
+
+Source URL: https://www.linkedin.com/pulse/scientific-american-created-confusion-5gs-safety-clear-joel-moskowitz
+
+### 9. Was the Scientific American content about 5G safety retracted, corrected, or formally disputed by the magazine after its initial publication?
+Answer: **CONFLICT.** The retrieved documents indicate that Scientific American did not retract or correct the original opinion piece on 5G safety, but it published a formal rebuttal by Joel Moskowitz that directly disputed the safety assurances. In contrast, the reasoner working from memory alone, which has no record of any retraction, correction, or formal disputing of the content and is uncertain about this assessment, states that there is no such record.
+
+Source URL: https://www.linkedin.com/pulse/scientific-american-created-confusion-5gs-safety-clear-joel-moskowitz
+
+### 10. Does the scientific consensus, as represented by organizations such as the World Health Organization (WHO), the U.S. Federal Communications Commission (FCC), or the International Commission on Non-Ionizing Radiation Protection (ICNIRP), support or contradict the claim that 5G technology is unsafe?
+Answer: The scientific consensus, as represented by organizations such as the World Health Organization, the U.S. Federal Communications Commission, and the International Commission on Non-Ionizing Radiation Protection, affirms that 5G technology is safe and does not pose confirmed health risks within established guidelines, contradicting the claim that it is unsafe.
+
+Source URL: https://www.theguardian.com/technology/2020/mar/12/5g-safe-radiation-watchdog-health
+
+## Your Judgement
+```
+
+# Claim 63
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Officer who wore Trump 2020 mask to polls to face disciplinary action"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Which law enforcement officer is alleged to have worn a "Trump 2020" mask at a polling location?
+Answer: **CONFLICT.** The retrieved document identifies the officer alleged to have worn a 'Trump 2020' mask at a polling location as Miami Police Officer Daniel Ubeda, while the reasoner working from memory alone reports that it was Chris Williams, a Houston police officer, and is moderately confident in this recall.
+
+Source URL: https://www.clickorlando.com/news/florida/2020/10/20/florida-officer-to-be-disciplined-after-wearing-trump-mask-while-voting/
+
+### Which law enforcement department employs the officer who allegedly wore the "Trump 2020" mask to a polling place?
+Answer: The officer was employed by the Miami Police Department.
+
+Source URL: https://globalnews.ca/news/7408467/police-officer-trump-mask-miami/
+
+### At which specific polling location (including city, county, and state) did the officer allegedly wear the "Trump 2020" mask?
+Answer: **CONFLICT.** The retrieved documents state that the officer allegedly wore the 'Trump 2020' mask at an early voting site in Miami, Miami-Dade County, Florida. The reasoner, working from memory alone, reports that the incident occurred in Loudoun County, Virginia, and is moderately confident in this recollection based on news reports.
+
+Source URL: https://www.usatoday.com/story/news/politics/elections/2020/10/20/miami-police-officer-trump-2020-mask-poll-discipline/6001128002/
+
+### On what date did the incident of the officer allegedly wearing a "Trump 2020" mask at the polls occur?
+Answer: **CONFLICT.** The retrieved document states that the incident occurred on October 20, 2020. The reasoner working from memory alone, which has no record of the specific date and is close to guessing, reports that it does not know when the incident occurred.
+
+Source URL: https://www.theledger.com/story/news/state/2020/10/20/miami-police-officer-daniel-ubeda-spotted-wearing-trump-mask-in-uniform-early-voting-site-florida/5994006002/
+
+### What is the specific policy or law of the officer's department that prohibits wearing political attire like a "Trump 2020" mask while on duty at a polling place?
+Answer: **CONFLICT.** The retrieved document states that Missouri Revised Statutes Section 84.830 prohibits police officers from engaging in political activities while on duty or in uniform, which would include wearing a 'Trump 2020' mask at a polling place. The reasoner, working from memory alone, has no record of this or any similar specific policy and, with low confidence in its assessment, reports no knowledge of it.
+
+Source URL: https://revisor.mo.gov/main/OneSection.aspx?section=84.830
+
+### Which governing body, oversight board, or authority within the officer's department has initiated the disciplinary action?
+Answer: **CONFLICT.** The retrieved document states that the disciplinary action was initiated by Miami Police Chief Jorge Colina. The reasoner working from memory alone reports that it has no specific recollection of the governing body involved and, based on typical departmental procedures, infers it was likely initiated within the department, but with low confidence in this assessment.
+
+Source URL: https://www.theledger.com/story/news/state/2020/10/20/miami-police-officer-daniel-ubeda-spotted-wearing-trump-mask-in-uniform-early-voting-site-florida/5994006002/
+
+### What formal charges or specific rule violations have been cited in the disciplinary action against the officer?
+Answer: **CONFLICT.** The retrieved document states that the officer was cited for violating departmental policy and polling place regulations by promoting a political candidate while in uniform, as per statements from Miami Mayor Francis Suarez and Police Chief Jorge Colina. The reasoner working from memory alone reports that it has no record of any formal charges or specific rule violations, and is not confident in this assessment, being close to guessing.
+
+Source URL: https://www.usatoday.com/story/news/politics/elections/2020/10/20/miami-police-officer-trump-2020-mask-poll-discipline/6001128002/
+
+### What is the current status of the disciplinary proceedings against the officer (e.g., investigation, hearing scheduled, action taken)?
+Answer: **CONFLICT.** The retrieved document states that the disciplinary action is currently being addressed by the City of Miami Police, with the specific form of discipline not yet disclosed. The reasoner, working from memory with moderate confidence, reports that the officer was terminated after the disciplinary investigation.
+
+Source URL: https://www.nbcmiami.com/news/local/city-of-miami-officer-photographed-wearing-trump-mask-inside-polling-location/2309350/
+
+### Have any official statements from the officer's department confirmed that disciplinary action is being taken for this specific incident?
+Answer: **CONFLICT.** The retrieved document states that Miami Police Chief Jorge Colina issued an official statement confirming disciplinary action was being pursued, saying, 'This behavior is unacceptable, a violation of departmental policy, and is being addressed immediately,' though the specific form of discipline was not publicly detailed. The reasoner working from memory alone reports that it has no record of any official statements from the department confirming disciplinary action for this specific incident, though it acknowledges considerable uncertainty and is not confident in this assessment.
+
+Source URL: https://www.theledger.com/story/news/state/2020/10/20/miami-police-officer-daniel-ubeda-spotted-wearing-trump-mask-in-uniform-early-voting-site-florida/5994006002/
+
+### Is there any video, photographic, or sworn witness evidence that confirms the officer was wearing a "Trump 2020" mask while at a polling location on the alleged date?
+Answer: **CONFLICT.** The retrieved document states that photographic evidence confirms the officer was wearing a Trump 2020 mask at a polling location, as detailed in a tweet by Attorney Steve Simeonidis. The reasoner, working from memory alone and with no direct recollection of any specific evidence but reasonably confident in its assessment, reports that it does not recall the evidence directly, though it infers from the reported disciplinary action that evidence likely exists.
+
+Source URL: https://www.clickorlando.com/news/florida/2020/10/20/florida-officer-to-be-disciplined-after-wearing-trump-mask-while-voting/
+
+## Your Judgement
+```
+
+# Claim 64
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Eric Trump, Donald J. Trump Jr., and Ivanka Trump are banned from ever operating a charity again because they stole donations for children with cancer."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Were Eric Trump, Donald J. Trump Jr., and Ivanka Trump ever banned by a court or government regulator from operating or serving as directors of a charitable organization in any U.S. state or at the federal level?
+Answer: **CONFLICT.** The retrieved document states that the New York Attorney General's settlement required the Trump children to undergo training but does not confirm they were banned from operating or serving as directors of charitable organizations. The reasoner, with high confidence, reports that based on the settlement, all three were likely temporarily banned from serving as directors in New York state.
+
+Source URL: https://www.commondreams.org/news/2019/11/07/2-million-and-compulsory-training-presidents-children-called-poetic-end-trump
+
+### Is the ban referenced in the claim permanent and does it specifically prohibit them from ever operating a charity again?
+Answer: The ban referenced in the claim is not permanent and does not specifically prohibit Eric Trump, Donald J. Trump Jr., and Ivanka Trump from ever operating a charity again; it was a temporary, time-limited restriction as part of a legal settlement, and no explicit permanent prohibition is mentioned in the available sources.
+
+Source URL: https://www.commondreams.org/news/2019/11/07/2-million-and-compulsory-training-presidents-children-called-poetic-end-trump
+
+### Was a formal legal finding or a settlement agreement made that accused Eric Trump, Donald J. Trump Jr., and Ivanka Trump of stealing charitable donations?
+Answer: **CONFLICT.** The retrieved document describes a formal lawsuit filed by the New York attorney general accusing Eric Trump, Donald J. Trump Jr., and Ivanka Trump of 'repeated and willful self-dealing' and using the foundation for personal benefit, but it is not described as a settlement or final legal finding. The reasoner, which is certain that such an agreement existed and would correct someone else with it, reports that there was both a lawsuit and a settlement agreement accusing them of misusing charitable donations, which is akin to stealing.
+
+Source URL: https://www.japantimes.co.jp/news/2018/06/15/business/new-york-sues-trump-charity-self-dealing/
+
+### Were the alleged stolen donations specifically designated for the benefit of children with cancer?
+Answer: **CONFLICT.** The retrieved document states that the Eric Trump Foundation assured donors all contributions went to St. Jude Children's Research Hospital, a pediatric cancer center, specifically designating them for children with cancer, though funds were diverted. The reasoner, with no knowledge of this specific designation and moderate certainty in its assessment, reports that the allegations involved general misuse of funds from various charitable events, not specifically for children with cancer.
+
+Source URL: https://www.forbes.com/sites/danalexander/2017/06/29/eric-trump-foundation-told-donors-money-went-to-kids-with-cancer-then-gave-to-different-causes/
+
+### To which specific charity, foundation, or charitable initiative (e.g., the Eric Trump Foundation) do the theft allegations pertain?
+Answer: The theft allegations pertain to the Eric Trump Foundation, which was found to have misled donors and mismanaged funds intended for children's cancer charities.
+
+Source URL: https://www.snopes.com/fact-check/trump-steal-kids-cancer-charity/
+
+### Which state's court or attorney general's office issued the ban or the underlying legal action (e.g., the New York Attorney General's Office)?
+Answer: The ban was requested by the New York Attorney General's Office and the legal action was filed in the New York State Supreme Court.
+
+Source URL: https://www.snopes.com/fact-check/trump-steal-kids-cancer-charity/
+
+### In the legal proceedings or settlement, did Eric Trump, Donald J. Trump Jr., and Ivanka Trump admit to the wrongdoing of stealing charitable funds, or was the settlement made without an admission of guilt?
+Answer: In the legal proceedings, the settlement was made without an admission of guilt by Eric Trump, Donald J. Trump Jr., and Ivanka Trump.
+
+Source URL: https://www.commondreams.org/news/2019/11/07/2-million-and-compulsory-training-presidents-children-called-poetic-end-trump
+
+### What was the date of the final court order or settlement that resulted in the ban mentioned in the claim?
+Answer: The final court order or settlement was on November 7, 2019.
+
+Source URL: https://www.commondreams.org/news/2019/11/07/2-million-and-compulsory-training-presidents-children-called-poetic-end-trump
+
+### Does the ban mentioned in the claim apply to all three individuals (Eric, Donald Jr., and Ivanka) as direct subjects, or are they only tangentially related to a ban on a different entity?
+Answer: The claim that Eric, Donald Jr., and Ivanka Trump are permanently banned from operating charities is inaccurate; available information indicates they are not directly banned, but are tangentially involved in a legal matter concerning Donald Trump and the Trump Foundation.
+
+Source URL: https://www.cbsnews.com/news/trump-foundation-shutting-down-amid-allegations-by-ny-attorney-general-money-used-for-personal-benefit/
+
+### Have Eric Trump, Donald J. Trump Jr., and Ivanka Trump, or their legal representatives, ever publicly commented on or disputed the characterization of the events as "stealing donations"?
+Answer: **CONFLICT.** The retrieved document states that Eric Trump and a spokesman for the president's son publicly disputed the allegations, calling the claims 'shameful' and stating that the Trump Organization did not profit from the foundation, but it contains no information about public comments from Donald J. Trump Jr. or Ivanka Trump, or their legal representatives specifically on the characterization as 'stealing donations.' The reasoner, working from memory alone and moderately certain in this assessment, reports no specific recollection of Eric Trump, Donald Trump Jr., Ivanka Trump, or their legal representatives making public statements that specifically addressed or disputed the characterization of the events as 'stealing donations.'
+
+Source URL: https://abcnews.go.com/Politics/eric-trump-funneled-cancer-charity-money-businesses-associates/story?id=47878610
+
+## Your Judgement
+```
+
+# Claim 65
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Someone who couldn't afford health care under Barack Obama's Affordable Care Act gets penalized $10,000"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did the Affordable Care Act, as signed into law by President Barack Obama, require most individuals to have qualifying health insurance coverage or pay a tax penalty?
+Answer: The Affordable Care Act, as signed into law by President Barack Obama, required most individuals to have qualifying health insurance coverage or pay a tax penalty.
+
+Source URL: https://www.hollandhart.com/2019-repeal-of-the-affordable-care-acts-individual-mandate-penalties
+
+### What was the official name of the financial penalty imposed on individuals for not maintaining minimum essential coverage under the Affordable Care Act?
+Answer: The official name of the financial penalty imposed on individuals for not maintaining minimum essential coverage under the Affordable Care Act was the shared responsibility payment, also referred to as the individual mandate penalty.
+
+Source URL: https://www.hollandhart.com/2019-repeal-of-the-affordable-care-acts-individual-mandate-penalties
+
+### For the 2014 tax year, what were the specific formulas used to calculate the penalty for not having health insurance under the Affordable Care Act?
+Answer: For the 2014 tax year, the penalty for not having health insurance under the Affordable Care Act was calculated as the greater of a flat fee or a percentage of modified adjusted gross income (MAGI); specifically, it was the greater of $95 per uninsured adult ($47.50 per uninsured child, with a family maximum of $285) or 1% of MAGI, subject to proration based on months uninsured and a cap based on the national average cost of a bronze-level health insurance plan.
+
+Source URL: https://spfinsurance.com/california-health-care-reform/what-is-health-care-reform-california/mandates/
+
+### Was there a statutory maximum penalty amount for an individual under the Affordable Care Act's individual mandate, and if so, what was that maximum for a given tax year?
+Answer: The statutory maximum penalty for an individual under the Affordable Care Act's individual mandate was capped at the national average premium for a bronze-level plan; for example, in 2016, this cap was $2,484 for single coverage, which is well below $10,000.
+
+Source URL: https://www.kff.org/health-reform/issue-brief/the-cost-of-the-individual-mandate-penalty-for-the-remaining-uninsured/
+
+### Did the Affordable Care Act provide an exemption from the tax penalty for individuals who could not afford health insurance based on a percentage of their household income?
+Answer: The Affordable Care Act provided an exemption from the tax penalty for individuals who could not afford health insurance when the premium cost exceeded a specified share of their household income, such as 8%.
+
+Source URL: https://www.cbo.gov/sites/default/files/cbofiles/attachments/09-19-12-Indiv_Mandate_Penalty.pdf
+
+### What were the specific income thresholds and premium cost criteria that defined the "affordability" exemption under the Affordable Care Act?
+Answer: **CONFLICT.** The retrieved document states that the affordability exemption under the Affordable Care Act is defined by the percentage of household income for the lowest-cost self-only employer-sponsored plan, with thresholds adjusted annually by the IRS, such as 9.61% for 2022 and 9.12% for 2023, and employers may use affordability safe harbors. The reasoner, fairly confident in its memory, reports that the affordability exemption was based on whether the premium of the lowest-priced Bronze plan in the individual's area exceeded a specific percentage of household income, with examples like 8% for 2014, 8.05% for 2015, and 8.13% for 2016.
+
+Source URL: https://www.shrm.org/topics-tools/news/benefits-compensation/affordable-care-act-coverage-terms
+
+### According to the Internal Revenue Service (IRS) guidelines for a specific tax year, what was the largest possible penalty a single individual could owe for not having coverage under the Affordable Care Act?
+Answer: **CONFLICT.** The retrieved document states that for tax year 2015, the largest possible penalty a single individual could owe for not having coverage under the Affordable Care Act was $2,484. The reasoner, which is certain based on internal knowledge, reports that for tax year 2016, the largest possible penalty was $2,085.
+
+Source URL: https://sgp.fas.org/crs/misc/R41331.pdf
+
+### Is there any official documentation, such as an IRS report or Congressional Budget Office analysis, showing that a single individual was assessed a penalty of $10,000 for lacking health insurance under the Affordable Care Act?
+Answer: No official documentation, such as an IRS report or CBO analysis, shows that a single individual was assessed a $10,000 penalty for lacking health insurance under the Affordable Care Act; the penalty was capped at amounts far below $10,000, making such an assessment implausible.
+
+Source URL: https://sgp.fas.org/crs/misc/R41331.pdf
+
+### Did the Affordable Care Act's individual mandate penalty ever reach or exceed $10,000 for any individual during its years of enforcement (2014-2018)?
+Answer: The Affordable Care Act's individual mandate penalty never reached or exceeded $10,000 for any individual during its years of enforcement from 2014 to 2018, as it was capped at the national average cost for a Bronze plan, which remained substantially lower.
+
+Source URL: https://www.healthinsurance.org/glossary/individual-mandate/
+
+### Has any credible source, such as a government agency or major fact-checking organization, previously debunked or confirmed the claim that the Affordable Care Act penalty was $10,000?
+Answer: **CONFLICT.** The retrieved document states that the Kaiser Family Foundation has detailed the actual penalty structure of the Affordable Care Act, showing the $10,000 figure is inaccurate, with penalties such as $695 per adult and capped amounts. The reasoner, working from memory alone and fairly confident in its assessment, reports that it has no recollection of any credible source specifically debunking or confirming the $10,000 claim, though it recalls that the penalty was structured and much lower, around $695 per adult in 2016.
+
+Source URL: https://www.kff.org/interactive/penalty-calculator/
+
+## Your Judgement
+```
+
+# Claim 66
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Hunter Biden was chairman of the Nobel Peace Prize winning World Food Program."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Has the United Nations World Food Programme (WFP) ever been awarded the Nobel Peace Prize, and if so, in what year?
+Answer: The United Nations World Food Programme was awarded the Nobel Peace Prize in 2020.
+
+Source URL: https://www.nbcnews.com/news/world/world-food-program-wins-2020-nobel-peace-prize-n1242678
+
+### 2. What is the formal leadership and governance structure of the World Food Programme (e.g., does it have a position called "chairman")?
+Answer: The World Food Programme's governance structure does not include a position called 'chairman'; it is led by an Executive Director appointed by the UN Secretary-General and governed by an Executive Board composed of 36 member states, which has a rotating President.
+
+Source URL: https://executiveboard.wfp.org/about-board
+
+### 3. Has Hunter Biden ever held any official position, board membership, or leadership role at the United Nations World Food Programme?
+Answer: Hunter Biden did not hold any official position, board membership, or leadership role at the United Nations World Food Programme; he served as Board Chairman of World Food Program USA, a separate U.S.-based nonprofit that supports the UN agency.
+
+Source URL: https://sanantonioreport.org/before-hunter-biden-there-was-billy-carter-neil-bush-and-others/world-food-program-usas-annual-mcgovern-dole-leadership-award-ceremony/
+
+### 4. Is there any other organization called "World Food Program" (distinct from the UN WFP) with which Hunter Biden may have been affiliated?
+Answer: **CONFLICT.** The retrieved document states that Hunter Biden served as Board Chairman of World Food Program USA, a distinct U.S.-based nonprofit separate from the UN World Food Programme. The reasoner, working from memory alone and having no record of any organization called 'World Food Program' distinct from the UN WFP or of Hunter Biden's affiliation with such an entity, is not confident in this assessment and reports no knowledge of it.
+
+Source URL: https://sanantonioreport.org/before-hunter-biden-there-was-billy-carter-neil-bush-and-others/world-food-program-usas-annual-mcgovern-dole-leadership-award-ceremony/
+
+### 5. Who are the documented Executive Directors or Board Chairs of the World Food Programme, and do any records list Hunter Biden among them?
+Answer: The documented leaders of the World Food Programme include David Beasley as Executive Director and others such as Ertharin Cousin, with Randy Russell serving as World Food Program USA Board Chairman; no records list Hunter Biden in these roles.
+
+Source URL: https://www.californialifehd.com/sandra-lee-appointed-to-the-board-of-directors-of-world-food-program-usa/
+
+### 6. Has Hunter Biden ever been affiliated with any United Nations agency or international food-security organization in any capacity?
+Answer: **CONFLICT.** The retrieved document states that Hunter Biden served as Board Chairman of World Food Program USA, a nonprofit that supports the United Nations World Food Programme. The reasoner, working from memory alone and with high confidence in its assessment, reports no knowledge or recollection of Hunter Biden ever being affiliated with any United Nations agency or international food-security organization.
+
+Source URL: https://sanantonioreport.org/before-hunter-biden-there-was-billy-carter-neil-bush-and-others/world-food-program-usas-annual-mcgovern-dole-leadership-award-ceremony/
+
+### 7. What are the public records, biographies, or official disclosures regarding Hunter Biden's professional career and organizational affiliations?
+Answer: **CONFLICT.** The retrieved document reports that Hunter Biden, in a televised interview, claimed he 'was the chairman of the board of the U.N. World Food Program' as part of his professional background. The reasoner, which has no record of Hunter Biden ever holding any leadership role at the World Food Programme and is certain an affiliation of that prominence would not have escaped its knowledge, reports that it finds no public records, biographies, or official disclosures connecting him to the organization.
+
+Source URL: https://www.post-journal.com/life/viewpoints/2019/10/beltway-bidenspawn-ship-has-its-privileges/
+
+### 8. Did any news outlet, government document, or official press release ever report Hunter Biden's appointment or service as chairman of the World Food Programme?
+Answer: **CONFLICT.** The retrieved document states that a Getty Images photo caption in the San Antonio Report documented Hunter Biden's role as chairman of World Food Program USA, a U.S.-based nonprofit that supports the UN World Food Programme. The reasoner, which has no record of any news outlet, government document, or official press release reporting Hunter Biden's appointment or service as chairman of the World Food Programme and is certain that such reports do not exist, reports that it has no knowledge of any such association.
+
+Source URL: https://sanantonioreport.org/before-hunter-biden-there-was-billy-carter-neil-bush-and-others/world-food-program-usas-annual-mcgovern-dole-leadership-award-ceremony/
+
+### 9. If the claim conflates Hunter Biden with another person, who was the actual chairman or head of the World Food Programme at the relevant time?
+Answer: **CONFLICT.** The retrieved document states that Randy Russell was the WFP USA Board Chairman at the time of the 2019 announcement, while the reasoner, working from memory alone and fairly certain in its recollection, reports that David Beasley served as Executive Director of the World Food Programme at the relevant time.
+
+Source URL: https://www.prnewswire.com/news-releases/wfp-usa-names-unicef-usa-exec-as-new-president-and-ceo-300959962.html
+
+### 10. Is there any credible evidence that this claim originated from a misattribution, satire, or deliberate misinformation source?
+Answer: **CONFLICT.** The retrieved document states that the claim appears to originate from a conflation or misattribution: Hunter Biden was chairman of World Food Program USA, not the UN's World Food Programme that won the Nobel Peace Prize, so the claim incorrectly combines the two distinct entities. The reasoner working from memory alone reports that it has no record of any credible evidence regarding the origin of this claim from misattribution, satire, or deliberate misinformation, and is close to guessing on this point.
+
+Source URL: https://sanantonioreport.org/before-hunter-biden-there-was-billy-carter-neil-bush-and-others/world-food-program-usas-annual-mcgovern-dole-leadership-award-ceremony/
+
+## Your Judgement
+```
+
+# Claim 67
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "National Testing Agency (NTA) has made a major blunder in NEET Exam Result 2020. They stated that the all India topper had failed."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was there an official announcement or technical error by the National Testing Agency (NTA) that incorrectly listed the highest-scoring candidate in the NEET 2020 examination as having failed?
+Answer: **CONFLICT.** The retrieved document states that the National Testing Agency (NTA) erroneously declared a topper as failed in NEET 2020, specifically that student Mridul Rawat was initially issued a marksheet showing failure but was later confirmed as the all-India topper in the ST category. The reasoner, which has no recollection of any official announcement or technical error that incorrectly listed the highest-scoring candidate as having failed and is moderately confident based on memory, reports that no such error occurred and that NEET 2020 results were announced correctly with Soyeb Aftab recognized as the all-India topper.
+
+Source URL: https://www.livemint.com/education/news/neet-2020-failed-candidate-turns-out-to-be-all-india-topper-in-st-category-11603182789566.html
+
+### What was the name or application number of the candidate who was officially declared the all-India topper in the NEET 2020 examination?
+Answer: Soyeb Aftab was officially declared the all-India topper in the NEET 2020 examination.
+
+Source URL: https://www.oneindia.com/india/neet-2020-when-a-topper-was-declared-failed-3165796.html
+
+### How did the National Testing Agency (NTA) formally correct the erroneous NEET 2020 result status for the top-ranking candidate, and when did this correction occur?
+Answer: The National Testing Agency did not issue a formal correction for an erroneous NEET 2020 result status; instead, on October 20, 2020, it publicly clarified that the results were correctly vetted and that news about an erroneous topper was fake, stating there was no change in NEET results.
+
+Source URL: https://www.livemint.com/education/news/nta-says-no-change-in-neet-results-news-about-a-st-topper-is-fake-11603214514367.html
+
+### Did the National Testing Agency (NTA) release an official statement or notice acknowledging the error in the NEET 2020 results concerning the topper's status?
+Answer: The National Testing Agency (NTA) did not release an official statement or notice acknowledging the error in the NEET 2020 results concerning the topper's status; instead, it denied the allegations, calling them fake and fabricated and stating that the results declared on October 16, 2020, are final and correct.
+
+Source URL: https://www.ndtv.com/education/claims-of-errors-in-neet-2020-results-fake-fabricated-nta-2313136
+
+### What was the reported reason or cause for the National Testing Agency (NTA) mistakenly declaring the NEET 2020 all-India topper as a failed candidate?
+Answer: **CONFLICT.** The retrieved document states that the reported reason for the NTA's error was a discrepancy in initial evaluation, where the student's score was corrected from 329 to 650 after rechecking upon challenge based on the OMR sheet and Answer Key. The reasoner working from memory alone, which has no record of this event and is close to guessing in its assessment, reports that it has no knowledge of the National Testing Agency mistakenly declaring the NEET 2020 all-India topper as a failed candidate.
+
+Source URL: https://www.india.com/education/neet-2020-result-blunder-aspirant-declared-failed-emerges-as-topper-deets-here-4179014/
+
+### Did the initial erroneous "failed" status for the NEET 2020 topper prevent or delay the candidate from proceeding with medical college admission counselling?
+Answer: There is no information or report indicating that the initial erroneous 'failed' status for the NEET 2020 topper prevented or delayed medical college admission counselling; the error was corrected and the candidate was confirmed as topper.
+
+Source URL: https://www.livemint.com/education/news/neet-2020-failed-candidate-turns-out-to-be-all-india-topper-in-st-category-11603182789566.html
+
+### What was the public and media reaction to the National Testing Agency (NTA)'s reported error in listing the NEET 2020 topper as failed?
+Answer: **CONFLICT.** The retrieved document states that the public and media reaction to the reported error was characterized by the spread of misinformation, which the NTA described as 'fake, fabricated,' leading to a public rebuttal and warning of legal action. The reasoner working from memory alone, with low confidence, reports having no record of any such error by the NTA in the NEET 2020 results and consequently no information on public or media reactions.
+
+Source URL: https://www.ndtv.com/education/claims-of-errors-in-neet-2020-results-fake-fabricated-nta-2313136
+
+## Your Judgement
+```
+
+# Claim 69
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "White House coronavirus adviser Dr. Anthony Fauci wrote a 2008 paper that found most 1918-1919 Spanish Influenza pandemic deaths were because of bacterial pneumonia from wearing masks."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Dr. Anthony Fauci author or co-author a scientific paper published in 2008 concerning the 1918-1919 Spanish Influenza pandemic?
+Answer: **CONFLICT.** The retrieved documents contain no information on whether Dr. Anthony Fauci authored or co-authored a 2008 paper on the 1918-1919 Spanish Influenza, whereas the reasoner working from memory alone, with moderate confidence, reports that he did co-author a scientific paper published in 2008 concerning the 1918-1919 Spanish Influenza pandemic.
+
+Source URL: none -- retrieval returned no document
+
+### What is the exact title, publication journal, and author list of the 2008 paper referenced in the claim about the Spanish Influenza pandemic?
+Answer: The 2008 paper is titled 'Predominant Role of Bacterial Pneumonia as a Cause of Death in Pandemic Influenza: Implications for Pandemic Influenza Preparedness,' published in The Journal of Infectious Diseases, and authored by David M. Morens, Jeffery K. Taubenberger, and Anthony S. Fauci.
+
+Source URL: https://academic.oup.com/jid/article/198/7/962/2192118
+
+### In the 2008 paper, does the abstract or main conclusion state that bacterial pneumonia was the primary cause of death during the 1918 Spanish Influenza pandemic?
+Answer: The 2008 paper by Fauci et al. states in its main conclusion that bacterial pneumonia was the primary cause of death during the 1918 Spanish Influenza pandemic, with the authors writing that "the vast majority of influenza deaths resulted from secondary bacterial pneumonia."
+
+Source URL: https://www.cidrap.umn.edu/influenza-vaccines/study-bacterial-pneumonia-was-main-killer-1918-flu-pandemic
+
+### In the 2008 paper, does the text directly state or imply that the use of masks was a cause or major contributing factor to the bacterial pneumonia that killed victims of the 1918 Spanish Influenza?
+Answer: The 2008 paper does not state or imply that the use of masks was a cause or major contributing factor to the bacterial pneumonia that killed victims of the 1918 Spanish Influenza; its focus is on viral-bacterial co-infection as the primary mechanism, with no discussion of mask use.
+
+Source URL: https://academic.oup.com/jid/article/198/7/962/2192118
+
+### Does the 2008 paper's discussion of bacterial pneumonia in the 1918 pandemic mention mask-wearing at all?
+Answer: **CONFLICT.** The retrieved document states that the 2008 paper's discussion of bacterial pneumonia in the 1918 pandemic does not mention mask-wearing. The reasoner, which has no knowledge of the paper and is uncertain about its existence, reports that it cannot verify whether mask-wearing is mentioned.
+
+Source URL: https://www.cidrap.umn.edu/influenza-vaccines/study-bacterial-pneumonia-was-main-killer-1918-flu-pandemic
+
+### According to the historical and scientific literature cited in the 2008 paper, what were the established causes of the bacterial pneumonia deaths in 1918?
+Answer: **CONFLICT.** The retrieved document states that according to the 2008 paper by Morens, Taubenberger, and Fauci, bacterial pneumonia deaths in the 1918 pandemic were caused by secondary infections from common upper respiratory-tract bacteria (predominantly pneumococci, streptococci, and staphylococci) following initial influenza virus infection. The reasoner, working from memory alone and with little confidence in its assessment, reports that it has no record of what the historical and scientific literature cited in that paper established about these causes.
+
+Source URL: https://academic.oup.com/jid/article/198/7/962/2192118
+
+### What is the scientific consensus on the primary cause of death during the 1918 Spanish Influenza pandemic, and does it primarily involve bacterial pneumonia?
+Answer: The scientific consensus is that bacterial pneumonia was the primary cause of death during the 1918 Spanish Influenza pandemic, as the influenza virus increased susceptibility to fatal secondary bacterial infections.
+
+Source URL: https://www.newscientist.com/article/dn14458-bacteria-were-the-real-killers-in-1918-flu-pandemic/
+
+### Is Dr. Anthony Fauci listed as a lead author, senior author, or a contributing co-author on the specific 2008 paper in question?
+Answer: **CONFLICT.** The document-store fact-checker rejected the request as high risk, so no authorship information was retrieved. The reasoner working from memory alone reports that Dr. Anthony Fauci is listed as a contributing co-author on the 2008 paper, specifically as the last author, which typically indicates a senior or supervisory role, and is fairly confident in this assessment.
+
+Source URL: https://jamanetwork.com/journals/jama/fullarticle/2687949
+
+### Does the 2008 paper present mask-induced bacterial pneumonia as a verified historical fact or as one hypothesis among several?
+Answer: The 2008 paper argues that most deaths from the 1918–1919 influenza pandemic were due to secondary bacterial infections, and it does not address mask-induced bacterial pneumonia, neither verifying it as a fact nor presenting it as a hypothesis.
+
+Source URL: https://www.aai.org/About/History/History-Articles-Keep-for-Hierarchy/The-1918%E2%80%931919-Influenza-Pandemic-as-Covered-in-(1)
+
+## Your Judgement
+```
+
+# Claim 70
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Dr Anthony Fauci wrote a paper regarding the Spanish Flu and stated that the majority of deaths in 1918-1919 was because of bacterial pneumonia from wearing masks."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### If such a paper exists, what are its exact title, publication date, and the journal in which it was published?
+Answer: **CONFLICT.** The retrieved document states that a paper by Fauci et al. titled 'Predominant Role of Bacterial Pneumonia as a Cause of Death in Pandemic Influenza: Implications for Pandemic Influenza Preparedness' was published on July 15, 2008, in The Journal of Infectious Diseases, but it does not support the claim about mask-wearing. The reasoner working from memory alone, which is fairly certain that no paper attributing deaths to mask-wearing exists, reports that the only relevant paper it recalls is '1918 Influenza: the Mother of All Pandemics' published in January 2006 in Emerging Infectious Diseases, which also does not attribute deaths to mask-wearing.
+
+Source URL: https://www.msubillings.edu/lectures/ww1/pdf/Lewis_WWI_Lecture.pdf
+
+### In the identified paper, did Dr. Anthony Fauci state that the majority of deaths during the 1918-1919 influenza pandemic were caused by bacterial pneumonia?
+Answer: Dr. Anthony Fauci stated that bacterial pneumonia was a major cause of death during the 1918-1919 influenza pandemic.
+
+Source URL: https://circleofmamas.com/health-news/bacterial-pneumonia-was-the-real-killer-during-1918-spanish-flu-pandemic/
+
+### In the identified paper, did Dr. Anthony Fauci state that the bacterial pneumonia was caused by or a direct result of people wearing masks?
+Answer: In the identified paper, Dr. Anthony Fauci did not state that bacterial pneumonia was caused by or a direct result of people wearing masks; he focused on bacterial pneumonia as a consequence of secondary infections from influenza or attributed it to bacteria in the pre-antibiotic era.
+
+Source URL: https://circleofmamas.com/health-news/bacterial-pneumonia-was-the-real-killer-during-1918-spanish-flu-pandemic/
+
+### What is the documented consensus among historians and epidemiologists regarding the primary causes of death during the 1918-1919 Spanish Flu pandemic?
+Answer: The documented consensus is that the 1918-1919 pandemic was caused by the H1N1 influenza A virus, and while the virus itself caused primary infections, the majority of deaths were associated with secondary bacterial pneumonias caused by pathogens such as Streptococcus pneumoniae, Streptococcus pyogenes, and Staphylococcus aureus. The virus's extreme virulence and host immune responses also contributed to disease severity, and the lack of antibiotics at the time made secondary bacterial infections frequently fatal. Had it not been for secondary bacterial pneumonias, the 1918 pandemic likely would have been associated with a far lower mortality.
+
+Source URL: https://en.wikiquote.org/wiki/Spanish_flu
+
+### Is there any scientific evidence from the 1918 pandemic or subsequent research that demonstrates a causal link between mask-wearing and an increased risk of developing fatal bacterial pneumonia?
+Answer: No scientific evidence from the 1918 pandemic or subsequent research demonstrates a causal link between mask-wearing and an increased risk of developing fatal bacterial pneumonia.
+
+Source URL: https://circleofmamas.com/health-news/bacterial-pneumonia-was-the-real-killer-during-1918-spanish-flu-pandemic/
+
+### Is the paper in question a primary research article, a review article, or an editorial, and what was its intended context and audience?
+Answer: **CONFLICT.** The retrieved document states that the paper is a review article titled 'Predominant Role of Bacterial Pneumonia as a Cause of Death in Pandemic Influenza: Implications for Pandemic Influenza Preparedness' by Morens, Taubenberger, and Fauci, published in The Journal of Infectious Diseases, intended for medical professionals, researchers, and public health officials. The reasoner working from memory alone reports that it has no record of any paper by Dr. Anthony Fauci that claims the majority of 1918-1919 Spanish Flu deaths were due to bacterial pneumonia from wearing masks, and it is close to guessing in this assessment, so it cannot describe such a document.
+
+Source URL: https://www.aai.org/About/History/History-Articles-Keep-for-Hierarchy/The-1918%E2%80%931919-Influenza-Pandemic-as-Covered-in-(1)
+
+### Have any reputable fact-checking organizations or scientific bodies previously evaluated this specific claim about Dr. Fauci's paper?
+Answer: Reputable fact-checking organizations, including Reuters Fact Check and PolitiFact, have evaluated this specific claim about Dr. Fauci's paper and found it to be false or misleading, clarifying that while Fauci co-authored a 2008 paper concluding bacterial pneumonia was the primary killer during the 1918 pandemic, the research did not attribute deaths to mask-wearing.
+
+Source URL: https://circleofmamas.com/health-news/bacterial-pneumonia-was-the-real-killer-during-1918-spanish-flu-pandemic/
+
+### Does the original text of the paper in question support the interpretation that masks themselves caused the bacterial pneumonia, or does it discuss other factors like secondary bacterial infections in weakened patients?
+Answer: **CONFLICT.** The retrieved document indicates that Dr. Fauci's research identified bacterial pneumonia as a major cause of death during the 1918 pandemic, but the discussion focuses on secondary bacterial infections in patients weakened by the flu, exacerbated by the pre-antibiotic era, without attributing these infections to mask-wearing. In contrast, the reasoner working from memory alone, with very low confidence, reports having no record of any such paper by Dr. Anthony Fauci and thus does not support the premise that such a paper exists.
+
+Source URL: https://circleofmamas.com/health-news/bacterial-pneumonia-was-the-real-killer-during-1918-spanish-flu-pandemic/
+
+## Your Judgement
+```
+
+# Claim 71
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "India's imports from China increased by 27% during the period April-August 2020."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. According to official trade statistics from India or China, what was the total value of India's imports from China for the period of April to August 2020?
+Answer: **CONFLICT.** The retrieved document states that India's imports from China during April-August 2020 totaled $21.58 billion according to official Indian government data cited in Parliament, while the reasoner working from memory alone, which has no record of the total value and is near guessing, reports that it does not have this information.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 2. According to official trade statistics, what was the total value of India's imports from China for the corresponding reference period used to calculate the claimed 27% increase (e.g., April-August 2019)?
+Answer: **CONFLICT.** The retrieved documents state that India's imports from China for April-August 2019 totaled approximately $29.82 billion, based on official data showing a 27.63% decline in the 2020 period. The reasoner working from memory alone, having no trace of this information and being close to guessing in this assessment, reports that it has no knowledge of the total value for that reference period.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 3. Based on the values for the two periods in question, what is the calculated percentage increase in India's imports from China?
+Answer: **CONFLICT.** The retrieved document states that the calculated percentage change in India's imports from China during April-August 2020-21 was a decline of 27.63%. The reasoner working from memory alone reports that it has no record of the specific import values for the periods in question and therefore cannot calculate the percentage increase, being very uncertain and close to guessing on this matter.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 4. Is the 27% increase stated in the claim measured in terms of U.S. dollar value or in Indian rupee value?
+Answer: **CONFLICT.** The retrieved document states that the 27.63% decline is measured in U.S. dollar value, with figures specified in dollars. The reasoner, working from memory alone and having little confidence in its recollection, reports no record of any 27% increase in India's imports from China during April-August 2020 and thus cannot determine whether such an increase was measured in U.S. dollars or Indian rupees.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 5. Which specific official or authoritative source (e.g., India's Ministry of Commerce & Industry, China Customs, UN Comtrade database) published the data showing this import increase?
+Answer: **CONFLICT.** The retrieved document states that the data was published by India's Commerce and Industry Minister Piyush Goyal in a written reply to the Lok Sabha. The reasoner working from memory alone, which is uncertain in this assessment, reports that it has no record of any specific official or authoritative source publishing data showing India's imports from China increased by 27% during April-August 2020.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 6. Does the 27% increase apply to total merchandise imports from China, or does it refer to a specific product category or sector?
+Answer: **CONFLICT.** The retrieved document states that India's imports from China declined by 27.63% during April-August 2020, applying to total merchandise imports. The reasoner, working from memory alone, reports no record of any such 27% increase and, being uncertain in this assessment, cannot determine whether it pertains to total imports or a specific category.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 7. How does this 27% increase for April-August 2020 compare to the year-on-year import growth trends from China in the same period during previous years (e.g., 2018 and 2019)?
+Answer: **CONFLICT.** The retrieved document states that India's imports from China declined by 27.63% during April-August 2020, contradicting the claim of a 27% increase, and provides no data on import growth trends for the same period in 2018 or 2019. The reasoner, working from memory alone and close to guessing on this matter, reports that it has no record of the specific 27% increase or the year-on-year import growth figures from China for comparison.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 8. What were the major commodity categories (e.g., electronics, machinery, chemicals) that contributed most to the increase in India's imports from China during this period?
+Answer: **CONFLICT.** The retrieved document indicates that the major commodity categories contributing to the increase in India's imports from China during April-August 2020 included medical supplies, heavy machinery, telecom equipment, home appliances, and electronics. In contrast, the reasoner working from memory alone, with no specific recollection of such data and close to guessing on this, reports that it cannot identify which categories contributed most to the claimed increase.
+
+Source URL: https://www.drishtiias.com/daily-news-analysis/china-india-s-top-trading-partner-in-2020/print_manually
+
+### 9. Were there any significant global or bilateral factors during April-August 2020, such as post-first-wave COVID-19 economic recovery, government policies, or inventory restocking, that could explain a surge in imports?
+Answer: **CONFLICT.** The retrieved document states that India's imports from China declined by 27.63% during April-August 2020, indicating no surge occurred. The reasoner, working from memory alone, has no recollection of a specific surge but infers from general knowledge that factors such as post-lockdown economic recovery, China's early recovery and role as a supplier, global supply chain disruptions, and continued bilateral trade could plausibly explain higher imports, and is fairly certain in this inference.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+### 10. Did any external reports or analyses from financial institutions or trade think-tanks corroborate or dispute the claim of a 27% import increase from China during this timeframe?
+Answer: **CONFLICT.** The retrieved document states that India's imports from China declined by 27.63% during April-August 2020-21, disputing the claim of a 27% increase. The reasoner, working from internal knowledge alone, reports having no record of any specific external reports or analyses from financial institutions or trade think-tanks that addressed the 27% claim, and is nearly guessing in this assessment.
+
+Source URL: https://www.businesstoday.in/current/economy-politics/imports-from-china-decline-by-27-63-during-april-august-2020-piyush-goyal/story/416674.html
+
+## Your Judgement
+```
+
+# Claim 72
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The daughter of Muahammadu Buhari (the President of Nigeria) is a board member of the Nigerian National Petroleum Corporation (NNPC)."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was Muhammadu Buhari the President of Nigeria at the time the claim was made or is he the current President of Nigeria?
+Answer: **CONFLICT.** The retrieved document states that Muhammadu Buhari is currently serving as the President of Nigeria, having been in office since 2015. The reasoner, working from memory alone and certain of its assessment, reports that Buhari was president at the time the claim was made in 2020, but that his term ended in 2023 and he is not the current president.
+
+Source URL: https://prabook.com/web/muhammadu.buhari/1299734
+
+### Does President Muhammadu Buhari have any daughters?
+Answer: President Muhammadu Buhari has multiple daughters from both his first and current wives.
+
+Source URL: https://www.legit.ng/1116778-muhammadu-buhari-children.html
+
+### Is there a specific daughter of President Muhammadu Buhari who was appointed to a board position at the Nigerian National Petroleum Corporation (NNPC)?
+Answer: There is no evidence that a daughter of President Muhammadu Buhari was appointed to a board position at the Nigerian National Petroleum Corporation (NNPC). One source alleges that his daughter, Zahra Buhari-Indimi, was employed as a Deputy Manager at the Petroleum Products Pricing Regulatory Agency (PPPRA), which is described as an NNPC subsidiary, but not as a board member of NNPC itself.
+
+Source URL: https://www.nairaland.com/5679927/anger-buharis-daughter-made-manager
+
+### What is the full name of President Muhammadu Buhari's daughter who is alleged to be on the NNPC board?
+Answer: **CONFLICT.** The retrieved document states that President Buhari's daughter alleged to be on the NNPC board is Zahra Indimi, based on a whistleblower claim. The reasoner working from memory alone, which has no record of this allegation and is close to guessing in its assessment, reports that it has no knowledge of any such claim.
+
+Source URL: https://www.nairaland.com/5679927/anger-buharis-daughter-made-manager
+
+### On what date or during what time period was President Buhari's daughter appointed to the NNPC board?
+Answer: There is no available information or record indicating that President Buhari's daughter was appointed to the NNPC board, and no date or time period for such an appointment can be identified.
+
+Source URL: https://thewhistler.ng/just-in-new-nnpc-board-inaugurated/
+
+### What official documentation (e.g., corporate registry, government gazette) lists President Buhari's daughter as a board member of the NNPC?
+Answer: No official documentation, such as a corporate registry or government gazette, lists President Buhari's daughter as a board member of the Nigerian National Petroleum Corporation (NNPC).
+
+Source URL: https://pointblanknews.com/pbn/exclusive/buhari-appoints-baru-gmd-nnpc-approves-new-board-directors/
+
+### Did the appointment of President Buhari's daughter to the NNPC board follow the standard and publicly declared process for appointing board members to the corporation?
+Answer: **CONFLICT.** The retrieved documents did not provide information on this question, as the request was considered high risk. The reasoner working from memory alone, fairly confident in this assessment and citing 2020 fact-checks as confirmation, reports that President Buhari's daughter was never appointed to the NNPC board, rendering the question of whether the appointment process was followed moot.
+
+Source URL: https://dailynigerian.com/buhari-appoints-late-chuba/
+
+### What are the stated qualifications or professional experience of President Buhari's daughter that would be relevant for a board position at a national oil corporation?
+Answer: President Buhari's daughter is not listed as a board member of the Nigerian National Petroleum Corporation (NNPC) in the available records or knowledge, and therefore no stated qualifications or professional experience for her are mentioned.
+
+Source URL: https://thenicheng.com/buhari-appoints-baru-as-new-gmd-nnpc-approves-new-board/
+
+### Is President Buhari's daughter currently serving on the NNPC board, or has her term expired or been terminated?
+Answer: There is no record or indication that President Buhari's daughter is currently serving or has ever served on the NNPC board, and no information exists regarding her term expiring or being terminated.
+
+Source URL: https://www.bellanaija.com/2016/07/president-buhari-appoints-new-nnpc-gmd-kachikwu-to-serve-as-board-chairman/
+
+### Have official spokespeople for the Presidency or the NNPC publicly confirmed or denied the claim that the President's daughter is a board member?
+Answer: **CONFLICT.** The retrieved document states that the Presidency's spokesperson, Femi Adesina, listed all NNPC board members, and President Buhari's daughter was not included, effectively denying the claim through this omission. The reasoner working from memory alone reports having no record of any official spokespeople publicly confirming or denying the claim, and is not very confident in this assessment as it is close to guessing.
+
+Source URL: https://dailynigerian.com/buhari-appoints-late-chuba/
+
+## Your Judgement
+```
+
+# Claim 74
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The Iowa Farm Bureau, US says that it would no longer be endorsing US Republican Iowa Sen. Joni Ernst for her re-election"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Has the Iowa Farm Bureau officially endorsed U.S. Senator Joni Ernst in any prior Iowa election cycle?
+Answer: **CONFLICT.** The retrieved documents state that the Iowa Farm Bureau officially endorsed U.S. Senator Joni Ernst in the 2020 election, naming her a 'Friend of Agriculture' via the IFBF PAC. The reasoner working from memory alone, with low confidence in this assessment, reports that it has no record of such an endorsement.
+
+Source URL: https://www.iowafieldreport.com/campaigns/ernst-endorsed-by-the-iowa-farm-bureau/
+
+### 2. Did the Iowa Farm Bureau issue an official public statement or press release announcing that it would no longer endorse Senator Joni Ernst for re-election?
+Answer: There is no evidence that the Iowa Farm Bureau issued an official public statement or press release announcing that it would no longer endorse Senator Joni Ernst for re-election.
+
+Source URL: https://www.iowafarmbureau.com/Article/FB-designates-Friends-of-Ag
+
+### 4. For which specific re-election campaign did the Iowa Farm Bureau allegedly decide not to endorse Senator Joni Ernst?
+Answer: Only the document store answered this question; the memory-only reasoner produced no usable answer. From the document store: The document store returned no document that could answer this question; retrieval found nothing bearing on it.
+
+Source URL: none -- retrieval returned no document
+
+### 5. What reason, if any, did the Iowa Farm Bureau provide for withdrawing or withholding its endorsement of Senator Joni Ernst?
+Answer: The Iowa Farm Bureau did not withdraw or withhold its endorsement of Senator Joni Ernst and therefore provided no reason for doing so; the Bureau explicitly stated that reports of withdrawal were based on a 'fake email' and reaffirmed its support.
+
+Source URL: https://www.iowafarmbureau.com/Article/Statement-by-Iowa-Farm-Bureau-Federation
+
+### 7. Has any major news outlet reported on the Iowa Farm Bureau's decision to discontinue its endorsement of Senator Joni Ernst?
+Answer: No major news outlet has reported on the Iowa Farm Bureau discontinuing its endorsement of Senator Joni Ernst, and the Iowa Farm Bureau itself has confirmed continued endorsement by designating her as a 'Friend of Agriculture' for the 2020 election.
+
+Source URL: https://www.iowafarmbureau.com/Article/FB-designates-Friends-of-Ag
+
+### 8. Does the Iowa Farm Bureau's official website or published records confirm or deny the alleged withdrawal of endorsement of Senator Joni Ernst?
+Answer: The Iowa Farm Bureau has publicly endorsed Senator Joni Ernst for her re-election, and there appears to be no record in official sources or available knowledge of a withdrawal of that endorsement.
+
+Source URL: https://www.iowafieldreport.com/campaigns/ernst-endorsed-by-the-iowa-farm-bureau/
+
+### 9. Has the Iowa Farm Bureau endorsed any other candidate or declared neutrality in the relevant Iowa U.S. Senate race following the alleged withdrawal of support for Senator Joni Ernst?
+Answer: The Iowa Farm Bureau has not withdrawn its endorsement of Senator Joni Ernst; there is no indication of it endorsing any other candidate or declaring neutrality in the Iowa U.S. Senate race.
+
+Source URL: https://www.iowafieldreport.com/campaigns/ernst-endorsed-by-the-iowa-farm-bureau/
+
+### 10. Have any officials or spokespersons from the Iowa Farm Bureau made public remarks confirming or disputing the claim that the organization would no longer endorse Senator Joni Ernst?
+Answer: **CONFLICT.** The retrieved document states that Erik Oberbroeckling, the Iowa Farm Bureau PAC Chair, made public remarks confirming the organization's endorsement of Senator Joni Ernst, directly disputing the claim. The reasoner working from memory alone, which is close to guessing on this matter, reports having no record of any Iowa Farm Bureau officials or spokespersons making public remarks confirming or disputing the claim.
+
+Source URL: https://www.iowafieldreport.com/campaigns/ernst-endorsed-by-the-iowa-farm-bureau/
+
+## Your Judgement
+```
+
+# Claim 75
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Joe and Jill Biden's income has increased recently."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the specific timeframe being referenced as "recently" in the claim about Joe and Jill Biden's income?
+Answer: **CONFLICT.** The retrieved document states that the claim references the two-year period after Joe Biden left the White House in January 2017, specifically 2017 and 2018. The reasoner working from memory alone, with low confidence in its assessment, reports that it has no record of the claim specifying a particular timeframe.
+
+Source URL: https://www.cnbc.com/2019/07/09/joe-biden-releases-tax-returns-during-2020-democratic-primary.html
+
+### What were the total adjusted gross income figures for Joe and Jill Biden for each of the last five available tax filing years?
+Answer: **CONFLICT.** The retrieved document states that for 2019, Joe and Jill Biden's adjusted gross income was $985,233, and that in 2017, they made a $3.7 million tax payment due to book deals, but it does not provide specific AGI figures for the other years; the reasoner, certain of its recollection, reports that their AGI was in the $300,000-$400,000 range during 2015-2016, approximately $11 million in 2017, $4.6 million in 2018, and under $1 million in 2019.
+
+Source URL: https://www.denverpost.com/2020/09/29/biden-releases-2019-taxes/
+
+### What are the primary documented sources of income for Joe and Jill Biden, such as presidential salary, book royalties, speaking fees, or pensions?
+Answer: **CONFLICT.** The retrieved document states that the primary documented sources of income for Joe and Jill Biden since leaving the White House in 2017 are book royalties and payments for their books (such as 'Promise Me, Dad' and 'Where the Light Enters'), paid speaking engagements with fees ranging from $8,040 to $190,000, salary from their S-Corporations (CelticCapri and Giacoppa), and Biden's salary as a professor at the University of Pennsylvania, with specific figures like $425,000 from his S-Corp and $776,527 as a professor. The reasoner working from memory alone, which is highly confident in its assessment, reports that the primary sources include Joe Biden's presidential salary, book royalties from his authored memoirs, speaking fees from paid engagements, and pensions from government service, as well as Jill Biden's salary as a professor and book royalties from her published books.
+
+Source URL: https://abcnews.go.com/Politics/joe-jill-biden-reported-earning-15-million-income/story?id=64225419
+
+### How does the income reported on Joe and Jill Biden's most recent public tax return compare to the income reported on the tax return from the year before he assumed the presidency?
+Answer: **CONFLICT.** The retrieved document states that Joe and Jill Biden's adjusted gross income increased from about $396,000 in 2016 to about $11 million in 2017. The reasoner working from memory alone, with low confidence, reports that the 2020 tax return is not public as of October 2020 and thus a comparison cannot be made.
+
+Source URL: https://www.cnbc.com/2019/07/09/joe-biden-releases-tax-returns-during-2020-democratic-primary.html
+
+### Has any credible financial analysis or news report documented a specific increase in the Bidens' income, and if so, what timeframe and income sources did it highlight?
+Answer: Credible news reports have documented a specific increase in Joe and Jill Biden's income, particularly in 2017 and 2018, with the increase primarily coming from book deals and speaking engagements following Joe Biden's departure from the Vice Presidency.
+
+Source URL: https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-2020-joe-biden-income-20190709-story.html
+
+### Do public financial disclosure reports filed by President Biden as a sitting president reflect a rise in income from sources other than his government salary?
+Answer: **CONFLICT.** The retrieved document states that it contains no information about public financial disclosure reports filed by President Biden as a sitting president and thus cannot answer the question. The reasoner working from memory alone reports that it has no recollection of such reports reflecting a rise in non-government income and, based on adjacent facts, is fairly confident that such income did not increase, though this is an inference.
+
+Source URL: https://www.forbes.com/sites/michelatindera/2019/07/10/bidens-made-nearly-twice-as-much-in-2017-than-previous-19-years-combined/
+
+### Is the reported increase in income attributable to specific, documented events, such as a new book deal, paid speeches, or the sale of an asset?
+Answer: The reported increase in Joe and Jill Biden's income is directly attributable to specific, documented events, including the sales of Joe Biden's book 'Promise Me, Dad' and a series of paid speaking engagements after his vice presidency.
+
+Source URL: https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-2020-joe-biden-income-20190709-story.html
+
+### When comparing their income, are adjustments being made for inflation to determine if there was a real increase in purchasing power?
+Answer: **CONFLICT.** The retrieved documents do not mention any inflation adjustments when comparing the Bidens' income and list nominal figures, such as $396,456 in 2016, over $11 million in 2017, and $4.6 million in 2018. The reasoner, working from memory alone and with low confidence close to guessing, reports that it has no record of a specific income comparison being conducted and therefore cannot determine if inflation adjustments are being applied.
+
+Source URL: https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-2020-joe-biden-income-20190709-story.html
+
+### Have Joe and Jill Biden's earnings from investments or capital gains increased in recent years according to their public filings?
+Answer: There is no record of information from public filings about whether Joe and Jill Biden's earnings from investments or capital gains increased in recent years.
+
+Source URL: https://www.celebritynetworth.com/richest-politicians/democrats/joe-biden-net-worth/
+
+### What was the income level for Joe and Jill Biden immediately prior to their White House years, and how does it compare to their current level after accounting for changes in employment status?
+Answer: After leaving the Vice Presidency, the Bidens' income surged, with reported taxable income of over $11 million in 2017 and over $4.5 million in 2018, largely from book deals, settling to about $945,000 in 2019 from sources including University of Pennsylvania employment, book tours, and a federal pension. Income levels immediately prior to entering the White House are not specified, though prior to 2009, Joe Biden earned a Senator's salary and Jill Biden an educator's salary. Current income as President and First Lady is not detailed, but their income increased substantially after 2017.
+
+Source URL: https://www.nbcnews.com/politics/2020-election/biden-releases-2019-tax-returns-ahead-first-debate-n1241387
+
+## Your Judgement
+```
+
+# Claim 77
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "A third of excess deaths in the United States between 1 March and  1 August 2020 during the COVID-19 pandemic could not be directly attributed to the coronavirus"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What official public health data source provides the total number of recorded deaths in the United States for the period between 1 March and 1 August 2020?
+Answer: The official public health data source providing the total number of recorded deaths in the United States for the period between 1 March and 1 August 2020 is the National Center for Health Statistics and its National Vital Statistics System.
+
+Source URL: https://www.cnn.com/2020/10/12/health/us-deaths-covid-19-pandemic-jama-study/index.html
+
+### What statistical method and historical data are used by public health authorities (such as the CDC) to calculate the "expected" or baseline number of deaths in the United States for a given time period, such as March-August?
+Answer: The expected number of deaths is calculated using statistical models based on historical mortality data from several past years, often incorporating adjustments for seasonal trends, population changes, and data-reporting delays.
+
+Source URL: https://theconversation.com/279-700-extra-deaths-in-the-us-so-far-in-this-pandemic-year-147887
+
+### Based on the official death data and the calculated baseline, what was the total number of excess deaths in the United States between 1 March and 1 August 2020?
+Answer: **CONFLICT.** The retrieved document states that there were 225,530 excess deaths in the United States between March 1 and August 1, 2020, with 67% attributed to Covid-19. The reasoner working from memory alone, which has no specific recollection of this total and is close to guessing in its assessment, reports that it cannot provide the number.
+
+Source URL: https://www.cnn.com/2020/10/12/health/us-deaths-covid-19-pandemic-jama-study/index.html
+
+### According to official death certificate data, how many deaths in the United States between 1 March and 1 August 2020 had COVID-19 listed as the underlying or a contributing cause of death?
+Answer: **CONFLICT.** The retrieved document states that 150,541 deaths in the United States between March 1 and August 1, 2020 were attributed to COVID-19, citing a JAMA study. The reasoner, working from memory alone and having no trace of this specific figure, reports that it has no knowledge of the exact number, being close to guessing in its uncertainty.
+
+Source URL: https://www.cnn.com/2020/10/12/health/us-deaths-covid-19-pandemic-jama-study/index.html
+
+### Is there a recognized published study or official analysis that explicitly calculates the proportion of excess deaths in the United States during the specified period that were *not* attributed to COVID-19 on death certificates?
+Answer: **CONFLICT.** The retrieved document states that a peer-reviewed study published in JAMA found that only 67% of excess deaths in the United States between March and August 2020 were attributed to COVID-19 on death certificates, meaning approximately 33% were not attributed to COVID-19. The reasoner working from memory alone, being uncertain about its knowledge, reports that it has no record of any recognized published study or official analysis that explicitly calculates this proportion.
+
+Source URL: https://www.foxnews.com/health/coronavirus-us-excess-deaths-study
+
+### If such a study exists, what was the exact figure or percentage it reported for excess deaths not attributed to COVID-19?
+Answer: **CONFLICT.** The retrieved document states that exactly 33% of excess deaths between March and August 2020 were not attributed to COVID-19, as COVID-19 was a documented cause of only 67% of these excess deaths. The reasoner working from memory alone, which has no record of any study reporting an exact figure or percentage for excess deaths not attributed to COVID-19 in the United States during that period and is close to guessing, reports that no such study is known to it.
+
+Source URL: https://www.foxnews.com/health/coronavirus-us-excess-deaths-study
+
+### What was the defined methodology in that study for categorizing a death as "directly attributed" versus "not directly attributed" to the coronavirus?
+Answer: **CONFLICT.** The retrieved document states that the study defined deaths as 'directly attributed' to COVID-19 based on the virus being listed as the cause on the death certificate, with 26% of excess deaths not directly attributed. The reasoner, which has no record of any study defining such a methodology and is uncertain in this assessment, reports that it has no knowledge of a defined method for this categorization.
+
+Source URL: https://penntoday.upenn.edu/news/US-covid-deaths-may-be-underestimated-36-percent
+
+### Does the study account for potential misclassification, delays in reporting, or deaths where COVID-19 may have been an undiagnosed factor?
+Answer: The study accounts for potential misclassification, delays in reporting, and deaths where COVID-19 may have been an undiagnosed factor by using CDC data that adjusts for reporting delays and shows that excess deaths exceed COVID-19-attributed deaths, suggesting undercounting or misclassification in the remainder.
+
+Source URL: https://theconversation.com/279-700-extra-deaths-in-the-us-so-far-in-this-pandemic-year-147887
+
+### Has any subsequent analysis or peer review of the study's methodology or conclusions produced conflicting results regarding the proportion of non-COVID-19 excess deaths?
+Answer: No subsequent analysis or peer review has produced conflicting results regarding the proportion of non-COVID-19 excess deaths; a cited JAMA study found that COVID-19 was documented as a cause of death in 67% of excess deaths between March and July 2020 in the U.S., which aligns with about a third not being directly attributed to the coronavirus, though some may represent undercounted COVID-19 deaths or indirect effects of the pandemic.
+
+Source URL: https://theconversation.com/279-700-extra-deaths-in-the-us-so-far-in-this-pandemic-year-147887
+
+### Did the original claim correctly report the exact figure, time frame, and geographic scope (United States) as presented in the source study or analysis?
+Answer: **CONFLICT.** The retrieved document states that the source study confirms the claim's exact figure, time frame, and geographic scope as described. The reasoner working from memory alone reports that it has no record of any such source study, with low certainty.
+
+Source URL: https://www.cnn.com/2020/10/12/health/us-deaths-covid-19-pandemic-jama-study/index.html
+
+## Your Judgement
+```
+
+# Claim 78
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Prominent US Democrat party members including Hillary and Bill Clinton, were running a child sex-trafficking ring in the basement of a Washington, D.C., pizzeria."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Has any official law enforcement investigation in the United States ever produced evidence or charges confirming that Hillary Clinton or Bill Clinton operated a child sex-trafficking ring?
+Answer: No official law enforcement investigation has produced evidence or charges confirming that Hillary Clinton or Bill Clinton operated a child sex-trafficking ring, and the allegations are baseless and part of a debunked conspiracy theory.
+
+Source URL: https://slate.com/news-and-politics/2016/12/the-comet-ping-pong-pizzagate-scandal-is-a-child-sex-ring-myth-for-the-age-of-trump.html
+
+### 2. Has any court, grand jury, or official legal proceeding in the United States ever indicted or convicted Hillary Clinton or Bill Clinton for involvement in child sex-trafficking?
+Answer: No court, grand jury, or official legal proceeding in the United States has ever indicted or convicted Hillary Clinton or Bill Clinton for involvement in child sex-trafficking.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/06/21/fact-check-hillary-clinton-wasnt-court-testifying-june-2/3199725001/
+
+### 3. Does the specific pizzeria in Washington, D.C., referenced in the claim have a physical basement that could have been used for the alleged activities?
+Answer: The specific pizzeria in Washington, D.C., referenced in the claim, Comet Ping Pong, does not have a basement.
+
+Source URL: https://www.nbcwashington.com/news/local/dc-pizzeria-owner-receiving-death-threats-after-conspiracy-theory-circulates/89424/
+
+### 4. Has any investigative body, such as the FBI, Metropolitan Police Department of D.C., or a congressional committee, ever confirmed the existence of a child sex-trafficking ring operating from a pizzeria in Washington, D.C.?
+Answer: No investigative body, such as the FBI, Metropolitan Police Department of D.C., or a congressional committee, has ever confirmed the existence of a child sex-trafficking ring operating from a pizzeria in Washington, D.C.; instead, investigations have found the claims to be unfounded and part of a debunked conspiracy theory.
+
+Source URL: https://www.nbcwashington.com/news/local/dc-pizzeria-owner-receiving-death-threats-after-conspiracy-theory-circulates/89424/
+
+### 5. What is the original source or publication that first disseminated this specific claim about the Clintons and a pizzeria, and what is that source's history of factual accuracy?
+Answer: The claim originated from anonymous posts on 4chan, specifically its /pol/ board, a platform known for low factual accuracy due to its anonymous nature and prevalence of hoaxes and misinformation.
+
+Source URL: https://hyperallergic.com/347458/artist-targeted-by-pizzagate-conspiracy-theory-speaks/
+
+### 6. Are there any credible, verified victims or witnesses who have publicly testified to being trafficked by Hillary Clinton, Bill Clinton, or other prominent Democratic Party members from a Washington, D.C., pizzeria?
+Answer: No credible, verified victims or witnesses have publicly testified to being trafficked by Hillary Clinton, Bill Clinton, or other prominent Democratic Party members from a Washington, D.C., pizzeria; the Pizzagate conspiracy theory is entirely baseless, with law enforcement finding no evidence to support the claims.
+
+Source URL: https://www.snopes.com/fact-check/pizzagate-conspiracy/
+
+### 7. Has any independent, non-partisan fact-checking organization (e.g., PolitiFact, FactCheck.org, Snopes) evaluated this specific claim and determined it to be true?
+Answer: No independent, non-partisan fact-checking organization has evaluated this specific claim and determined it to be true; in fact, the claim has been widely debunked as false by organizations such as PolitiFact, FactCheck.org, and Snopes.
+
+Source URL: https://www.oxygen.com/very-real/fake-news-accused-hillary-clinton-of-sex-crimes-and-ruined-this-pizzeria
+
+### 8. Were any employees, owners, or associates of the unnamed Washington, D.C., pizzeria ever formally investigated or charged in connection with a child sex-trafficking ring linked to the Clintons?
+Answer: No employees, owners, or associates of the Washington, D.C., pizzeria were ever formally investigated or charged in connection with a child sex-trafficking ring linked to the Clintons, as the conspiracy theory is debunked.
+
+Source URL: https://www.csmonitor.com/USA/2016/1205/Gunman-at-Comet-Ping-Pong-sought-to-self-investigate-fake-Clinton-report
+
+### 9. Beyond naming Hillary and Bill Clinton, does the claim provide any verifiable names or roles of the other "prominent US Democrat party members" allegedly involved?
+Answer: The claim names Hillary and Bill Clinton but does not provide any verifiable names or roles of other prominent US Democrat party members allegedly involved.
+
+Source URL: https://u.osu.edu/vanzandt/2018/04/18/pizzagate-conspiracy/
+
+### 10. Is there any documented evidence of communications, financial transactions, or physical evidence linking Hillary Clinton, Bill Clinton, or other specified Democratic figures to the operation of a sex-trafficking ring at a specific D.C. pizzeria?
+Answer: There is no documented evidence of communications, financial transactions, or physical evidence linking Hillary Clinton, Bill Clinton, or other specified Democratic figures to the operation of a sex-trafficking ring at a D.C. pizzeria; the allegations are part of a fabricated conspiracy theory that has been debunked.
+
+Source URL: https://www.oxygen.com/very-real/fake-news-accused-hillary-clinton-of-sex-crimes-and-ruined-this-pizzeria
+
+## Your Judgement
+```
+
+# Claim 79
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Anthony Weiner’s laptop contained proof Hillary Clinton & her associates are involved in child trafficking & paedophilia"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Was a laptop computer belonging to Anthony Weiner officially seized or examined by law enforcement or investigative authorities?
+Answer: Yes, a laptop computer belonging to Anthony Weiner was officially seized by the FBI and examined by law enforcement authorities.
+
+Source URL: https://www.linkedin.com/pulse/hidden-legal-lessons-from-anthony-weiners-laptop-computer-stark
+
+### 2. If the laptop was seized, which specific law enforcement agency or authority had custody of it and conducted the examination?
+Answer: The laptop was seized and examined by the Federal Bureau of Investigation (FBI).
+
+Source URL: https://www.linkedin.com/pulse/hidden-legal-lessons-from-anthony-weiners-laptop-computer-stark
+
+### 3. During the examination of Anthony Weiner's laptop, did authorities discover files or communications that they determined constituted evidence of Hillary Clinton's personal involvement in child trafficking or pedophilia?
+Answer: The examination of Anthony Weiner's laptop did not reveal any files or communications that authorities determined constituted evidence of Hillary Clinton's personal involvement in child trafficking or pedophilia.
+
+Source URL: https://www.linkedin.com/pulse/hidden-legal-lessons-from-anthony-weiners-laptop-computer-stark
+
+### 4. Did any official investigation, such as one conducted by the FBI, conclude that the contents of Anthony Weiner's laptop provided proof that Hillary Clinton was involved in child trafficking or pedophilia?
+Answer: No official investigation concluded that the contents of Anthony Weiner's laptop provided proof that Hillary Clinton was involved in child trafficking or pedophilia; the FBI reviewed the emails in connection with the Clinton email scandal but found no evidence of such criminal activities, and the Justice Department Inspector General similarly found no support for the allegations.
+
+Source URL: https://www.factcheck.org/2018/08/clintons-emails-weiners-laptop-and-a-falsehood/
+
+### 5. Have any federal, state, or local prosecutors in the United States brought criminal charges against Hillary Clinton based on evidence found on Anthony Weiner's laptop?
+Answer: No federal, state, or local prosecutors in the United States brought criminal charges against Hillary Clinton based on evidence found on Anthony Weiner's laptop.
+
+Source URL: https://www.linkedin.com/pulse/hidden-legal-lessons-from-anthony-weiners-laptop-computer-stark
+
+### 6. During the examination of Anthony Weiner's laptop, did authorities discover files or communications that they determined constituted evidence of Hillary Clinton's associates' involvement in child trafficking or pedophilia?
+Answer: The examination of Anthony Weiner's laptop did not result in any official determination or discovery by authorities of files or communications that constituted evidence of Hillary Clinton or her associates' involvement in child trafficking or pedophilia.
+
+Source URL: https://www.nairaland.com/3448812/nypd-source-weiner-laptop-enough
+
+### 7. Have any associates of Hillary Clinton been investigated, charged, or convicted of child trafficking or pedophilia based on evidence sourced from Anthony Weiner's laptop?
+Answer: No associates of Hillary Clinton have been investigated, charged, or convicted of child trafficking or pedophilia based on evidence sourced from Anthony Weiner's laptop.
+
+Source URL: https://truepundit.com/breaking-bombshell-nypd-blows-whistle-on-new-hillary-emails-money-laundering-sex-crimes-with-children-child-exploitation-pay-to-play-perjury/
+
+### 8. What were the documented findings of any official report (e.g., an FBI summary or court filing) regarding the contents of Anthony Weiner's laptop in relation to Hillary Clinton?
+Answer: Official reports, such as FBI summaries, documented that Anthony Weiner's laptop contained emails related to Hillary Clinton's private server, but the FBI determined that these emails did not constitute evidence of criminal wrongdoing by Clinton and did not alter their earlier decision not to recommend prosecution.
+
+Source URL: https://www.factcheck.org/2018/08/clintons-emails-weiners-laptop-and-a-falsehood/
+
+### 9. Is there a publicly available and verified evidentiary record (such as court documents) that explicitly links content from Anthony Weiner's laptop to proof of child trafficking or pedophilia by Hillary Clinton or her associates?
+Answer: There is no publicly available and verified evidentiary record that explicitly links content from Anthony Weiner's laptop to proof of child trafficking or pedophilia by Hillary Clinton or her associates.
+
+Source URL: https://www.judicialwatch.org/judicial-watch-fbi-documents-detail-weiner-laptop-clinton-email-find-just-before-the-2016-election/
+
+### 10. What is the primary source (e.g., news article, official statement, court document) for the specific claim that the laptop contained "proof" of these crimes, and has that source been corroborated by multiple reputable reporting institutions?
+Answer: **CONFLICT.** According to the retrieved documents, the primary source for the claim is a November 5, 2016, article on True Pundit that cited anonymous sources, and this source has not been corroborated by reputable institutions. In contrast, the reasoner working from memory alone, with low confidence in its assessment, reports having no record of any primary source for the claim.
+
+Source URL: https://www.nairaland.com/3448812/nypd-source-weiner-laptop-enough
+
+## Your Judgement
+```
+
+# Claim 80
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "“Red-tagging” is a term invented by the Communist Party of the Philippines, the New People's Army, and the National Democratic Front (CPP-NPA-NDF)."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. What is the established definition of the political term "Red-tagging"?
+Answer: Red-tagging is defined as the act of labeling, branding, naming, and accusing individuals and/or organizations of being left-leaning, subversives, communists, or terrorists, particularly by state agents such as law enforcement and the military, as a strategy against perceived threats to the state.
+
+Source URL: https://www.philstar.com/headlines/2019/10/07/1958232/how-activists-respond-being-tagged-rebels
+
+### 2. In what year or time period did the term "Red-tagging" first appear in documented public or political discourse?
+Answer: **CONFLICT.** The retrieved document states that the term 'Red-tagging' first appeared in 2011, as defined in a journal that year and subsequently cited in a 2015 Supreme Court dissenting opinion. The reasoner working from memory alone, being close to guessing on this matter, reports that it has no record of the year or time period when the term first appeared in documented public or political discourse.
+
+Source URL: https://www.wikiwand.com/en/Red-tagging_in_the_Philippines
+
+### 3. What is the earliest known published source (e.g., document, newspaper, interview) that uses the exact term "Red-tagging"?
+Answer: **CONFLICT.** The retrieved document states that House Bill No. 9199, approved on June 3, 2019, includes the exact term 'red-tagging'. The reasoner, working from memory alone and with low confidence in this assessment, reports no knowledge of any published source that uses the exact term 'Red-tagging'.
+
+Source URL: https://opinion.inquirer.net/127085/red-tagging-in-up-diliman
+
+### 4. Does the earliest known source for the term "Red-tagging" originate from a document or statement issued by the Communist Party of the Philippines, the New People's Army, or the National Democratic Front?
+Answer: The term 'Red-tagging' originated in the Philippines in the mid-1950s, associated with McCarthyist strategies and used by governments and security forces, and it does not originate from a document or statement issued by the Communist Party of the Philippines, the New People's Army, or the National Democratic Front.
+
+Source URL: https://www.bbc.com/news/world-asia-54144623
+
+### 5. Are there historical records showing the term "Red-tagging" being used by political groups, academics, or government agencies in the Philippines prior to any known usage by the CPP-NPA-NDF?
+Answer: **CONFLICT.** According to the retrieved documents, there are historical records showing the term 'red-tagging' being used by political groups and government agencies in the Philippines prior to any known usage by the CPP-NPA-NDF. The reasoner working from memory alone has no recollection of such records and, though not very certain, suggests that the term is commonly associated with actions against the CPP-NPA-NDF.
+
+Source URL: https://www.wikiwand.com/en/Red-tagging_in_the_Philippines
+
+### 6. Have Filipino human rights organizations or civil society groups independently claimed to have coined or popularized the term "Red-tagging"?
+Answer: No evidence was found that Filipino human rights organizations or civil society groups have independently claimed to have coined or popularized the term 'Red-tagging'.
+
+Source URL: http://www.indigenouspeoples-sdg.org/index.php/english/ttt/1369-chr-denounces-red-tagging-of-groups-individuals-amid-covid-19-crisis
+
+### 9. Has the meaning or application of the term "Red-tagging" changed significantly since its first known use?
+Answer: **CONFLICT.** The retrieved document states that while the core meaning of 'Red-tagging' has remained consistent, its application has significantly expanded over time, with historical roots in the 1950s and now targeting a broad range of groups including labor unions, journalists, and humanitarian organizations, alongside intensified consequences due to laws like the Anti-Terrorism Act of 2020. The reasoner working from memory alone reports that it has no record of any significant changes in the meaning or application of the term, and is close to guessing in this assessment.
+
+Source URL: https://www.wikiwand.com/en/Red-tagging_in_the_Philippines
+
+### 10. Do historians of the Philippine left movement confirm or refute the attribution of the term's invention to the CPP-NPA-NDF?
+Answer: **CONFLICT.** The document store reports that historians refute the attribution of 'red-tagging' to the CPP-NPA-NDF, citing historian Joseph Scalice who states it began in the Philippines in the mid-1950s as a state strategy linked to McCarthyism, predating the group. The reasoner from internal knowledge has no recollection of historians confirming or refuting the attribution and, inferring with low confidence from general knowledge that 'red-tagging' is primarily associated with government and military actions, concludes it is unlikely the CPP-NPA-NDF invented the term.
+
+Source URL: https://www.bbc.com/news/world-asia-54144623
+
+## Your Judgement
+```
+
+# Claim 83
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Pennsylvania US rejects 372,000 mail-in ballots."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did the state of Pennsylvania officially reject a total of 372,000 mail-in ballots, and for which specific election or elections is this total figure reported?
+Answer: No, Pennsylvania did not reject 372,000 mail-in ballots; rather, it rejected 372,000 mail ballot requests for the 2020 general election.
+
+Source URL: https://www.inquirer.com/politics/election/pennsylvania-mail-ballot-rejections-duplicate-applications-20201016.html
+
+### What is the official timeframe for the reported rejection of 372,000 mail-in ballots in Pennsylvania (e.g., the 2024 primary election cycle, the 2020 general election)?
+Answer: **CONFLICT.** The retrieved document states that the reported rejection of 372,000 mail-in ballot applications in Pennsylvania took place during the 2020 general election cycle, following the June 2, 2020, primary election. The reasoner, which is uncertain and close to guessing, reports that it has no record of any official report or verified news event stating that Pennsylvania rejected 372,000 mail-in ballots, and does not support the premise that such a rejection occurred.
+
+Source URL: https://www.propublica.org/article/pennsylvanias-rejection-of-372-000-ballot-applications-bewilders-voters-and-strains-election-staff
+
+### What were the primary reasons for the rejection of mail-in ballots in Pennsylvania during the relevant timeframe (e.g., late arrival, signature deficiencies, missing secrecy envelope)?
+Answer: **CONFLICT.** The retrieved document states that the primary reason for rejection was duplicate ballot applications, with over 90% denied as duplicates, and it does not discuss rejection of already-voted ballots. The reasoner working from memory alone, which is fairly confident in its assessment, reports that the primary reasons for rejection of mail-in ballots were late arrival, signature deficiencies, and absence of secrecy envelope.
+
+Source URL: https://www.propublica.org/article/pennsylvanias-rejection-of-372-000-ballot-applications-bewilders-voters-and-strains-election-staff
+
+### Does the figure of 372,000 represent the total number of mail-in ballots that were *never counted*, or does it include ballots that were initially flagged but successfully "cured" by voters and eventually accepted?
+Answer: **CONFLICT.** The retrieved document states that the figure of 372,000 represents rejected ballot applications, not rejected ballots themselves, with the majority denied as duplicates and voters still able to vote. The reasoner working from memory alone, having no record of any such event or figure and being close to guessing in its assessment, reports that it cannot provide information on whether the figure represents ballots never counted or includes cured ballots.
+
+Source URL: https://www.propublica.org/article/pennsylvanias-rejection-of-372-000-ballot-applications-bewilders-voters-and-strains-election-staff
+
+### How does the reported rejection rate of mail-in ballots in Pennsylvania for this period compare to rejection rates in previous major elections in the state?
+Answer: **CONFLICT.** The retrieved document states that specific historical rejection rates for mail-in ballots in previous Pennsylvania elections are not provided, so a direct comparison cannot be made, and it only notes predicted rates of 5-10% and general rejection rates ranging from 1-10% for states unfamiliar with mail-in voting. The reasoner working from memory alone reports that, based on general trends, the surge in mail-in voting in 2020 likely resulted in higher rejection rates compared to previous major elections where mail-in voting was less common and rates were lower, and it is fairly confident in this inference.
+
+Source URL: https://www.poconorecord.com/story/news/politics/elections/2020/09/16/5-percent-of-pennsylvania-mail-in-ballots-could-be-rejected/114039866/
+
+### Is there any ongoing litigation, audit, or formal challenge related to the rejection of these 372,000 mail-in ballots in Pennsylvania?
+Answer: There is no record of any ongoing litigation, audit, or formal challenge specifically related to the rejection of 372,000 mail-in ballots in Pennsylvania; a related lawsuit pertains to changing future mail-in voting rules, not to contesting past ballot rejections.
+
+Source URL: https://www.inquirer.com/news/democratic-lawsuit-pennsylvania-voting-by-mail-2020-20200422.html
+
+### Are the mail-in ballot rejections concentrated in specific counties within Pennsylvania, or are they distributed statewide?
+Answer: **CONFLICT.** The retrieved documents indicate that mail-in ballot rejections are distributed statewide across Pennsylvania, with varying volumes in counties such as Allegheny, Armstrong, Chester, Montgomery, Philadelphia, Blair, and Lehigh. In contrast, the reasoner, working from memory alone and close to guessing, reports that the premise of 372,000 mail-in ballot rejections is false, as it was widely fact-checked as inaccurate during the 2020 election, rendering the question about concentration moot.
+
+Source URL: https://www.propublica.org/article/pennsylvanias-rejection-of-372-000-ballot-applications-bewilders-voters-and-strains-election-staff
+
+### Does the rejection of these ballots have any confirmed correlation with the political party affiliation of the voters who submitted them?
+Answer: Research indicates that there is no confirmed correlation between mail-in ballot rejection rates in Pennsylvania and the political party affiliation of voters.
+
+Source URL: https://sarahniebler.com/media/
+
+### Have any official Pennsylvania election officials publicly commented on or disputed the claim that 372,000 mail-in ballots were rejected?
+Answer: No Pennsylvania election officials have publicly commented on or disputed the claim that 372,000 mail-in ballots were rejected; nearly 20,000 mail-in ballots were rejected in the June 2020 primary for being returned late or having signature issues, and a spokeswoman for the Pennsylvania Department of State did not respond to requests to discuss the canceled ballots.
+
+Source URL: https://www.nbcphiladelphia.com/news/politics/decision-2020/mail-in-voting-what-to-know/20000-mail-in-ballots-didnt-count-in-pa-s-june-primary-half-the-2016-victory-margin/2529295/
+
+## Your Judgement
+```
+
+# Claim 84
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "It's unclear how Joe Biden acquired his recent wealth since leaving office in 2017"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What were Joe Biden's primary sources of income, such as salaries, pensions, book deals, speaking fees, and investments, from 2017 to the present?
+Answer: Joe Biden's primary sources of income from 2017 to the present were book sales and paid speaking engagements, with substantial earnings reported from activities like his memoir 'Promise Me, Dad' and speaking fees, and he also received a pension as a former Vice President, though it was not the dominant source.
+
+Source URL: https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-2020-joe-biden-income-20190709-story.html
+
+### Did Joe Biden release tax returns and financial disclosure reports covering the years from 2017 onward, and what did those disclosures reveal about his income and assets?
+Answer: Joe Biden released tax returns and financial disclosure reports covering the years from 2017 onward, and these disclosures revealed that his income during those years came primarily from book deals, speaking fees, and other sources, with significant earnings in the millions of dollars.
+
+Source URL: https://www.cnn.com/2020/09/29/politics/joe-biden-tax-returns/index.html
+
+### What specific financial gains or increases in net worth have been documented for Joe Biden since January 2017, and by what measurable amount?
+Answer: Since leaving office in January 2017, Joe Biden documented significant financial gains, earning $15.6 million in 2017 and 2018 primarily from speaking fees and book profits, with $11 million in 2017 and $4.6 million in 2018, and an adjusted gross income of about $985,000 in 2019.
+
+Source URL: https://www.cnn.com/2020/09/29/politics/joe-biden-tax-returns/index.html
+
+### Have reputable investigative journalists or financial analysts published reports concluding that the sources of Joe Biden's post-2017 wealth are unclear or hidden?
+Answer: No reputable investigative journalists or financial analysts have published reports concluding that the sources of Joe Biden's post-2017 wealth are unclear or hidden; his wealth sources are documented as coming from speaking engagements and book deals based on released tax records.
+
+Source URL: https://www.voanews.com/a/usa_us-politics_biden-and-wife-made-more-15m-after-leaving-office/6171514.html
+
+### Are there specific allegations or credible evidence suggesting undisclosed or illicit sources of income for Joe Biden during this period?
+Answer: No specific allegations or credible evidence suggesting undisclosed or illicit sources of income for Joe Biden since leaving office in 2017 were found in public records or recalled from general knowledge.
+
+Source URL: http://www.disclosures.org/joe-biden-financial-disclosures/
+
+### What are the known public explanations provided by Joe Biden or his representatives for his post-2017 income, such as from his memoirs or paid speeches?
+Answer: Joe Biden's post-2017 income is publicly explained through earnings from his memoir 'Promise Me, Dad' and paid speaking engagements, as detailed in his tax returns and financial disclosures.
+
+Source URL: https://www.forbes.com/sites/michelatindera/2019/07/10/bidens-made-nearly-twice-as-much-in-2017-than-previous-19-years-combined/
+
+### Did Joe Biden's financial situation change significantly in a way that is considered unusual or unexplained compared to other former high-ranking officials?
+Answer: Biden's financial situation after leaving office in 2017 was not unusual or unexplained compared to other former high-ranking officials, as his increased income came from well-documented sources such as book deals and speaking fees, a pattern typical for officials like the Obamas and Clintons.
+
+Source URL: https://www.cnn.com/2020/09/29/politics/joe-biden-tax-returns/index.html
+
+### What do official records from the Office of Government Ethics or the Internal Revenue Service indicate about the transparency of Joe Biden's finances after 2017?
+Answer: **CONFLICT.** The retrieved documents state that official records from the Office of Government Ethics and the Internal Revenue Service indicate transparency in Joe Biden's finances after 2017, citing specific tax returns and disclosure forms. The reasoner, working from memory alone and with moderate certainty, reports no recollection of any such official records but recalls that Biden voluntarily released tax returns for 2018 and 2019 during his campaign, suggesting transparency inferred from public disclosures rather than agency records.
+
+Source URL: http://www.disclosures.org/joe-biden-financial-disclosures/
+
+### Has the claim that his wealth acquisition is "unclear" been a subject of fact-checking by established news or fact-checking organizations, and what were their conclusions?
+Answer: **CONFLICT.** The retrieved document states that the claim has been addressed by an Associated Press report, which details specific income sources such as book deals and speaking engagements, making the origins of Biden's wealth clear. The reasoner, which has no direct knowledge of a fact-check on this claim and is not very confident in its assessment, reports that it has no recollection of such a fact-check but notes that Biden's income sources have been publicly reported, inferring possible scrutiny.
+
+Source URL: https://www.bostonglobe.com/news/politics/2019/07/09/biden-earned-millions-after-leaving-white-house-financial-disclosures-show/YDpLcGshpG7pJNzrTTRgWO/story.html
+
+### Are there any pending investigations, legal proceedings, or official audits related to the sources of Joe Biden's income since leaving the vice presidency?
+Answer: There is no record of any pending investigations, legal proceedings, or official audits related to the sources of Joe Biden's income since leaving the vice presidency.
+
+Source URL: http://www.disclosures.org/joe-biden-financial-disclosures/
+
+## Your Judgement
+```
+
+# Claim 85
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "India's Congress party candidate Maskoor Usmani installed Jinnah's portrait at AMU."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is there an individual named Maskoor Usmani who has been associated as a candidate or member of the Indian National Congress party?
+Answer: **CONFLICT.** The retrieved document indicates that Maskoor Usmani, a former president of the Aligarh Muslim University Students' Union, was reportedly set to contest the 2020 Bihar elections as a candidate for the Indian National Congress party. The reasoner working from memory alone reports that it has no record of any individual by that name being associated as a candidate or member of the Indian National Congress party, a position it holds with very low confidence, bordering on a guess.
+
+Source URL: https://english.madhyamam.com/india/ex-amusu-president-maskoor-usmani-may-contest-bihar-polls-as-a-congress-candidate-585621
+
+### Is Maskoor Usmani affiliated with Aligarh Muslim University (AMU) as a student, alumnus, faculty member, or official?
+Answer: Maskoor Usmani is affiliated with Aligarh Muslim University (AMU) as a former student and alumnus, and he served as the president of the AMU Students' Union.
+
+Source URL: https://english.madhyamam.com/india/ex-amusu-president-maskoor-usmani-may-contest-bihar-polls-as-a-congress-candidate-585621
+
+### Did Maskoor Usmani physically install, unveil, or hang a portrait of Muhammad Ali Jinnah at any location within Aligarh Muslim University (AMU)?
+Answer: There is no evidence that Maskoor Usmani installed, unveiled, or hung a portrait of Muhammad Ali Jinnah at Aligarh Muslim University; the portrait has been displayed in the students' union hall since 1938 because Jinnah was granted life membership that year, and Usmani is not linked to its installation.
+
+Source URL: https://www.thequint.com/news/webqoof/aajtaks-claim-that-maskoor-usmani-hung-jinnah-portrait-at-amu-is-false
+
+### If the installation occurred, on what date or during which event did it take place?
+Answer: There is no evidence that Maskoor Usmani installed Jinnah's portrait at AMU; according to records, the portrait has been hanging in the students' union hall since 1938.
+
+Source URL: https://www.thequint.com/news/webqoof/aajtaks-claim-that-maskoor-usmani-hung-jinnah-portrait-at-amu-is-false
+
+### Where specifically at Aligarh Muslim University (AMU) was the portrait of Muhammad Ali Jinnah allegedly installed (e.g., in a student union office, a department, a public hall)?
+Answer: **CONFLICT.** The retrieved document states that the portrait of Muhammad Ali Jinnah has been located in the students' hall at Aligarh Muslim University since 1938. The reasoner working from memory alone, which recalls this with high confidence, reports that it was installed in the AMU Students' Union office.
+
+Source URL: https://www.thequint.com/news/webqoof/aajtaks-claim-that-maskoor-usmani-hung-jinnah-portrait-at-amu-is-false
+
+### Was the installation of Jinnah's portrait authorized or approved by the official administration of Aligarh Muslim University (AMU)?
+Answer: The installation of Jinnah's portrait at AMU was authorized or effectively approved by the university administration, which defended the portrait by citing Jinnah's historical role as a founder member of the University Court and life membership in the student union, alongside the student union's tradition of displaying such portraits.
+
+Source URL: https://m.economictimes.com/news/politics-and-nation/muhammad-ali-jinnahs-portrait-at-amu-sparks-row/articleshow/63987397.cms
+
+### Has the administration of Aligarh Muslim University (AMU) issued any statement confirming, denying, or commenting on the installation of Jinnah's portrait by Maskoor Usmani?
+Answer: The AMU administration has issued statements clarifying the situation regarding Jinnah's portrait. AMU spokesperson Shafey Kidwai told NDTV that Jinnah's portrait has been displayed since 1938 as part of a tradition honoring life members of the student union, and the vice-chancellor similarly explained to the Centre in 2018 that the portrait had been in the students' hall since 1938, effectively defending its presence on historical grounds and pushing back against the framing that it was a recent installation by Maskoor Usmani.
+
+Source URL: https://www.thequint.com/news/webqoof/aajtaks-claim-that-maskoor-usmani-hung-jinnah-portrait-at-amu-is-false
+
+### Has the Indian National Congress party issued any official statement regarding the alleged action of its candidate, Maskoor Usmani, at AMU?
+Answer: The Indian National Congress party has not issued any official statement regarding the alleged action of its candidate, Maskoor Usmani, at AMU.
+
+Source URL: https://www.newsclick.in/aaj-tak-falsely-claims-congress-candidate-maskoor-usmani-hung-jinnah-portrait-AMU
+
+### Is the portrait of Muhammad Ali Jinnah currently on display in any official or public space at Aligarh Muslim University (AMU)?
+Answer: **CONFLICT.** The retrieved document states that the portrait of Muhammad Ali Jinnah is currently on display in the Students’ Union Office at Aligarh Muslim University (AMU). The reasoner, working from memory alone and recalling the 2018 controversy with demands for its removal, reports that the portrait is likely not currently on display in official or public spaces, inferring this with moderate confidence from adjacent facts.
+
+Source URL: https://www.dnaindia.com/india/report-explain-why-there-s-jinnah-portrait-inside-campus-bjp-lawmaker-writes-to-aligarh-muslim-university-2610390
+
+### What was the stated purpose or context provided by Maskoor Usmani or others for installing Jinnah's portrait at AMU?
+Answer: **CONFLICT.** The retrieved document states that Maskoor Usmani installed Jinnah's portrait at AMU and described the purpose as historical preservation of the university's legacy, citing his role as a founder and donor. The reasoner, which has no record of such an installation and is fairly certain that it did not take place, reports that there is no stated purpose or context because the event never occurred.
+
+Source URL: https://www.thequint.com/news/webqoof/aajtaks-claim-that-maskoor-usmani-hung-jinnah-portrait-at-amu-is-false
+
+## Your Judgement
+```
+
+# Claim 86
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Donald Trump Jr. said, “My father doesn’t need to rape women. It’s more likely a woman would rape him. That’s how popular he is.”"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Donald J. Trump Jr. make a public statement that included the phrase, "My father doesn’t need to rape women. It’s more likely a woman would rape him. That’s how popular he is"?
+Answer: There is no evidence that Donald J. Trump Jr. made a public statement including the phrase 'My father doesn’t need to rape women. It’s more likely a woman would rape him. That’s how popular he is.'
+
+Source URL: https://minnesotalawreview.org/2018/11/25/men-fear-false-allegations-women-fear-sexual-misconduct-assault-and-rape/
+
+### In what specific context (e.g., a media interview, a rally, a social media post) did Donald J. Trump Jr. allegedly make the statement about Donald J. Trump and rape?
+Answer: **CONFLICT.** The retrieved document states that the request for information was rejected due to high risk, so no specific context is provided. The reasoner working from memory alone reports having no record of Donald J. Trump Jr. making the statement in any context, such as a media interview, rally, or social media post, and is close to guessing on this assessment.
+
+Source URL: https://www.cnbc.com/2018/09/17/donald-trump-jr-mocks-attempted-rape-claim-against-brett-kavanaugh.html
+
+### What is the original, verbatim source (e.g., audio, video, authenticated transcript) for the quote attributed to Donald J. Trump Jr.?
+Answer: No original, verbatim source such as audio, video, or authenticated transcript has been identified for the quote attributed to Donald Trump Jr.
+
+Source URL: https://www.theguardian.com/us-news/ng-interactive/2017/nov/30/donald-trump-sexual-misconduct-allegations-full-list
+
+### Was the quote from Donald J. Trump Jr. part of a longer conversation or statement, and if so, what was the complete exchange?
+Answer: The quote attributed to Donald Trump Jr. is not found in available records, and no longer conversation or statement containing it is documented.
+
+Source URL: https://www.cbsnews.com/boston/news/president-trump-scary-time-for-young-men-christine-blasey-ford-brett-kavanaugh/
+
+### Does the verbatim recording or transcript of the statement show that Donald J. Trump Jr. was using sarcasm, humor, or was he speaking seriously?
+Answer: **CONFLICT.** The retrieved document states that based on a transcript from a 2007 radio show, Donald Trump Jr. was speaking humorously and sarcastically, not seriously, in the context of comedic banter. The reasoner, working from memory alone and with very low confidence in this absence of evidence, reports no record of any verbatim recording or transcript of the statement, and thus cannot determine whether it was sarcastic, humorous, or spoken seriously.
+
+Source URL: https://www.huffpost.com/entry/donald-trump-jr-playboy-mansion_n_5ac516d3e4b09ef3b243005a
+
+### Is there any documented pattern of Donald J. Trump Jr. using similar rhetoric about sexual assault in other public remarks?
+Answer: There is no documented pattern of Donald J. Trump Jr. using the described dismissive and comparative rhetoric about sexual assault and popularity in other public remarks, though he has been documented mocking a specific sexual assault allegation with a juvenile meme.
+
+Source URL: https://www.usatoday.com/story/news/politics/onpolitics/2018/09/17/brett-kavanaugh-allegations-donald-trump-jr-mocks-sexual-assault-claim/1333520002/
+
+### Have any reputable fact-checking organizations previously investigated and issued a verdict on this specific quote?
+Answer: No reputable fact-checking organizations have been recorded as having investigated or issued a verdict on the specific quote attributed to Donald Trump Jr.
+
+Source URL: https://www.theguardian.com/us-news/ng-interactive/2017/nov/30/donald-trump-sexual-misconduct-allegations-full-list
+
+## Your Judgement
+```
+
+# Claim 87
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Hyderabad Metropolitan Water Supply and Sewerage Board (HMWSSB) is delivering 1kg bleaching powder, chlorine tablets to people’s doorsteps"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Has the Hyderabad Metropolitan Water Supply and Sewerage Board (HMWSSB) officially announced a program to deliver 1 kg of bleaching powder and chlorine tablets to residences?
+Answer: No record or confirmation exists for HMWSSB officially announcing a program to deliver 1 kg of bleaching powder and chlorine tablets to residences.
+
+Source URL: https://ihatepsm.com/blog/domestic-or-household-purification-water
+
+### What is the stated purpose or reason given by HMWSSB for the distribution of bleaching powder and chlorine tablets?
+Answer: **CONFLICT.** The retrieved document states that HMWSSB distributes bleaching powder and chlorine tablets for water treatment purposes, as officials assert that stringent chlorination kills bacteria. The reasoner, which has no knowledge of this distribution and is uncertain about its existence, reports no record of HMWSSB conducting door-to-door distribution or stating a reason for it.
+
+Source URL: https://timesofindia.indiatimes.com/city/hyderabad/hyderabads-dirty-secret/articleshow/13255341.cms
+
+### Are there any credible news reports from established media outlets covering HMWSSB's doorstep delivery of bleaching powder and chlorine tablets?
+Answer: There are no credible news reports from established media outlets covering HMWSSB's doorstep delivery of bleaching powder and chlorine tablets.
+
+Source URL: none -- retrieval returned no document
+
+### Is there any photographic or video evidence from official HMWSSB channels showing the delivery packages of 1 kg bleaching powder and chlorine tablets?
+Answer: There is no photographic or video evidence from official HMWSSB channels showing the delivery packages of 1 kg bleaching powder and chlorine tablets.
+
+Source URL: https://wowcolor.com/en/decolor
+
+## Your Judgement
+```
+
+# Claim 88
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "A man who received four ballot applications votes four times in the 2020 election."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 3. In which state and county did the alleged multiple ballot applications and votes occur?
+Answer: **CONFLICT.** The retrieved documents indicate that the alleged multiple ballot applications and votes occurred in Fayette County, Illinois. The reasoner working from memory alone reports that it has no knowledge of any such incident and cannot identify the state or county, with low confidence in this assessment, close to guessing.
+
+Source URL: https://www.fox29.com/news/receiving-multiple-ballot-applications-wont-let-you-vote-more-than-once-heres-why
+
+### 4. What type of 2020 election (general, primary, or local/municipal) was involved in this allegation?
+Answer: **CONFLICT.** The retrieved document states that no document was found that could answer the question about the type of election involved. The reasoner working from memory alone reports that it has no recollection of this specific allegation but infers from general knowledge that it likely involves the general election, being moderately confident in this inference but without certainty.
+
+Source URL: none -- retrieval returned no document
+
+### 5. Through what mechanism did the individual allegedly receive four ballot applications (e.g., multiple registrations, data errors, intentional requests)?
+Answer: **CONFLICT.** The retrieved document states that through state-mandated mailings and unsolicited forms from outside organizations, individuals could receive multiple ballot applications, as with Illinois laws and practices. The reasoner working from memory alone, which has no record of any specific individual receiving four ballot applications and is unsure whether the incident occurred, reports that it cannot determine the mechanism through which this allegedly happened.
+
+Source URL: https://www.fox29.com/news/receiving-multiple-ballot-applications-wont-let-you-vote-more-than-once-heres-why
+
+### 8. Was any of the alleged multiple voting detected in real-time by election officials before the votes were counted?
+Answer: **CONFLICT.** The retrieved document states that real-time detection of prior voting can occur at the polling place, for example through provisional ballots if a voter's record indicates they have already voted. The reasoner, working from memory alone, reports having no record of the alleged multiple voting event involving a man receiving four ballot applications and voting four times in the 2020 election, and is uncertain whether such an event occurred, so it cannot confirm if any detection happened.
+
+Source URL: https://www.ncsbe.gov/voting/provisional-voting
+
+### 9. What was the outcome of any official investigation into this matter (e.g., was it a clerical error, was fraud confirmed, were charges filed)?
+Answer: **CONFLICT.** The retrieved document states that an official investigation resulted in a Gregg County grand jury indicting Shannon Brown and three associates on 134 felony counts related to an alleged scheme in a 2018 primary election, with charges including false information on mail-in ballot applications. The reasoner working from memory alone, which has no record of any official investigation and is close to guessing, reports that it has no knowledge of such an investigation.
+
+Source URL: https://www.texastribune.org/2020/09/24/texas-gregg-county-voter-fraud/
+
+## Your Judgement
+```
+
+# Claim 89
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Most deaths in the 1918 influenza pandemic originated from bacterial pneumonia caused by face masks and that Dr Anthony Fauci, the US government’s top expert in the fight against Covid-19, knew about it."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What was the primary cause of death during the 1918 influenza pandemic according to modern epidemiological and historical studies?
+Answer: Modern epidemiological and historical studies indicate that the primary cause of death during the 1918 influenza pandemic was secondary bacterial pneumonia, frequently resulting from the influenza virus and the absence of effective antibiotics.
+
+Source URL: https://academic.oup.com/jid/article/198/7/962/2192118
+
+### Is there any scientific or historical evidence from studies of the 1918 pandemic that directly links the use of face masks to increased rates of bacterial pneumonia?
+Answer: There is no scientific or historical evidence from studies of the 1918 pandemic that directly links the use of face masks to increased rates of bacterial pneumonia.
+
+Source URL: https://www.newscientist.com/article/dn14458-bacteria-were-the-real-killers-in-1918-flu-pandemic/
+
+### During the 1918 influenza pandemic, was the widespread adoption of face masks empirically shown to cause secondary bacterial infections or pneumonia?
+Answer: There is no empirical evidence showing that the widespread adoption of face masks during the 1918 influenza pandemic caused secondary bacterial infections or pneumonia.
+
+Source URL: https://www.cidrap.umn.edu/influenza-vaccines/study-bacterial-pneumonia-was-main-killer-1918-flu-pandemic
+
+### Have any reputable medical or historical sources, such as autopsy studies or epidemiological analyses, concluded that bacterial pneumonia was the main cause of death in the 1918 pandemic?
+Answer: **CONFLICT.** The retrieved document states that reputable medical sources, including a 2008 study in The Journal of Infectious Diseases by Morens, Taubenberger, and Fauci, concluded that the majority of deaths in the 1918 pandemic likely resulted from secondary bacterial pneumonia. The reasoner, which has no recollection of any such conclusion and is not confident in this assessment, reports that from internal knowledge alone it cannot confirm that sources specifically concluded bacterial pneumonia was the main cause, only recalling it as a significant contributing factor.
+
+Source URL: https://academic.oup.com/jid/article/198/7/962/2192118
+
+### Is the theory that face masks caused bacterial pneumonia deaths in 1918 a widely accepted conclusion in the medical or historical community, or is it a fringe or contested view?
+Answer: The theory that face masks caused bacterial pneumonia deaths in 1918 is not a widely accepted conclusion in the medical or historical community; it is considered a fringe or contested view, as the mainstream understanding attributes the high death toll to the influenza virus and secondary bacterial infections, not mask use.
+
+Source URL: https://www.nih.gov/news-events/news-releases/bacterial-pneumonia-caused-most-deaths-1918-influenza-pandemic
+
+### What specific evidence or studies would Dr. Anthony Fauci need to have been aware of to "know" that face masks caused most deaths in the 1918 pandemic?
+Answer: No evidence or studies linking face masks to bacterial pneumonia deaths during the 1918 influenza pandemic have been identified, and the premise that Dr. Anthony Fauci knew about such evidence is unfounded.
+
+Source URL: none -- retrieval returned no document
+
+### Are there any published peer-reviewed articles or official reports from the 1918 era or from modern research that document face masks as a primary vector for the pathogens causing fatal bacterial pneumonia?
+Answer: No published peer-reviewed articles or official reports from the 1918 era or from modern research document face masks as a primary vector for the pathogens causing fatal bacterial pneumonia.
+
+Source URL: https://pdmj.org/masks2/Mask_Risks_Part2.pdf
+
+### Has the US Centers for Disease Control and Prevention (CDC) or other public health agencies ever stated that face masks used during the 1918 pandemic led to bacterial pneumonia and increased mortality?
+Answer: Neither the US Centers for Disease Control and Prevention (CDC) nor any other public health agency has stated that face masks used during the 1918 influenza pandemic led to bacterial pneumonia and increased mortality, and experts have refuted the idea that normal mask use causes such infections.
+
+Source URL: https://www.dailyherald.com/20200704/news/facts-matter-pneumonia-not-caused-by-wearing-face-mask/
+
+## Your Judgement
+```
+
+# Claim 90
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "BJP MP Kirron Kher Said "Rape Is A Part Of Indian Culture And It Can't Be Stopped""
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is Kirron Kher a Member of Parliament who is affiliated with or a member of the Bharatiya Janata Party (BJP)?
+Answer: Yes, Kirron Kher is a Member of Parliament who is affiliated with and a member of the Bharatiya Janata Party (BJP).
+
+Source URL: https://www.hindustantimes.com/lok-sabha-elections/kirron-kher-eyes-second-term-as-mp-but-guest-appearances-niggle/story-aI9QcKTtkMSPrkHVYAh5XI.html
+
+### Is there a verified record, such as an official parliamentary transcript, video, or credible news report from a reputable publisher, that attributes the exact statement "Rape Is A Part Of Indian Culture And It Can't Be Stopped" to Kirron Kher?
+Answer: No, there is no verified record such as an official parliamentary transcript, video, or credible news report attributing the exact statement 'Rape Is A Part Of Indian Culture And It Can't Be Stopped' to Kirron Kher; the claim has been fact-checked and found to be false.
+
+Source URL: https://thelogicalindian.com/tags/kirron-kher
+
+### On what date was the statement allegedly made by Kirron Kher?
+Answer: **CONFLICT.** The retrieved document states that the statement was allegedly made on January 22, 2018, according to a Times of India video. The reasoner, working from memory alone, reports having no record of any date for this statement and is close to guessing in this assessment.
+
+Source URL: https://m.timesofindia.com/times-fact-check/news/fake-alert-bjp-mp-kirron-kher-didnt-say-rape-is-part-of-indian-culture/articleshow/78687624.cms
+
+### In what specific setting or event (e.g., a Lok Sabha session, a Rajya Sabha session, a televised interview, a public speech) was the statement allegedly made?
+Answer: The alleged statement by BJP MP Kirron Kher was never made; it is a debunked false claim, with the actual context being a media interaction where she addressed a specific rape incident.
+
+Source URL: https://m.timesofindia.com/times-fact-check/news/fake-alert-bjp-mp-kirron-kher-didnt-say-rape-is-part-of-indian-culture/articleshow/78687624.cms
+
+### What is the full, unedited context of the speech or discussion in which the statement was allegedly made?
+Answer: **CONFLICT.** The retrieved document states that the claim is false; the context is from a 2018 video where Kirron Kher addressed a Haryana rape incident, saying: 'Rapes have been happening for long in India. If we want to stop rapes, the mindset of society towards women needs to be changed. We need to award death penalty to rapists,' and her words were twisted to create the false claim. The reasoner, which has no recall of the full context and is very unsure, reports recalling a controversial public statement in 2020 that was widely reported, with later clarification that her words were taken out of context as part of a broader discussion on women's safety.
+
+Source URL: https://m.timesofindia.com/times-fact-check/news/fake-alert-bjp-mp-kirron-kher-didnt-say-rape-is-part-of-indian-culture/articleshow/78687624.cms
+
+### Has Kirron Kher, either personally or through an official spokesperson, confirmed, denied, or clarified the alleged statement?
+Answer: Kirron Kher did not endorse the claim; she stated that rapes can be stopped with a change in mindset and denied making the alleged comment.
+
+Source URL: https://www.indiatoday.in/fact-check/story/fact-check-kirron-kher-didn-t-say-rapes-cannot-be-stopped-as-it-s-part-of-our-culture-1731299-2020-10-13
+
+### If a clarification was issued, what were the exact words and reasoning provided by Kirron Kher or her office?
+Answer: **CONFLICT.** The retrieved document states that Kirron Kher clarified her statement in a video, saying 'Rapes have been happening for long in India. If we want to stop rapes, the mindset of society towards women needs to be changed. We need to award death penalty to rapists,' with the reasoning being to demand capital punishment and change societal attitudes. The reasoner, with low confidence, reports that it has no record in its knowledge of any clarification being issued by Kirron Kher or her office.
+
+Source URL: https://m.timesofindia.com/times-fact-check/news/fake-alert-bjp-mp-kirron-kher-didnt-say-rape-is-part-of-indian-culture/articleshow/78687624.cms
+
+### Have any official parliamentary bodies or fact-checking organizations investigated and published findings regarding the authenticity of this quote?
+Answer: **CONFLICT.** The retrieved document states that fact-checking organization The Logical Indian investigated and published findings on the authenticity of the quote, but it does not mention any investigation by official parliamentary bodies. The reasoner, with very low certainty and close to guessing, reports having no record of any investigation by either official parliamentary bodies or fact-checking organizations.
+
+Source URL: https://thelogicalindian.com/tags/kirron-kher
+
+### What was the immediate reaction from the Bharatiya Janata Party (BJP) to the alleged statement, if any public comment was made?
+Answer: There is no recorded immediate reaction or public comment from the Bharatiya Janata Party to the alleged statement.
+
+Source URL: https://thelogicalindian.com/fact-check/fact-check-kirron-kher-haryana-rape-case-minor-victim-raped-glorification-of-rape-culture-bjp-mp-24343
+
+### What was the immediate public and media reaction to the alleged statement at the time it was reported?
+Answer: **CONFLICT.** The retrieved document states that the claim was fabricated, so there was no genuine public reaction, with Times Fact Check confirming the quote was from a fake news page. The reasoner, working from memory alone, reports no recollection of the specific immediate reaction but, based on general knowledge, infers that it likely involved widespread criticism on social media and in news reports, and is moderately confident in this inference.
+
+Source URL: https://m.timesofindia.com/times-fact-check/news/fake-alert-bjp-mp-kirron-kher-didnt-say-rape-is-part-of-indian-culture/articleshow/78687624.cms
+
+## Your Judgement
+```
+
+# Claim 91
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "A message will be sent to your phone claiming to show that the Covid19 curve is flattening in India, But It will contain a malicious file"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Have Indian government cybersecurity agencies (like CERT-In) or reputable cybersecurity firms issued any public alerts or advisories about SMS or messaging campaigns distributing malicious files disguised as COVID-19 data for India?
+Answer: There is no record or recollection of specific public alerts or advisories from Indian cybersecurity agencies or reputable firms about SMS or messaging campaigns distributing malicious files disguised as COVID-19 data for India.
+
+Source URL: none -- retrieval returned no document
+
+### Are there documented instances of a malicious file being distributed through messages claiming to show COVID-19 curve flattening data in India?
+Answer: The viral message warning about a malicious file in COVID-19 curve flattening data for India is a hoax, and there are no documented instances of such files being distributed.
+
+Source URL: https://www.boomlive.in/fast-check/hoax-message-claims-india-is-doing-it-video-will-hack-your-phone-10210
+
+### What is the exact content of the malicious message being circulated (e.g., text, sender name, preview of the chart)?
+Answer: **CONFLICT.** The retrieved document states that the malicious message circulating claims: 'They are going to start circulating a video on WhatsApp that shows how the Covid19 curve is flattening in India. The file is called "India is doing it", do not open it or see it, it hacks your phone in 10 seconds and it cannot be stopped in any way.' The reasoner, working from memory alone and with low confidence in its assessment, reports that it has no knowledge of the exact content, sender name, or chart preview of such a message.
+
+Source URL: https://www.boomlive.in/fast-check/hoax-message-claims-india-is-doing-it-video-will-hack-your-phone-10210
+
+### What type of malicious file (e.g., APK, executable, document with macro, link to a phishing site) is being distributed in these messages?
+Answer: The claim that a malicious file is distributed in messages about Covid19 curve flattening in India is a hoax; no real malicious file type exists in these messages.
+
+Source URL: https://www.boomlive.in/fast-check/hoax-message-claims-india-is-doing-it-video-will-hack-your-phone-10210
+
+### Through which specific communication channel (e.g., SMS, WhatsApp, Telegram) are these malicious messages primarily being sent?
+Answer: **CONFLICT.** The retrieved document states that the malicious messages are primarily being sent through WhatsApp. The reasoner working from memory alone reports that it has no direct recollection of these specific messages but, based on general knowledge of Covid-19 scams in India, infers that they are likely sent via SMS or WhatsApp, with a moderate level of certainty.
+
+Source URL: https://www.boomlive.in/fast-check/hoax-message-claims-india-is-doing-it-video-will-hack-your-phone-10210
+
+### What is the alleged goal or payload of the malicious file (e.g., data theft, device takeover, ransomware)?
+Answer: **CONFLICT.** The retrieved document states that the malicious file allegedly claims to hack phones in 10 seconds, suggesting device takeover, with references to earlier hoaxes about formatting phones, and notes that the entire message was debunked as a hoax. The reasoner working from memory alone reports having no knowledge of the alleged goal or payload of the malicious file, and with low confidence in this assessment, it is uncertain and close to guessing.
+
+Source URL: https://www.boomlive.in/fast-check/hoax-message-claims-india-is-doing-it-video-will-hack-your-phone-10210
+
+### Have any Indian news outlets reported on this specific malicious message campaign?
+Answer: **CONFLICT.** The document store indicates that the Indian fact-checking outlet BOOM Live has reported on this specific malicious message campaign, stating it is a hoax. The reasoner working from memory alone has no record of any Indian news outlet covering this campaign and is not confident in this assessment, as it is close to guessing on this point.
+
+Source URL: https://www.boomlive.in/fast-check/hoax-message-claims-india-is-doing-it-video-will-hack-your-phone-10210
+
+## Your Judgement
+```
+
+# Claim 92
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "US Sen Kamala Harris failed the bar exam  (qualifying examination for lawyers)on her first attempt"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Kamala Harris take a professional bar examination required to practice law?
+Answer: Kamala Harris took and passed the professional bar examination required to practice law.
+
+Source URL: https://www.distractify.com/p/did-kamala-harris-fail-the-bar-exam
+
+### In which jurisdiction (e.g., state) did Kamala Harris take her bar examination?
+Answer: Kamala Harris took her bar examination in California.
+
+Source URL: https://www.distractify.com/p/did-kamala-harris-fail-the-bar-exam
+
+### What was the official result of Kamala Harris's first bar examination attempt?
+Answer: The official result of Kamala Harris's first bar examination attempt was a failure; she did not pass on her first try.
+
+Source URL: https://www.distractify.com/p/did-kamala-harris-fail-the-bar-exam
+
+### Did Kamala Harris fail her first bar examination attempt by not achieving a passing score?
+Answer: Kamala Harris failed her first bar examination attempt.
+
+Source URL: https://www.distractify.com/p/did-kamala-harris-fail-the-bar-exam
+
+### Did Kamala Harris subsequently pass a bar examination after her first attempt?
+Answer: Kamala Harris passed the California bar exam after her first failed attempt.
+
+Source URL: https://candidateresearch.org/candidates/kamala-harris/
+
+### If she passed later, in which jurisdiction and on what attempt did Kamala Harris successfully pass the bar?
+Answer: Kamala Harris passed the California bar exam on her second attempt.
+
+Source URL: https://www.distractify.com/p/did-kamala-harris-fail-the-bar-exam
+
+### Are official records or direct statements from Kamala Harris or her office confirming the failure of her first bar exam attempt?
+Answer: Yes, Kamala Harris failed the bar exam on her first attempt, and this is confirmed by official records and direct statements from her.
+
+Source URL: https://www.distractify.com/p/did-kamala-harris-fail-the-bar-exam
+
+### Has Kamala Harris publicly spoken about her experience with the bar exam, including not passing on the first try?
+Answer: Yes, Kamala Harris has publicly discussed her experience of failing the bar exam on her first attempt.
+
+Source URL: https://www.distractify.com/p/did-kamala-harris-fail-the-bar-exam
+
+### Is the bar exam referenced in the claim the California Bar Examination, given her legal career in California?
+Answer: The bar exam referenced in the claim is the California Bar Examination.
+
+Source URL: https://www.distractify.com/p/did-kamala-harris-fail-the-bar-exam
+
+## Your Judgement
+```
+
+# Claim 93
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "US Judge Amy Coney Barrett graduated at the top of her law school class at Notre Dame Law School"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Amy Coney Barrett earn a law degree (Juris Doctor) from Notre Dame Law School?
+Answer: Amy Coney Barrett earned a Juris Doctor degree from Notre Dame Law School.
+
+Source URL: https://news.nd.edu/news/notre-dame-law-school-professor-barrett-nominated-to-us-supreme-court/
+
+### In what year did Amy Coney Barrett graduate from Notre Dame Law School?
+Answer: Amy Coney Barrett graduated from Notre Dame Law School in 1997 and finished as the No. 1 student in her class, earning the Hoynes Prize.
+
+Source URL: https://news.nd.edu/news/notre-dame-law-school-professor-barrett-nominated-to-us-supreme-court/
+
+### What was Amy Coney Barrett's official class rank at the time of her graduation from Notre Dame Law School?
+Answer: Amy Coney Barrett graduated first in her class at Notre Dame Law School.
+
+Source URL: https://law.nd.edu/news-events/news/professor-amy-coney-barrett-to-deliver-notre-dame-law-school-commencement-address/
+
+### According to Notre Dame Law School's records, who held the highest academic rank (e.g., valedictorian) in Amy Coney Barrett's graduating class?
+Answer: **CONFLICT.** The retrieved document states that Amy Coney Barrett held the highest academic rank at Notre Dame Law School, having earned the Hoynes Prize as the No. 1 student in her class. The reasoner, working from memory alone, reports that it has no record of Notre Dame Law School's data specifying who held the highest academic rank in Barrett's graduating class and is close to guessing in this assessment.
+
+Source URL: https://news.nd.edu/news/notre-dame-law-school-professor-barrett-nominated-to-us-supreme-court/
+
+### What specific academic honor or title, if any, did Notre Dame Law School confer on Amy Coney Barrett upon her graduation (e.g., "graduated first in class," "valedictorian")?
+Answer: Amy Coney Barrett graduated at the top of her class from Notre Dame Law School, where she was awarded the Hoynes Prize as the No. 1 student.
+
+Source URL: https://news.nd.edu/news/notre-dame-law-school-professor-barrett-nominated-to-us-supreme-court/
+
+### Did Amy Coney Barrett graduate with the highest cumulative grade point average (GPA) in her class at Notre Dame Law School?
+Answer: **CONFLICT.** The retrieved document states that Amy Coney Barrett graduated as the top student in her class at Notre Dame Law School, having earned the Hoynes Prize as the No. 1 student. The reasoner working from memory alone, which has no knowledge of this fact and is close to guessing in its assessment, reports that it has no record of her graduating with the highest cumulative GPA.
+
+Source URL: https://news.nd.edu/news/notre-dame-law-school-professor-barrett-nominated-to-us-supreme-court/
+
+### According to official university announcements or commencement programs from her graduation year, was Amy Coney Barrett recognized as the top-ranked student?
+Answer: **CONFLICT.** According to an official biography on Notre Dame's digital repository, Amy Coney Barrett was recognized as the top student in her class, earning the Law School's highest honor, the Hoynes Prize. In contrast, the reasoner working from internal knowledge alone reports having no record of any official university announcements or commencement programs from her graduation year that recognized her as the top-ranked student, with low confidence in this assessment.
+
+Source URL: https://works.bepress.com/amy_barrett/
+
+### Have credible biographical sources, such as her Supreme Court questionnaire or official judicial biographies, stated she graduated first in her class from Notre Dame Law School?
+Answer: **CONFLICT.** The retrieved document states that Amy Coney Barrett 'earned the Hoynes Prize as the No. 1 student in her class,' confirming she graduated first in her class from Notre Dame Law School. The reasoner working from memory alone, with low confidence in this assessment, reports having no record in its internal knowledge of credible biographical sources such as her Supreme Court questionnaire or official judicial biographies explicitly stating that she graduated first in her class.
+
+Source URL: https://news.nd.edu/news/notre-dame-law-school-professor-barrett-nominated-to-us-supreme-court/
+
+### Was Amy Coney Barrett awarded the Dean's Award or any other prize specifically given to the student with the highest academic standing at Notre Dame Law School during her graduation year?
+Answer: Amy Coney Barrett was awarded the Hoynes Prize at Notre Dame Law School, which is given to the student with the highest academic standing.
+
+Source URL: https://law.nd.edu/news-events/news/professor-amy-coney-barrett-to-deliver-notre-dame-law-school-commencement-address/
+
+## Your Judgement
+```
+
+# Claim 94
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Saved by the Bell actor, Dustin Diamond died in a prison riot."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was Dustin Diamond an actor who appeared in the television series "Saved by the Bell"?
+Answer: Dustin Diamond was an actor who appeared in the television series 'Saved by the Bell,' best known for his role as Samuel 'Screech' Powers.
+
+Source URL: https://www.thesun.co.uk/who/dustin-diamond/
+
+### Is Dustin Diamond deceased?
+Answer: Dustin Diamond is deceased; he died on February 1, 2021, following a terminal cancer diagnosis.
+
+Source URL: https://www.standard.co.uk/topic/dustin-diamond
+
+### What was the officially recorded cause of Dustin Diamond's death?
+Answer: Dustin Diamond's officially recorded cause of death was small cell carcinoma.
+
+Source URL: https://www.imdb.com/name/nm0224616/trivia/
+
+### On what date did Dustin Diamond die?
+Answer: Dustin Diamond died on February 1, 2021.
+
+Source URL: https://prowrestling.fandom.com/wiki/Dustin_Diamond
+
+### Was Dustin Diamond incarcerated in a prison at the time of his death?
+Answer: Dustin Diamond was not incarcerated in a prison at the time of his death; he died from stage 4 lung cancer while not imprisoned.
+
+Source URL: https://bigbrother.fandom.com/wiki/Dustin_Diamond
+
+### Did a prison riot occur at the facility where Dustin Diamond was held, if he was incarcerated, around the time of his death?
+Answer: **CONFLICT.** The retrieved document states that there is no information about a prison riot or Dustin Diamond's death, only detailing his early release from jail after serving time for a bar fight. The reasoner working from memory alone reports, with high certainty, that Dustin Diamond was not incarcerated at the time of his death, having died from cancer in 2021 after being released from a short prison stint in 2015, so the premise that he was held in a facility where a prison riot could have occurred is incorrect.
+
+Source URL: https://www.duluthnewstribune.com/news/dustin-diamond-tvs-screech-gets-early-release-from-jail
+
+### Is there any official law enforcement or prison service report linking Dustin Diamond's death to a prison riot?
+Answer: **CONFLICT.** The document store returned no document that could answer the question; the reasoner, working from memory alone and confident in its recall, reports that Dustin Diamond died from cancer in a hospital on February 1, 2021, and therefore there is no official report linking his death to a prison riot because such an event did not happen.
+
+Source URL: none -- retrieval returned no document
+
+### Have credible news organizations reported that Dustin Diamond died as a result of a prison riot?
+Answer: Credible news organizations have not reported that Dustin Diamond died in a prison riot; instead, they reported his death from stage 4 lung cancer in 2021.
+
+Source URL: https://www.snopes.com/fact-check/dustin-diamond-murder/
+
+### What were the circumstances surrounding Dustin Diamond's death according to his family or representatives?
+Answer: Dustin Diamond died on February 1, 2021, after a battle with small cell carcinoma, and his remains were cremated and given to his father and longtime girlfriend.
+
+Source URL: https://www.imdb.com/name/nm0224616/trivia/
+
+### Are there any records of a major prison riot in the United States involving a notable celebrity around the time of Dustin Diamond's death?
+Answer: Dustin Diamond died on February 1, 2021, from stage 4 small cell carcinoma, and there are no records of a major prison riot in the United States involving a notable celebrity around the time of his death.
+
+Source URL: https://www.eonline.com/news/731763/dustin-diamond-begins-his-4-month-jail-sentence-for-bar-stabbing
+
+## Your Judgement
+```
+
+# Claim 95
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Controversial abortion methods are allowed under New Zealand's Abortion Legislation Act (2020)."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the full and official name of the New Zealand abortion law passed in 2020?
+Answer: The full and official name of the New Zealand abortion law passed in 2020 is the Abortion Legislation Act 2020.
+
+Source URL: https://simple.wikipedia.org/wiki/Abortion_Legislation_Act_2020
+
+### On what date was the Abortion Legislation Act (2020) enacted or given Royal Assent in New Zealand?
+Answer: **CONFLICT.** According to the retrieved document, the Abortion Legislation Act (2020) was enacted on March 18, 2020. The reasoner, which is very certain from memory alone that the Act received Royal Assent on March 24, 2020, reports that date.
+
+Source URL: https://fli.org.nz/life-faith-family-resources/abortion/nz-abortion-law/
+
+### What are the key provisions of the Abortion Legislation Act (2020) regarding gestational limits and the conditions under which abortion is legal?
+Answer: The Abortion Legislation Act 2020 decriminalizes abortion, making it available on request up to 20 weeks gestation. Beyond 20 weeks, abortion is permitted only after assessment by qualified health practitioners.
+
+Source URL: https://simple.wikipedia.org/wiki/Abortion_Legislation_Act_2020
+
+### Before the Abortion Legislation Act of 2020, what were the legal conditions and time limits for abortion in New Zealand under the previous law (the Contraception, Sterilisation, and Abortion Act 1977)?
+Answer: **CONFLICT.** The retrieved document states that before the 2020 Act, abortion in New Zealand was legally a crime unless two specialists certified that the pregnancy posed a 'serious danger' to the woman's life or physical or mental health, with stricter conditions applying after 20 weeks. The reasoner, working from memory alone and recalling these details with high confidence, reports that under the Contraception, Sterilisation, and Abortion Act 1977, abortion was a criminal offense but could be legally performed if two certifying consultants agreed on specific grounds including serious danger to the life or physical or mental health of the pregnant woman, substantial risk of serious physical or mental disability of the fetus, and pregnancy resulting from incest or sexual violation, with standard grounds up to 20 weeks and stricter conditions after.
+
+Source URL: https://www.theguardian.com/world/commentisfree/2020/mar/20/this-week-we-brought-new-zealands-abortion-laws-into-the-21st-century
+
+### Has any prominent public or political debate in New Zealand specifically cited certain abortion methods allowed under the 2020 Act as being "controversial"?
+Answer: There is no record of any prominent public or political debate in New Zealand that specifically cited certain abortion methods allowed under the 2020 Abortion Legislation Act as being 'controversial.'
+
+Source URL: https://simple.wikipedia.org/wiki/Abortion_Legislation_Act_2020
+
+### Do statements from medical colleges (e.g., the Royal Australian and New Zealand College of Obstetricians and Gynaecologists) or abortion service providers confirm that specific methods are permitted under the Act's framework?
+Answer: **CONFLICT.** The retrieved document states that the New Zealand College of Midwives confirms specific methods like mifepristone and misoprostol are permitted under the Abortion Legislation Act 2020. The reasoner, working from memory alone and close to guessing, reports that it has no record of any statements from medical colleges such as the Royal Australian and New Zealand College of Obstetricians and Gynaecologists or abortion service providers confirming that specific methods are permitted under the Act.
+
+Source URL: https://www.midwife.org.nz/wp-content/uploads/2018/08/Abortion-Act-summary_JUNE2020.pdf
+
+### Is the statement that "controversial abortion methods are allowed" a factual description of the Act's text, or is it a characterization based on public or political opinion about its provisions?
+Answer: The Abortion Legislation Act (2020) decriminalizes abortion and regulates it under health legislation, allowing standard medical and surgical abortion methods, but does not label any methods as 'controversial' in its text, making the statement 'controversial abortion methods are allowed' a characterization based on public or political opinion about its provisions.
+
+Source URL: https://www.midwife.org.nz/wp-content/uploads/2018/08/Abortion-Act-summary_JUNE2020.pdf
+
+## Your Judgement
+```
+
+# Claim 96
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Commission on Human Rights (CHR) Chairman Chito Gascon called a “surprise military attack” by the Philippine Army,  conducted on members of the New People’s Army (NPA) a “violation of human rights.”"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. As of the claim date, was Chito Gascon serving as the Chairman of the Philippine Commission on Human Rights (CHR)?
+Answer: Chito Gascon was serving as the Chairman of the Philippine Commission on Human Rights (CHR) as of the claim date.
+
+Source URL: https://www.esquiremag.ph/long-reads/profiles/chito-gascon-beleaguered-champion-of-human-rights-a1655-20170913-lfrm2
+
+### 2. Did the Philippine Army conduct a military operation against the New People's Army (NPA) at a specific location and time that is the subject of this claim?
+Answer: **CONFLICT.** The retrieved document states that the Philippine Army conducted a military operation against the NPA in Sitio Coloconto, Barangay Bulsa in San Juan, Batangas around 11:20 a.m. on a Monday, with approximately 15 rebels under alias 'Salma' and recovery of weapons. The reasoner working from memory alone reports having no record of such a specific operation, with low confidence in this assessment.
+
+Source URL: https://www.pna.gov.ph/articles/1043164
+
+### 3. What were the specific details of the Philippine Army's military operation against the New People's Army (NPA), including its date, location, and nature?
+Answer: **CONFLICT.** The retrieved document states that the Philippine Army's military operation occurred on a Monday around 11:20 a.m. in Sitio Coloconto, Barangay Bulsa, San Juan, Batangas, with troops from the 1st Infantry Battalion conducting combat operations based on citizen reports of planned NPA harassment, leading to a nearly hour-long firefight. The reasoner working from memory alone reports that it has no record of any specific military operation by the Philippine Army against the New People's Army with those details, and, with low certainty close to guessing, it cannot confirm such an event.
+
+Source URL: https://www.pna.gov.ph/articles/1043164
+
+## Your Judgement
+```
+
+# Claim 97
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "IMAGE CLAIMS DONALD TRUMP CURRENTLY FACES A COURT CASE FOR ALLEGEDLY SEXUALLY ASSAULTING A 13-YEAR-OLD"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was a lawsuit or criminal case filed in any United States court accusing Donald Trump of sexually assaulting a 13-year-old?
+Answer: A lawsuit was filed in a United States court in 2016 accusing Donald Trump of sexually assaulting a 13-year-old, but it was later withdrawn or dismissed, and no credible criminal case proceeded.
+
+Source URL: https://www.allsides.com/news/2020-06-03-1438/lawsuit-charges-donald-trump-raping-13-year-old-girl
+
+### What is the current status (e.g., active, dismissed, settled) of the court case alleging Donald Trump sexually assaulted a 13-year-old?
+Answer: The court case alleging Donald Trump sexually assaulted a 13-year-old was voluntarily dismissed in November 2016 and is not currently active.
+
+Source URL: https://thedispatch.com/article/is-donald-trump-facing-a-court-case/
+
+### In which specific court and jurisdiction was the case alleging Donald Trump's sexual assault of a 13-year-old filed?
+Answer: The case alleging Donald Trump's sexual assault of a 13-year-old was filed in the federal court in Manhattan, specifically the United States District Court for the Southern District of New York.
+
+Source URL: https://www.courthousenews.com/rape-allegations-refiled-against-trump/
+
+### What is the official docket or case number for the lawsuit or criminal case against Donald Trump concerning the alleged sexual assault of a 13-year-old?
+Answer: There is no official docket or case number for a lawsuit or criminal case against Donald Trump concerning the alleged sexual assault of a 13-year-old.
+
+Source URL: https://www.allsides.com/news/2020-06-03-1438/lawsuit-charges-donald-trump-raping-13-year-old-girl
+
+### Who is the alleged victim or plaintiff in the case accusing Donald Trump of sexually assaulting a 13-year-old?
+Answer: The alleged victim in the case is identified in the lawsuit by the pseudonym 'Jane Doe', and she is also known as 'Katie Johnson' in some reports.
+
+Source URL: https://www.courthousenews.com/rape-allegations-refiled-against-trump/
+
+### During what years did the alleged sexual assault of a 13-year-old by Donald Trump purportedly take place?
+Answer: **CONFLICT.** The retrieved document states that the alleged sexual assault of a 13-year-old by Donald Trump is purported to have taken place in 1994, based on a lawsuit accusing Trump and Epstein of various acts. The reasoner working from memory alone reports that it has no knowledge of the event being factually established and cannot cite specific years, recalling only a 2016 lawsuit making accusations that was withdrawn and never proven, and is close to guessing in this assessment.
+
+Source URL: https://thedispatch.com/article/is-donald-trump-facing-a-court-case/
+
+### What are the specific factual allegations made in the court documents regarding Donald Trump's alleged sexual assault of a 13-year-old?
+Answer: **CONFLICT.** The retrieved document states that the specific allegations include the plaintiff, then 13 years old, being lured to parties at Jeffrey Epstein's Manhattan mansion, tied to a bed, and forcibly raped by Donald Trump, who allegedly slapped her and threatened her, with Jeffrey Epstein also assaulting her, and a witness claiming to have observed four sexual encounters. The reasoner, working from memory alone and with low confidence close to guessing, reports no recollection of the specific factual allegations but recalls that a lawsuit was filed in 2016 accusing Donald Trump and Jeffrey Epstein of sexually assaulting a 13-year-old girl.
+
+Source URL: https://www.courthousenews.com/rape-allegations-refiled-against-trump/
+
+### Have any credible, major news organizations independently verified and reported on the existence and details of this specific court case?
+Answer: **CONFLICT.** The retrieved document states that Courthouse News, a professional legal news service, has reported on the case, detailing that the lawsuit was refiled in federal court in Manhattan and quoting from the complaint and Trump's legal team, which called the allegations 'completely frivolous.' In contrast, the reasoner working from memory alone, with moderate but not high confidence in its assessment, reports having no record of any credible, major news organizations independently verifying the existence of a current court case against Donald Trump for the alleged sexual assault of a 13-year-old, and recalls that a lawsuit making these allegations was filed in 2016 and voluntarily withdrawn before substantive legal proceedings or verification by news organizations could occur.
+
+Source URL: https://www.courthousenews.com/rape-allegations-refiled-against-trump/
+
+### What was the legal outcome or last major procedural step in the court case alleging Donald Trump sexually assaulted a 13-year-old?
+Answer: The court case alleging Donald Trump sexually assaulted a 13-year-old was voluntarily dismissed by the plaintiff in 2016.
+
+Source URL: https://nymag.com/intelligencer/2016/11/woman-who-accused-trump-of-raping-her-at-13-drops-suit.html
+
+### Is there any official record from a law enforcement agency or prosecutor's office regarding a criminal investigation into Donald Trump for sexually assaulting a 13-year-old?
+Answer: There is no official record from a law enforcement agency or prosecutor's office regarding a criminal investigation into Donald Trump for sexually assaulting a 13-year-old; the matter involved a civil lawsuit, not a criminal case.
+
+Source URL: https://www.courthousenews.com/rape-allegations-refiled-against-trump/
+
+## Your Judgement
+```
+
+# Claim 98
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The iPhone 12 won’t come with earphones and a charging adapter."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Apple make an official announcement stating that the iPhone 12 would not include earphones in its retail packaging?
+Answer: Apple officially announced that the iPhone 12 would not include earphones in its retail packaging, presenting it as an environmental measure.
+
+Source URL: https://bgr.com/tech/iphone-12-price-no-charger-and-earpods-for-iphone-se-xr-11-12/
+
+### Did Apple make an official announcement stating that the iPhone 12 would not include a charging adapter in its retail packaging?
+Answer: **CONFLICT.** The retrieved document states that the search result does not indicate Apple made an official announcement, with reports based on leakers and analysts. The reasoner, working from memory and very certain, reports that Apple did make an official announcement stating that the iPhone 12 would not include a charging adapter in its retail packaging.
+
+Source URL: https://www.tomsguide.com/news/iphone-12-confirmed-to-ship-without-charger-but-at-least-the-box-will-be-nice
+
+### For all models of the iPhone 12 (iPhone 12, iPhone 12 mini, iPhone 12 Pro, iPhone 12 Pro Max), does the official product specification list included accessories exclude earphones or headphones?
+Answer: For all models of the iPhone 12 (iPhone 12, iPhone 12 mini, iPhone 12 Pro, iPhone 12 Pro Max), the official product specification excludes earphones or headphones from the included accessories.
+
+Source URL: https://9to5mac.com/2020/10/13/iphone-12-pro-features-release/
+
+### For all models of the iPhone 12, does the official product specification list included accessories exclude a USB power adapter?
+Answer: Yes, for all models of the iPhone 12, the official product specification list excludes a USB power adapter from the included accessories.
+
+Source URL: https://screenrant.com/apple-iphone-12-charger-earpods-earbuds-explained/
+
+### What was the official stated reason, if any, provided by Apple for potentially removing earphones and a charging adapter from the iPhone 12 box?
+Answer: Apple's official stated reason for removing earphones and a charging adapter from the iPhone 12 box was to help the environment by reducing carbon emissions and avoiding the use of precious materials, noting that customers already have over 700 million Lightning headphones and over 2 billion power adapters.
+
+Source URL: https://www.dailymail.co.uk/sciencetech/article-8840611/Apple-customers-outraged-learning-799-iPhone-12-NOT-include-charger-EarPods.html
+
+### Upon the launch of the iPhone 12, what accessories were physically included in the standard retail box for consumers in primary markets like the United States?
+Answer: Upon the launch of the iPhone 12, the standard retail box in primary markets like the United States included the iPhone itself, a USB-C to Lightning cable, and documentation, but did not include a power adapter or earphones such as Apple's EarPods.
+
+Source URL: https://www.tomsguide.com/news/iphone-12-confirmed-to-ship-without-charger-but-at-least-the-box-will-be-nice
+
+### Did reviews or unboxing videos of the retail iPhone 12 from reputable tech publications confirm the absence of earphones?
+Answer: **CONFLICT.** The retrieved document states that its search result does not contain sufficient information to answer the question, as it references pre-release analyst predictions and not post-launch reviews or unboxing confirmations. The reasoner, which is nearly certain, reports that reviews and unboxing videos from reputable tech publications confirmed the absence of earphones in the retail iPhone 12 box.
+
+Source URL: https://www.cnet.com/tech/mobile/iphone-12-will-likely-come-sans-earbuds-and-power-adapter/
+
+### Did reviews or unboxing videos of the retail iPhone 12 from reputable tech publications confirm the absence of a USB power charging adapter?
+Answer: Reputable tech publications confirmed that the iPhone 12 retail package lacks a USB power charging adapter. As reported by MacRumors, the entire iPhone 12 lineup ships without EarPods or a power adapter, with only a Lightning to USB-C charging cable included. Apple officially announced this removal, and it was widely reported and confirmed in tech media upon the iPhone 12's release.
+
+Source URL: https://www.macrumors.com/2020/10/13/iphone-12-ships-without-earpods-or-charger/
+
+### Does the iPhone 12 retail packaging in all global regions have identical included accessories, or are there regional variations in what is included (like earphones or adapters)?
+Answer: **CONFLICT.** The retrieved document states that it does not address regional variations in iPhone 12 packaging, only discussing the general removal of earphones and adapters. The reasoner working from memory alone reports, with high certainty, that regional variations exist, citing France as an example where EarPods were included due to local regulations.
+
+Source URL: https://www.idownloadblog.com/2020/08/27/iphone-12-no-earpods-rumor-again/
+
+### Prior to the official launch, were there credible leaks or reports from sources like Bloomberg or Mark Gurman that accurately predicted the removal of earphones and a charging adapter from the iPhone 12 box?
+Answer: Prior to the iPhone 12 launch, there were credible leaks and reports, including from analyst Ming-Chi Kuo, that accurately predicted the removal of earphones and a charging adapter from the box.
+
+Source URL: https://www.macworld.com/article/674481/iphone-12-wont-come-with-headphones-or-a-charger.html
+
+## Your Judgement
+```
+
+# Claim 99
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "New Zealand's Abortion Legislation Act (2020) does not make it a legal requirement that babies born alive after an abortion are given medical support."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. What are the exact provisions of New Zealand's Abortion Legislation Act 2020 regarding the standard of care and legal obligations for a live birth that occurs as a result of a failed abortion procedure?
+Answer: The Abortion Legislation Act 2020 does not contain specific provisions regarding the standard of care or legal obligations for a live birth resulting from a failed abortion procedure. During the Act's passage, an amendment that would have required medical intervention for such live births was rejected by Parliament.
+
+Source URL: https://en.wikipedia.org/wiki/Abortion_Legislation_Act_2020
+
+### 2. How does the Abortion Legislation Act 2020 define or classify the status of a fetus or infant born alive following a termination of pregnancy?
+Answer: There is no information available on how the Abortion Legislation Act 2020 defines or classifies the status of a fetus or infant born alive following a termination of pregnancy.
+
+Source URL: https://simple.wikipedia.org/wiki/Abortion_Legislation_Act_2020
+
+### 3. Does the Abortion Legislation Act 2020 explicitly create, modify, or repeal any legal duty for healthcare practitioners to provide medical treatment to a live-born infant in any context, including after a failed abortion?
+Answer: The Abortion Legislation Act 2020 does not explicitly create, modify, or repeal any legal duty for healthcare practitioners to provide medical treatment to a live-born infant in any context, including after a failed abortion.
+
+Source URL: https://righttolife.org.uk/news/nz-pm-jacinda-ardern-votes-against-born-alive-amendment
+
+### 4. Under New Zealand's legal framework, what other laws or regulations (e.g., the Crimes Act 1961, the Care of Children Act 2004, or health practitioner codes of conduct) establish duties of care for any infant born alive?
+Answer: **CONFLICT.** Based on retrieved documents, there is no information available to answer the question about duties of care for infants born alive under New Zealand's legal framework. The reasoner working from memory alone, with a moderate level of confidence in its recall, reports that it recalls laws such as the Crimes Act 1961 and the Care of Children Act 2004, and infers that duties of care exist under general laws and professional standards.
+
+Source URL: none -- retrieval returned no document
+
+### 7. Has there been any documented case in New Zealand since 2020 where a healthcare provider was investigated, charged, or disciplined for their actions or inaction regarding the care of an infant born alive after an abortion?
+Answer: There is no documented case in New Zealand since 2020 where a healthcare provider was investigated, charged, or disciplined for their actions or inaction regarding the care of an infant born alive after an abortion.
+
+Source URL: https://fli.org.nz/life-faith-family-resources/abortion/nz-abortion-law/
+
+### 8. What were the stated policy intentions and legislative debates surrounding the relevant clauses in the Abortion Legislation Act 2020, particularly regarding the care for a live birth following a termination?
+Answer: **CONFLICT.** The retrieved document states that the Abortion Legislation Act 2020 included legislative debates explicitly addressing care for a live birth following a termination, with a proposed amendment by MP Simon O'Connor that would have required medical care being debated and rejected by Parliament. The reasoner, working from memory alone and with little certainty, reports that it has no record of any stated policy intentions or legislative debates specifically regarding such care, as nothing of this kind appears in its knowledge.
+
+Source URL: https://bothlivesmatter.org.nz/the-law-in-detail/
+
+### 9. How does the legal framework established by the Abortion Legislation Act 2020 compare to the legal obligations that existed under the previous legislation (the Contraception, Sterilisation, and Abortion Act 1977) regarding this specific scenario?
+Answer: **CONFLICT.** The retrieved document states that during the debate on New Zealand's Abortion Legislation Act 2020, an amendment proposed by MP Simon O'Connor to require health professionals to provide medical care to babies born alive after failed abortions was voted down by Parliament, and that the previous Contraception, Sterilisation, and Abortion Act 1977 restricted late-term abortions, making such scenarios rarer. The reasoner working from memory alone, with low confidence, reports having no record of any legal provisions in either Act addressing this specific scenario and thus cannot compare their legal frameworks.
+
+Source URL: https://righttolife.org.uk/news/nz-pm-jacinda-ardern-votes-against-born-alive-amendment
+
+### 10. Do official interpretations from the New Zealand government or judiciary clarify that the absence of a specific mandate in the Abortion Legislation Act 2020 means there is no legal requirement, or that the requirement is sourced elsewhere in law?
+Answer: **CONFLICT.** The retrieved document states that during the Bill's Committee stage, Parliament rejected an amendment by National MP Simon O'Connor requiring medical intervention for unintended live births after attempted termination, which constitutes an official interpretation that the Act's silence is intentional and there is no legal requirement within the Act. The reasoner working from memory alone reports no record of any official interpretations from the New Zealand government or judiciary clarifying the issue, with low confidence in this assessment as it is close to guessing.
+
+Source URL: https://en.wikipedia.org/wiki/Abortion_Legislation_Act_2020
+
+## Your Judgement
+```
+
+# Claim 102
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Kanye West was ahead of Biden and Trump in the Kentucky polls in October 2020"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### According to the poll results, what was the exact percentage of support reported for Joe Biden in Kentucky in the same October 2020 poll where Kanye West was ahead?
+Answer: No document or recollection exists of an October 2020 poll in Kentucky where Kanye West was ahead, making it impossible to report an exact percentage for Joe Biden's support in such a poll.
+
+Source URL: none -- retrieval returned no document
+
+### According to the poll results, what was the exact percentage of support reported for Donald Trump in Kentucky in the same October 2020 poll where Kanye West was ahead?
+Answer: No record exists of an October 2020 poll in Kentucky where Kanye West was ahead, so the exact percentage of support for Donald Trump in that poll cannot be determined.
+
+Source URL: https://www.texastribune.org/2020/10/09/texas-poll-donald-trump-joe-biden/
+
+### Based on the poll's methodology, what was the sample size and population of likely or registered voters in the October 2020 Kentucky poll showing Kanye West ahead?
+Answer: There is no available record or knowledge of an October 2020 Kentucky poll showing Kanye West ahead of Biden and Trump, so the sample size and population of voters cannot be determined.
+
+Source URL: none -- retrieval returned no document
+
+### Do any other reputable polling aggregators (like FiveThirtyEight or RealClearPolitics) or academic archives contain a record of this specific October 2020 Kentucky poll showing Kanye West in the lead?
+Answer: There is no record of an October 2020 Kentucky poll showing Kanye West in the lead in reputable polling aggregators like FiveThirtyEight or RealClearPolitics or academic archives.
+
+Source URL: none -- retrieval returned no document
+
+### In the context of other public polling for Kentucky's presidential race in 2020, was this poll a statistical outlier, or did other polls show Kanye West with significant support?
+Answer: **CONFLICT.** The document store returned no document that could answer this question. The reasoner working from memory alone reports no recollection of any poll showing Kanye West ahead of Biden and Trump in Kentucky in October 2020, and from its knowledge that Kanye West's presidential campaign had very low support in public polls nationwide and Kentucky polling consistently showed Donald Trump with a large lead over Joe Biden, it is confident that other polls did not show significant support for Kanye West; therefore, if such a poll existed, it would almost certainly be a statistical outlier.
+
+Source URL: none -- retrieval returned no document
+
+## Your Judgement
+```
+
+# Claim 103
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Former President Donald Trump who lost the popular vote by 3 million has nominated a full third of The United Supreme Court, as of 13th October 2020."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### In the 2016 United States presidential election, what was the official popular vote margin between candidate Donald Trump and his main opponent?
+Answer: In the 2016 United States presidential election, Hillary Clinton won the popular vote over Donald Trump by approximately 2.87 million votes.
+
+Source URL: https://abcnews.go.com/Politics/hillary-clinton-officially-wins-popular-vote-29-million/story?id=44354341
+
+### As of October 13, 2020, how many justices were serving on the Supreme Court of the United States?
+Answer: **CONFLICT.** The retrieved document states that nine justices were serving on the Supreme Court as of October 13, 2020. The reasoner from memory, which is certain of its assessment, reports that one seat was vacant following Justice Ruth Bader Ginsburg's death on September 18, 2020, so only eight justices were serving at that time.
+
+Source URL: https://www.supremecourt.gov/about/justices.aspx
+
+### Which individuals were serving as justices on the Supreme Court of the United States as of October 13, 2020?
+Answer: **CONFLICT.** The retrieved document states that no document in the store could answer the question about which justices were serving. The reasoner working from memory alone, with high certainty, reports that as of October 13, 2020, the justices were Chief Justice John G. Roberts Jr., Associate Justice Clarence Thomas, Associate Justice Stephen G. Breyer, Associate Justice Samuel A. Alito Jr., Associate Justice Sonia Sotomayor, Associate Justice Elena Kagan, Associate Justice Neil M. Gorsuch, and Associate Justice Brett M. Kavanaugh, with one seat vacant following the death of Ruth Bader Ginsburg.
+
+Source URL: none -- retrieval returned no document
+
+### Which of the justices serving on the Supreme Court of the United States as of October 13, 2020, were nominated by President Donald Trump?
+Answer: As of October 13, 2020, the justices serving on the Supreme Court nominated by President Donald Trump are Neil Gorsuch and Brett Kavanaugh.
+
+Source URL: https://apnews.com/article/race-and-ethnicity-joe-biden-us-supreme-court-election-2020-courts-e802e13e79b958df7f53418029717073
+
+### On what date was Justice Neil Gorsuch nominated by President Donald Trump to the Supreme Court of the United States?
+Answer: Justice Neil Gorsuch was nominated by President Donald Trump to the Supreme Court of the United States on January 31, 2017.
+
+Source URL: https://www.npr.org/2017/01/31/512708127/president-trump-to-announce-supreme-court-nominee-shortly
+
+### On what date was Justice Brett Kavanaugh nominated by President Donald Trump to the Supreme Court of the United States?
+Answer: Justice Brett Kavanaugh was nominated by President Donald Trump on July 9, 2018.
+
+Source URL: https://www.aljazeera.com/news/2018/7/10/trump-picks-brett-kavanaugh-for-us-supreme-court-what-to-know
+
+### On what date was Justice Amy Coney Barrett nominated by President Donald Trump to the Supreme Court of the United States?
+Answer: Justice Amy Coney Barrett was nominated by President Donald Trump to the Supreme Court of the United States on September 26, 2020.
+
+Source URL: https://www.nbcnews.com/politics/supreme-court/who-amy-coney-barrett-trump-s-supreme-court-nominee-n1241192
+
+### Was Justice Amy Coney Barrett confirmed and seated on the Supreme Court of the United States by October 13, 2020?
+Answer: Amy Coney Barrett was not confirmed and seated on the Supreme Court of the United States by October 13, 2020; she was confirmed on October 26, 2020.
+
+Source URL: https://www.ny1.com/nyc/all-boroughs/politics/2020/09/26/trump-nominates-amy-coney-barrett-to-replace-ruth-bader-ginsburg-on-the-supreme-court
+
+### How many of the justices serving on the Supreme Court of the United States as of October 13, 2020, had been nominated by President Donald Trump?
+Answer: As of October 13, 2020, two justices serving on the Supreme Court of the United States had been nominated by President Donald Trump: Neil Gorsuch and Brett Kavanaugh.
+
+Source URL: https://www.britannica.com/biography/Donald-Trump/Supreme-Court
+
+### Does the number of justices nominated by Donald Trump who were serving on the Supreme Court of the United States as of October 13, 2020, equal exactly one-third of the total number of justices serving on that court?
+Answer: As of October 13, 2020, Donald Trump had nominated two justices to the United States Supreme Court, which does not equal exactly one-third of the total nine justices serving.
+
+Source URL: https://apnews.com/article/race-and-ethnicity-joe-biden-us-supreme-court-election-2020-courts-e802e13e79b958df7f53418029717073
+
+## Your Judgement
+```
+
+# Claim 104
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Amy Coney Barrett's nomination to the Supreme Court would be confirmed in October 2020, by a Senate majority that represents 15 million fewer people than the minority party."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was Amy Coney Barrett's nomination to the U.S. Supreme Court confirmed by the U.S. Senate in the month of October 2020?
+Answer: **CONFLICT.** The document store does not contain a definitive record that the Senate vote occurred in October 2020, but indicates an expected timeline with the vote in the week of October 26. The reasoner, which is highly confident in this, reports that the confirmation did take place on October 26, 2020.
+
+Source URL: https://apnews.com/article/election-2020-donald-trump-ruth-bader-ginsburg-confirmation-hearings-amy-coney-barrett-db36d00a151d6aea8514ecd311fe9dca
+
+### What was the final vote tally for the Senate confirmation of Amy Coney Barrett?
+Answer: **CONFLICT.** The retrieved documents state that no information was found regarding the final vote tally for Amy Coney Barrett's confirmation, but the reasoner, working from memory alone and fairly confident in its recollection, reports that the vote was 52 in favor and 48 against.
+
+Source URL: none -- retrieval returned no document
+
+### Which specific U.S. Senators voted in the majority (yea) to confirm Amy Coney Barrett, and what was each of their party affiliations at the time?
+Answer: **CONFLICT.** The retrieved documents do not contain sufficient information to list the specific U.S. Senators who voted to confirm Amy Coney Barrett. The reasoner, working from memory alone, recalls that the confirmation vote was 52-48, with all Democrats voting nay and Republican Senator Susan Collins voting nay, and is certain that the 52 yea votes were cast by the other 52 Republican senators, all affiliated with the Republican Party at the time.
+
+Source URL: https://coloradosun.com/2020/09/26/amy-coney-barrett-cory-gardner-nomination/
+
+### Which specific U.S. Senators voted in the minority (nay) against confirming Amy Coney Barrett, and what was each of their party affiliations at the time?
+Answer: **CONFLICT.** The retrieved document states that no document was found bearing on the specific U.S. Senators who voted nay against confirming Amy Coney Barrett or their party affiliations. The reasoner working from memory alone reports, with moderate confidence, that the confirmation vote occurred on October 26, 2020, with a tally of 52-48, and that the opposing votes included Democratic senators, independents, and specifically Republican Senator Susan Collins voting nay, though it cannot provide a complete list of all senators and their party affiliations.
+
+Source URL: none -- retrieval returned no document
+
+### Is there a standard method used to calculate the total population represented by a group of Senators, and what is that method?
+Answer: The standard method to calculate the total population represented by a group of Senators is to sum the populations of the states that each Senator represents, using census or population estimate data.
+
+Source URL: https://www.theatlantic.com/politics/archive/2018/10/senators-kavanaugh-represented-44-percent-us/572623/
+
+### Based on the calculated populations, what is the numerical difference in population between the states represented by the confirming majority and the states represented by the opposing minority?
+Answer: **CONFLICT.** The retrieved documents state that the numerical difference is 13 million people, while the reasoner working from memory alone reports that the difference is 15 million people, though it is not very confident in this assessment.
+
+Source URL: https://www.vox.com/21456620/supreme-court-scotus-undemocratic-milestone-minority-rule
+
+### Does this calculated population difference support the claim's specific figure that the majority represents "15 million fewer people"?
+Answer: There is no available information on population calculations or the specific figure of '15 million fewer people' to determine if such a calculation supports the claim.
+
+Source URL: https://apnews.com/article/election-2020-donald-trump-ruth-bader-ginsburg-confirmation-hearings-amy-coney-barrett-db36d00a151d6aea8514ecd311fe9dca
+
+### Has the argument about the population disparity in this confirmation vote been widely reported or analyzed by nonpartisan research organizations or major news outlets, and do those reports cite a similar figure?
+Answer: The argument about the population disparity in Amy Coney Barrett's confirmation vote has been widely reported by major news outlets, with analyses citing figures similar to the claim, such as 13 million fewer votes for the confirming senators compared to the minority party.
+
+Source URL: https://www.vox.com/21456620/supreme-court-scotus-undemocratic-milestone-minority-rule
+
+## Your Judgement
+```
+
+# Claim 105
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "President Trump said Anthony Fauci said, “This is not a threat. This is not a problem. Don’t worry about it.” when talking about the pandemic"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Dr. Anthony Fauci ever make a public or recorded statement containing the exact words "This is not a threat. This is not a problem. Don't worry about it." in reference to the COVID-19 pandemic?
+Answer: Dr. Anthony Fauci did not make a public or recorded statement containing the exact words 'This is not a threat. This is not a problem. Don't worry about it.' in reference to the COVID-19 pandemic.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### On what specific date did Dr. Anthony Fauci make the statement about the pandemic that President Trump later quoted?
+Answer: **CONFLICT.** The retrieved document states that Dr. Anthony Fauci made the statement on February 29, 2020, in an interview on NBC's 'Today' show. The reasoner working from memory alone, which is close to guessing on this point, reports that it has no record of the specific date.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### In what specific setting (e.g., White House press briefing, television interview, congressional testimony) did Dr. Anthony Fauci make the statement about the pandemic that President Trump later quoted?
+Answer: **CONFLICT.** The retrieved document states that Dr. Anthony Fauci made the statement in a February 29, 2020, interview on NBC’s 'Today' show. The reasoner working from memory alone reports that it has no record of Dr. Anthony Fauci making the statement as quoted and is close to guessing on this assessment, so it cannot identify a specific setting.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### What was the official COVID-19 case count, death toll, and risk assessment from major health organizations on the date Dr. Fauci allegedly made the quoted statement?
+Answer: **CONFLICT.** The retrieved document states that it does not specify a date for Dr. Fauci's alleged statement and contains no official case count, death toll, or risk assessment for that date, instead describing a later period with national case counts of 50,000–60,000 per day and over 1,000 daily deaths. The reasoner, working from memory alone and moderately confident in this assessment, reports that on January 26, 2020, the global COVID-19 case count was approximately 2,000 with around 80 deaths, all in China, the United States had 5 confirmed cases and no deaths, and major health organizations such as the WHO and CDC assessed the risk as low.
+
+Source URL: https://www.ama-assn.org/delivering-care/public-health/dr-fauci-outlines-5-ways-blunt-covid-19-pandemic-s-resurgence
+
+### Did President Donald Trump publicly attribute the quote "This is not a threat. This is not a problem. Don’t worry about it." to Dr. Anthony Fauci?
+Answer: **CONFLICT.** The retrieved document states that President Trump publicly attributed a paraphrased version of this sentiment to Dr. Anthony Fauci on April 28, 2020, with wording such as 'this is no problem. This is going to blow over.' The reasoner working from memory alone reports having no recollection of Trump attributing the exact quote 'This is not a threat. This is not a problem. Don’t worry about it,' and with low confidence in this assessment, based on general context, infers that such an attribution might have occurred.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### On what specific date did President Donald Trump make the statement attributing the pandemic quote to Dr. Anthony Fauci?
+Answer: **CONFLICT.** The retrieved document states that President Donald Trump made the attributing statement on April 28, 2020, during a press briefing. The reasoner working from memory alone, having no record of any specific date and being uncertain in this assessment, reports that it has no knowledge of when the statement was made.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### In what specific setting (e.g., campaign rally, press conference, social media post) did President Donald Trump make the statement attributing the pandemic quote to Dr. Anthony Fauci?
+Answer: **CONFLICT.** The retrieved document states that President Trump made the statement attributing the pandemic quote to Dr. Anthony Fauci during a press interaction on April 28, in response to a question about intelligence warnings, quoting him as saying, “even professionals, like Anthony [Fauci], were saying this is no problem. This is late in February: ‘This is no problem. This is going to blow — this is going to blow over.’ The reasoner working from memory alone, which is not confident in this assessment and has no record of it, reports that it has no knowledge of President Trump making a statement attributing this quote to Dr. Anthony Fauci in any specific setting.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### Are there official transcripts, audio recordings, or video recordings that document the original statement by Dr. Fauci as quoted by President Trump?
+Answer: **CONFLICT.** The retrieved document states that there are video recordings of Dr. Fauci's original statement from a Feb. 29, 2020, interview on NBC’s 'Today' show. The reasoner working from memory alone reports that it has no recollection of any official transcript, audio recording, or video recording documenting Dr. Fauci saying those exact words, and it is certain that Fauci did not say them verbatim, based on its recall of the context and fact-checking surrounding the claim.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### Are there official transcripts, audio recordings, or video recordings that document President Trump's attribution of the quote to Dr. Fauci?
+Answer: **CONFLICT.** The retrieved document states that there are documented instances of President Trump attributing a similar sentiment to Dr. Fauci, including a transcript of his April 28 remarks where he said, 'even professionals, like Anthony [Fauci], were saying this is no problem,' and a retweet on April 12, 2020, referencing a video recording of Dr. Fauci's February 29, 2020, NBC interview. The reasoner working from memory alone, which has no record of any official transcripts, audio recordings, or video recordings documenting President Trump attributing this quote to Dr. Fauci and is uncertain in this assessment, reports that it has no knowledge of such documentation.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+### Did Dr. Anthony Fauci, in any public forum, acknowledge, deny, or provide context for President Trump's characterization of his statement about the pandemic?
+Answer: **CONFLICT.** The retrieved document states that Dr. Anthony Fauci did acknowledge and provide context for President Trump's characterization, citing a February 29 interview where he emphasized that the immediate risk was low but the situation could change. The reasoner working from memory alone reports that it has no recollection of such a specific acknowledgment, though based on Dr. Fauci's history of correcting misstatements, it is likely that he addressed such characterizations, and the reasoner is fairly confident in this assessment.
+
+Source URL: https://www.factcheck.org/2020/04/trump-misquotes-fauci-on-coronavirus-threat/
+
+## Your Judgement
+```
+
+# Claim 106
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Amy Coney Barrett, associate justice of the Supreme Court of the United States,  said during her Supreme Court confirmation hearing that she was not using notes because she has seven kids and is used to stupid questions."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Did Amy Coney Barrett make a public statement during her 2020 Supreme Court confirmation hearing that she was not using notes?
+Answer: Amy Coney Barrett made a public statement during her 2020 Supreme Court confirmation hearing about not using notes, specifically when she revealed a blank notepad to Senator John Cornyn stating it contained only 'a letterhead that says United States Senate.'
+
+Source URL: https://www.themarysue.com/amy-coney-barretts-lack-of-notes-isnt-impressive-its-disturbing/
+
+### During Amy Coney Barrett's Supreme Court confirmation hearing, was the phrase "stupid questions" used in relation to her reason for not using notes?
+Answer: There is no evidence or recollection that Amy Coney Barrett used the phrase 'stupid questions' during her Supreme Court confirmation hearing in relation to not using notes.
+
+Source URL: none -- retrieval returned no document
+
+### Did Amy Coney Barrett attribute her ability to handle the hearing without notes to the experience of raising seven children?
+Answer: **CONFLICT.** The retrieved documents do not contain information on this matter. The reasoner working from memory alone reports that Amy Coney Barrett did attribute her ability to handle the hearing without notes to the experience of raising seven children, and it is certain of this based on direct recall from her statements during the hearing.
+
+Source URL: none -- retrieval returned no document
+
+### Is there a video recording or official transcript of Amy Coney Barrett's Supreme Court confirmation hearing that captures her stating she was not using notes because of her seven children?
+Answer: There is no evidence or record that Amy Coney Barrett stated during her Supreme Court confirmation hearing that she was not using notes because of her seven children and being used to stupid questions.
+
+Source URL: https://nypost.com/2020/10/13/amy-coney-barrett-reveals-she-has-no-notes-for-hearing/
+
+### Did Amy Coney Barrett explicitly link having seven children to being "used to stupid questions" in a statement made during a formal hearing or public forum?
+Answer: Amy Coney Barrett did not explicitly link having seven children to being 'used to stupid questions' in her Supreme Court confirmation hearing, as no such statement is attested in available transcripts or knowledge.
+
+Source URL: https://www.today.com/parents/amy-coney-barrett-talks-about-her-kids-confirmation-hearing-t194002
+
+### What was the specific context and question posed to Amy Coney Barrett that prompted her alleged comment about notes and her children?
+Answer: **CONFLICT.** The retrieved document states that during Amy Coney Barrett's Supreme Court confirmation hearing, Senator John Cornyn asked her to hold up what she had been referring to, prompting her to hold up a blank notepad with Senate letterhead. The reasoner working from memory alone reports having no recollection of the specific question or context that prompted her comment, but recalls that she made a remark about not using notes due to having seven children and being accustomed to interruptions, likely in response to a question about her ability to answer without notes, inferred from general knowledge, and is fairly certain of this inference.
+
+Source URL: https://nypost.com/2020/10/13/amy-coney-barrett-reveals-she-has-no-notes-for-hearing/
+
+### Have reputable news organizations reported on this specific quote from Amy Coney Barrett's confirmation hearing?
+Answer: Reputable news organizations have not reported on the specific quote claiming Amy Coney Barrett said she was not using notes because she has seven kids and is used to stupid questions; reporting focused on her holding a blank notepad, but the 'stupid questions' portion was not mentioned.
+
+Source URL: https://nypost.com/2020/10/13/amy-coney-barrett-reveals-she-has-no-notes-for-hearing/
+
+### Has Amy Coney Barrett or her office ever confirmed or denied the accuracy of this reported statement?
+Answer: There is no information indicating that Amy Coney Barrett or her office has confirmed or denied the reported statement about not using notes because she is used to stupid questions.
+
+Source URL: https://www.newsweek.com/who-amy-coney-barretts-family-potential-supreme-court-nominee-mother-seven-has-six-siblings-1533120
+
+### Was the term "stupid questions" meant literally by Amy Coney Barrett, or was it used in a self-deprecating or humorous manner?
+Answer: **CONFLICT.** The retrieved document states that no information was found to answer this question. The reasoner, working from memory alone, reports that it has no direct recollection of Amy Coney Barrett using the phrase 'stupid questions' during her confirmation hearing, but based on adjacent memories of her making humorous or self-deprecating remarks about her family life, with moderate certainty, infers that if such a term was used, it was likely intended in a humorous or self-deprecating manner rather than literally.
+
+Source URL: none -- retrieval returned no document
+
+### Did Amy Coney Barrett consistently avoid using notes during the entirety of her Supreme Court confirmation hearing?
+Answer: Amy Coney Barrett avoided using notes during at least a significant portion of her Supreme Court confirmation hearing, but it is not confirmed that she did so consistently throughout the entire hearing.
+
+Source URL: https://nypost.com/2020/10/13/amy-coney-barrett-reveals-she-has-no-notes-for-hearing/
+
+## Your Judgement
+```
+
+# Claim 107
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Anthony Fauci the NIAID director is a democrat."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Has Dr. Anthony S. Fauci served as the Director of the National Institute of Allergy and Infectious Diseases (NIAID)?
+Answer: Dr. Anthony S. Fauci has served as the Director of the National Institute of Allergy and Infectious Diseases (NIAID) since 1984.
+
+Source URL: https://www.britannica.com/facts/Anthony-Fauci
+
+### During which years did Dr. Anthony S. Fauci serve as the Director of the National Institute of Allergy and Infectious Diseases (NIAID)?
+Answer: Dr. Anthony S. Fauci was appointed as the Director of the National Institute of Allergy and Infectious Diseases (NIAID) in 1984, during the Reagan Administration, and has held that position continuously through subsequent presidential administrations.
+
+Source URL: https://rantt.com/who-is-dr-fauci
+
+### Is Dr. Anthony S. Fauci currently registered as a member of the Democratic Party in any U.S. state?
+Answer: **CONFLICT.** The retrieved document states that no document was found to answer the question of Dr. Anthony S. Fauci's party registration. The reasoner working from memory alone reports that it has no direct recollection of his party registration, but based on memories of his work across multiple administrations and public emphasis on non-partisanship, it infers with low confidence that he may not be registered as a Democrat.
+
+Source URL: none -- retrieval returned no document
+
+### Has Dr. Anthony S. Fauci ever publicly stated his personal political party affiliation?
+Answer: There is no public record or recollection of Dr. Anthony S. Fauci ever stating his personal political party affiliation.
+
+Source URL: none -- retrieval returned no document
+
+### Has Dr. Anthony S. Fauci publicly identified or described himself as a Democrat?
+Answer: Dr. Anthony S. Fauci has not publicly identified or described himself as a Democrat, as there is no record or recollection of such identification, and he is known for his consistent non-partisan presentation as a scientist and public health official across multiple administrations.
+
+Source URL: none -- retrieval returned no document
+
+### Is there documented evidence, such as campaign donation records, of Dr. Anthony S. Fauci financially supporting the Democratic Party or its candidates?
+Answer: There is no documented evidence, such as campaign donation records, of Dr. Anthony Fauci financially supporting the Democratic Party or its candidates.
+
+Source URL: none -- retrieval returned no document
+
+### Is there documented evidence, such as voter registration records, of Dr. Anthony S. Fauci voting in Democratic primaries?
+Answer: There is no available documented evidence, such as voter registration records, indicating that Dr. Anthony S. Fauci voted in Democratic primaries.
+
+Source URL: https://www.green-wood.com/2020/dr-anthony-fauci-deep-roots-in-brooklyn-and-green-wood/
+
+### Have credible biographical sources (e.g., official NIH biography, reputable news profiles) identified Dr. Anthony S. Fauci's political party as Democratic?
+Answer: Credible biographical sources do not identify Dr. Anthony S. Fauci's political party as Democratic; they indicate he is not affiliated with any political party.
+
+Source URL: https://en.wikipedia.org/wiki/Anthony_Fauci#Personal_life
+
+### Has the claim that "Anthony Fauci is a Democrat" been previously fact-checked by reputable fact-checking organizations, and if so, what were their conclusions?
+Answer: There is no record that the claim 'Anthony Fauci is a Democrat' has been fact-checked by reputable fact-checking organizations.
+
+Source URL: https://www.buzzfeednews.com/article/ryanhatesthis/qanon-right-wing-influencers-fauci-deep-state-clinton
+
+### In the context of his public service, has Dr. Anthony S. Fauci's advice or statements shown a consistent pattern of alignment with the policy positions of the Democratic Party?
+Answer: Dr. Anthony S. Fauci's advice or statements do not show a consistent pattern of alignment with the Democratic Party policy positions; his public health stances have been rooted in scientific guidance and he has worked across party lines, advising presidents from both parties.
+
+Source URL: https://www.foxnews.com/category/person/anthony-fauci
+
+## Your Judgement
+```
+
+# Claim 108
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "CNN announces on social media that President Donald Trump dies from COVID-19."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Did CNN, the official news organization, publish a post on any of its verified social media accounts announcing that former President Donald Trump died from COVID-19?
+Answer: There is no record or recollection of CNN publishing a post on any of its verified social media accounts announcing that former President Donald Trump died from COVID-19, and it is known that Trump recovered from the illness without dying.
+
+Source URL: none -- retrieval returned no document
+
+### 3. If such a post existed, what was the exact date and time of its publication?
+Answer: No CNN social media post announcing President Donald Trump's death from COVID-19 was found; he recovered from the infection in October 2020.
+
+Source URL: https://www.them.us/story/trump-circle-covid
+
+### 4. Did CNN's official television broadcasts or website (CNN.com) simultaneously report the death of Donald Trump from COVID-19?
+Answer: There is no record or recollection of CNN's official television broadcasts or website reporting the death of Donald Trump from COVID-19.
+
+Source URL: none -- retrieval returned no document
+
+### 5. Was there any official statement from Donald Trump's family, representatives, or office confirming his death from COVID-19?
+Answer: No, there was no official statement from Donald Trump's family, representatives, or office confirming his death from COVID-19.
+
+Source URL: https://www.cnbc.com/2020/07/30/former-gop-presidential-candidate-herman-cain-dies-after-battle-with-coronavirus.html
+
+### 6. Did the White House or the U.S. government's official channels issue any statement regarding the death of Donald Trump from COVID-19?
+Answer: The White House and official U.S. government channels did not issue a statement regarding the death of Donald Trump from COVID-19; instead, the White House physician confirmed his positive test for the virus and stated that the President and First Lady were both well at that time.
+
+Source URL: https://www.cnn.com/2020/10/02/politics/trump-doctor-covid-statement/index.html
+
+### 7. Was there a verified medical or hospital announcement confirming that Donald Trump died from COVID-19?
+Answer: There was no verified medical or hospital announcement confirming that Donald Trump died from COVID-19; he was hospitalized at Walter Reed Medical Center, his physician reported he was doing well, and he recovered and continued to serve as President.
+
+Source URL: https://www.nbcnews.com/politics/donald-trump/trump-be-transported-walter-reed-medical-center-marine-one-helicopter-n1241899
+
+### 8. Did CNN subsequently issue a correction, retraction, or clarification regarding any social media post about Donald Trump's death?
+Answer: **CONFLICT.** The retrieved documents contain no evidence addressing whether CNN issued a correction, retraction, or clarification regarding a social media post about Donald Trump's death. The reasoner, confident in its recollection, reports that it has no memory of CNN issuing any such correction and infers that none was issued because the post likely did not occur.
+
+Source URL: none -- retrieval returned no document
+
+### 10. Could the alleged social media post be explained as a segment from a fictional drama, a satirical sketch, or an out-of-context clip from a news discussion on CNN?
+Answer: There is no record or evidence that any social media post from CNN announcing Donald Trump's death from COVID-19 exists or could be explained as a segment from a fictional drama, a satirical sketch, or an out-of-context clip from a news discussion; Trump did not die from COVID-19, and CNN's coverage was genuine news reporting.
+
+Source URL: https://www.latimes.com/entertainment-arts/tv/story/2020-10-02/donald-trump-covid-19-coronavirus-walter-reed-cable-news
+
+## Your Judgement
+```
+
+# Claim 109
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "18-year-old man was recently killed by Trinamool Congress workers in West Bengal for supporting BJP"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Who was the 18-year-old man reportedly killed in West Bengal, and what were the specific circumstances (date, location, and manner) of his death?
+Answer: **CONFLICT.** The retrieved document states that Trilochan Mahato was the 18-year-old man killed, kidnapped on a Tuesday and found hanging from a tree on Wednesday in Balarampur, Purulia district, as punishment for BJP politics. The reasoner working from memory alone reports having no record of such an event, with low confidence in this assessment, indicating it is close to guessing.
+
+Source URL: https://organiser.org/2018/05/31/120676/bharat/this-is-for-doing-bjp-politics/
+
+### According to police reports or official investigations, was a homicide case filed for the death of this 18-year-old man in West Bengal?
+Answer: **CONFLICT.** The retrieved document states that the local police filed an FIR in the case. The reasoner, which has no record of this specific incident and is close to guessing on its occurrence, reports that it cannot determine whether a homicide case was filed.
+
+Source URL: https://organiser.org/2018/05/31/120676/bharat/this-is-for-doing-bjp-politics/
+
+### Have any individuals been identified, arrested, or charged by police in connection with the killing of this man?
+Answer: **CONFLICT.** The retrieved document states that Anup Talukdar was arrested on charges of kidnapping and murdering Chowdhury, and that the prime accused, Shyamal Karmakar, is absconding. In contrast, the reasoner working from memory alone, which has little confidence in its own assessment, reports no record of any such killing occurring and cannot provide information on whether individuals were identified, arrested, or charged in connection with it.
+
+Source URL: https://www.indiatoday.in/india/east/story/student-gruesome-murder-ignites-tmc-bjp-tussle-in-bengal-199482-2014-07-06
+
+### What evidence links the individuals accused of the killing to being workers or members of the Trinamool Congress (TMC) party?
+Answer: **CONFLICT.** The retrieved document states that statements from BJP leaders and a poster left on the victim's body provide evidence linking the killing to Trinamool Congress party members. The reasoner working from memory alone reports that it has no record of any such event or evidence connecting the accused individuals to Trinamool Congress workers.
+
+Source URL: https://organiser.org/2018/05/31/120676/bharat/this-is-for-doing-bjp-politics/
+
+### What specific statements or evidence from the investigation or witnesses indicate that the victim was killed because he supported the Bharatiya Janata Party (BJP)?
+Answer: **CONFLICT.** The retrieved document states that a note allegedly found on the victim's body declared his support for the BJP as the reason for his death, and that he called his brother on the night before his body was found claiming he had been kidnapped. The reasoner working from memory alone, with low confidence in this assessment, reports it has no record of any such incident or of statements or evidence from an investigation or witnesses regarding a killing tied to BJP support.
+
+Source URL: https://www.thequint.com/news/webqoof/image-alleged-bjp-worker-found-dead-in-bengal-2018-incident
+
+### Have the Trinamool Congress (TMC) or any of its official representatives issued a statement regarding the allegation that their workers committed this murder?
+Answer: **CONFLICT.** The retrieved document states that TMC representatives have issued statements regarding the allegation that their workers committed the murder, with specific details including TMC spokesperson Derek O'Brien tweeting that the case was handed over to the CID and a TMC MP claiming the death was suicide and questioning TMC involvement. The reasoner, which has no record of Trinamool Congress or its official representatives issuing any such statement and is uncertain in this assessment, reports that it has no knowledge of TMC issuing a statement.
+
+Source URL: https://theprint.in/talk-point/purulia-killings-rss-bjp-workers-under-threat-in-mamatas-west-bengal-or-is-it-orchestrated-panic/66000/
+
+### Have the Bharatiya Janata Party (BJP) or any of its official representatives issued a statement regarding this incident, and what details did they provide?
+Answer: There is no evidence or memory of the Bharatiya Janata Party or its official representatives issuing a statement regarding the killing of an 18-year-old man for supporting BJP in West Bengal.
+
+Source URL: https://sundayguardianlive.com/news/2-bjp-workers-killed-every-month-bengal-one-year
+
+### What do local police or West Bengal state authorities report as the established motive for this killing, based on their investigation?
+Answer: **CONFLICT.** The retrieved document states that local police, specifically the Purulia SP, reported the death as suicide based on a post-mortem showing asphyxia due to hanging, not murder as claimed. The reasoner, working from memory alone, reports having no record of this specific killing and therefore no knowledge of any police investigation into its motive, and is very uncertain about the event's occurrence.
+
+Source URL: https://timesofindia.indiatimes.com/city/kolkata/bjp-workers-death-due-to-suicide-police-says/articleshow/64435518.cms
+
+### Have credible news organizations reported on this incident, and if so, what are the details and sources cited in their reports?
+Answer: **CONFLICT.** The retrieved document states that credible news organizations have reported on this incident, detailing a 2018 case in West Bengal involving an 18-year-old BJP supporter named Trilochan Mahato, with allegations of TMC involvement. The reasoner, working from memory alone and with moderate confidence that its knowledge is comprehensive, reports that it has no record of any credible news organizations covering this specific incident.
+
+Source URL: https://www.thequint.com/news/webqoof/image-alleged-bjp-worker-found-dead-in-bengal-2018-incident
+
+### Is there a history of violent clashes between TMC and BJP supporters in the specific area of West Bengal where this incident allegedly occurred?
+Answer: **CONFLICT.** The retrieved document states that there is a documented history of violent clashes between TMC and BJP supporters in the North 24 Parganas district of West Bengal, specifically in the Sandeshkhali area. The reasoner working from memory alone, with low certainty in its assessment, reports that it has no record of any history of violent clashes in the specific area where this incident allegedly occurred.
+
+Source URL: https://www.indiatoday.in/india/story/tmc-bjp-clashes-8-feared-dead-as-fresh-violence-erupts-in-west-bengal-s-north-24-parganas-1545312-2019-06-09
+
+## Your Judgement
+```
+
+# Claim 110
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Fact check: Harris' statement on Lincoln's Supreme Court nomination misses key details"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the exact and complete statement made by Kamala Harris regarding a Supreme Court nomination by Abraham Lincoln?
+Answer: Kamala Harris stated that during the 1864 election, Abraham Lincoln, whose party controlled the White House and Senate, chose not to fill a Supreme Court vacancy 27 days before the election, asserting that the American people should decide the next president who would then select the justice.
+
+Source URL: https://www.foxnews.com/media/washington-post-fact-checks-harris-history-lincoln
+
+### On what date and in what forum (e.g., speech, debate, tweet) did Kamala Harris make the statement about Lincoln's Supreme Court nomination?
+Answer: **CONFLICT.** The retrieved document states that Kamala Harris made the statement about Lincoln's Supreme Court nomination during the first vice presidential debate on October 7, 2020. The reasoner working from memory alone reports that it has no record of such a statement, with low confidence in this assessment.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/13/fact-check-harris-lesson-lincoln-supreme-court-nom-lacks-detail/5943183002/
+
+### Which specific Supreme Court justice was Abraham Lincoln nominating at the time of the event referenced in Harris's statement?
+Answer: Abraham Lincoln nominated Salmon P. Chase as Chief Justice of the Supreme Court.
+
+Source URL: https://www.abrahamlincolnonline.org/lincoln/education/supreme.htm
+
+### What were the complete circumstances and political context surrounding Lincoln's Supreme Court nomination in question?
+Answer: Amid the Civil War, Lincoln's nomination of Salmon P. Chase as Chief Justice in December 1864 followed the death of Roger B. Taney and involved political strategy, including delaying the announcement to leverage support during his re-election campaign and securing the Senate's confirmation post-election to advance Union and Reconstruction goals.
+
+Source URL: https://www.snopes.com/fact-check/lincoln-1864-supreme-court/
+
+### What specific historical facts or details did the fact-check identify as being "missed" or omitted from Kamala Harris's statement?
+Answer: The fact-check identified that Kamala Harris omitted key details: the Senate was in recess at the time of the vacancy, preventing an immediate nomination, and Lincoln's delay was due to political strategy and the post-election timing, not a deliberate choice to defer to voters.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/13/fact-check-harris-lesson-lincoln-supreme-court-nom-lacks-detail/5943183002/
+
+### Which organization, publication, or individual authored the fact-check that claims Harris's statement misses key details?
+Answer: **CONFLICT.** The retrieved document states that the fact-check was authored by The Washington Post. The reasoner working from memory alone, with low confidence and close to guessing, reports having no record of which organization, publication, or individual authored it.
+
+Source URL: https://www.foxnews.com/media/washington-post-fact-checks-harris-history-lincoln
+
+### What is the stated methodology or standard of evidence used by the fact-checker in their analysis of Harris's statement?
+Answer: **CONFLICT.** The retrieved document states that the fact-checker's stated methodology relies on historical research and expert analysis, including academic works, historian accounts, and official records, to verify the claim against documented events, concluding with a rating of true based on research. In contrast, the reasoner working from memory alone reports having no record of any stated methodology or standard of evidence for analyzing the claim, though with low certainty as it is close to guessing on this point.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/13/fact-check-harris-lesson-lincoln-supreme-court-nom-lacks-detail/5943183002/
+
+### Does Harris's statement, in its full context, make a direct factual claim that can be clearly proven true or false, or is it more of a rhetorical or interpretive comparison?
+Answer: Harris's statement on Lincoln's Supreme Court nomination makes direct factual claims about historical events, such as the timing of the vacancy and political control, which can be evaluated for accuracy, while also incorporating interpretive or rhetorical framing.
+
+Source URL: https://www.usatoday.com/story/news/factcheck/2020/10/13/fact-check-harris-lesson-lincoln-supreme-court-nom-lacks-detail/5943183002/
+
+### How does the interpretation of Lincoln's nomination by professional historians compare to both Harris's statement and the fact-check's critique?
+Answer: Professional historians generally interpret Lincoln's nomination delay as a pragmatic political move, not simply deferring to voters, which aligns with the fact-check's critique that Harris's statement oversimplifies the historical context.
+
+Source URL: https://www.lincolncottage.org/the-washington-post-kamala-harriss-little-history-lesson-about-lincolns-supreme-court-vacancy-wasnt-exactly-true/
+
+### Is there a pattern or precedent of this type of incomplete reference to Lincoln's nomination in political discourse, and does the fact-checker note this?
+Answer: **CONFLICT.** The retrieved document states that there is a pattern of incomplete reference to Lincoln's Supreme Court nomination in political discourse, and the fact-checker notes this by pointing out omissions in Kamala Harris's portrayal, such as unsupported claims and political motivations. In contrast, the reasoner, which has no record of any such pattern or precedent and is uncertain about this assessment, reports no knowledge of a fact-checker noting such a pattern.
+
+Source URL: https://www.snopes.com/fact-check/lincoln-1864-supreme-court/
+
+## Your Judgement
+```
+
+# Claim 111
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Daughters of President Muhammadu Buhari and Vice President Yemi Osinbajo brought about the dissolution of Special Anti-Robbery Squad (SARS)."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What specific actions did the daughter of President Muhammadu Buhari take regarding the Special Anti-Robbery Squad (SARS) or the #EndSARS protests?
+Answer: **CONFLICT.** The retrieved document states that Zahra Buhari, President Buhari's daughter, posted an image with the hashtag #EndPoliceBrutality on her Instagram stories in support of #EndSARS protests. The reasoner, with moderate confidence in its memory, reports having no record of any specific actions taken by her regarding SARS or the protests.
+
+Source URL: https://dailypost.ng/2020/10/10/end-sars-zahra-buhari-kiki-osinbajo-join-protest/
+
+### What specific actions did the daughter of Vice President Yemi Osinbajo take regarding the Special Anti-Robbery Squad (SARS) or the #EndSARS protests?
+Answer: **CONFLICT.** The retrieved document states that Kiki Osinbajo, daughter of Vice President Yemi Osinbajo, joined the #EndSARS protests by posting a viral image with the hashtag #EndPoliceBrutality on her Instagram stories. The reasoner, working from memory alone and having no record of any specific actions taken by her regarding SARS or the #EndSARS protests, reports that she did not take any such actions, though it is uncertain in this assessment.
+
+Source URL: https://dailypost.ng/2020/10/10/end-sars-zahra-buhari-kiki-osinbajo-join-protest/
+
+### On what date did the Nigerian government formally announce the dissolution of the Special Anti-Robbery Squad (SARS)?
+Answer: The Nigerian government formally announced the dissolution of the Special Anti-Robbery Squad (SARS) on October 11, 2020.
+
+Source URL: https://citinewsroom.com/2020/10/endsars-nigerias-notorious-police-unit-dissolved-after-citizens-protests/
+
+### What official reasons did the Nigerian government or the Inspector General of Police provide for the dissolution of the Special Anti-Robbery Squad (SARS)?
+Answer: The Nigerian government and the Inspector General of Police stated that SARS was dissolved in response to widespread public protests against police brutality and human rights violations, with the aim of addressing the yearnings of the Nigerian people and restoring public trust.
+
+Source URL: https://www.thecable.ng/breaking-igp-finally-disbands-sars
+
+### Did any official statement from the Nigerian Presidency or Vice Presidency cite the actions of the President's daughter or the Vice President's daughter as a reason for dissolving SARS?
+Answer: No official statement from the Nigerian Presidency or Vice Presidency has been found or recalled citing the actions of the President's daughter or the Vice President's daughter as a reason for dissolving SARS; official communications and public records attribute the dissolution to the government's response to the #EndSARS protests and commitments to police reform.
+
+Source URL: none -- retrieval returned no document
+
+### Is there any documented evidence, such as official letters, meeting minutes, or credible news reports, linking the daughters' actions directly to the decision to dissolve SARS?
+Answer: There is no documented evidence, such as official letters, meeting minutes, or credible news reports, directly linking the actions of President Buhari's and Vice President Osinbajo's daughters to the decision to dissolve SARS, although social media support was expressed without influencing the decision-making process.
+
+Source URL: https://dateline.ng/zahra-buhari-kiki-osinbajo-support-protests-against-police-brutality/
+
+### Did either the President's daughter or the Vice President's daughter make any public statement claiming responsibility or influence over the dissolution of SARS?
+Answer: There is no record of either President Buhari's daughter or Vice President Osinbajo's daughter making any public statement claiming responsibility or influence over the dissolution of SARS, which was widely reported as a government response to the #EndSARS protests.
+
+Source URL: https://citinewsroom.com/2020/10/endsars-nigerias-notorious-police-unit-dissolved-after-citizens-protests/
+
+### What was the timeline of the daughters' alleged actions relative to the government's announcement of SARS dissolution?
+Answer: **CONFLICT.** The retrieved document store contained no information to address the timeline of the daughters' alleged actions relative to the SARS dissolution announcement. The internal-knowledge reasoner, working from memory alone, recalls that the government announced the dissolution of SARS on October 11, 2020, due to the #EndSARS protests, and from this, it concludes that the daughters' actions were unlikely the cause, meaning the alleged timeline does not exist as claimed; this reasoner has little certainty about this recollection and inference.
+
+Source URL: none -- retrieval returned no document
+
+### What other major factors, such as widespread protests by the #EndSARS movement or international pressure, were officially acknowledged as contributing to the dissolution of SARS?
+Answer: The widespread protests by the #EndSARS movement were officially acknowledged as a major factor contributing to the dissolution of SARS.
+
+Source URL: https://citinewsroom.com/2020/10/endsars-nigerias-notorious-police-unit-dissolved-after-citizens-protests/
+
+### Have any representatives of the Nigerian government or the police service officially denied or confirmed the causal role of the President's and Vice President's daughters in the SARS dissolution?
+Answer: There is no record of any official denial or confirmation by Nigerian government or police representatives regarding the causal role of President Muhammadu Buhari's and Vice President Yemi Osinbajo's daughters in the dissolution of the Special Anti-Robbery Squad (SARS).
+
+Source URL: https://www.nbcnews.com/news/world/after-protests-against-police-brutality-nigeria-controversial-anti-crime-unit-n1242855
+
+## Your Judgement
+```
+
+# Claim 112
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The Median White Household Wealth In The US Is 81 Times that of The Black Median Household Wealth"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the most recent and authoritative source for data on median household wealth by race in the United States, such as the U.S. Federal Reserve's Survey of Consumer Finances?
+Answer: The most recent and authoritative source for data on median household wealth by race in the United States is the U.S. Federal Reserve's Survey of Consumer Finances, specifically the 2019 survey with data analyzed in the 2020 report.
+
+Source URL: https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-accessible-20200928.htm
+
+### According to the latest available data from the chosen authoritative source, what is the reported ratio of median white household wealth to median Black household wealth in the United States?
+Answer: **CONFLICT.** The retrieved document states that according to data from the Federal Reserve’s Survey of Consumer Finances in 2016, the median Black household reported about $43,000 or 56 percent less wealth than the median white household, though the exact ratio is not provided as underlying median values are needed. The reasoner working from memory alone reports that it has no record of the reported ratio of median white to Black household wealth from the latest authoritative source, and with near-guessing certainty in this assessment.
+
+Source URL: https://www.brookings.edu/articles/how-to-build-black-wealth/
+
+### How does the authoritative source define "household wealth" or "net worth" for the purpose of calculating this ratio (e.g., assets minus debts, including home equity)?
+Answer: Household wealth or net worth is defined as the difference between assets and liabilities, including home equity and other assets after subtracting debts.
+
+Source URL: https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.html
+
+### Does the reported median wealth figure for each racial group represent the median for all households of that race, or does it apply to a subset (e.g., only households with positive net worth)?
+Answer: The reported median wealth figures represent the median for all households of each racial group, including those with negative net worth.
+
+Source URL: https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.html
+
+### Has the 81:1 ratio been directly and explicitly stated by the authoritative source (e.g., the Federal Reserve), or is it a calculation derived from reported median wealth figures?
+Answer: The 81:1 ratio for white to black median household wealth is not directly and explicitly stated by the Federal Reserve or other authoritative sources; it is a calculation derived from reported median wealth figures.
+
+Source URL: https://www.brookings.edu/articles/how-to-build-black-wealth/
+
+### What was the median white household wealth and the median Black household wealth in the most recent survey to calculate the precise ratio?
+Answer: The 2019 Survey of Consumer Finances found that median White household wealth was $188,200 and median Black household wealth was $24,100, yielding a ratio of about 7.8 to 1.
+
+Source URL: https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.html
+
+### How does the claimed 81:1 ratio compare to the ratios reported in previous years by the same source, indicating any recent trend (increasing, stable, or decreasing disparity)?
+Answer: **CONFLICT.** The retrieved document states that the 81:1 ratio is part of an increasing trend, with a 2013 ratio of approximately 68.7:1 and a 2020 projection of 85:1. The reasoner working from memory alone reports having no recollection of any source reporting an 81:1 ratio and is highly confident that such a high ratio is unlikely, based on knowledge that credible sources typically report ratios around 8:1 to 10:1.
+
+Source URL: https://prosperitynow.org/blog/black-and-latino-households-are-short-road-zero-wealth-hollowing-out-americas-historic-middle
+
+### Are there other major, credible surveys or reports (e.g., from the U.S. Census Bureau or Pew Research Center) that produce a significantly different ratio for the same period?
+Answer: Major credible surveys, such as the Federal Reserve's Survey of Consumer Finances, produce ratios for median White to Black household wealth that are significantly lower than the claimed 81:1, with specific figures like 8:1 for 2019 and typical ranges in the single digits or low tens.
+
+Source URL: https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.html
+
+### What methodological notes or caveats does the authoritative source provide about interpreting the median wealth figures and the resulting racial wealth gap?
+Answer: **CONFLICT.** The retrieved document states that the Federal Reserve working paper includes several methodological caveats, such as noting the racial wealth gap is particularly large at the median compared to the mean, cautioning against interpreting race coefficients as causal, emphasizing that the unexplained gap should not be considered a proxy for discrimination, and finding that the unexplained gap is not uniform across the wealth distribution. The reasoner working from memory alone, which is close to guessing on this matter, reports that it has no record of any methodological notes or caveats regarding the median wealth figures and racial wealth gap.
+
+Source URL: https://www.federalreserve.gov/econresdata/feds/2015/files/2015076pap.pdf
+
+## Your Judgement
+```
+
+# Claim 113
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Congress MP Rahul Gandhi has been listed as the seventh most educated leader by Forbes."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Has Forbes published any ranking or list that rates political leaders globally or in India by their level of education?
+Answer: There is no evidence that Forbes has published any ranking that rates political leaders globally or in India by their level of education; Forbes' typical lists focus on wealth and influence rather than educational attainment, suggesting such a ranking has not been published.
+
+Source URL: https://www.forbes.com/sites/forbespr/2018/05/08/forbes-releases-2018-list-of-the-worlds-most-powerful-people/
+
+### If such a Forbes list exists, what year was it published, and what was its title or description?
+Answer: There is no record of Forbes ever publishing a list that ranks world leaders by education.
+
+Source URL: https://www.bhaskar.com/no-fake-news/news/rahul-gandhi-ranks-7th-in-most-educated-leaders-in-the-worlds-reality-check-01447173.html
+
+### Is Rahul Gandhi included in any Forbes list that ranks leaders based on educational qualifications?
+Answer: Forbes has never published a list that ranks leaders based on educational qualifications, and therefore Rahul Gandhi is not included in any such list.
+
+Source URL: https://www.bhaskar.com/no-fake-news/news/rahul-gandhi-ranks-7th-in-most-educated-leaders-in-the-worlds-reality-check-01447173.html
+
+### If Rahul Gandhi is included in a Forbes educational ranking, what position does he hold in that list?
+Answer: Forbes has not published any educational ranking of world leaders, so the premise that Rahul Gandhi is listed as the seventh most educated leader by Forbes is false, and his position in a non-existent list is not applicable.
+
+Source URL: https://www.bhaskar.com/no-fake-news/news/rahul-gandhi-ranks-7th-in-most-educated-leaders-in-the-worlds-reality-check-01447173.html
+
+### Does the Forbes list rank only Indian leaders, or does it compare leaders from multiple countries?
+Answer: The Forbes list ranks leaders from multiple countries, including international figures such as US President Barack Obama, German Chancellor Angela Merkel, and Russian President Vladimir Putin, as part of a global ranking.
+
+Source URL: https://www.rediff.com/news/slide-show/slide-show-1-sonia-pm-in-top-20-most-powerful-people-forbes/20121206.htm
+
+### Is Rahul Gandhi's current or former role as a Member of Parliament (MP) for the Indian National Congress party mentioned in connection with the Forbes ranking?
+Answer: **CONFLICT.** The retrieved document states that in discussing the viral claim, Rahul Gandhi is referred to as 'कांग्रेस अध्यक्ष राहुल गांधी' (Congress President Rahul Gandhi) in connection with the Forbes ranking, and his role as a Member of Parliament is not mentioned. The reasoner working from memory alone reports that it has no record of any Forbes ranking listing Rahul Gandhi as the seventh most educated leader and, with low confidence in this assessment, cannot determine whether his role as MP is mentioned.
+
+Source URL: https://www.bhaskar.com/no-fake-news/news/rahul-gandhi-ranks-7th-in-most-educated-leaders-in-the-worlds-reality-check-01447173.html
+
+### What are the verified educational qualifications of Rahul Gandhi (e.g., degrees obtained, universities attended, fields of study)?
+Answer: **CONFLICT.** The retrieved document states that Rahul Gandhi holds a Master of Philosophy (M.Phil) in Development Studies from Trinity College, Cambridge, awarded in 1995. The reasoner, which is highly confident in its knowledge, reports that he also has a Bachelor of Arts degree from Rollins College in Florida and studied at Harvard University without completing a degree there.
+
+Source URL: https://www.livemint.com/Politics/m2lhFjGcK9InyuuUAen8gN/Alma-mater-stands-for-Rahul-validates-degree.html
+
+### Are there any other sources (besides Forbes) that have cited or referenced this specific ranking placing Rahul Gandhi as the seventh most educated leader?
+Answer: No credible sources have been found that reference or cite a Forbes ranking listing Rahul Gandhi as the seventh most educated leader, as no such Forbes list exists and the claim originates from viral social media posts.
+
+Source URL: https://www.bhaskar.com/no-fake-news/news/rahul-gandhi-ranks-7th-in-most-educated-leaders-in-the-worlds-reality-check-01447173.html
+
+### Has Forbes issued any corrections, retractions, or statements regarding the accuracy of this list or Rahul Gandhi's inclusion in it?
+Answer: There is no evidence that Forbes has issued any corrections, retractions, or statements regarding a list of the most educated leaders or Rahul Gandhi's inclusion in it; moreover, there is no record that such a list was ever published by Forbes in the first place.
+
+Source URL: https://www.timeshighereducation.com/world-university-rankings/news/15-universities-that-educated-the-worlds-most-powerful-women
+
+## Your Judgement
+```
+
+# Claim 114
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Donald Trump is facing a court case for raping a teen in 1994"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Is there a current, formal court case (criminal or civil) filed in any jurisdiction that names Donald Trump as a defendant and pertains to an allegation of rape?
+Answer: **CONFLICT.** The retrieved document states that there is no current, formal court case against Donald Trump for rape, as the only lawsuit described was dismissed in 2016 with no confirmation of a re-filed case being active. In contrast, the reasoner working from memory alone, which is nearly certain of this information, reports that the E. Jean Carroll defamation lawsuit filed in New York in 2019, naming Donald Trump as a defendant and pertaining to her allegation of rape, is ongoing.
+
+Source URL: https://cafemom.com/news/i-talked-with-katie-johnson
+
+### Does any current court case against Donald Trump specifically allege that a rape occurred in the year 1994?
+Answer: **CONFLICT.** The retrieved document states that the request was rejected because it was considered high risk, and contains no information on the claim. The reasoner, working from memory alone and quite certain of its recall, reports that it has no recollection of any current court case in 2020 against Donald Trump that specifically alleged a rape occurred in 1994, recalls a 2016 lawsuit with that allegation that was dismissed, and considers it unlikely such a case exists.
+
+Source URL: https://radaronline.com/exclusives/2016/04/donald-trump-sued-sexual-abuse-jeffrey-epstein-claims/
+
+### Is there a named plaintiff or victim in a court case against Donald Trump who is alleging a rape that occurred when they were a teenager?
+Answer: **CONFLICT.** The retrieved document states that the accuser filed lawsuits using the pseudonym 'Jane Doe' but does not provide her real name. The reasoner working from memory alone reports, with high certainty, that there was a named plaintiff using the pseudonym 'Katie Johnson'.
+
+Source URL: https://www.politico.eu/article/trump-teen-rape-accuser-cancels-conference/
+
+### Was the alleged victim in this case legally a minor (under 18 years of age) in the year 1994?
+Answer: The alleged victim was 13 years old in 1994, so she was legally a minor (under 18 years of age) at the time of the alleged assault.
+
+Source URL: https://www.politifact.com/factchecks/2020/jun/03/facebook-posts/no-proof-donald-trump-raped-13-year-old-girl-1994/
+
+### In which specific court and jurisdiction has the case accusing Donald Trump of a 1994 rape been filed?
+Answer: The case accusing Donald Trump of a 1994 rape was filed in the U.S. District Court for the Southern District of New York.
+
+Source URL: https://www.courthousenews.com/rape-allegations-refiled-against-trump/
+
+### What is the formal name or docket number of the court case where Donald Trump is accused of raping a teenager in 1994?
+Answer: **CONFLICT.** The retrieved document states that a lawsuit was filed by plaintiff 'Katie Johnson' in a California court on April 26, 2016, but it does not provide a formal case name or docket number. The reasoner, working from memory alone and having low confidence in this assessment, reports that it has no record of any formal court case with a name or docket number where Donald Trump is accused of raping a teenager in 1994.
+
+Source URL: https://radaronline.com/exclusives/2016/04/donald-trump-sued-sexual-abuse-jeffrey-epstein-claims/
+
+### As of the claim date, what is the procedural status of the case (e.g., filed, discovery phase, trial date scheduled, appealed, dismissed)?
+Answer: **CONFLICT.** The retrieved document states that the case was dismissed by a U.S. District judge on May 2, 2016, for failure to state a claim. The reasoner working from memory alone, which is uncertain about the details, reports that the case was voluntarily dismissed by the plaintiff in November 2016.
+
+Source URL: https://radaronline.com/exclusives/2016/05/donald-trump-rape-lawsuit-dismissed/
+
+### Has Donald Trump or his legal representatives issued any formal response to the specific allegations in this case?
+Answer: **CONFLICT.** The retrieved document states that Alan Garten, executive vice president and general counsel for the Trump Organization, issued a formal response calling the allegations 'completely frivolous and appear to be politically motivated' and threatened sanctions if the complaint was refiled. The reasoner, working from memory alone, reports that the lawsuit was dismissed in 2016 and thus no formal response has been issued, with low confidence in this assessment as it is close to guessing.
+
+Source URL: https://www.courthousenews.com/rape-allegations-refiled-against-trump/
+
+### Have any official court documents, such as a complaint or indictment, been made public that detail the 1994 rape accusation?
+Answer: Yes, a complaint detailing the 1994 rape accusation was filed in court and made public as part of a 2016 lawsuit, accompanied by sworn declarations from witnesses.
+
+Source URL: https://www.courthousenews.com/rape-allegations-refiled-against-trump/
+
+### What are the primary sources (e.g., court filings, reputable news reports, statements from attorneys) that corroborate the existence of this case and the specific 1994 allegation?
+Answer: Primary sources corroborating the existence of this case and the 1994 allegation include court filings from 2016, such as a civil complaint filed in California by 'Katie Johnson' and a second in New York by 'Jane Doe,' along with sworn affidavits, as well as news reports from outlets like The Guardian and statements from attorneys.
+
+Source URL: https://www.snopes.com/news/2016/06/23/donald-trump-rape-lawsuit/
+
+## Your Judgement
+```
+
+# Claim 116
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Joe Biden said “You know, we have to come together. That’s why I’m running. I’m running as a proud Democrat for the Senate. So vote! Vote!”"
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the primary source (e.g., video, audio transcript, official government record) that documents Joe Biden making a statement containing the exact quote: "You know, we have to come together. That’s why I’m running. I’m running as a proud Democrat for the Senate. So vote! Vote!"?
+Answer: No primary source, such as a video, audio transcript, or official record, has been found that documents Joe Biden making the statement with the exact quote: 'You know, we have to come together. That’s why I’m running. I’m running as a proud Democrat for the Senate. So vote! Vote!'
+
+Source URL: https://kids.britannica.com/students/article/Joe-Biden/471323
+
+### On what specific date and in what location or venue did Joe Biden deliver the statement containing the quoted words?
+Answer: **CONFLICT.** The retrieved document states that the statement was delivered at the South Carolina Democrat Party’s First in the South Dinner. The reasoner working from memory alone reports, with little confidence, that it has no record of Joe Biden delivering the statement on December 10, 2020, or at any specific location or venue on that date.
+
+Source URL: https://www.rev.com/blog/transcripts/transcript-joe-biden-mistakenly-says-hes-a-united-states-senate-candidate-in-south-carolina-speech
+
+### What was the title of the specific event, meeting, or campaign rally at which Joe Biden allegedly delivered the quoted statement on January 5, 2024?
+Answer: **CONFLICT.** The document-store fact-checker refused to answer the query due to risk assessment. The reasoner working from memory alone, with moderate confidence in its assessment, reports that it has no recollection of any event, meeting, or campaign rally titled for January 5, 2024, where Joe Biden made the quoted statement, and recalls that Biden was President in 2024 and not campaigning for Senate, making such an event highly unlikely.
+
+Source URL: https://www.theguardian.com/us-news/2019/apr/25/joe-biden-presidential-campaign-2020-elections
+
+### To which specific U.S. Senate race or election was Joe Biden referring when he stated he was "running as a proud Democrat for the Senate"?
+Answer: **CONFLICT.** The retrieved document states that Joe Biden was referring to the 2020 U.S. Senate race in South Carolina between Jaime Harrison and Lindsey Graham. The reasoner working from memory alone reports that it has no recollection of any specific Senate race being referenced in this statement, and with low confidence, infers that Biden was not referring to a particular race due to his 2020 presidential candidacy, suggesting the premise may stem from a contextual error.
+
+Source URL: https://www.rev.com/blog/transcripts/transcript-joe-biden-mistakenly-says-hes-a-united-states-senate-candidate-in-south-carolina-speech
+
+### As of January 5, 2024, was Joe Biden currently a candidate for the U.S. Senate in any state, or was he the sitting President of the United States?
+Answer: As of January 5, 2024, Joe Biden was the sitting President of the United States, not a candidate for the U.S. Senate. Biden became the 46th president in 2021, and in April 2023 he announced that he would seek a second term, running as a candidate in the 2024 presidential election.
+
+Source URL: https://kids.britannica.com/students/article/Joe-Biden/471323
+
+### In the verified original source, what is the exact context (the sentences immediately before and after) of the quote to ensure it has not been edited or taken out of context?
+Answer: **CONFLICT.** The retrieved document states that the exact quote 'I’m running as a proud Democrat for the Senate' is not present in the verified transcript; instead, Biden said, 'My name’s Joe Biden. I’m a democratic candidate for the United States Senate. Look me over. If you like what you see, help out. If not, vote for the other guy. Give me a look, though,' with context including preceding sentences about asking for help and following sentences about giving him a look and checking the time. The reasoner working from memory alone, with low certainty and close to guessing, reports that it has no record of any verified original source for this quote or the sentences immediately before and after it.
+
+Source URL: https://www.rev.com/blog/transcripts/transcript-joe-biden-mistakenly-says-hes-a-united-states-senate-candidate-in-south-carolina-speech
+
+### Was the statement made by Joe Biden on January 5, 2024, an instance of him mistakenly misspeaking or confusing his current political office with a past one, such as when he was a senator?
+Answer: **CONFLICT.** The retrieved document states that it contains no information about a statement made by Joe Biden on January 5, 2024, but it documents a similar incident from February 2020 where he mistakenly referred to himself as 'a Democratic candidate for the United States Senate' while running for president, which was called a 'gaffe.' The reasoner working from memory alone reports no recollection of any statement on January 5, 2024, in which Biden mistakenly said he was running for the Senate, and with low confidence—close to guessing—infers that the premise is likely false due to chronological errors.
+
+Source URL: https://nypost.com/2020/02/25/joe-biden-says-hes-a-candidate-for-us-senate-in-latest-gaffe/
+
+### Do official White House archives or reputable news reports from January 5, 2024, document Joe Biden making public remarks, and do any of those records contain the quoted statement?
+Answer: There is no evidence in official White House archives or reputable news reports from January 5, 2024, that Joe Biden made public remarks containing the quoted statement, which is identified as being from a speech at the 2020 Democratic National Convention.
+
+Source URL: https://www.mojologic.com.au/speech-30-joe-biden-speech/
+
+### Has the claim that Joe Biden made this specific statement on January 5, 2024, been previously fact-checked by any major fact-checking organizations, and if so, what was their conclusion?
+Answer: There is no record of major fact-checking organizations having evaluated the claim that Joe Biden made this specific statement on January 5, 2024.
+
+Source URL: https://nypost.com/2020/02/25/joe-biden-says-hes-a-candidate-for-us-senate-in-latest-gaffe/
+
+### Is there any evidence that the quoted statement is a deepfake, a digitally manipulated clip, or a misattribution of speech from another individual?
+Answer: The quoted statement was genuinely made by Joe Biden in a recorded public speech, and there is no indication that it is a deepfake, digitally manipulated clip, or misattribution.
+
+Source URL: https://www.rev.com/blog/transcripts/transcript-joe-biden-mistakenly-says-hes-a-united-states-senate-candidate-in-south-carolina-speech
+
+## Your Judgement
+```
+
+# Claim 117
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "NASA always receives blessings from the Pope and that God’s permission must be sought before a space mission."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Has NASA ever issued an official policy, guideline, or regulation stating that a blessing from the Pope or permission from God is required before launching a space mission?
+Answer: NASA has never issued an official policy, guideline, or regulation stating that a blessing from the Pope or permission from God is required before launching a space mission. While a Russian Orthodox blessing tradition occurs at the Baikonur Cosmodrome where NASA astronauts have participated due to reliance on Russian launch facilities, this is a situational practice rather than a formal NASA requirement, consistent with NASA's status as a secular government agency whose missions are based on scientific and technical considerations.
+
+Source URL: https://www.theverge.com/2015/4/1/8324707/astronauts-blessing-nasa-space-baikonur
+
+### 2. Does any U.S. federal law or regulation mandate that NASA seek religious approval, from the Vatican or any other entity, before conducting space operations?
+Answer: No U.S. federal law or regulation mandates that NASA seek religious approval from the Vatican or any other entity before conducting space operations.
+
+Source URL: https://www.catholic.org/news/hf/faith/story.php?id=67227
+
+### 3. Can historical records, official mission logs, or public communications from NASA confirm that the agency requested and received a specific blessing from the Pope for each of its major missions (e.g., Apollo, Space Shuttle, Mars rovers, James Webb Space Telescope)?
+Answer: Historical records and official communications from NASA confirm that the agency does not request or receive a specific blessing from the Pope for each major mission; for example, while Pope Benedict XVI made a unique call to astronauts in 2011, this was not a standard pre-launch ritual sought by NASA, and similar interactions like Pope Paul VI's greeting on Apollo 11 were goodwill gestures not required for the mission.
+
+Source URL: https://www.denverpost.com/2011/05/21/pope-blesses-astronauts-in-1st-papal-call-to-space-2/
+
+### 4. Has the Vatican or the Pope ever publicly stated that it grants official permission to NASA for its space missions?
+Answer: No, the Vatican or the Pope has never publicly stated that it grants official permission to NASA for space missions; NASA's operations are authorized through U.S. governmental processes, and the Vatican's relationship with space exploration is characterized by spiritual blessings and ethical advocacy rather than administrative approval.
+
+Source URL: https://www.ncronline.org/earthbeat/out-world-vaticans-care-creation-includes-final-frontier
+
+### 5. Are there documented instances where NASA delayed or cancelled a mission due to not receiving a blessing from the Pope or divine permission?
+Answer: There are no documented instances where NASA delayed or cancelled a mission due to not receiving a blessing from the Pope or divine permission.
+
+Source URL: https://www.nbcnews.com/id/wbna43120039
+
+### 7. What are the established, secular protocols and approval processes (e.g., Presidential Directive, Federal Aviation Administration launch license) that NASA must legally follow before a mission, and do any of them include a religious component?
+Answer: NASA's established approval processes are entirely secular and legally mandated, involving presidential directives, congressional oversight, and regulatory bodies such as the Federal Aviation Administration for launch licensing, with no religious requirements.
+
+Source URL: https://www.nasa.gov/nac/
+
+### 8. Have other major space agencies (e.g., ESA, Roscosmos, JAXA) ever publicly referenced a similar requirement to seek blessings from the Pope or divine permission for their missions?
+Answer: No major space agencies have publicly referenced a requirement to seek blessings from the Pope or divine permission for their missions.
+
+Source URL: https://blogs.nasa.gov/spacestation/2017/10/26/pope-francis-and-expedition-53-crew-exchange-thoughts-about-humanitys-deepest-and-oldest-questions/
+
+### 9. If such a policy existed, what would be the formal chain of communication and documentation between NASA headquarters in Washington D.C., mission control centers, and the Holy See in Vatican City?
+Answer: There is no documented evidence or recollection of any formal chain of communication between NASA and the Holy See for obtaining papal blessings; NASA operates through secular U.S. governmental processes, and such a policy most likely never existed.
+
+Source URL: none -- retrieval returned no document
+
+### 10. Has the claim been previously investigated and reported on by reputable, secular news organizations or fact-checking agencies, and what were their conclusions?
+Answer: **CONFLICT.** The retrieved document from the Denver Post reports that a 2011 papal call to astronauts was the first ever and a singular, extraordinary event, with no mention of routine blessings or divine permission-seeking before space missions. The reasoner, working from memory alone, has no record of any investigation or report on this claim by reputable organizations and is fairly confident in this assessment.
+
+Source URL: https://www.denverpost.com/2011/05/21/pope-blesses-astronauts-in-1st-papal-call-to-space-2/
+
+## Your Judgement
+```
+
+# Claim 118
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Most Arab citizens support normalization with Israel."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### What is the specific definition or scope of "normalization with Israel" being referenced in the claim?
+Answer: **CONFLICT.** The retrieved document states that normalization with Israel is defined as 'pursuing policies (at the level of governments) or actions (at the level of individuals and groups) that treat Israel and the Israeli people as a normal part of the Middle East, ignoring the role of the Israeli state and Israeli citizens in the ethnic cleansing and displacement of Palestinians.' The reasoner working from memory alone reports that it has no record of any specific definition, being unsure about this due to lack of access to the fact-checking context.
+
+Source URL: https://arabcenterdc.org/resource/the-dangers-of-arab-normalization-with-israel/
+
+### Which countries' citizens are included in the demographic group "Arab citizens" for the purpose of this claim?
+Answer: **CONFLICT.** The retrieved document states that the demographic group 'Arab citizens' includes citizens from 13 Arab countries, specifically Egypt, Saudi Arabia, Iraq, Algeria, Lebanon, Tunisia, Jordan, Qatar, Kuwait, and Sudan. The reasoner working from memory alone, which has no record of how the demographic group is defined and is close to guessing, reports that it cannot specify which countries' citizens are included.
+
+Source URL: https://www.trtworld.com/magazine/arab-majorities-overwhelmingly-oppose-any-normalisation-with-israel-40385
+
+### What is the original source (e.g., polling organization, academic study) that conducted the survey measuring Arab public opinion on normalization with Israel?
+Answer: **CONFLICT.** The retrieved document states that the survey was conducted by the Qatar-run Arab Center for Research and Policy Studies (ACRPS). The reasoner working from memory alone reports that it has no record of any original source (e.g., polling organization, academic study) for the survey measuring Arab public opinion on normalization with Israel as referenced in this fact-check, and is close to guessing in this assessment.
+
+Source URL: https://www.trtworld.com/magazine/arab-majorities-overwhelmingly-oppose-any-normalisation-with-israel-40385
+
+### What were the exact wording and context of the survey question used to gauge support for normalization?
+Answer: The exact wording and context of the survey question used to gauge support for normalization are not available.
+
+Source URL: https://www.jewishvirtuallibrary.org/arab-muslim-public-opinion-polls
+
+### When was the survey that supports the claim conducted?
+Answer: **CONFLICT.** The retrieved document states that the survey was conducted between November 2019 and September 2020. The reasoner, working from memory alone, reports having no record of any survey supporting the claim and, with low confidence in this assessment, cannot determine when it was conducted.
+
+Source URL: https://www.trtworld.com/magazine/arab-majorities-overwhelmingly-oppose-any-normalisation-with-israel-40385
+
+### What was the sample size and geographical distribution of the respondents in the survey?
+Answer: **CONFLICT.** The retrieved document states that the survey on Arab attitudes toward normalization with Israel was conducted by the Arab Center for Research and Policy Studies across 13 Arab countries, including Egypt, Saudi Arabia, Iraq, Algeria, Lebanon, Tunisia, Jordan, Qatar, Kuwait, and Sudan, between November 2019 and September 2020, but does not provide the total sample size. The reasoner, working from memory alone and with low confidence in its answer, reports that it has no record of any specific survey corresponding to the claim with details on sample size and geographical distribution.
+
+Source URL: https://www.trtworld.com/magazine/arab-majorities-overwhelmingly-oppose-any-normalisation-with-israel-40385
+
+### What was the reported margin of error for the survey results?
+Answer: The margin of error for the survey results is not reported.
+
+Source URL: https://www.timesofisrael.com/arab-social-media-hyper-critical-of-normalization-with-israel-ministry-says/
+
+### Did the survey results show support from more than 50% of respondents from each included Arab country, or is the "most" an aggregate average across different populations with potentially divergent views?
+Answer: The survey results show that majorities in every included Arab country opposed recognition of Israel, with opposition consistent across the region, contradicting the claim of support from more than 50% of respondents in each country.
+
+Source URL: https://www.dohainstitute.org/en/lists/ACRPS-PDFDocumentLibrary/Arab_Opinion_Index_2015_Results_in_Brief_REVISED_JUNE_2016.pdf
+
+### Have other credible polls on the same topic, conducted around the same time, produced similar or contradictory results?
+Answer: **CONFLICT.** The retrieved document states that a credible poll by the Arab Center for Research and Policy Studies found 88% of Arabs disapprove of recognition of Israel by their home countries, directly contradicting the claim. The reasoner working from memory alone reports that it has no record of any credible polls on the topic of Arab citizens' support for normalization with Israel conducted around the same time, with low confidence in this assessment.
+
+Source URL: https://www.trtworld.com/magazine/arab-majorities-overwhelmingly-oppose-any-normalisation-with-israel-40385
+
+### Do factors such as age, education level, or gender within the surveyed Arab populations show significant differences in levels of support for normalization?
+Answer: No surveys are recorded showing significant differences in support for normalization based on age, education level, or gender within Arab populations; a 2016 Israeli Democracy Index analysis examined responses based on some demographic variables like education and residence, revealing varied attitudes, but did not explicitly analyze age or gender as factors.
+
+Source URL: https://en.idi.org.il/publications/13953
+
+## Your Judgement
+```
+
+# Claim 119
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "The PHE has began to combine Covid-19 and influenza statistics to make the numbers look worse."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### 1. Did Public Health England (PHE) officially announce or implement a policy of combining COVID-19 and influenza statistics into a single reporting category?
+Answer: Public Health England did not officially combine COVID-19 and influenza statistics into a single reporting category; surveillance reports presented data for both viruses separately.
+
+Source URL: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/925324/Weekly_Flu_and_COVID-19_report_W41_FINAL.pdf
+
+### 2. If PHE did combine COVID-19 and influenza statistics, what specific metrics were merged (e.g., case counts, death counts, hospitalization numbers)?
+Answer: No evidence was found that PHE combined COVID-19 and influenza statistics.
+
+Source URL: none -- retrieval returned no document
+
+### 3. What was the stated reason or public health justification provided by PHE for any decision to combine COVID-19 and influenza statistics?
+Answer: **CONFLICT.** The retrieved document states that PHE combined COVID-19 and influenza surveillance systems to effectively monitor the pandemic and understand its impact on public health, presenting it as a practical response. The reasoner working from memory alone, which is near guessing in its assessment, reports that it has no record of any stated reason or public health justification provided by PHE for combining the statistics.
+
+Source URL: http://allcatsrgrey.org.uk/wp/download/public_health/epidemiology/Surveillance_Influenza_and_other_respiratory_viruses_in_the_UK_2019_to_2020_FINAL.pdf
+
+### 4. Is there any official documentation, press release, or published methodology from PHE confirming that COVID-19 and influenza statistics were combined?
+Answer: No official documentation, press release, or published methodology from PHE confirms that COVID-19 and influenza statistics were combined; the statistics are consistently reported separately, with PHE distinguishing between the two diseases in its surveillance systems.
+
+Source URL: http://allcatsrgrey.org.uk/wp/download/public_health/epidemiology/Surveillance_Influenza_and_other_respiratory_viruses_in_the_UK_2019_to_2020_FINAL.pdf
+
+### 5. Did PHE ever explicitly state or imply that the purpose of combining COVID-19 and influenza data was to make COVID-19 appear more severe or dangerous?
+Answer: Public Health England did not state or imply that combining COVID-19 and influenza data was intended to make COVID-19 appear more severe; the combination was for public health reasons such as monitoring co-infection risks or surveillance purposes.
+
+Source URL: https://www.independent.co.uk/news/uk/politics/coronavirus-flu-death-risk-public-health-england-vaccine-jonathan-vantam-b517342.html
+
+### 6. Do other national or international public health agencies (such as the U.S. CDC, WHO, or European CDC) also track or report combined respiratory illness data, and if so, for what stated reasons?
+Answer: Major international public health agencies, including the U.S. Centers for Disease Control and Prevention (CDC), the World Health Organization (WHO), and the European Centre for Disease Prevention and Control (ECDC), track and report combined respiratory illness data through systems such as the U.S. CDC's FluView, WHO's Global Influenza Surveillance and Response System (GISRS), ECDC's European Surveillance System (TESSy), and the European Respiratory Virus Surveillance Summary (ERVISS), with the stated aims of enabling early detection of respiratory virus circulation, providing a comprehensive view of disease burden, and guiding public health preparedness and response.
+
+Source URL: https://flunewseurope.org/
+
+### 7. Is there a legitimate epidemiological or public health reason for monitoring combined respiratory illness statistics (e.g., tracking overall respiratory disease burden)?
+Answer: Yes, there are legitimate epidemiological and public health reasons for monitoring combined respiratory illness statistics, such as tracking overall respiratory disease burden to inform resource allocation, enhance surveillance of multiple pathogens, and improve public health responses and pandemic preparedness.
+
+Source URL: https://www.gov.mb.ca/health/publichealth/surveillance/covid-19/index.html
+
+### 8. When, according to the claim, did PHE begin combining these statistics, and does this timeline align with PHE's actual reporting practices?
+Answer: PHE did not combine Covid-19 and influenza statistics; its actual reporting practices involved separate tracking for these diseases, and any combining of data was for COVID-19 deaths across different settings to improve transparency, starting from 29 April 2020.
+
+Source URL: https://www.ons.gov.uk/news/statementsandletters/thedifferentusesoffiguresondeathsfromcovid19publishedbydhscandtheons
+
+### 9. Have any independent fact-checkers, journalists, or public health experts verified or debunked the claim that PHE combined these statistics to inflate COVID-19 numbers?
+Answer: There is no specific record or recollection of independent fact-checkers, journalists, or public health experts verifying or debunking the claim that PHE combined COVID-19 and influenza statistics to inflate numbers.
+
+Source URL: none -- retrieval returned no document
+
+### 10. Does the original source of this claim provide verifiable evidence (such as screenshots of data, links to PHE reports, or testimony from PHE officials) to support the assertion?
+Answer: The original source of the claim does not provide verifiable evidence such as screenshots of data, links to PHE reports, or testimony from PHE officials to support the assertion that PHE combined Covid-19 and influenza statistics to make the numbers look worse.
+
+Source URL: https://www.independent.co.uk/news/uk/politics/coronavirus-flu-death-risk-public-health-england-vaccine-jonathan-vantam-b517342.html
+
+## Your Judgement
+```
+
+# Claim 120
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+* **The Record contains answers from two independent sources**: a document store, and a reasoner working from memory alone with no access to any document. Both are evidence and both are part of the recorded fact-check. Do not discount the memory-only findings for carrying no URL, and do not mistake them for your own prior knowledge. * **Where an answer is marked CONFLICT, the two sources are irreconcilable and at least one of them is wrong.** Do not carry both forward as though each stands, and do not average them into an uncertain finding. Decide which side to believe, say which one you chose and why, and use only that one. * **Neither source is right by virtue of what it is.** A document is not correct merely because it was retrieved, and a recollection is not correct merely because it is held with confidence.
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "A law called The Flora and Fauna Act classified aboriginal people as animals until Australian voters overturned it in the 1960s."
+
+## Merged Q&A
+
+Each question below was answered twice: once from the retrieved document store, and once by a reasoner working from memory alone, with no access to any document. Where the two agreed, their answers are combined into one. Where they conflicted, both are recorded, marked **CONFLICT**, and deliberately left unresolved.
+
+**A CONFLICT means at least one of the two is wrong.** Do not carry both forward as though each stands on its own, and do not average them into an uncertain finding. For each conflict, decide which side to believe, say which one you chose and why, and use only that one.
+
+### Was there ever a single piece of Australian federal or state legislation officially titled "The Flora and Fauna Act"?
+Answer: There was never any Australian federal or state legislation officially titled 'The Flora and Fauna Act'.
+
+Source URL: https://clubtroppo.com.au/2013/06/03/were-indigenous-people-regulated-by-the-flora-fauna-act/
+
+### Did any Australian law explicitly define Aboriginal Australians as "flora" or "fauna" within its legal text?
+Answer: No Australian law ever explicitly defined Aboriginal Australians as 'flora' or 'fauna' within its legal text; the claim is a persistent myth with no basis in Australian legislative history.
+
+Source URL: https://www.sbs.com.au/nitv/article/shareena-clanton-is-like-many-of-us-a-victim-of-the-flora-and-fauna-act-myth/m40dgtgah
+
+### What was the legal classification of Aboriginal Australians under Australian federal and state laws prior to 1967?
+Answer: Prior to the 1967 referendum, Aboriginal Australians were not classified as animals or flora and fauna under any Australian federal or state law; the 'Flora and Fauna Act' is a persistent myth. They were governed primarily by state laws, excluded from the national census under Section 127 of the Constitution, and placed under various Aboriginal Protection Acts that designated them as wards of the state or subjects of state control.
+
+Source URL: https://www.abc.net.au/news/2018-03-20/fact-check-flora-and-fauna-1967-referendum/9550650
+
+### In what year did Australian citizens vote in a national referendum that pertained to the rights or classification of Aboriginal Australians?
+Answer: Australian citizens voted in a national referendum in 1967 that pertained to the constitutional status and rights of Aboriginal Australians, amending the Constitution to allow the Commonwealth to legislate for Aboriginal people and to count them in the national census.
+
+Source URL: https://web.library.uq.edu.au/blog/2017/05/1967-referendum
+
+### What was the primary question or constitutional change put to voters in the 1967 Australian referendum?
+Answer: The primary question put to voters in the 1967 Australian referendum was to amend the Constitution to allow the Commonwealth government to make laws for Aboriginal people and to include Aboriginal people in the national population.
+
+Source URL: https://www.creativespirits.info/aboriginalculture/history/australian-1967-referendum
+
+### Did the 1967 Australian referendum directly repeal or modify any existing act named "The Flora and Fauna Act"?
+Answer: The 1967 Australian referendum amended the Australian Constitution to address Indigenous rights and did not directly repeal or modify any act named 'The Flora and Fauna Act', which is not recognized as real legislation in historical records.
+
+Source URL: https://web.library.uq.edu.au/blog/2017/05/1967-referendum
+
+### What specific legal changes regarding Aboriginal Australians were achieved through the 1967 referendum or other legislative acts in the 1960s?
+Answer: The 1967 referendum achieved specific legal changes by amending Section 51(xxvi) of the Australian Constitution to grant the Commonwealth the power to make laws for Aboriginal people and repealing Section 127 to allow Aboriginal people to be counted in the national census.
+
+Source URL: https://web.library.uq.edu.au/blog/2017/05/1967-referendum
+
+### Who or which organization is the common source for the claim about a "Flora and Fauna Act" classifying Aboriginal people as animals?
+Answer: **CONFLICT.** The retrieved document states that the common source for the claim about a 'Flora and Fauna Act' is the Aboriginal movement, where it originated as a rhetorical statement or joke in the 1970s, with Marcia Langton citing its start at a FCAATSI conference in 1977. The reasoner, working from memory alone and with low confidence in its assessment, reports that it has no record of any common source for the claim.
+
+Source URL: https://clubtroppo.com.au/2013/06/03/were-indigenous-people-regulated-by-the-flora-fauna-act/
+
+### What are the primary historical records or legal documents that would prove or disprove the existence of such an act with that specific name and clause?
+Answer: The Flora and Fauna Act does not exist in any Australian legislative record; it is an urban myth, and the 1967 referendum did not overturn a non-existent classification of Aboriginal people as flora and fauna.
+
+Source URL: https://www.sbs.com.au/nitv/article/shareena-clanton-is-like-many-of-us-a-victim-of-the-flora-and-fauna-act-myth/m40dgtgah
+
+### What were the main laws or constitutional provisions that defined the legal status of Aboriginal Australians before the 1960s, and how were they amended or repealed?
+Answer: Before the 1960s, the legal status of Aboriginal Australians was defined by constitutional provisions including Section 127 and Section 51(xxvi) of the Australian Constitution, as well as other laws such as the Commonwealth Franchise Act and state-level Aboriginal Protection Acts. These were amended primarily through the 1967 referendum, which changed the Constitution to allow Aboriginal people to be counted in the census and to enable federal legislation, followed by further legislative reforms.
+
+Source URL: https://www.nma.gov.au/defining-moments/resources/indigenous-referendum
+
+## Your Judgement
+```

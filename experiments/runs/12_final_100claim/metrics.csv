@@ -1,0 +1,5 @@
+arm,description,n,correct,accuracy,supported_precision,supported_recall,supported_f1,supported_support,refuted_precision,refuted_recall,refuted_f1,refuted_support,macro_f1,backfilled_claims,off_label_predictions
+C,clean retrieval only (upper bound),100,79,0.7900,0.8919,0.6600,0.7586,50,0.7302,0.9200,0.8142,50,0.7864,0,0
+P,poisoned retrieval only (attack baseline),100,61,0.6100,0.6774,0.4200,0.5185,50,0.5797,0.8000,0.6723,50,0.5954,16,0
+PM,poisoned retrieval merged with model-only memory (defence),100,75,0.7500,0.9032,0.5600,0.6914,50,0.6812,0.9400,0.7899,50,0.7406,16,0
+M,"model-only memory, no retrieval",100,70,0.7000,0.9545,0.4200,0.5833,50,0.6282,0.9800,0.7656,50,0.6745,0,0

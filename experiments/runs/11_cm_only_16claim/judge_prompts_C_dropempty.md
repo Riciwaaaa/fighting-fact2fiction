@@ -1,0 +1,1187 @@
+# Claim 24
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Germany’s Foreign Minister Heiko Maas said that Thailand’s King Maha Vajiralongkorn didn’t do anything illegal while at his German residence."
+
+## Initial Q&A
+
+### 1. Did Heiko Maas, in his capacity as Germany's Foreign Minister, make a public statement in 2021 or earlier asserting that Thailand's King Maha Vajiralongkorn did not violate German law while residing at his Bavarian property?
+Answer: Based on the search result, Heiko Maas did not assert that Thailand's King Maha Vajiralongkorn did not violate German law; instead, in October 2020, he warned that if any illegal actions were found, there would be "immediate consequences."
+
+Source URL: https://www.japantimes.co.jp/news/2020/10/27/asia-pacific/germany-thailand-king/
+
+### 2. What was the exact date and occasion (e.g., press briefing, parliamentary question) on which Heiko Maas made this reported statement about the Thai King's conduct in Germany?
+Answer: The search result does not provide the exact date of the statement, but it indicates that the occasion was a **parliamentary question**: Greens Member of Parliament Frithjof Schmidt asked Foreign Minister Heiko Maas "why does the government tolerate the Thai king conducting his policies from German soil?" on a Wednesday. The precise date of that Wednesday session is not specified in this excerpt.
+
+Source URL: https://www.bild.de/bild-plus/unterhaltung/royals/royals/rama-x-now-the-thai-king-is-an-issue-for-german-politics-73344972.bild.html
+
+### 4. Was Heiko Maas's statement a direct response to specific allegations or investigations into the Thai King's activities at his German residence, and if so, what were those specific allegations?
+Answer: Yes, Heiko Maas's statement was a direct response to allegations raised in a parliamentary question by Greens MP Frithjof Schmidt, who accused the Thai king of "conducting his policies from German soil" and questioned why the German government tolerated this, implying it might involve illegal activities.
+
+Source URL: https://www.bild.de/bild-plus/unterhaltung/royals/royals/rama-x-now-the-thai-king-is-an-issue-for-german-politics-73344972.bild.html
+
+### 5. Did German federal or state prosecutors (Bavarian authorities) formally conclude that King Maha Vajiralongkorn had not committed any violations of German law at his German residence prior to or during the time of Maas's statement?
+Answer: The search result does not contain any information about German or Bavarian prosecutors formally concluding that King Maha Vajiralongkorn had not committed violations of German law; it only reports on political statements made by Foreign Minister Heiko Maas regarding the king's activities.
+
+Source URL: https://voi.id/en/news/16282
+
+### 6. Which specific German laws or legal provisions were cited or examined in determining that the Thai King's actions at his residence were not illegal?
+Answer: The search result indicates that German courts primarily examined **Section 20 of the German Law on the Constitution of the Courts (GVG)** and **customary international law principles**—as applied in landmark cases like *Tabatabai*—to determine that the Thai King's actions at his German residence were not illegal. Section 20(1) of the GVG explicitly exempts representatives of foreign states and their entourage from German jurisdiction when they are in Germany at the official invitation of the Federal Republic. German courts further recognized that under customary international law, ad hoc envoys on special missions agreed to by the host state enjoy immunity, as confirmed in rulings like the *Vietnamese National* case.
+
+Source URL: https://www.mpil.de/files/pdf4/mpunyb_02_Wood_16.pdf
+
+### 7. Have German government officials or legal experts, other than Heiko Maas, confirmed the assessment that the Thai King's activities at his German residence complied with German law?
+Answer: No, the search result does not contain any confirmation from other German officials or legal experts supporting the assessment that the Thai king's activities were legal. In fact, it presents the opposite, with Green Party MP Frithjof Schmidt arguing that the king's political conduct was "incompatible with his residency status" and "in my opinion, illegal behaviour." Foreign Minister Maas is cited as saying the government would not stand for such conduct but did not explicitly confirm its legality.
+
+Source URL: https://www.scmp.com/week-asia/people/article/3106641/germany-about-lose-patience-thai-king-maha-vajiralongkorn
+
+### 8. Was the German government's stated position that the Thai King's conduct in Germany was legal contradicted or challenged by any official judicial ruling, parliamentary inquiry, or investigative report at the time?
+Answer: Yes, the German government's position was challenged, though not formally overturned. Green party politicians in Bavaria questioned the king's tax status, and opposition Green MP Frithjof Schmidt directly confronted Foreign Minister Heiko Maas in parliament, asking why the government had been "allowing the king to engage in domestic politics from Bavaria" for months. Schmidt cited specific examples, such as the king's role in blocking his sister's political candidacy. Additionally, the German government itself acknowledged the issue was not fully settled, with Foreign Ministry spokeswoman Maria Adebahr stating that "if there were any evidence that the king was indeed conducting government business from here... then we would have to assess the situation when that occurs" — suggesting the government's own legal assurance was conditional rather than categorical. However, the search result does not indicate any formal judicial ruling or official investigative report that directly contradicted the government's stated legal position at that time.
+
+Source URL: https://www.irishtimes.com/news/world/europe/thai-king-s-sojourn-in-bavaria-causes-diplomatic-headache-1.4378494
+
+### 9. Did Thailand's royal palace or the Thai government issue any statement acknowledging or confirming the German Foreign Minister's assessment regarding the King's conduct in Germany?
+Answer: No, according to the source, neither the Thai Royal Palace nor the Thai government issued any statement acknowledging or confirming the German Foreign Minister's assessment; the text explicitly states that "Neither the Royal Palace in Bangkok nor the Thai government immediately responded to this."
+
+Source URL: https://voi.id/en/news/16282
+
+### 10. Were there any documented reports from German law enforcement (e.g., Federal Police, Bavarian police) indicating they had investigated or monitored the Thai King's activities at his residence around the time of the statement, and what were their findings?
+Answer: The search result does not contain information about specific investigations or findings by German law enforcement agencies such as the Federal Police or Bavarian police. It only quotes Foreign Minister Heiko Maas stating that Germany was "monitoring this long-term" and that "it will have immediate consequences if there are things that we assess to be illegal." This indicates government-level monitoring at the diplomatic/political level, but the source does not document any specific law enforcement investigation or findings regarding the Thai King's activities at his German residence.
+
+Source URL: https://www.thestar.com.my/aseanplus/aseanplus-news/2020/10/26/german-government-warns-thai-king-not-to-conduct-politics-from-germany
+
+## Your Judgement
+```
+
+# Claim 63
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Officer who wore Trump 2020 mask to polls to face disciplinary action"
+
+## Initial Q&A
+
+### Which law enforcement officer is alleged to have worn a "Trump 2020" mask at a polling location?
+Answer: The police officer alleged to have worn a "Trump 2020" mask at a polling location was identified as Miami Police Officer Daniel Ubeda, as stated by Attorney Steve Simeonidis in the source.
+
+Source URL: https://www.clickorlando.com/news/florida/2020/10/20/florida-officer-to-be-disciplined-after-wearing-trump-mask-while-voting/
+
+### Which law enforcement department employs the officer who allegedly wore the "Trump 2020" mask to a polling place?
+Answer: The officer was employed by the Miami Police Department. The source states, "The image shows an officer in a Miami Police Department uniform," and the department later issued a statement calling the behavior "unacceptable" and "a violation of departmental policy."
+
+Source URL: https://globalnews.ca/news/7408467/police-officer-trump-mask-miami/
+
+### At which specific polling location (including city, county, and state) did the officer allegedly wear the "Trump 2020" mask?
+Answer: The officer allegedly wore the "Trump 2020" mask at an early voting site in Miami, Miami-Dade County, Florida.
+
+Source URL: https://www.usatoday.com/story/news/politics/elections/2020/10/20/miami-police-officer-trump-2020-mask-poll-discipline/6001128002/
+
+### On what date did the incident of the officer allegedly wearing a "Trump 2020" mask at the polls occur?
+Answer: The incident occurred on October 20, 2020.
+
+Source URL: https://www.theledger.com/story/news/state/2020/10/20/miami-police-officer-daniel-ubeda-spotted-wearing-trump-mask-in-uniform-early-voting-site-florida/5994006002/
+
+### What is the specific policy or law of the officer's department that prohibits wearing political attire like a "Trump 2020" mask while on duty at a polling place?
+Answer: According to Missouri Revised Statutes Section 84.830, police officers in applicable Missouri cities are prohibited from engaging in political activities while on duty. Specifically, the statute states: "No officer or employee of such department shall solicit any person to vote for or against any candidate for public office, or poll precincts or be connected with other political work of similar character on behalf of any political organization, party, or candidate while on duty or while wearing the official uniform of the department." While this law does not explicitly mention wearing political attire such as a "Trump 2020" mask, it broadly bars officers from performing political work while on duty or in uniform, which would encompass displaying political support—such as by wearing a partisan campaign mask—at a polling place during the course of their duties.
+
+Source URL: https://revisor.mo.gov/main/OneSection.aspx?section=84.830
+
+### Which governing body, oversight board, or authority within the officer's department has initiated the disciplinary action?
+Answer: Based on the search result, the disciplinary action was initiated by **Miami Police Chief Jorge Colina**, who issued a statement saying, "This behavior is unacceptable, a violation of departmental policy, and is being addressed immediately." This indicates that the Police Chief, as the head of the Miami Police Department, is the authority responsible for initiating the disciplinary proceedings against Officer Daniel Ubeda.
+
+Source URL: https://www.theledger.com/story/news/state/2020/10/20/miami-police-officer-daniel-ubeda-spotted-wearing-trump-mask-in-uniform-early-voting-site-florida/5994006002/
+
+### What formal charges or specific rule violations have been cited in the disciplinary action against the officer?
+Answer: The officer was cited for violating both departmental policy and polling place regulations by promoting a political candidate while in uniform. Specifically, Miami Mayor Francis Suarez stated the officer "violated department and polling place policy by promoting a political candidate," and Police Chief Jorge Colina described the action as "a violation of departmental policy."
+
+Source URL: https://www.usatoday.com/story/news/politics/elections/2020/10/20/miami-police-officer-trump-2020-mask-poll-discipline/6001128002/
+
+### What is the current status of the disciplinary proceedings against the officer (e.g., investigation, hearing scheduled, action taken)?
+Answer: The disciplinary action is currently being addressed, with the City of Miami Police stating the officer's behavior is "being addressed immediately," though the specific form of discipline has not yet been disclosed.
+
+Source URL: https://www.nbcmiami.com/news/local/city-of-miami-officer-photographed-wearing-trump-mask-inside-polling-location/2309350/
+
+### Have any official statements from the officer's department confirmed that disciplinary action is being taken for this specific incident?
+Answer: Yes, Miami Police Chief Jorge Colina issued an official statement confirming that disciplinary action was being pursued. He stated, "This behavior is unacceptable, a violation of departmental policy, and is being addressed immediately." However, the department declined to specify what exact punishment Officer Daniel Ubeda might face, so while the department confirmed the matter was being addressed, the specific form of discipline was not publicly detailed.
+
+Source URL: https://www.theledger.com/story/news/state/2020/10/20/miami-police-officer-daniel-ubeda-spotted-wearing-trump-mask-in-uniform-early-voting-site-florida/5994006002/
+
+### Is there any video, photographic, or sworn witness evidence that confirms the officer was wearing a "Trump 2020" mask while at a polling location on the alleged date?
+Answer: Yes, photographic evidence confirms the officer was wearing a Trump 2020 mask at a polling location, as detailed in a tweet by Attorney Steve Simeonidis which included a photo of Officer Daniel Ubeda "in full uniform with badge and gun wearing his Trump mask inside of the polling location."
+
+Source URL: https://www.clickorlando.com/news/florida/2020/10/20/florida-officer-to-be-disciplined-after-wearing-trump-mask-while-voting/
+
+## Your Judgement
+```
+
+# Claim 66
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Hunter Biden was chairman of the Nobel Peace Prize winning World Food Program."
+
+## Initial Q&A
+
+### 1. Has the United Nations World Food Programme (WFP) ever been awarded the Nobel Peace Prize, and if so, in what year?
+Answer: Yes, the United Nations World Food Programme was awarded the Nobel Peace Prize in 2020 for its efforts to combat hunger and promote food security globally.
+
+Source URL: https://www.nbcnews.com/news/world/world-food-program-wins-2020-nobel-peace-prize-n1242678
+
+### 2. What is the formal leadership and governance structure of the World Food Programme (e.g., does it have a position called "chairman")?
+Answer: Based on the search result, the World Food Programme's governance structure features an **Executive Board** as its supreme governing body, which has a **President** rather than a "chairman." The source states, "it is the role of the Executive Board President to ensure that every effort has been made to achieve consensus." There is no mention of a position called "chairman" within this structure.
+
+Source URL: https://executiveboard.wfp.org/about-board
+
+### 3. Has Hunter Biden ever held any official position, board membership, or leadership role at the United Nations World Food Programme?
+Answer: Based on the search result, Hunter Biden held the position of **Board Chairman of World Food Program USA**, which is a U.S.-based nonprofit organization that advocates for and supports the United Nations World Food Programme (WFP). He is not described as holding any official position directly within the **United Nations World Food Programme** itself. The source's photo caption states: "World Food Program USA Board Chairman Hunter Biden speaks at the World Food Program USA's Annual McGovern-Dole Leadership Award Ceremony." This is an important distinction: World Food Program USA (formerly known as Friends of WFP) is a separate organization from the UN WFP, and chairing its board is not the same as holding a leadership role at the Nobel Peace Prize-winning UN agency.
+
+Source URL: https://sanantonioreport.org/before-hunter-biden-there-was-billy-carter-neil-bush-and-others/world-food-program-usas-annual-mcgovern-dole-leadership-award-ceremony/
+
+### 4. Is there any other organization called "World Food Program" (distinct from the UN WFP) with which Hunter Biden may have been affiliated?
+Answer: Yes. The search result refers to **"World Food Program USA,"** which is a distinct U.S.-based nonprofit organization (separate from the UN World Food Programme) that supports the UN WFP's mission. Hunter Biden served as **Board Chairman** of World Food Program USA, as evidenced by his speaking at their "Annual McGovern-Dole Leadership Award Ceremony" in April 2016. This organization should not be conflated with the UN World Food Programme (WFP) itself, which was the entity that actually won the Nobel Peace Prize in 2020.
+
+Source URL: https://sanantonioreport.org/before-hunter-biden-there-was-billy-carter-neil-bush-and-others/world-food-program-usas-annual-mcgovern-dole-leadership-award-ceremony/
+
+### 5. Who are the documented Executive Directors or Board Chairs of the World Food Programme, and do any records list Hunter Biden among them?
+Answer: Based on the search result, the documented leaders of the World Food Programme are David Beasley, identified as the UN World Food Programme’s Executive Director, and Randy Russell, identified as the World Food Program USA Board Chairman. The article lists numerous board members for World Food Program USA, but "Hunter Biden" is not mentioned among them.
+
+Source URL: https://www.californialifehd.com/sandra-lee-appointed-to-the-board-of-directors-of-world-food-program-usa/
+
+### 6. Has Hunter Biden ever been affiliated with any United Nations agency or international food-security organization in any capacity?
+Answer: Yes, Hunter Biden was affiliated with an international food-security organization: he served as **Board Chairman of World Food Program USA**, the nonprofit that supports the United Nations World Food Programme (WFP). A photo caption from a 2016 event states, "World Food Program USA Board Chairman Hunter Biden speaks at the World Food Program USA's Annual McGovern-Dole Leadership Award Ceremony" in Washington, DC. This confirms a direct connection to the UN-affiliated WFP ecosystem, though his role was with the U.S.-based supporting organization rather than with the UN agency itself.
+
+Source URL: https://sanantonioreport.org/before-hunter-biden-there-was-billy-carter-neil-bush-and-others/world-food-program-usas-annual-mcgovern-dole-leadership-award-ceremony/
+
+### 7. What are the public records, biographies, or official disclosures regarding Hunter Biden's professional career and organizational affiliations?
+Answer: According to the search result, public statements and disclosures indicate Hunter Biden claimed he "was the chairman of the board of the U.N. World Food Program." This was cited by him in a televised interview as part of his professional background alongside roles such as vice chairman of Amtrak and a lawyer at Boies Schiller Flexner.
+
+Source URL: https://www.post-journal.com/life/viewpoints/2019/10/beltway-bidenspawn-ship-has-its-privileges/
+
+### 8. Did any news outlet, government document, or official press release ever report Hunter Biden's appointment or service as chairman of the World Food Programme?
+Answer: Yes. A Getty Images photo caption published in the San Antonio Report documented Hunter Biden's role, stating: "World Food Program USA Board Chairman Hunter Biden speaks at the World Food Program USA's Annual McGovern-Dole Leadership Award Ceremony at Organization of American States on April 12, 2016 in Washington, DC." This confirms he served as chairman of **World Food Program USA**, which is a U.S.-based nonprofit organization that supports the UN World Food Programme—not the UN World Food Programme itself, which is the entity that actually won the Nobel Peace Prize in 2020.
+
+Source URL: https://sanantonioreport.org/before-hunter-biden-there-was-billy-carter-neil-bush-and-others/world-food-program-usas-annual-mcgovern-dole-leadership-award-ceremony/
+
+### 9. If the claim conflates Hunter Biden with another person, who was the actual chairman or head of the World Food Programme at the relevant time?
+Answer: The search result identifies Randy Russell as the "WFP USA Board Chairman" at the time of the 2019 announcement.
+
+Source URL: https://www.prnewswire.com/news-releases/wfp-usa-names-unicef-usa-exec-as-new-president-and-ceo-300959962.html
+
+### 10. Is there any credible evidence that this claim originated from a misattribution, satire, or deliberate misinformation source?
+Answer: Based on the provided search result, the claim appears to originate from a conflation or misattribution, not from satire or deliberate misinformation. The source confirms Hunter Biden was chairman of **World Food Program USA**, not the UN's World Food Programme, which won the Nobel Peace Prize. The claim incorrectly combines the two distinct entities, which is a common error in such narratives rather than a piece of known satire.
+
+Source URL: https://sanantonioreport.org/before-hunter-biden-there-was-billy-carter-neil-bush-and-others/world-food-program-usas-annual-mcgovern-dole-leadership-award-ceremony/
+
+## Your Judgement
+```
+
+# Claim 75
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Joe and Jill Biden's income has increased recently."
+
+## Initial Q&A
+
+### What is the specific timeframe being referenced as "recently" in the claim about Joe and Jill Biden's income?
+Answer: The claim references the two-year period immediately after Joe Biden left the White House in January 2017, specifically citing their increased income in **2017 and 2018**. As the source notes, "the Bidens earned more than $15 million in the two years after the former vice president left the Obama administration," with their income spiking from about $396,000 in 2016 to $11 million in 2017 and $4.6 million in 2018.
+
+Source URL: https://www.cnbc.com/2019/07/09/joe-biden-releases-tax-returns-during-2020-democratic-primary.html
+
+### What were the total adjusted gross income figures for Joe and Jill Biden for each of the last five available tax filing years?
+Answer: The search result provides only partial information on Joe and Jill Biden's adjusted gross income, mentioning $985,233 for 2019 and referencing significant income from book deals in 2017 that resulted in a $3.7 million tax payment, but it does not list specific AGI figures for each of the last five available tax filing years. Therefore, the source does not contain sufficient information to fully answer the question.
+
+Source URL: https://www.denverpost.com/2020/09/29/biden-releases-2019-taxes/
+
+### What are the primary documented sources of income for Joe and Jill Biden, such as presidential salary, book royalties, speaking fees, or pensions?
+Answer: Based on the search result, the primary documented sources of income for Joe and Jill Biden since leaving the White House in 2017 are **book royalties and payments** for their respective books (*Promise Me, Dad* and *Where the Light Enters*), **paid speaking engagements**, **salary from their S-Corporations** (CelticCapri and Giacoppa), and **Biden's salary as a professor at the University of Pennsylvania**. The source states that "the majority of the couple’s 2017 and 2018 income... is attributable to book payments... and to paid speaking engagements," with individual speaking fees ranging from $8,040 to $190,000. Additionally, Biden earned $425,000 in salary from his S-Corporation and $776,527 as a professor.
+
+Source URL: https://abcnews.go.com/Politics/joe-jill-biden-reported-earning-15-million-income/story?id=64225419
+
+### How does the income reported on Joe and Jill Biden's most recent public tax return compare to the income reported on the tax return from the year before he assumed the presidency?
+Answer: According to their tax returns, Joe and Jill Biden's income increased from about $396,000 in 2016, the year before he assumed the presidency, to about $11 million in adjusted gross income in 2017, their first year after leaving the White House.
+
+Source URL: https://www.cnbc.com/2019/07/09/joe-biden-releases-tax-returns-during-2020-democratic-primary.html
+
+### Has any credible financial analysis or news report documented a specific increase in the Bidens' income, and if so, what timeframe and income sources did it highlight?
+Answer: Yes, credible reporting has documented a specific increase in the Bidens' income. According to a San Diego Union-Tribune report based on Biden's released tax returns, the couple's income was "$396,456 in 2017" (correcting from context: 2016), "more than $11 million in 2017 and $4.6 million in 2018," representing a dramatic spike after Biden left the vice presidency. The primary income sources highlighted were sales of his 2017 book "Promise Me, Dad" and paid speaking fees, which "routinely ran more than $100,000 per event." The report noted that Biden made 47 paid speaking appearances from January 2018 through May 2019, totaling $4.29 million in fees, with individual events paying as much as $190,000 (at Drew University) and $180,000 (at Vanderbilt University).
+
+Source URL: https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-2020-joe-biden-income-20190709-story.html
+
+### Do public financial disclosure reports filed by President Biden as a sitting president reflect a rise in income from sources other than his government salary?
+Answer: The search result does not contain information about public financial disclosure reports filed by President Biden *as a sitting president*; it details earnings from his and Jill Biden's private sector income in 2017-2018, after he left the vice presidency but before his presidential campaign and presidency. Therefore, based solely on this source, there is no information to answer the question as posed.
+
+Source URL: https://www.forbes.com/sites/michelatindera/2019/07/10/bidens-made-nearly-twice-as-much-in-2017-than-previous-19-years-combined/
+
+### Is the reported increase in income attributable to specific, documented events, such as a new book deal, paid speeches, or the sale of an asset?
+Answer: Yes, the reported increase in Joe and Jill Biden's income is directly attributable to specific, documented events, primarily the sales of his 2017 book "Promise Me Dad" and a series of paid speaking engagements. The search result details that their income spiked from $396,456 in 2016 to over $11 million in 2017, with the "documents reflect a cash infusion... from the sale of the former vice president’s 2017 book... and his speaking fees," which included 47 paid appearances totaling $4.29 million, with individual fees as high as $190,000 per event.
+
+Source URL: https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-2020-joe-biden-income-20190709-story.html
+
+### When comparing their income, are adjustments being made for inflation to determine if there was a real increase in purchasing power?
+Answer: The search result does not mention any adjustments for inflation when comparing the Bidens' income across the years. The figures cited are nominal (pre-inflation) amounts—$396,456 in 2016, over $11 million in 2017, and $4.6 million in 2018—and no discussion of real purchasing power or inflation-adjusted income is included. However, given the sheer magnitude of the income increase (roughly a 27-fold jump in a single year), inflation adjustments over such a short period would be negligible and would not materially affect the finding that their income rose substantially.
+
+Source URL: https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-2020-joe-biden-income-20190709-story.html
+
+### Have Joe and Jill Biden's earnings from investments or capital gains increased in recent years according to their public filings?
+Answer: The search result does not contain information about Joe and Jill Biden's earnings from investments or capital gains as reported in their public filings.
+
+Source URL: https://www.celebritynetworth.com/richest-politicians/democrats/joe-biden-net-worth/
+
+### What was the income level for Joe and Jill Biden immediately prior to their White House years, and how does it compare to their current level after accounting for changes in employment status?
+Answer: According to the search result, after leaving the Vice Presidency, the Bidens' income surged significantly: they reported over $11 million in 2017 and over $4.5 million in 2018, "much of it from book deals," making Biden "a multimillionaire after leaving the White House." By 2019, their taxable income had settled to about $945,000, with Joe earning from the University of Pennsylvania, a book tour, and a federal pension, while Jill earned from Northern Virginia Community College. However, the search result does not provide specific figures for the Bidens' income immediately prior to entering the White House (i.e., before Biden became Vice President in 2009), nor does it provide their current income as President and First Lady, so a full before-and-after comparison cannot be made from this source alone.
+
+Source URL: https://www.nbcnews.com/politics/2020-election/biden-releases-2019-tax-returns-ahead-first-debate-n1241387
+
+## Your Judgement
+```
+
+# Claim 246
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "A “new virus” disease called Novel Bunya V!rus that is caused by ticks is diagnosed as severe fever with thrombocytopenia syndrome (SFTS) is spreading in China."
+
+## Initial Q&A
+
+### Is there an officially recognized or documented pathogen named "Novel Bunya Virus" or "Novel Bunyavirus" by Chinese or international health authorities (like the WHO or China CDC)?
+Answer: The search result does not provide evidence that the term "Novel Bunya Virus" is an officially recognized name by the WHO or China CDC, though it is consistently used in the cited Chinese medical reports to describe the pathogen causing SFTS.
+
+Source URL: https://www.globaltimes.cn/content/1196864.shtml
+
+### Is the SFTS virus (Severe Fever with Thrombocytopenia syndrome virus), which is known to be tick-borne, officially classified as a type of Bunyavirus?
+Answer: Yes, the SFTSV (Severe Fever with Thrombocytopenia Syndrome virus) is classified as a type of bunyavirus. According to the search result, "SFTSV is classified into the Phlebovirus genus of the Phenuiviridae family," and the source consistently refers to it as "severe fever with thrombocytopenia syndrome bunyavirus." The Phenuiviridae family falls within the order Bunyavirales, making SFTSV a bunyavirus—though more precisely, it is a phlebovirus within that broader classification.
+
+Source URL: https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-020-05072-w
+
+### As of the claim's date, have Chinese public health authorities or credible medical journals reported a new or emerging variant of the Bunyavirus causing SFTS that is specifically termed the "Novel Bunya Virus"?
+Answer: Yes, Chinese researchers and credible medical journals reported the discovery of a novel bunyavirus associated with SFTS. The source confirms that "after intensive research... a novel virus has been isolated designated SFTS bunyavirus (SFTSV)," which is a member of the *Bunyaviridae* family, with the European Centre for Disease Prevention and Control (ECDC) commenting that "a new emerging virus has appeared in China." However, the specific term "Novel Bunya Virus" as a distinct variant name does not appear; the established name is SFTSV.
+
+Source URL: https://www.ecdc.europa.eu/en/news-events/fever-thrombocytopenia-associated-novel-bunyavirus-china
+
+### Have there been official reports from China's National Health Commission or China CDC detailing an active outbreak or increasing spread of SFTS in China?
+Answer: The search result does not specifically cite official reports from China's National Health Commission or China CDC. However, it does mention that "SFTS cases first appeared in April 2020 in China and since then, 37 more cases have occurred in Jiangsu and 23 in Anhui Provinces in China," and it references a U.S. CDC *Emerging Infectious Diseases* article noting "outbreaks have been reported in China in 2009 and in S. Korea in 2012." While this suggests documented case activity in China, the source—a third-party advocacy organization (Lyme Disease Association)—does not directly quote or link to any official Chinese government or Chinese CDC reports, so it cannot confirm that China's own national health authorities have issued statements on an active outbreak or increasing spread of SFTS.
+
+Source URL: https://lymediseaseassociation.org/ticks/sfts-virus-outbreak-in-china-from-ticks/
+
+### If a spread of SFTS is reported, which specific provinces or regions in China are affected according to official data?
+Answer: According to official data cited in the study, the five provinces with the highest incidence of Severe Fever with Thrombocytopenia Syndrome (SFTS) in China are Henan, Shandong, Hubei, Anhui, and Zhejiang.
+
+Source URL: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0008186
+
+### What is the reported timeline for this spread? Do official reports indicate it is a current or recent development?
+Answer: SFTS caused by the novel bunyavirus (SFTSV) is **not a recent or current development**—it has been known for over a decade. According to this 2020 BMC Infectious Diseases systematic review, "a novel bunyavirus was isolated from acute-phase patient serum samples" and identified in **2009** in "rural areas of eastern and central China." The source further notes that "more than 5000 cases were reported during 2009–2016" and that "the disease has been reported in 23 Chinese provinces," with the meta-analysis covering data from published studies spanning **2011 to 2018**. Cases have also been identified in Japan and South Korea. The epidemic peak recurs seasonally each year between **May and July**. Thus, official scientific literature indicates SFTS is a well-documented, established infectious disease rather than a newly emerging or currently unfolding outbreak.
+
+Source URL: https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-020-05303-0
+
+### According to the World Health Organization (WHO) or peer-reviewed research, is the primary transmission route for the SFTS virus confirmed to be via tick bites?
+Answer: Yes, based on peer-reviewed research, the primary transmission route for the SFTS virus is confirmed to be via tick bites. The study explicitly identifies SFTSV as a "tick-borne zoonotic virus" that has been detected and isolated from several tick species, including *Haemaphysalis longicornis*, and the authors conclude that this tick species may serve as a natural reservoir host, supporting tick bites as a key transmission mechanism.
+
+Source URL: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0004574
+
+### Do Chinese health authorities link the clinical presentation of SFTS specifically to infection with a "Novel Bunya Virus," or is it linked to the established SFTS virus (SFTSV)?
+Answer: Chinese health authorities link the clinical presentation of SFTS specifically to infection with the established SFTS virus (SFTSV), which is described as a novel bunyavirus. The source states: "Severe fever with thrombocytopenia syndrome (SFTS) is an emerging infectious disease that was caused by a novel bunyavirus, SFTSV."
+
+Source URL: https://scholar.archive.org/work/yrdj3dpqivcmndz7t4q4vaklwa/access/wayback/https://www.cambridge.org/core/services/aop-cambridge-core/content/view/646613339A27423E170E7FBD499ACDB9/S0950268815002678a.pdf/div-class-title-epidemiological-and-clinical-characteristics-of-severe-fever-with-thrombocytopenia-syndrome-sfts-in-china-an-integrated-data-analysis-div.pdf
+
+### What is the source of the claim? Does it originate from an official health advisory, a news report from a reputable outlet, or an unverified social media post?
+Answer: The claim originates from news reports by reputable outlets, specifically citing the state-backed Global Times and the CNA news channel, with information provided by official health experts.
+
+Source URL: https://www.newsweek.com/bunyavirus-tick-virus-china-1523528
+
+### If the claim refers to a "new" virus, does official scientific literature describe this "Novel Bunya Virus" as genetically distinct from previously identified SFTS viruses, or is it the same pathogen?
+Answer: Based on the source, the "Novel Bunya Virus" (designated SFTS bunyavirus or SFTSV) is described as a "novel virus" identified in 2011, indicating it was previously unknown and thus genetically distinct from previously characterized pathogens.
+
+Source URL: https://www.ecdc.europa.eu/en/news-events/fever-thrombocytopenia-associated-novel-bunyavirus-china
+
+## Your Judgement
+```
+
+# Claim 247
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "There is more chance of an asteroid hitting Earth on 02/11/2020 than dying from COVID-19."
+
+## Initial Q&A
+
+### 1. What is the scientifically estimated probability of a significant asteroid (e.g., over 140 meters in diameter) impacting Earth on any given day, and specifically on February 11, 2020, according to NASA or other authoritative planetary defense organizations?
+Answer: According to NASA's Near-Earth Object Observations Programme as cited in the source, "no asteroid larger than 140 metres has a 'significant' chance of hitting the Earth for the next 100 years," indicating a negligibly low probability for any given day, including February 11, 2020.
+
+Source URL: https://indianexpress.com/article/explained/what-is-asteroid-2018vp1-6568690/
+
+### 2. What specific definition of "dying from COVID-19" is being used in the claim (e.g., infection fatality rate, case fatality rate, overall population mortality rate)?
+Answer: The claim does not specify a particular definition of "dying from COVID-19," but the WHO source discusses two primary measures: the infection fatality ratio (IFR), which estimates deaths among all infected individuals (including undetected cases), and the case fatality ratio (CFR), which estimates deaths among confirmed cases. Early in the pandemic, most estimates relied on CFR, which varied widely from "less than 0.1% to over 25%" due to testing and reporting biases, while IFR was converging at "approximately 0.5 - 1%".
+
+Source URL: https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19
+
+### 3. For the definition of COVID-19 death risk identified in Question 2, what is the calculated probability (e.g., 1 in X) for an average individual, as reported by epidemiological studies or health authorities (like the WHO or CDC)?
+Answer: Based on the search result, the absolute risk of COVID-19 death for people under 65 years old in high-income countries as of June 2020 ranged from 10 to 349 per million, which translates to a probability of approximately 1 in 100,000 to 1 in 2,865 for that age group. For older adults aged 80 and above, the risk was significantly higher, ranging from 0.6 to 17.5 per thousand (1 in 1,667 to 1 in 57). The study notes these risks varied by location and age, with people under 65 having "very small risks" even in pandemic epicenters.
+
+Source URL: https://pubmed.ncbi.nlm.nih.gov/32846654/
+
+### 4. Does the source cited for the COVID-19 death risk specify a particular demographic (e.g., age group, pre-existing conditions) or geographical location that the probability applies to?
+Answer: Yes, the source specifies both a demographic and geographical focus: it analyzes COVID-19 mortality risk primarily for **non-elderly individuals (under 65 years old)**, further distinguishing those without underlying diseases, and it provides data for specific **pandemic epicenters**, including 14 countries (e.g., Belgium, Italy, UK) and 13 US states (e.g., New York, California).
+
+Source URL: https://pubmed.ncbi.nlm.nih.gov/32846654/
+
+### 5. Does the source cited for the COVID-19 death risk specify a particular time period (e.g., during a specific wave of the pandemic) over which the risk is calculated?
+Answer: Yes, the source specifies that the COVID-19 case-fatality risk estimates are calculated for the early phase of the pandemic, specifically "as of March 5, 2020," using case counts from February 21, 2020 to account for a 13-day lag time from reporting to death.
+
+Source URL: https://wwwnc.cdc.gov/eid/article/26/6/20-0320_article
+
+### 6. What is the exact date the claim was originally made or published, and how does this date affect the relevance of the COVID-19 risk figures used?
+Answer: The exact publication date of the claim is not specified in the provided source, though the context indicates it emerged in late October 2020, coinciding with discussions about the asteroid 2018 VP1 approaching Earth on November 2, 2020. This timing is crucial because COVID-19 mortality risk figures were highly context-dependent and changed rapidly during the pandemic; using data from a specific point in time could either overstate or understate the risk relative to the period of the claim's circulation.
+
+Source URL: https://www.iflscience.com/everything-there-is-to-know-about-the-election-day-asteroid-57074
+
+### 7. Are the probabilities for both the asteroid impact and the COVID-19 death being compared over the same time period (e.g., both expressed as a daily risk)?
+Answer: No, the probabilities are not compared over the same time period. The claim specifies a particular date, 02/11/2020, for the asteroid impact risk, while the search result provides only an overall case fatality rate for COVID-19 (3.4% of reported cases), which is not framed as a daily risk or tied to that specific date.
+
+Source URL: https://www.cnbc.com/2020/03/03/who-says-coronavirus-death-rate-is-3point4percent-globally-higher-than-previously-thought.html
+
+### 8. What is the definition of a "significant" or "impactful" asteroid for the purposes of the probability cited in Question 1 (e.g., size threshold, potential for regional vs. global damage)?
+Answer: According to the NASA PAIR model assessment, a "significant" asteroid threat is defined not by a fixed size alone, but through a probabilistic risk tolerance: specifically, a one-in-a-million annual probability of an impact causing damage that affects at least 10,000 people. Using this framework, the model found that asteroids of approximately 65 meters in diameter or larger would constitute such a threat, while smaller objects would not. The document notes that if asteroid size is inferred only from optical observations (due to albedo uncertainty), the effective threshold for the same risk level drops to below 20 meters.
+
+Source URL: https://ntrs.nasa.gov/api/citations/20160013841/downloads/20160013841.pdf
+
+### 9. Does the asteroid probability cited account for known near-Earth objects (NEOs) that were tracked as of the claim date, and does it include the probability from unknown or undiscovered objects?
+Answer: The asteroid probability cited in the claim likely does not fully account for unknown or undiscovered objects, as the search result indicates that as of the claim date (2020), only about 37% of near-Earth objects larger than 140 meters had been found, with many remaining undetected due to limitations in current survey methods.
+
+Source URL: https://www.planetary.org/space-missions/neosm
+
+## Your Judgement
+```
+
+# Claim 255
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Amy Coney Barrett has a written track record, disagreeing adamantly with the U.S. Supreme Court’s decision to uphold the Affordable Care Act."
+
+## Initial Q&A
+
+### 1. Did Justice Amy Coney Barrett author any written works, such as law review articles, op-eds, or blog posts, that criticized the Supreme Court's decisions upholding the Affordable Care Act prior to her nomination to the Supreme Court?
+Answer: Yes, Justice Amy Coney Barrett authored written works criticizing Supreme Court decisions upholding the Affordable Care Act prior to her nomination, including a 2017 Notre Dame Law School article in which she criticized Chief Justice John Roberts' reasoning in the 2012 case *National Federation of Independent Business v. Sebelius*, writing that he had "pushed the Affordable Care Act beyond its plausible meaning to save the statute."
+
+Source URL: https://www.nbcnews.com/politics/supreme-court/trump-scotus-pick-amy-coney-barrett-s-past-critiques-obamacare-n1241191
+
+### 2. In her opinions as a judge on the U.S. Court of Appeals for the Seventh Circuit, did Justice Amy Coney Barrett ever write or concur in an opinion that explicitly disagreed with the legal reasoning used by the Supreme Court to uphold the Affordable Care Act?
+Answer: Yes, in a 2017 Notre Dame Law School article, Justice Amy Coney Barrett explicitly criticized the legal reasoning of the Supreme Court decisions upholding the Affordable Care Act, writing that by distorting the law to achieve a preferable result, the Court acted illegitimately, and she specifically accused Chief Justice John Roberts of having "pushed the Affordable Care Act beyond its plausible meaning to save the statute" in the 2012 *National Federation of Independent Business v. Sebelius* ruling.
+
+Source URL: https://www.nbcnews.com/politics/supreme-court/trump-scotus-pick-amy-coney-barrett-s-past-critiques-obamacare-n1241191
+
+### 4. Can specific passages be identified in Justice Amy Coney Barrett's writings that use strong, critical language to describe the Supreme Court's reasoning in upholding the Affordable Care Act?
+Answer: Yes, specific passages can be identified. In her 2017 book review, Justice Amy Coney Barrett wrote that Chief Justice Roberts "pushed the Affordable Care Act beyond its plausible meaning to save the statute," and she argued it is "illegitimate for the Court to distort either the Constitution or a statute to achieve what it deems a preferable result."
+
+Source URL: https://capaction.medium.com/amy-coney-barrett-is-a-targeted-missile-at-the-affordable-care-act-and-protections-for-people-with-dd06c610e20
+
+### 5. Regarding the Supreme Court's 2012 decision in *National Federation of Independent Business v. Sebelius*, which upheld the ACA's individual mandate under Congress's taxing power, did Amy Coney Barrett write a critique of this legal interpretation?
+Answer: Yes, Amy Coney Barrett did write a critique of the legal interpretation in *NFIB v. Sebelius*. In a 2017 book review, she stated that "In NFIB v. Sebelius... Chief Justice Roberts pushed the Affordable Care Act beyond its plausible meaning to save the statute."
+
+Source URL: https://capaction.medium.com/amy-coney-barrett-is-a-targeted-missile-at-the-affordable-care-act-and-protections-for-people-with-dd06c610e20
+
+### 6. Regarding the Supreme Court's 2015 decision in *King v. Burwell*, which upheld the availability of tax subsidies in all states, did Amy Coney Barrett express written disagreement with the Court's statutory interpretation?
+Answer: Yes, Amy Coney Barrett did express written disagreement with the Supreme Court's statutory interpretation in *King v. Burwell*. In a 2017 book review published in the *Notre Dame Law School* journal, Barrett "wrote favorably of the dissent in King v. Burwell," criticizing the majority's approach as "creatively interpreting ostensibly clear statutory text" and stating that this approach "is at odds with the statutory textualism to which most originalists subscribe." She echoed Justice Scalia's dissent, noting his protest that the statute should be renamed "SCOTUScare" in honor of the Court's willingness to "rewrite" it, and she characterized the Court's actions as pushing the Affordable Care Act "beyond its plausible meaning to save the statute," calling it "illegitimate for the Court to distort either the Constitution or a statute to achieve what it deems a preferable result."
+
+Source URL: https://capaction.medium.com/amy-coney-barrett-is-a-targeted-missile-at-the-affordable-care-act-and-protections-for-people-with-dd06c610e20
+
+### 7. In any of her written critiques of ACA-related Supreme Court decisions, did Justice Amy Coney Barrett argue that the Court's rulings were legally incorrect or represented a misinterpretation of the Constitution?
+Answer: Yes, in her written critiques, Amy Coney Barrett argued that the Supreme Court's rulings upholding the Affordable Care Act were legally incorrect and represented a misinterpretation. Specifically, she criticized the 2012 decision in *National Federation of Independent Business v. Sebelius*, stating that Chief Justice Roberts had "pushed the Affordable Care Act beyond its plausible meaning to save the statute." She also asserted that it is "illegitimate for the Court to distort either the Constitution or a statute to achieve what it deems a preferable result," indicating her view that the rulings were a misapplication of the law.
+
+Source URL: https://www.nbcnews.com/politics/supreme-court/trump-scotus-pick-amy-coney-barrett-s-past-critiques-obamacare-n1241191
+
+### 8. Is there a documented pattern in Justice Amy Coney Barrett's written works that consistently criticizes the constitutional or statutory foundations of the Affordable Care Act?
+Answer: Yes, there is a documented pattern in Justice Amy Coney Barrett's written works criticizing the Affordable Care Act's foundations. In a 2017 book review, she explicitly stated that Chief Justice Roberts in *NFIB v. Sebelius* "pushed the Affordable Care Act beyond its plausible meaning to save the statute," and argued it is "illegitimate for the Court to distort either the Constitution or a statute to achieve what it deems a preferable result." Furthermore, she signed a letter in 2012 describing the ACA's contraception mandate as a "grave violation of religious freedom."
+
+Source URL: https://capaction.medium.com/amy-coney-barrett-is-a-targeted-missile-at-the-affordable-care-act-and-protections-for-people-with-dd06c610e20
+
+### 9. Have legal scholars or non-partisan fact-checking organizations previously verified the existence of a critical written record from Amy Coney Barrett concerning the Supreme Court's ACA decisions?
+Answer: Yes, legal scholars have confirmed the existence of Amy Coney Barrett's critical written record concerning Supreme Court ACA decisions. The search result notes that in a 2017 Notre Dame Law School article, Barrett criticized the 2012 and 2015 rulings upholding the Affordable Care Act, writing that it was "illegitimate for the Court to distort either the Constitution or a statute to achieve what it deems a preferable result" and accusing Chief Justice John Roberts of having "pushed the Affordable Care Act beyond its plausible meaning to save the statute." Legal scholars cited in the article, such as Jonathan Adler and Nicholas Bagley, analyzed these writings and confirmed they indicate sympathy for prior challenges to the ACA.
+
+Source URL: https://www.nbcnews.com/politics/supreme-court/trump-scotus-pick-amy-coney-barrett-s-past-critiques-obamacare-n1241191
+
+### 10. Does the written record show that Justice Amy Coney Barrett's disagreement with the ACA decisions was based on judicial philosophy (e.g., originalism, textualism) and was articulated in formal legal writing?
+Answer: Yes, the written record indicates that Amy Coney Barrett's disagreement with the ACA decisions was based on textualism, as she articulated in a 2017 Notre Dame Law School article where she criticized the Court for "distort[ing] either the Constitution or a statute to achieve what it deems a preferable result," emphasizing a commitment to upholding text.
+
+Source URL: https://www.nbcnews.com/politics/supreme-court/trump-scotus-pick-amy-coney-barrett-s-past-critiques-obamacare-n1241191
+
+## Your Judgement
+```
+
+# Claim 281
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Americans advised to reconsider travel to Ghana due to COVID-19."
+
+## Initial Q&A
+
+### 1. Which U.S. government agency or department officially issued the travel advisory regarding Ghana that is referenced in the claim?
+Answer: The U.S. government agency that officially issued the travel advisory referenced in the claim is the **Department of State**.
+
+Source URL: https://web.archive.org/web/20210122073123/https://gh.usembassy.gov/travel-alert-092220/
+
+### 2. On what date was the travel advisory for Ghana issued or most recently updated?
+Answer: The travel advisory for Ghana was issued or most recently updated on **September 22, 2020**, as indicated by the source URL `travel-alert-092220`.
+
+Source URL: https://web.archive.org/web/20210122073123/https://gh.usembassy.gov/travel-alert-092220/
+
+### 3. What is the exact numerical level (e.g., Level 1, 2, 3, or 4) and corresponding description (e.g., "Exercise Increased Caution," "Reconsider Travel") of the U.S. travel advisory for Ghana?
+Answer: The U.S. travel advisory for Ghana is at **Level 3: Reconsider Travel**, as stated in the source: "Ghana Travel Advisory – Level 3 Reconsider Travel."
+
+Source URL: https://web.archive.org/web/20210122073123/https://gh.usembassy.gov/travel-alert-092220/
+
+### 4. What specific COVID-19-related reasons or conditions in Ghana are cited by the issuing authority to justify the travel advisory level?
+Answer: The search result does not specify any particular COVID-19-related reasons or conditions in Ghana (such as case rates, healthcare capacity, or community transmission levels) that are cited by the U.S. Department of State to justify the advisory level; it only lists the country's current entry requirements and public health rules.
+
+Source URL: https://www.ghanaconsulatear.org/travel-advisories/
+
+### 5. Does the advisory specify any regions within Ghana where the risk is particularly elevated, or does it apply to the entire country?
+Answer: The advisory applies a Level 3 "Reconsider Travel" notice for Ghana as a whole due to COVID-19, without specifying particular regions for elevated pandemic risk. However, it separately lists specific regions (such as the Upper East, Upper West, Bono East, Bono, Savannah, Northern, and North East) where travelers should exercise increased caution due to crime or civil unrest, which are distinct from the COVID-19 risk.
+
+Source URL: https://web.archive.org/web/20210122073123/https://gh.usembassy.gov/travel-alert-092220/
+
+### 6. Are there any U.S. government resources, such as a dedicated webpage or press release, that archive and detail this specific advisory?
+Answer: Yes, the U.S. government's resources include a dedicated webpage on the U.S. Embassy in Ghana's site, which archives the specific advisory. The page, titled "Ghana Travel Advisory – Level 3 Reconsider Travel," details the advisory and references the CDC's Level 3 Travel Health Notice, instructing travelers to "Read the Department of State’s COVID-19 page" and "Visit the Embassy’s COVID-19 page for more information on COVID-19 in Ghana."
+
+Source URL: https://web.archive.org/web/20210122073123/https://gh.usembassy.gov/travel-alert-092220/
+
+### 7. Does the advisory include any specific guidance or restrictions for U.S. citizens who must travel to Ghana during this period?
+Answer: Yes, the advisory includes specific guidance: travelers must present a negative COVID-19 PCR test taken within 48 to 72 hours before departure, undergo testing upon arrival, and wear masks in public, with non-compliance resulting in fines or imprisonment.
+
+Source URL: https://www.ghanaconsulatear.org/travel-advisories/
+
+### 8. Have other major international health or travel authorities (e.g., the World Health Organization, the UK Foreign Office) issued similar advisories for Ghana during the same timeframe?
+Answer: Yes, the UK Foreign, Commonwealth & Development Office (FCDO) issued similar travel advice for Ghana, as the source states travelers should "check the latest government guidance on the FCDO Foreign travel advice and country specific pages for travel to this country" regarding COVID-19.
+
+Source URL: https://www.fitfortravel.nhs.uk/destinations/africa/ghana
+
+### 9. At the time of the advisory, what were Ghana's reported COVID-19 case rates, vaccination rates, or healthcare capacity statistics, as cited by U.S. or international sources?
+Answer: At the time of the advisory (as of July 23, 2020, cited in the source), Ghana had reported 32,969 confirmed COVID-19 cases and 168 deaths. The source notes Ghana had "one of the highest testing rates when compared to other African countries," with 294,867 tests conducted as of June 27, and was using 7,791 health facilities and 18 intensive care units (ICUs) for its COVID-19 response. Vaccination rates are not mentioned in this excerpt.
+
+Source URL: https://www.brookings.edu/articles/how-well-is-ghana-with-one-of-the-best-testing-capacities-in-africa-responding-to-covid-19/
+
+### 10. Is there evidence that this advisory led to any formal actions, such as changes in airline schedules, visa processing, or embassy services in Ghana?
+Answer: Yes, the search result provides evidence of a formal action: visa processing services for Ghana were temporarily suspended due to COVID-19, as indicated by the statement "Passports and Visas service is temporarily suspended. Due to COVID-19 and the health of our employees, we will not be accepting new applicants at this time." However, the source does not contain specific information about changes in airline schedules or broader embassy services.
+
+Source URL: https://www.passporthealthusa.com/passports-and-visas/visas/ghana-visa/
+
+## Your Judgement
+```
+
+# Claim 330
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Ventura County election officials are reducing voting locations in order to limit in-person voter turnout."
+
+## Initial Q&A
+
+### Did the official election authority for Ventura County, California, announce or implement a plan to reduce the number of physical voting locations for a recent or upcoming election?
+Answer: Yes, Ventura County officials significantly reduced the number of physical polling places for the November 2020 election compared to the March primary, implementing a new voting center model. The source states, "In March, the county had 389 polling places set up throughout the county that were open for one day. In November, though, there will be 47 in-person locations that will be open for four days." However, this was part of a shift toward voting centers and was justified due to the COVID-19 pandemic and the anticipated large mail-in vote, not as an explicit effort to limit in-person turnout.
+
+Source URL: https://www.mpacorn.com/articles/mail-in-voter-fraud-the-faulty-premise-behind-the-claim/
+
+### What was the total number of in-person voting locations in Ventura County for the most recent comparable election prior to the claimed reduction?
+Answer: For the most recent comparable election prior to the claimed reduction, Ventura County had 389 in-person polling places, as cited from the search result: "In March, the county had 389 polling places set up throughout the county that were open for one day."
+
+Source URL: https://www.mpacorn.com/articles/mail-in-voter-fraud-the-faulty-premise-behind-the-claim/
+
+### What is the total number of in-person voting locations designated or planned by Ventura County officials for the election in question?
+Answer: According to the search result, Ventura County officials designated 47 in-person voting locations for the November election in question.
+
+Source URL: https://www.mpacorn.com/articles/mail-in-voter-fraud-the-faulty-premise-behind-the-claim/
+
+### What specific reasons, if any, have Ventura County election officials publicly given for changing the number or configuration of voting locations?
+Answer: Ventura County election officials have publicly stated that the change from 389 single-day polling places to 47 four-day voting centers was made primarily for COVID-19 safety, as large-scale in-person voting poses a risk due to high-touch surfaces and a lack of social distancing, and to align with the state's effort to encourage voting by mail. The new model is also presented as offering greater flexibility, as voters are no longer assigned to a specific location based on their home address. As public information officer Miranda Nobriga explained, "There will be in-person locations but we are trying to stress to folks that those are for those who need that option."
+
+Source URL: https://www.mpacorn.com/articles/mail-in-voter-fraud-the-faulty-premise-behind-the-claim/
+
+### Is there any official documentation, internal communication, or public statement from Ventura County election officials explicitly stating that the reduction in voting locations is intended to limit in-person voter turnout?
+Answer: Based on the search result, there is no official statement from Ventura County election officials explicitly stating that the reduction in voting locations is intended to limit in-person voter turnout. Rather, officials framed the changes as a response to the COVID-19 pandemic and a shift toward mail-in voting. Public information officer Miranda Nobriga explained that "we are trying to stress to folks that those are for those who need that option," referring to in-person locations as an accommodation for those unable to vote by mail. The reduction from 389 polling places to 47 in-person locations was presented as part of a broader move to encourage vote-by-mail for public health reasons, with officials noting that more than 60% of registered voters had already been voting by mail in prior elections. There is no evidence in this source of any explicit intent to suppress in-person voter turnout.
+
+Source URL: https://www.mpacorn.com/articles/mail-in-voter-fraud-the-faulty-premise-behind-the-claim/
+
+### Have Ventura County officials expanded alternative voting methods, such as vote-by-mail ballot drop boxes or extended early voting hours, alongside any change in the number of traditional polling places?
+Answer: Yes, alongside a reduction in traditional polling places from 389 to 47, Ventura County officials expanded alternative voting methods by adding 30 ballot drop boxes and extending early voting hours over four days from October 31 to November 3, with officials explicitly encouraging vote-by-mail due to COVID-19 concerns. As the source notes, "Those who prefer to hand-deliver their vote-by-mail ballots can drop them off at one of the county’s 47 polling places or at one of the county’s 30 ballot boxes," and in-person locations were open from 10 a.m. to 6 p.m. on October 31 to November 2, plus 7 a.m. to 8 p.m. on Election Day.
+
+Source URL: https://www.mpacorn.com/articles/mail-in-voter-fraud-the-faulty-premise-behind-the-claim/
+
+### Is the change in the number of voting locations in Ventura County part of a mandated or recommended statewide or national shift in election administration models?
+Answer: Yes, the reduction in traditional voting locations in Ventura County aligns with the state-mandated California Voter's Choice Act (VCA) model, which modernizes elections by consolidating precincts into countywide vote centers; Ventura County is listed as one of the 29 California counties adopting this model by 2024.
+
+Source URL: https://www.sos.ca.gov/voters-choice-act
+
+## Your Judgement
+```
+
+# Claim 346
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "US state of Georgia has “almost 100,000 more COVID-19 cases, almost twice as many deaths and almost 600 more nursing home deaths than North Carolina, US."
+
+## Initial Q&A
+
+### What was the cumulative number of confirmed COVID-19 cases in the state of Georgia as of the date referenced in the claim?
+Answer: As of May 20, 2020, Georgia had 39,801 confirmed COVID-19 cases.
+
+Source URL: https://www.savannahnow.com/story/news/coronavirus/2020/05/20/georgia-covid-19-cases-rise-by-946-since-tuesday-to-total-39801/1173036007/
+
+### What was the cumulative number of confirmed COVID-19 cases in the state of North Carolina as of the date referenced in the claim?
+Answer: As of May 23, 2020, North Carolina had reported at least 22,725 confirmed COVID-19 cases.
+
+Source URL: https://www.npr.org/sections/coronavirus-live-updates/2020/05/23/861561659/north-carolina-reports-highest-one-day-spike-of-covid-19-cases
+
+### What was the cumulative number of COVID-19-related deaths in the state of Georgia as of the date referenced in the claim?
+Answer: As of May 20, 2020, the cumulative number of COVID-19-related deaths in Georgia was 1,697.
+
+Source URL: https://www.savannahnow.com/story/news/coronavirus/2020/05/20/georgia-covid-19-cases-rise-by-946-since-tuesday-to-total-39801/1173036007/
+
+### What was the cumulative number of COVID-19-related deaths in the state of North Carolina as of the date referenced in the claim?
+Answer: Based on the search result from April 1, 2020, North Carolina had a cumulative total of 10 COVID-19-related deaths, as stated: "10 people, total in North Carolina have died of COVID-19."
+
+Source URL: https://www.northcarolinahealthnews.org/2020/04/01/coronavirus-today-april-1/
+
+### What was the cumulative number of COVID-19-related nursing home deaths in the state of Georgia as of the date referenced in the claim?
+Answer: As of the date referenced in the claim, the cumulative number of COVID-19-related nursing home deaths in Georgia was more than 2,000, as stated in the source: "As more than 2,000 Georgians have now died from COVID-19 inside nursing homes, assisted living facilities and personal care homes."
+
+Source URL: https://www.georgiahealthnews.com/2020/08/nursing-home-chain-suffers-big-toll-covid/
+
+### What was the cumulative number of COVID-19-related nursing home deaths in the state of North Carolina as of the date referenced in the claim?
+Answer: The search result does not provide the exact cumulative number of COVID-19-related nursing home deaths in North Carolina, as it groups nursing homes with other "congregate living settings" such as prisons and residential care facilities, reporting only that there were "more than 150 deaths" across all such settings.
+
+Source URL: https://carolinapublicpress.org/30369/dhhs-reverses-stance-on-identifying-nursing-homes-with-outbreaks/
+
+### What is the specific date or time period on which this comparison between Georgia and North Carolina COVID-19 statistics is based?
+Answer: The search result does not specify an exact date for the comparison, but the context indicates it was made around the time the article was published on April 27, 2020, based on contemporary COVID-19 statistics.
+
+Source URL: https://www.wbtv.com/2020/04/27/nc-health-officials-identify-locations-nursing-home-outbreaks-reversing-stance-patient-privacy/
+
+### When this claim states "almost 100,000 more COVID-19 cases," does the actual difference between Georgia's and North Carolina's case counts approximate 100,000?
+Answer: The search result does not contain any information comparing COVID-19 case counts between Georgia and North Carolina, so it cannot be used to verify whether the difference approximates 100,000 cases.
+
+Source URL: https://www.msm.edu/RSSFeedArticles/2020/May/documents/County-Level-Proportion-of-AA-Case-Rate-of-COVID19.pdf
+
+## Your Judgement
+```
+
+# Claim 391
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Schools have resumed in New Brunswick, Canada despite the COVID-19 pandemic"
+
+## Initial Q&A
+
+### 1. What was the specific date or timeframe when schools in New Brunswick, Canada, resumed in-person operations?
+Answer: Based on the search result, the New Brunswick government announced in late April 2020 that schools would not reopen until September at the earliest.
+
+Source URL: https://huddle.today/2020/04/28/7-reasons-why-new-brunswick-schools-should-re-open-on-may-4/
+
+### 2. Did the government of New Brunswick or the provincial Department of Education officially announce and authorize the reopening of schools during the COVID-19 pandemic?
+Answer: Yes, the government of New Brunswick officially announced plans for schools to resume. According to the article, **Education Minister Dominic Cardy** stated that "school will resume in September" and announced that teachers would gradually return to school between June 1 and June 5 to finish school work and begin planning for the fall. While the exact format of September classes remained undetermined—Cardy noted "We don't know whether classes will be back or online because we don't decide what happens to the coronavirus"—the provincial government did authorize and plan for the reopening of schools during the pandemic.
+
+Source URL: https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-schools-1.5575660
+
+### 3. Which levels of school (e.g., elementary, secondary, post-secondary) were included in the reopening of schools in New Brunswick, Canada?
+Answer: The search result mentions secondary schools specifically, citing examples like Leo Hayes High School and Fredericton High School, and broadly refers to the anglophone education system in the context of teacher return and fall planning. However, the article does not explicitly detail whether elementary schools or post-secondary institutions were part of the reopening plans discussed.
+
+Source URL: https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-schools-1.5575660
+
+### 5. Were there any specific health and safety protocols mandated for schools in New Brunswick, Canada, upon their reopening during the pandemic?
+Answer: Yes, specific health and safety protocols included requiring students to bring a clean face mask daily, maintaining physical distancing, reducing class sizes, increasing daily cleaning especially in common areas, replacing water fountains with bottle filling stations, and initially suspending cafeteria services.
+
+Source URL: https://atlantic.ctvnews.ca/n-b-teachers-generally-approve-of-province-s-back-to-school-plan-1.5066662?cache=yes%3Fclipid%3D64268%3FautoPlay%3Dtrue%3FclipId%3D104070
+
+### 6. Prior to the reopening, for what period were schools in New Brunswick, Canada, closed due to the COVID-19 pandemic?
+Answer: According to the search result, schools in New Brunswick were initially closed for **two weeks** due to the COVID-19 pandemic, with the closure effective Monday, March 16, 2020. The article notes that "the closure could be extended beyond two weeks," and that it would "be reassessed on an ongoing basis."
+
+Source URL: https://www.cbc.ca/news/canada/new-brunswick/covid-19-new-brunswick-coronavirus-1.5496547
+
+### 7. What was the stated rationale provided by New Brunswick authorities for deciding to resume in-person schooling despite the COVID-19 pandemic?
+Answer: According to Education Minister Dominic Cardy, the rationale for having teachers return in June and planning for a September resumption was to ensure preparedness for a potential resurgence of the virus. As he stated, "We have to be ready in case the virus comes back, and we can't afford any more disruptions to students' learning." The return was also meant to allow teachers to familiarize themselves with new safety protocols, finalize administrative work, address challenges of remote teaching, and prepare for the 2020–2021 school year so that when September arrived, the protocols and adjustments would not be new to them.
+
+Source URL: https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-schools-1.5575660
+
+### 9. Was the decision to reopen schools in New Brunswick, Canada, met with support or opposition from public health officials or teacher unions?
+Answer: The decision to reopen schools in New Brunswick was met with support from the teacher union, as the president of the New Brunswick Teachers' Association, Rick Cuming, stated that "the return to school plan for New Brunswick appears to be better than the return to school plan for many of our neighbours" and noted the "regular involvement of public health in all aspects of the plan" as encouraging.
+
+Source URL: https://atlantic.ctvnews.ca/n-b-teachers-generally-approve-of-province-s-back-to-school-plan-1.5066662?cache=yes%3Fclipid%3D64268%3FautoPlay%3Dtrue%3FclipId%3D104070
+
+### 10. How did the timing of school reopenings in New Brunswick compare to other Canadian provinces during the COVID-19 pandemic?
+Answer: Based on the provided search result, it does not contain information comparing New Brunswick's school reopening timeline to other Canadian provinces, stating only that New Brunswick planned for a September resumption.
+
+Source URL: https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-schools-1.5575660
+
+## Your Judgement
+```
+
+# Claim 422
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Viral message claims that all Haldiram’s food products were banned in USA"
+
+## Initial Q&A
+
+### Is there a verifiable online message claiming that all Haldiram’s food products are banned in the USA, and what was its primary platform of dissemination?
+Answer: Yes, based on the fact-check report, there is a verifiable online message claiming that all Haldiram’s food products are banned in the USA, as indicated by the source title "Fact Check: Viral message that all Haldiram's food products were banned in USA is FALSE"; however, the primary platform of dissemination is not specified in the provided excerpt.
+
+Source URL: https://newsmeter.in/fact-check-viral-message-that-all-haldirams-food-products-were-banned-in-usa-is-false/
+
+### Has the United States Food and Drug Administration (FDA) issued a public alert, import ban, or refusal of admission specifically targeting all food products from the brand Haldiram's?
+Answer: Based on the provided search result, there is insufficient information to determine whether the U.S. FDA issued a ban specifically targeting *all* Haldiram's products. The source mentions that "the company’s products were banned in America" due to salmonella and high lead content in "ready to eat packets," but it does not specify if this was a blanket ban on every item from the brand or a targeted action against specific products.
+
+Source URL: https://www.medindia.net/news/haldiram-products-safe-for-consumption-food-and-drug-administration-of-maharashtra-151841-1.htm
+
+### Has the U.S. Customs and Border Protection (CBP) or any other federal U.S. agency enacted a blanket prohibition on the importation of Haldiram's branded goods?
+Answer: Based on the provided search result, there is no evidence of a blanket federal prohibition on all Haldiram's products; instead, the U.S. FDA has refused entry to specific shipments of certain Haldiram's products due to findings of pesticides, mold, and salmonella, as reported by sources like Firstpost.
+
+Source URL: https://steemit.com/life/@sankalptamore/indian-haldiram-products-banned-by-usfda
+
+### Does any current U.S. law, regulation, or executive order name "Haldiram's" or its parent companies as a completely banned entity for food importation?
+Answer: The search result does not provide specific details about U.S. laws or regulations naming Haldiram's, but the fact-check from NewsMeter concludes that the viral message claiming "all Haldiram's food products were banned in USA is **FALSE**." This indicates that there is no blanket ban on Haldiram's as a completely banned entity for food importation in the United States. While certain individual Haldiram's products may have faced FDA refusals or import alerts for specific compliance issues (such as pesticide residues or labeling), this does not equate to a total ban on the company or all its products under any U.S. law, regulation, or executive order.
+
+Source URL: https://newsmeter.in/fact-check-viral-message-that-all-haldirams-food-products-were-banned-in-usa-is-false/
+
+### Have any specific Haldiram's products been subject to an FDA import alert, and if so, what was the stated reason (e.g., potential contamination, mislabeling, undeclared allergens)?
+Answer: Yes, according to the cited source, Haldiram's products have been subject to a ban by the U.S. FDA, with the stated reason being "the presence of high levels of pesticides, mold and the bacteria salmonella." The source claims this led to all Haldiram snacks being considered unsafe and rejected.
+
+Source URL: https://steemit.com/life/@sankalptamore/indian-haldiram-products-banned-by-usfda
+
+### What was Haldiram's official corporate response, if any, to the viral claim about a complete U.S. ban on its products?
+Answer: Haldiram's official corporate response was to dismiss all charges and assert that their food is completely safe and complies with local laws, with a senior official stating, "Our food is 100% safe and complies with the law of the land."
+
+Source URL: https://www.scoopwhoop.com/news/after-maggi-haldiram/
+
+### As of the current date, are Haldiram's packaged snacks (e.g., namkeen, sweets, chips) available for sale in major U.S. retail chains or online marketplaces like Amazon.com?
+Answer: Yes, Haldiram's packaged snacks are available for sale in the United States through Amazon. The source confirms a deal between Amazon and Haldiram, stating, "Haldiram delicacies will now be available in the US and can be purchased from the e-tailer platform." Products mentioned include bhujia, gulab jamun, and soan papdi.
+
+Source URL: https://www.financialexpress.com/business/industry-jeff-bezos-brings-haldiram-to-us-customers-now-buy-bhujia-in-america-thanks-to-amazon-1755825/
+
+### Has there been a documented recall of Haldiram's products from the U.S. market that is distinct from a permanent import ban?
+Answer: Based on the search result, there is no mention of a recall of Haldiram's products from the U.S. market; instead, the documented action was a repeated refusal of entry. The U.S. FDA's actions involved blocking imports at the border, with the text stating Haldiram's products "have been refused for import 86 times" due to detected pesticides and harmful bacteria, which constitutes an import ban rather than a recall of products already sold.
+
+Source URL: https://www.scoopwhoop.com/news/after-maggi-haldiram/
+
+### Are there any archived versions of the viral message that can be reviewed to check for date stamps or specific references to regulatory actions?
+Answer: Yes, the search result contains a Steemit post that directly quotes and links to a Firstpost article, which serves as an archived version of the viral message. The post itself references a specific regulatory action: "U.S. FDA has banned all the Haldiram snacks due to the presence of high levels of pesticides, mold and the bacteria salmonella." While the Steemit post's own date is not visible in the excerpt, the linked Firstpost article (firstpost.com/world/india-made-food-products-face-usfda-heat-haldirams-top-list-of-rejected-items-2297850.html) would provide a date stamp and further details for verification.
+
+Source URL: https://steemit.com/life/@sankalptamore/indian-haldiram-products-banned-by-usfda
+
+### Have any U.S. federal agencies or Indian government export promotion councils (e.g., FIEO) issued statements clarifying the regulatory status of Haldiram's food exports to the USA?
+Answer: The search result from Newsmeter.in fact-checks the viral claim and concludes it is **FALSE**, stating that "All Haldiram’s food products were banned in USA" is not true. While the article does not explicitly quote statements from U.S. federal agencies or the FIEO, it serves as a definitive third-party verification against the claim.
+
+Source URL: https://newsmeter.in/fact-check-viral-message-that-all-haldirams-food-products-were-banned-in-usa-is-false/
+
+## Your Judgement
+```
+
+# Claim 430
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "US President Trump opened a complaint platform to report censorship on Facebook, Twitter and YouTube."
+
+## Initial Q&A
+
+### 1. Did the Trump administration, while Donald Trump was serving as US President, create or launch an online complaint platform or tool for members of the public to report perceived social media censorship?
+Answer: Yes, the Trump White House did launch an online complaint platform during his presidency. According to Ars Technica, on Wednesday (in May 2019), "his White House launched a new online form that allows members of the public to report political bias in their content moderation decisions." The form asked users to share their name, demographic information, and details about content that was censored, and it singled out Facebook, Instagram, Twitter, and YouTube by name. Respondents were urged: "if you suspect political bias caused such an action to be taken against you, share your story with President Trump."
+
+Source URL: https://arstechnica.com/tech-policy/2019/05/white-house-unveils-new-tool-to-report-censorship-by-social-media-giants/
+
+### 2. Was the complaint platform an official initiative hosted on a US government website (such as whitehouse.gov), or was it operated by a private entity?
+Answer: The complaint platform was an official White House initiative hosted on a US government website, as the search result states that "his White House launched a new online form" to report political bias.
+
+Source URL: https://arstechnica.com/tech-policy/2019/05/white-house-unveils-new-tool-to-report-censorship-by-social-media-giants/
+
+### 3. During which specific date or time period was the complaint platform first made available to the public?
+Answer: The complaint platform was first made available on **May 15, 2019 (Wednesday)**. As the CNN article states, "The White House on Wednesday launched a tool for people to report instances of perceived social media bias," with the article itself being dated May 15, 2019.
+
+Source URL: https://www.cnn.com/2019/05/15/tech/white-house-social-media-bias-tool/index.html
+
+### 4. Did the platform explicitly mention Facebook, Twitter, and YouTube as the social media platforms on which users could report censorship?
+Answer: Yes, the platform explicitly listed Facebook, Twitter, and YouTube as selectable options, as the source states: "The user is also asked to choose between Facebook, Twitter, Instagram, Youtube or 'other' as the platform where the offense took place."
+
+Source URL: https://www.theverge.com/2019/5/15/18626785/white-house-trump-censorsip-tool-twitter-instagram-facebook-conservative-bias-social-media
+
+### 5. Did the platform also allow users to report censorship on social media platforms beyond Facebook, Twitter, and YouTube?
+Answer: Yes, the platform allowed users to report censorship on other social media platforms, as the form included an option to select "other" and specify a different platform. As reported, "Users can also choose 'other' and type in another platform."
+
+Source URL: https://arstechnica.com/tech-policy/2019/05/white-house-unveils-new-tool-to-report-censorship-by-social-media-giants/
+
+### 6. What specific types of complaints could users submit through the platform—e.g., content removal, account suspension, algorithmic suppression, or other forms of moderation?
+Answer: Users could submit complaints specifically about having their accounts "suspended, banned, or fraudulently reported" on social media platforms, as well as details about "content that was censored," indicating complaints about content removal or moderation actions.
+
+Source URL: https://arstechnica.com/tech-policy/2019/05/white-house-unveils-new-tool-to-report-censorship-by-social-media-giants/
+
+### 7. Who was the intended audience for the platform—was it open to all US residents, all internet users worldwide, or a specific demographic?
+Answer: The search result does not specify the intended audience for the complaint platform, only that the White House's online tool received "over 15,000 complaints around social media bias."
+
+Source URL: https://afrotech.com/the-president-is-going-after-social-media-companies-again
+
+### 8. Did the Trump administration publicly announce the launch of this complaint platform through an official statement, press conference, or social media post by President Trump?
+Answer: The search result confirms that the White House officially launched the tool, stating: "On Wednesday, his White House launched a new online form that allows members of the public to report political bias in their content moderation decisions." The form itself invites users to "share your story with President Trump." However, the article does not explicitly describe the specific announcement mechanism—whether through a formal press conference, an official White House statement, or a personal social media post by President Trump himself—only that the White House unveiled the tool publicly.
+
+Source URL: https://arstechnica.com/tech-policy/2019/05/white-house-unveils-new-tool-to-report-censorship-by-social-media-giants/
+
+### 9. Were the results or data collected through the complaint platform ever used to inform policy decisions, executive orders, or legislative proposals related to social media regulation?
+Answer: The search result does not contain any information about the collected data from the complaint platform being used to inform policy decisions, executive orders, or legislative proposals. The article describes the platform's launch and its immediate political context but does not report on any subsequent analysis or policy actions resulting from it.
+
+Source URL: https://arstechnica.com/tech-policy/2019/05/white-house-unveils-new-tool-to-report-censorship-by-social-media-giants/
+
+### 10. How long did the complaint platform remain operational, and is it still active, or was it discontinued—either before or after the end of Donald Trump's presidency?
+Answer: The social media complaint platform launched in May 2019 and remained operational until it was taken down after Joe Biden's inauguration in January 2021.
+
+Source URL: https://www.vox.com/recode/2019/5/17/18629426/trump-social-media-bias-complaint-form-facebook
+
+## Your Judgement
+```
+
+# Claim 449
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Some US mayors are fining people for going to church during the COVID-19 pandemic."
+
+## Initial Q&A
+
+### 1. Which specific mayors or city officials in the United States are documented to have initiated or authorized fines for individuals attending in-person church services during the COVID-19 pandemic?
+Answer: Mayor Lori Lightfoot of Chicago is documented to have authorized fines for individuals attending in-person church services during the COVID-19 pandemic. Her administration, through the Chicago Police Department and city officials, issued $500 fines to three churches—Elim Romanian Pentecostal Church, Philadelphia Romanian Church of God, and Metro Praise International—for violating social distancing rules. Lightfoot stated, "Lightfoot said the issue is 'about how do we come together in our various faith traditions during this very difficult time.'"
+
+Source URL: https://web.archive.org/web/20210624060531/https://www.chicagotribune.com/coronavirus/ct-coronavirus-chicago-churches-fines-lightfoot-willie-wilson-20200521-y4mcdqlydjehdkzjbeh7rmhc4e-story.html
+
+### 2. In which specific cities or jurisdictions did officials issue fines to people for attending church during the COVID-19 pandemic?
+Answer: Officials issued fines to people for attending church in **Chicago, Illinois**. Specifically, the search result states that "Philadelphia Romanian Church of God in Uptown, Elim Romanian Pentecostal Church in Albany Park and Metro Praise International Church in Belmont Cragin were hit with $500 fines" for violating the stay-at-home order.
+
+Source URL: https://chicago.suntimes.com/coronavirus/2020/5/20/21265832/willie-wilson-pay-fines-chicago-churches-held-services-stay-at-home-pritzker-coronavirus
+
+### 3. What was the stated legal or public health authority (e.g., emergency order, ordinance) used by these US mayors to justify fining individuals for attending church services?
+Answer: The stated authority was the "emergency orders issued by state officials" to prevent the spread of the coronavirus, which were enforced through misdemeanor violations and health orders like self-quarantine.
+
+Source URL: https://abcnews.go.com/US/kentucky-governor-warns-worshipers-congregate-easter-weekend/story?id=70101091
+
+### 4. What were the monetary amounts of the fines issued to individuals for attending church during the COVID-19 pandemic in the documented cases?
+Answer: The documented fines issued to three Chicago churches for violating stay-at-home orders by holding in-person services were $500 per church. As stated in the source, "Philadelphia Romanian Church of God in Uptown, Elim Romanian Pentecostal Church in Albany Park and Metro Praise International Church in Belmont Cragin were criticized and fined by authorities...". The fines were paid by Willie Wilson on behalf of the churches.
+
+Source URL: https://chicago.suntimes.com/coronavirus/2020/5/20/21265832/willie-wilson-pay-fines-chicago-churches-held-services-stay-at-home-pritzker-coronavirus
+
+### 5. During what specific period (month and year) of the COVID-19 pandemic were these fines for church attendance issued in the documented cases?
+Answer: The fines for church attendance in the documented cases were issued in **May 2020**. The article, dated May 20, 2020, reports that three Chicago churches were fined $500 each for holding services on Sunday (May 17, 2020) in violation of Governor Pritzker's stay-at-home order, which limited gatherings to no more than 10 people.
+
+Source URL: https://chicago.suntimes.com/coronavirus/2020/5/20/21265832/willie-wilson-pay-fines-chicago-churches-held-services-stay-at-home-pritzker-coronavirus
+
+### 6. Were the fines issued specifically for attending religious services, or were they for violating broader public health orders that restricted all mass gatherings, including religious ones?
+Answer: The fines were issued for violating the broader stay-at-home order, which limited gatherings to more than 10 people, not specifically for attending religious services. As the article states, the churches were "criticized and fined by authorities for allowing more than 10 people — the current limit set by Gov. J.B. Pritzker — to attend services," indicating the violation was of a general public health measure restricting mass gatherings.
+
+Source URL: https://chicago.suntimes.com/coronavirus/2020/5/20/21265832/willie-wilson-pay-fines-chicago-churches-held-services-stay-at-home-pritzker-coronavirus
+
+### 7. How many individuals or churches were actually issued fines for in-person attendance during the documented period?
+Answer: Three churches were actually issued fines for in-person attendance: "Philadelphia Romanian Church of God, Elim Romanian Pentecostal Church and Metro Praise International Church were hit with $500 fines."
+
+Source URL: https://chicago.suntimes.com/coronavirus/2020/5/20/21265832/willie-wilson-pay-fines-chicago-churches-held-services-stay-at-home-pritzker-coronavirus
+
+### 8. Were these fines for attending church ever legally challenged, and if so, what were the outcomes of those legal challenges?
+Answer: Yes, these fines were legally challenged. In Mississippi, the Baptist Temple Church filed a federal lawsuit after worshippers were fined $500 each for attending a drive-in church service while sitting in their cars with windows rolled up. The Department of Justice filed a "statement of interest" supporting the worshippers, arguing that "the government is not permitted to 'impose special restrictions on religious activity that do not also apply to similar nonreligious activity'" and that "even in times of emergency, when reasonable and temporary restrictions are placed on rights, the First Amendment and federal statutory law prohibit discrimination against religious institutions and religious believers." However, the search result does not provide information on the final outcome or resolution of the lawsuit.
+
+Source URL: https://www.thedailybeast.com/justice-department-defends-worshippers-in-mississippi-fined-for-attending-drive-in-church-service
+
+### 9. Did the policies of these mayors apply identical restrictions and penalties to non-religious gatherings of similar size (e.g., concerts, conferences, protests)?
+Answer: No, the policies did not apply identical restrictions; in the cited Greenville, Mississippi case, Attorney General William Barr argued that the city had unfairly "singled churches out as the only essential service...that may not operate" while "permitting citizens to attend nearby drive-in restaurants," suggesting the penalties for religious gatherings were not equivalent to those for similar non-religious activities.
+
+Source URL: https://www.salon.com/2020/04/15/william-barr-intervenes-after-mississippi-mayor-restricts-easter-church-service-due-to-coronavirus/
+
+### 10. What was the public or community response, including from religious groups, to the specific mayoral actions that resulted in fines for church attendance?
+Answer: The community response to Mayor Lori Lightfoot's fining of churches in Chicago was notably defiant. Gospel singer and businessman Willie Wilson publicly offered to pay the $500 fines issued to the three churches, releasing a statement declaring that "the governor and mayor continue to trample on our constitutional rights while hiding behind a stay-at-home order that treats the church as non-essential." Wilson also spoke at Philadelphia Romanian Church of God over the weekend, telling congregants to practice social distancing but adding, "don't ever put the law before God." Meanwhile, Metro Praise International Church had opened its doors for in-person services as an act the church described as "passive resistance" to the governor's stay-at-home order, and on the following Sunday, hundreds of people defied the order to attend church anyway. The backlash reflected a broader tension between religious liberty advocates and public health measures during the pandemic.
+
+Source URL: https://web.archive.org/web/20210624060531/https://www.chicagotribune.com/coronavirus/ct-coronavirus-chicago-churches-fines-lightfoot-willie-wilson-20200521-y4mcdqlydjehdkzjbeh7rmhc4e-story.html
+
+## Your Judgement
+```
+
+# Claim 463
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "558 people were killed by the police in 2018, while 201 people died in police custody"
+
+## Initial Q&A
+
+### Is the statistic of 558 people killed by police in the year 2018 supported by official government records or a reputable independent database for a specific country?
+Answer: The search result does not support the statistic of 558 people killed by police in 2018; it reports that according to The Washington Post's database, police fatally shot 998 people nationwide in 2018, a figure nearly double the one in the claim.
+
+Source URL: https://archive.investigativereportingworkshop.org/investigation/police-shot-killed-nearly-1000-in-2018/
+
+### Is the statistic of 201 people who died in police custody in the year 2018 supported by official government records or a reputable independent database for a specific country?
+Answer: The statistic of 201 deaths in police custody in 2018 is not supported by this reputable independent source for England and Wales; INQUEST's data shows only **20 deaths in police custody** in England and Wales for the year 2018.
+
+Source URL: https://www.inquest.org.uk/deaths-in-police-custody
+
+### Do the cited statistics for 2018 refer specifically to the United States of America?
+Answer: While the search result is entirely focused on the United States—referencing U.S. cities, U.S. population demographics, and U.S.-based data sources like Mapping Police Violence and the Washington Post—it does not contain the specific statistics cited in the claim (558 people killed by police and 201 deaths in police custody in 2018). In fact, the article cites a different figure of 1,165 police killings in 2018. Therefore, this source does not directly confirm that the 558 and 201 figures refer to the United States, though the broader context of police killing statistics discussed is clearly U.S.-based.
+
+Source URL: https://www.theroot.com/here-s-how-many-people-police-killed-in-2018-1831469528
+
+### According to the data source for the 558 figure, what precise definition of "killed by police" was used?
+Answer: According to the search result, the Arrest-Related Deaths (ARD) program operated by the Bureau of Justice Statistics (BJS) defined deaths "killed by police" as "all deaths that result from any use of force by law enforcement officers, regardless of whether the officer intended the use of force to be lethal."
+
+Source URL: https://bjs.ojp.gov/topics/law-enforcement/use-of-force
+
+### According to the data source for the 201 figure, what precise definition of "died in police custody" was used?
+Answer: According to INQUEST, the data source for these figures, "police custody deaths" are defined as "deaths that take place while the individual is in contact with police, whether or not they have been arrested, or that happen shortly after that contact. The death may not necessarily have occurred inside a police station," and they explicitly exclude self-inflicted deaths following contact and deaths resulting from domestic violence involving police.
+
+Source URL: https://www.inquest.org.uk/deaths-in-police-custody
+
+### Are the figures of 558 and 201 for the same jurisdiction and based on compatible counting methodologies?
+Answer: The search result does not contain sufficient information to determine whether the figures of 558 and 201 are for the same jurisdiction or based on compatible counting methodologies, as it focuses only on "police related shooting deaths" from the Washington Post database and does not address deaths in police custody.
+
+Source URL: https://tallahasseereports.com/2020/06/21/by-the-numbers-police-related-shooting-deaths-in-the-united-states/
+
+### Do other credible, independent sources report a substantially different number for people killed by police in 2018 in the same jurisdiction?
+Answer: Yes, a credible source reports substantially higher numbers than the claim. According to The Root, which cites Mapping Police Violence and the Washington Post, "More Americans died last year from police shootings (986) than mass shootings (84)," and the article later states there were "1,165 police killings in 2018," which is more than double the 558 figure in the claim.
+
+Source URL: https://www.theroot.com/here-s-how-many-people-police-killed-in-2018-1831469528
+
+### Do other credible, independent sources report a substantially different number for people who died in police custody in 2018 in the same jurisdiction?
+Answer: The INQUEST source, a credible independent organization monitoring deaths in police contact in England & Wales, reports a substantially lower figure: **20 deaths in police custody in 2018** (4 in the Metropolitan Police area and 16 in other forces). This is dramatically different from the claim's figure of 201. However, this comparison comes with an important caveat: INQUEST covers England & Wales specifically, and the claim's figures (558 people killed by police, 201 in custody) appear more consistent with U.S. data. If the claim pertains to the U.S., then the INQUEST data is for a different jurisdiction. If the claim pertains to England & Wales, the discrepancy is enormous—INQUEST's figure of 20 custody deaths (and only 44 total deaths following all forms of police contact that year) is roughly one-tenth of the claimed number. In either case, the INQUEST source underscores that the claimed figure of 201 deaths in police custody would need to be verified against jurisdiction-specific data, as the numbers can vary hugely depending on how "deaths in police custody" is defined and which country's figures are being cited.
+
+Source URL: https://www.inquest.org.uk/deaths-in-police-custody
+
+## Your Judgement
+```
+
+# Claim 485
+
+```
+# Instructions
+You are a fact-checker. You have done a fact-check to verify a Claim. All your work has been documented under "Record". Your task now is to come to a conclusion. That is, **you decide whether the Claim is one of the Decision Options.** Do this by following these steps:
+1. Briefly summarize the key insights from the previous fact-check in at most one paragraph. Focus on the findings from the retrieved evidence. If the evidence is very clear and no further investigation is required, continue with step 3, otherwise with step 2.
+2. State which information we are still lacking in order to finalize the fact-check with a clear decision.
+3. Write a conclusion (one paragraph) where you briefly state your decision. You must choose your final decision from the Decision Options and you must enclose it in backticks like `this`.
+
+Always adhere to the following rules:
+* **Use information only from the recorded evidence**: Avoid inserting information that is not implied by the evidence. You may use commonsense knowledge, though.
+* Write down your thoughts step-by-step. Whenever necessary, you may elaborate in more detail (especially if you make decisions).
+* Avoid repeating yourself.
+
+
+## Decision Options
+* `supported`: The knowledge from the fact-check supports or at least strongly implies the Claim. Mere plausibility is not enough for this decision.
+* `refuted`: The knowledge from the fact-check explicitly and clearly refutes at least substantial parts if not even the whole the Claim.
+
+# Record
+## Claim
+Text: "Donald Trump said "Last month, I took on Big Pharma. You think that is easy? I signed orders that would massively lower the cost of your prescription drugs.""
+
+## Initial Q&A
+
+### On what exact date did Donald Trump make the statement containing the claim?
+Answer: Donald Trump made the statement on July 28, 2020, as referenced in a tweet where he discussed Big Pharma ads and prescription drug price reductions.
+
+Source URL: https://www.fiercepharma.com/marketing/president-lashes-out-at-big-pharma-ads-possibly-mistaking-pcma-tv-ad-criticizing-new
+
+### In the month preceding that statement, did Donald Trump sign any executive orders specifically related to prescription drug prices?
+Answer: Yes. According to the CNBC article, President Donald Trump signed four executive orders on July 24, 2020, aimed at lowering the cost of prescription drugs. As the article states, "President Donald Trump on Friday signed four executive orders aimed at lowering the high cost of prescription drugs in the United States," with the orders targeting insulin prices, drug importation from Canada, pharmacy benefit manager rebates, and allowing Medicare to negotiate international pricing.
+
+Source URL: https://www.cnbc.com/2020/07/24/trump-announces-series-of-executive-orders-aimed-at-lowering-drug-costs.html
+
+### If such executive orders were signed, what were their official titles or numbers?
+Answer: Based on the search result, the specific official titles or numbers of the four executive orders signed by President Trump are not provided. The source describes their content and purposes but does not list their formal designations.
+
+Source URL: https://www.healio.com/news/primary-care/20200805/benefits-of-drug-pricing-executive-orders-unclear-expert-says
+
+### What were the specific policy directives or mechanisms outlined in these executive orders aimed at reducing drug prices?
+Answer: Trump's four executive orders outlined the following specific mechanisms: (1) **The Rebate Rule**, which directed HHS to eliminate the safe harbor for discounts received by pharmacy benefit managers (PBMs) in Medicare Part D and Medicaid managed care, requiring rebates be converted to "point-of-sale" discounts instead of kickbacks to middlemen; (2) **The Importation Rule**, which directed HHS to allow commercial importation of certain prescription drugs from Canada by states, wholesalers, and pharmacies, and to expand personal importation programs; (3) **The 340B Rule**, which directed HHS to ensure Federally Qualified Health Clinics pass along deeply discounted prices for insulin and injectable epinephrine under the 340B Drug Pricing Program to uninsured or low-income patients; and (4) **The Most Favored Nations Rule**, which directed HHS to replace the existing reimbursement model for Medicare Part B physician-administered drugs with one based on the lowest price paid in any single country, rather than the U.S. average sales price. As the source notes, most of these were not immediately enforceable and faced significant implementation challenges, with experts questioning whether they would actually lower drug prices.
+
+Source URL: https://www.arnoldventures.org/stories/executive-orders-unlikely-to-lower-drug-prices
+
+### Did the signed executive orders have the force of law and were they implemented, or were they directives for future agency action?
+Answer: The signed executive orders did not have the force of law and were not immediately implemented; rather, they were directives for future agency action. As the source states: "Although these executive orders could be viewed as far-reaching proposals that may attract attention during this presidential election year, they have no immediate legal effect. The executive orders direct Alex Azar, the Secretary of the U.S. Department of Health & Human Services ('HHS'), to implement the four policies through federal rulemaking procedures." In other words, the orders instructed the HHS Secretary to undertake future regulatory processes to effectuate the policies, but they did not themselves create binding legal changes or directly lower drug prices upon signing.
+
+Source URL: https://www.ebglaw.com/insights/publications/president-trump-signs-executive-orders-on-drug-pricing-and-domestic-supply-chain-reform
+
+### What measurable evidence exists that the costs of prescription drugs for consumers changed as a direct result of these executive orders?
+Answer: The search result indicates that the executive orders were never implemented as of the analysis, and therefore, no measurable evidence of direct consumer cost changes exists. The source notes, "it is unclear whether any of these EOs will ultimately be implemented," emphasizing that proposed actions required further rulemaking that was unlikely to occur before the election.
+
+Source URL: https://www.debevoise.com/insights/publications/2020/07/trumps-new-drug-pricing-executive-orders
+
+### Did the executive orders require pharmaceutical companies to lower their prices, or did they encourage voluntary action or alternative measures?
+Answer: The executive orders did not directly require pharmaceutical companies to lower prices but instead directed the administration to initiate or revive rulemaking processes on long-standing proposals. As the source explains, the orders made "no current changes in law" but aimed to advance potential future regulations, such as tying Medicare drug payments to international prices or eliminating rebates, which themselves would face legal challenges even if finalized.
+
+Source URL: https://www.ropesgray.com/en/insights/alerts/2020/08/drug-pricing-reforms-and-value-based-pricing-future-and-current
+
+### What was the stance or reaction of major pharmaceutical industry groups ("Big Pharma") to these executive orders?
+Answer: Major pharmaceutical industry groups strongly opposed the executive orders, with trade group PhRMA calling them "a reckless distraction that impedes our ability to respond to the current pandemic" and its CEO Stephen J. Ubl labeling the policy as "radical and dangerous," while the Biotechnology Innovation Organization's leader argued the orders would "cripple the small, innovative companies developing the vaccines and therapies."
+
+Source URL: https://www.cnbc.com/2020/07/24/trump-announces-series-of-executive-orders-aimed-at-lowering-drug-costs.html
+
+### How did independent health policy experts or government agencies (like the Congressional Budget Office) assess the potential impact of these orders on drug prices?
+Answer: Independent health policy experts were largely skeptical of the orders' potential impact. Tim Lash, chief strategy officer of West Health, characterized them as "signaling and handwaving more than something that has actual teeth," while drug pricing researcher Inmaculada Hernandez called the concepts "nothing new." Regarding specific orders, assessments varied: the HHS Actuary report found that the rebate rule would actually *increase* Medicare premiums by 25% and raise Medicare drug spending by $196 billion, while HHS Secretary Azar claimed it would reduce drug costs for seniors by 26–30%. On the international pricing index ("favored nations") proposal, CMS estimated approximately 30% savings for selected Part B drugs, and a 2019 *Health Affairs* study offered a mild endorsement but noted "the magnitude of these changes is highly uncertain." Legal experts also said the insulin/EpiPen order was "not enforceable." The overarching consensus among experts was that meaningful drug pricing reform would require bipartisan legislation rather than executive action alone.
+
+Source URL: https://www.healthevolution.com/insider/breaking-down-the-trump-administrations-executive-orders-on-drug-pricing/
+
+### Has the claim of a "massive" reduction in drug costs been substantiated by subsequent price data for commonly prescribed medications?
+Answer: No, the claim of a "massive" reduction in drug costs is not substantiated by the data presented in the search result. The AP fact-check states that the Consumer Price Index for prescription drugs showed "an increase of 0.3% in April for prescription drug prices, when compared with the same month last year," and notes that "other independent studies point to increasing prices for brand name drugs as well and more overall spending on medications."
+
+Source URL: https://www.boston.com/news/politics/2019/05/14/ap-fact-check-trump-cites-drug-price-drop-that-isnt/
+
+## Your Judgement
+```
