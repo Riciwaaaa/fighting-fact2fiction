@@ -37,8 +37,19 @@ def _embed_chunked(model, texts: list[str], batch_size: int):
         gc.collect()
     return np.concatenate(out, axis=0) if out else np.empty((0, model.dimension))
 
-# Attack experiment dir, relative to Fact2Fiction/src (the caller's cwd).
+# Attack experiment dir, relative to Fact2Fiction/src (the caller's cwd). One directory per
+# poison rate -- the attack names it `{variant}_{attack_type}_{victim}_{poison_rate}` -- so a
+# caller sweeping the rate reassigns this the way it already reassigns CACHE_DIR. The rate is
+# NOT a parameter of the reconstruction below: everything here just reads whatever artifacts
+# that directory holds.
 EXP_REL = "attack/attack_results/dev_fact2fiction_infact_0.08"
+
+
+def set_poison_rate(rate) -> str:
+    """Point EXP_REL at a different poison rate's attack output. Returns the new path."""
+    global EXP_REL
+    EXP_REL = f"attack/attack_results/dev_fact2fiction_infact_{rate}"
+    return EXP_REL
 
 # Refitting the KNN means re-embedding every resource for the claim (~855 docs for
 # claim 4), which on CPU dominates runtime -- ~16 of that claim's 17 minutes. This
@@ -86,8 +97,17 @@ def install_poisoned_kb(kb, cid: int, suffix: str, use_cache: bool = True) -> bo
             with open(cache_file, "rb") as f:
                 cached = pickle.load(f)
             if cached.get("n_resources") == len(all_resources):
-                poison_knn = cached["knn"]
-                all_resources = cached["resources"]
+                # The key is (claim, models, resource count) and the cache is shared across
+                # poison rates -- one rate's entry could in principle collide with another's if
+                # their totals coincided, which would silently serve a KNN fit over the wrong
+                # documents. Confirm the planted tail really is the fake evidence we just
+                # loaded. Entries written for the same rate match and still hit; a cross-rate
+                # collision falls through to the refit below. Cheap: a URL list comparison.
+                n_fake = len(fake_evidences)
+                tail = cached["resources"][len(cached["resources"]) - n_fake:] if n_fake else []
+                if [r["url"] for r in tail] == [r["url"] for r in fake_evidences]:
+                    poison_knn = cached["knn"]
+                    all_resources = cached["resources"]
         except Exception:
             poison_knn = None  # corrupt/stale cache -> just refit
 

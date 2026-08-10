@@ -80,6 +80,10 @@ def main():
     parser.add_argument("--attacker-model", type=str, default="deepseek_v4_flash")
     parser.add_argument("--variant", type=str, default="dev")
     parser.add_argument("--device", type=str, default="cpu")
+    parser.add_argument("--poison-rate", type=str, default="0.08",
+                        help="Which attack run to read planted evidence from (--kb poisoned "
+                             "only). The attack writes one directory per rate, so this selects "
+                             "a directory; nothing else about the pipeline changes.")
     args = parser.parse_args()
 
     # Resolve every host path BEFORE chdir.
@@ -104,6 +108,11 @@ def main():
         sys.path.insert(0, str(EXPERIMENTS_DIR))  # poisoned_kb, now that cwd moved
         import poisoned_kb
         poisoned_kb.CACHE_DIR = poison_cache
+        exp_rel = poisoned_kb.set_poison_rate(args.poison_rate)
+        if not (src_dir / exp_rel).exists():
+            sys.exit(f"{src_dir / exp_rel} not found -- run the attack at poison rate "
+                     f"{args.poison_rate} first")
+        print(f"Planted evidence from {exp_rel}", flush=True)
         from poisoned_kb import install_poisoned_kb
 
     from infact.common.content import Content
