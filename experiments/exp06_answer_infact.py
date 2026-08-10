@@ -18,6 +18,20 @@ The two vendored `infact` copies cannot coexist in one interpreter, so the two `
 run as separate processes. They also differ in one API detail: Fact2Fiction's `approach_question`
 returns `(qa_instance, search_results)` where DEFAME's returns a bare `qa_instance`.
 
+RUNNING SEVERAL OF THESE AT ONCE: stagger the launches so that no two start in the same clock
+minute. `infact.common.logger._determine_target_dir` (identical in both vendored copies) picks
+`out/<YYYY-MM-DD_HH-MM>/` and then does
+
+    while target_dir.exists():
+        target_dir = target_dir.with_stem(timestamp + "'")
+
+-- the loop body is a constant, not an increment. The first process in a minute takes the plain
+name, the second takes the `'` variant, and every later one spins forever inside `Path.exists()`
+before ever reaching `Ready.`. Four shards launched together cost 4.5 hours of two pinned cores
+producing nothing. This is Fact2Fiction's code and is deliberately NOT patched here; a >60s gap
+between launches avoids it entirely, and the only symptom to watch for is a shard sitting at
+"Building FactChecker ..." with high CPU and a flat RSS.
+
 The poisoned KB needs no monkey-patching. `install_poisoned_kb` sets `embedding_knns[cid]`,
 `cached_resources`, `cached_resources_claim_id` and `current_claim_id`, and `_call_api` reads
 exactly those -- so the ordinary retrieval path becomes poisoned on its own.
