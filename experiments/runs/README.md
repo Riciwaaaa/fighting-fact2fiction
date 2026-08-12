@@ -4,45 +4,98 @@ Chronological phases of the model-only-vs-poisoned-InFact defense work. Each dir
 output of a pipeline stage in `experiments/*.py`; scripts default their `--results-dir`/`--out` to
 the directory listed below, overridable on the command line.
 
-> **Start at [`16_binary100_pr008_fix12/`](16_binary100_pr008_fix12/)** — the current headline
-> result (`final/report.md`, `final/metrics.csv`). 14/ and 15/ are its ablation arms.
+> **Start here.** The headline is the four-rate sweep below. Per-rate directories:
+> [`17_`](17_binary100_pr001/) 0.01 · [`18_`](18_binary100_pr002/) 0.02 ·
+> [`19_`](19_binary100_pr004/) 0.04 · [`16_`](16_binary100_pr008_fix12/) 0.08, each with
+> `final/report.md` and `final/metrics.csv`. 14/ and 15/ are 16/'s ablation arms.
 
-## 16_binary100_pr008_fix12/ — current result
+## The poison-rate sweep — current result
 
-The **first 100 binary claims in AVeriTeC dev order** (77 gold-Refuted / 23 gold-Supported),
-poison rate 0.08. Four arms on one claim set: `C` clean retrieval, `P` poisoned retrieval, `P+M`
-poisoned merged with model-only memory, `M` memory alone.
+One claim set, four poison rates. Four arms: `C` clean retrieval, `P` poisoned retrieval, `P+M`
+poisoned merged with model-only memory, `M` memory alone. **Every number is n=100** — arms P and
+P+M are backfilled on claims the attack never touched (`P` = `C`, `P+M` = `CM`, because an
+unattacked claim's poisoned KB is byte-identical to the clean one).
 
-| arm | accuracy | Supported F1 | Refuted F1 | macro-F1 |
+Arms P and P+M were judged **twice** on byte-identical records; the cell is the mean and the
+spread is given below. C and M are single runs and are rate-independent by construction.
+
+| arm | 0.01 | 0.02 | 0.04 | 0.08 |
 |---|---|---|---|---|
-| C  clean retrieval | 86.0% | 0.650 | 0.912 | 0.781 |
-| M  memory alone | 85.0% | 0.545 | 0.916 | 0.731 |
-| **P+M merged** | **82.0%** | 0.571 | 0.886 | **0.729** |
-| P  poisoned baseline | 66.0% | 0.370 | 0.767 | 0.569 |
+| C  clean retrieval | 86 / 78.1 | 86 / 78.1 | 86 / 78.1 | 86 / 78.1 |
+| M  memory alone | 85 / 73.1 | 85 / 73.1 | 85 / 73.1 | 85 / 73.1 |
+| **P  poisoned baseline** | **74.5 / 62.6** | **69.0 / 55.6** | **63.0 / 51.9** | **67.0 / 57.6** |
+| **P+M  defense** | **80.5 / 69.8** | **77.0 / 63.4** | **75.5 / 63.4** | **80.0 / 67.5** |
+| defense gain | +6.0 / +7.2 | +8.0 / +7.8 | +12.5 / +11.5 | +13.0 / +9.9 |
 
-Split by whether the attack actually landed — 71 claims have a poisoned corpus, 29 do not and are
-backfilled (`P` = `C`, `P+M` = `CM`, since an unattacked claim's poisoned KB is byte-identical to
-the clean one):
+*accuracy / macro-F1×100. Claims attacked per rate: 68 / 69 / 67 / 71.*
 
-| | all 100 | **the 71 attacked** | the 29 backfilled |
-|---|---|---|---|
-| P+M | 82% / 0.729 | **87% / 0.767** | 69% / 0.648 |
-| P | 66% / 0.569 | **63% / 0.516** | — |
-| C  (ceiling) | 86% / 0.781 | **92% / 0.839** | — |
-| M | 85% / 0.731 | **90% / 0.787** | — |
+### What the sweep shows
 
-Where the poisoning landed the defense recovers 63% → 87% against a 92% clean ceiling. **It does
-not beat memory alone** (87% vs 90%; 82% vs 85% overall) — "merging beats closed-book memory"
-remains unproven, and that subset is 58 R / 13 S, a skew that favours both.
+**The attack peaks at 0.04, not at 0.08.** Arm P scored 63 in both judge runs at 0.04 (spread
+63-63) against 66-68 at 0.08, and the macro-F1 ranges do not overlap either (51.3-52.5 vs
+56.9-58.4). More poison is not monotonically worse for the victim. Two runs is not a confidence
+interval, so read this as suggestive rather than established — but it is not judge noise.
+
+**The defense is worth more the harder the attack hits.** Its gain over arm P rises with attack
+strength: +6.0, +8.0, +12.5, +13.0 points of accuracy.
+
+**The defense never beats memory alone.** P+M tops out at 80.5 against arm M's 85 and arm C's 86,
+at every rate. On this claim set the best available strategy is to discard the poisoned retrieval
+entirely and answer closed-book; merging poisoned retrieval with memory recovers most of what the
+attack took but does not justify keeping the retrieval. **"Merging beats closed-book memory" is
+unproven and currently contradicted.**
+
+**Planted evidence wins retrieval far above its share of the corpus.** At 0.01 the planted
+documents are ~1% of a claim's corpus and still supply 55.9% of the answered sub-questions (81.5%
+at 0.08).
+
+### Judge reproducibility
+
+Arms P and P+M were re-judged on byte-identical records. Flip rates: 4.4-11.3% of verdicts,
+median ~8.7%. On the attacked subsets that is 3-8 claims; on the full 100 the effect is damped to
+0-3 points because roughly a third of the claims are backfilled and therefore identical between
+runs. **Any single-run arm number in this repo carries several points of judge noise** — that is
+why the sweep table above is a two-run mean, and why per-rate differences smaller than ~4 points
+are not claims.
 
 ### The claim set
 
-The literal first 100 binary claims in dev order. This is **not** 05/'s or 12/'s set. 03/ took
-the binary claims among dev ids 0-99 that clean InFact judged *correctly* (53 of them), 05/ added
-47 more from id 100 upward with no such filter, and 12/ used a seed-42 50/50 sample. Only this set
-has one selection rule and no "clean side got it right" filter baked in — the price being that 29
-claims are ineligible for attack (Fact2Fiction only attacks claims the clean checker got right),
-hence the backfill above.
+The literal first 100 binary claims in AVeriTeC dev order (77 gold-Refuted / 23 gold-Supported).
+This is **not** 05/'s or 12/'s set. 03/ took the binary claims among dev ids 0-99 that clean InFact
+judged *correctly* (53 of them), 05/ added 47 more from id 100 upward with no such filter, and 12/
+used a seed-42 50/50 sample. Only this set has one selection rule and no "clean side got it right"
+filter baked in — the price being that ~30 claims per rate are ineligible for attack (Fact2Fiction
+only attacks claims the clean checker got right), hence the backfill.
+
+**Report n=100, not the attacked subset.** The subset is pre-filtered to claims the clean checker
+already got right, so every arm reads high on it — C 92-94% there against 86% overall, M 90-93%
+against 85%. It is also a different set at each rate (68/69/67/71), so a cross-rate comparison
+built on it has a moving denominator. Each rate's `final/report.md` carries the subset split as a
+secondary breakdown.
+
+### Reproducing a rate
+
+The clean side is rate-independent, so 17/, 18/ and 19/ symlink 16/'s clean adjudication and arm
+CM, and 14/'s `questions.json`, `answers_{clean,model_only}.json` and arms C/M. Only the poisoned
+side is recomputed:
+
+```
+attack/main.py --poison-rate <r>          (Fact2Fiction, ~5-9 h for 183 claims, 4 processes)
+exp06_answer_infact.py --kb poisoned --poison-rate <r>   → answers_poisoned.json
+exp06_adjudicate.py --sides poisoned --no-report         → results_poisoned_vs_mo.json
+exp06_judge.py --arms P,PM --drop-empty                  → verdicts_{P,PM}_dropempty.json
+exp08_final_report.py --run-dir <dir> --poison-rate <r>  → final/
+```
+
+Two operational traps, both hit during this sweep and both documented in
+`exp06_answer_infact.py`'s docstring:
+
+* **Never start two of these in the same clock minute.** `infact.common.logger`
+  `_determine_target_dir` picks `out/<YYYY-MM-DD_HH-MM>/` and "increments" a collision with a
+  constant, so the third and later process in a minute spins forever in `Path.exists()`. Two
+  shards burned 4.5 hours on it. Fact2Fiction's code is deliberately not patched; stagger instead.
+* **Sharded pass C runs need ~2 GB each and the attack needs ~11 GB (4 workers), so they cannot
+  overlap** on a 15 GB box.
 
 ## 14_binary100_pr008/ + 15_binary100_pr008_fix2/ — the ablation behind 16/
 
@@ -54,9 +107,9 @@ Only the merge and judge prompts differ:
 |---|---|---|---|---|
 | 14/ | strips attribution | `--conf-rules v1` | `--judge-rules v1` | 67.0% / 0.527 |
 | 15/ | **keeps it** | `--conf-rules v1` | `--judge-rules v1` | 66.0% / 0.547 |
-| 16/ | **keeps it** | **`v2`** | **`v2`** | **82.0% / 0.729** |
+| 16/ | **keeps it** | **`v2`** | **`v2`** | **81.0% / 0.685** |
 
-**The whole 16-point gain is the confidence-wording + judge-rule change.** Restoring attribution
+**The whole 14-point gain is the confidence-wording + judge-rule change.** Restoring attribution
 on its own moves nothing measurable: 15/'s two judge runs give 66% and 71% against 14/'s 67%, all
 inside the judge's own noise. The record got more complete, but the judge went on deciding
 conflicts by which side wrote in more detail, so nothing downstream changed. See the comment
@@ -64,11 +117,16 @@ blocks above `CONF_RULES_V1` and `JUDGE_EXTRA_RULES_V1` in `exp06_prompts.py` fo
 defects each version fixes.
 
 **Judge stability is itself a result.** Arm P+M re-run on a byte-identical record flipped **11 of
-71** verdicts under 15/ and **1 of 71** under 16/. Giving the judge an actual tiebreaker did not
-just raise the score, it stopped the coin-flipping. Corollary: every single-run arm number in this
-repo carries roughly ±7pp of judge noise — 14/'s P+M = 67% could have been anywhere in 60-75%.
-Two runs per arm is the honest protocol; it is deliberately *not* the default, and is worth doing
-only after a configuration's first pass is known to work.
+71** verdicts under 15/ and **1 of 71** under 16/ at the time of the ablation. Giving the judge an
+actual tiebreaker did not just raise the score, it cut the coin-flipping. Across the later sweep
+the flip rate settled at 4.4-11.3% for both P and P+M, so treat that one-flip reading as a lucky
+draw rather than a property. Corollary either way: every single-run arm number in this repo
+carries several points of judge noise. Two runs per arm is the honest protocol; it is deliberately
+*not* the default, and is worth doing only after a configuration's first pass is known to work.
+
+16/'s numbers in the table above are its **first** judge run, so that the three ablation rows are
+comparable to each other. The sweep table at the top of this file reports 16/ as a two-run mean
+and is the number to quote.
 
 **Known caveat, present in every run including the baselines.** InFact's record format prints a
 `Source URL:` line, and Fact2Fiction suffixes planted URLs with `/created` — so the attack's own
@@ -77,7 +135,7 @@ unaffected, and no judge rationale was found using it (the 43-44 hits in arms P/
 copying URLs into markdown links). Any future claim that the defense *detects* poisoning must
 close this first.
 
-## 12_final_100claim/ — superseded by 16/
+## 12_final_100claim/ — superseded by the sweep
 
 100 AVeriTeC dev claims, seed 42, 50 gold-Supported / 50 gold-Refuted. Four arms scored on one
 claim set: `C` clean retrieval, `P` poisoned retrieval, `P+M` poisoned merged with model-only

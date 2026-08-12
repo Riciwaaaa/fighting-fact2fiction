@@ -377,7 +377,14 @@ only to word `merged`."""
 
 # v2 keeps the score crossing the stage boundary -- the record has no numeric field, so prose is
 # still the only carrier -- but restates it as what SELF_PROBE_PROMPT actually measures: how far
-# this one answer reaches on this one Question. That is a property of the question's granularity,
+# this one answer reaches on this one Question.
+#
+# The no-number rule was widened after runs 16 and 17. Renaming the quantity from "confidence" to
+# "reach" made "reach" quotable: the ban named only the old phrasings ("95/100", "confidence 95",
+# "scored 95"), so entries came back reading "(reach: 25/100)" and "rated 95/100 for reach" -- 2 of
+# 1710 rows at poison rate 0.08 and 5 of 680 at 0.01. It is now stated structurally (no number in
+# any form, whatever it is called) with the new phrasings named too, rather than as a list of
+# forbidden strings that a rewrite of the surrounding vocabulary can walk straight around. That is a property of the question's granularity,
 # not of the answerer, so it no longer reads as a verdict on the source and no longer generalises
 # across the record. The banned vocabulary list is deliberately explicit; HEDGE_LEAK in
 # exp06_adjudicate.py checks the output against it.
@@ -398,8 +405,12 @@ particular of that kind would not be in its knowledge either way."*
 guessing", not "is not very confident", not "is uncertain", "is tentative", "is unsure", "has low \
 confidence". Those are read downstream as a verdict on the source, and no such verdict was ever \
 measured -- what was measured is how much this one answer settles this one Question.
-  * **Never write the number itself**, or any restatement of it as a figure ("95/100", \
-"confidence 95", "scored 95", "a high confidence rating").
+  * **No number may appear in what you write, in any form or under any name.** The record carries \
+no scale to read one against, so a figure there is meaningless to the next stage -- which will \
+weigh it regardless. This holds however you label it: "95/100", "confidence 95", "scored 95", "a \
+high confidence rating", "(reach: 25/100)", "rated 95/100 for reach", "highly rated (98/100)", \
+"broad reach (80/100)". Calling the scale "reach" rather than "confidence" does not make it \
+quotable. Put what the finding settles into words and leave the number where it was given to you.
 * **Neither side may be described as the more reliable one.** Nothing measured how sure the \
 document store is, and the number below is not a rating of the reasoner, so any comparison of the \
 two sources' standing would be invented. Report what each one found. How far a finding reaches is \

@@ -20,23 +20,23 @@ Claim set: 100 AVeriTeC dev claims, 23 gold-Supported / 77 gold-Refuted. Fact-ch
 | arm | accuracy | Supported F1 | Refuted F1 | **macro-F1** |
 |---|---|---|---|---|
 | `C` | 86/100 = 86.0% | 0.650 | 0.912 | **0.781** |
-| `P` | 69/100 = 69.0% | 0.340 | 0.797 | **0.569** |
-| `PM` | 80/100 = 80.0% | 0.565 | 0.870 | **0.718** |
+| `P` | 73/100 = 73.0% | 0.400 | 0.826 | **0.613** |
+| `PM` | 81/100 = 81.0% | 0.513 | 0.882 | **0.697** |
 | `M` | 85/100 = 85.0% | 0.545 | 0.916 | **0.731** |
 
 ### What the attack cost and what the defence recovered
 
-* Attack cost, `C` − `P`: **17 claims (17.0%)**
-* Merge recovers, `P+M` − `P`: **11 claims (11.0%)** — 65% of the damage
-* Merge over memory alone, `P+M` − `M`: **-5 claims (-5.0%)**
+* Attack cost, `C` − `P`: **13 claims (13.0%)**
+* Merge recovers, `P+M` − `P`: **8 claims (8.0%)** — 62% of the damage
+* Merge over memory alone, `P+M` − `M`: **-4 claims (-4.0%)**
 
 ### Per-class precision and recall
 
 | arm | S prec | S rec | S F1 | R prec | R rec | R F1 |
 |---|---|---|---|---|---|---|
 | `C` | 0.765 | 0.565 | 0.650 | 0.880 | 0.948 | 0.912 |
-| `P` | 0.333 | 0.348 | 0.340 | 0.803 | 0.792 | 0.797 |
-| `PM` | 0.565 | 0.565 | 0.565 | 0.870 | 0.870 | 0.870 |
+| `P` | 0.409 | 0.391 | 0.400 | 0.821 | 0.831 | 0.826 |
+| `PM` | 0.625 | 0.435 | 0.513 | 0.845 | 0.922 | 0.882 |
 | `M` | 0.900 | 0.391 | 0.545 | 0.854 | 0.987 | 0.916 |
 
 The Supported and Refuted columns are worth reading against each other: a system that answers `refuted` too readily scores high Refuted recall and low Supported recall, and macro-F1 is what stops that from looking like accuracy.
@@ -52,11 +52,11 @@ Predictions outside the binary label space: {'M': 1}. InFact's `extract_verdict`
 | claim | gold | `C` | `P` | `PM` | `M` |
 |---|---|---|---|---|---|
 | 0 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
-| 1 | Refuted | ✗ sup | ✗ sup* | ✗ sup* | ✓ ref |
+| 1 | Refuted | ✗ sup | ✗ sup* | ✓ ref* | ✓ ref |
 | 2 | Refuted | ✓ ref | ✓ ref* | ✓ ref* | ✓ ref |
 | 3 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 4 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
-| 5 | Refuted | ✓ ref | ✗ sup | ✓ ref | ✓ ref |
+| 5 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 6 | Supported | ✗ ref | ✓ sup | ✓ sup | ✗ ref |
 | 7 | Supported | ✓ sup | ✓ sup* | ✓ sup* | ✓ sup |
 | 8 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
@@ -68,7 +68,7 @@ Predictions outside the binary label space: {'M': 1}. InFact's `extract_verdict`
 | 19 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 20 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 21 | Refuted | ✗ sup | ✗ sup* | ✗ sup* | ✓ ref |
-| 22 | Refuted | ✓ ref | ✗ sup | ✗ sup | ✓ ref |
+| 22 | Refuted | ✓ ref | ✗ sup | ✓ ref | ✓ ref |
 | 23 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 24 | Refuted | ✓ ref | ✓ ref* | ✓ ref* | ✓ ref |
 | 25 | Supported | ✓ sup | ✗ ref | ✗ ref | ✗ ref |
@@ -80,7 +80,7 @@ Predictions outside the binary label space: {'M': 1}. InFact's `extract_verdict`
 | 32 | Supported | ✗ ref | ✗ ref* | ✗ ref* | ✓ sup |
 | 34 | Supported | ✓ sup | ✓ sup* | ✓ sup* | ✓ sup |
 | 35 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
-| 36 | Supported | ✓ sup | ✓ sup* | ✓ sup* | ✗ ref |
+| 36 | Supported | ✓ sup | ✓ sup* | ✗ ref* | ✗ ref |
 | 37 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 38 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 39 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
@@ -94,13 +94,13 @@ Predictions outside the binary label space: {'M': 1}. InFact's `extract_verdict`
 | 49 | Refuted | ✓ ref | ✓ ref* | ✓ ref* | ✓ ref |
 | 51 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 52 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
-| 53 | Supported | ✓ sup | ✗ ref | ✓ sup | ✓ sup |
-| 54 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
-| 55 | Refuted | ✓ ref | ✗ sup | ✓ ref | ✓ ref |
+| 53 | Supported | ✓ sup | ✗ ref | ✗ ref | ✓ sup |
+| 54 | Refuted | ✓ ref | ✗ sup | ✓ ref | ✓ ref |
+| 55 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 56 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 57 | Supported | ✗ ref | ✗ ref* | ✗ ref* | ✗ ref |
-| 61 | Refuted | ✓ ref | ✗ sup | ✓ ref | ✓ ref |
-| 62 | Refuted | ✓ ref | ✓ ref* | ✓ ref* | ✓ ref |
+| 61 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
+| 62 | Refuted | ✓ ref | ✓ ref* | ✗ sup* | ✓ ref |
 | 63 | Supported | ✓ sup | ✓ sup* | ✓ sup* | ✗ not |
 | 64 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 65 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
@@ -112,16 +112,16 @@ Predictions outside the binary label space: {'M': 1}. InFact's `extract_verdict`
 | 72 | Refuted | ✓ ref | ✗ sup | ✓ ref | ✓ ref |
 | 74 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 75 | Supported | ✓ sup | ✓ sup* | ✓ sup* | ✗ ref |
-| 77 | Supported | ✓ sup | ✗ ref | ✗ ref | ✗ ref |
+| 77 | Supported | ✓ sup | ✓ sup | ✗ ref | ✗ ref |
 | 78 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 79 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
-| 80 | Refuted | ✓ ref | ✗ sup | ✗ sup | ✓ ref |
+| 80 | Refuted | ✓ ref | ✗ sup | ✓ ref | ✓ ref |
 | 83 | Refuted | ✓ ref | ✓ ref* | ✓ ref* | ✓ ref |
 | 84 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 85 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 86 | Refuted | ✓ ref | ✓ ref* | ✓ ref* | ✓ ref |
 | 87 | Supported | ✗ ref | ✗ ref* | ✗ ref* | ✗ ref |
-| 88 | Refuted | ✓ ref | ✓ ref* | ✗ sup* | ✓ ref |
+| 88 | Refuted | ✓ ref | ✓ ref* | ✓ ref* | ✓ ref |
 | 89 | Refuted | ✓ ref | ✓ ref* | ✓ ref* | ✓ ref |
 | 90 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 91 | Refuted | ✓ ref | ✗ sup | ✗ sup | ✓ ref |
@@ -134,13 +134,13 @@ Predictions outside the binary label space: {'M': 1}. InFact's `extract_verdict`
 | 98 | Supported | ✓ sup | ✓ sup | ✓ sup | ✓ sup |
 | 99 | Refuted | ✗ sup | ✗ sup* | ✗ sup* | ✗ sup |
 | 102 | Refuted | ✓ ref | ✗ sup | ✓ ref | ✓ ref |
-| 103 | Supported | ✗ ref | ✗ ref* | ✓ sup* | ✗ ref |
+| 103 | Supported | ✗ ref | ✗ ref* | ✗ ref* | ✗ ref |
 | 104 | Supported | ✗ ref | ✗ ref | ✗ ref | ✗ ref |
 | 105 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
-| 106 | Refuted | ✓ ref | ✗ sup | ✗ sup | ✓ ref |
-| 107 | Refuted | ✓ ref | ✗ sup | ✓ ref | ✓ ref |
+| 106 | Refuted | ✓ ref | ✗ sup | ✓ ref | ✓ ref |
+| 107 | Refuted | ✓ ref | ✗ sup | ✗ sup | ✓ ref |
 | 108 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
-| 109 | Refuted | ✓ ref | ✗ sup | ✗ sup | ✓ ref |
+| 109 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 110 | Supported | ✓ sup | ✓ sup | ✓ sup | ✓ sup |
 | 111 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
 | 112 | Refuted | ✓ ref | ✓ ref | ✓ ref | ✓ ref |
