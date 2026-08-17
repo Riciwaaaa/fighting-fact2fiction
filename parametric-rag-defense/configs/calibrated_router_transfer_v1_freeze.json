@@ -1,0 +1,70 @@
+{
+  "freeze_schema_version": 1,
+  "experiment_id": "calibrated_router_transfer_v1",
+  "created_at": "2026-08-11",
+  "status": "frozen_after_development_diagnosis_before_router_transfer_scoring",
+  "interpretation": "The destination locked labels were opened for prior workflows. This is a retrospective transfer diagnostic of a newly specified router, not independent confirmation.",
+  "research_question": "Does a condition-blind calibration router learned on development endpoint disagreements transfer across claims and attacker identities better than RAG, closed-book, and the answerability cascade?",
+  "training": {
+    "split": "development",
+    "claims": 100,
+    "conditions": [
+      "clean",
+      "fact2fiction_p0.001",
+      "fact2fiction_p0.0025",
+      "fact2fiction_p0.005"
+    ],
+    "activation": "RAG and same-model three-sample closed-book majority predictions disagree and exactly one is correct",
+    "rows": 327,
+    "unique_claims": 73,
+    "grouping": "All rows for the same claim remain in one cross-validation fold.",
+    "features": "Exactly the 20 endpoint calibration/process features named by ENDPOINT_FEATURE_NAMES; no passage content or passage-map feature.",
+    "forbidden_features": [
+      "condition or nominal rate",
+      "model or provider identity",
+      "attacker identity",
+      "gold or endpoint correctness",
+      "poison origin or count",
+      "claim ID or raw claim text"
+    ]
+  },
+  "estimator": {
+    "type": "StandardScaler followed by sklearn LogisticRegression",
+    "C": 0.3,
+    "class_weight": null,
+    "max_iter": 3000,
+    "random_state": 20260811,
+    "rag_probability_threshold": 0.5,
+    "agreement_policy": "If endpoints agree, copy the shared prediction without routing."
+  },
+  "development_oof_observed_before_transfer": {
+    "selection_rows": 327,
+    "selection_accuracy": 0.8042813455657493,
+    "stronger_constant_accuracy": 0.5076452599388379,
+    "claim_cluster_bootstrap95_delta_vs_constant": [
+      0.142433234421365,
+      0.46060606060606063
+    ]
+  },
+  "transfer": {
+    "split": "locked_test",
+    "status": "previously opened for other methods",
+    "clean_rows": 300,
+    "attacked_rows": 693,
+    "attack": "Complete 3x3 attacker-victim matrix at nominal 1% Fact2Fiction",
+    "comparators": [
+      "same-model RAG",
+      "same-model closed-book majority",
+      "answerability cascade",
+      "endpoint oracle"
+    ],
+    "no_further_tuning": "Do not change features, estimator, threshold, or routing policy in response to transfer results."
+  },
+  "frozen_sha256": {
+    "scripts/diagnose_low_rate_aggregation.py": "53353f10604144833edf0be8549d850bc7aa614e541b81d95cdb5184fa27262d",
+    "scripts/evaluate_calibrated_router_transfer.py": "bf2b48cb1fa713b8e7429cf958bd48ff31b6758aa9d86068d4e178896a5f064f",
+    "scripts/summarize_answerability_cascade.py": "80579e1989ca1f4a480829af01c8576e21849f6ebf9519a61a9c42b9a8a2bed7",
+    "configs/stage1_matrix.json": "081e69c3a4ec5a8585e8e2a024396fc1560e1394c4eeab0f40fac849ce90f3f6",
+    "configs/splits/stage1.json": "6846dac34ec352609190c0616f50f040ec9651c33920836aad61611ef978a802"
+  }
+}

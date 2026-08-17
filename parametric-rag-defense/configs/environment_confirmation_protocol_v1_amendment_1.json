@@ -1,0 +1,31 @@
+{
+  "amendment_schema_version": 1,
+  "experiment_id": "environment_confirmation_train_v1",
+  "status": "frozen_before_recollection_of_the_affected_evidence_report",
+  "amendment_date": "2026-08-12",
+  "trigger": "One retrieved item for Llama claim 710 was a visual separator made only of underscores. Across eleven retained format-repair attempts, the reporter consistently returned an empty key_assertion for that item, so no attempt satisfied the pre-existing non-empty assertion contract.",
+  "decision_independence": "The defect and filter are detectable from retrieval text alone. The amendment does not inspect or depend on the gold label, endpoint verdicts, attack condition, correctness, model confidence, or poison provenance.",
+  "operational_rule": {
+    "scope": "Original-view evidence packets only.",
+    "rule": "After removing the deterministic evidence rank prefix and surrounding whitespace, omit a retrieved item if it contains no Unicode alphanumeric character. Omit its passage alias from the associated retrieval-question link as well.",
+    "all_content_removed": "If the rule removes every item in a packet, fail rather than synthesize evidence.",
+    "semantics": "The omitted item has no lexical proposition that could support, refute, contextualize, or identify the claim. All substantive retrieved passages remain unchanged.",
+    "affected_observed_failure": {
+      "rag_task_key": "06836b61da6bffde8dbc76c147a2c6dc6f32113cedc34bbdce00948ad52c90db",
+      "claim_id": 710,
+      "victim_model_id": "llama31_70b",
+      "condition_id": "clean"
+    }
+  },
+  "unchanged": [
+    "confirmation claims, models, attack conditions, and eligibility",
+    "all endpoint outputs and internal-majority outputs",
+    "neutral claim plan and evidence-map prompts",
+    "evidence-map contract for every retained passage",
+    "counter-retrieval construction and defense policy",
+    "frozen thresholds, baselines, success gate, and evaluation"
+  ],
+  "updated_sha256": {
+    "src/parametric_rag_defense/evidence_signals.py": "222f16367f15ee2ede59a4a8907a056785d523094fe1e109a1ca3e8bc6fd412d"
+  }
+}

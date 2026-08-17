@@ -1,0 +1,22 @@
+{
+  "amendment_schema_version": 1,
+  "experiment_id": "query_aligned_conflict_map_v1",
+  "amendment_date": "2026-08-11",
+  "timing": "after_160_cached_request_attempts_but_before_gold_or_poison_provenance_analysis",
+  "reason": [
+    "The runner scheduled duplicate visible packets from different poisoning conditions concurrently, causing immutable-output collisions.",
+    "Models sometimes attached a relation to unstable or unknown internal attempts despite the prompt's required unclear label.",
+    "A small number of otherwise complete outputs appended one empty list item after the ten indexed comparisons."
+  ],
+  "changes": [
+    "Deduplicate the 363 row descriptors into 304 unique visible packets before scheduling calls, then expand shared outputs back to every source row.",
+    "Normalize every non-stable internal comparison to relation=unclear, which is the predeclared fail-closed eligibility rule.",
+    "Discard only empty list items before enforcing exact ten-index coverage.",
+    "On resume, reuse an existing immutable output only after its output key, packet key, and parsed judgment match."
+  ],
+  "semantic_signal_change": false,
+  "eligibility_change": false,
+  "scope_change": false,
+  "decoding_change": false,
+  "label_or_provenance_inspected": false
+}

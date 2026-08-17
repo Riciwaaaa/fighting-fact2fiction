@@ -1,0 +1,75 @@
+{
+  "freeze_schema_version": 1,
+  "experiment_id": "counter_retrieval_signal_v2",
+  "created_at": "2026-08-11",
+  "status": "frozen_after_offline_retrieval_audit_before_counter_map_calls",
+  "interpretation": "Post-label method development on the existing 100 claims. Counter-map outputs and their gold-joined performance did not exist when this configuration was frozen.",
+  "question": "After removing every originally retrieved document and exact duplicate without using origin, does a fresh retrieval view provide a safer signal for choosing same-model RAG versus closed-book?",
+  "scope": {
+    "models": ["glm52", "llama31_70b", "qwen35_35b_a3b"],
+    "conditions": ["clean", "fact2fiction_p0.001", "fact2fiction_p0.0025", "fact2fiction_p0.005"],
+    "activation": "All 363 cached same-model endpoint disagreements from evidence_signal_v1.",
+    "rows": 363,
+    "unique_model_claim_cases": 159
+  },
+  "retrieval": {
+    "query_plan": "Reuse the victim's ten cached claim-only Stage 1 queries; no endpoint, evidence, or condition is used to generate them.",
+    "exclusion": "Remove all document IDs present in the original top-k and all documents with exact text matching an original result. Do not inspect origin when excluding.",
+    "candidate_semantics": "For each query, select the nearest five eligible documents, then remove documents already returned for an earlier query without backfilling. This matches Stage 1 fresh-document semantics.",
+    "embedding_model": "Alibaba-NLP/gte-base-en-v1.5",
+    "top_k": 5,
+    "evidence_chars": 300,
+    "offline_calls": 0,
+    "audit": "artifacts/runs/counter_retrieval/counter_retrieval_signal_v2/retrieval_audit.json"
+  },
+  "superseded_offline_pilot": {
+    "experiment_id": "counter_retrieval_signal_v1",
+    "issue": "The first implementation backfilled five fresh documents after cross-query deduplication, yielding exactly 50 documents per row and exceeding the Stage 1 selection semantics.",
+    "disposition": "Retained as an unscored offline artifact. No LLM call was issued. V2 fixes the candidate budget before any counter-map output."
+  },
+  "private_pre_output_diagnostic": {
+    "purpose": "Verify origin-blind exclusion and quantify whether a genuinely less-exposed view was created; poison annotations remain forbidden from prompts and decisions.",
+    "mean_documents": {
+      "clean": 22.28,
+      "fact2fiction_p0.001": 21.4390243902439,
+      "fact2fiction_p0.0025": 21.481927710843372,
+      "fact2fiction_p0.005": 20.775510204081634
+    },
+    "counter_poison_fraction": {
+      "clean": 0.0,
+      "fact2fiction_p0.001": 0.0011376564277588168,
+      "fact2fiction_p0.0025": 0.0011217049915872126,
+      "fact2fiction_p0.005": 0.005893909626719057
+    }
+  },
+  "mapping": {
+    "same_model": true,
+    "prompt": "prompts/evidence_passage_map_v1.md",
+    "temperature": 0.1,
+    "top_p": 0.7,
+    "max_tokens": 6000,
+    "seed": 431,
+    "contract_retries": 2,
+    "maximum_logical_calls": 363,
+    "forbidden_inputs": [
+      "RAG or closed-book endpoint",
+      "condition or nominal rate",
+      "model, provider, or attacker identity",
+      "document origin or poison count",
+      "raw URL",
+      "gold or correctness"
+    ]
+  },
+  "evaluation": {
+    "primary": "Endpoint-selection accuracy on exclusive disagreements, grouped by claim, compared with the answerability cascade and original passage-map signal.",
+    "secondary": "Whole-system clean and per-rate accuracy when agreements pass through unchanged.",
+    "next_gate": "Run a final same-model arbiter only if the counter view adds selection signal or clean protection beyond endpoint calibration alone."
+  },
+  "frozen_sha256": {
+    "src/parametric_rag_defense/counter_retrieval.py": "c600fcaf577f2d51eae0f30219c5b9b1c0de340d8cb1a7b9b3eee3223fbb6d96",
+    "scripts/run_counter_retrieval_signal.py": "67dd3ac6abf71a2549a82e234f0ba804a0ae5d2926930c0a8fcaac24fb3c4dd9",
+    "scripts/check_counter_retrieval_signal.py": "d8c338dcdbae43557501911da65e34ea1c6a7421c50bae2687157e03590c2810",
+    "prompts/evidence_passage_map_v1.md": "b937f35481fddc7ddc79d17da594d876bb0418d17f9462ff7b111bcfee044e55",
+    "configs/stage1_matrix.json": "081e69c3a4ec5a8585e8e2a024396fc1560e1394c4eeab0f40fac849ce90f3f6"
+  }
+}

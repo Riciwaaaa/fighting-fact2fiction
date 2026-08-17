@@ -1,0 +1,50 @@
+{
+  "candidate_schema_version": 1,
+  "candidate_id": "query_aligned_localized_candidate_v1",
+  "status": "selected_after_development_error_analysis_requires_fresh_confirmation",
+  "selection_date": "2026-08-11",
+  "provenance_warning": "The lower and upper conflict-coverage thresholds were selected after inspecting gains and regressions on the current development claims. These claims cannot confirm the rule.",
+  "backbone": {
+    "primary_internal_centered": "Use the three-call full-claim answerability fallback by default.",
+    "secondary_extension": "The already selected leave-original-out corroboration candidate may be used as the default for a higher-accuracy secondary variant."
+  },
+  "activation": {
+    "endpoint_scope": "RAG and three-call full-claim closed-book majority disagree.",
+    "question_signal": "Two same-model closed-book replays of each exact RAG question are semantically stable and contradict that question's RAG answer.",
+    "localized_corroborated_gate": "At least two eligible contradictory questions and no more than one contradictory question per three stable internal questions.",
+    "causal_gate": "After globally removing the selected suspect document identities from the existing context without retrieval or backfill, the rerun verdict differs from original RAG.",
+    "action": "Use the fixed-context rerun verdict; otherwise retain the configured backbone prediction."
+  },
+  "inference_forbidden": [
+    "gold",
+    "poison provenance",
+    "condition or nominal attack rate",
+    "attacker identity"
+  ],
+  "confirmation_requirements": [
+    "Freeze the current prompts, two replay seeds, semantic comparator, document-removal semantics, and thresholds.",
+    "Evaluate once on claims unused by all method construction in this repository.",
+    "Report the full-claim answerability backbone and leave-original-out corroboration backbone separately.",
+    "Require positive net gains for at least two victim models and no clean regression beyond one claim per victim.",
+    "Cluster uncertainty by claim and do not count the same claim at multiple rates as independent evidence."
+  ],
+  "development_results_sha256": {
+    "artifacts/evaluation/query_aligned_trace_feasibility_v1.json": "8640a287da3681cc4f6300c0e33bed2f3adb744642903c32e1cdee243693fde6",
+    "artifacts/evaluation/query_aligned_conflict_map_v1.json": "322d4921882c1bf5e2d0d36b46aeec07798f27c887912df59aaab7ae266f3240",
+    "artifacts/evaluation/query_aligned_intervention_v1.json": "b6acead3880be78a1971b337bb9e2b4f3feec8d82e557837cb8822c93d85aa4c"
+  },
+  "method_sha256": {
+    "prompts/internal_rag_questions_v1.md": "03c061c1f54d60ca316af5ef187b3785688b344a71acafa9d257dcc242277348",
+    "prompts/query_answer_conflict_v1.md": "0a8239af2bf14392c5e94911eada7730812c9f13b45262bb22c3d9ecd978995b",
+    "prompts/rag_answers_v1.md": "62cedd5147b03e871c18c49e19a759aeb91ebab55d555ed8e49b75d4eb5e50d5",
+    "prompts/rag_verdict_v1.md": "79c6787375544f66792558342e3a4749ba57df08b42b9871463229fe86860b94",
+    "configs/query_aligned_internal_replay_v1.json": "d37419b02fc2cf3732dc3f1bce59af57cd16b8ff6632e6a329e12a7db2aeed01",
+    "configs/query_aligned_conflict_map_v1.json": "429b9740bfb937dfbc11b9e275a07fd03ebfddd52a9ccca4aed1b35cc93659a0",
+    "configs/query_aligned_intervention_v1.json": "e8e145e78e35be6fb06b25f368a8c75ebb7c5aaeff41e8a544d0925cbb29b869",
+    "src/parametric_rag_defense/query_aligned_internal.py": "8839fa687ec081cc72671225bf2bb3c0f4f56ad03bb742efb949047b58a55c85",
+    "scripts/run_query_aligned_internal_replay.py": "b915fd378afe1a8dda830b4e2711f44670a79ca8715ef1c20590ee30cbbe16b0",
+    "scripts/run_query_aligned_conflict_map.py": "d82fdaac734bfe6a2efa12f7c6ee04a398205279d21605a77a13a0f19ffb78c0",
+    "scripts/run_query_aligned_intervention.py": "ff597cfd549b7f6e65cdd0f0103cd9dc0590beb483d21bdd48d8e3b2cbcfe1b0",
+    "scripts/summarize_query_aligned_intervention.py": "4966870a093dceeeb791f83555df76f08b479d9ecbb0a0e8773cb2dfc41aecc7"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "condition_count": 21,
+  "conditions": [
+    {
+      "attack_family": "none",
+      "id": "clean",
+      "strength": 0,
+      "strength_unit": "none"
+    },
+    {
+      "attack_family": "poisonedrag",
+      "id": "poisonedrag_n1",
+      "retrieval_top_k": 5,
+      "strength": 1,
+      "strength_unit": "malicious_documents_per_target"
+    },
+    {
+      "attack_family": "poisonedrag",
+      "id": "poisonedrag_n2",
+      "retrieval_top_k": 5,
+      "strength": 2,
+      "strength_unit": "malicious_documents_per_target"
+    },
+    {
+      "attack_family": "poisonedrag",
+      "id": "poisonedrag_n3",
+      "retrieval_top_k": 5,
+      "strength": 3,
+      "strength_unit": "malicious_documents_per_target"
+    },
+    {
+      "attack_family": "poisonedrag",
+      "id": "poisonedrag_n4",
+      "retrieval_top_k": 5,
+      "strength": 4,
+      "strength_unit": "malicious_documents_per_target"
+    },
+    {
+      "attack_family": "poisonedrag",
+      "id": "poisonedrag_n5",
+      "retrieval_top_k": 5,
+      "strength": 5,
+      "strength_unit": "malicious_documents_per_target"
+    },
+    {
+      "attack_family": "poisonedrag",
+      "id": "poisonedrag_n6",
+      "retrieval_top_k": 5,
+      "strength": 6,
+      "strength_unit": "malicious_documents_per_target"
+    },
+    {
+      "attack_family": "poisonedrag",
+      "id": "poisonedrag_n7",
+      "retrieval_top_k": 5,
+      "strength": 7,
+      "strength_unit": "malicious_documents_per_target"
+    },
+    {
+      "attack_family": "poisonedrag",
+      "id": "poisonedrag_n8",
+      "retrieval_top_k": 5,
+      "strength": 8,
+      "strength_unit": "malicious_documents_per_target"
+    },
+    {
+      "attack_family": "poisonedrag",
+      "id": "poisonedrag_n9",
+      "retrieval_top_k": 5,
+      "strength": 9,
+      "strength_unit": "malicious_documents_per_target"
+    },
+    {
+      "attack_family": "poisonedrag",
+      "id": "poisonedrag_n10",
+      "retrieval_top_k": 5,
+      "strength": 10,
+      "strength_unit": "malicious_documents_per_target"
+    },
+    {
+      "attack_family": "fact2fiction",
+      "id": "fact2fiction_p0.001",
+      "strength": 0.001,
+      "strength_unit": "target_clean_evidence_fraction"
+    },
+    {
+      "attack_family": "fact2fiction",
+      "id": "fact2fiction_p0.0025",
+      "strength": 0.0025,
+      "strength_unit": "target_clean_evidence_fraction"
+    },
+    {
+      "attack_family": "fact2fiction",
+      "id": "fact2fiction_p0.005",
+      "strength": 0.005,
+      "strength_unit": "target_clean_evidence_fraction"
+    },
+    {
+      "attack_family": "fact2fiction",
+      "id": "fact2fiction_p0.0075",
+      "strength": 0.0075,
+      "strength_unit": "target_clean_evidence_fraction"
+    },
+    {
+      "attack_family": "fact2fiction",
+      "id": "fact2fiction_p0.01",
+      "strength": 0.01,
+      "strength_unit": "target_clean_evidence_fraction"
+    },
+    {
+      "attack_family": "fact2fiction",
+      "id": "fact2fiction_p0.02",
+      "strength": 0.02,
+      "strength_unit": "target_clean_evidence_fraction"
+    },
+    {
+      "attack_family": "fact2fiction",
+      "id": "fact2fiction_p0.04",
+      "strength": 0.04,
+      "strength_unit": "target_clean_evidence_fraction"
+    },
+    {
+      "attack_family": "fact2fiction",
+      "id": "fact2fiction_p0.08",
+      "strength": 0.08,
+      "strength_unit": "target_clean_evidence_fraction"
+    },
+    {
+      "attack_family": "fact2fiction",
+      "id": "fact2fiction_p0.12",
+      "strength": 0.12,
+      "strength_unit": "target_clean_evidence_fraction"
+    },
+    {
+      "attack_family": "fact2fiction",
+      "id": "fact2fiction_p0.16",
+      "strength": 0.16,
+      "strength_unit": "target_clean_evidence_fraction"
+    }
+  ],
+  "eligibility_note": "Generate clean RAG outputs first, then apply Fact2Fiction's clean-correct filter per victim before scheduling attacked tasks.",
+  "enabled_internal_task_counts": {
+    "development": 900,
+    "locked_test": 900
+  },
+  "enabled_model_count": 3,
+  "enabled_models": [
+    "glm52",
+    "llama31_70b",
+    "qwen35_35b_a3b"
+  ],
+  "enabled_rag_task_counts_by_tier": {
+    "development_intermediate_sweep": 1200,
+    "development_sweep": 1500,
+    "locked_primary": 7500,
+    "locked_strength_curve": 6300
+  },
+  "internal_task_counts": {
+    "development": 1200,
+    "locked_test": 1200
+  },
+  "model_count": 4,
+  "models": [
+    "llama31_70b",
+    "qwen35_35b_a3b",
+    "qwen35_397b_a17b",
+    "glm52"
+  ],
+  "rag_counts_are_prefilter_upper_bounds": true,
+  "rag_task_counts_by_tier": {
+    "development_intermediate_sweep": 1600,
+    "development_sweep": 2000,
+    "locked_primary": 10000,
+    "locked_strength_curve": 8400
+  },
+  "reuse_note": "Internal tasks do not multiply by attack condition; their cache keys are reused.",
+  "summary_schema_version": 2,
+  "unique_enabled_rag_tasks_across_tiers": 13500,
+  "unique_rag_tasks_across_tiers": 18000
+}

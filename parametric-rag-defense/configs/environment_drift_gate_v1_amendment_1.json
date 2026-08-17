@@ -1,0 +1,36 @@
+{
+  "amendment_schema_version": 1,
+  "experiment_id": "environment_drift_gate_v1",
+  "status": "frozen_before_0.75_and_1_percent_counter_corroboration_calls",
+  "amendment_date": "2026-08-12",
+  "trigger": "The precommitted binary alarm was evaluated on cached through-0.5-percent artifacts. At 0.5 percent it alarmed only for GLM, but replacing all corroboration with the answerability fallback removed two correct direct corroboration decisions. No 0.75- or 1-percent counter-retrieval evidence report had been generated or scored when this amendment was recorded.",
+  "provenance": "This is transparent post-label method refinement on previously opened development claims. It is not confirmation even though the 0.75- and 1-percent counter reports are prospectively collected relative to this amendment.",
+  "tiered_policy": {
+    "normal": {
+      "condition": "posterior predictive upper-tail probability greater than 0.01",
+      "action": "Use the selected loose-direction leave-original-out corroboration blend."
+    },
+    "warning": {
+      "condition": "posterior predictive upper-tail probability at most 0.01 and greater than 0.0001",
+      "action": "Use only unopposed direct leave-original-out corroboration; otherwise retain the answerability fallback."
+    },
+    "critical": {
+      "condition": "posterior predictive upper-tail probability at most 0.0001",
+      "action": "Disable retrieval-based overrides and use the answerability fallback."
+    }
+  },
+  "rationale": "The environment statistic changes the evidence standard rather than declaring individual passages poisoned. A warning calls for stronger independent evidence; a critical clean-model violation makes retrieval overrides too risky. The 0.01 and 0.0001 cutoffs encode one-in-100 and one-in-10,000 clean posterior-predictive budgets rather than nominal attack rates.",
+  "rate_extension": {
+    "conditions": ["fact2fiction_p0.0075", "fact2fiction_p0.01"],
+    "models": ["glm52", "llama31_70b", "qwen35_35b_a3b"],
+    "activation": "All same-model RAG/internal-majority disagreements at each rate.",
+    "same_model": true,
+    "retrieval": "Reuse each original claim-generated question plan; exclude all original document IDs and exact texts; no provenance-based filtering.",
+    "required_reporting": [
+      "RAG, memory, answerability, loose corroboration, strict corroboration, and tiered gate by model and rate",
+      "all new calls, tokens, failures, retries, and counter-view poison exposure",
+      "clean and 0.1-0.5 percent replay under the tiered policy",
+      "the selected low-rate candidate remains unchanged until fresh confirmation"
+    ]
+  }
+}

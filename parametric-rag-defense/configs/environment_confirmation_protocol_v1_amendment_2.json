@@ -1,0 +1,23 @@
+{
+  "amendment_schema_version": 1,
+  "experiment_id": "environment_confirmation_train_v1",
+  "status": "frozen_before_resuming_remaining_counter_view_reports",
+  "amendment_date": "2026-08-12",
+  "trigger": "After an operational restart, the counter-map resume path recursively searched every packet directory once per row even though the completed retrieval manifest already contained each immutable packet's exact path. On the remote filesystem this produced hundreds of thousands of unnecessary metadata operations and blocked useful progress.",
+  "decision_independence": "The change selects an already recorded file path by its counter-retrieval key. It does not inspect packet text, model output, endpoint predictions, gold labels, attack metadata, poison provenance, or correctness.",
+  "operational_rule": {
+    "rule": "When a prior counter manifest contains the exact counter_packet_path for a counter_retrieval_key and that file exists, load that path. Otherwise deterministically reconstruct the packet from the immutable retrieval record as before.",
+    "integrity": "The existing immutable-output check still rejects conflicting packet contents, and the final counter audit reconstructs every packet independently.",
+    "scientific_effect": "None: packet bytes, prompts, models, decoding parameters, response contracts, policy decisions, and evaluation remain unchanged. Only resume-time artifact discovery changes."
+  },
+  "unchanged": [
+    "all protocol and first-amendment provisions",
+    "all retrieval and exclusion identities",
+    "counter-view packet construction",
+    "same-model evidence reporting",
+    "frozen thresholds, baselines, success gate, and evaluation"
+  ],
+  "updated_sha256": {
+    "scripts/run_counter_retrieval_signal.py": "a837794d6accc1e5dbd56723c004ec66a2464e38ae3a67708f2595dd25de8437"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "amendment_schema_version": 1,
+  "amended_at": "2026-08-10",
+  "applies_to": "stage5_locked_confirmation_freeze.json",
+  "phase_boundary": "After Llama internal collection and Qwen internal collection; before GLM internal collection, all RAG collection, all Stage 5 calls, and any held-out accuracy evaluation.",
+  "trigger": {
+    "model_id": "qwen35_35b_a3b",
+    "claim_id": 264,
+    "affected_seeds": [11, 29, 47],
+    "observation": "The initial response and both pre-frozen format-only retries reached finish_reason=length without a valid six-field JSON object.",
+    "gold_observed": false
+  },
+  "change": {
+    "field": "decoding.internal.contract_retries",
+    "from": 2,
+    "to": 3,
+    "scope": "All locked internal-endpoint calls; successful calls are unchanged and remain cached.",
+    "retry_semantics": "The existing format-repair function is used unchanged. Model, claim, seeds, decoding parameters, response contract, and substantive task prompt are unchanged. Failed attempts remain immutable and auditable."
+  },
+  "prohibited_changes": [
+    "No claim may be dropped.",
+    "No partial or malformed verdict may be parsed or imputed.",
+    "No gold label may be consulted.",
+    "No model-specific decision rule or evaluation gate may change.",
+    "No further amendment is implied if the additional retry fails."
+  ],
+  "rationale": "This is a bounded data-validity recovery decided solely from the provider termination state and contract validity, before outcome evaluation. It prevents silent endpoint fabrication or post-label sample exclusion."
+}

@@ -1,0 +1,27 @@
+{
+  "freeze_schema_version": 1,
+  "frozen_at": "2026-08-10",
+  "status": "inference_implementation_frozen_before_crossed_outputs",
+  "experiment_id": "stage1_crossed_av_1pct_v1",
+  "condition_id": "fact2fiction_p0.01",
+  "nominal_rate": 0.01,
+  "common_claim_count": 61,
+  "expected_matrix_rows": 549,
+  "expected_off_diagonal_rows": 366,
+  "preflight": {
+    "missing_poison_artifacts": 0,
+    "claims_with_inconsistent_target_verdicts": 0,
+    "diagonal_policy": "reference the existing immutable same-model endpoint",
+    "off_diagonal_policy": "reuse the attacker-specific poison prefix and run the victim's unchanged RAG pipeline"
+  },
+  "pre_output_files_sha256": {
+    "scripts/run_crossed_attacker_victim.py": "2e777c402a10cd6646443082aa8794bfe87a51995cefa33053bbb78ceeb85adc",
+    "scripts/check_crossed_attacker_victim.py": "88144a6ce530239b9312edf84271dba7907e1bbd5c726a2542bca664058cf154",
+    "scripts/summarize_crossed_attacker_victim.py": "ab412a308097ba023ca306f84a4b6aabbf77f4c75aff4c414ef98beb9ce8da52",
+    "scripts/run_stage1_rag_scan.py": "80bb084e1291d1dd8fe632269c884c4fe1c88c90c87da2484d932293d74534a7"
+  },
+  "post_collection_offline_analysis": {
+    "reason": "Added paired exact tests and exposure-conditioned summaries after all immutable inference outputs were complete; no prompts, calls, predictions, or artifacts were changed.",
+    "scripts/summarize_crossed_attacker_victim.py": "5875ef106ae5759a4340fd01d0d4aadc729d6d15b0b2d2d207bc627d76f030f6"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "amendment_schema_version": 1,
+  "amended_at": "2026-08-10",
+  "applies_after": "stage5_locked_confirmation_amendment_2.json",
+  "phase_boundary": "After 298 of 300 clean RAG endpoints were valid; before clean eligibility, poison generation, Stage 5 calls, or any held-out accuracy evaluation.",
+  "gold_observed": false,
+  "triggers": [
+    {
+      "model_id": "llama31_70b",
+      "claim_id": 228,
+      "stage": "stage1_rag_answers",
+      "observation": "All three retained responses were valid JSON containing only question_index 0; the other nine requested question entries were omitted."
+    },
+    {
+      "model_id": "llama31_70b",
+      "claim_id": 383,
+      "stage": "rag_artifact_normalization",
+      "observation": "All LLM contracts passed, but a raw URL survived field-level masking and the normalized artifact correctly failed closed."
+    }
+  ],
+  "changes": [
+    {
+      "policy": "missing_answer_entries_to_none",
+      "rule": "When an answer array contains valid, unique in-range entries but omits requested indices, retain each omitted index with status=none, answer=null, and selected_rank=null. Extra, duplicate, malformed, or out-of-range entries remain errors.",
+      "why_conservative": "No factual content or evidence attribution is invented."
+    },
+    {
+      "policy": "recursive_url_mask_at_normalization",
+      "rule": "Apply the existing https? URL replacement recursively to the complete judgment immediately before strict validation, including a bare URL prefix created exactly at a text-truncation boundary; retain the post-mask no-URL assertion.",
+      "why_conservative": "This enforces the already-frozen neutral-source URL firewall and does not alter labels or factual text other than source addresses."
+    }
+  ],
+  "scope": "The rules are model-agnostic and apply to all subsequent clean and attacked endpoints. Previously stored valid immutable endpoints remain unchanged.",
+  "prohibited_changes": [
+    "Do not synthesize an answer for an omitted question.",
+    "Do not parse malformed or duplicate answer entries.",
+    "Do not expose source URLs to downstream workflows.",
+    "Do not change retrieval, verdict prompts, attack setup, gates, or claim scope."
+  ],
+  "implementation_sha256": {
+    "scripts/run_stage1_rag_scan.py": "175b26cafd87d37ef63161d74385d103751f4a3842405cffe3b8c1bccdf09b8c",
+    "src/parametric_rag_defense/rag_artifacts.py": "0a1e3f581ce9194c52a13ab71c3fee97a144dc215276183f12241513c3984efb"
+  }
+}

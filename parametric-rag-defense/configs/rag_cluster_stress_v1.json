@@ -1,0 +1,81 @@
+{
+  "protocol_schema_version": 1,
+  "experiment_id": "rag_cluster_stress_v1",
+  "status": "frozen_before_stress_view_llm_calls",
+  "design_date": "2026-08-11",
+  "selected_candidate_unchanged": "low_rate_corroboration_candidate_v1",
+  "scope": {
+    "source": "All 363 clean/low-rate same-model endpoint disagreements in evidence_signal_v1.",
+    "source_rows": 363,
+    "named_views": 1007,
+    "unique_execution_cases": 925
+  },
+  "sealed_internal_record": {
+    "source": "Three internal_claim_v2 outputs collected before retrieval plus the claim-only neutral_claim_plan_v1.",
+    "role": "Supply verdict stability, knowledge basis, decisive propositions, premise concerns, and pre-retrieval support/refutation probes.",
+    "new_internal_calls": 0
+  },
+  "stress_views": {
+    "unit": "Model-generated assertion clusters; evidence passages omitted from content clustering become singleton units.",
+    "collapsed_visible_passages": "Documents sharing the same 300-character visible endpoint excerpt remain one inseparable unit.",
+    "half_a_half_b": "Greedily balance whole assertion units by document count into two disjoint, exhaustive halves with deterministic unit-ID tie breaking.",
+    "dominant_removal": "Remove the largest direct assertion cluster whose stance aligns with the original RAG verdict; deterministic cluster-ID tie breaking.",
+    "new_retrieval": false,
+    "backfill": false,
+    "question_plan_unchanged": true,
+    "answer_and_verdict_prompts_unchanged": true
+  },
+  "context": {
+    "evidence_chars": 1800,
+    "selected_verdict_evidence_chars": 1000
+  },
+  "decoding": {
+    "temperature": 0.01,
+    "top_p": 0.7,
+    "max_answer_tokens": 5000,
+    "max_verdict_tokens": 1600,
+    "seed": 11,
+    "contract_retries": 2
+  },
+  "arbiter_boundary": {
+    "visible": [
+      "claim and date",
+      "RAG and same-model closed-book endpoint labels",
+      "three sealed full-claim closed-book assessments",
+      "pre-retrieval central proposition and support/refutation probes",
+      "anonymous assertion-cluster sizes, stance, and directness",
+      "which anonymous clusters each stress view retains",
+      "original and stress-view RAG verdicts, confidence, and answer coverage"
+    ],
+    "hidden": [
+      "raw retrieved passages and their model-written factual summaries",
+      "source identity and URLs",
+      "poison provenance",
+      "condition and nominal attack rate",
+      "attacker identity",
+      "gold"
+    ]
+  },
+  "controls": [
+    "poisoned RAG",
+    "same-model three-call closed book",
+    "answerability fallback",
+    "selected leave-original-out corroboration method",
+    "deterministic stress-stability policy without an arbiter",
+    "matched same-model arbiter without stress-view outcomes"
+  ],
+  "development_gate": [
+    "No loss to the selected corroboration method on clean pooled accuracy.",
+    "Strictly better than both raw endpoints at each attacked rate.",
+    "Positive paired net gain over the selected corroboration method for at least two victim models across attacked rates.",
+    "Report all activations, gains, regressions, calls, and claim-clustered uncertainty."
+  ],
+  "method_sha256": {
+    "src/parametric_rag_defense/rag_stress.py": "6265c29cfb1fe4c16630ecae3630b7ac5ceb549c666b117379a296ff5d9debc0",
+    "scripts/run_rag_cluster_stress.py": "7fd096f679957d119c3c6777fb4e8cec19f7ce477d3b95bce9ab47b3a7d804fd",
+    "prompts/rag_answers_v1.md": "62cedd5147b03e871c18c49e19a759aeb91ebab55d555ed8e49b75d4eb5e50d5",
+    "prompts/rag_verdict_v1.md": "79c6787375544f66792558342e3a4749ba57df08b42b9871463229fe86860b94",
+    "prompts/internal_claim_v2.md": "aa237f7ef576b0cc093bb53b124d3cf3d93e645286efa5f3b489dd228876d8d3",
+    "prompts/neutral_claim_plan_v1.md": "5ff2e0f4cc9ae7f48eefdab58b022dc446b4827f77819e4bf61bacb6204a8632"
+  }
+}

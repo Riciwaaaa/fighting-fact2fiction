@@ -1,0 +1,64 @@
+{
+  "protocol_schema_version": 1,
+  "experiment_id": "environment_drift_gate_v1",
+  "status": "frozen_before_environment_gate_evaluation",
+  "freeze_date": "2026-08-12",
+  "selected_candidate_unchanged": "low_rate_corroboration_candidate_v1",
+  "research_question": "Can sealed parametric-memory disagreement identify when an entire retrieval environment has drifted far enough that uncorroborated RAG should no longer override answerable memory?",
+  "deployment_unit": "A model-specific batch or time window of claims sharing one retrieval environment.",
+  "clean_reference": {
+    "source": "The 100 development clean RAG rows and their cached three-sample same-model internal outputs.",
+    "observation": "One Bernoulli observation only when the internal majority is binary: whether RAG differs from that majority.",
+    "model_specific": true,
+    "gold_free": true,
+    "eligibility_free": true,
+    "note": "The clean reference includes every clean claim for the model; Fact2Fiction clean-correct filtering is not used to estimate it."
+  },
+  "alarm": {
+    "statistic": "Beta-binomial posterior-predictive upper-tail probability under the model-specific clean disagreement rate.",
+    "prior": "Jeffreys Beta(0.5, 0.5)",
+    "significance": 0.01,
+    "minimum_answerable_claims": 40,
+    "multiple_model_policy": "Each victim model raises its own alarm; no pooled model identity feature is used.",
+    "forbidden_inputs": [
+      "condition or nominal attack rate",
+      "attacker identity",
+      "document poison provenance",
+      "retrieved poison exposure",
+      "gold or correctness"
+    ]
+  },
+  "routing_ablation": {
+    "normal_environment": "Use low_rate_corroboration_candidate_v1: the per-row answerability fallback plus a typed leave-original-out corroboration override.",
+    "drift_environment": "Disable retrieval-based corroboration overrides and revert to the answerability fallback: binary memory majority, otherwise RAG.",
+    "purpose": "Test whether environment-level drift can select between the low-rate blend and its memory-first backbone. Full routing accuracy requires extending the frozen corroboration workflow to each evaluated rate."
+  },
+  "evaluation": {
+    "development_conditions": [
+      "clean",
+      "fact2fiction_p0.001",
+      "fact2fiction_p0.0025",
+      "fact2fiction_p0.005",
+      "fact2fiction_p0.0075",
+      "fact2fiction_p0.01",
+      "fact2fiction_p0.04",
+      "fact2fiction_p0.08"
+    ],
+    "batch_semantics": "Evaluate each condition/model cell as one exchangeable environment after the complete window is observed; no per-row online claim is made.",
+    "cross_claim_transfer": "Evaluate detection only, without method tuning, on the disjoint locked claims at clean and 1% for each attacker-victim cell. Attacker identity remains hidden from the alarm but is used for reporting. These locked claims were opened by earlier experiments, so this is a frozen cross-claim transfer diagnostic, not a new independent confirmation.",
+    "required_reporting": [
+      "clean false alarms",
+      "alarm by victim and condition",
+      "development routing accuracy against RAG, memory, and answerability",
+      "locked 1% alarm by attacker-victim cell",
+      "the delay and persistent-environment assumptions",
+      "all retrospective-development and previously opened-test caveats"
+    ]
+  },
+  "limitations_fixed_in_advance": [
+    "The alarm requires a stream or batch sharing one retrieval environment and cannot protect the first claims immediately.",
+    "A sparse targeted attack may evade an aggregate drift alarm.",
+    "The response policy cannot repair internally unanswerable claims.",
+    "The selected low-rate corroboration method remains the primary per-claim candidate; this is a complementary environment-level study."
+  ]
+}

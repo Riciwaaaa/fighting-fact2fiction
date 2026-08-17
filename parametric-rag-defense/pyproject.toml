@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parametric-rag-defense"
+version = "0.1.0"
+description = "Parametric-knowledge cross-checking for poisoned RAG"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+rag = [
+  "numpy>=1.26",
+  "sentence-transformers==3.4.1",
+  "torch>=2.3",
+  "transformers==4.48.3",
+  "tqdm>=4.66",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

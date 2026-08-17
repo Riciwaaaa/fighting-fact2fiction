@@ -1,0 +1,17 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: PYTHONPATH=src python3 -m unittest discover -s tests -v
+      - run: PYTHONPATH=src python3 scripts/make_stage1_task_matrix.py
+      - run: python3 scripts/check_no_tracked_secrets.py

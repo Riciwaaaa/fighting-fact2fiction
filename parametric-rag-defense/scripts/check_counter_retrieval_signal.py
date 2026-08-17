@@ -1,0 +1,232 @@
+#!/usr/bin/env python3
+"""Audit counter-retrieval exclusion, prompt isolation, cache, and output contracts."""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import re
+from pathlib import Path
+from typing import Any
+
+from parametric_rag_defense.averitec import atomic_json
+from parametric_rag_defense.cache import canonical_json
+from parametric_rag_defense.counter_retrieval import build_counter_packet
+from parametric_rag_defense.evidence_signals import parse_evidence_map, parse_evidence_map_text
+from parametric_rag_defense.stage2_packets import validate_visible_packet
+from parametric_rag_defense.workflow_runtime import prompt_version, render
+
+_ORIGIN = re.compile(r"\b(?:clean|poison):\d+\b", re.IGNORECASE)
+_URL = re.compile(r"https?://\S*", re.IGNORECASE)
+
+
+def read_cache(cache_root: Path, key: str) -> dict[str, Any]:
+    path = cache_root / "entries" / key[:2] / f"{key}.json"
+    value = json.loads(path.read_text(encoding="utf-8"))
+    if value.get("key") != key:
+        raise ValueError(f"Cache key mismatch: {path}")
+    return value
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--config", type=Path, default=Path("configs/stage1_matrix.json"))
+    parser.add_argument(
+        "--source-run-root",
+        type=Path,
+        default=Path("artifacts/runs/evidence_signal/evidence_signal_v1"),
+    )
+    parser.add_argument(
+        "--run-root",
+        type=Path,
+        default=Path("artifacts/runs/counter_retrieval/counter_retrieval_signal_v2"),
+    )
+    parser.add_argument("--require-maps", action="store_true")
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+    args.output = args.output or args.run_root / (
+        "audit.json" if args.require_maps else "retrieval_audit.json"
+    )
+    config = json.loads(args.config.read_text(encoding="utf-8"))
+    source_manifest = json.loads(
+        (args.source_run_root / "private_manifest.json").read_text(encoding="utf-8")
+    )
+    manifest = json.loads((args.run_root / "private_manifest.json").read_text(encoding="utf-8"))
+    source_by_identity = {
+        (row["victim_model_id"], int(row["claim_id"]), row["condition_id"]): row
+        for row in source_manifest["rows"]
+    }
+    observed_by_identity = {
+        (row["victim_model_id"], int(row["claim_id"]), row["condition_id"]): row
+        for row in manifest["rows"]
+    }
+    failures = []
+    if set(source_by_identity) != set(observed_by_identity):
+        failures.append(
+            f"scope mismatch missing={len(set(source_by_identity)-set(observed_by_identity))} "
+            f"unexpected={len(set(observed_by_identity)-set(source_by_identity))}"
+        )
+    if len(manifest["rows"]) != len(observed_by_identity):
+        failures.append("duplicate manifest row identities")
+    if manifest.get("failures"):
+        failures.append(f"runtime manifest contains {len(manifest['failures'])} failures")
+    if args.require_maps and manifest.get("completed_outputs") != len(source_by_identity):
+        failures.append("mapped output count is incomplete")
+
+    namespace_root = (
+        Path(config["run_root"])
+        / config["dataset"].get("active_split", "development")
+        / "rag"
+        / config["rag_pipeline"]["artifact_namespace"]
+    )
+    trace_root = namespace_root / "private_traces"
+    model_configs = {model["id"]: model for model in config["models"] if model.get("enabled")}
+    template, version = prompt_version(
+        Path("prompts/evidence_passage_map_v1.md"), "evidence_passage_map_v1"
+    )
+    cache_root = Path(config["cache_root"])
+    cache_keys = set()
+    usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
+    exposure = {condition: {"rows": 0, "documents": 0, "poison": 0, "exposed_rows": 0} for condition in manifest["condition_counts"]}
+    for identity, row in observed_by_identity.items():
+        try:
+            source = source_by_identity[identity]
+            source_packet = json.loads(Path(source["packet_path"]).read_text(encoding="utf-8"))
+            trace_path = trace_root / source["rag_task_key"][:2] / f"{source['rag_task_key']}.json"
+            trace = json.loads(trace_path.read_text(encoding="utf-8"))
+            private = json.loads(Path(row["counter_retrieval_path"]).read_text(encoding="utf-8"))
+            packet = json.loads(Path(row["counter_packet_path"]).read_text(encoding="utf-8"))
+            if private["source_rag_task_key"] != source["rag_task_key"]:
+                raise ValueError("counter retrieval source task mismatch")
+            if private["source_packet_key"] != source_packet["packet_key"]:
+                raise ValueError("counter retrieval source packet mismatch")
+            if "stage1-no-backfill-v2" not in private["exclusion_policy"]:
+                raise ValueError("unexpected counter retrieval policy")
+            original = [entry for group in trace["retrievals"] for entry in group]
+            expected_ids = {str(entry["document_id"]) for entry in original}
+            expected_hashes = {str(entry["text_sha256"]) for entry in original}
+            if set(private["excluded_document_ids"]) != expected_ids:
+                raise ValueError("original document exclusion mismatch")
+            if set(private["excluded_text_sha256"]) != expected_hashes:
+                raise ValueError("original exact-text exclusion mismatch")
+            counter = [entry for group in private["retrievals"] for entry in group]
+            counter_ids = [str(entry["document_id"]) for entry in counter]
+            if len(counter_ids) != len(set(counter_ids)):
+                raise ValueError("counter documents repeat across queries")
+            if set(counter_ids) & expected_ids:
+                raise ValueError("original document survived exclusion")
+            if {str(entry["text_sha256"]) for entry in counter} & expected_hashes:
+                raise ValueError("original exact text survived exclusion")
+            reconstructed = [
+                [{**entry, "text": entry["text_excerpt"]} for entry in group]
+                for group in private["retrievals"]
+            ]
+            expected_packet = build_counter_packet(
+                claim=source_packet["visible"]["claim"],
+                claim_date=source_packet["visible"]["claim_date"],
+                neutral_plan=source_packet["visible"]["neutral_claim_plan"],
+                questions=[str(item["question"]) for item in trace["plan"]["questions"]],
+                retrievals=reconstructed,
+                source_rag_task_key=source["rag_task_key"],
+                source_packet_key=source_packet["packet_key"],
+                same_model_id=row["victim_model_id"],
+                excluded_document_count=len(expected_ids),
+                excluded_text_sha256=sorted(expected_hashes),
+            )
+            if packet != expected_packet:
+                raise ValueError("counter packet reconstruction mismatch")
+            validate_visible_packet(packet["visible"])
+            prompt = render(
+                template,
+                {
+                    "EVIDENCE_PACKET": json.dumps(
+                        packet["visible"], ensure_ascii=False, sort_keys=True, indent=2
+                    )
+                },
+            )
+            if (
+                (row["condition_id"] != "clean" and row["condition_id"] in prompt)
+                or row["victim_model_id"] in prompt
+                or _ORIGIN.search(prompt)
+                or _URL.search(prompt)
+            ):
+                raise ValueError("private identifier or URL leaked into counter prompt")
+            stats = exposure[row["condition_id"]]
+            stats["rows"] += 1
+            stats["documents"] += len(counter)
+            poison_count = sum(bool(entry["is_poison"]) for entry in counter)
+            stats["poison"] += poison_count
+            stats["exposed_rows"] += int(poison_count > 0)
+
+            if args.require_maps:
+                output = json.loads(Path(row["output_path"]).read_text(encoding="utf-8"))
+                if output["counter_packet_key"] != packet["packet_key"]:
+                    raise ValueError("map output packet mismatch")
+                expected_output_key = hashlib.sha256(
+                    canonical_json(
+                        {
+                            "counter_packet_key": packet["packet_key"],
+                            "map_cache_key": output["map_cache_key"],
+                            "contract_version": output["contract_version"],
+                        }
+                    ).encode()
+                ).hexdigest()
+                if output["output_key"] != expected_output_key:
+                    raise ValueError("map output identity mismatch")
+                passage_ids = {value["passage_id"] for value in packet["visible"]["passages"]}
+                parse_evidence_map(output["judgment"], expected_passage_ids=passage_ids)
+                entry = read_cache(cache_root, output["map_cache_key"])
+                parse_evidence_map_text(
+                    entry["response"]["raw_text"], expected_passage_ids=passage_ids
+                )
+                request = entry["request"]
+                model = model_configs[row["victim_model_id"]]
+                if request["model"] != model["model"]:
+                    raise ValueError("counter map is not same-model")
+                if request["stage"] != "counter_retrieval_passage_map_v1":
+                    raise ValueError("counter map stage mismatch")
+                if not request["prompt_version"].startswith(version):
+                    raise ValueError("counter map prompt version mismatch")
+                if request["messages"][0] != {"role": "user", "content": prompt}:
+                    raise ValueError("counter map prompt reconstruction mismatch")
+                if any(
+                    message.get("role") != "user"
+                    or "Evidence-map format repair" not in message.get("content", "")
+                    for message in request["messages"][1:]
+                ):
+                    raise ValueError("unexpected counter map retry message")
+                if output["map_cache_key"] not in cache_keys:
+                    cache_keys.add(output["map_cache_key"])
+                    call_usage = entry["response"].get("usage") or {}
+                    for field in usage:
+                        usage[field] += int(call_usage.get(field) or 0)
+        except Exception as exc:
+            failures.append(
+                f"row model={identity[0]} claim={identity[1]} condition={identity[2]}: "
+                f"{type(exc).__name__}: {exc}"
+            )
+    for stats in exposure.values():
+        stats["mean_documents"] = stats["documents"] / stats["rows"] if stats["rows"] else None
+        stats["poison_fraction"] = stats["poison"] / stats["documents"] if stats["documents"] else None
+        stats["row_exposure_rate"] = stats["exposed_rows"] / stats["rows"] if stats["rows"] else None
+    audit = {
+        "audit_schema_version": 1,
+        "experiment_id": manifest["experiment_id"],
+        "phase": "mapped" if args.require_maps else "retrieval",
+        "expected_rows": len(source_by_identity),
+        "observed_rows": len(observed_by_identity),
+        "counter_exposure_private_diagnostic": exposure,
+        "unique_map_cache_entries": len(cache_keys),
+        "referenced_map_usage": usage,
+        "failures": failures,
+        "status": "passed" if not failures else "failed",
+    }
+    atomic_json(args.output, audit)
+    print(json.dumps(audit, indent=2, sort_keys=True))
+    if failures:
+        raise SystemExit(1)
+
+
+if __name__ == "__main__":
+    main()

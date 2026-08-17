@@ -1,0 +1,36 @@
+{
+  "cache_root": "artifacts/cache/llm",
+  "rag_pipeline": {
+    "artifact_namespace": "stage1_crossed_defense_v2"
+  },
+  "models": [
+    {
+      "id": "llama31_70b",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvcf/meta/llama-3.1-70b-instruct",
+      "roles": ["internal", "rag_victim", "arbiter"]
+    },
+    {
+      "id": "qwen35_35b_a3b",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvidia/qwen/qwen3.5-35b-a3b",
+      "request_parameters": {
+        "chat_template_kwargs": {"enable_thinking": false},
+        "include_reasoning": false
+      },
+      "roles": ["internal", "rag_victim", "arbiter"]
+    },
+    {
+      "id": "glm52",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvidia/zai-org/glm-5.2",
+      "request_parameters": {
+        "chat_template_kwargs": {"enable_thinking": false}
+      },
+      "roles": ["internal", "rag_victim", "arbiter"]
+    }
+  ]
+}

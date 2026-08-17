@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+.env
+*.env
+
+# LLM responses and experimental payloads can be large or sensitive.
+artifacts/cache/
+artifacts/runs/
+artifacts/legacy/
+artifacts/evaluation/
+artifacts/data/
+*.egg-info/
+
+# Credentials must never be committed.
+**/api_keys.yaml
+**/secrets.json

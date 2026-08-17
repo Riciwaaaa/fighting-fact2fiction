@@ -1,0 +1,54 @@
+{
+  "protocol_schema_version": 1,
+  "experiment_id": "rag_stress_arbiter_v1",
+  "status": "frozen_before_arbiter_calls",
+  "freeze_date": "2026-08-11",
+  "selected_candidate_unchanged": "low_rate_corroboration_candidate_v1",
+  "scope": {
+    "source_disagreement_rows": 363,
+    "binary_endpoint_rows": 227,
+    "attacked_binary_endpoint_rows": 173,
+    "activation": "The original RAG and three-call closed-book majority are different binary Supported/Refuted labels.",
+    "nonbinary_memory_policy": "Do not call either selector; retain the selected corroboration candidate."
+  },
+  "variants": {
+    "control": "Same-model selector sees the sealed internal record, pre-retrieval claim plan, endpoint labels, current champion, and original RAG process counts; stress record is explicitly withheld.",
+    "full": "The same selector additionally sees anonymous assertion-unit structure and all fixed-context stress outcomes."
+  },
+  "action_mapping": {
+    "trust_rag": "Copy the original RAG endpoint label.",
+    "trust_memory": "Copy the three-call same-model closed-book endpoint label.",
+    "keep_champion": "Copy the selected low-rate corroboration prediction."
+  },
+  "information_hidden": [
+    "raw retrieved passages and their factual summaries",
+    "condition and nominal attack rate",
+    "poison provenance",
+    "attacker identity",
+    "gold"
+  ],
+  "decoding": {
+    "temperature": 0.1,
+    "top_p": 0.7,
+    "max_tokens": 1800,
+    "seed": 577,
+    "contract_retries": 2
+  },
+  "call_budget": {
+    "control": 227,
+    "full": 227,
+    "total_before_contract_repairs": 454
+  },
+  "reporting": [
+    "Full-system accuracy by victim and rate for both variants.",
+    "Paired gains and regressions versus RAG, memory, answerability, and selected corroboration.",
+    "Direct full-versus-control comparison to isolate the stress record's contribution.",
+    "Action profiles and claim-clustered uncertainty.",
+    "A deterministic structural-policy ablation derived only after outputs and labeled as post-label development if labels inform it."
+  ],
+  "method_sha256": {
+    "prompts/rag_stress_arbiter_v1.md": "82bac16cf060866eb58659cb1e50793683d2edcd6fb8f493711f84219d610ba6",
+    "src/parametric_rag_defense/rag_stress_arbiter.py": "e4100bce7b41ff1a7573c7da3462f499b9bc74316dec67c7e6125b8f14124ecb",
+    "scripts/run_rag_stress_arbiter.py": "454427e95e9e1b035c4720db9a35f1481669f22e3c7624f1f96fbc36d12b0236"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "amendment_schema_version": 1,
+  "experiment_id": "environment_confirmation_train_v1",
+  "status": "frozen_before_recollection_of_the_affected_counter_view_report",
+  "amendment_date": "2026-08-12",
+  "trigger": "The counter-view packet for Llama claim 710 at four-percent poisoning contained a retrieved item made only of underscore separators. Across eleven retained attempts, the reporter consistently returned an empty key_assertion for that item while assessing the other passages, so no attempt satisfied the pre-existing passage-complete contract.",
+  "decision_independence": "The defect and filter are detectable from retrieval text alone. The amendment does not inspect or depend on the gold label, endpoint verdicts, attack condition, correctness, model confidence, or poison provenance.",
+  "operational_rule": {
+    "scope": "Counter-view evidence packets.",
+    "rule": "After URL masking, evidence-length truncation, and surrounding-whitespace removal, omit a retrieved item if it contains no Unicode alphanumeric character. Omit its passage alias from the associated retrieval-question link as well.",
+    "all_content_removed": "If the rule removes every item in a packet, fail rather than synthesize evidence.",
+    "semantics": "This extends amendment 1's identical non-content rule to counter-view packets. The affected packet retains all 23 substantive passages and removes only the separator."
+  },
+  "affected_observed_failure": {
+    "counter_retrieval_key": "e42465303005234a34a41afdafeb586f91a2ebe60033f297f1b57fff74724bd2",
+    "source_rag_task_key": "7878e7fdaed216b126ca07162916e0753e1e412da4f4bd5c602002c24de90fae",
+    "claim_id": 710,
+    "victim_model_id": "llama31_70b",
+    "condition_id": "fact2fiction_p0.04"
+  },
+  "unchanged": [
+    "all protocol and earlier-amendment provisions",
+    "counter retrieval results and exclusion records",
+    "all substantive counter-view passage text",
+    "evidence-map prompt and contract for every retained passage",
+    "same-model reporting, defense policy, thresholds, baselines, success gate, and evaluation"
+  ],
+  "updated_sha256": {
+    "src/parametric_rag_defense/counter_retrieval.py": "7762493dbee60540c3edaa14ec36ca174204d968ad4516227f54774da6b11153"
+  }
+}

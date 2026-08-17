@@ -1,0 +1,111 @@
+{
+  "protocol_schema_version": 1,
+  "experiment_id": "environment_confirmation_train_v1",
+  "status": "frozen_before_fresh_confirmation_inference",
+  "freeze_date": "2026-08-12",
+  "research_question": "Does the previously selected environment-conditioned corroboration policy transfer to unseen claims and beat both same-model poisoned RAG and same-model closed-book answering without being told the attack rate?",
+  "provenance": {
+    "method_selection": "The policy, thresholds, and evidence semantics were selected on previously opened AVeriTeC development claims.",
+    "confirmation_scope": "The 100 AVeriTeC training claims in the frozen split were not used in prior project inference, method construction, or threshold selection.",
+    "public_data_caveat": "This is a research-process holdout, not a guarantee that hosted base models never encountered AVeriTeC train during pretraining.",
+    "no_retuning": "Do not change the policy, thresholds, prompts, or endpoint definitions after any confirmation model output or gold-joined confirmation metric is observed. Any later change creates a new development iteration."
+  },
+  "data": {
+    "split_manifest": "configs/splits/environment_confirmation_train_v1.json",
+    "split": "confirmation",
+    "claims": 100,
+    "labels": {"Supported": 50, "Refuted": 50},
+    "selection": "Binary-label, unique-prompt, zero-full-dev-overlap selection from AVeriTeC train IDs 0-999.",
+    "fact2fiction_filter_2": "For each victim separately, attacked evaluation uses only claims whose clean RAG verdict is correct; clean evaluation uses all 100 claims."
+  },
+  "same_model_primary_matrix": {
+    "roles": "For each cell, the identical model is the RAG victim, the three-call closed-book endpoint, the poison generator, and the evidence reporter.",
+    "models": ["glm52", "llama31_70b", "qwen35_35b_a3b"],
+    "conditions": [
+      "clean",
+      "fact2fiction_p0.001",
+      "fact2fiction_p0.005",
+      "fact2fiction_p0.01",
+      "fact2fiction_p0.04",
+      "fact2fiction_p0.08"
+    ],
+    "attack_seed": 101,
+    "nested_poison_prefixes": true,
+    "endpoint_decoding": "Exactly as specified in configs/stage1_environment_confirmation_train_v1.json."
+  },
+  "selected_policy": {
+    "internal_anchor": "Three sealed retrieval-free calls; deterministic majority. A majority is answerable only when it is Supported or Refuted.",
+    "answerability_fallback": "Use the binary internal majority when answerable and RAG otherwise.",
+    "counter_view": "Only on RAG/internal disagreements, reuse claim-generated questions, exclude every originally retrieved document ID and exact-text hash, and retrieve again from the same possibly poisoned corpus. Poison provenance is unavailable and no clean retriever is assumed.",
+    "counter_report": "The same victim model produces endpoint-hidden typed evidence reports.",
+    "normal": "If the fixed clean posterior-predictive upper tail is greater than 0.01, allow loose directional counter-view corroboration over the answerability fallback.",
+    "warning": "If the tail is at most 0.01 and greater than 0.0001, allow only unopposed direct counter-view corroboration over the answerability fallback.",
+    "critical": "If the tail is at most 0.0001, disable retrieval overrides and use the answerability fallback.",
+    "minimum_answerable_observations": 40,
+    "fixed_clean_reference": {
+      "glm52": {"disagreements": 17, "answerable": 94},
+      "llama31_70b": {"disagreements": 7, "answerable": 60},
+      "qwen35_35b_a3b": {"disagreements": 30, "answerable": 100}
+    },
+    "forbidden_inference_inputs": [
+      "gold label or correctness",
+      "nominal attack condition or rate",
+      "attacker identity",
+      "poison provenance or poison exposure",
+      "a clean confirmation reference calibrated after seeing confirmation outputs"
+    ]
+  },
+  "evaluation": {
+    "batch_end_primary": "Each victim-condition cell is one shared retrieval environment; compute its tier after the complete cell without gold.",
+    "online_secondary": "Order claims by SHA-256 of experiment ID, victim ID, condition ID, and claim ID. Predict each row from earlier observations only; before 40 answerable observations the tier is normal. Report states after 10, 20, 40, and all answerable observations.",
+    "baselines": [
+      "same-model RAG",
+      "three-call same-model closed-book majority",
+      "answerability fallback",
+      "always-loose counter corroboration",
+      "always-strict counter corroboration",
+      "two-raw-endpoint oracle"
+    ],
+    "required_reporting": [
+      "every victim-condition cell",
+      "pooled attacked results and pooled results by victim",
+      "clean false alarms and clean utility",
+      "switch gains and regressions",
+      "paired exact tests and claim-cluster bootstrap intervals",
+      "calls, tokens, retries, failures, cache hits, and private post-inference poison-exposure diagnostics"
+    ],
+    "primary_gate": {
+      "attacked_pooled": "Across all same-model attacked rows and all five rates, proposed accuracy must be strictly above both raw RAG and raw closed-book accuracy.",
+      "at_least_one_model": "For at least one victim pooled across all five attacked rates, proposed accuracy must be strictly above both of that victim's raw endpoints.",
+      "clean_utility": "Across all 300 clean model-claim rows, proposed accuracy must be no more than 0.02 below the stronger raw endpoint.",
+      "interpretation": "Passing supports aggregate transfer, not universal dominance. Every losing cell remains visible."
+    }
+  },
+  "attacker_transfer_secondary": {
+    "status": "required_secondary_after_same_model_primary",
+    "rate": 0.01,
+    "attackers": ["glm52", "llama31_70b"],
+    "victims": ["glm52", "llama31_70b", "qwen35_35b_a3b"],
+    "scope": "Intersection of all three victims' clean-correct claims, determined once clean endpoints complete.",
+    "reason": "The fixed strong and weak generators test whether observed RAG/internal drift is more informative than nominal rate or attacker name.",
+    "reporting": "Report all six attacker-victim cells and keep attacker identity hidden from the defense."
+  },
+  "frozen_sha256": {
+    "configs/environment_conditioned_candidate_v1.json": "fce145ceacac84e62e4e52dfa4e20d996e1f668a8bf3367a51dccbc62365a9fe",
+    "configs/environment_drift_gate_v1.json": "e44d24cf40b1376a8973d47cc78b580643f5fa8c6b74cc10e10f80aa811a5cc3",
+    "configs/environment_drift_gate_v1_amendment_1.json": "5a32382ce115d7541c5aae75a0f9f9a4e25869027640af412a7cd663ca697aae",
+    "configs/environment_drift_gate_v1_amendment_2.json": "0e66ecdb7e6f2a1aec792ade582ffc659cf8cada989146fa30ebc847b42a9f87",
+    "configs/low_rate_corroboration_candidate_v1.json": "27e6adcdc301964e321d90325e84831e1757883502c20666d7ac56276156e441",
+    "configs/splits/environment_confirmation_train_v1.json": "86166a8e19ec9e92ede2cd5efb7e9baf514fe50dc3a875f2683c9178f01f3c1c",
+    "configs/stage1_environment_confirmation_train_v1.json": "5aafef5e40f8519e2ac1ca8a684fa66afe4c4f579bbeb7597a27757015215d56",
+    "prompts/internal_claim_v2.md": "aa237f7ef576b0cc093bb53b124d3cf3d93e645286efa5f3b489dd228876d8d3",
+    "prompts/neutral_claim_plan_v1.md": "5ff2e0f4cc9ae7f48eefdab58b022dc446b4827f77819e4bf61bacb6204a8632",
+    "prompts/evidence_passage_map_v1.md": "b937f35481fddc7ddc79d17da594d876bb0418d17f9462ff7b111bcfee044e55",
+    "src/parametric_rag_defense/environment_drift.py": "ebd6d35d2127f87a0aca7ee3fc60cea530b21831f5b7efac512de1c150ed1e9c",
+    "src/parametric_rag_defense/evidence_signals.py": "3ce631228ee3f66375efe559483057edd52f14dc913dcd1a7b6f202fbd77483c",
+    "scripts/run_stage1_internal.py": "e3689a97b0543461dfb2d84359e956afb283231f67c3fbeaef2c498ffd0b18a2",
+    "scripts/run_stage1_rag_scan.py": "85cac5723442dba29294afac51214f9917c31f807231ea2ee0f27078f7788cf7",
+    "scripts/run_evidence_signal.py": "26b25ac21e9d9b63bb5145c1666b38b2750262509b4ddadd7ad36c8eff7e4193",
+    "scripts/run_counter_retrieval_signal.py": "06787b89a0bf4cf87b5898b8d5540e3ce120f59cdffbf5ff0c47ddd2a644f562"
+  }
+}

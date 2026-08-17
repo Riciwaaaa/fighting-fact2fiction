@@ -1,0 +1,41 @@
+{
+  "protocol_schema_version": 1,
+  "experiment_id": "query_aligned_trace_feasibility_v1",
+  "status": "frozen_before_aggregate_analysis",
+  "freeze_date": "2026-08-11",
+  "scope": {
+    "source": "The 363 existing same-model RAG/closed-book disagreement rows used by counter_retrieval_signal_v2.",
+    "conditions": [
+      "clean",
+      "fact2fiction_p0.001",
+      "fact2fiction_p0.0025",
+      "fact2fiction_p0.005"
+    ],
+    "models": ["glm52", "llama31_70b", "qwen35_35b_a3b"],
+    "new_llm_calls": 0
+  },
+  "definitions": {
+    "poison_exposed_question": "At least one retrieved result for the RAG question has private is_poison=true.",
+    "poison_selected_answer": "The RAG answer's selected_rank points to a retrieved result with private is_poison=true.",
+    "localization_interpretation": "Because the final RAG judge receives only the selected answer and its selected passage, a poison-selected answer identifies an injected item that entered the final decision record. Exposure alone is not treated as localization or causation.",
+    "private_provenance_boundary": "Poison provenance is used only for retrospective evaluation and is never an input to a proposed defense."
+  },
+  "primary_questions": [
+    "Among attacked disagreement rows where RAG is wrong, how often is poison merely retrieved and how often is it selected?",
+    "How enriched is selected poison in RAG-wrong versus RAG-correct disagreement rows?",
+    "Does the pattern hold separately for each victim model and poisoning rate?",
+    "How many distinct model-claim cases are available for a query-aligned internal replay experiment?"
+  ],
+  "follow_up_gate": {
+    "minimum_attacked_rag_error_rows_with_selected_poison": 20,
+    "minimum_victim_models_with_selected_poison_errors": 2,
+    "minimum_wrong_vs_correct_selected_poison_risk_ratio": 2.0,
+    "action_if_passed": "Run cached same-model closed-book answers to the exact RAG questions, followed by a small controlled-removal experiment on selected-poison and matched clean selected passages.",
+    "action_if_failed": "Do not use passage localization as a selector. Retain end-question answerability as the method and report query traces only as negative analysis."
+  },
+  "non_claims": [
+    "A selected poisoned passage is not by itself proof that it caused the wrong verdict.",
+    "A semantic conflict is not assumed to identify poisoned evidence.",
+    "Results on these development claims are not fresh confirmation."
+  ]
+}

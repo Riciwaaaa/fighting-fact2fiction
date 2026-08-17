@@ -1,0 +1,86 @@
+{
+  "freeze_schema_version": 1,
+  "frozen_at": "2026-08-10",
+  "status": "frozen_before_any_locked_model_output",
+  "authorization": "User explicitly authorized proceeding with the untouched held-out confirmation.",
+  "git_parent_commit": "5eb52bbf4c17095afe085fee77c34cf04f30f6a0",
+  "experiment_id": "stage5_locked_neutral_firewall_v1",
+  "split": {
+    "name": "locked_test",
+    "candidate_claims": 100,
+    "labels": ["Supported", "Refuted"],
+    "balance": "50/50 as fixed by configs/splits/stage1.json",
+    "selection": "Run every clean endpoint first. The crossed 1% scope is the intersection of claims for which all three victims' clean RAG verdict equals binary gold, exactly following the Fact2Fiction second eligibility filter. The resulting count is not fixed in advance.",
+    "gold_isolation": "Gold may be used mechanically to form clean eligibility. Individual labels are forbidden from model prompts and are otherwise joined only once after endpoint, packet, and Stage 5 audits pass."
+  },
+  "models": ["glm52", "llama31_70b", "qwen35_35b_a3b"],
+  "same_model_constraint": "For every evaluated row, RAG, three-repeat closed-book, neutral planning/direct control, isolated assessments, and final selector use the victim model.",
+  "endpoint_collection": {
+    "internal": "Three cached closed-book judgments per model/claim using seeds 11, 29, and 47; 900 outputs total.",
+    "clean_rag": "One clean RAG endpoint per model/claim; 300 endpoints total.",
+    "attack_rate": 0.01,
+    "attack_seed": 101,
+    "attackers": ["glm52", "llama31_70b", "qwen35_35b_a3b"],
+    "victims": ["glm52", "llama31_70b", "qwen35_35b_a3b"],
+    "crossed_endpoint_count": "9 * jointly_eligible_claim_count",
+    "attack_material": "Each attacker generates the frozen 12-blueprint deterministic poison expansion; every victim receives the exact 1% prefix from that attacker.",
+    "retrieval": "GTE-base-en-v1.5, top-k 5, ten victim-generated questions, neutral evidence IDs, URLs masked."
+  },
+  "workflow": {
+    "activation": "On RAG/closed-book verdict disagreement only; copy agreement without calls.",
+    "neutral_variant": "Claim-only neutral plan, supportive retrieval-isolated check, skeptical retrieval-isolated counter-check, then rationale-firewalled endpoint selection.",
+    "exact_call_control": "Three direct retrieval-isolated assessments using balanced, premise-skeptical, and temporal/entity perspectives, then the identical endpoint selector.",
+    "logical_calls_per_disagreement_per_variant": 4,
+    "selector_visibility": ["claim", "claim date", "two endpoint labels", "retrieval-isolated analysis bundle"],
+    "selector_hidden": ["retrieved text", "RAG rationale", "endpoint confidence", "coverage", "attacker", "condition", "gold"],
+    "action_space": ["retrieval", "memory"]
+  },
+  "strict_semantic_guard": {
+    "accept_retrieval_if": "The LLM selector requests retrieval, both isolated check verdicts equal the retrieval endpoint label, both knowledge_basis fields equal direct_recall, and both decisive_propositions lists are nonempty.",
+    "otherwise": "Select the memory endpoint.",
+    "uses_gold": false,
+    "uses_attacker_or_condition": false,
+    "uses_retrieved_text_or_rag_rationale": false,
+    "model_specific_policy": false,
+    "synthesized_verdicts": false
+  },
+  "decoding": {
+    "internal": {"temperature": 0.2, "top_p": 0.7, "max_tokens": 1200, "seeds": [11, 29, 47]},
+    "rag_plan_answer_verdict": {"temperature": 0.01, "top_p": 0.7, "seeds": [11]},
+    "neutral_plan": {"temperature": 0.2, "top_p": 0.7, "max_tokens": 1000, "seed": 97},
+    "support_check": {"temperature": 0.2, "top_p": 0.7, "max_tokens": 1200, "seed": 101},
+    "counter_check": {"temperature": 0.2, "top_p": 0.7, "max_tokens": 1200, "seed": 103},
+    "direct_control_seeds": [97, 101, 103],
+    "selector": {"temperature": 0.2, "top_p": 0.7, "max_tokens": 1000, "seed": 107},
+    "contract_retries": 2
+  },
+  "evaluation_gates": {
+    "per_victim_practical_gate": "Across the three equally sized attacker cells, strict_policy must be strictly more accurate than both RAG and same-model closed-book and lose no more than two percentage points from the stronger clean endpoint.",
+    "model_general_gate": "At least two victims pass the per-victim practical gate.",
+    "strong_attacker_gate": "Aggregated across victims under GLM-generated poison, strict_policy must be at least as accurate as same-model closed-book.",
+    "method_specificity_gate": "Across every attacked row, strict_policy must be strictly more accurate than the exact-call direct_deliberation control.",
+    "overall_confirmation_gate": "All three gates above must pass.",
+    "uncertainty": "Report paired exact McNemar counts and 10,000-sample bootstrap intervals clustered by claim ID. The practical gate is primary; uncertainty is mandatory and no repeated attacker row is treated as an independent claim."
+  },
+  "stopping_policy": "After locked gold is joined, do not modify prompts, semantic predicates, thresholds, models, eligibility, attack rate, attacker panel, or scope. Report pass or failure and retain all artifacts.",
+  "frozen_files_sha256": {
+    "configs/stage1_matrix.json": "6a2e28d1afe395fdb1d38ca41dab8dca8a4d309c3a48b6931854941a1633814a",
+    "configs/splits/stage1.json": "6846dac34ec352609190c0616f50f040ec9651c33920836aad61611ef978a802",
+    "prompts/neutral_claim_plan_v1.md": "5ff2e0f4cc9ae7f48eefdab58b022dc446b4827f77819e4bf61bacb6204a8632",
+    "prompts/neutral_support_check_v1.md": "98d6deae47e58581d5b427aec93f29749d1107b9e684c0cdc22da7318428e186",
+    "prompts/neutral_counter_check_v1.md": "2c863448ed873fd1bdc21dd46c76e858f301665f567b97362f2d5b69377d2824",
+    "prompts/direct_deliberation_control_v1.md": "6eb583357235afcec0476f4c2a12fa28d2586cab1ea46eff65059f8286fdef20",
+    "prompts/firewalled_endpoint_selector_v1.md": "ded78ae04319c8dc05133908578dbb369781e1138908b4cea49dc943912fe9fb",
+    "src/parametric_rag_defense/strict_firewall.py": "877a059b4a678f35d8d0a3b5e01242889c699261405810ae18d19515a4be69b0",
+    "scripts/run_stage1_internal.py": "7e0dfbf4159d9ccf8d3cdb17b9896dcf8cf36cdfd320ee7ef7671a476e948e86",
+    "scripts/audit_stage1_internal.py": "33ecb239fb43262e230ca49920886eff917dac4a63651ffd9bbd2a077997b0e8",
+    "scripts/run_stage1_rag_scan.py": "80bb084e1291d1dd8fe632269c884c4fe1c88c90c87da2484d932293d74534a7",
+    "scripts/run_locked_clean_rag.py": "7204f83aead60f0665764f4eda034c34199640ff51ca4d6dc8db15c7109ad04a",
+    "scripts/run_locked_crossed_rag.py": "7d8a0c085c8aaa53f79c96da1c34400ee8f8932823379829c957f31ee70d254f",
+    "scripts/build_locked_neutral_inputs.py": "d96142357942483d9e7534ef62700cc5adfa7e70d6c8d0db98e34fc0079f4dc6",
+    "scripts/check_locked_confirmation_inputs.py": "52d4ce503f561920d6397d0053c9fa9e25c7f995ac7f9c400eb35fee1f8b917b",
+    "scripts/run_neutral_firewall.py": "960b68d0b60b1ca13835f5f2b69e05ae534bf436ff40dc68e4f0cc6516d66a12",
+    "scripts/check_neutral_firewall.py": "45621c9dd410756862a4f10144a27dd6cf196a078a9ae832ead758ac5d70379c",
+    "scripts/summarize_locked_neutral_firewall.py": "1e91fb6c718f85f3e122f875363e24a647dc59f0e50a9f28c9734883580a9fb3"
+  }
+}
