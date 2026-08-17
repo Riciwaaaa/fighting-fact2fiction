@@ -1,0 +1,19 @@
+{
+  "amendment_schema_version": 1,
+  "experiment_id": "rag_cluster_stress_v1",
+  "amendment_date": "2026-08-11",
+  "timing": "after the first 924/925 answer contexts and their 924 verdicts, before any stress-result accuracy or poison-provenance analysis",
+  "reason": [
+    "One GLM context exhausted three answer-contract attempts because unanswered items used status=none and answer=null but retained selected_rank=1.",
+    "The first runner version embedded runtime cache-hit receipts in immutable outputs and therefore needed explicit artifact-first resume validation."
+  ],
+  "changes": [
+    "For status=none and answer=null only, set a non-null selected_rank to null before applying the unchanged Stage 1 answer contract.",
+    "On resume, validate and reuse an existing immutable stress output by version, execution key, answers, and structured verdict instead of reconstructing runtime receipts."
+  ],
+  "factual_content_change": false,
+  "stress_view_change": false,
+  "decoding_change": false,
+  "scope_change": false,
+  "label_or_provenance_inspected": false
+}

@@ -1,0 +1,63 @@
+{
+  "freeze_schema_version": 1,
+  "frozen_at": "2026-08-10",
+  "status": "frozen_before_development_validation",
+  "primary_model": "llama31_70b",
+  "conditions": [
+    "clean",
+    "fact2fiction_p0.01"
+  ],
+  "router_variant": "endpoint_only",
+  "method": "aligned_stage4_c_v1",
+  "activation": "rag_verdict != same_model_memory_verdict",
+  "agreement_policy": "copy the common endpoint verdict without an additional call",
+  "disagreement_policy": "one isolated pivotal-proposition check followed by endpoint-only selection",
+  "calls_per_disagreement": 2,
+  "decoding": {
+    "router": {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "seed": 11,
+      "max_tokens": 1200
+    },
+    "proposition_check": {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "seed": 71,
+      "max_tokens": 1200
+    },
+    "final_selector": {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "seed": 83,
+      "max_tokens": 1000
+    },
+    "contract_retries": 2
+  },
+  "frozen_files_sha256": {
+    "prompts/aligned_router_endpoint_v1.md": "6c86329e44d910e923b8aa46b385b1561e8ef91f8dc2eb522be76b708ac638c3",
+    "prompts/aligned_proposition_check_v1.md": "ca366e32493cfaa0ff724e15b8df6b91b97044ff746787b27f171c6957aa2ee4",
+    "prompts/aligned_final_arbiter_v1.md": "c3470c5647624730e51c095e0d3feb3f35c6a4be1bede090a8ba092a256ce165",
+    "scripts/run_aligned_router.py": "b90b042e0b277e08335593393cb8362795a67ecdfdbcb77ff1b6c94161676c0c",
+    "scripts/run_aligned_verification.py": "5beb00c6f53ed2a25bc1da0c9b22c0f7a44a8dad42928149acd24bbf4a9c8714",
+    "src/parametric_rag_defense/aligned_workflow.py": "67b36f48dbaca7a5bcd7314ccf478ff85aa13919544d83bc534b6d35e5446b7b",
+    "configs/splits/stage234_development.json": "611fd870016e507d7505b7c441234e1724b96c899b5aedbeb513679b8ec3058d"
+  },
+  "method_design_evidence": {
+    "clean": {
+      "stage_c_correct": 43,
+      "rag_correct": 44,
+      "same_model_memory_correct": 34,
+      "total": 60
+    },
+    "fact2fiction_p0.01": {
+      "stage_c_correct": 35,
+      "rag_correct": 29,
+      "same_model_memory_correct": 31,
+      "equal_call_direct_control_correct": 32,
+      "total": 44
+    }
+  },
+  "selection_rationale": "Stage C passes the attacked and clean gates and exceeds a stronger seven-call direct-answer control. The preregistered seven-call proposition v2 also beats both attacked endpoints but fails the clean gate, so it is retained as a negative ablation and is not tuned further.",
+  "validation_policy": "Run once on the 40 claim-grouped development_validation claims; do not change any frozen file or decoding setting after joining validation gold."
+}

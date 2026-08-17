@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "stage1_internal_judgment.schema.json",
+  "title": "Stage 1 retrieval-free claim judgment",
+  "type": "object",
+  "required": [
+    "verdict",
+    "confidence",
+    "knowledge_basis",
+    "rationale",
+    "decisive_propositions",
+    "premise_concerns"
+  ],
+  "properties": {
+    "verdict": {
+      "enum": ["Supported", "Refuted", "Conflicting Evidence", "Not Enough Evidence"]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "knowledge_basis": {
+      "enum": ["direct_recall", "inference", "insufficient_knowledge"]
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decisive_propositions": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "maxItems": 5
+    },
+    "premise_concerns": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "maxItems": 5
+    }
+  },
+  "additionalProperties": false
+}
+

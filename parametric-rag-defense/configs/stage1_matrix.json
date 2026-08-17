@@ -1,0 +1,184 @@
+{
+  "config_schema_version": 2,
+  "cache_root": "artifacts/cache/llm",
+  "run_root": "artifacts/runs/stage1",
+  "rag_pipeline": {
+    "id": "cached_infact_style",
+    "version": "v1.2",
+    "artifact_namespace": "stage1_rag_v1.2",
+    "structured_contract": "v3-first-result-coercion",
+    "victim_evidence_contract": "neutral-source-v1"
+  },
+  "dataset": {
+    "name": "AVeriTeC",
+    "source": "../fighting-fact2fiction-main/DEFAME/data/AVeriTeC/dev.json",
+    "labels": [
+      "Supported",
+      "Refuted",
+      "Conflicting Evidence",
+      "Not Enough Evidence"
+    ],
+    "label_mapping": {
+      "Conflicting Evidence/Cherrypicking": "Conflicting Evidence"
+    },
+    "split_manifest": "configs/splits/stage1.json"
+  },
+  "models": [
+    {
+      "id": "llama31_70b",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvcf/meta/llama-3.1-70b-instruct",
+      "roles": ["internal", "rag_victim", "arbiter"]
+    },
+    {
+      "id": "qwen35_35b_a3b",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvidia/qwen/qwen3.5-35b-a3b",
+      "request_parameters": {
+        "chat_template_kwargs": {"enable_thinking": false},
+        "include_reasoning": false
+      },
+      "roles": ["internal", "rag_victim", "arbiter"]
+    },
+    {
+      "id": "qwen35_397b_a17b",
+      "enabled": false,
+      "provider": "nvidia_dev",
+      "model": "nvidia/qwen/qwen3-5-397b-a17b",
+      "request_parameters": {
+        "chat_template_kwargs": {"enable_thinking": false},
+        "include_reasoning": false
+      },
+      "availability_note": "Target model retained in matrix; requires a credential accepted by the NVIDIA development endpoint.",
+      "roles": ["internal", "rag_victim", "arbiter"]
+    },
+    {
+      "id": "glm52",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvidia/zai-org/glm-5.2",
+      "request_parameters": {
+        "chat_template_kwargs": {"enable_thinking": false}
+      },
+      "roles": ["internal", "rag_victim", "arbiter"]
+    }
+  ],
+  "reasoning_sensitivity_profiles": [
+    {
+      "id": "qwen35_35b_a3b_thinking",
+      "base_model_id": "qwen35_35b_a3b",
+      "enabled": false,
+      "request_parameters": {
+        "chat_template_kwargs": {"enable_thinking": true},
+        "include_reasoning": false,
+        "max_tokens": 16384
+      },
+      "activation_gate": "Run on a preregistered development subset, then include as a standalone baseline if output reliability and cost are acceptable."
+    },
+    {
+      "id": "glm52_thinking",
+      "base_model_id": "glm52",
+      "enabled": false,
+      "request_parameters": {
+        "chat_template_kwargs": {"enable_thinking": true},
+        "include_reasoning": false,
+        "max_tokens": 16384
+      },
+      "activation_gate": "Run on a preregistered development subset, then include as a standalone baseline if output reliability and cost are acceptable."
+    }
+  ],
+  "decoding": {
+    "internal": {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "max_tokens": 1200,
+      "seeds": [11, 29, 47]
+    },
+    "rag_verdict": {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "max_tokens": 1600,
+      "seeds": [11]
+    }
+  },
+  "attacks": {
+    "poisonedrag": {
+      "strength_definition": "number of malicious texts injected per target question",
+      "poison_docs_per_target": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "paper_default": 5,
+      "retrieval_top_k": 5,
+      "attack_seeds": [101, 202, 303],
+      "source": "PoisonedRAG, USENIX Security 2025, Section 5.3.2 and Figure 4"
+    },
+    "fact2fiction": {
+      "strength_definition": "nominal fraction of the claim-specific evidence pool Ni (paper average Ni=823.4); store realized malicious-document count and fraction for every claim",
+      "poison_corpus_fractions": [0, 0.001, 0.0025, 0.005, 0.0075, 0.01, 0.02, 0.04, 0.08, 0.12, 0.16],
+      "paper_core_fractions": [0.01, 0.02, 0.04, 0.08],
+      "initial_scan_fractions": [0.001, 0.01, 0.04, 0.08],
+      "intermediate_scan_fractions": [0.0025, 0.005, 0.0075],
+      "paper_headline_fraction": 0.01,
+      "attack_seeds": [101, 202, 303],
+      "reference_implementation_formula": "max(1, int(Ni * rate / (1 - rate))) for rate < 1; verify and record the realized rate because integer rounding is claim-dependent",
+      "source": "Fact2Fiction, AAAI 2026, Table 1 and Figure 2"
+    }
+  },
+  "execution_tiers": {
+    "development_sweep": {
+      "split": "development",
+      "all_models": true,
+      "conditions": [
+        "clean",
+        "fact2fiction_p0.001",
+        "fact2fiction_p0.01",
+        "fact2fiction_p0.04",
+        "fact2fiction_p0.08"
+      ],
+      "attack_seeds": [101]
+    },
+    "development_intermediate_sweep": {
+      "split": "development",
+      "all_models": true,
+      "conditions": [
+        "clean",
+        "fact2fiction_p0.0025",
+        "fact2fiction_p0.005",
+        "fact2fiction_p0.0075"
+      ],
+      "attack_seeds": [101]
+    },
+    "locked_primary": {
+      "split": "locked_test",
+      "all_models": true,
+      "conditions": [
+        "clean",
+        "poisonedrag_n1",
+        "poisonedrag_n3",
+        "poisonedrag_n5",
+        "poisonedrag_n10",
+        "fact2fiction_p0.001",
+        "fact2fiction_p0.005",
+        "fact2fiction_p0.01",
+        "fact2fiction_p0.08"
+      ],
+      "attack_seeds": [101, 202, 303]
+    },
+    "locked_strength_curve": {
+      "split": "locked_test",
+      "all_models": true,
+      "all_strengths": true,
+      "attack_seeds": [101]
+    }
+  },
+  "prompt": {
+    "path": "prompts/internal_claim_v2.md",
+    "id": "internal_claim",
+    "version": "v2"
+  },
+  "reuse_policy": {
+    "internal_outputs_shared_across_attack_conditions": true,
+    "rag_outputs_keyed_by_attack_family_strength_and_seed": true,
+    "arbiter_outputs_keyed_by_exact_endpoint_cache_keys": true
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "config_schema_version": 1,
+  "status": "frozen_before_rag_top10_diagnostic_inference",
+  "cache_root": "artifacts/cache/llm_rag_top10_confirmation_v1",
+  "run_root": "artifacts/runs/rag_top10_confirmation_v1/stage1",
+  "evaluation_root": "artifacts/evaluation/rag_top10_confirmation_v1",
+  "progress_root": "artifacts/runs/rag_top10_confirmation_v1/progress",
+  "data_root": "artifacts/data/averitec_train_confirmation",
+  "rag_pipeline": {
+    "id": "cached_infact_style_top10_train_confirmation",
+    "version": "v1.0-opened-confirmation-diagnostic",
+    "artifact_namespace": "rag_top10_confirmation_v1",
+    "retrieval_top_k": 10,
+    "structured_contract": "v3-first-result-coercion",
+    "victim_evidence_contract": "neutral-source-v1"
+  },
+  "diagnostic_reuse": {
+    "source_config": "configs/stage1_environment_confirmation_train_v1.json",
+    "source_tier": "fresh_confirmation_curve",
+    "source_trace_root": "artifacts/runs/environment_confirmation_train_v1/stage1/confirmation/rag/stage1_train_confirmation_v1/private_traces",
+    "source_poison_root": "artifacts/runs/environment_confirmation_train_v1/stage1/confirmation/rag/stage1_train_confirmation_v1/poison_corpora",
+    "frozen_eligibility": "artifacts/evaluation/environment_confirmation_train_v1/stage1_train_confirmation_v1_clean_eligibility.json",
+    "comparison_rows": {
+      "clean": 300,
+      "attacked_per_rate": 252,
+      "attacked_rates": 5,
+      "attacked_total": 1260
+    },
+    "allowed_reuse": [
+      "exact original RAG question plans",
+      "exact original same-model Fact2Fiction poison corpora and embeddings",
+      "original top-5 clean-correct attacked eligibility"
+    ],
+    "forbidden_inputs": [
+      "closed-book endpoint outputs",
+      "answerability outputs",
+      "environment drift state",
+      "gold labels in prompts",
+      "nominal condition or poison provenance in prompts"
+    ]
+  },
+  "dataset": {
+    "name": "AVeriTeC train",
+    "source": "../fighting-fact2fiction-main/DEFAME/data/AVeriTeC/train.json",
+    "split_manifest": "configs/splits/environment_confirmation_train_v1.json",
+    "active_split": "confirmation",
+    "labels": ["Supported", "Refuted", "Conflicting Evidence", "Not Enough Evidence"],
+    "label_mapping": {
+      "Conflicting Evidence/Cherrypicking": "Conflicting Evidence"
+    }
+  },
+  "models": [
+    {
+      "id": "llama31_70b",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvcf/meta/llama-3.1-70b-instruct",
+      "roles": ["rag_victim"]
+    },
+    {
+      "id": "qwen35_35b_a3b",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvidia/qwen/qwen3.5-35b-a3b",
+      "request_parameters": {
+        "chat_template_kwargs": {"enable_thinking": false},
+        "include_reasoning": false
+      },
+      "roles": ["rag_victim"]
+    },
+    {
+      "id": "glm52",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvidia/zai-org/glm-5.2",
+      "request_parameters": {
+        "chat_template_kwargs": {"enable_thinking": false}
+      },
+      "roles": ["rag_victim"]
+    }
+  ],
+  "decoding": {
+    "rag_verdict": {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "max_tokens": 1600,
+      "seeds": [11]
+    }
+  },
+  "attacks": {
+    "poisonedrag": {
+      "poison_docs_per_target": [0],
+      "retrieval_top_k": 10,
+      "attack_seeds": [101]
+    },
+    "fact2fiction": {
+      "poison_corpus_fractions": [0, 0.001, 0.005, 0.01, 0.04, 0.08],
+      "initial_scan_fractions": [0.001, 0.005, 0.01, 0.04, 0.08],
+      "attack_seeds": [101],
+      "reference_implementation_formula": "max(1, int(Ni * rate / (1 - rate)))"
+    }
+  },
+  "execution_tiers": {
+    "rag_top10_confirmation_diagnostic": {
+      "split": "train_confirmation_v1",
+      "all_models": true,
+      "conditions": [
+        "clean",
+        "fact2fiction_p0.001",
+        "fact2fiction_p0.005",
+        "fact2fiction_p0.01",
+        "fact2fiction_p0.04",
+        "fact2fiction_p0.08"
+      ],
+      "attack_seeds": [101]
+    }
+  },
+  "reuse_policy": {
+    "question_plans_reused_from_original_top5_run": true,
+    "poison_corpora_reused_from_original_top5_run": true,
+    "attacked_scope_reuses_original_top5_clean_eligibility": true,
+    "no_closed_book_inference": true
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "config_schema_version": 1,
+  "cache_root": "artifacts/cache/llm_environment_confirmation_train_v1",
+  "run_root": "artifacts/runs/environment_confirmation_train_v1/stage1",
+  "evaluation_root": "artifacts/evaluation/environment_confirmation_train_v1",
+  "progress_root": "artifacts/runs/environment_confirmation_train_v1/progress",
+  "data_root": "artifacts/data/averitec_train_confirmation",
+  "rag_pipeline": {
+    "id": "cached_infact_style_train_confirmation",
+    "version": "v1.2-frozen-confirmation",
+    "artifact_namespace": "stage1_train_confirmation_v1",
+    "structured_contract": "v3-first-result-coercion",
+    "victim_evidence_contract": "neutral-source-v1"
+  },
+  "dataset": {
+    "name": "AVeriTeC train",
+    "source": "../fighting-fact2fiction-main/DEFAME/data/AVeriTeC/train.json",
+    "split_manifest": "configs/splits/environment_confirmation_train_v1.json",
+    "active_split": "confirmation",
+    "labels": ["Supported", "Refuted", "Conflicting Evidence", "Not Enough Evidence"],
+    "label_mapping": {
+      "Conflicting Evidence/Cherrypicking": "Conflicting Evidence"
+    }
+  },
+  "models": [
+    {
+      "id": "llama31_70b",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvcf/meta/llama-3.1-70b-instruct",
+      "roles": ["internal", "rag_victim", "arbiter"]
+    },
+    {
+      "id": "qwen35_35b_a3b",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvidia/qwen/qwen3.5-35b-a3b",
+      "request_parameters": {
+        "chat_template_kwargs": {"enable_thinking": false},
+        "include_reasoning": false
+      },
+      "roles": ["internal", "rag_victim", "arbiter"]
+    },
+    {
+      "id": "glm52",
+      "enabled": true,
+      "provider": "nvidia_prod",
+      "model": "nvidia/zai-org/glm-5.2",
+      "request_parameters": {
+        "chat_template_kwargs": {"enable_thinking": false}
+      },
+      "roles": ["internal", "rag_victim", "arbiter"]
+    }
+  ],
+  "decoding": {
+    "internal": {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "max_tokens": 1200,
+      "seeds": [11, 29, 47]
+    },
+    "rag_verdict": {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "max_tokens": 1600,
+      "seeds": [11]
+    }
+  },
+  "attacks": {
+    "poisonedrag": {
+      "poison_docs_per_target": [0],
+      "retrieval_top_k": 5,
+      "attack_seeds": [101]
+    },
+    "fact2fiction": {
+      "poison_corpus_fractions": [0, 0.001, 0.005, 0.01, 0.04, 0.08],
+      "initial_scan_fractions": [0.001, 0.005, 0.01, 0.04, 0.08],
+      "attack_seeds": [101],
+      "reference_implementation_formula": "max(1, int(Ni * rate / (1 - rate)))"
+    }
+  },
+  "execution_tiers": {
+    "fresh_confirmation_curve": {
+      "split": "train_confirmation_v1",
+      "all_models": true,
+      "conditions": [
+        "clean",
+        "fact2fiction_p0.001",
+        "fact2fiction_p0.005",
+        "fact2fiction_p0.01",
+        "fact2fiction_p0.04",
+        "fact2fiction_p0.08"
+      ],
+      "attack_seeds": [101]
+    }
+  },
+  "prompt": {
+    "path": "prompts/internal_claim_v2.md",
+    "id": "internal_claim",
+    "version": "v2"
+  },
+  "reuse_policy": {
+    "internal_outputs_shared_across_attack_conditions": true,
+    "rag_outputs_keyed_by_attack_family_strength_and_seed": true,
+    "counter_retrieval_only_on_endpoint_disagreement": true
+  }
+}

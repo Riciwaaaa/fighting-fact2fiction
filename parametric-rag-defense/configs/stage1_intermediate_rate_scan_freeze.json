@@ -1,0 +1,51 @@
+{
+  "freeze_schema_version": 1,
+  "status": "frozen_before_intermediate_rate_outputs",
+  "created_at": "2026-08-10",
+  "experiment_id": "stage1_intermediate_rate_scan_v1",
+  "purpose": "Locate the RAG-versus-internal-knowledge crossover between the completed 0.1% and 1% Fact2Fiction conditions before designing a new evidence-aware blend.",
+  "scope": {
+    "split": "development",
+    "claims": 100,
+    "eligibility": "Per-victim clean-correct Fact2Fiction filter from the unchanged v1.2 clean RAG endpoints.",
+    "eligible_pairs": 227,
+    "victim_models": [
+      "glm52",
+      "llama31_70b",
+      "qwen35_35b_a3b"
+    ],
+    "attacker_identity": "The same model that produced the victim endpoint; reuse the existing attack-blueprint corpus for that model and claim.",
+    "attack_seed": 101,
+    "nominal_rates": [0.0025, 0.005, 0.0075],
+    "expected_attacked_endpoints": 681
+  },
+  "reuse": {
+    "clean_rag": true,
+    "closed_book": true,
+    "claim_plans": true,
+    "poison_blueprints": true,
+    "poison_embeddings": true,
+    "prefix_policy": "Use exact nested prefixes from the existing poison corpus; do not regenerate an attack for a favorable rate."
+  },
+  "measurement": {
+    "primary": [
+      "poisoned RAG accuracy by victim and nominal rate",
+      "same-model closed-book accuracy on the identical eligible pairs",
+      "three-model closed-book majority accuracy",
+      "RAG-plus-internal oracle headroom"
+    ],
+    "exposure": [
+      "mean injected document count",
+      "mean realized corpus fraction",
+      "micro fraction of retrieved passages that are poisoned"
+    ],
+    "interpretation": "This is development analysis for choosing the method-design regime. It is not independent validation and cannot support a final performance claim."
+  },
+  "artifacts": {
+    "endpoint_namespace": "artifacts/runs/stage1/development/rag/stage1_rag_v1.2",
+    "progress": "artifacts/runs/progress/stage1_intermediate_rate_scan_v1.json",
+    "scan": "artifacts/evaluation/stage1_rag_v1.2_intermediate_rate_scan_v1.json",
+    "complementarity": "artifacts/evaluation/stage1_rag_v1.2_intermediate_rate_complementarity_v1.json",
+    "audit": "artifacts/runs/stage1/development/rag/stage1_rag_v1.2/intermediate_rate_scan_v1_audit.json"
+  }
+}

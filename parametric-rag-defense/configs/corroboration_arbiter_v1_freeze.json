@@ -1,0 +1,82 @@
+{
+  "freeze_schema_version": 1,
+  "experiment_id": "corroboration_arbiter_v1",
+  "status": "frozen_before_arbiter_calls",
+  "freeze_date": "2026-08-11",
+  "research_status": "post_label_development_method_construction",
+  "scope": {
+    "source": "all same-model endpoint disagreements from evidence_signal_v1",
+    "conditions": [
+      "clean",
+      "fact2fiction_p0.001",
+      "fact2fiction_p0.0025",
+      "fact2fiction_p0.005"
+    ],
+    "condition_counts": {
+      "clean": 100,
+      "fact2fiction_p0.001": 82,
+      "fact2fiction_p0.0025": 83,
+      "fact2fiction_p0.005": 98
+    },
+    "expected_rows": 363,
+    "same_model_requirement": "The RAG victim, closed-book endpoint, evidence mappers, and arbiter use the same model ID."
+  },
+  "visible_inputs": [
+    "claim and date",
+    "neutral claim-only plan",
+    "RAG and memory endpoint labels",
+    "three cached closed-book assessments",
+    "limited RAG confidence and question coverage",
+    "structured original-retrieval evidence report",
+    "structured leave-original-out evidence report"
+  ],
+  "forbidden_inputs": [
+    "gold label",
+    "condition or nominal poisoning rate",
+    "model identity",
+    "attacker identity",
+    "document origin or poison count",
+    "URLs",
+    "RAG answer text or persuasive final justification"
+  ],
+  "request": {
+    "temperature": 0.1,
+    "top_p": 0.7,
+    "max_tokens": 1800,
+    "seed": 433,
+    "contract_retries": 2,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "predeclared_evaluation": {
+    "primary": "arbiter_raw",
+    "arbiter_raw": "Copy trust_rag or trust_memory; resolve escalate with the answerability cascade.",
+    "safety_ablation": "arbiter_guarded",
+    "arbiter_guarded": "Accept a change from the answerability cascade only when the arbiter independent-evidence assessment and the audited counter-map direction both support the requested endpoint.",
+    "non_llm_anchor": "counter_rule",
+    "counter_rule": "Use the answerability cascade unless the counter-map direction matches exactly one endpoint.",
+    "reporting": [
+      "full-system accuracy by model and condition",
+      "paired comparisons with RAG, memory, answerability cascade, and counter rule",
+      "claim-clustered bootstrap intervals",
+      "action and escalation rates",
+      "all failures and contract retries"
+    ],
+    "development_goal": "At each low attack rate, beat both pooled endpoints; demonstrate the same property for at least two individual victim models while preserving clean utility."
+  },
+  "post_result_policy": "Do not alter the frozen primary or guarded policy after seeing arbiter outputs. Any later design is a separately named development iteration. Fresh claims are required for independent confirmation.",
+  "packet_audit": {
+    "path": "artifacts/runs/corroboration_arbiter/corroboration_arbiter_v1/packet_audit.json",
+    "status": "passed",
+    "sha256": "331d3fe4cddef72ff67efe2bfd8f825b13d00085dba7b0b13a7a1071a154ad0a"
+  },
+  "frozen_sha256": {
+    "prompts/corroboration_arbiter_v1.md": "5e12f3c6990e04fc2b519baa68abe3c2950b5b2c733780176f3c6e89c68fc6f9",
+    "src/parametric_rag_defense/corroboration_arbiter.py": "578bd19e3b521008d613319f04f9c1b239c60c38dc38596778029a5d925b1665",
+    "scripts/run_corroboration_arbiter.py": "63b58b9eedb24738eae09c7ca467f61c250b16a3b425e9b4f74c893c9f79aecc",
+    "scripts/check_corroboration_arbiter.py": "b8914e9c477264931c1252775c3530648f6de97fab0a1e285022f9644e4d69f2",
+    "scripts/summarize_corroboration_arbiter.py": "2ac74ec970c706bb8a34945ad8d37e8b9cea4d94ef4ba875bb1ff5c0a7bd4ceb",
+    "configs/stage1_matrix.json": "081e69c3a4ec5a8585e8e2a024396fc1560e1394c4eeab0f40fac849ce90f3f6"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "amendment_schema_version": 1,
+  "experiment_id": "evidence_signal_v1",
+  "created_at": "2026-08-11",
+  "status": "recorded_after_contract_pilot_before_gold_evaluation",
+  "trigger": {
+    "pilot_claim_ids": [0, 7, 16, 103, 146, 400],
+    "pilot_rows": 24,
+    "valid_outputs": 17,
+    "contract_failures": 7,
+    "failure_classes": {
+      "complete_passage_assessments_but_incomplete_or_duplicate_cluster_partition": 6,
+      "incomplete_passage_assessments": 1,
+      "transport_or_truncation": 0
+    },
+    "gold_or_correctness_inspected": false
+  },
+  "changes": [
+    "Retain the requirement that every input passage receive exactly one passage assessment.",
+    "Permit content_clusters to cover a subset of assessed passages; this accommodates context or irrelevant passages that share no substantive assertion.",
+    "Continue to reject duplicate cluster membership, unknown passage IDs, unknown cluster IDs, malformed fields, and invalid enums.",
+    "On a passage-assessment coverage failure, add a versioned format-repair message containing the exact expected passage IDs and the validator error. Do not add factual guidance or alter the original evidence packet."
+  ],
+  "scientific_effect": "This is a structured-output reliability repair. It changes neither the model's passage stances nor overall evidence direction and was made without endpoint correctness or gold evaluation. All original and generic-retry responses remain immutable in cache.",
+  "contract_version": "evidence-passage-map-v1.1-cluster-subset",
+  "updated_sha256": {
+    "src/parametric_rag_defense/evidence_signals.py": "3ce631228ee3f66375efe559483057edd52f14dc913dcd1a7b6f202fbd77483c",
+    "scripts/run_evidence_signal.py": "9edfd67c304d996416fea7625c69737a15ade1f0704939804137277249e9dd17"
+  }
+}

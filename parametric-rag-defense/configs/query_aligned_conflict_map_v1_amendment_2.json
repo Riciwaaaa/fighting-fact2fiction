@@ -1,0 +1,12 @@
+{
+  "amendment_schema_version": 1,
+  "experiment_id": "query_aligned_conflict_map_v1",
+  "amendment_date": "2026-08-11",
+  "timing": "before_any_conflict_map_provider_call",
+  "observed_completed_calls": 0,
+  "reason": "The replacement JSON itself contained adjacent closing braces, which the generic renderer checks after substitution.",
+  "change": "Pretty-print the identical answer-record JSON so nested closing braces occur on separate lines.",
+  "semantic_change": false,
+  "scope_change": false,
+  "decoding_change": false
+}

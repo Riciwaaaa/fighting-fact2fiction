@@ -1,0 +1,150 @@
+{
+  "config_schema_version": 1,
+  "source": {
+    "rag_artifact_namespace": "stage1_rag_v1.2",
+    "rag_evidence_contract": "neutral-source-v1",
+    "internal_prompt": "internal_claim_v2",
+    "split_manifest": "configs/splits/stage234_development.json"
+  },
+  "stage2": {
+    "experiment_id": "stage2_signal_v1",
+    "packet_schema_version": 1,
+    "default_partition": "method_design",
+    "conditions": [
+      "clean",
+      "fact2fiction_p0.001",
+      "fact2fiction_p0.01",
+      "fact2fiction_p0.04",
+      "fact2fiction_p0.08"
+    ],
+    "visible_inputs": [
+      "claim and claim date",
+      "retrieval verdict, confidence, rationale, question answers, and one selected evidence excerpt per answered question",
+      "identity-masked memory-only repeated judgments, confidence, knowledge basis, rationales, decisive propositions, and consistency"
+    ],
+    "forbidden_inputs": [
+      "gold label or correctness",
+      "attack family, condition, nominal strength, or realized strength",
+      "poison-document indicators or counts",
+      "victim/internal model identity or provider",
+      "raw URL or clean:/poison: source identifier"
+    ]
+  },
+  "stage3": {
+    "experiment_id": "stage3_claim_arbiter_v1",
+    "workflow": "evidence critic followed by claim-level LLM arbiter",
+    "initial_pilot_partition": "method_design",
+    "initial_pilot_conditions": ["clean", "fact2fiction_p0.01"],
+    "critic_model": "qwen35_35b_a3b",
+    "arbiter_candidates": ["qwen35_35b_a3b", "glm52"],
+    "decoding": {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "seed": 11,
+      "critic_max_tokens": 1200,
+      "arbiter_max_tokens": 1600,
+      "contract_retries": 2
+    },
+    "prompts": {
+      "critic": "prompts/stage3_evidence_critic_v1.md",
+      "arbiter": "prompts/stage3_claim_arbiter_v1.md"
+    },
+    "primary_selection_metric": "attacked accuracy against max(poisoned RAG, strongest model-only ensemble)",
+    "secondary_metrics": [
+      "clean accuracy delta from clean RAG",
+      "macro-F1",
+      "disagreement routing accuracy",
+      "recovery and regression counts",
+      "latency and token cost"
+    ],
+    "success_gates": {
+      "beats_both_attacked_endpoints": true,
+      "maximum_clean_accuracy_loss_points": 2.0,
+      "beats_always_choose_model_only_on_endpoint_disagreements": true
+    },
+    "routes": ["trust_retrieval", "trust_memory", "synthesize", "escalate"],
+    "position_bias_control": "swap retrieval and memory presentation blocks using a deterministic packet-key permutation"
+  },
+  "aligned_stage3": {
+    "experiment_id": "stage3_same_model_ab_v1",
+    "research_question": "Can one model route between its own RAG and closed-book endpoints under poisoning?",
+    "primary_roles": "The RAG victim, closed-book endpoint, and router use exactly the same model.",
+    "partition": "method_design",
+    "initial_conditions": ["clean", "fact2fiction_p0.01"],
+    "models": ["llama31_70b", "qwen35_35b_a3b", "glm52"],
+    "primary_model_for_variant_selection": "llama31_70b",
+    "primary_model_reason": "Largest frozen 1% endpoint-oracle headroom over the stronger same-model endpoint (7/44 cases).",
+    "variants": {
+      "endpoint_only": "One RAG verdict/rationale and that model's three cached closed-book samples; no retrieved excerpts.",
+      "evidence_aware": "The endpoint-only inputs plus every normalized source-neutral top-k excerpt."
+    },
+    "decoding": {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "seed": 11,
+      "max_tokens": 1200,
+      "contract_retries": 2
+    },
+    "router_actions": ["choose_retrieval", "choose_memory", "verify_proposition"],
+    "prediction_contract": "Copy the provisional endpoint verdict; do not synthesize a third verdict.",
+    "primary_metric": "Per-model attacked accuracy against max(the same model's poisoned RAG, the same model's closed-book accuracy).",
+    "success_gates": {
+      "strictly_beats_both_at_1pct": true,
+      "maximum_clean_accuracy_loss_points": 2.0
+    }
+  },
+  "stage4": {
+    "experiment_id": "stage4_proposition_escalation_v1",
+    "activation": "Stage 3 escalate route only during the first implementation",
+    "maximum_decisive_propositions": 3,
+    "proposition_source": "derive from both endpoint rationales and the critic, not only victim-generated questions",
+    "required_comparisons": [
+      "Stage 3 alone",
+      "all victim-generated subquestions",
+      "independently generated decisive propositions",
+      "cost-matched additional claim-level deliberation"
+    ]
+  },
+  "aligned_stage4": {
+    "experiment_id": "stage4_same_model_c_v1",
+    "activation": "Only when the same model's RAG and closed-book endpoint verdicts disagree.",
+    "proposition_check": "A fresh closed-book call to the same model sees the original claim and one neutral pivotal proposition, but no endpoint or retrieved content.",
+    "final_selection": "A fresh call to the same model selects an existing endpoint; no synthesized verdict.",
+    "proposition_seed": 71,
+    "final_selector_seed": 83,
+    "validation_policy": "Select the A/B input variant on method-design, freeze it, then keep development-validation unopened until all prompts are locked."
+  },
+  "aligned_stage4_v2": {
+    "experiment_id": "stage4_same_model_v2",
+    "primary_model": "llama31_70b",
+    "primary_variant": "endpoint_only",
+    "activation": "Only when the same model's RAG and closed-book endpoint verdicts disagree, in both clean and attacked conditions.",
+    "architecture": "Two-proposition architect, two isolated checks per proposition, retrieval-isolated internal synthesis, and a rationale-firewalled same-model selector.",
+    "control": "Five additional direct end-claim judgments, retrieval-isolated synthesis, and the same firewalled selector, exactly matching seven calls per disagreement.",
+    "method_design_conditions": ["clean", "fact2fiction_p0.01"],
+    "seeds": {
+      "architect": 101,
+      "claim_core_checks": [211, 223],
+      "discriminator_checks": [227, 229],
+      "direct_control": [101, 211, 223, 227, 229],
+      "internal_synthesis": 263,
+      "final": 307
+    },
+    "validation_policy": "At most one failure-class-driven redesign on method-design; freeze all prompts and seeds before opening development_validation."
+  },
+  "final_candidate": {
+    "freeze_manifest": "configs/stage4_candidate_freeze.json",
+    "model": "llama31_70b",
+    "router_variant": "endpoint_only",
+    "workflow": "aligned_stage4_c_v1",
+    "status": "frozen development-validation complete; original locked test unopened",
+    "primary_result": "At Fact2Fiction 1%, 23/28 validation versus same-model memory 16/28 and poisoned RAG 21/28; clean 27/40 versus RAG 28/40.",
+    "generic_control": "Same two-call workflow with a generic end-claim check: validation 1% 21/28 and clean 29/40."
+  },
+  "freeze_policy": {
+    "method_design_allowed_for_tuning": true,
+    "development_validation_open_only_after_stage3_prompt_and_model_choice_frozen": true,
+    "locked_test_open_only_after_stage3_and_stage4_workflows_frozen": true,
+    "gold_joined_only_in_evaluation_scripts": true
+  }
+}

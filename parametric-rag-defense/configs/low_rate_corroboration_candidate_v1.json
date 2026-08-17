@@ -1,0 +1,67 @@
+{
+  "candidate_schema_version": 1,
+  "candidate_id": "low_rate_corroboration_candidate_v1",
+  "status": "selected_after_development_labels_frozen_for_fresh_confirmation",
+  "selection_date": "2026-08-11",
+  "provenance_warning": "The method and loose-direction aggregation were selected after inspecting the current 100 development claims. None of those claims may be described as confirmation data.",
+  "threat_model": {
+    "attack": "non-adaptive Fact2Fiction corpus insertion",
+    "rates": [0.001, 0.0025, 0.005],
+    "defender_does_not_observe": [
+      "condition",
+      "nominal rate",
+      "attacker identity",
+      "document poison provenance",
+      "gold"
+    ]
+  },
+  "primary_same_model_method": {
+    "activation": "RAG verdict differs from the same model's three-sample closed-book majority",
+    "fallback": "Use the closed-book majority if it is Supported or Refuted; otherwise use RAG.",
+    "counter_retrieval": "Reuse the ten original claim-generated queries; exclude every original document ID and exact-text SHA-256; take the nearest five eligible documents per query; deduplicate across queries without backfill.",
+    "evidence_report": "The same victim model applies evidence_passage_map_v1 to the endpoint-hidden counter-retrieval packet.",
+    "aggregation": "Map supports to Supported and refutes to Refuted. If that loose directional label matches exactly one endpoint, copy that endpoint; otherwise copy the fallback endpoint.",
+    "third_retrieval_or_free_form_controller": "disabled"
+  },
+  "secondary_plus": {
+    "status": "costed_secondary_only",
+    "rule": "If same-model counter evidence is directional, retain it. Otherwise, if the three model-family closed-book majorities have a unique binary majority matching exactly one victim endpoint, copy that endpoint; else retain the primary fallback.",
+    "required_reporting": "Report all additional model calls and compare against the same three-family model-only panel."
+  },
+  "confirmation_requirements": {
+    "data": "Claims unused for method construction and unused by the previously opened locked experiment.",
+    "fact2fiction_processing": "Binary Supported/Refuted first filter followed by the victim-specific clean-correct eligibility filter.",
+    "primary_reporting_unit": "Per victim model and poisoning rate; pooled results are secondary.",
+    "gates": [
+      "Primary pooled accuracy exceeds both pooled endpoints at all three rates.",
+      "At least two victim models exceed both of their same-model endpoints at each primary rate.",
+      "Primary clean accuracy for each passing victim is within two claims of its stronger clean endpoint.",
+      "Counter overrides have positive net paired gain with claim-clustered uncertainty reported.",
+      "All failures, retries, calls, tokens, and poison-exposure diagnostics remain in the denominator and logs."
+    ],
+    "controls": [
+      "poisoned RAG",
+      "same-model closed book",
+      "answerability fallback",
+      "original-passage evidence direction",
+      "counter retrieval without source exclusion",
+      "frozen corroboration_arbiter_v1 raw and guarded policies",
+      "counter report shuffled across claims",
+      "three-family closed-book panel"
+    ]
+  },
+  "development_results_sha256": {
+    "artifacts/evaluation/counter_retrieval_signal_v2.json": "741517fb7f078ef188326ee4565084890919df9f391c73bcedc1d09a8bf35679",
+    "artifacts/evaluation/corroboration_arbiter_v1.json": "a7d28979b492eb0161b53cc1f8b50d5ca9df4978e2af6186984cc339e0f3d6c0",
+    "artifacts/evaluation/multimodel_corroboration_plus_v1.json": "d2c3db262aeabf1e3fd95214698b659a1adb54ee2c1f9b35b206874d4396db6b"
+  },
+  "method_sha256": {
+    "src/parametric_rag_defense/counter_retrieval.py": "c600fcaf577f2d51eae0f30219c5b9b1c0de340d8cb1a7b9b3eee3223fbb6d96",
+    "scripts/run_counter_retrieval_signal.py": "67dd3ac6abf71a2549a82e234f0ba804a0ae5d2926930c0a8fcaac24fb3c4dd9",
+    "scripts/check_counter_retrieval_signal.py": "d8c338dcdbae43557501911da65e34ea1c6a7421c50bae2687157e03590c2810",
+    "prompts/evidence_passage_map_v1.md": "b937f35481fddc7ddc79d17da594d876bb0418d17f9462ff7b111bcfee044e55",
+    "scripts/summarize_answerability_cascade.py": "80579e1989ca1f4a480829af01c8576e21849f6ebf9519a61a9c42b9a8a2bed7",
+    "scripts/summarize_counter_retrieval_signal.py": "05dd867d98e5cd3997f25e00ecbdb8032746e523c1b2c64cbee5121ec8ecc6d9",
+    "scripts/diagnose_multimodel_corroboration_plus.py": "a6cbd5092cb2c0730c31fc9bfbd28aeea1468b1efe27186c75a5adeb7fc0b541"
+  }
+}

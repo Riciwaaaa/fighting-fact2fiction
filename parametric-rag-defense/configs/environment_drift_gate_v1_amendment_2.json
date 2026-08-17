@@ -1,0 +1,27 @@
+{
+  "amendment_schema_version": 1,
+  "experiment_id": "environment_drift_gate_v1",
+  "status": "frozen_before_4_and_8_percent_counter_corroboration_calls",
+  "amendment_date": "2026-08-12",
+  "trigger": "The unchanged tiered policy beat both pooled endpoints at 0.75 and 1 percent, but tied the loose blend at 0.75 percent and trailed it by one row at 1 percent. This extension tests whether the environment gate prevents harmful corroboration overrides under severe retrieval drift. No 4- or 8-percent counter-retrieval evidence report existed when this amendment was recorded.",
+  "provenance": "Post-label method development. The clean calibration, tier thresholds, evidence semantics, and routing actions remain unchanged; only the evaluated rate scope expands.",
+  "unchanged_policy": {
+    "normal": "Loose directional leave-original-out corroboration over answerability when the clean posterior-predictive upper tail is greater than 0.01.",
+    "warning": "Unopposed direct leave-original-out corroboration over answerability when the tail is at most 0.01 and greater than 0.0001.",
+    "critical": "Answerability fallback with no retrieval-based override when the tail is at most 0.0001."
+  },
+  "rate_extension": {
+    "conditions": ["fact2fiction_p0.04", "fact2fiction_p0.08"],
+    "models": ["glm52", "llama31_70b", "qwen35_35b_a3b"],
+    "activation": "All same-model RAG/internal-majority disagreements at each rate.",
+    "expected_disagreements": 308,
+    "purpose": "Compare the frozen tiered gate with always-loose and always-strict corroboration under severe drift. Counter reports are collected even for critical cells solely to provide those matched ablations; the tiered policy is not allowed to inspect them in critical mode.",
+    "required_reporting": [
+      "every victim/rate cell",
+      "tiered versus loose, strict, answerability, RAG, and model-only",
+      "switch gains and regressions with claim-clustered uncertainty",
+      "counter-view poison exposure, calls, tokens, retries, and failures",
+      "no reinterpretation as independent confirmation"
+    ]
+  }
+}

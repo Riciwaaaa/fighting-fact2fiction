@@ -1,0 +1,93 @@
+{
+  "freeze_schema_version": 1,
+  "status": "frozen_before_evidence_signal_calls",
+  "created_at": "2026-08-11",
+  "experiment_id": "evidence_signal_v1",
+  "purpose": "Determine whether origin-hidden passage-level evidence structure contains a usable signal for choosing between same-model RAG and closed-book endpoints at low Fact2Fiction rates.",
+  "interpretation": "Development-only signal characterization. The existing 100 claims and their labels have informed the research question and may be used for method development. No result on these claims is independent validation.",
+  "scope": {
+    "split": "development",
+    "claims": 100,
+    "models": ["glm52", "llama31_70b", "qwen35_35b_a3b"],
+    "conditions": [
+      "clean",
+      "fact2fiction_p0.001",
+      "fact2fiction_p0.0025",
+      "fact2fiction_p0.005"
+    ],
+    "activation": "Run only where the victim model's cached RAG verdict differs from its deterministic three-repeat closed-book majority verdict.",
+    "disagreement_rows": 363,
+    "condition_counts": {
+      "clean": 100,
+      "fact2fiction_p0.001": 82,
+      "fact2fiction_p0.0025": 83,
+      "fact2fiction_p0.005": 98
+    },
+    "unique_model_claim_cases": 159,
+    "maximum_logical_calls": 522,
+    "note": "The 363 activation rows include 20 attacked rows where both differing endpoints are wrong; they are retained rather than selected away using gold."
+  },
+  "workflow": {
+    "same_model_constraint": "The victim model produces the RAG endpoint, closed-book endpoint, claim-only plan, and passage map.",
+    "claim_plan": "One retrieval-independent neutral decomposition per unique model/claim case, reused across clean and attacked rates.",
+    "passage_map": "One map per disagreement row, covering every exact-unique cached top-k passage with no endpoint verdict or rationale.",
+    "deduplication": "Remove exact duplicate passage text only; retain all distinct excerpts. Assign deterministic task-salted passage aliases in a rank-hidden order.",
+    "content_clustering": "The model partitions every visible passage into semantic-assertion clusters and assesses stance and directness against the neutral central proposition.",
+    "forbidden_prompt_inputs": [
+      "RAG verdict, confidence, rationale, adopted answer, or selected rank",
+      "closed-book verdict, confidence, rationale, or knowledge basis",
+      "model or provider identity",
+      "condition or nominal poisoning rate",
+      "document origin, clean/poison identifier, or poison count",
+      "raw URL",
+      "gold label or correctness"
+    ],
+    "private_diagnostic_only": [
+      "condition and victim identity",
+      "endpoint predictions and correctness",
+      "retrieved poison count and origin",
+      "gold label"
+    ]
+  },
+  "decoding": {
+    "claim_plan": {
+      "temperature": 0.2,
+      "top_p": 0.7,
+      "max_tokens": 1000,
+      "seed": 97,
+      "contract_retries": 2
+    },
+    "passage_map": {
+      "temperature": 0.1,
+      "top_p": 0.7,
+      "max_tokens": 6000,
+      "seed": 409,
+      "contract_retries": 2
+    }
+  },
+  "measurement": {
+    "primary_signal_question": "On endpoint disagreements where exactly one endpoint is correct, can passage-map features predict which endpoint is correct above the stronger constant endpoint preference under claim-grouped cross-validation?",
+    "secondary": [
+      "coverage and accuracy of the passage map's direct evidence direction",
+      "clean versus attacked signal behavior",
+      "per-model and per-rate behavior",
+      "relationship between observable content clusters and private poison exposure",
+      "structured-output reliability and token cost"
+    ],
+    "decision": "Proceed to a new LLM endpoint arbiter only if the passage report supplies nontrivial endpoint-selection signal without relying on hidden rate, model, or poison metadata."
+  },
+  "artifacts": {
+    "run_root": "artifacts/runs/evidence_signal/evidence_signal_v1",
+    "progress": "artifacts/runs/progress/evidence_signal_v1.json",
+    "audit": "artifacts/runs/evidence_signal/evidence_signal_v1/audit.json",
+    "evaluation": "artifacts/evaluation/evidence_signal_v1.json"
+  },
+  "frozen_sha256": {
+    "configs/stage1_matrix.json": "081e69c3a4ec5a8585e8e2a024396fc1560e1394c4eeab0f40fac849ce90f3f6",
+    "configs/splits/stage1.json": "6846dac34ec352609190c0616f50f040ec9651c33920836aad61611ef978a802",
+    "prompts/neutral_claim_plan_v1.md": "5ff2e0f4cc9ae7f48eefdab58b022dc446b4827f77819e4bf61bacb6204a8632",
+    "prompts/evidence_passage_map_v1.md": "b937f35481fddc7ddc79d17da594d876bb0418d17f9462ff7b111bcfee044e55",
+    "src/parametric_rag_defense/evidence_signals.py": "8fdd69e95a63c79ff51e4c1c3eeb9e1e4c73a2218fc371d74f639dca8807b53b",
+    "scripts/run_evidence_signal.py": "2d9f58e233df5e6b00a8f07eba3173a65ee1dbb9617becc0305b9ee9efd1a4b5"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "protocol_schema_version": 1,
+  "experiment_id": "query_aligned_internal_replay_v1",
+  "status": "frozen_before_llm_calls",
+  "freeze_date": "2026-08-11",
+  "parent_diagnostic": "query_aligned_trace_feasibility_v1",
+  "selected_candidate_unchanged": "low_rate_corroboration_candidate_v1",
+  "scope": {
+    "source_rows": "All 363 clean and low-rate same-model endpoint disagreements in counter_retrieval_signal_v2.",
+    "unit": "One unique victim-model/claim/question-plan case; outputs are reused across poisoning conditions.",
+    "expected_unique_cases": 159,
+    "questions_per_case": 10,
+    "same_model_requirement": "The model answering without retrieval is the same model that generated and answered the RAG questions.",
+    "visible_inputs": ["exact RAG question text", "claim publication date"],
+    "hidden_inputs": [
+      "claim-level endpoint labels",
+      "RAG answers",
+      "retrieved passages",
+      "poison provenance",
+      "poisoning condition and rate",
+      "gold label"
+    ]
+  },
+  "decoding": {
+    "repeats": 2,
+    "seeds": [101, 202],
+    "temperature": 0.2,
+    "top_p": 0.7,
+    "max_tokens": 4000,
+    "contract_retries": 2
+  },
+  "response_contract": {
+    "per_question_fields": ["question_index", "status", "answer", "confidence"],
+    "status_values": ["known", "unknown"],
+    "unknown_policy": "Use unknown rather than infer an answer from a possibly false premise."
+  },
+  "follow_up": {
+    "comparison": "A separately frozen endpoint-hidden semantic comparison will compare both internal repeats with the RAG answer for the identical question.",
+    "intervention": "Only after comparison, remove conflict-selected document identities from the already retrieved context, without new retrieval or backfill, and rerun the standard answer and verdict stages.",
+    "decision_role": "The experiment is diagnostic. It cannot replace the frozen full-claim answerability fallback unless a later guarded rule improves over both that fallback and the selected corroboration candidate with few regressions."
+  }
+}
